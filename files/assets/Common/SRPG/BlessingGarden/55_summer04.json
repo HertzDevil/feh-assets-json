@@ -1,0 +1,138 @@
+[
+  {
+    "id_tag": "BG_EARTH_0009",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2018-07-15T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 34,
+    "season": 4,
+    "scenario": {
+      "id_tag": "BG_EARTH_0009",
+      "maps": {
+        "group_id": "BG_EARTH_0009",
+        "map_ids": [
+          {
+            "map_id": "X0112C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 1,
+        "team_count": 1
+      },
+      "reward": [
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 1
+        },
+        {
+          "kind": 2,
+          "_type": "hero_feather",
+          "count": 2000
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 2,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        0,
+        2,
+        10,
+        12,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "id_tag": "BG_FIRE_0009",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2018-07-22T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 35,
+    "season": 1,
+    "scenario": {
+      "id_tag": "BG_FIRE_0009",
+      "maps": {
+        "group_id": "BG_FIRE_0009",
+        "map_ids": [
+          {
+            "map_id": "X0113C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 1,
+        "team_count": 1
+      },
+      "reward": [
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 2
+        },
+        {
+          "kind": 18,
+          "_type": "divine_dew",
+          "count": 20
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 2,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        2,
+        10,
+        12,
+        13,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  }
+]

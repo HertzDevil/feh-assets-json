@@ -1,0 +1,84 @@
+[
+  {
+    "id_tag": "BG_FIRE_0015",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2019-01-06T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 59,
+    "season": 1,
+    "scenario": {
+      "id_tag": "BG_FIRE_0015",
+      "maps": {
+        "group_id": "BG_FIRE_0015",
+        "map_ids": [
+          {
+            "map_id": "S0502C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          },
+          {
+            "map_id": "S0503C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          },
+          {
+            "map_id": "S0504C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 3,
+        "team_count": 3
+      },
+      "reward": [
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 2
+        },
+        {
+          "kind": 18,
+          "_type": "divine_dew",
+          "count": 20
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 3,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        0,
+        0,
+        2,
+        6,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  }
+]

@@ -1,0 +1,6278 @@
+[
+  {
+    "key": "MID_WEAPON",
+    "value": "Arma"
+  },
+  {
+    "key": "MID_ATTRIBUTE",
+    "value": "Tipo"
+  },
+  {
+    "key": "MID_MOVE",
+    "value": "Movimiento"
+  },
+  {
+    "key": "MID_RARITY",
+    "value": "Rareza"
+  },
+  {
+    "key": "MID_RARITY2",
+    "value": "$a$a0 ★"
+  },
+  {
+    "key": "MID_LEVEL",
+    "value": "Nivel"
+  },
+  {
+    "key": "MID_LEVEL2",
+    "value": "Niv."
+  },
+  {
+    "key": "MID_EXP",
+    "value": "Exp."
+  },
+  {
+    "key": "MID_CAPABILITY",
+    "value": "Valoración"
+  },
+  {
+    "key": "MID_HP",
+    "value": "PV"
+  },
+  {
+    "key": "MID_ATTACK",
+    "value": "Atq."
+  },
+  {
+    "key": "MID_AGILITY",
+    "value": "Vel."
+  },
+  {
+    "key": "MID_DEFENSE",
+    "value": "Def."
+  },
+  {
+    "key": "MID_RESIST",
+    "value": "Res."
+  },
+  {
+    "key": "MID_MIGHT",
+    "value": "Pot."
+  },
+  {
+    "key": "MID_RANGE",
+    "value": "Alc."
+  },
+  {
+    "key": "MID_EFFECTIVE",
+    "value": "Efi."
+  },
+  {
+    "key": "MID_SKILL_POINT",
+    "value": "PH"
+  },
+  {
+    "key": "MID_CAPABILITY_BASE",
+    "value": "Base"
+  },
+  {
+    "key": "MID_CAPABILITY_STRONG",
+    "value": "Mejora"
+  },
+  {
+    "key": "MID_CAPABILITY_WEAK",
+    "value": "Merma"
+  },
+  {
+    "key": "MID_SKILL_ALL",
+    "value": "Todas"
+  },
+  {
+    "key": "MID_STAMINA",
+    "value": "Energía"
+  },
+  {
+    "key": "MID_H_LEVEL",
+    "value": "Un indicador general del poder de la unidad.\nAumenta de uno en uno."
+  },
+  {
+    "key": "MID_H_EXP",
+    "value": "Puntos de experiencia. Cuando haya\nacumulado cierta cantidad, la unidad\nsubirá de nivel."
+  },
+  {
+    "key": "MID_H_HP",
+    "value": "Puntos de vida. La unidad cae\nderrotada cuando llegan a 0."
+  },
+  {
+    "key": "MID_H_ATTACK",
+    "value": "Ataque. Influye en el daño\nque se infligirá al enemigo."
+  },
+  {
+    "key": "MID_H_AGILITY",
+    "value": "Velocidad. Si este atributo supera al del\nenemigo en al menos 5 puntos, la unidad\npodrá atacar dos veces."
+  },
+  {
+    "key": "MID_H_DEFENSE",
+    "value": "Defensa. Cuanto mayor sea, menos daño\nsufrirá la unidad por ataques físicos con\nespadas, hachas, lanzas, etc."
+  },
+  {
+    "key": "MID_H_RESIST",
+    "value": "Resistencia. Cuanto mayor sea, menos\ndaño sufre la unidad por ataques mágicos\ncon hechizos, bastones, alientos, etc."
+  },
+  {
+    "key": "MID_H_SKILL_POINT",
+    "value": "Puntos de habilidad. Se usan para\nadquirir nuevas habilidades."
+  },
+  {
+    "key": "MID_H_COMPATIBILITY",
+    "value": "Ventaja triángulo de armas: Atq. +20 %\nDesventaja triángulo de armas: Atq. -20 %"
+  },
+  {
+    "key": "MWID_H_剣",
+    "value": "Espada. Alcance: 1. Inflige daño físico\nque la Def. del enemigo puede prevenir."
+  },
+  {
+    "key": "MWID_H_槍",
+    "value": "Lanza. Alcance: 1. Inflige daño físico\nque la Def. del enemigo puede prevenir."
+  },
+  {
+    "key": "MWID_H_斧",
+    "value": "Hacha. Alcance: 1. Inflige daño físico\nque la Def. del enemigo puede prevenir."
+  },
+  {
+    "key": "MWID_H_弓",
+    "value": "Arco. Alcance: 2. Inflige daño físico\nque la Def. del enemigo puede prevenir.\nEficaz contra enemigos aéreos."
+  },
+  {
+    "key": "MWID_H_暗",
+    "value": "Daga. Alcance: 2. Inflige daño físico que\nla Def. del enemigo puede prevenir. Reduce\ntemporalmente los atributos del enemigo."
+  },
+  {
+    "key": "MWID_H_赤魔",
+    "value": "Grimorio rojo. Alcance: 2. Inflige daño\nmágico que la Res. del rival puede prevenir."
+  },
+  {
+    "key": "MWID_H_青魔",
+    "value": "Grimorio azul. Alcance: 2. Inflige daño\nmágico que la Res. del rival puede prevenir."
+  },
+  {
+    "key": "MWID_H_緑魔",
+    "value": "Grimorio verde. Alcance: 2. Inflige daño\nmágico que la Res. del rival puede prevenir."
+  },
+  {
+    "key": "MWID_H_杖",
+    "value": "Bastón. Alcance: 2 (en ataque). Inflige daño\nmágico que la Res. del rival puede prevenir."
+  },
+  {
+    "key": "MWID_H_赤竜",
+    "value": "Soplo rojo. Alcance: 1. Inflige daño mágico\nque la Res. del rival puede prevenir."
+  },
+  {
+    "key": "MWID_H_青竜",
+    "value": "Soplo azul. Alcance: 1. Inflige daño mágico\nque la Res. del rival puede prevenir."
+  },
+  {
+    "key": "MWID_H_緑竜",
+    "value": "Soplo verde. Alcance: 1. Inflige daño\nmágico que la Res. del rival puede prevenir."
+  },
+  {
+    "key": "MMVID_H_歩行",
+    "value": "Unidad de infantería. Movimiento: 2.\nLos bosques y otros accidentes\ndel terreno la ralentizan."
+  },
+  {
+    "key": "MMVID_H_重装",
+    "value": "Unidad acorazada. Movimiento: 1."
+  },
+  {
+    "key": "MMVID_H_騎馬",
+    "value": "Unidad de caballería. Movimiento: 3.\nNo puede atravesar bosques."
+  },
+  {
+    "key": "MMVID_H_飛行",
+    "value": "Unidad aérea. Movimiento: 2. No le afectan\nciertos accidentes del terreno (como ríos,\nmontañas y bosques)."
+  },
+  {
+    "key": "MID_HEROISM_POINT",
+    "value": "VH"
+  },
+  {
+    "key": "MID_H_HEROISM_POINT",
+    "value": "Los aliados suman valor heroico al sobrevivir\ncombates. Cuando tengan suficientes VH, te\ndarán plumas de héroe en el castillo."
+  },
+  {
+    "key": "MEID_ソードファイター",
+    "value": "Soldado espada"
+  },
+  {
+    "key": "MEID_ソードアーマー",
+    "value": "Cab. espada"
+  },
+  {
+    "key": "MEID_ソードナイト",
+    "value": "Jinete espada"
+  },
+  {
+    "key": "MEID_ソードペガサス",
+    "value": "Jin. ala. espada"
+  },
+  {
+    "key": "MEID_ランスファイター",
+    "value": "Soldado lanza"
+  },
+  {
+    "key": "MEID_ランスアーマー",
+    "value": "Caballero lanza"
+  },
+  {
+    "key": "MEID_ランスナイト",
+    "value": "Jinete lanza"
+  },
+  {
+    "key": "MEID_ランスペガサス",
+    "value": "Jin. alado lanza"
+  },
+  {
+    "key": "MEID_アクスファイター",
+    "value": "Soldado hacha"
+  },
+  {
+    "key": "MEID_アクスアーマー",
+    "value": "Caballero hacha"
+  },
+  {
+    "key": "MEID_アクスナイト",
+    "value": "Jinete hacha"
+  },
+  {
+    "key": "MEID_アクスペガサス",
+    "value": "Jin. alado hacha"
+  },
+  {
+    "key": "MEID_ボウファイター",
+    "value": "Soldado arco"
+  },
+  {
+    "key": "MEID_ボウナイト",
+    "value": "Jinete arco"
+  },
+  {
+    "key": "MEID_シーフ",
+    "value": "Bandido"
+  },
+  {
+    "key": "MEID_レッドマージ",
+    "value": "Mago rojo"
+  },
+  {
+    "key": "MEID_レッドナイト",
+    "value": "Jinete rojo"
+  },
+  {
+    "key": "MEID_ブルーマージ",
+    "value": "Mago azul"
+  },
+  {
+    "key": "MEID_ブルーナイト",
+    "value": "Jinete azul"
+  },
+  {
+    "key": "MEID_グリーンマージ",
+    "value": "Mago verde"
+  },
+  {
+    "key": "MEID_グリーンナイト",
+    "value": "Jinete verde"
+  },
+  {
+    "key": "MEID_シスター",
+    "value": "Sacerdotisa"
+  },
+  {
+    "key": "MEID_ロッドナイト",
+    "value": "Trovador"
+  },
+  {
+    "key": "MEID_ブルーノ",
+    "value": "(?)"
+  },
+  {
+    "key": "MEID_ヴェロニカ",
+    "value": "Verónica"
+  },
+  {
+    "key": "MEID_H_ソードファイター",
+    "value": "Soldado de infantería armado con\nuna espada. Características comunes."
+  },
+  {
+    "key": "MEID_H_ソードアーマー",
+    "value": "Soldado acorazado armado con\nuna espada. Se mueve con lentitud."
+  },
+  {
+    "key": "MEID_H_ソードナイト",
+    "value": "Soldado de caballería armado con una\nespada. Es veloz, pero no puede entrar\nen bosques."
+  },
+  {
+    "key": "MEID_H_ソードペガサス",
+    "value": "Jinete de pegasos armado con una espada.\nPuede sobrevolar ríos y montañas, pero\nes vulnerable a los arcos."
+  },
+  {
+    "key": "MEID_H_ランスファイター",
+    "value": "Soldado de infantería armado con\nuna lanza. Características comunes."
+  },
+  {
+    "key": "MEID_H_ランスアーマー",
+    "value": "Soldado acorazado armado con\nuna lanza. Se mueve con lentitud."
+  },
+  {
+    "key": "MEID_H_ランスナイト",
+    "value": "Soldado de caballería armado con una lanza.\nEs veloz, pero no puede entrar en bosques."
+  },
+  {
+    "key": "MEID_H_ランスペガサス",
+    "value": "Jinete de pegasos armado con una lanza.\nPuede sobrevolar ríos y montañas, pero\nes vulnerable a los arcos."
+  },
+  {
+    "key": "MEID_H_アクスファイター",
+    "value": "Soldado de infantería armado con\nun hacha. Características comunes."
+  },
+  {
+    "key": "MEID_H_アクスアーマー",
+    "value": "Soldado acorazado armado con\nun hacha. Se mueve con lentitud."
+  },
+  {
+    "key": "MEID_H_アクスナイト",
+    "value": "Soldado de caballería armado con un hacha.\nEs veloz, pero no puede entrar en bosques."
+  },
+  {
+    "key": "MEID_H_アクスペガサス",
+    "value": "Jinete de pegasos armado con un hacha.\nPuede sobrevolar ríos y montañas, pero\nes vulnerable a los arcos."
+  },
+  {
+    "key": "MEID_H_ボウファイター",
+    "value": "Soldado de infantería armado con\nun arco. Características comunes."
+  },
+  {
+    "key": "MEID_H_ボウナイト",
+    "value": "Soldado de caballería armado con un arco.\nEs veloz, pero no puede entrar en bosques."
+  },
+  {
+    "key": "MEID_H_シーフ",
+    "value": "Saqueador armado con dagas, que reducen\nlos atributos del enemigo."
+  },
+  {
+    "key": "MEID_H_レッドマージ",
+    "value": "Adepto de la magia roja\nde características comunes."
+  },
+  {
+    "key": "MEID_H_レッドナイト",
+    "value": "Soldado de caballería que usa magia roja.\nEs veloz, pero no puede entrar en bosques."
+  },
+  {
+    "key": "MEID_H_ブルーマージ",
+    "value": "Adepto de la magia azul\nde características comunes."
+  },
+  {
+    "key": "MEID_H_ブルーナイト",
+    "value": "Soldado de caballería que usa magia azul.\nEs veloz, pero no puede entrar en bosques."
+  },
+  {
+    "key": "MEID_H_グリーンマージ",
+    "value": "Adepto de la magia verde\nde características comunes."
+  },
+  {
+    "key": "MEID_H_グリーンナイト",
+    "value": "Soldado de caballería que usa magia verde.\nEs veloz, pero no puede entrar en bosques."
+  },
+  {
+    "key": "MEID_H_シスター",
+    "value": "Unidad que usa bastones para sanar\na aliados y entorpecer a enemigos.\nCaracterísticas comunes."
+  },
+  {
+    "key": "MEID_H_ロッドナイト",
+    "value": "Unidad de caballería que usa bastones para\nsanar a aliados y entorpecer a enemigos.\nEs veloz, pero no puede entrar en bosques."
+  },
+  {
+    "key": "MEID_H_ブルーノ",
+    "value": "Caballero enmascarado cuyas intenciones\ne identidad son un misterio."
+  },
+  {
+    "key": "MEID_H_ヴェロニカ",
+    "value": "Princesa imperial de Embla. Utiliza\nhéroes para invadir el reino de Askr."
+  },
+  {
+    "key": "MEID_HONOR_ブルーノ",
+    "value": "El enmascarado"
+  },
+  {
+    "key": "MEID_HONOR_ヴェロニカ",
+    "value": "Princesa imperial"
+  },
+  {
+    "key": "MEID_VOICE_ブルーノ",
+    "value": "T. Axelrod"
+  },
+  {
+    "key": "MEID_VOICE_ヴェロニカ",
+    "value": "Wendee Lee"
+  },
+  {
+    "key": "MEID_ILLUST_ブルーノ",
+    "value": "Kozaki Yusuke (コザキユースケ)"
+  },
+  {
+    "key": "MEID_ILLUST_ヴェロニカ",
+    "value": "Kozaki Yusuke (コザキユースケ)"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_COMPENSATION",
+    "value": "Lo sentimos"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0001",
+    "value": "¡Bonificación de lanzamiento!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0002",
+    "value": "Bonificación: ¡1 millón de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0003",
+    "value": "Bonificación: ¡2 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0004",
+    "value": "Bonificación: ¡3 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0005",
+    "value": "Bonificación: ¡4 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0007",
+    "value": "Bonificación: ¡5 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0008",
+    "value": "¡Ya llevamos 6 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0009",
+    "value": "¡Ya llevamos 7 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0010",
+    "value": "¡Ya llevamos 8 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0011",
+    "value": "¡Ya llevamos 9 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0012",
+    "value": "¡Ya llevamos 10 millones de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0013",
+    "value": "¡Celebración de descargas!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_WEEK",
+    "value": "¡Bonificación de fin de semana!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_WAR",
+    "value": "¡Hay un torneo de votos en marcha!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_SPECIAL",
+    "value": "¡Bonificación especial!"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_ANDROID",
+    "value": "Bonificación exclusiva para Android"
+  },
+  {
+    "key": "MPID_マルス",
+    "value": "Marth"
+  },
+  {
+    "key": "MPID_オグマ",
+    "value": "Ogma"
+  },
+  {
+    "key": "MPID_ナバール",
+    "value": "Navarre"
+  },
+  {
+    "key": "MPID_ロイ",
+    "value": "Roy"
+  },
+  {
+    "key": "MPID_フィル",
+    "value": "Fir"
+  },
+  {
+    "key": "MPID_リン",
+    "value": "Lyn"
+  },
+  {
+    "key": "MPID_クロム",
+    "value": "Chrom"
+  },
+  {
+    "key": "MPID_ルキナ",
+    "value": "Lucina"
+  },
+  {
+    "key": "MPID_ロンクー",
+    "value": "Lon'qu"
+  },
+  {
+    "key": "MPID_オリヴィエ",
+    "value": "Olivia"
+  },
+  {
+    "key": "MPID_カムイ男",
+    "value": "Corrin"
+  },
+  {
+    "key": "MPID_リョウマ",
+    "value": "Ryoma"
+  },
+  {
+    "key": "MPID_カザハナ",
+    "value": "Hana"
+  },
+  {
+    "key": "MPID_ヒナタ",
+    "value": "Hinata"
+  },
+  {
+    "key": "MPID_ラズワルド",
+    "value": "Laslow"
+  },
+  {
+    "key": "MPID_ルーナ",
+    "value": "Selena"
+  },
+  {
+    "key": "MPID_アルフォンス",
+    "value": "Alfonse"
+  },
+  {
+    "key": "MPID_ドーガ",
+    "value": "Draug"
+  },
+  {
+    "key": "MPID_ゼフィール",
+    "value": "Zephiel"
+  },
+  {
+    "key": "MPID_カイン",
+    "value": "Cain"
+  },
+  {
+    "key": "MPID_エリウッド",
+    "value": "Eliwood"
+  },
+  {
+    "key": "MPID_ソール",
+    "value": "Stahl"
+  },
+  {
+    "key": "MPID_マークス",
+    "value": "Xander"
+  },
+  {
+    "key": "MPID_シーダ",
+    "value": "Shiida"
+  },
+  {
+    "key": "MPID_パオラ",
+    "value": "Palla"
+  },
+  {
+    "key": "MPID_ドニ",
+    "value": "Donnel"
+  },
+  {
+    "key": "MPID_オボロ",
+    "value": "Oboro"
+  },
+  {
+    "key": "MPID_アクア",
+    "value": "Azura"
+  },
+  {
+    "key": "MPID_シャロン",
+    "value": "Sharena"
+  },
+  {
+    "key": "MPID_ウェンディ",
+    "value": "Gwendolyn"
+  },
+  {
+    "key": "MPID_エルフィ",
+    "value": "Effie"
+  },
+  {
+    "key": "MPID_ジェイガン",
+    "value": "Jagen"
+  },
+  {
+    "key": "MPID_アベル",
+    "value": "Abel"
+  },
+  {
+    "key": "MPID_カミュ",
+    "value": "Camus"
+  },
+  {
+    "key": "MPID_ソワレ",
+    "value": "Sully"
+  },
+  {
+    "key": "MPID_ピエリ",
+    "value": "Peri"
+  },
+  {
+    "key": "MPID_カチュア",
+    "value": "Catria"
+  },
+  {
+    "key": "MPID_エスト",
+    "value": "Est"
+  },
+  {
+    "key": "MPID_シャニー",
+    "value": "Shanna"
+  },
+  {
+    "key": "MPID_フロリーナ",
+    "value": "Florina"
+  },
+  {
+    "key": "MPID_ティアモ",
+    "value": "Cordelia"
+  },
+  {
+    "key": "MPID_ヒノカ",
+    "value": "Hinoka"
+  },
+  {
+    "key": "MPID_ツバキ",
+    "value": "Subaki"
+  },
+  {
+    "key": "MPID_バーツ",
+    "value": "Barst"
+  },
+  {
+    "key": "MPID_バアトル",
+    "value": "Bartre"
+  },
+  {
+    "key": "MPID_レイヴァン",
+    "value": "Raven"
+  },
+  {
+    "key": "MPID_ホークアイ",
+    "value": "Hawkeye"
+  },
+  {
+    "key": "MPID_ハロルド",
+    "value": "Arthur"
+  },
+  {
+    "key": "MPID_アンナ",
+    "value": "Anna"
+  },
+  {
+    "key": "MPID_シーマ",
+    "value": "Sheena"
+  },
+  {
+    "key": "MPID_ヘクトル",
+    "value": "Héctor"
+  },
+  {
+    "key": "MPID_フレデリク",
+    "value": "Frederick"
+  },
+  {
+    "key": "MPID_ギュンター",
+    "value": "Gunter"
+  },
+  {
+    "key": "MPID_ミネルバ",
+    "value": "Minerva"
+  },
+  {
+    "key": "MPID_ミシェイル",
+    "value": "Michalis"
+  },
+  {
+    "key": "MPID_ナーシェン",
+    "value": "Narcian"
+  },
+  {
+    "key": "MPID_セルジュ",
+    "value": "Cherche"
+  },
+  {
+    "key": "MPID_カミラ",
+    "value": "Camilla"
+  },
+  {
+    "key": "MPID_ベルカ",
+    "value": "Beruka"
+  },
+  {
+    "key": "MPID_ゴードン",
+    "value": "Gordin"
+  },
+  {
+    "key": "MPID_ジョルジュ",
+    "value": "Jeorge"
+  },
+  {
+    "key": "MPID_ヴィオール",
+    "value": "Virion"
+  },
+  {
+    "key": "MPID_タクミ",
+    "value": "Takumi"
+  },
+  {
+    "key": "MPID_セツナ",
+    "value": "Setsuna"
+  },
+  {
+    "key": "MPID_ゼロ",
+    "value": "Niles"
+  },
+  {
+    "key": "MPID_マシュー",
+    "value": "Matthew"
+  },
+  {
+    "key": "MPID_ガイア",
+    "value": "Gaius"
+  },
+  {
+    "key": "MPID_フェリシア",
+    "value": "Felicia"
+  },
+  {
+    "key": "MPID_ジョーカー",
+    "value": "Jakob"
+  },
+  {
+    "key": "MPID_サイゾウ",
+    "value": "Saizo"
+  },
+  {
+    "key": "MPID_カゲロウ",
+    "value": "Kagero"
+  },
+  {
+    "key": "MPID_リリーナ",
+    "value": "Lilina"
+  },
+  {
+    "key": "MPID_レイ",
+    "value": "Raigh"
+  },
+  {
+    "key": "MPID_ソフィーヤ",
+    "value": "Sophia"
+  },
+  {
+    "key": "MPID_サーリャ",
+    "value": "Tharja"
+  },
+  {
+    "key": "MPID_ヘンリー",
+    "value": "Henry"
+  },
+  {
+    "key": "MPID_レオン",
+    "value": "Leo"
+  },
+  {
+    "key": "MPID_リンダ",
+    "value": "Linde"
+  },
+  {
+    "key": "MPID_ルフレ男",
+    "value": "Robin"
+  },
+  {
+    "key": "MPID_オーディン",
+    "value": "Odín"
+  },
+  {
+    "key": "MPID_ウルスラ",
+    "value": "Ursula"
+  },
+  {
+    "key": "MPID_マリク",
+    "value": "Merric"
+  },
+  {
+    "key": "MPID_ニノ",
+    "value": "Nino"
+  },
+  {
+    "key": "MPID_ルフレ女",
+    "value": "Robin"
+  },
+  {
+    "key": "MPID_セシリア",
+    "value": "Cecilia"
+  },
+  {
+    "key": "MPID_リフ",
+    "value": "Wrys"
+  },
+  {
+    "key": "MPID_マリア",
+    "value": "María"
+  },
+  {
+    "key": "MPID_セーラ",
+    "value": "Serra"
+  },
+  {
+    "key": "MPID_リズ",
+    "value": "Lissa"
+  },
+  {
+    "key": "MPID_サクラ",
+    "value": "Sakura"
+  },
+  {
+    "key": "MPID_アサマ",
+    "value": "Azama"
+  },
+  {
+    "key": "MPID_クラリーネ",
+    "value": "Clarine"
+  },
+  {
+    "key": "MPID_エリーゼ",
+    "value": "Elise"
+  },
+  {
+    "key": "MPID_チキ",
+    "value": "Tiki"
+  },
+  {
+    "key": "MPID_チキ覚醒",
+    "value": "Tiki"
+  },
+  {
+    "key": "MPID_ノノ",
+    "value": "Nowi"
+  },
+  {
+    "key": "MPID_カムイ女",
+    "value": "Corrin"
+  },
+  {
+    "key": "MPID_ファ",
+    "value": "Fae"
+  },
+  {
+    "key": "MPID_HONOR_マルス",
+    "value": "Príncipe de Altea"
+  },
+  {
+    "key": "MPID_HONOR_オグマ",
+    "value": "Filo leal"
+  },
+  {
+    "key": "MPID_HONOR_ナバール",
+    "value": "Espada Escarlata"
+  },
+  {
+    "key": "MPID_HONOR_ロイ",
+    "value": "Joven León"
+  },
+  {
+    "key": "MPID_HONOR_フィル",
+    "value": "Filo aprendiz"
+  },
+  {
+    "key": "MPID_HONOR_リン",
+    "value": "Noble de Sacae"
+  },
+  {
+    "key": "MPID_HONOR_クロム",
+    "value": "Nuevo Venerable"
+  },
+  {
+    "key": "MPID_HONOR_ルキナ",
+    "value": "Heraldo del futuro"
+  },
+  {
+    "key": "MPID_HONOR_ロンクー",
+    "value": "Espada solitaria"
+  },
+  {
+    "key": "MPID_HONOR_オリヴィエ",
+    "value": "Bailarina tímida"
+  },
+  {
+    "key": "MPID_HONOR_カムイ男",
+    "value": "Hijo del destino"
+  },
+  {
+    "key": "MPID_HONOR_リョウマ",
+    "value": "Samurái sin igual"
+  },
+  {
+    "key": "MPID_HONOR_カザハナ",
+    "value": "Samurái centrada"
+  },
+  {
+    "key": "MPID_HONOR_ヒナタ",
+    "value": "Samurái indómito"
+  },
+  {
+    "key": "MPID_HONOR_ラズワルド",
+    "value": "Rey del baile"
+  },
+  {
+    "key": "MPID_HONOR_ルーナ",
+    "value": "Ingeniosa mordaz"
+  },
+  {
+    "key": "MPID_HONOR_アルフォンス",
+    "value": "Príncipe de Askr"
+  },
+  {
+    "key": "MPID_HONOR_ドーガ",
+    "value": "Coloso amable"
+  },
+  {
+    "key": "MPID_HONOR_ゼフィール",
+    "value": "Rey libertador"
+  },
+  {
+    "key": "MPID_HONOR_カイン",
+    "value": "El Toro"
+  },
+  {
+    "key": "MPID_HONOR_エリウッド",
+    "value": "Caballero lyciano"
+  },
+  {
+    "key": "MPID_HONOR_ソール",
+    "value": "Caballero jade"
+  },
+  {
+    "key": "MPID_HONOR_マークス",
+    "value": "Caballero ideal"
+  },
+  {
+    "key": "MPID_HONOR_シーダ",
+    "value": "Corazón de Talys"
+  },
+  {
+    "key": "MPID_HONOR_パオラ",
+    "value": "Ala blanca mayor"
+  },
+  {
+    "key": "MPID_HONOR_ドニ",
+    "value": "Héroe rural"
+  },
+  {
+    "key": "MPID_HONOR_オボロ",
+    "value": "Guerrera feroz"
+  },
+  {
+    "key": "MPID_HONOR_アクア",
+    "value": "Señora del lago"
+  },
+  {
+    "key": "MPID_HONOR_シャロン",
+    "value": "Princesa de Askr"
+  },
+  {
+    "key": "MPID_HONOR_ウェンディ",
+    "value": "Gran lancera"
+  },
+  {
+    "key": "MPID_HONOR_エルフィ",
+    "value": "Miliciana forzuda"
+  },
+  {
+    "key": "MPID_HONOR_ジェイガン",
+    "value": "El veterano"
+  },
+  {
+    "key": "MPID_HONOR_アベル",
+    "value": "La Pantera"
+  },
+  {
+    "key": "MPID_HONOR_カミュ",
+    "value": "Caballero Ópalo"
+  },
+  {
+    "key": "MPID_HONOR_ソワレ",
+    "value": "Caballero Carmesí"
+  },
+  {
+    "key": "MPID_HONOR_ピエリ",
+    "value": "Asesina pueril"
+  },
+  {
+    "key": "MPID_HONOR_カチュア",
+    "value": "Ala blanca mediana"
+  },
+  {
+    "key": "MPID_HONOR_エスト",
+    "value": "Ala blanca menor"
+  },
+  {
+    "key": "MPID_HONOR_シャニー",
+    "value": "Alegría alada"
+  },
+  {
+    "key": "MPID_HONOR_フロリーナ",
+    "value": "Bella jinete alada"
+  },
+  {
+    "key": "MPID_HONOR_ティアモ",
+    "value": "Adalid guerrera"
+  },
+  {
+    "key": "MPID_HONOR_ヒノカ",
+    "value": "Princesa guerrera"
+  },
+  {
+    "key": "MPID_HONOR_ツバキ",
+    "value": "Don Perfecto"
+  },
+  {
+    "key": "MPID_HONOR_バーツ",
+    "value": "El hacha"
+  },
+  {
+    "key": "MPID_HONOR_バアトル",
+    "value": "Guerrero intrépido"
+  },
+  {
+    "key": "MPID_HONOR_レイヴァン",
+    "value": "Mercenario justo"
+  },
+  {
+    "key": "MPID_HONOR_ホークアイ",
+    "value": "Adalid de la duna"
+  },
+  {
+    "key": "MPID_HONOR_ハロルド",
+    "value": "Héroe sin fortuna"
+  },
+  {
+    "key": "MPID_HONOR_アンナ",
+    "value": "Comandante"
+  },
+  {
+    "key": "MPID_HONOR_シーマ",
+    "value": "Princesa de Gra"
+  },
+  {
+    "key": "MPID_HONOR_ヘクトル",
+    "value": "General de Ositia"
+  },
+  {
+    "key": "MPID_HONOR_フレデリク",
+    "value": "Caballero cortés"
+  },
+  {
+    "key": "MPID_HONOR_ギュンター",
+    "value": "Soldado vetusto"
+  },
+  {
+    "key": "MPID_HONOR_ミネルバ",
+    "value": "Dragoon Roja"
+  },
+  {
+    "key": "MPID_HONOR_ミシェイル",
+    "value": "Rey ambicioso"
+  },
+  {
+    "key": "MPID_HONOR_ナーシェン",
+    "value": "General wyvern"
+  },
+  {
+    "key": "MPID_HONOR_セルジュ",
+    "value": "Amiga de wyverns"
+  },
+  {
+    "key": "MPID_HONOR_カミラ",
+    "value": "Belleza seductora"
+  },
+  {
+    "key": "MPID_HONOR_ベルカ",
+    "value": "Ejecutora silente"
+  },
+  {
+    "key": "MPID_HONOR_ゴードン",
+    "value": "Arquero de Altea"
+  },
+  {
+    "key": "MPID_HONOR_ジョルジュ",
+    "value": "Tirador certero"
+  },
+  {
+    "key": "MPID_HONOR_ヴィオール",
+    "value": "Arquero de élite"
+  },
+  {
+    "key": "MPID_HONOR_タクミ",
+    "value": "Imprevisible"
+  },
+  {
+    "key": "MPID_HONOR_セツナ",
+    "value": "Arquera distraída"
+  },
+  {
+    "key": "MPID_HONOR_ゼロ",
+    "value": "Sádico amable"
+  },
+  {
+    "key": "MPID_HONOR_マシュー",
+    "value": "Espía leal"
+  },
+  {
+    "key": "MPID_HONOR_ガイア",
+    "value": "Robadulces"
+  },
+  {
+    "key": "MPID_HONOR_フェリシア",
+    "value": "Doncella torpe"
+  },
+  {
+    "key": "MPID_HONOR_ジョーカー",
+    "value": "Sirviente fiel"
+  },
+  {
+    "key": "MPID_HONOR_サイゾウ",
+    "value": "Ninja gruñón"
+  },
+  {
+    "key": "MPID_HONOR_カゲロウ",
+    "value": "Ninja honorable"
+  },
+  {
+    "key": "MPID_HONOR_リリーナ",
+    "value": "Gentil marquesa"
+  },
+  {
+    "key": "MPID_HONOR_レイ",
+    "value": "Chamán oscuro"
+  },
+  {
+    "key": "MPID_HONOR_ソフィーヤ",
+    "value": "Profeta de Nabata"
+  },
+  {
+    "key": "MPID_HONOR_サーリャ",
+    "value": "Maga siniestra"
+  },
+  {
+    "key": "MPID_HONOR_ヘンリー",
+    "value": "Mente retorcida"
+  },
+  {
+    "key": "MPID_HONOR_レオン",
+    "value": "Príncipe mago"
+  },
+  {
+    "key": "MPID_HONOR_リンダ",
+    "value": "Maga de luz"
+  },
+  {
+    "key": "MPID_HONOR_ルフレ男",
+    "value": "Sumo Libertador"
+  },
+  {
+    "key": "MPID_HONOR_オーディン",
+    "value": "Sangre afligida"
+  },
+  {
+    "key": "MPID_HONOR_ウルスラ",
+    "value": "El Cuervo Azul"
+  },
+  {
+    "key": "MPID_HONOR_マリク",
+    "value": "Mago de viento"
+  },
+  {
+    "key": "MPID_HONOR_ニノ",
+    "value": "Sabia piadosa"
+  },
+  {
+    "key": "MPID_HONOR_ルフレ女",
+    "value": "Suma Libertadora"
+  },
+  {
+    "key": "MPID_HONOR_セシリア",
+    "value": "General etruriana"
+  },
+  {
+    "key": "MPID_HONOR_リフ",
+    "value": "Monje altruista"
+  },
+  {
+    "key": "MPID_HONOR_マリア",
+    "value": "La princesita"
+  },
+  {
+    "key": "MPID_HONOR_セーラ",
+    "value": "Clériga franca"
+  },
+  {
+    "key": "MPID_HONOR_リズ",
+    "value": "Sacerdotisa vivaz"
+  },
+  {
+    "key": "MPID_HONOR_サクラ",
+    "value": "Sacerdotisa dulce"
+  },
+  {
+    "key": "MPID_HONOR_アサマ",
+    "value": "Monje apacible"
+  },
+  {
+    "key": "MPID_HONOR_クラリーネ",
+    "value": "Fina aristócrata"
+  },
+  {
+    "key": "MPID_HONOR_エリーゼ",
+    "value": "Flor en ciernes"
+  },
+  {
+    "key": "MPID_HONOR_チキ",
+    "value": "La diosa dragón"
+  },
+  {
+    "key": "MPID_HONOR_チキ覚醒",
+    "value": "La Voz de Naga"
+  },
+  {
+    "key": "MPID_HONOR_ノノ",
+    "value": "Joven eterna"
+  },
+  {
+    "key": "MPID_HONOR_カムイ女",
+    "value": "Hija del destino"
+  },
+  {
+    "key": "MPID_HONOR_ファ",
+    "value": "Dragón divino"
+  },
+  {
+    "key": "MPID_H_マルス",
+    "value": "Príncipe de Altea que combate\ndefendiendo su patria y valora\nsobre todo la amistad. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_オグマ",
+    "value": "Este antiguo gladiador sirve como escolta\na la princesa Shiida de Talys, quien lo\nliberó de una vida de esclavitud. Aparece\nen Fire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ナバール",
+    "value": "Conocido como \"la Espada Escarlata\", este\ndiestro combatiente suele hablar poco y dejar\nque su acero se exprese por él. Aparece\nen Fire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ロイ",
+    "value": "Hijo de Eliwood, marqués de Pherae y\ncarismático líder de su ejército. Aparece\nen Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_フィル",
+    "value": "Esta joven viaja por todo el mundo en busca\nde espadachines a los que enfrentarse y que\nle permitan perfeccionar su técnica. Aparece\nen Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_リン",
+    "value": "Joven que se crio entre los nómadas de\nlas llanuras de Sacae antes de saber que\npertenecía a la nobleza de Caelin. Aparece\nen Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_クロム",
+    "value": "Príncipe de Ylisse y descendiente\ndel rey heroico. Dirige a los Custodios.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_ルキナ",
+    "value": "Princesa de Ylisse e hija de Chrom que\nviajó al pasado para evitar el apocalipsis.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_ロンクー",
+    "value": "Avezado espadachín de Regna Ferox\nque, por algún motivo, se pone nervioso\nen presencia de mujeres. Aparece\nen Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_オリヴィエ",
+    "value": "A esta magnífica —aunque extremadamente\ntímida— bailarina le encanta viajar. Aparece\nen Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_カムイ男",
+    "value": "Príncipe hoshidano criado en Nohr.\nArmado con la espada sagrada Yato,\nestá resuelto a seguir su propia senda.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_リョウマ",
+    "value": "Príncipe heredero de Hoshido y portador\nde la legendaria Raijinto. Aparece en\nFire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_カザハナ",
+    "value": "Vasalla de Sakura perteneciente a la nobleza\ny muy diestra en el uso de la katana. Aparece\nen Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ヒナタ",
+    "value": "Este samurái de Hoshido, vasallo de\nTakumi, puede resultar un tanto directo\na veces, pero siempre se preocupa por sus\namigos. Aparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ラズワルド",
+    "value": "Este misterioso vasallo de Xander destaca\npor sus dotes como bailarín y por su\ndesmedido gusto por el coqueteo. Aparece\nen Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ルーナ",
+    "value": "Esta misteriosa vasalla de Camilla\ntiene un carácter ciertamente difícil,\npero trabaja con una disciplina férrea.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_アルフォンス",
+    "value": "Príncipe del reino de Askr y miembro de\nla Orden de Héroes. De carácter serio y\nbondadoso, su anhelo es lograr la paz."
+  },
+  {
+    "key": "MPID_H_ドーガ",
+    "value": "Este caballero de Altea, antiguo escolta\nde Marth, es todo sinceridad. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ゼフィール",
+    "value": "El rey de Biran fue antaño un joven idealista,\npero hoy odia a la especie humana y planea\nconquistar el mundo aliándose con dragones.\nAparece en Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_カイン",
+    "value": "Temerario y temperamental jinete de Altea\nque sirvió a las órdenes de Marth junto a su\ninseparable Abel. Aparece en Fire Emblem:\nMystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_エリウッド",
+    "value": "Noble de Pherae. Honesto por naturaleza,\nsus amigos Lyn y Héctor le profesan\nuna lealtad inquebrantable. Aparece en\nFire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_ソール",
+    "value": "Un caballero algo despistado que\nmilita con los Custodios. Aparece\nen Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_マークス",
+    "value": "Príncipe nohrio respetado por sus proezas\nmilitares. Empuña la espada divina Siegfried.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_シーダ",
+    "value": "Tan talentosa como cautivadora,\nesta princesa de Talys es también\nla prometida de Marth. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_パオラ",
+    "value": "La mayor de las tres hermanas que forman\nlas Alas Blancas, caballeros pegaso\nde Medonia. Aparece en Fire Emblem:\nMystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ドニ",
+    "value": "Granjero de un poblado del Sacro Reino\nde Ylisse que destaca por su potencial y\npor su peculiar forma de hablar. Aparece\nen Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_オボロ",
+    "value": "Esta lancera enamorada de la moda es vasalla\nde Takumi y detesta al reino de Nohr. Aparece\nen Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_アクア",
+    "value": "Una encantadora princesa criada en Hoshido.\nCanta durante las batallas para motivar a sus\naliados. Aparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_シャロン",
+    "value": "Princesa del reino de Askr y hermana\nde Alfonse. Siempre está de buen humor\ny le encanta conocer a gente nueva,\nsobre todo si son héroes."
+  },
+  {
+    "key": "MPID_H_ウェンディ",
+    "value": "Nunca se siente cómoda bajo el peso\nde su armadura, pero esta militar de\nOsitia es pura determinación. Aparece\nen Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_エルフィ",
+    "value": "Caballero de fortaleza y amabilidad sin par,\nsu devoción por Elise, de la que es vasalla,\ntampoco conoce parangón. Aparece en\nFire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ジェイガン",
+    "value": "Un veterano caballero de Altea que\nlleva al servicio de Marth desde su\njuventud. Aparece en Fire Emblem:\nMystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_アベル",
+    "value": "Apacible jinete de Altea que sirvió a las órdenes\nde Marth junto a su inseparable Cain. Aparece\nen Fire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_カミュ",
+    "value": "Portador de la lanza Gradivus, este caballero\nsiempre se muestra dispuesto a darlo todo\npor su patria, Grust. Aparece en Fire Emblem:\nMystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ソワレ",
+    "value": "Deslenguada integrante de los Custodios cuyo\nmáximo objetivo es convertirse en una gran\nguerrera. Aparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_ピエリ",
+    "value": "Jinete de Nohr que masacra a sus rivales\ncon la actitud de una niña juguetona. Es vasalla\nde Xander. Aparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_カチュア",
+    "value": "La mediana de las tres hermanas que\nforman las Alas Blancas, caballeros\npegaso de Medonia. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_エスト",
+    "value": "La benjamina de las tres hermanas que\nforman las Alas Blancas, caballeros\npegaso de Medonia. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_シャニー",
+    "value": "Esta aprendiz de caballero pegaso de Ilia\nes muy risueña y optimista. Aparece en\nFire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_フロリーナ",
+    "value": "Esta jovencita apocada y amante de los\nanimales es la menor de las tres hermanas\nintegrantes de los caballeros pegaso de Ilia.\nAparece en Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_ティアモ",
+    "value": "La última superviviente de los caballeros\npegaso de Ylisse es una guerrera diestra,\npero extremadamente humilde. Aparece\nen Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_ヒノカ",
+    "value": "Esta princesa de Hoshido se siente más cómoda\nen el campo de batalla que en el palacio y protege\na sus aliados como si le fuera la vida en ello.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ツバキ",
+    "value": "Vasallo de Sakura y auriga celeste\nhoshidano cuya obsesión es alcanzar\nla perfección en todo lo que se propone.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_バーツ",
+    "value": "Guerrero de Talys que sirve a las órdenes\nde Ogma. También fue pirata y leñador.\nAparece en Fire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_バアトル",
+    "value": "Guerrero de un pueblo fronterizo que se\nembarcó en un viaje para rencontrarse\ncon su hija, Fir. Aparece en Fire Emblem:\nThe Binding Blade."
+  },
+  {
+    "key": "MPID_H_レイヴァン",
+    "value": "El verdadero nombre de este noble\nde la casa de Cormwell es Raymond.\nAhora es un mercenario con sed de venganza.\nAparece en Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_ホークアイ",
+    "value": "Guardián del desierto de Nabata y del\npueblo de Arcadia, donde humanos y\ndragones conviven en armonía. Aparece\nen Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_ハロルド",
+    "value": "Infatigable justiciero de proverbial mala\nfortuna y vasallo de Elise. Aparece en\nFire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_アンナ",
+    "value": "Experimentada guerrera que lidera\nla Orden de Héroes, donde también\nsirven Alfonse y Sharena."
+  },
+  {
+    "key": "MPID_H_シーマ",
+    "value": "La princesa del devastado reino de Gra\ncarga con la responsabilidad de todo un\npueblo sobre sus hombros. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ヘクトル",
+    "value": "Amigo de la infancia de Eliwood y hermano\ndel marqués de Ositia. Prefiere la acción a\nlas formalidades de la corte. Aparece en\nFire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_フレデリク",
+    "value": "Caballero que sirve a la casa real de Ylisse\ncomo lugarteniente de Chrom en los Custodios.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_ギュンター",
+    "value": "Este veterano y estricto caballero de Nohr\nes uno de los vasallos de Corrin. Aparece\nen Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ミネルバ",
+    "value": "Princesa de Medonia que se levantó\nen armas contra la tiranía de su hermano,\nMichalis. Aparece en Fire Emblem:\nMystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ミシェイル",
+    "value": "Rey de Medonia cuya ambición de poder\nlo llevó a asesinar a su propio padre.\nEs hermano de Minerva y María. Aparece\nen Fire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ナーシェン",
+    "value": "Presumido y engreído, es uno de los tres\ngenerales wyvern de Biran. Aparece en\nFire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_セルジュ",
+    "value": "Vasalla de la noble casa de Virion.\nSiente un cariño desmedido por Minerva,\nsu \"encantadora\" montura wyvern.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_カミラ",
+    "value": "Princesa de Nohr y hermana de Corrin,\npor quien siente auténtica devoción.\nCon el enemigo se muestra implacable.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ベルカ",
+    "value": "Vasalla de Camilla, esta jinete wyvern\nes una asesina silenciosa y, al parecer,\ndesprovista de toda emoción. Aparece\nen Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ゴードン",
+    "value": "Pocos dirían a simple vista que este\nmuchacho de aspecto infantil es el\nmejor arquero de Altea. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ジョルジュ",
+    "value": "Se dice que este arquero akaneo es el mejor\nde su continente. Además, se le considera\nun estratega de gran talento. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ヴィオール",
+    "value": "Señor legítimo de Rosanne, ducado de Valm.\nMuchos piensan que es solo un fanfarrón, pero\nsus alardeos suelen estar justificados.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_タクミ",
+    "value": "Príncipe de Hoshido poseedor del arco\nsagrado Yumi Fujin. A veces es incapaz\nde controlar su mal genio.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_セツナ",
+    "value": "Arquera hoshidana tan intrépida como\ndespistada. Es vasalla de Hinoka.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ゼロ",
+    "value": "Este antiguo malandrín, que acabó convirtiéndose\nen vasallo de Leo, posee una de las lenguas\nmás afiladas de todo Nohr. Aparece en\nFire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_マシュー",
+    "value": "Este espía de apariencia despreocupada\nen el fondo es tremendamente astuto.\nSirve a Héctor, marqués de Ositia.\nAparece en Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_ガイア",
+    "value": "Ladrón ylissense de manos ágiles y apetito\ndesmesurado. Sobre todo por los dulces,\nque siempre esconde en sus bolsillos.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_フェリシア",
+    "value": "Criada de Nohr y vasalla de Corrin que\ntrata de suplir su torpeza con empeño.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ジョーカー",
+    "value": "Mayordomo de Nohr que cumple sus funciones\ncon probada eficiencia y al que no le gusta\nservir a nadie más que a Corrin. Aparece en\nFire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_サイゾウ",
+    "value": "Ninja hoshidano muy cortante. Es vasallo\nde Ryoma y tiene un hermano gemelo:\nKaze. Aparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_カゲロウ",
+    "value": "Ninja hoshidana y vasalla de Ryoma\nque está dispuesta a morir por él.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_リリーナ",
+    "value": "Esta noble de Ositia es amiga de Roy\ndesde que eran niños y posee un don\nnatural para la magia. Aparece en\nFire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_レイ",
+    "value": "La orfandad llevó a este mago oscuro\na convertirse en un cínico solitario.\nAparece en Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_ソフィーヤ",
+    "value": "Una chamán de Nabata capaz de predecir\nel futuro. Su carácter solitario la lleva a\nrecluirse y vivir apartada. Aparece en\nFire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_サーリャ",
+    "value": "Maga plegiana un tanto celosa —sobre\ntodo en lo que concierne a Robin— y\nde inquietante personalidad. Aparece\nen Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_ヘンリー",
+    "value": "Mago oscuro plegiano de sonrisa\nperenne que está fascinado por las\natrocidades del campo de batalla.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_レオン",
+    "value": "Este talentoso príncipe nohrio es el\nportador del grimorio divino Brynhildr.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_リンダ",
+    "value": "Hija del arzobispo Miloah de Akaneia,\ncuya muerte planea vengar. Heredó\nel grimorio de luz Aura. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ルフレ男",
+    "value": "Estratega y valioso aliado de Chrom.\nNo posee recuerdos anteriores a su\nencuentro con los Custodios de Ylisse.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_オーディン",
+    "value": "Enigmático guerrero de personalidad un tanto\nestrambótica. Es uno de los vasallos de Leo.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ウルスラ",
+    "value": "Miembro despiadada del Colmillo Negro,\nuna cofradía de asesinos. Solo acepta servir\na alguien que alcance la perfección.\nAparece en Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_マリク",
+    "value": "Mago de viento formado en la famosa\nescuela de magia de Khadein y amigo\nde la infancia de Marth. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_ニノ",
+    "value": "Bondadosa miembro de la cofradía de\nasesinos del Colmillo Negro. Su mayor\nanhelo es ayudar a su madre. Aparece\nen Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_ルフレ女",
+    "value": "Estratega y valiosa aliada de Chrom.\nNo posee recuerdos anteriores a su\nencuentro con los Custodios de Ylisse.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_セシリア",
+    "value": "General maga de Etruria. Fue la institutriz\nde Roy y Lilina cuando fueron niños.\nAparece en Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_リフ",
+    "value": "Humilde y apacible monje de Talys.\nPrefiere sanar a sus aliados antes que\ncombatir. Aparece en Fire Emblem: Shadow\nDragon and the Blade of Light."
+  },
+  {
+    "key": "MPID_H_マリア",
+    "value": "Princesa de Medonia y hermana pequeña de\nMinerva y Michalis, a quienes adora. Aparece\nen Fire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_セーラ",
+    "value": "Clériga un tanto egocéntrica que sirve a\nHéctor, hermano del marqués de Ositia.\nAparece en Fire Emblem: The Blazing Blade."
+  },
+  {
+    "key": "MPID_H_リズ",
+    "value": "Princesa de la casa real de Ylisse y hermana\npequeña de Chrom. Desea demostrar su valía.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_サクラ",
+    "value": "Princesa de Hoshido. Es una bondadosa\nsanadora que se esfuerza por vencer su\ntimidez. Aparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_アサマ",
+    "value": "Monje de Hoshido que sirve a Hinoka y\ntiene un sentido del humor algo peculiar.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_クラリーネ",
+    "value": "Hija del conde Reglay de Etruria.\nSiempre ha vivido rodeada de lujo\ny adora a su hermano Klein. Aparece\nen Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_H_エリーゼ",
+    "value": "Esta princesa de Nohr siente auténtica\ndevoción por sus hermanos. Es un tanto\ninmadura, aunque su corazón es puro.\nAparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_チキ",
+    "value": "Joven dragón divino. Se sumió en un largo\nletargo para contener su poder destructor y\nahora busca compañía humana. Aparece en\nFire Emblem: Mystery of the Emblem."
+  },
+  {
+    "key": "MPID_H_チキ覚醒",
+    "value": "Se la conoce como \"la voz del dragón divino\".\nMuy longeva, llegó a conocer a Marth.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_ノノ",
+    "value": "Manakete que acompaña al grupo de Chrom.\nParece una niña, pero tiene más de mil años.\nAparece en Fire Emblem Awakening."
+  },
+  {
+    "key": "MPID_H_カムイ女",
+    "value": "Princesa hoshidana criada en Nohr.\nArmada con la espada sagrada Yato,\nestá empeñada en seguir su propia\nsenda. Aparece en Fire Emblem Fates."
+  },
+  {
+    "key": "MPID_H_ファ",
+    "value": "Superviviente de una estirpe de dragones\ndivinos. De personalidad ingenua e infantil.\nAparece en Fire Emblem: The Binding Blade."
+  },
+  {
+    "key": "MPID_VOICE_マルス",
+    "value": "Yuri Lowenthal"
+  },
+  {
+    "key": "MPID_VOICE_オグマ",
+    "value": "Travis Willingham"
+  },
+  {
+    "key": "MPID_VOICE_ナバール",
+    "value": "T. Axelrod"
+  },
+  {
+    "key": "MPID_VOICE_ロイ",
+    "value": "Ray Chase"
+  },
+  {
+    "key": "MPID_VOICE_フィル",
+    "value": "Liv Strander"
+  },
+  {
+    "key": "MPID_VOICE_リン",
+    "value": "Wendee Lee"
+  },
+  {
+    "key": "MPID_VOICE_クロム",
+    "value": "Matt Mercer"
+  },
+  {
+    "key": "MPID_VOICE_ルキナ",
+    "value": "—"
+  },
+  {
+    "key": "MPID_VOICE_ロンクー",
+    "value": "Travis Willingham"
+  },
+  {
+    "key": "MPID_VOICE_オリヴィエ",
+    "value": "Karen Strassman"
+  },
+  {
+    "key": "MPID_VOICE_カムイ男",
+    "value": "Cam Clarke"
+  },
+  {
+    "key": "MPID_VOICE_リョウマ",
+    "value": "Matt Mercer"
+  },
+  {
+    "key": "MPID_VOICE_カザハナ",
+    "value": "Karen Strassman"
+  },
+  {
+    "key": "MPID_VOICE_ヒナタ",
+    "value": "Delem Donaldson"
+  },
+  {
+    "key": "MPID_VOICE_ラズワルド",
+    "value": "Mick Wingert"
+  },
+  {
+    "key": "MPID_VOICE_ルーナ",
+    "value": "Julie Ann Taylor"
+  },
+  {
+    "key": "MPID_VOICE_アルフォンス",
+    "value": "Ray Chase"
+  },
+  {
+    "key": "MPID_VOICE_ドーガ",
+    "value": "Patrick Seitz"
+  },
+  {
+    "key": "MPID_VOICE_ゼフィール",
+    "value": "Taylor Henry"
+  },
+  {
+    "key": "MPID_VOICE_カイン",
+    "value": "T. Axelrod"
+  },
+  {
+    "key": "MPID_VOICE_エリウッド",
+    "value": "Yuri Lowenthal"
+  },
+  {
+    "key": "MPID_VOICE_ソール",
+    "value": "Sam Regal"
+  },
+  {
+    "key": "MPID_VOICE_マークス",
+    "value": "George Spelvin"
+  },
+  {
+    "key": "MPID_VOICE_シーダ",
+    "value": "Cherami Leigh"
+  },
+  {
+    "key": "MPID_VOICE_パオラ",
+    "value": "—"
+  },
+  {
+    "key": "MPID_VOICE_ドニ",
+    "value": "Sam Regal"
+  },
+  {
+    "key": "MPID_VOICE_オボロ",
+    "value": "Marisha Ray"
+  },
+  {
+    "key": "MPID_VOICE_アクア",
+    "value": "Rena Strober"
+  },
+  {
+    "key": "MPID_VOICE_シャロン",
+    "value": "Julie Kliewer"
+  },
+  {
+    "key": "MPID_VOICE_ウェンディ",
+    "value": "Cherami Leigh"
+  },
+  {
+    "key": "MPID_VOICE_エルフィ",
+    "value": "Marisha Ray"
+  },
+  {
+    "key": "MPID_VOICE_ジェイガン",
+    "value": "Walden James"
+  },
+  {
+    "key": "MPID_VOICE_アベル",
+    "value": "Mick Wingert"
+  },
+  {
+    "key": "MPID_VOICE_カミュ",
+    "value": "Travis Willingham"
+  },
+  {
+    "key": "MPID_VOICE_ソワレ",
+    "value": "Amanda Miller"
+  },
+  {
+    "key": "MPID_VOICE_ピエリ",
+    "value": "Cindy Robinson"
+  },
+  {
+    "key": "MPID_VOICE_カチュア",
+    "value": "Connor Kelley"
+  },
+  {
+    "key": "MPID_VOICE_エスト",
+    "value": "Brianna Knickerbocker"
+  },
+  {
+    "key": "MPID_VOICE_シャニー",
+    "value": "Marisha Ray"
+  },
+  {
+    "key": "MPID_VOICE_フロリーナ",
+    "value": "Julie Kliewer"
+  },
+  {
+    "key": "MPID_VOICE_ティアモ",
+    "value": "Julie Ann Taylor"
+  },
+  {
+    "key": "MPID_VOICE_ヒノカ",
+    "value": "Cindy Robinson"
+  },
+  {
+    "key": "MPID_VOICE_ツバキ",
+    "value": "Walden James"
+  },
+  {
+    "key": "MPID_VOICE_バーツ",
+    "value": "DC Douglas"
+  },
+  {
+    "key": "MPID_VOICE_バアトル",
+    "value": "Kyle Hebert"
+  },
+  {
+    "key": "MPID_VOICE_レイヴァン",
+    "value": "Bryce Papenbrook"
+  },
+  {
+    "key": "MPID_VOICE_ホークアイ",
+    "value": "Taylor Henry"
+  },
+  {
+    "key": "MPID_VOICE_ハロルド",
+    "value": "Cam Clarke"
+  },
+  {
+    "key": "MPID_VOICE_アンナ",
+    "value": "Karen Strassman"
+  },
+  {
+    "key": "MPID_VOICE_シーマ",
+    "value": "Lauren Landa"
+  },
+  {
+    "key": "MPID_VOICE_ヘクトル",
+    "value": "Patrick Seitz"
+  },
+  {
+    "key": "MPID_VOICE_フレデリク",
+    "value": "Kyle Hebert"
+  },
+  {
+    "key": "MPID_VOICE_ギュンター",
+    "value": "DC Douglas"
+  },
+  {
+    "key": "MPID_VOICE_ミネルバ",
+    "value": "Cindy Robinson"
+  },
+  {
+    "key": "MPID_VOICE_ミシェイル",
+    "value": "David Vincent"
+  },
+  {
+    "key": "MPID_VOICE_ナーシェン",
+    "value": "Kaiji Tang"
+  },
+  {
+    "key": "MPID_VOICE_セルジュ",
+    "value": "Amanda Miller"
+  },
+  {
+    "key": "MPID_VOICE_カミラ",
+    "value": "Misty Lee"
+  },
+  {
+    "key": "MPID_VOICE_ベルカ",
+    "value": "Stephanie Sheh"
+  },
+  {
+    "key": "MPID_VOICE_ゴードン",
+    "value": "Max Mittelman"
+  },
+  {
+    "key": "MPID_VOICE_ジョルジュ",
+    "value": "Mick Wingert"
+  },
+  {
+    "key": "MPID_VOICE_ヴィオール",
+    "value": "Taylor Henry"
+  },
+  {
+    "key": "MPID_VOICE_タクミ",
+    "value": "Michael Sinterniklaas"
+  },
+  {
+    "key": "MPID_VOICE_セツナ",
+    "value": "Connor Kelley"
+  },
+  {
+    "key": "MPID_VOICE_ゼロ",
+    "value": "Michael Sinterniklaas"
+  },
+  {
+    "key": "MPID_VOICE_マシュー",
+    "value": "Ben Diskin"
+  },
+  {
+    "key": "MPID_VOICE_ガイア",
+    "value": "Ray Chase"
+  },
+  {
+    "key": "MPID_VOICE_フェリシア",
+    "value": "Connor Kelley"
+  },
+  {
+    "key": "MPID_VOICE_ジョーカー",
+    "value": "Ben Diskin"
+  },
+  {
+    "key": "MPID_VOICE_サイゾウ",
+    "value": "Ben Diskin"
+  },
+  {
+    "key": "MPID_VOICE_カゲロウ",
+    "value": "Sarah Blandy"
+  },
+  {
+    "key": "MPID_VOICE_リリーナ",
+    "value": "Julie Kliewer"
+  },
+  {
+    "key": "MPID_VOICE_レイ",
+    "value": "Sam Regal"
+  },
+  {
+    "key": "MPID_VOICE_ソフィーヤ",
+    "value": "Wendee Lee"
+  },
+  {
+    "key": "MPID_VOICE_サーリャ",
+    "value": "Stephanie Sheh"
+  },
+  {
+    "key": "MPID_VOICE_ヘンリー",
+    "value": "Bryce Papenbrook"
+  },
+  {
+    "key": "MPID_VOICE_レオン",
+    "value": "Max Mittelman"
+  },
+  {
+    "key": "MPID_VOICE_リンダ",
+    "value": "Julie Ann Taylor"
+  },
+  {
+    "key": "MPID_VOICE_ルフレ男",
+    "value": "David Vincent"
+  },
+  {
+    "key": "MPID_VOICE_オーディン",
+    "value": "Kaiji Tang"
+  },
+  {
+    "key": "MPID_VOICE_ウルスラ",
+    "value": "Misty Lee"
+  },
+  {
+    "key": "MPID_VOICE_マリク",
+    "value": "Yuri Lowenthal"
+  },
+  {
+    "key": "MPID_VOICE_ニノ",
+    "value": "Sarah Blandy"
+  },
+  {
+    "key": "MPID_VOICE_ルフレ女",
+    "value": "Lauren Landa"
+  },
+  {
+    "key": "MPID_VOICE_セシリア",
+    "value": "Cherami Leigh"
+  },
+  {
+    "key": "MPID_VOICE_リフ",
+    "value": "DC Douglas"
+  },
+  {
+    "key": "MPID_VOICE_マリア",
+    "value": "Wendee Lee"
+  },
+  {
+    "key": "MPID_VOICE_セーラ",
+    "value": "Kate Davis"
+  },
+  {
+    "key": "MPID_VOICE_リズ",
+    "value": "Kate Davis"
+  },
+  {
+    "key": "MPID_VOICE_サクラ",
+    "value": "Brianna Knickerbocker"
+  },
+  {
+    "key": "MPID_VOICE_アサマ",
+    "value": "Matt Mercer"
+  },
+  {
+    "key": "MPID_VOICE_クラリーネ",
+    "value": "Hunter MacKenzie Austin"
+  },
+  {
+    "key": "MPID_VOICE_エリーゼ",
+    "value": "Liv Strander"
+  },
+  {
+    "key": "MPID_VOICE_チキ",
+    "value": "Mela Lee"
+  },
+  {
+    "key": "MPID_VOICE_チキ覚醒",
+    "value": "Mela Lee"
+  },
+  {
+    "key": "MPID_VOICE_ノノ",
+    "value": "Hunter MacKenzie Austin"
+  },
+  {
+    "key": "MPID_VOICE_カムイ女",
+    "value": "Marcella Lentz-Pope"
+  },
+  {
+    "key": "MPID_VOICE_ファ",
+    "value": "Sarah Blandy"
+  },
+  {
+    "key": "MPID_ILLUST_マルス",
+    "value": "Wada Sachiko (ワダサチコ)"
+  },
+  {
+    "key": "MPID_ILLUST_オグマ",
+    "value": "Yamada Akihiro (山田章博)"
+  },
+  {
+    "key": "MPID_ILLUST_ナバール",
+    "value": "Yura (由良)"
+  },
+  {
+    "key": "MPID_ILLUST_ロイ",
+    "value": "BUNBUN"
+  },
+  {
+    "key": "MPID_ILLUST_フィル",
+    "value": "kaya8"
+  },
+  {
+    "key": "MPID_ILLUST_リン",
+    "value": "Yamada Kotaro (山田孝太郎)"
+  },
+  {
+    "key": "MPID_ILLUST_クロム",
+    "value": "Ebila (えびら)"
+  },
+  {
+    "key": "MPID_ILLUST_ルキナ",
+    "value": "Maiponpon (まいぽんぽん) / INTELLIGENT SYSTEMS"
+  },
+  {
+    "key": "MPID_ILLUST_ロンクー",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_オリヴィエ",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_カムイ男",
+    "value": "Maiponpon (まいぽんぽん) / INTELLIGENT SYSTEMS"
+  },
+  {
+    "key": "MPID_ILLUST_リョウマ",
+    "value": "Kita Senri (北千里)"
+  },
+  {
+    "key": "MPID_ILLUST_カザハナ",
+    "value": "Fuzichoco (藤ちょこ)"
+  },
+  {
+    "key": "MPID_ILLUST_ヒナタ",
+    "value": "Ueda Yumehito (上田夢人)"
+  },
+  {
+    "key": "MPID_ILLUST_ラズワルド",
+    "value": "Suekane Kumiko (スエカネクミコ)"
+  },
+  {
+    "key": "MPID_ILLUST_ルーナ",
+    "value": "Zaza (ザザ)"
+  },
+  {
+    "key": "MPID_ILLUST_アルフォンス",
+    "value": "Kozaki Yusuke (コザキユースケ)"
+  },
+  {
+    "key": "MPID_ILLUST_ドーガ",
+    "value": "Itagaki Hako (板垣ハコ)"
+  },
+  {
+    "key": "MPID_ILLUST_ゼフィール",
+    "value": "Yamada Akihiro (山田章博)"
+  },
+  {
+    "key": "MPID_ILLUST_カイン",
+    "value": "Meka (めか)"
+  },
+  {
+    "key": "MPID_ILLUST_エリウッド",
+    "value": "Miyuu (深遊)"
+  },
+  {
+    "key": "MPID_ILLUST_ソール",
+    "value": "Mayo (まよ)"
+  },
+  {
+    "key": "MPID_ILLUST_マークス",
+    "value": "Maeshima Shigeki (前嶋重機)"
+  },
+  {
+    "key": "MPID_ILLUST_シーダ",
+    "value": "HAKO (羽公)"
+  },
+  {
+    "key": "MPID_ILLUST_パオラ",
+    "value": "cuboon"
+  },
+  {
+    "key": "MPID_ILLUST_ドニ",
+    "value": "Okaya (岡谷)"
+  },
+  {
+    "key": "MPID_ILLUST_オボロ",
+    "value": "Ueda Yumehito (上田夢人)"
+  },
+  {
+    "key": "MPID_ILLUST_アクア",
+    "value": "kaya8"
+  },
+  {
+    "key": "MPID_ILLUST_シャロン",
+    "value": "Kozaki Yusuke (コザキユースケ)"
+  },
+  {
+    "key": "MPID_ILLUST_ウェンディ",
+    "value": "Masao Tsubasa (政尾翼)"
+  },
+  {
+    "key": "MPID_ILLUST_エルフィ",
+    "value": "HACCAN"
+  },
+  {
+    "key": "MPID_ILLUST_ジェイガン",
+    "value": "Yamada Akihiro (山田章博)"
+  },
+  {
+    "key": "MPID_ILLUST_アベル",
+    "value": "Sasashima Suisei (笹島彗星)"
+  },
+  {
+    "key": "MPID_ILLUST_カミュ",
+    "value": "Suekane Kumiko (スエカネクミコ)"
+  },
+  {
+    "key": "MPID_ILLUST_ソワレ",
+    "value": "Mayo (まよ)"
+  },
+  {
+    "key": "MPID_ILLUST_ピエリ",
+    "value": "Takagi Masafumi (高木正文)"
+  },
+  {
+    "key": "MPID_ILLUST_カチュア",
+    "value": "Amagaitaro (アマガイタロー)"
+  },
+  {
+    "key": "MPID_ILLUST_エスト",
+    "value": "Miwabe Sakura (みわべさくら)"
+  },
+  {
+    "key": "MPID_ILLUST_シャニー",
+    "value": "HAKO (羽公)"
+  },
+  {
+    "key": "MPID_ILLUST_フロリーナ",
+    "value": "Zaza (ザザ)"
+  },
+  {
+    "key": "MPID_ILLUST_ティアモ",
+    "value": "Ueda Yumehito (上田夢人)"
+  },
+  {
+    "key": "MPID_ILLUST_ヒノカ",
+    "value": "HACCAN"
+  },
+  {
+    "key": "MPID_ILLUST_ツバキ",
+    "value": "Yura (由良)"
+  },
+  {
+    "key": "MPID_ILLUST_バーツ",
+    "value": "Wada Sachiko (ワダサチコ)"
+  },
+  {
+    "key": "MPID_ILLUST_バアトル",
+    "value": "Okaya (岡谷)"
+  },
+  {
+    "key": "MPID_ILLUST_レイヴァン",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_ホークアイ",
+    "value": "HACCAN"
+  },
+  {
+    "key": "MPID_ILLUST_ハロルド",
+    "value": "Mendako (メンダコ) / INTELLIGENT SYSTEMS"
+  },
+  {
+    "key": "MPID_ILLUST_アンナ",
+    "value": "Kozaki Yusuke (コザキユースケ)"
+  },
+  {
+    "key": "MPID_ILLUST_シーマ",
+    "value": "Mayo (まよ)"
+  },
+  {
+    "key": "MPID_ILLUST_ヘクトル",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_フレデリク",
+    "value": "Suekane Kumiko (スエカネクミコ)"
+  },
+  {
+    "key": "MPID_ILLUST_ギュンター",
+    "value": "Yamada Akihiro (山田章博)"
+  },
+  {
+    "key": "MPID_ILLUST_ミネルバ",
+    "value": "Daisuke Izuka"
+  },
+  {
+    "key": "MPID_ILLUST_ミシェイル",
+    "value": "Daisuke Izuka"
+  },
+  {
+    "key": "MPID_ILLUST_ナーシェン",
+    "value": "Yamada Kotaro (山田孝太郎)"
+  },
+  {
+    "key": "MPID_ILLUST_セルジュ",
+    "value": "Wada Sachiko (ワダサチコ)"
+  },
+  {
+    "key": "MPID_ILLUST_カミラ",
+    "value": "Maeshima Shigeki (前嶋重機)"
+  },
+  {
+    "key": "MPID_ILLUST_ベルカ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_ゴードン",
+    "value": "Itagaki Hako (板垣ハコ)"
+  },
+  {
+    "key": "MPID_ILLUST_ジョルジュ",
+    "value": "Mayo (まよ)"
+  },
+  {
+    "key": "MPID_ILLUST_ヴィオール",
+    "value": "Wada Sachiko (ワダサチコ)"
+  },
+  {
+    "key": "MPID_ILLUST_タクミ",
+    "value": "Hino Shinnosuke (日野慎之助)"
+  },
+  {
+    "key": "MPID_ILLUST_セツナ",
+    "value": "Kusugi Toku (久杉トク)"
+  },
+  {
+    "key": "MPID_ILLUST_ゼロ",
+    "value": "Yura (由良)"
+  },
+  {
+    "key": "MPID_ILLUST_マシュー",
+    "value": "Okaya (岡谷)"
+  },
+  {
+    "key": "MPID_ILLUST_ガイア",
+    "value": "Ichiiro Hako (一色箱)"
+  },
+  {
+    "key": "MPID_ILLUST_フェリシア",
+    "value": "HAKO (羽公)"
+  },
+  {
+    "key": "MPID_ILLUST_ジョーカー",
+    "value": "Fujisaka Kimihiko (藤坂公彦)"
+  },
+  {
+    "key": "MPID_ILLUST_サイゾウ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_カゲロウ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_リリーナ",
+    "value": "BUNBUN"
+  },
+  {
+    "key": "MPID_ILLUST_レイ",
+    "value": "Himukai Yuji (日向悠二)"
+  },
+  {
+    "key": "MPID_ILLUST_ソフィーヤ",
+    "value": "Zaza (ザザ)"
+  },
+  {
+    "key": "MPID_ILLUST_サーリャ",
+    "value": "ZIS"
+  },
+  {
+    "key": "MPID_ILLUST_ヘンリー",
+    "value": "Kusugi Toku (久杉トク)"
+  },
+  {
+    "key": "MPID_ILLUST_レオン",
+    "value": "Hino Shinnosuke (日野慎之助)"
+  },
+  {
+    "key": "MPID_ILLUST_リンダ",
+    "value": "Kippu (切符)"
+  },
+  {
+    "key": "MPID_ILLUST_ルフレ男",
+    "value": "Fujiwara Ryo (冨士原良)"
+  },
+  {
+    "key": "MPID_ILLUST_オーディン",
+    "value": "Suekane Kumiko (スエカネクミコ)"
+  },
+  {
+    "key": "MPID_ILLUST_ウルスラ",
+    "value": "Kotobuki Tsukasa (ことぶきつかさ)"
+  },
+  {
+    "key": "MPID_ILLUST_マリク",
+    "value": "Mizuno Kana (水野加奈)"
+  },
+  {
+    "key": "MPID_ILLUST_ニノ",
+    "value": "Amagaitaro (アマガイタロー)"
+  },
+  {
+    "key": "MPID_ILLUST_ルフレ女",
+    "value": "Ueda Yumehito (上田夢人)"
+  },
+  {
+    "key": "MPID_ILLUST_セシリア",
+    "value": "Kita Senri (北千里)"
+  },
+  {
+    "key": "MPID_ILLUST_リフ",
+    "value": "pikomaro"
+  },
+  {
+    "key": "MPID_ILLUST_マリア",
+    "value": "kaya8"
+  },
+  {
+    "key": "MPID_ILLUST_セーラ",
+    "value": "Kusugi Toku (久杉トク)"
+  },
+  {
+    "key": "MPID_ILLUST_リズ",
+    "value": "Zaza (ザザ)"
+  },
+  {
+    "key": "MPID_ILLUST_サクラ",
+    "value": "Fuzichoco (藤ちょこ)"
+  },
+  {
+    "key": "MPID_ILLUST_アサマ",
+    "value": "Okaya (岡谷)"
+  },
+  {
+    "key": "MPID_ILLUST_クラリーネ",
+    "value": "Amagaitaro (アマガイタロー)"
+  },
+  {
+    "key": "MPID_ILLUST_エリーゼ",
+    "value": "HAKO (羽公)"
+  },
+  {
+    "key": "MPID_ILLUST_チキ",
+    "value": "Ito Noizi (いとうのいぢ)"
+  },
+  {
+    "key": "MPID_ILLUST_チキ覚醒",
+    "value": "Ito Noizi (いとうのいぢ)"
+  },
+  {
+    "key": "MPID_ILLUST_ノノ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_カムイ女",
+    "value": "bthx"
+  },
+  {
+    "key": "MPID_ILLUST_ファ",
+    "value": "Himukai Yuji (日向悠二)"
+  },
+  {
+    "key": "MSID_NONE",
+    "value": "-"
+  },
+  {
+    "key": "MSID_H_NONE",
+    "value": "Nada"
+  },
+  {
+    "key": "MSID_鉄の剣",
+    "value": "Espada hierro"
+  },
+  {
+    "key": "MSID_鋼の剣",
+    "value": "Espada acero"
+  },
+  {
+    "key": "MSID_銀の剣",
+    "value": "Espada plata"
+  },
+  {
+    "key": "MSID_銀の剣＋",
+    "value": "Espada plata +"
+  },
+  {
+    "key": "MSID_勇者の剣",
+    "value": "Espada valor"
+  },
+  {
+    "key": "MSID_勇者の剣＋",
+    "value": "Espada valor +"
+  },
+  {
+    "key": "MSID_キルソード",
+    "value": "Espada letal"
+  },
+  {
+    "key": "MSID_キルソード＋",
+    "value": "Espada letal +"
+  },
+  {
+    "key": "MSID_アーマーキラー",
+    "value": "Machacacorazas"
+  },
+  {
+    "key": "MSID_アーマーキラー＋",
+    "value": "Machacacor. +"
+  },
+  {
+    "key": "MSID_旭日の剣",
+    "value": "Espada rubí"
+  },
+  {
+    "key": "MSID_旭日の剣＋",
+    "value": "Espada rubí +"
+  },
+  {
+    "key": "MSID_ファルシオン",
+    "value": "Falchion"
+  },
+  {
+    "key": "MSID_ファルシオン覚醒",
+    "value": "Falchion"
+  },
+  {
+    "key": "MSID_封印の剣",
+    "value": "Esp. de los sellos"
+  },
+  {
+    "key": "MSID_エッケザックス",
+    "value": "Eckesachs"
+  },
+  {
+    "key": "MSID_デュランダル",
+    "value": "Durandal"
+  },
+  {
+    "key": "MSID_ソールカティ",
+    "value": "Sol Katti"
+  },
+  {
+    "key": "MSID_夜刀神",
+    "value": "Yato"
+  },
+  {
+    "key": "MSID_雷神刀",
+    "value": "Raijinto"
+  },
+  {
+    "key": "MSID_ジークフリート",
+    "value": "Siegfried"
+  },
+  {
+    "key": "MSID_フォルクヴァング",
+    "value": "Fólkvangr"
+  },
+  {
+    "key": "MSID_鉄の槍",
+    "value": "Lanza hierro"
+  },
+  {
+    "key": "MSID_鋼の槍",
+    "value": "Lanza acero"
+  },
+  {
+    "key": "MSID_銀の槍",
+    "value": "Lanza plata"
+  },
+  {
+    "key": "MSID_銀の槍＋",
+    "value": "Lanza plata +"
+  },
+  {
+    "key": "MSID_勇者の槍",
+    "value": "Lanza valor"
+  },
+  {
+    "key": "MSID_勇者の槍＋",
+    "value": "Lanza valor +"
+  },
+  {
+    "key": "MSID_キラーランス",
+    "value": "Lanza letal"
+  },
+  {
+    "key": "MSID_キラーランス＋",
+    "value": "Lanza letal +"
+  },
+  {
+    "key": "MSID_貫きの槍",
+    "value": "Pica pesada"
+  },
+  {
+    "key": "MSID_貫きの槍＋",
+    "value": "Pica pesada +"
+  },
+  {
+    "key": "MSID_蒼海の槍",
+    "value": "Lanza zafiro"
+  },
+  {
+    "key": "MSID_蒼海の槍＋",
+    "value": "Lanza zafiro +"
+  },
+  {
+    "key": "MSID_グラディウス",
+    "value": "Gradivus"
+  },
+  {
+    "key": "MSID_フェンサリル",
+    "value": "Fensalir"
+  },
+  {
+    "key": "MSID_鉄の斧",
+    "value": "Hacha hierro"
+  },
+  {
+    "key": "MSID_鋼の斧",
+    "value": "Hacha acero"
+  },
+  {
+    "key": "MSID_銀の斧",
+    "value": "Hacha plata"
+  },
+  {
+    "key": "MSID_銀の斧＋",
+    "value": "Hacha plata +"
+  },
+  {
+    "key": "MSID_勇者の斧",
+    "value": "Hacha valor"
+  },
+  {
+    "key": "MSID_勇者の斧＋",
+    "value": "Hacha valor +"
+  },
+  {
+    "key": "MSID_キラーアクス",
+    "value": "Hacha letal"
+  },
+  {
+    "key": "MSID_キラーアクス＋",
+    "value": "Hacha letal +"
+  },
+  {
+    "key": "MSID_ハンマー",
+    "value": "Martillo"
+  },
+  {
+    "key": "MSID_ハンマー＋",
+    "value": "Martillo +"
+  },
+  {
+    "key": "MSID_深緑の斧",
+    "value": "Hacha esmeralda"
+  },
+  {
+    "key": "MSID_深緑の斧＋",
+    "value": "Hacha esmrld. +"
+  },
+  {
+    "key": "MSID_オートクレール",
+    "value": "Hauteclaire"
+  },
+  {
+    "key": "MSID_アルマーズ",
+    "value": "Armads"
+  },
+  {
+    "key": "MSID_ノーアトゥーン",
+    "value": "Nóatún"
+  },
+  {
+    "key": "MSID_鉄の弓",
+    "value": "Arco hierro"
+  },
+  {
+    "key": "MSID_鋼の弓",
+    "value": "Arco acero"
+  },
+  {
+    "key": "MSID_銀の弓",
+    "value": "Arco plata"
+  },
+  {
+    "key": "MSID_銀の弓＋",
+    "value": "Arco plata +"
+  },
+  {
+    "key": "MSID_勇者の弓",
+    "value": "Arco valor"
+  },
+  {
+    "key": "MSID_勇者の弓＋",
+    "value": "Arco valor +"
+  },
+  {
+    "key": "MSID_キラーボウ",
+    "value": "Arco letal"
+  },
+  {
+    "key": "MSID_キラーボウ＋",
+    "value": "Arco letal +"
+  },
+  {
+    "key": "MSID_暗器殺しの弓",
+    "value": "Arco mortal"
+  },
+  {
+    "key": "MSID_暗器殺しの弓＋",
+    "value": "Arco mortal +"
+  },
+  {
+    "key": "MSID_パルティア",
+    "value": "Parthia"
+  },
+  {
+    "key": "MSID_風神弓",
+    "value": "Yumi Fujin"
+  },
+  {
+    "key": "MSID_鉄の暗器",
+    "value": "Daga hierro"
+  },
+  {
+    "key": "MSID_鋼の暗器",
+    "value": "Daga acero"
+  },
+  {
+    "key": "MSID_銀の暗器",
+    "value": "Daga plata"
+  },
+  {
+    "key": "MSID_銀の暗器＋",
+    "value": "Daga plata +"
+  },
+  {
+    "key": "MSID_紫煙の暗器",
+    "value": "Daga humo"
+  },
+  {
+    "key": "MSID_紫煙の暗器＋",
+    "value": "Daga humo +"
+  },
+  {
+    "key": "MSID_秘毒の暗器",
+    "value": "Daga veneno"
+  },
+  {
+    "key": "MSID_秘毒の暗器＋",
+    "value": "Daga veneno +"
+  },
+  {
+    "key": "MSID_盗賊の暗器",
+    "value": "Daga pícara"
+  },
+  {
+    "key": "MSID_盗賊の暗器＋",
+    "value": "Daga pícara +"
+  },
+  {
+    "key": "MSID_ファイアー",
+    "value": "Fuego"
+  },
+  {
+    "key": "MSID_エルファイアー",
+    "value": "Elfire"
+  },
+  {
+    "key": "MSID_ボルガノン",
+    "value": "Bolganone"
+  },
+  {
+    "key": "MSID_ボルガノン＋",
+    "value": "Bolganone +"
+  },
+  {
+    "key": "MSID_ミィル",
+    "value": "Flux"
+  },
+  {
+    "key": "MSID_ルイン",
+    "value": "Ruina"
+  },
+  {
+    "key": "MSID_ノスフェラート",
+    "value": "Fenrir"
+  },
+  {
+    "key": "MSID_ノスフェラート＋",
+    "value": "Fenrir +"
+  },
+  {
+    "key": "MSID_スレッダラウア",
+    "value": "Cuchillas rubí"
+  },
+  {
+    "key": "MSID_スレッダラウア＋",
+    "value": "Cuchillas rubí +"
+  },
+  {
+    "key": "MSID_ウルファラウア",
+    "value": "Lobo rubí"
+  },
+  {
+    "key": "MSID_ウルファラウア＋",
+    "value": "Lobo rubí +"
+  },
+  {
+    "key": "MSID_ナートラウア",
+    "value": "Cuervo rubí"
+  },
+  {
+    "key": "MSID_ナートラウア＋",
+    "value": "Cuervo rubí +"
+  },
+  {
+    "key": "MSID_ブリュンヒルデ",
+    "value": "Brynhildr"
+  },
+  {
+    "key": "MSID_エリヴァーガル",
+    "value": "Élivágar"
+  },
+  {
+    "key": "MSID_サンダー",
+    "value": "Trueno"
+  },
+  {
+    "key": "MSID_エルサンダー",
+    "value": "Elthunder"
+  },
+  {
+    "key": "MSID_トロン",
+    "value": "Thoron"
+  },
+  {
+    "key": "MSID_トロン＋",
+    "value": "Thoron +"
+  },
+  {
+    "key": "MSID_スレッダブラー",
+    "value": "Cuchillas añil"
+  },
+  {
+    "key": "MSID_スレッダブラー＋",
+    "value": "Cuchillas añil +"
+  },
+  {
+    "key": "MSID_ウルファブラー",
+    "value": "Lobo añil"
+  },
+  {
+    "key": "MSID_ウルファブラー＋",
+    "value": "Lobo añil +"
+  },
+  {
+    "key": "MSID_ナートブラー",
+    "value": "Cuervo añil"
+  },
+  {
+    "key": "MSID_ナートブラー＋",
+    "value": "Cuervo añil +"
+  },
+  {
+    "key": "MSID_オーラ",
+    "value": "Aura"
+  },
+  {
+    "key": "MSID_ヴラスキャルヴ",
+    "value": "Valaskjálf"
+  },
+  {
+    "key": "MSID_ウインド",
+    "value": "Viento"
+  },
+  {
+    "key": "MSID_エルウインド",
+    "value": "Elwind"
+  },
+  {
+    "key": "MSID_レクスカリバー",
+    "value": "Rexcalibur"
+  },
+  {
+    "key": "MSID_レクスカリバー＋",
+    "value": "Rexcalibur +"
+  },
+  {
+    "key": "MSID_スレッダグラン",
+    "value": "Cuchillas jade"
+  },
+  {
+    "key": "MSID_スレッダグラン＋",
+    "value": "Cuchillas jade +"
+  },
+  {
+    "key": "MSID_ウルファグラン",
+    "value": "Lobo jade"
+  },
+  {
+    "key": "MSID_ウルファグラン＋",
+    "value": "Lobo jade +"
+  },
+  {
+    "key": "MSID_ナートグラン",
+    "value": "Cuervo jade"
+  },
+  {
+    "key": "MSID_ナートグラン＋",
+    "value": "Cuervo jade +"
+  },
+  {
+    "key": "MSID_エクスカリバー",
+    "value": "Excalibur"
+  },
+  {
+    "key": "MSID_アサルト",
+    "value": "Asalto"
+  },
+  {
+    "key": "MSID_アブゾーブ",
+    "value": "Absorción"
+  },
+  {
+    "key": "MSID_フィアー",
+    "value": "Miedo"
+  },
+  {
+    "key": "MSID_スロウ",
+    "value": "Lentitud"
+  },
+  {
+    "key": "MSID_グラビティ",
+    "value": "Gravedad"
+  },
+  {
+    "key": "MSID_ペイン",
+    "value": "Dolor"
+  },
+  {
+    "key": "MSID_パニック",
+    "value": "Pánico"
+  },
+  {
+    "key": "MSID_火のブレス",
+    "value": "Soplo de fuego"
+  },
+  {
+    "key": "MSID_火炎のブレス",
+    "value": "Soplo de fuego +"
+  },
+  {
+    "key": "MSID_灼熱のブレス",
+    "value": "Lengua ígnea"
+  },
+  {
+    "key": "MSID_灼熱のブレス＋",
+    "value": "Lengua ígnea +"
+  },
+  {
+    "key": "MSID_光のブレス",
+    "value": "Soplo de luz"
+  },
+  {
+    "key": "MSID_光のブレス＋",
+    "value": "Soplo de luz +"
+  },
+  {
+    "key": "MSID_闇のブレス",
+    "value": "Soplo sombrío"
+  },
+  {
+    "key": "MSID_闇のブレス＋",
+    "value": "Soplo sombrío +"
+  },
+  {
+    "key": "MSID_雷のブレス",
+    "value": "Soplo trueno"
+  },
+  {
+    "key": "MSID_雷のブレス＋",
+    "value": "Soplo trueno +"
+  },
+  {
+    "key": "MSID_ライブ",
+    "value": "Curar"
+  },
+  {
+    "key": "MSID_リライブ",
+    "value": "Mejorar"
+  },
+  {
+    "key": "MSID_リブロー",
+    "value": "Sanar"
+  },
+  {
+    "key": "MSID_リカバー",
+    "value": "Recuperar"
+  },
+  {
+    "key": "MSID_ヒール",
+    "value": "Reconciliar"
+  },
+  {
+    "key": "MSID_セインツ",
+    "value": "Ofrendar"
+  },
+  {
+    "key": "MSID_リバース",
+    "value": "Rehabilitar"
+  },
+  {
+    "key": "MSID_入れ替え",
+    "value": "Intercambiar"
+  },
+  {
+    "key": "MSID_体当たり",
+    "value": "Empujar"
+  },
+  {
+    "key": "MSID_ぶちかまし",
+    "value": "Choque"
+  },
+  {
+    "key": "MSID_引き寄せ",
+    "value": "Enroque"
+  },
+  {
+    "key": "MSID_引き戻し",
+    "value": "Refugio"
+  },
+  {
+    "key": "MSID_回り込み",
+    "value": "Teleportación"
+  },
+  {
+    "key": "MSID_攻撃の応援",
+    "value": "Potenciar Atq."
+  },
+  {
+    "key": "MSID_速さの応援",
+    "value": "Potenciar Vel."
+  },
+  {
+    "key": "MSID_守備の応援",
+    "value": "Potenciar Def."
+  },
+  {
+    "key": "MSID_魔防の応援",
+    "value": "Potenciar Res."
+  },
+  {
+    "key": "MSID_献身",
+    "value": "Fervor absoluto"
+  },
+  {
+    "key": "MSID_一喝",
+    "value": "Orden imperiosa"
+  },
+  {
+    "key": "MSID_相互援助",
+    "value": "Entrega vital"
+  },
+  {
+    "key": "MSID_歌う",
+    "value": "Cantar"
+  },
+  {
+    "key": "MSID_踊る",
+    "value": "Bailar"
+  },
+  {
+    "key": "MSID_天空",
+    "value": "Éter"
+  },
+  {
+    "key": "MSID_星影",
+    "value": "Luz estelar"
+  },
+  {
+    "key": "MSID_凶星",
+    "value": "Destello"
+  },
+  {
+    "key": "MSID_流星",
+    "value": "Astrea"
+  },
+  {
+    "key": "MSID_陽影",
+    "value": "Alba"
+  },
+  {
+    "key": "MSID_夕陽",
+    "value": "Ocaso"
+  },
+  {
+    "key": "MSID_太陽",
+    "value": "Helios"
+  },
+  {
+    "key": "MSID_影月",
+    "value": "Novilunio"
+  },
+  {
+    "key": "MSID_月虹",
+    "value": "Arcoíris lunar"
+  },
+  {
+    "key": "MSID_月光",
+    "value": "Selene"
+  },
+  {
+    "key": "MSID_雪辱",
+    "value": "Desquite"
+  },
+  {
+    "key": "MSID_血讐",
+    "value": "Represalia"
+  },
+  {
+    "key": "MSID_復讐",
+    "value": "Venganza"
+  },
+  {
+    "key": "MSID_伏竜",
+    "value": "Sombra dragón"
+  },
+  {
+    "key": "MSID_竜裂",
+    "value": "Aura dragón"
+  },
+  {
+    "key": "MSID_竜穿",
+    "value": "Colmillo dragón"
+  },
+  {
+    "key": "MSID_蛍火",
+    "value": "Ascua"
+  },
+  {
+    "key": "MSID_緋炎",
+    "value": "Pira"
+  },
+  {
+    "key": "MSID_華炎",
+    "value": "Vulcano"
+  },
+  {
+    "key": "MSID_氷点",
+    "value": "Viento gélido"
+  },
+  {
+    "key": "MSID_氷蒼",
+    "value": "Iceberg"
+  },
+  {
+    "key": "MSID_氷華",
+    "value": "Glaciar"
+  },
+  {
+    "key": "MSID_砕火",
+    "value": "Llama creciente"
+  },
+  {
+    "key": "MSID_爆火",
+    "value": "Llama cegadora"
+  },
+  {
+    "key": "MSID_烈火",
+    "value": "Llama asoladora"
+  },
+  {
+    "key": "MSID_砕風",
+    "value": "Viento creciente"
+  },
+  {
+    "key": "MSID_爆風",
+    "value": "Viento cegador"
+  },
+  {
+    "key": "MSID_烈風",
+    "value": "Viento asolador"
+  },
+  {
+    "key": "MSID_砕雷",
+    "value": "Rayo creciente"
+  },
+  {
+    "key": "MSID_爆雷",
+    "value": "Rayo cegador"
+  },
+  {
+    "key": "MSID_烈雷",
+    "value": "Rayo asolador"
+  },
+  {
+    "key": "MSID_砕光",
+    "value": "Luz creciente"
+  },
+  {
+    "key": "MSID_爆光",
+    "value": "Luz cegadora"
+  },
+  {
+    "key": "MSID_烈光",
+    "value": "Luz asoladora"
+  },
+  {
+    "key": "MSID_小盾",
+    "value": "Broquel"
+  },
+  {
+    "key": "MSID_長盾",
+    "value": "Escudo"
+  },
+  {
+    "key": "MSID_大盾",
+    "value": "Pavés"
+  },
+  {
+    "key": "MSID_聖衣",
+    "value": "Túnica sagrada"
+  },
+  {
+    "key": "MSID_聖兜",
+    "value": "Hábito sagrado"
+  },
+  {
+    "key": "MSID_聖盾",
+    "value": "Égida"
+  },
+  {
+    "key": "MSID_祈り",
+    "value": "Milagro"
+  },
+  {
+    "key": "MSID_治癒",
+    "value": "Regeneración"
+  },
+  {
+    "key": "MSID_天照",
+    "value": "Luz celestial"
+  },
+  {
+    "key": "MSID_業火の祝福",
+    "value": "Pirobálsamo"
+  },
+  {
+    "key": "MSID_疾風の祝福",
+    "value": "Anemobálsamo"
+  },
+  {
+    "key": "MSID_大地の祝福",
+    "value": "Geobálsamo"
+  },
+  {
+    "key": "MSID_静水の祝福",
+    "value": "Hidrobálsamo"
+  },
+  {
+    "key": "MSID_疾風迅雷",
+    "value": "Asalto impetuoso"
+  },
+  {
+    "key": "MSID_HP1",
+    "value": "PV +3"
+  },
+  {
+    "key": "MSID_HP2",
+    "value": "PV +4"
+  },
+  {
+    "key": "MSID_HP3",
+    "value": "PV +5"
+  },
+  {
+    "key": "MSID_攻撃1",
+    "value": "Ataque +1"
+  },
+  {
+    "key": "MSID_攻撃2",
+    "value": "Ataque +2"
+  },
+  {
+    "key": "MSID_攻撃3",
+    "value": "Ataque +3"
+  },
+  {
+    "key": "MSID_速さ1",
+    "value": "Velocidad +1"
+  },
+  {
+    "key": "MSID_速さ2",
+    "value": "Velocidad +2"
+  },
+  {
+    "key": "MSID_速さ3",
+    "value": "Velocidad +3"
+  },
+  {
+    "key": "MSID_守備1",
+    "value": "Defensa +1"
+  },
+  {
+    "key": "MSID_守備2",
+    "value": "Defensa +2"
+  },
+  {
+    "key": "MSID_守備3",
+    "value": "Defensa +3"
+  },
+  {
+    "key": "MSID_魔防1",
+    "value": "Resistencia +1"
+  },
+  {
+    "key": "MSID_魔防2",
+    "value": "Resistencia +2"
+  },
+  {
+    "key": "MSID_魔防3",
+    "value": "Resistencia +3"
+  },
+  {
+    "key": "MSID_獅子奮迅1",
+    "value": "Furia 1"
+  },
+  {
+    "key": "MSID_獅子奮迅2",
+    "value": "Furia 2"
+  },
+  {
+    "key": "MSID_獅子奮迅3",
+    "value": "Furia 3"
+  },
+  {
+    "key": "MSID_死線1",
+    "value": "Vida y muerte 1"
+  },
+  {
+    "key": "MSID_死線2",
+    "value": "Vida y muerte 2"
+  },
+  {
+    "key": "MSID_死線3",
+    "value": "Vida y muerte 3"
+  },
+  {
+    "key": "MSID_鬼神の一撃1",
+    "value": "Golpe mortal 1"
+  },
+  {
+    "key": "MSID_鬼神の一撃2",
+    "value": "Golpe mortal 2"
+  },
+  {
+    "key": "MSID_鬼神の一撃3",
+    "value": "Golpe mortal 3"
+  },
+  {
+    "key": "MSID_飛燕の一撃1",
+    "value": "Golpe fugaz 1"
+  },
+  {
+    "key": "MSID_飛燕の一撃2",
+    "value": "Golpe fugaz 2"
+  },
+  {
+    "key": "MSID_飛燕の一撃3",
+    "value": "Golpe fugaz 3"
+  },
+  {
+    "key": "MSID_金剛の一撃1",
+    "value": "Golpe blindado 1"
+  },
+  {
+    "key": "MSID_金剛の一撃2",
+    "value": "Golpe blindado 2"
+  },
+  {
+    "key": "MSID_金剛の一撃3",
+    "value": "Golpe blindado 3"
+  },
+  {
+    "key": "MSID_明鏡の一撃1",
+    "value": "Golpe protector 1"
+  },
+  {
+    "key": "MSID_明鏡の一撃2",
+    "value": "Golpe protector 2"
+  },
+  {
+    "key": "MSID_明鏡の一撃3",
+    "value": "Golpe protector 3"
+  },
+  {
+    "key": "MSID_攻撃の覚醒1",
+    "value": "Bravata Atq. 1"
+  },
+  {
+    "key": "MSID_攻撃の覚醒2",
+    "value": "Bravata Atq. 2"
+  },
+  {
+    "key": "MSID_攻撃の覚醒3",
+    "value": "Bravata Atq. 3"
+  },
+  {
+    "key": "MSID_速さの覚醒1",
+    "value": "Bravata Vel. 1"
+  },
+  {
+    "key": "MSID_速さの覚醒2",
+    "value": "Bravata Vel. 2"
+  },
+  {
+    "key": "MSID_速さの覚醒3",
+    "value": "Bravata Vel. 3"
+  },
+  {
+    "key": "MSID_守備の覚醒1",
+    "value": "Bravata Def. 1"
+  },
+  {
+    "key": "MSID_守備の覚醒2",
+    "value": "Bravata Def. 2"
+  },
+  {
+    "key": "MSID_守備の覚醒3",
+    "value": "Bravata Def. 3"
+  },
+  {
+    "key": "MSID_魔防の覚醒1",
+    "value": "Bravata Res. 1"
+  },
+  {
+    "key": "MSID_魔防の覚醒2",
+    "value": "Bravata Res. 2"
+  },
+  {
+    "key": "MSID_魔防の覚醒3",
+    "value": "Bravata Res. 3"
+  },
+  {
+    "key": "MSID_相性激化1",
+    "value": "Triadepto 1"
+  },
+  {
+    "key": "MSID_相性激化2",
+    "value": "Triadepto 2"
+  },
+  {
+    "key": "MSID_相性激化3",
+    "value": "Triadepto 3"
+  },
+  {
+    "key": "MSID_近距離反撃",
+    "value": "Contra corta"
+  },
+  {
+    "key": "MSID_遠距離反撃",
+    "value": "Contra larga"
+  },
+  {
+    "key": "MSID_スヴェルの盾",
+    "value": "Escudo Svalinn"
+  },
+  {
+    "key": "MSID_グラニの盾",
+    "value": "Escudo Grani"
+  },
+  {
+    "key": "MSID_アイオテの盾",
+    "value": "Escudo Iote"
+  },
+  {
+    "key": "MSID_叩き込み",
+    "value": "Repeler"
+  },
+  {
+    "key": "MSID_切り込み",
+    "value": "Permutar"
+  },
+  {
+    "key": "MSID_引き込み",
+    "value": "Atraer"
+  },
+  {
+    "key": "MSID_すり抜け1",
+    "value": "Pasar 1"
+  },
+  {
+    "key": "MSID_すり抜け2",
+    "value": "Pasar 2"
+  },
+  {
+    "key": "MSID_すり抜け3",
+    "value": "Pasar 3"
+  },
+  {
+    "key": "MSID_進軍阻止1",
+    "value": "Obstruir 1"
+  },
+  {
+    "key": "MSID_進軍阻止2",
+    "value": "Obstruir 2"
+  },
+  {
+    "key": "MSID_進軍阻止3",
+    "value": "Obstruir 3"
+  },
+  {
+    "key": "MSID_救援の行路1",
+    "value": "Alas piadosas 1"
+  },
+  {
+    "key": "MSID_救援の行路2",
+    "value": "Alas piadosas 2"
+  },
+  {
+    "key": "MSID_救援の行路3",
+    "value": "Alas piadosas 3"
+  },
+  {
+    "key": "MSID_離脱の行路1",
+    "value": "Evasión 1"
+  },
+  {
+    "key": "MSID_離脱の行路2",
+    "value": "Evasión 2"
+  },
+  {
+    "key": "MSID_離脱の行路3",
+    "value": "Evasión 3"
+  },
+  {
+    "key": "MSID_待ち伏せ1",
+    "value": "Ventaja 1"
+  },
+  {
+    "key": "MSID_待ち伏せ2",
+    "value": "Ventaja 2"
+  },
+  {
+    "key": "MSID_待ち伏せ3",
+    "value": "Ventaja 3"
+  },
+  {
+    "key": "MSID_攻め立て1",
+    "value": "Arremetida 1"
+  },
+  {
+    "key": "MSID_攻め立て2",
+    "value": "Arremetida 2"
+  },
+  {
+    "key": "MSID_攻め立て3",
+    "value": "Arremetida 3"
+  },
+  {
+    "key": "MSID_差し違え1",
+    "value": "Rompecontras 1"
+  },
+  {
+    "key": "MSID_差し違え2",
+    "value": "Rompecontras 2"
+  },
+  {
+    "key": "MSID_差し違え3",
+    "value": "Rompecontras 3"
+  },
+  {
+    "key": "MSID_切り返し1",
+    "value": "Presteza 1"
+  },
+  {
+    "key": "MSID_切り返し2",
+    "value": "Presteza 2"
+  },
+  {
+    "key": "MSID_切り返し3",
+    "value": "Presteza 3"
+  },
+  {
+    "key": "MSID_守備隊形1",
+    "value": "Previsor 1"
+  },
+  {
+    "key": "MSID_守備隊形2",
+    "value": "Previsor 2"
+  },
+  {
+    "key": "MSID_守備隊形3",
+    "value": "Previsor 3"
+  },
+  {
+    "key": "MSID_蛇毒1",
+    "value": "Asalto tóxico 1"
+  },
+  {
+    "key": "MSID_蛇毒2",
+    "value": "Asalto tóxico 2"
+  },
+  {
+    "key": "MSID_蛇毒3",
+    "value": "Asalto tóxico 3"
+  },
+  {
+    "key": "MSID_回復1",
+    "value": "Recuperación 1"
+  },
+  {
+    "key": "MSID_回復2",
+    "value": "Recuperación 2"
+  },
+  {
+    "key": "MSID_回復3",
+    "value": "Recuperación 3"
+  },
+  {
+    "key": "MSID_ご奉仕の喜び1",
+    "value": "Vivir para servir 1"
+  },
+  {
+    "key": "MSID_ご奉仕の喜び2",
+    "value": "Vivir para servir 2"
+  },
+  {
+    "key": "MSID_ご奉仕の喜び3",
+    "value": "Vivir para servir 3"
+  },
+  {
+    "key": "MSID_攻撃封じ1",
+    "value": "Sellar Atq. 1"
+  },
+  {
+    "key": "MSID_攻撃封じ2",
+    "value": "Sellar Atq. 2"
+  },
+  {
+    "key": "MSID_攻撃封じ3",
+    "value": "Sellar Atq. 3"
+  },
+  {
+    "key": "MSID_速さ封じ1",
+    "value": "Sellar Vel. 1"
+  },
+  {
+    "key": "MSID_速さ封じ2",
+    "value": "Sellar Vel. 2"
+  },
+  {
+    "key": "MSID_速さ封じ3",
+    "value": "Sellar Vel. 3"
+  },
+  {
+    "key": "MSID_守備封じ1",
+    "value": "Sellar Def. 1"
+  },
+  {
+    "key": "MSID_守備封じ2",
+    "value": "Sellar Def. 2"
+  },
+  {
+    "key": "MSID_守備封じ3",
+    "value": "Sellar Def. 3"
+  },
+  {
+    "key": "MSID_魔防封じ1",
+    "value": "Sellar Res. 1"
+  },
+  {
+    "key": "MSID_魔防封じ2",
+    "value": "Sellar Res. 2"
+  },
+  {
+    "key": "MSID_魔防封じ3",
+    "value": "Sellar Res. 3"
+  },
+  {
+    "key": "MSID_剣殺し1",
+    "value": "Antiespadas 1"
+  },
+  {
+    "key": "MSID_剣殺し2",
+    "value": "Antiespadas 2"
+  },
+  {
+    "key": "MSID_剣殺し3",
+    "value": "Antiespadas 3"
+  },
+  {
+    "key": "MSID_槍殺し1",
+    "value": "Quiebralanzas 1"
+  },
+  {
+    "key": "MSID_槍殺し2",
+    "value": "Quiebralanzas 2"
+  },
+  {
+    "key": "MSID_槍殺し3",
+    "value": "Quiebralanzas 3"
+  },
+  {
+    "key": "MSID_斧殺し1",
+    "value": "Rompehachas 1"
+  },
+  {
+    "key": "MSID_斧殺し2",
+    "value": "Rompehachas 2"
+  },
+  {
+    "key": "MSID_斧殺し3",
+    "value": "Rompehachas 3"
+  },
+  {
+    "key": "MSID_弓殺し1",
+    "value": "Rompearcos 1"
+  },
+  {
+    "key": "MSID_弓殺し2",
+    "value": "Rompearcos 2"
+  },
+  {
+    "key": "MSID_弓殺し3",
+    "value": "Rompearcos 3"
+  },
+  {
+    "key": "MSID_暗器殺し1",
+    "value": "Quiebradagas 1"
+  },
+  {
+    "key": "MSID_暗器殺し2",
+    "value": "Quiebradagas 2"
+  },
+  {
+    "key": "MSID_暗器殺し3",
+    "value": "Quiebradagas 3"
+  },
+  {
+    "key": "MSID_赤魔殺し1",
+    "value": "Rajagrimorios R 1"
+  },
+  {
+    "key": "MSID_赤魔殺し2",
+    "value": "Rajagrimorios R 2"
+  },
+  {
+    "key": "MSID_赤魔殺し3",
+    "value": "Rajagrimorios R 3"
+  },
+  {
+    "key": "MSID_青魔殺し1",
+    "value": "Rajagrimorios A 1"
+  },
+  {
+    "key": "MSID_青魔殺し2",
+    "value": "Rajagrimorios A 2"
+  },
+  {
+    "key": "MSID_青魔殺し3",
+    "value": "Rajagrimorios A 3"
+  },
+  {
+    "key": "MSID_緑魔殺し1",
+    "value": "Rajagrimorios V 1"
+  },
+  {
+    "key": "MSID_緑魔殺し2",
+    "value": "Rajagrimorios V 2"
+  },
+  {
+    "key": "MSID_緑魔殺し3",
+    "value": "Rajagrimorios V 3"
+  },
+  {
+    "key": "MSID_生の息吹1",
+    "value": "Soplo de vida 1"
+  },
+  {
+    "key": "MSID_生の息吹2",
+    "value": "Soplo de vida 2"
+  },
+  {
+    "key": "MSID_生の息吹3",
+    "value": "Soplo de vida 3"
+  },
+  {
+    "key": "MSID_死の吐息1",
+    "value": "Golpe salvaje 1"
+  },
+  {
+    "key": "MSID_死の吐息2",
+    "value": "Golpe salvaje 2"
+  },
+  {
+    "key": "MSID_死の吐息3",
+    "value": "Golpe salvaje 3"
+  },
+  {
+    "key": "MSID_攻撃の紋章1",
+    "value": "Mejora Atq. 1"
+  },
+  {
+    "key": "MSID_攻撃の紋章2",
+    "value": "Mejora Atq. 2"
+  },
+  {
+    "key": "MSID_攻撃の紋章3",
+    "value": "Mejora Atq. 3"
+  },
+  {
+    "key": "MSID_速さの紋章1",
+    "value": "Mejora Vel. 1"
+  },
+  {
+    "key": "MSID_速さの紋章2",
+    "value": "Mejora Vel. 2"
+  },
+  {
+    "key": "MSID_速さの紋章3",
+    "value": "Mejora Vel. 3"
+  },
+  {
+    "key": "MSID_守備の紋章1",
+    "value": "Mejora Def. 1"
+  },
+  {
+    "key": "MSID_守備の紋章2",
+    "value": "Mejora Def. 2"
+  },
+  {
+    "key": "MSID_守備の紋章3",
+    "value": "Mejora Def. 3"
+  },
+  {
+    "key": "MSID_魔防の紋章1",
+    "value": "Mejora Res. 1"
+  },
+  {
+    "key": "MSID_魔防の紋章2",
+    "value": "Mejora Res. 2"
+  },
+  {
+    "key": "MSID_魔防の紋章3",
+    "value": "Mejora Res. 3"
+  },
+  {
+    "key": "MSID_重刃の紋章",
+    "value": "Ataque corazas"
+  },
+  {
+    "key": "MSID_重盾の紋章",
+    "value": "Muro corazas"
+  },
+  {
+    "key": "MSID_騎刃の紋章",
+    "value": "Ataque equino"
+  },
+  {
+    "key": "MSID_騎盾の紋章",
+    "value": "Muro equino"
+  },
+  {
+    "key": "MSID_飛刃の紋章",
+    "value": "Ataque aéreo"
+  },
+  {
+    "key": "MSID_飛盾の紋章",
+    "value": "Muro aéreo"
+  },
+  {
+    "key": "MSID_攻撃の鼓舞1",
+    "value": "Impulso Atq. 1"
+  },
+  {
+    "key": "MSID_攻撃の鼓舞2",
+    "value": "Impulso Atq. 2"
+  },
+  {
+    "key": "MSID_攻撃の鼓舞3",
+    "value": "Impulso Atq. 3"
+  },
+  {
+    "key": "MSID_速さの鼓舞1",
+    "value": "Impulso Vel. 1"
+  },
+  {
+    "key": "MSID_速さの鼓舞2",
+    "value": "Impulso Vel. 2"
+  },
+  {
+    "key": "MSID_速さの鼓舞3",
+    "value": "Impulso Vel. 3"
+  },
+  {
+    "key": "MSID_守備の鼓舞1",
+    "value": "Impulso Def. 1"
+  },
+  {
+    "key": "MSID_守備の鼓舞2",
+    "value": "Impulso Def. 2"
+  },
+  {
+    "key": "MSID_守備の鼓舞3",
+    "value": "Impulso Def. 3"
+  },
+  {
+    "key": "MSID_魔防の鼓舞1",
+    "value": "Impulso Res. 1"
+  },
+  {
+    "key": "MSID_魔防の鼓舞2",
+    "value": "Impulso Res. 2"
+  },
+  {
+    "key": "MSID_魔防の鼓舞3",
+    "value": "Impulso Res. 3"
+  },
+  {
+    "key": "MSID_重刃の鼓舞",
+    "value": "Oleada acoraz."
+  },
+  {
+    "key": "MSID_重盾の鼓舞",
+    "value": "Baluarte acoraz."
+  },
+  {
+    "key": "MSID_騎刃の鼓舞",
+    "value": "Oleada caball."
+  },
+  {
+    "key": "MSID_騎盾の鼓舞",
+    "value": "Baluarte caball."
+  },
+  {
+    "key": "MSID_飛刃の鼓舞",
+    "value": "Oleada aérea"
+  },
+  {
+    "key": "MSID_飛盾の鼓舞",
+    "value": "Baluarte aéreo"
+  },
+  {
+    "key": "MSID_攻撃の威嚇1",
+    "value": "Reducir Atq. 1"
+  },
+  {
+    "key": "MSID_攻撃の威嚇2",
+    "value": "Reducir Atq. 2"
+  },
+  {
+    "key": "MSID_攻撃の威嚇3",
+    "value": "Reducir Atq. 3"
+  },
+  {
+    "key": "MSID_速さの威嚇1",
+    "value": "Reducir Vel. 1"
+  },
+  {
+    "key": "MSID_速さの威嚇2",
+    "value": "Reducir Vel. 2"
+  },
+  {
+    "key": "MSID_速さの威嚇3",
+    "value": "Reducir Vel. 3"
+  },
+  {
+    "key": "MSID_守備の威嚇1",
+    "value": "Reducir Def. 1"
+  },
+  {
+    "key": "MSID_守備の威嚇2",
+    "value": "Reducir Def. 2"
+  },
+  {
+    "key": "MSID_守備の威嚇3",
+    "value": "Reducir Def. 3"
+  },
+  {
+    "key": "MSID_魔防の威嚇1",
+    "value": "Reducir Res. 1"
+  },
+  {
+    "key": "MSID_魔防の威嚇2",
+    "value": "Reducir Res. 2"
+  },
+  {
+    "key": "MSID_魔防の威嚇3",
+    "value": "Reducir Res. 3"
+  },
+  {
+    "key": "MSID_H_鉄の剣",
+    "value": null
+  },
+  {
+    "key": "MSID_H_鋼の剣",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の剣",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の剣＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_勇者の剣",
+    "value": "Vel. -5. La unidad ataca dos veces\ncuando acomete primero al enemigo."
+  },
+  {
+    "key": "MSID_H_勇者の剣＋",
+    "value": "Vel. -5. La unidad ataca dos veces\ncuando acomete primero al enemigo."
+  },
+  {
+    "key": "MSID_H_キルソード",
+    "value": "Facilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_キルソード＋",
+    "value": "Facilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_アーマーキラー",
+    "value": "Eficaz contra unidades acorazadas."
+  },
+  {
+    "key": "MSID_H_アーマーキラー＋",
+    "value": "Eficaz contra unidades acorazadas."
+  },
+  {
+    "key": "MSID_H_旭日の剣",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +20 %. Con desventaja, Atq. -20 %."
+  },
+  {
+    "key": "MSID_H_旭日の剣＋",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +20 %. Con desventaja, Atq. -20 %."
+  },
+  {
+    "key": "MSID_H_ファルシオン",
+    "value": "Eficaz contra dragones. La unidad recupera\n10 PV cada tres turnos."
+  },
+  {
+    "key": "MSID_H_ファルシオン覚醒",
+    "value": "Eficaz contra dragones. La unidad recupera\n10 PV cada tres turnos."
+  },
+  {
+    "key": "MSID_H_封印の剣",
+    "value": "Def. y Res. +2 cuando la unidad sufre un ataque."
+  },
+  {
+    "key": "MSID_H_エッケザックス",
+    "value": "Def. -4 a todos los enemigos situados en un radio\nde dos casillas al comienzo de su próximo turno."
+  },
+  {
+    "key": "MSID_H_デュランダル",
+    "value": "Atq. +4 cuando la unidad inicia el ataque."
+  },
+  {
+    "key": "MSID_H_ソールカティ",
+    "value": "Si la unidad acomete primero al enemigo\ncon PV ≤ 50 %, atacará dos veces de\nmanera inmediata si es posible."
+  },
+  {
+    "key": "MSID_H_夜刀神",
+    "value": "Vel. +4 cuando la unidad inicia el ataque."
+  },
+  {
+    "key": "MSID_H_雷神刀",
+    "value": "La unidad puede contratacar sin importar\nla distancia a la que esté el enemigo."
+  },
+  {
+    "key": "MSID_H_ジークフリート",
+    "value": "La unidad puede contratacar sin importar\nla distancia a la que esté el enemigo."
+  },
+  {
+    "key": "MSID_H_フォルクヴァング",
+    "value": "Atq. +5 al comienzo del turno\nsi la unidad tiene PV ≤ 50 %."
+  },
+  {
+    "key": "MSID_H_鉄の槍",
+    "value": null
+  },
+  {
+    "key": "MSID_H_鋼の槍",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の槍",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の槍＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_勇者の槍",
+    "value": "Vel. -5. La unidad ataca dos veces\ncuando acomete primero al enemigo."
+  },
+  {
+    "key": "MSID_H_勇者の槍＋",
+    "value": "Vel. -5. La unidad ataca dos veces\ncuando acomete primero al enemigo."
+  },
+  {
+    "key": "MSID_H_キラーランス",
+    "value": "Facilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_キラーランス＋",
+    "value": "Facilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_貫きの槍",
+    "value": "Eficaz contra unidades acorazadas."
+  },
+  {
+    "key": "MSID_H_貫きの槍＋",
+    "value": "Eficaz contra unidades acorazadas."
+  },
+  {
+    "key": "MSID_H_蒼海の槍",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +20 %; con desventaja, Atq. -20 %."
+  },
+  {
+    "key": "MSID_H_蒼海の槍＋",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +20 %; con desventaja, Atq. -20 %."
+  },
+  {
+    "key": "MSID_H_グラディウス",
+    "value": "La unidad puede contratacar sin importar\nla distancia a la que esté el enemigo."
+  },
+  {
+    "key": "MSID_H_フェンサリル",
+    "value": "Atq. -4 a todos los enemigos situados en un radio\nde dos casillas al comienzo de su próximo turno."
+  },
+  {
+    "key": "MSID_H_鉄の斧",
+    "value": null
+  },
+  {
+    "key": "MSID_H_鋼の斧",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の斧",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の斧＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_勇者の斧",
+    "value": "Vel. -5. Si la unidad inicia el ataque,\neste será doble."
+  },
+  {
+    "key": "MSID_H_勇者の斧＋",
+    "value": "Vel. -5. Si la unidad inicia el ataque,\neste será doble."
+  },
+  {
+    "key": "MSID_H_キラーアクス",
+    "value": "Facilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_キラーアクス＋",
+    "value": "Facilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_ハンマー",
+    "value": "Eficaz contra unidades acorazadas."
+  },
+  {
+    "key": "MSID_H_ハンマー＋",
+    "value": "Eficaz contra unidades acorazadas."
+  },
+  {
+    "key": "MSID_H_深緑の斧",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +20 %; con desventaja, Atq. -20 %."
+  },
+  {
+    "key": "MSID_H_深緑の斧＋",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +20 %; con desventaja, Atq. -20 %."
+  },
+  {
+    "key": "MSID_H_オートクレール",
+    "value": "Facilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_アルマーズ",
+    "value": "Ataque doble garantizado si la unidad\nsufre un ataque con PV ≥ 80 %."
+  },
+  {
+    "key": "MSID_H_ノーアトゥーン",
+    "value": "Con PV ≤ 40 %, la unidad puede moverse\na una casilla adyacente a la de un aliado."
+  },
+  {
+    "key": "MSID_H_鉄の弓",
+    "value": "Eficaz contra unidades aéreas."
+  },
+  {
+    "key": "MSID_H_鋼の弓",
+    "value": "Eficaz contra unidades aéreas."
+  },
+  {
+    "key": "MSID_H_銀の弓",
+    "value": "Eficaz contra unidades aéreas."
+  },
+  {
+    "key": "MSID_H_銀の弓＋",
+    "value": "Eficaz contra unidades aéreas."
+  },
+  {
+    "key": "MSID_H_勇者の弓",
+    "value": "Vel. -5. Eficaz contra unidades aéreas.\nLa unidad ataca dos veces cuando\nacomete primero al enemigo."
+  },
+  {
+    "key": "MSID_H_勇者の弓＋",
+    "value": "Vel. -5. Eficaz contra unidades aéreas.\nLa unidad ataca dos veces cuando\nacomete primero al enemigo."
+  },
+  {
+    "key": "MSID_H_キラーボウ",
+    "value": "Eficaz contra unidades aéreas.\nFacilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_キラーボウ＋",
+    "value": "Eficaz contra unidades aéreas.\nFacilita la ejecución de habilidades\nespeciales (-1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_暗器殺しの弓",
+    "value": "Eficaz frente a unidades aéreas. Si el enemigo\nes de tipo gris y usa una daga, la unidad\nejecutará un ataque doble, mientras que\nel rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_暗器殺しの弓＋",
+    "value": "Eficaz frente a unidades aéreas. Si el enemigo\nes de tipo gris y usa una daga, la unidad\nejecutará un ataque doble, mientras que\nel rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_パルティア",
+    "value": "Eficaz contra unidades aéreas. Res. +4 cuando\nla unidad inicia un ataque."
+  },
+  {
+    "key": "MSID_H_風神弓",
+    "value": "Eficaz contra unidades aéreas. Si la unidad\ntiene PV ≥ 50 %, podrá atravesar casillas\nocupadas por rivales."
+  },
+  {
+    "key": "MSID_H_鉄の暗器",
+    "value": "Tras un ataque, si la unidad ha\nacometido al rival, Def. y Res. -3\nal enemigo en su próxima acción."
+  },
+  {
+    "key": "MSID_H_鋼の暗器",
+    "value": "Tras un ataque, si la unidad ha\nacometido al rival, Def. y Res. -3\nal enemigo en su próxima acción."
+  },
+  {
+    "key": "MSID_H_銀の暗器",
+    "value": "Tras un ataque, si la unidad ha\nacometido al rival, Def. y Res. -5\nal enemigo en su próxima acción."
+  },
+  {
+    "key": "MSID_H_銀の暗器＋",
+    "value": "Tras un ataque, si la unidad ha\nacometido al rival, Def. y Res. -7\nal enemigo en su próxima acción."
+  },
+  {
+    "key": "MSID_H_紫煙の暗器",
+    "value": "Tras un ataque, si la unidad ha acometido al\nrival, Def. y Res. -4 a todos los enemigos en un\nradio de dos casillas del rival en su próxima acción."
+  },
+  {
+    "key": "MSID_H_紫煙の暗器＋",
+    "value": "Tras un ataque, si la unidad ha acometido al\nrival, Def. y Res. -6 a todos los enemigos en un\nradio de dos casillas del rival en su próxima acción."
+  },
+  {
+    "key": "MSID_H_秘毒の暗器",
+    "value": "Eficaz contra unidades de infantería. Tras un\nataque, si la unidad ha acometido a un enemigo\nde infantería, Def. y Res. -4 a ese enemigo en\nsu próxima acción."
+  },
+  {
+    "key": "MSID_H_秘毒の暗器＋",
+    "value": "Eficaz contra unidades de infantería. Tras un\nataque, si la unidad ha acometido a un enemigo\nde infantería, Def. y Res. -6 a ese enemigo en\nsu próxima acción."
+  },
+  {
+    "key": "MSID_H_盗賊の暗器",
+    "value": "Tras un ataque, si la unidad ha acometido al rival,\nDef. y Res. -3 al enemigo en su próxima acción.\nDef. y Res. +3 a la unidad hasta el final del turno."
+  },
+  {
+    "key": "MSID_H_盗賊の暗器＋",
+    "value": "Tras un ataque, si la unidad ha acometido al rival,\nDef. y Res. -5 al enemigo en su próxima acción.\nDef. y Res. +5 a la unidad hasta el final del turno."
+  },
+  {
+    "key": "MSID_H_ファイアー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_エルファイアー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ボルガノン",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ボルガノン＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ミィル",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ルイン",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ノスフェラート",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ノスフェラート＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_スレッダラウア",
+    "value": "Dificulta habilidades especiales (+1 a la\ncuenta regresiva). Cualquier bonificación\nde esta unidad se suma al daño que inflija."
+  },
+  {
+    "key": "MSID_H_スレッダラウア＋",
+    "value": "Dificulta habilidades especiales (+1 a la\ncuenta regresiva). Cualquier bonificación\nde esta unidad se suma al daño que inflija."
+  },
+  {
+    "key": "MSID_H_ウルファラウア",
+    "value": "Eficaz contra unidades de caballería."
+  },
+  {
+    "key": "MSID_H_ウルファラウア＋",
+    "value": "Eficaz contra unidades de caballería."
+  },
+  {
+    "key": "MSID_H_ナートラウア",
+    "value": "Otorga ventaja de arma ante rivales\nde color gris."
+  },
+  {
+    "key": "MSID_H_ナートラウア＋",
+    "value": "Otorga ventaja de arma ante rivales\nde color gris."
+  },
+  {
+    "key": "MSID_H_ブリュンヒルデ",
+    "value": "Si la unidad inicia el ataque, el movimiento\ndel rival queda restringido a un radio máximo\nde una casilla en su próxima acción."
+  },
+  {
+    "key": "MSID_H_サンダー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_エルサンダー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_トロン",
+    "value": null
+  },
+  {
+    "key": "MSID_H_トロン＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_スレッダブラー",
+    "value": "Dificulta habilidades especiales (+1 a la\ncuenta regresiva). Cualquier bonificación\nde esta unidad se suma al daño que inflija."
+  },
+  {
+    "key": "MSID_H_スレッダブラー＋",
+    "value": "Dificulta habilidades especiales (+1 a la\ncuenta regresiva). Cualquier bonificación\nde esta unidad se suma al daño que inflija."
+  },
+  {
+    "key": "MSID_H_ウルファブラー",
+    "value": "Eficaz contra unidades de caballería."
+  },
+  {
+    "key": "MSID_H_ウルファブラー＋",
+    "value": "Eficaz contra unidades de caballería."
+  },
+  {
+    "key": "MSID_H_ナートブラー",
+    "value": "Otorga ventaja de arma ante rivales\nde color gris."
+  },
+  {
+    "key": "MSID_H_ナートブラー＋",
+    "value": "Otorga ventaja de arma ante rivales\nde color gris."
+  },
+  {
+    "key": "MSID_H_オーラ",
+    "value": "Tras un ataque iniciado por la unidad,\ndevuelve 5 PV a aliados adyacentes."
+  },
+  {
+    "key": "MSID_H_ヴラスキャルヴ",
+    "value": "Con PV ≤ 50 %, la unidad puede contratacar\nantes del primer ataque enemigo si el\nenemigo acomete primero."
+  },
+  {
+    "key": "MSID_H_ウインド",
+    "value": null
+  },
+  {
+    "key": "MSID_H_エルウインド",
+    "value": null
+  },
+  {
+    "key": "MSID_H_レクスカリバー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_レクスカリバー＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_スレッダグラン",
+    "value": "Dificulta habilidades especiales (+1 a la\ncuenta regresiva). Cualquier bonificación\nde esta unidad se suma al daño que inflija."
+  },
+  {
+    "key": "MSID_H_スレッダグラン＋",
+    "value": "Dificulta habilidades especiales (+1 a la\ncuenta regresiva). Cualquier bonificación\nde esta unidad se suma al daño que inflija."
+  },
+  {
+    "key": "MSID_H_ウルファグラン",
+    "value": "Eficaz contra unidades de caballería."
+  },
+  {
+    "key": "MSID_H_ウルファグラン＋",
+    "value": "Eficaz contra unidades de caballería."
+  },
+  {
+    "key": "MSID_H_ナートグラン",
+    "value": "Otorga ventaja de arma ante rivales\nde color gris."
+  },
+  {
+    "key": "MSID_H_ナートグラン＋",
+    "value": "Otorga ventaja de arma ante rivales\nde color gris."
+  },
+  {
+    "key": "MSID_H_エクスカリバー",
+    "value": "Eficaz contra unidades aéreas."
+  },
+  {
+    "key": "MSID_H_エリヴァーガル",
+    "value": "Si la unidad inicia el ataque, las bonificaciones de\nlos rivales en un radio de dos casillas se convierten\nen penalizaciones durante su próxima acción."
+  },
+  {
+    "key": "MSID_H_アサルト",
+    "value": null
+  },
+  {
+    "key": "MSID_H_アブゾーブ",
+    "value": "La unidad recupera PV iguales\nal 50 % del daño infligido."
+  },
+  {
+    "key": "MSID_H_フィアー",
+    "value": "Tras un ataque, si la unidad ha acometido\nal rival, Atq. -6 al enemigo en su próxima acción."
+  },
+  {
+    "key": "MSID_H_スロウ",
+    "value": "Tras un ataque, si la unidad ha acometido\nal rival, Vel. -6 al enemigo en su próxima acción."
+  },
+  {
+    "key": "MSID_H_グラビティ",
+    "value": "Tras un ataque, si la unidad ha acometido al rival,\nel movimiento del enemigo queda restringido a un\nradio máximo de una casilla en su próxima acción."
+  },
+  {
+    "key": "MSID_H_ペイン",
+    "value": "Inflige 10 puntos de daño al enemigo tras\nun ataque si la unidad ha acometido al rival."
+  },
+  {
+    "key": "MSID_H_パニック",
+    "value": "Tras un ataque, si la unidad ha acometido al rival,\nlas bonificaciones del enemigo se convierten en\npenalizaciones en su próxima acción."
+  },
+  {
+    "key": "MSID_H_火のブレス",
+    "value": null
+  },
+  {
+    "key": "MSID_H_火炎のブレス",
+    "value": null
+  },
+  {
+    "key": "MSID_H_灼熱のブレス",
+    "value": null
+  },
+  {
+    "key": "MSID_H_灼熱のブレス＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_光のブレス",
+    "value": "Tras un ataque iniciado por la unidad,\nDef. y Res. +4 a los aliados adyacentes\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_光のブレス＋",
+    "value": "Tras un ataque iniciado por la unidad,\nDef. y Res. +4 a los aliados adyacentes\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_闇のブレス",
+    "value": "Tras un ataque iniciado por la unidad,\nAtq. y Vel. -5 en la próxima acción de los\nrivales situados en un radio de dos casillas."
+  },
+  {
+    "key": "MSID_H_闇のブレス＋",
+    "value": "Tras un ataque iniciado por la unidad,\nAtq. y Vel. -5 en la próxima acción de los\nrivales situados en un radio de dos casillas."
+  },
+  {
+    "key": "MSID_H_雷のブレス",
+    "value": "Dificulta habilidades especiales (+1 a la cuenta\nregresiva). La unidad puede contratacar sin\nimportar la distancia a la que esté el enemigo."
+  },
+  {
+    "key": "MSID_H_雷のブレス＋",
+    "value": "Dificulta habilidades especiales (+1 a la cuenta\nregresiva). La unidad puede contratacar sin\nimportar la distancia a la que esté el enemigo."
+  },
+  {
+    "key": "MSID_H_ライブ",
+    "value": "Devuelve 5 PV."
+  },
+  {
+    "key": "MSID_H_リライブ",
+    "value": "Devuelve 10 PV."
+  },
+  {
+    "key": "MSID_H_リブロー",
+    "value": "Devuelve 8 PV. Alc.: 2."
+  },
+  {
+    "key": "MSID_H_リカバー",
+    "value": "Dificulta habilidades especiales (+1 a\nla cuenta regresiva). Devuelve 15 PV."
+  },
+  {
+    "key": "MSID_H_ヒール",
+    "value": "Devuelve 7 PV tanto al objetivo como a la unidad."
+  },
+  {
+    "key": "MSID_H_セインツ",
+    "value": "El objetivo recupera 7 PV más todo el daño\nsufrido por la unidad. Esta recupera la mitad\ndel daño sufrido. Dificulta habilidades\nespeciales (+1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_リバース",
+    "value": "Devuelve al objetivo 7 PV, o más si\ntiene PV < 50 % (cuantos menos tenga,\nmás recuperará). Dificulta habilidades\nespeciales (+1 a la cuenta regresiva)."
+  },
+  {
+    "key": "MSID_H_入れ替え",
+    "value": "La unidad y un aliado adyacente\nintercambian posiciones."
+  },
+  {
+    "key": "MSID_H_体当たり",
+    "value": "Aleja a un aliado a una casilla de distancia."
+  },
+  {
+    "key": "MSID_H_ぶちかまし",
+    "value": "Aleja a un aliado a dos casillas de distancia."
+  },
+  {
+    "key": "MSID_H_引き寄せ",
+    "value": "La unidad retrocede una casilla y atrae\na un aliado a su posición anterior."
+  },
+  {
+    "key": "MSID_H_引き戻し",
+    "value": "Desplaza a un aliado desde una casilla\nadyacente a la unidad a su opuesta."
+  },
+  {
+    "key": "MSID_H_回り込み",
+    "value": "Desplaza a la unidad desde una casilla\nadyacente a un aliado a su opuesta."
+  },
+  {
+    "key": "MSID_H_攻撃の応援",
+    "value": "Atq. +4 a un aliado adyacente\nhasta el final del turno."
+  },
+  {
+    "key": "MSID_H_速さの応援",
+    "value": "Vel. +4 a un aliado adyacente\nhasta el final del turno."
+  },
+  {
+    "key": "MSID_H_守備の応援",
+    "value": "Def. +4 a un aliado adyacente\nhasta el final del turno."
+  },
+  {
+    "key": "MSID_H_魔防の応援",
+    "value": "Res. +4 a un aliado adyacente\nhasta el final del turno."
+  },
+  {
+    "key": "MSID_H_献身",
+    "value": "La unidad pierde 10 PV para donárselos\na un aliado adyacente. La unidad donante\nno podrá quedar con menos de 1 PV."
+  },
+  {
+    "key": "MSID_H_一喝",
+    "value": "Convierte las penalizaciones del objetivo\nen bonificaciones."
+  },
+  {
+    "key": "MSID_H_相互援助",
+    "value": "Intercambia los PV de la unidad con los\nde un aliado (ninguno puede superar así\nsus PV máximos)."
+  },
+  {
+    "key": "MSID_H_歌う",
+    "value": "Otorga al objetivo una acción adicional.\n(No se puede usar en unidades con\nlas habilidades Cantar ni Bailar)."
+  },
+  {
+    "key": "MSID_H_踊る",
+    "value": "Otorga al objetivo una acción adicional.\n(No se puede usar en unidades con\nlas habilidades Cantar ni Bailar)."
+  },
+  {
+    "key": "MSID_H_天空",
+    "value": "Def. y Res. -50 % al rival durante el ataque.\nLa unidad recupera la mitad del daño infligido."
+  },
+  {
+    "key": "MSID_H_星影",
+    "value": "Inflige un 50 % de daño adicional."
+  },
+  {
+    "key": "MSID_H_凶星",
+    "value": "Inflige un 50 % de daño adicional."
+  },
+  {
+    "key": "MSID_H_流星",
+    "value": "Inflige un 150 % de daño adicional."
+  },
+  {
+    "key": "MSID_H_陽影",
+    "value": "La unidad recupera el 30 % del daño infligido."
+  },
+  {
+    "key": "MSID_H_夕陽",
+    "value": "La unidad recupera el 30 % del daño infligido."
+  },
+  {
+    "key": "MSID_H_太陽",
+    "value": "La unidad recupera el 50 % del daño infligido."
+  },
+  {
+    "key": "MSID_H_影月",
+    "value": "Def. y Res. -30 % al rival durante el ataque."
+  },
+  {
+    "key": "MSID_H_月虹",
+    "value": "Def. y Res. -30 % al rival durante el ataque."
+  },
+  {
+    "key": "MSID_H_月光",
+    "value": "Def. y Res. -50 % al rival durante el ataque."
+  },
+  {
+    "key": "MSID_H_雪辱",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 30 % del daño que ha sufrido la unidad."
+  },
+  {
+    "key": "MSID_H_血讐",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 30 % del daño que ha sufrido la unidad."
+  },
+  {
+    "key": "MSID_H_復讐",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 50 % del daño que ha sufrido la unidad."
+  },
+  {
+    "key": "MSID_H_伏竜",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 30 % del Atq. de la unidad."
+  },
+  {
+    "key": "MSID_H_竜裂",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 30 % del Atq. de la unidad."
+  },
+  {
+    "key": "MSID_H_竜穿",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 50 % del Atq. de la unidad."
+  },
+  {
+    "key": "MSID_H_蛍火",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 50 % de la Def. de la unidad."
+  },
+  {
+    "key": "MSID_H_緋炎",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 50 % de la Def. de la unidad."
+  },
+  {
+    "key": "MSID_H_華炎",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 80 % de la Def. de la unidad."
+  },
+  {
+    "key": "MSID_H_氷点",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 50 % de la Res. de la unidad."
+  },
+  {
+    "key": "MSID_H_氷蒼",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 50 % de la Res. de la unidad."
+  },
+  {
+    "key": "MSID_H_氷華",
+    "value": "Aumenta el daño en una cuantía equivalente\nal 80 % de la Res. de la unidad."
+  },
+  {
+    "key": "MSID_H_砕火",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\nAtq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_爆火",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales situados en los alrededores sufren\ndaño igual a Atq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_烈火",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\n1.5 × (Atq. unidad - Def. o Res. rival)."
+  },
+  {
+    "key": "MSID_H_砕風",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\nAtq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_爆風",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales situados en los alrededores sufren\ndaño igual Atq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_烈風",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\n1.5 × (Atq. unidad - Def. o Res. rival)."
+  },
+  {
+    "key": "MSID_H_砕雷",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\nAtq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_爆雷",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales situados en los alrededores sufren\ndaño igual Atq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_烈雷",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\n1.5 × (Atq. unidad - Def. o Res. rival)."
+  },
+  {
+    "key": "MSID_H_砕光",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\nAtq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_爆光",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales situados en los alrededores sufren\ndaño igual Atq. (unidad) - Def. o Res. (rival)."
+  },
+  {
+    "key": "MSID_H_烈光",
+    "value": "Antes de un ataque iniciado por esta unidad,\nlos rivales cercanos sufren daño igual a\n1.5 × (Atq. unidad - Def. o Res. rival)."
+  },
+  {
+    "key": "MSID_H_小盾",
+    "value": "Reduce el daño infligido por enemigos\nadyacentes en un 30 %."
+  },
+  {
+    "key": "MSID_H_長盾",
+    "value": "Reduce el daño infligido por enemigos\nadyacentes en un 30 %."
+  },
+  {
+    "key": "MSID_H_大盾",
+    "value": "Reduce el daño infligido por enemigos\nadyacentes en un 50 %."
+  },
+  {
+    "key": "MSID_H_聖衣",
+    "value": "Reduce el daño infligido por enemigos situados\nen un radio de dos casillas en un 30 %."
+  },
+  {
+    "key": "MSID_H_聖兜",
+    "value": "Reduce el daño infligido por enemigos situados\nen un radio de dos casillas en un 30 %."
+  },
+  {
+    "key": "MSID_H_聖盾",
+    "value": "Reduce el daño infligido por enemigos situados\nen un radio de dos casillas en un 50 %."
+  },
+  {
+    "key": "MSID_H_祈り",
+    "value": "Con PV > 1, la unidad sobrevive a\nun ataque mortal con 1 PV restante."
+  },
+  {
+    "key": "MSID_H_治癒",
+    "value": "Al sanar a un aliado con un bastón,\nrestaura 10 PV adicionales."
+  },
+  {
+    "key": "MSID_H_天照",
+    "value": "Al usar un bastón para curar a un aliado,\nlos demás aliados recuperan 10 PV."
+  },
+  {
+    "key": "MSID_H_業火の祝福",
+    "value": "Al usar un bastón para curar a un aliado,\ntodos los aliados obtienen Atq. +4\ndurante un turno."
+  },
+  {
+    "key": "MSID_H_疾風の祝福",
+    "value": "Al usar un bastón para curar a un aliado,\ntodos los aliados obtienen Vel. +4\ndurante un turno."
+  },
+  {
+    "key": "MSID_H_大地の祝福",
+    "value": "Al usar un bastón para curar a un aliado,\ntodos los aliados obtienen Def. +4\ndurante un turno."
+  },
+  {
+    "key": "MSID_H_静水の祝福",
+    "value": "Al usar un bastón para curar a un aliado,\ntodos los aliados obtienen Res. +4\ndurante un turno."
+  },
+  {
+    "key": "MSID_H_疾風迅雷",
+    "value": "Si la unidad inicia un ataque, disfrutará\nde una acción adicional a continuación.\n(Solo una vez por turno)."
+  },
+  {
+    "key": "MSID_H_HP1",
+    "value": "Otorga PV máximos +3."
+  },
+  {
+    "key": "MSID_H_HP2",
+    "value": "Otorga PV máximos +4."
+  },
+  {
+    "key": "MSID_H_HP3",
+    "value": "Otorga PV máximos +5."
+  },
+  {
+    "key": "MSID_H_攻撃1",
+    "value": "Otorga Atq. +1."
+  },
+  {
+    "key": "MSID_H_攻撃2",
+    "value": "Otorga Atq. +2."
+  },
+  {
+    "key": "MSID_H_攻撃3",
+    "value": "Otorga Atq. +3."
+  },
+  {
+    "key": "MSID_H_速さ1",
+    "value": "Otorga Vel. +1."
+  },
+  {
+    "key": "MSID_H_速さ2",
+    "value": "Otorga Vel. +2."
+  },
+  {
+    "key": "MSID_H_速さ3",
+    "value": "Otorga Vel. +3."
+  },
+  {
+    "key": "MSID_H_守備1",
+    "value": "Otorga Def. +1."
+  },
+  {
+    "key": "MSID_H_守備2",
+    "value": "Otorga Def. +2."
+  },
+  {
+    "key": "MSID_H_守備3",
+    "value": "Otorga Def. +3."
+  },
+  {
+    "key": "MSID_H_魔防1",
+    "value": "Otorga Res. +1."
+  },
+  {
+    "key": "MSID_H_魔防2",
+    "value": "Otorga Res. +2."
+  },
+  {
+    "key": "MSID_H_魔防3",
+    "value": "Otorga Res. +3."
+  },
+  {
+    "key": "MSID_H_獅子奮迅1",
+    "value": "Atq., Vel., Def. y Res. +1. La unidad\npierde 2 PV tras un ataque."
+  },
+  {
+    "key": "MSID_H_獅子奮迅2",
+    "value": "Atq., Vel., Def. y Res. +2. La unidad\npierde 4 PV tras un ataque."
+  },
+  {
+    "key": "MSID_H_獅子奮迅3",
+    "value": "Atq., Vel., Def. y Res. +3. La unidad\npierde 6 PV tras un ataque."
+  },
+  {
+    "key": "MSID_H_死線1",
+    "value": "Otorga Atq. y Vel. +3.\nCausa Def. y Res. -3."
+  },
+  {
+    "key": "MSID_H_死線2",
+    "value": "Otorga Atq. y Vel. +4.\nCausa Def. y Res. -4."
+  },
+  {
+    "key": "MSID_H_死線3",
+    "value": "Otorga Atq. y Vel. +5.\nCausa Def. y Res. -5."
+  },
+  {
+    "key": "MSID_H_鬼神の一撃1",
+    "value": "Atq. +2 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_鬼神の一撃2",
+    "value": "Atq. +4 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_鬼神の一撃3",
+    "value": "Atq. +6 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_飛燕の一撃1",
+    "value": "Vel. +2 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_飛燕の一撃2",
+    "value": "Vel. +4 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_飛燕の一撃3",
+    "value": "Vel. +6 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_金剛の一撃1",
+    "value": "Def. +2 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_金剛の一撃2",
+    "value": "Def. +4 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_金剛の一撃3",
+    "value": "Def. +6 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_明鏡の一撃1",
+    "value": "Res. +2 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_明鏡の一撃2",
+    "value": "Res. +4 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_明鏡の一撃3",
+    "value": "Res. +6 durante un ataque si lo inicia la unidad."
+  },
+  {
+    "key": "MSID_H_攻撃の覚醒1",
+    "value": "Con PV ≤ 50 %, Atq. +3\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_攻撃の覚醒2",
+    "value": "Con PV ≤ 50 %, Atq. +5\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_攻撃の覚醒3",
+    "value": "Con PV ≤ 50 %, Atq. +7\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_速さの覚醒1",
+    "value": "Con PV ≤ 50 %, Vel. +3\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_速さの覚醒2",
+    "value": "Con PV ≤ 50 %, Vel. +5\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_速さの覚醒3",
+    "value": "Con PV ≤ 50 %, Vel. +7\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_守備の覚醒1",
+    "value": "Con PV ≤ 50 %, Def. +3\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_守備の覚醒2",
+    "value": "Con PV ≤ 50 %, Def. +5\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_守備の覚醒3",
+    "value": "Con PV ≤ 50 %, Def. +7\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_魔防の覚醒1",
+    "value": "Con PV ≤ 50 %, Res. +3\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_魔防の覚醒2",
+    "value": "Con PV ≤ 50 %, Res. +5\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_魔防の覚醒3",
+    "value": "Con PV ≤ 50 %, Res. +7\nal comienzo del turno."
+  },
+  {
+    "key": "MSID_H_相性激化1",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +10 %; con desventaja, Atq. -10 %."
+  },
+  {
+    "key": "MSID_H_相性激化2",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +15 %; con desventaja, Atq. -15 %."
+  },
+  {
+    "key": "MSID_H_相性激化3",
+    "value": "Con ventaja en el triángulo de armas,\nAtq. +20 %; con desventaja, Atq. -20 %."
+  },
+  {
+    "key": "MSID_H_近距離反撃",
+    "value": "La unidad puede contratacar sin importar\nla distancia a la que esté el enemigo."
+  },
+  {
+    "key": "MSID_H_遠距離反撃",
+    "value": "La unidad puede contratacar sin importar\nla distancia a la que esté el enemigo."
+  },
+  {
+    "key": "MSID_H_スヴェルの盾",
+    "value": "Anula las bonificaciones de eficacia\ncontra unidades acorazadas."
+  },
+  {
+    "key": "MSID_H_グラニの盾",
+    "value": "Anula las bonificaciones de eficacia\ncontra unidades de caballería."
+  },
+  {
+    "key": "MSID_H_アイオテの盾",
+    "value": "Anula las bonificaciones de eficacia\ncontra unidades aéreas."
+  },
+  {
+    "key": "MSID_H_叩き込み",
+    "value": "Tras un ataque iniciado por la unidad,\naleja al rival una casilla."
+  },
+  {
+    "key": "MSID_H_切り込み",
+    "value": "Tras un ataque iniciado por la unidad,\nesta y el rival intercambian posiciones."
+  },
+  {
+    "key": "MSID_H_引き込み",
+    "value": "Tras un ataque iniciado por la unidad,\nesta se aleja una casilla, y el rival ocupa\nla posición anterior de la unidad."
+  },
+  {
+    "key": "MSID_H_すり抜け1",
+    "value": "Con PV ≥ 75 %, la unidad podrá atravesar\ncasillas ocupadas por rivales."
+  },
+  {
+    "key": "MSID_H_すり抜け2",
+    "value": "Con PV ≥ 50 %, la unidad podrá atravesar\ncasillas ocupadas por rivales."
+  },
+  {
+    "key": "MSID_H_すり抜け3",
+    "value": "Con PV ≥ 25 %, la unidad podrá atravesar\ncasillas ocupadas por rivales."
+  },
+  {
+    "key": "MSID_H_進軍阻止1",
+    "value": "Con PV ≥ 90 %, impide a los rivales atravesar\ncasillas adyacentes a la unidad.\n(Sin efecto frente a la habilidad Pasar)."
+  },
+  {
+    "key": "MSID_H_進軍阻止2",
+    "value": "Con PV ≥ 70 %, impide a los rivales atravesar\ncasillas adyacentes a la unidad.\n(Sin efecto frente a la habilidad Pasar)."
+  },
+  {
+    "key": "MSID_H_進軍阻止3",
+    "value": "Con PV ≥ 50 %, impide a los rivales atravesar\ncasillas adyacentes a la unidad.\n(Sin efecto frente a la habilidad Pasar)."
+  },
+  {
+    "key": "MSID_H_救援の行路1",
+    "value": "Permite a la unidad desplazarse a una casilla\nadyacente a cualquier aliado cuyos PV ≤ 30 %."
+  },
+  {
+    "key": "MSID_H_救援の行路2",
+    "value": "Permite a la unidad desplazarse a una casilla\nadyacente a cualquier aliado cuyos PV ≤ 40 %."
+  },
+  {
+    "key": "MSID_H_救援の行路3",
+    "value": "Permite a la unidad desplazarse a una casilla\nadyacente a cualquier aliado cuyos PV ≤ 50 %."
+  },
+  {
+    "key": "MSID_H_離脱の行路1",
+    "value": "Con PV ≤ 30 %, permite a la unidad desplazarse\na una casilla adyacente a cualquier aliado."
+  },
+  {
+    "key": "MSID_H_離脱の行路2",
+    "value": "Con PV ≤ 40 %, permite a la unidad desplazarse\na una casilla adyacente a cualquier aliado."
+  },
+  {
+    "key": "MSID_H_離脱の行路3",
+    "value": "Con PV ≤ 50 %, permite a la unidad desplazarse\na una casilla adyacente a cualquier aliado."
+  },
+  {
+    "key": "MSID_H_待ち伏せ1",
+    "value": "Con PV ≤ 25 %, la unidad ataca primero\ncuando el rival inicie el ataque."
+  },
+  {
+    "key": "MSID_H_待ち伏せ2",
+    "value": "Con PV ≤ 50 %, la unidad ataca primero\ncuando el rival inicie el ataque."
+  },
+  {
+    "key": "MSID_H_待ち伏せ3",
+    "value": "Con PV ≤ 75 %, la unidad ataca primero\ncuando el rival inicie el ataque."
+  },
+  {
+    "key": "MSID_H_攻め立て1",
+    "value": "Si la unidad acomete primero al enemigo\ncon PV ≤ 25 %, atacará dos veces de\nmanera inmediata si es posible."
+  },
+  {
+    "key": "MSID_H_攻め立て2",
+    "value": "Si la unidad acomete primero al enemigo\ncon PV ≤ 50 %, atacará dos veces de\nmanera inmediata si es posible."
+  },
+  {
+    "key": "MSID_H_攻め立て3",
+    "value": "Si la unidad acomete primero al enemigo\ncon PV ≤ 75 %, atacará dos veces de\nmanera inmediata si es posible."
+  },
+  {
+    "key": "MSID_H_差し違え1",
+    "value": "Otorga automáticamente un ataque doble\nsi la unidad tiene PV ≤ 30 % e inicia un ataque\ncontra un rival que pueda contratacar."
+  },
+  {
+    "key": "MSID_H_差し違え2",
+    "value": "Otorga automáticamente un ataque doble\nsi la unidad tiene PV ≤ 40 % e inicia un ataque\ncontra un rival que pueda contratacar."
+  },
+  {
+    "key": "MSID_H_差し違え3",
+    "value": "Otorga automáticamente un ataque doble\nsi la unidad tiene PV ≤ 50 % e inicia un ataque\ncontra un rival que pueda contratacar."
+  },
+  {
+    "key": "MSID_H_切り返し1",
+    "value": "Con PV ≥ 90 %, otorga un ataque doble\nsi el enemigo inicia un ataque."
+  },
+  {
+    "key": "MSID_H_切り返し2",
+    "value": "Con PV ≥ 80 %, otorga un ataque doble\nsi el enemigo inicia un ataque."
+  },
+  {
+    "key": "MSID_H_切り返し3",
+    "value": "Con PV ≥ 70 %, otorga un ataque doble\nsi el enemigo inicia un ataque."
+  },
+  {
+    "key": "MSID_H_守備隊形1",
+    "value": "Con PV ≥ 90 %, impide ataques dobles\ntanto de la unidad como del rival."
+  },
+  {
+    "key": "MSID_H_守備隊形2",
+    "value": "Con PV ≥ 70 %, impide ataques dobles\ntanto de la unidad como del rival."
+  },
+  {
+    "key": "MSID_H_守備隊形3",
+    "value": "Con PV ≥ 50 %, impide ataques dobles\ntanto de la unidad como del rival."
+  },
+  {
+    "key": "MSID_H_蛇毒1",
+    "value": "Tras un ataque iniciado por la unidad,\ninflige 4 puntos de daño al enemigo."
+  },
+  {
+    "key": "MSID_H_蛇毒2",
+    "value": "Tras un ataque iniciado por la unidad,\ninflige 7 puntos de daño al enemigo."
+  },
+  {
+    "key": "MSID_H_蛇毒3",
+    "value": "Tras un ataque iniciado por la unidad,\ninflige 10 puntos de daño al enemigo."
+  },
+  {
+    "key": "MSID_H_回復1",
+    "value": "Devuelve 10 PV cada cuatro turnos."
+  },
+  {
+    "key": "MSID_H_回復2",
+    "value": "Devuelve 10 PV cada tres turnos."
+  },
+  {
+    "key": "MSID_H_回復3",
+    "value": "Devuelve 10 PV cada dos turnos."
+  },
+  {
+    "key": "MSID_H_ご奉仕の喜び1",
+    "value": "Al usar un bastón para curar a un aliado, la unidad\nrecupera el 50 % de los PV restaurados."
+  },
+  {
+    "key": "MSID_H_ご奉仕の喜び2",
+    "value": "Al usar un bastón para curar a un aliado, la unidad\nrecupera el 75 % de los PV restaurados."
+  },
+  {
+    "key": "MSID_H_ご奉仕の喜び3",
+    "value": "Al usar un bastón para curar a un aliado, la unidad\nrecupera tantos PV como restaure."
+  },
+  {
+    "key": "MSID_H_攻撃封じ1",
+    "value": "Tras un ataque, Atq. -3 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_攻撃封じ2",
+    "value": "Tras un ataque, Atq. -5 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_攻撃封じ3",
+    "value": "Tras un ataque, Atq. -7 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_速さ封じ1",
+    "value": "Tras un ataque, Vel. -3 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_速さ封じ2",
+    "value": "Tras un ataque, Vel. -5 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_速さ封じ3",
+    "value": "Tras un ataque, Vel. -7 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_守備封じ1",
+    "value": "Tras un ataque, Def. -3 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_守備封じ2",
+    "value": "Tras un ataque, Def. -5 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_守備封じ3",
+    "value": "Tras un ataque, Def. -7 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_魔防封じ1",
+    "value": "Tras un ataque, Res. -3 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_魔防封じ2",
+    "value": "Tras un ataque, Res. -5 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_魔防封じ3",
+    "value": "Tras un ataque, Res. -7 al rival\nen su próxima acción."
+  },
+  {
+    "key": "MSID_H_剣殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo usa una espada,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_剣殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo usa una espada,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_剣殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo usa una espada,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_槍殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo usa una lanza,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_槍殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo usa una lanza,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_槍殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo usa una lanza,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_斧殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo usa un hacha,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_斧殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo usa un hacha,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_斧殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo usa un hacha,\nla unidad ejecutará un ataque doble, mientras\nque el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_弓殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo es una unidad\ngris y usa un arco, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_弓殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo es una unidad\ngris y usa un arco, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_弓殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo es una unidad\ngris y usa un arco, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_暗器殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo es de tipo gris\ny usa una daga, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_暗器殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo es de tipo gris\ny usa una daga, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_暗器殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo es de tipo gris\ny usa una daga, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_赤魔殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo usa un\ngrimorio rojo, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_赤魔殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo usa un\ngrimorio rojo, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_赤魔殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo usa un\ngrimorio rojo, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_青魔殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo usa un\ngrimorio azul, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_青魔殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo usa un\ngrimorio azul, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_青魔殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo usa un\ngrimorio azul, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_緑魔殺し1",
+    "value": "Con PV ≥ 90 %, y si el enemigo usa un\ngrimorio verde, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_緑魔殺し2",
+    "value": "Con PV ≥ 70 %, y si el enemigo usa un\ngrimorio verde, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_緑魔殺し3",
+    "value": "Con PV ≥ 50 %, y si el enemigo usa un\ngrimorio verde, la unidad ejecutará un ataque\ndoble, mientras que el rival no podrá hacerlo."
+  },
+  {
+    "key": "MSID_H_生の息吹1",
+    "value": "Tras un ataque iniciado por la unidad,\nlos aliados adyacentes recuperan 3 PV."
+  },
+  {
+    "key": "MSID_H_生の息吹2",
+    "value": "Tras un ataque iniciado por la unidad,\nlos aliados adyacentes recuperan 5 PV."
+  },
+  {
+    "key": "MSID_H_生の息吹3",
+    "value": "Tras un ataque iniciado por la unidad,\nlos aliados adyacentes recuperan 7 PV."
+  },
+  {
+    "key": "MSID_H_死の吐息1",
+    "value": "Tras un ataque iniciado por la unidad,\nlos rivales situados en un radio de dos\ncasillas pierden 3 PV."
+  },
+  {
+    "key": "MSID_H_死の吐息2",
+    "value": "Tras un ataque iniciado por la unidad,\nlos rivales situados en un radio de dos\ncasillas pierden 5 PV."
+  },
+  {
+    "key": "MSID_H_死の吐息3",
+    "value": "Tras un ataque iniciado por la unidad,\nlos rivales situados en un radio de dos\ncasillas pierden 7 PV."
+  },
+  {
+    "key": "MSID_H_攻撃の紋章1",
+    "value": "Atq. +2 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_攻撃の紋章2",
+    "value": "Atq. +3 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_攻撃の紋章3",
+    "value": "Atq. +4 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_速さの紋章1",
+    "value": "Vel. +2 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_速さの紋章2",
+    "value": "Vel. +3 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_速さの紋章3",
+    "value": "Vel. +4 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_守備の紋章1",
+    "value": "Def. +2 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_守備の紋章2",
+    "value": "Def. +3 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_守備の紋章3",
+    "value": "Def. +4 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_魔防の紋章1",
+    "value": "Res. +2 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_魔防の紋章2",
+    "value": "Res. +3 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_魔防の紋章3",
+    "value": "Res. +4 a los aliados adyacentes\ndurante ataques."
+  },
+  {
+    "key": "MSID_H_重刃の紋章",
+    "value": "Atq. y Vel. +4 a tus unidades acorazadas\nen un radio de dos casillas durante ataques."
+  },
+  {
+    "key": "MSID_H_重盾の紋章",
+    "value": "Def. y Res. +4 a tus unidades acorazadas\nen un radio de dos casillas durante ataques."
+  },
+  {
+    "key": "MSID_H_騎刃の紋章",
+    "value": "Atq. y Vel. +4 a tus unidades de caballería\nen un radio de dos casillas durante ataques."
+  },
+  {
+    "key": "MSID_H_騎盾の紋章",
+    "value": "Def. y Res. +4 a tus unidades de caballería\nen un radio de dos casillas durante ataques."
+  },
+  {
+    "key": "MSID_H_飛刃の紋章",
+    "value": "Atq. y Vel. +4 a tus unidades aéreas en\nun radio de dos casillas durante ataques."
+  },
+  {
+    "key": "MSID_H_飛盾の紋章",
+    "value": "Def. y Res. +4 a tus unidades aéreas en\nun radio de dos casillas durante ataques."
+  },
+  {
+    "key": "MSID_H_攻撃の鼓舞1",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Atq. +2 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_攻撃の鼓舞2",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Atq. +3 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_攻撃の鼓舞3",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Atq. +4 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_速さの鼓舞1",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Vel. +2 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_速さの鼓舞2",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Vel. +3 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_速さの鼓舞3",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Vel. +4 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_守備の鼓舞1",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Def. +2 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_守備の鼓舞2",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Def. +3 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_守備の鼓舞3",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Def. +4 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_魔防の鼓舞1",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Res. +2 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_魔防の鼓舞2",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Res. +3 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_魔防の鼓舞3",
+    "value": "Los aliados adyacentes al principio del turno\nobtienen Res. +4 durante el resto del turno."
+  },
+  {
+    "key": "MSID_H_重刃の鼓舞",
+    "value": "Las unidades acorazadas aliadas adyacentes\nal principio del turno obtienen Atq. y Vel. +6\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_重盾の鼓舞",
+    "value": "Las unidades acorazadas aliadas adyacentes\nal principio del turno obtienen Def. y Res. +6\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_騎刃の鼓舞",
+    "value": "Las unidades de caballería aliadas adyacentes\nal principio del turno obtienen Atq. y Vel. +6\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_騎盾の鼓舞",
+    "value": "Las unidades de caballería aliadas adyacentes\nal principio del turno obtienen Def. y Res. +6\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_飛刃の鼓舞",
+    "value": "Las unidades aéreas aliadas adyacentes\nal principio del turno obtienen Atq. y Vel. +6\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_飛盾の鼓舞",
+    "value": "Las unidades aéreas aliadas adyacentes\nal principio del turno obtienen Def. y Res. +6\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_攻撃の威嚇1",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Atq. -3\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_攻撃の威嚇2",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Atq. -4\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_攻撃の威嚇3",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Atq. -5\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_速さの威嚇1",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Vel. -3\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_速さの威嚇2",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Vel. -4\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_速さの威嚇3",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Vel. -5\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_守備の威嚇1",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Def. -3\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_守備の威嚇2",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Def. -4\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_守備の威嚇3",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Def. -5\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_魔防の威嚇1",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Res. -3\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_魔防の威嚇2",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Res. -4\ndurante el resto del turno."
+  },
+  {
+    "key": "MSID_H_魔防の威嚇3",
+    "value": "Los enemigos situados en un radio de dos\ncasillas al comienzo del turno sufren Res. -5\ndurante el resto del turno."
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0001",
+    "value": "Prólogo"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0002",
+    "value": "Capítulo 1"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0003",
+    "value": "Capítulo 2"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0004",
+    "value": "Capítulo 3"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0005",
+    "value": "Capítulo 4"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0006",
+    "value": "Capítulo 5"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0007",
+    "value": "Capítulo 6"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0008",
+    "value": "Capítulo 7"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0009",
+    "value": "Capítulo 8"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0010",
+    "value": "Capítulo 9"
+  },
+  {
+    "key": "MID_CHAPTER_C0001",
+    "value": "Mundo de Zénit"
+  },
+  {
+    "key": "MID_CHAPTER_C0002",
+    "value": "Mundo del Misterio"
+  },
+  {
+    "key": "MID_CHAPTER_C0003",
+    "value": "Mundo de Conquista"
+  },
+  {
+    "key": "MID_CHAPTER_C0004",
+    "value": "Mundo del Sello"
+  },
+  {
+    "key": "MID_CHAPTER_C0005",
+    "value": "Mundo del Despertar"
+  },
+  {
+    "key": "MID_CHAPTER_C0006",
+    "value": "Regreso a Misterio"
+  },
+  {
+    "key": "MID_CHAPTER_C0007",
+    "value": "Mundo de Estirpe"
+  },
+  {
+    "key": "MID_CHAPTER_C0008",
+    "value": "Mundo Ardiente"
+  },
+  {
+    "key": "MID_CHAPTER_C0009",
+    "value": "Regreso a Despertar"
+  },
+  {
+    "key": "MID_CHAPTER_C0010",
+    "value": "Invasión de héroes"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0001",
+    "value": "Prefacio - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0002",
+    "value": "Prefacio - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0101",
+    "value": "Prólogo - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0102",
+    "value": "Prólogo - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0103",
+    "value": "Prólogo - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0201",
+    "value": "Cap. 1 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0202",
+    "value": "Cap. 1 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0203",
+    "value": "Cap. 1 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0204",
+    "value": "Cap. 1 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0205",
+    "value": "Cap. 1 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0301",
+    "value": "Cap. 2 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0302",
+    "value": "Cap. 2 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0303",
+    "value": "Cap. 2 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0304",
+    "value": "Cap. 2 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0305",
+    "value": "Cap. 2 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0401",
+    "value": "Cap. 3 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0402",
+    "value": "Cap. 3 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0403",
+    "value": "Cap. 3 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0404",
+    "value": "Cap. 3 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0405",
+    "value": "Cap. 3 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0501",
+    "value": "Cap. 4 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0502",
+    "value": "Cap. 4 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0503",
+    "value": "Cap. 4 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0504",
+    "value": "Cap. 4 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0505",
+    "value": "Cap. 4 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0601",
+    "value": "Cap. 5 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0602",
+    "value": "Cap. 5 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0603",
+    "value": "Cap. 5 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0604",
+    "value": "Cap. 5 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0605",
+    "value": "Cap. 5 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0701",
+    "value": "Cap. 6 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0702",
+    "value": "Cap. 6 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0703",
+    "value": "Cap. 6 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0704",
+    "value": "Cap. 6 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0705",
+    "value": "Cap. 6 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0801",
+    "value": "Cap. 7 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0802",
+    "value": "Cap. 7 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0803",
+    "value": "Cap. 7 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0804",
+    "value": "Cap. 7 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0805",
+    "value": "Cap. 7 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0901",
+    "value": "Cap. 8 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0902",
+    "value": "Cap. 8 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0903",
+    "value": "Cap. 8 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0904",
+    "value": "Cap. 8 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0905",
+    "value": "Cap. 8 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1001",
+    "value": "Cap. 9 - Parte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1002",
+    "value": "Cap. 9 - Parte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1003",
+    "value": "Cap. 9 - Parte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1004",
+    "value": "Cap. 9 - Parte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1005",
+    "value": "Cap. 9 - Parte 5"
+  },
+  {
+    "key": "MID_STAGE_TITLE_DIFFICULTY0",
+    "value": "Normal"
+  },
+  {
+    "key": "MID_STAGE_TITLE_DIFFICULTY1",
+    "value": "Difícil"
+  },
+  {
+    "key": "MID_STAGE_TITLE_DIFFICULTY2",
+    "value": "Extremo"
+  },
+  {
+    "key": "MID_STAGE_COMBINE",
+    "value": "$a$a0"
+  },
+  {
+    "key": "MID_STAGE_COMBINE_ARENA_DIFFICULTY",
+    "value": "$a$a1: $a0"
+  },
+  {
+    "key": "MID_STAGE_S0001",
+    "value": "¡Yo te invoco!"
+  },
+  {
+    "key": "MID_STAGE_S0002",
+    "value": "La leyenda"
+  },
+  {
+    "key": "MID_STAGE_S0101",
+    "value": "Príncipe de alas doradas"
+  },
+  {
+    "key": "MID_STAGE_S0102",
+    "value": "Prueba de fuerza"
+  },
+  {
+    "key": "MID_STAGE_S0103",
+    "value": "Héroes en combate"
+  },
+  {
+    "key": "MID_STAGE_S0201",
+    "value": "Prueba de misterio"
+  },
+  {
+    "key": "MID_STAGE_S0202",
+    "value": "Un guerrero tenaz"
+  },
+  {
+    "key": "MID_STAGE_S0203",
+    "value": "Viento y luz"
+  },
+  {
+    "key": "MID_STAGE_S0204",
+    "value": "Los caballeros duales"
+  },
+  {
+    "key": "MID_STAGE_S0205",
+    "value": "El príncipe honorable"
+  },
+  {
+    "key": "MID_STAGE_S0301",
+    "value": "Prueba de conquista"
+  },
+  {
+    "key": "MID_STAGE_S0302",
+    "value": "Una princesa en ciernes"
+  },
+  {
+    "key": "MID_STAGE_S0303",
+    "value": "El príncipe inclemente"
+  },
+  {
+    "key": "MID_STAGE_S0304",
+    "value": "La princesa seductora"
+  },
+  {
+    "key": "MID_STAGE_S0305",
+    "value": "Príncipe y conquista"
+  },
+  {
+    "key": "MID_STAGE_S0401",
+    "value": "Prueba del Sello"
+  },
+  {
+    "key": "MID_STAGE_S0402",
+    "value": "Jaque a las damas"
+  },
+  {
+    "key": "MID_STAGE_S0403",
+    "value": "Dragones del desierto"
+  },
+  {
+    "key": "MID_STAGE_S0404",
+    "value": "Ataque en familia"
+  },
+  {
+    "key": "MID_STAGE_S0405",
+    "value": "Sello de nobleza"
+  },
+  {
+    "key": "MID_STAGE_S0501",
+    "value": "Prueba del despertar"
+  },
+  {
+    "key": "MID_STAGE_S0502",
+    "value": "Danza de espadas"
+  },
+  {
+    "key": "MID_STAGE_S0503",
+    "value": "¡Emboscada!"
+  },
+  {
+    "key": "MID_STAGE_S0504",
+    "value": "Un héroe insólito"
+  },
+  {
+    "key": "MID_STAGE_S0505",
+    "value": "El príncipe del despertar"
+  },
+  {
+    "key": "MID_STAGE_S0601",
+    "value": "De nuevo en Akaneia"
+  },
+  {
+    "key": "MID_STAGE_S0602",
+    "value": "La princesa cautiva"
+  },
+  {
+    "key": "MID_STAGE_S0603",
+    "value": "Sin salida"
+  },
+  {
+    "key": "MID_STAGE_S0604",
+    "value": "Tres hermanas aladas"
+  },
+  {
+    "key": "MID_STAGE_S0605",
+    "value": "La princesa y el dragón"
+  },
+  {
+    "key": "MID_STAGE_S0701",
+    "value": "Prueba de herencia"
+  },
+  {
+    "key": "MID_STAGE_S0702",
+    "value": "El príncipe iracundo"
+  },
+  {
+    "key": "MID_STAGE_S0703",
+    "value": "La princesa osada"
+  },
+  {
+    "key": "MID_STAGE_S0704",
+    "value": "La princesa tímida"
+  },
+  {
+    "key": "MID_STAGE_S0705",
+    "value": "El príncipe de Hoshido"
+  },
+  {
+    "key": "MID_STAGE_S0801",
+    "value": "Prueba de fuego"
+  },
+  {
+    "key": "MID_STAGE_S0802",
+    "value": "Dos nobles guerreros"
+  },
+  {
+    "key": "MID_STAGE_S0803",
+    "value": "Un intrincado laberinto"
+  },
+  {
+    "key": "MID_STAGE_S0804",
+    "value": "El guardián impasible"
+  },
+  {
+    "key": "MID_STAGE_S0805",
+    "value": "Noble de Pherae"
+  },
+  {
+    "key": "MID_STAGE_S0901",
+    "value": "La sombra acosadora"
+  },
+  {
+    "key": "MID_STAGE_S0902",
+    "value": "El dragón yacente"
+  },
+  {
+    "key": "MID_STAGE_S0903",
+    "value": "Una batalla embelesada"
+  },
+  {
+    "key": "MID_STAGE_S0904",
+    "value": "Vuelve el dragón divino"
+  },
+  {
+    "key": "MID_STAGE_S0905",
+    "value": "La princesa del futuro"
+  },
+  {
+    "key": "MID_STAGE_S1001",
+    "value": "Lealtad y ambición"
+  },
+  {
+    "key": "MID_STAGE_S1002",
+    "value": "Nobleza y vanidad"
+  },
+  {
+    "key": "MID_STAGE_S1003",
+    "value": "El Cuervo Azul"
+  },
+  {
+    "key": "MID_STAGE_S1004",
+    "value": "El desconocido"
+  },
+  {
+    "key": "MID_STAGE_S1005",
+    "value": "La princesa de la muerte"
+  },
+  {
+    "key": "MID_STAGE_HONOR_T0003",
+    "value": "General wyvern"
+  },
+  {
+    "key": "MID_STAGE_T0003",
+    "value": "Narcian"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0001",
+    "value": "Doncella torpe"
+  },
+  {
+    "key": "MID_STAGE_U0001",
+    "value": "Felicia"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0002",
+    "value": "Monje altruista"
+  },
+  {
+    "key": "MID_STAGE_U0002",
+    "value": "Wrys"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0003",
+    "value": "Bailarina tímida"
+  },
+  {
+    "key": "MID_STAGE_U0003",
+    "value": "Olivia"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0004",
+    "value": "Caballero jade"
+  },
+  {
+    "key": "MID_STAGE_U0004",
+    "value": "Stahl"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0005",
+    "value": "Profeta de Nabata"
+  },
+  {
+    "key": "MID_STAGE_U0005",
+    "value": "Sophia"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0006",
+    "value": "Arquero de élite"
+  },
+  {
+    "key": "MID_STAGE_U0006",
+    "value": "Virion"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0007",
+    "value": "Samurái centrada"
+  },
+  {
+    "key": "MID_STAGE_U0007",
+    "value": "Hana"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0008",
+    "value": "Don Perfecto"
+  },
+  {
+    "key": "MID_STAGE_U0008",
+    "value": "Subaki"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0009",
+    "value": "Héroe rural"
+  },
+  {
+    "key": "MID_STAGE_U0009",
+    "value": "Donnel"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0010",
+    "value": "Sacerdotisa vivaz"
+  },
+  {
+    "key": "MID_STAGE_U0010",
+    "value": "Lissa"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0011",
+    "value": "Soldado vetusto"
+  },
+  {
+    "key": "MID_STAGE_U0011",
+    "value": "Gunter"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0012",
+    "value": "General etruriana"
+  },
+  {
+    "key": "MID_STAGE_U0012",
+    "value": "Cecilia"
+  },
+  {
+    "key": "MID_STAGE_HONOR_V0001",
+    "value": "Celebración de lanzamiento"
+  },
+  {
+    "key": "MID_STAGE_V0001",
+    "value": "Parte 1"
+  },
+  {
+    "key": "MID_STAGE_HONOR_V0002",
+    "value": "Celebración de lanzamiento"
+  },
+  {
+    "key": "MID_STAGE_V0002",
+    "value": "Parte 2"
+  },
+  {
+    "key": "MID_STAGE_E0000",
+    "value": "Base"
+  },
+  {
+    "key": "MID_STAGE_E0001",
+    "value": "Primer estrato"
+  },
+  {
+    "key": "MID_STAGE_E0002",
+    "value": "Segundo estrato"
+  },
+  {
+    "key": "MID_STAGE_E0003",
+    "value": "Tercer estrato"
+  },
+  {
+    "key": "MID_STAGE_E0004",
+    "value": "Cuarto estrato"
+  },
+  {
+    "key": "MID_STAGE_E0005",
+    "value": "Quinto estrato"
+  },
+  {
+    "key": "MID_STAGE_E0006",
+    "value": "Sexto estrato"
+  },
+  {
+    "key": "MID_STAGE_E0007",
+    "value": "Séptimo estrato"
+  },
+  {
+    "key": "MID_STAGE_E0008",
+    "value": "Octavo estrato"
+  },
+  {
+    "key": "MID_STAGE_E0009",
+    "value": "Noveno estrato"
+  },
+  {
+    "key": "MID_STAGE_E0010",
+    "value": "Décimo estrato"
+  },
+  {
+    "key": "MID_Summon_00_first_A",
+    "value": "Preferencia: Héroes legendarios"
+  },
+  {
+    "key": "MID_Summon_00_first_B",
+    "value": "Preferencia: Lealtad absoluta"
+  },
+  {
+    "key": "MID_TIPS_0001",
+    "value": "Según su movimiento, las unidades\nse dividen en 4 tipos: de infantería,\nde caballería, acorazadas y aéreas.\n\nLas unidades acorazadas y las de\ninfantería se parecen, pero cubren\ndiferentes distancias en combate."
+  },
+  {
+    "key": "MID_TIPS_0002",
+    "value": "Las unidades acorazadas gozan\nde más defensa.\n\nSin embargo, solo se mueven\nuna casilla cada vez."
+  },
+  {
+    "key": "MID_TIPS_0003",
+    "value": "Las unidades aéreas se mueven\n2 casillas y pueden volar sobre\nmares y montañas.\n\nSin embargo, son vulnerables\na los arcos."
+  },
+  {
+    "key": "MID_TIPS_0004",
+    "value": "Las unidades de caballería se mueven\n3 casillas.\n\nSin embargo, no pueden cruzar zonas\nboscosas."
+  },
+  {
+    "key": "MID_TIPS_0005",
+    "value": "Usa la opción \"Combate automático\"\npara que tus unidades luchen solas.\n\nActívala durante un combate desde el\nmenú que aparece abajo a la izquierda."
+  },
+  {
+    "key": "MID_TIPS_0005_02",
+    "value": "Usa la opción \"Combate automático\"\npara que tus unidades luchen solas.\n\nActívala tocando el botón de combate\nautomático que aparece en la pantalla\nde batalla."
+  },
+  {
+    "key": "MID_TIPS_0006",
+    "value": "Para cambiar de posición a tus\naliados antes del combate, toca\n\"Cambiar posición\" en la parte\ninferior de la pantalla.\n\nPuedes seguir haciendo cambios hasta\nque alguien complete una acción."
+  },
+  {
+    "key": "MID_TIPS_0007",
+    "value": "Si superas retos ganarás orbes y\notros objetos.\n\nToca la fuente que hay en la parte\ninferior de la pantalla del castillo\npara ver los últimos retos disponibles."
+  },
+  {
+    "key": "MID_TIPS_0008",
+    "value": "Haz que tus héroes acumulen PH\ny úsalos para que aprendan\nhabilidades y se fortalezcan.\n\nSelecciona \"Aprender habilidades\"\nen el menú \"Aliados\" para ampliar\nsus conocimientos."
+  },
+  {
+    "key": "MID_TIPS_0008_02",
+    "value": "Haz que tus héroes acumulen PH\ny úsalos para que aprendan\nhabilidades y se fortalezcan.\n\nSelecciona la opción \"Aprender\nhabilidades\" en el menú \"Aliados\"\nbajo \"Fortalecer\"."
+  },
+  {
+    "key": "MID_TIPS_0009",
+    "value": "¿Quieres enseñar habilidades a tus\nhéroes de otra forma? ¡Intenta usar\nla opción \"Legar habilidad\"!\n\nLa encontrarás en el menú \"Aliados\",\nbajo \"Opciones avanzadas\"."
+  },
+  {
+    "key": "MID_TIPS_0009_02",
+    "value": "¿Quieres enseñar habilidades a tus\nhéroes de otra forma? ¡Intenta usar\nla opción \"Legar habilidad\"!\n\nLa encontrarás en el menú \"Aliados\",\nbajo \"Fortalecer\"."
+  },
+  {
+    "key": "MID_TIPS_0010",
+    "value": "Usa la opción \"Aumentar rareza\" para\nque tus unidades tengan hasta 5 ★.\n\nEncontrarás esta opción en el menú\n\"Aliados\", bajo \"Opciones avanzadas\"."
+  },
+  {
+    "key": "MID_TIPS_0010_02",
+    "value": "Usa la opción \"Aumentar rareza\" para\nque tus unidades tengan hasta 5 ★.\n\nEncontrarás esta opción en el menú\n\"Aliados\", bajo \"Fortalecer\"."
+  },
+  {
+    "key": "MID_TIPS_0011",
+    "value": "Las animaciones de combate\nse pueden desactivar.\n\nDurante un combate, abre el menú de\nla parte inferior izquierda y desactiva\nesta opción desde \"Ajustes\"."
+  },
+  {
+    "key": "MID_TIPS_0012",
+    "value": "¡Puedes mejorar el castillo! Renuévalo\npor dentro para cambiarlo de estilo\ny obtendrás más Exp. en combate.\n\nSelecciona \"Mejorar el castillo\" en el\nmenú \"Tienda\" para ver tus opciones."
+  },
+  {
+    "key": "MID_TIPS_0013",
+    "value": "El batallón situado más a la izquierda\nen \"Batallones\" es el que te representa\ny también el que usarás en el coliseo.\n\nLa unidad situada más a la izquierda\nen este batallón será su líder."
+  },
+  {
+    "key": "MID_TIPS_0014",
+    "value": "Si tienes ventaja de arma, puedes\ninfligir más daño. Los números\naparecerán de mayor tamaño.\n\nPuedes consultar la ventaja según\nel color del arma en la parte inferior\nde la pantalla durante un combate."
+  },
+  {
+    "key": "MID_TIPS_0015",
+    "value": "Si ves aparecer un ícono sobre un\nenemigo durante un combate, presta\natención, pues te indicará si tu aliado\nes efectivo o no contra ese enemigo.\nPor ejemplo, los arcos son efectivos\ncontra las unidades aéreas. Otras\narmas, como Falchion, son efectivas\ncontra ciertos enemigos."
+  },
+  {
+    "key": "MID_TIPS_0016",
+    "value": "Para acceder a tus datos desde otro\ndispositivo debes vincular una cuenta\nNintendo. Si borras la aplicación sin\nhaberla vinculado, no podrás recuperar\ntus datos guardados. Para vincular\nuna cuenta Nintendo, ve a \"Varios\"\ny selecciona \"Gestión de la cuenta\"."
+  },
+  {
+    "key": "MID_TIPS_0013_02",
+    "value": "La torre de entrenamiento es\nel lugar más eficiente para\nsubir a tus héroes de nivel.\n\nAllí obtendrás más Exp. y\nPH que en el coliseo o en\notros mapas completados."
+  },
+  {
+    "key": "MID_TIPS_0017",
+    "value": "La torre de práctica es el lugar\nmás eficaz para que tus héroes\nsuban de nivel. Toca el botón a la\nizquierda de \"?\" para actualizar los\nenemigos a los que te enfrentarás.\nAntes de iniciar una batalla, piensa\nen el tipo de enemigos contra los\nque tiene ventaja tu batallón."
+  },
+  {
+    "key": "MID_TIPS_0018",
+    "value": "¡Fortalece a tus unidades mediante\napoyos! Los compañeros recibirán\nmejoras de atributos al luchar cerca\nen el campo de batalla.\n\nEncontrarás esta opción en el menú\n\"Aliados\", bajo \"Opciones avanzadas\"."
+  },
+  {
+    "key": "MID_TIPS_0018_02",
+    "value": "¡Refuerza a tus unidades mediante\napoyos! Los compañeros recibirán\nmejoras de atributos al luchar cerca\nen el campo de batalla.\n\nEncontrarás esta opción en el menú\n\"Aliados\", bajo \"Interactuar\"."
+  }
+]

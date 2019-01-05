@@ -1,0 +1,70 @@
+[
+  {
+    "id_tag": "BG_FIRE_0007",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2018-05-27T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 27,
+    "season": 1,
+    "scenario": {
+      "id_tag": "BG_FIRE_0007",
+      "maps": {
+        "group_id": "BG_FIRE_0007",
+        "map_ids": [
+          {
+            "map_id": "X0091C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 1,
+        "team_count": 1
+      },
+      "reward": [
+        {
+          "kind": 0,
+          "_type": "orb",
+          "count": 5
+        },
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 2
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 2,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        0,
+        2,
+        6,
+        6,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  }
+]

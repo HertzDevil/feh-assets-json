@@ -1,0 +1,84 @@
+[
+  {
+    "id_tag": "BG_EARTH_0013",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2018-11-04T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 50,
+    "season": 4,
+    "scenario": {
+      "id_tag": "BG_EARTH_0013",
+      "maps": {
+        "group_id": "BG_EARTH_0013",
+        "map_ids": [
+          {
+            "map_id": "X0203C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          },
+          {
+            "map_id": "S0201C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          },
+          {
+            "map_id": "S0202C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 3,
+        "team_count": 3
+      },
+      "reward": [
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 1
+        },
+        {
+          "kind": 18,
+          "_type": "divine_dew",
+          "count": 20
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 3,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        1,
+        2,
+        6,
+        11,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  }
+]

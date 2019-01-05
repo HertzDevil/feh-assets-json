@@ -1,0 +1,138 @@
+[
+  {
+    "id_tag": "BG_WATER_0009",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2018-07-01T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 32,
+    "season": 2,
+    "scenario": {
+      "id_tag": "BG_WATER_0009",
+      "maps": {
+        "group_id": "BG_WATER_0009",
+        "map_ids": [
+          {
+            "map_id": "X0103C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 1,
+        "team_count": 1
+      },
+      "reward": [
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 3
+        },
+        {
+          "kind": 18,
+          "_type": "divine_dew",
+          "count": 20
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 2,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        0,
+        1,
+        2,
+        6,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "id_tag": "BG_WIND_0009",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2018-07-08T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 33,
+    "season": 3,
+    "scenario": {
+      "id_tag": "BG_WIND_0009",
+      "maps": {
+        "group_id": "BG_WIND_0009",
+        "map_ids": [
+          {
+            "map_id": "X0111C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 1,
+        "team_count": 1
+      },
+      "reward": [
+        {
+          "kind": 0,
+          "_type": "orb",
+          "count": 5
+        },
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 4
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 2,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        0,
+        2,
+        12,
+        13,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  }
+]
