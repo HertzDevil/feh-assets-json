@@ -11,6 +11,14 @@ The goal of this repository is to enable programmatic access to FEH's internal
 data, and to detect binary differences in a human-readable manner. It does not
 entail the extraction of data from / insertion of data to an FEH installation.
 
+## Extras
+
+The `extras/` directory contains other useful JSON files:
+
+* `Skill.json`: All skill definitions in one file, sorted by their in-game
+  order, and with the fields equal to the blank definition (`SID_無し`) removed.
+* `SRPGMap/*.json`: Special Map definition files.
+
 ## Availability
 
 * [ ] `files/assets/Common/`
