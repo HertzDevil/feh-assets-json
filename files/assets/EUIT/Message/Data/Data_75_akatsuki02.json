@@ -1,0 +1,874 @@
+[
+  {
+    "key": "MWID_H_赤獣",
+    "value": "Attacco bestiale rosso. Raggio: 1.\nI danni inflitti da quest'arma fisica\nsono ridotti dalla difesa dell'avversario."
+  },
+  {
+    "key": "MWID_H_青獣",
+    "value": "Attacco bestiale blu. Raggio: 1. I danni\ninflitti da quest'arma fisica sono\nridotti dalla difesa dell'avversario."
+  },
+  {
+    "key": "MWID_H_緑獣",
+    "value": "Attacco bestiale verde. Raggio: 1.\nI danni inflitti da quest'arma fisica\nsono ridotti dalla difesa dell'avversario."
+  },
+  {
+    "key": "MWID_H_無獣",
+    "value": "Attacco bestiale neutro. Raggio: 1.\nI danni inflitti da quest'arma fisica\nsono ridotti dalla difesa dell'avversario."
+  },
+  {
+    "key": "MDAID_温泉まんじゅう",
+    "value": "Panini al vapore"
+  },
+  {
+    "key": "MDAID_H_温泉まんじゅう",
+    "value": "Una leccornia delle terme hoshidesi.\nSoffici, ripieni di marmellata e perfetti\nda servire col tè."
+  },
+  {
+    "key": "MDAID_温泉の風呂桶",
+    "value": "Secchio termale"
+  },
+  {
+    "key": "MDAID_H_温泉の風呂桶",
+    "value": "Per immergersi in una fonte termale,\nil galateo impone che ci si lavi prima\ncon questo secchio."
+  },
+  {
+    "key": "MDAID_鷹王の御守り",
+    "value": "Difesa del falco"
+  },
+  {
+    "key": "MDAID_H_鷹王の御守り",
+    "value": "Uno scudo piumato donato da Tibarn.\nÈ fatto dello stesso tipo di piume che\ncompone la sua collana."
+  },
+  {
+    "key": "MDAID_鷹王の御守り・極",
+    "value": "Difesa del falco+"
+  },
+  {
+    "key": "MDAID_H_鷹王の御守り・極",
+    "value": "Uno scudo piumato donato da Tibarn.\nÈ composto dalle sue piume e da\nquelle dei suoi compagni."
+  },
+  {
+    "key": "MDAID_白の王子の頭飾り",
+    "value": "Diadema dell'airone"
+  },
+  {
+    "key": "MDAID_H_白の王子の頭飾り",
+    "value": "Un diadema donato da Reyson.\nElegante e sofisticato, trasmette\nun senso di raffinatezza."
+  },
+  {
+    "key": "MDAID_白の王子の頭飾り・極",
+    "value": "Diadema dell'airone+"
+  },
+  {
+    "key": "MDAID_H_白の王子の頭飾り・極",
+    "value": "Un diadema donato da Reyson.\nElegante e sofisticato, trasmette\nraffinatezza ma anche fragilità."
+  },
+  {
+    "key": "MDAID_白鷺姫の髪飾り",
+    "value": "Spilla dell'airone"
+  },
+  {
+    "key": "MDAID_H_白鷺姫の髪飾り",
+    "value": "Una spilla donata da Leanne. È fatta di\nnoci e fiori, tutti apparentemente\ncommestibili."
+  },
+  {
+    "key": "MDAID_白鷺姫の髪飾り・極",
+    "value": "Spilla dell'airone+"
+  },
+  {
+    "key": "MDAID_H_白鷺姫の髪飾り・極",
+    "value": "Una spilla donata da Leanne. Trattala\ncon cura, sembra molto fragile."
+  },
+  {
+    "key": "MDAID_狼女王の眼帯",
+    "value": "Benda del lupo"
+  },
+  {
+    "key": "MDAID_H_狼女王の眼帯",
+    "value": "Una benda donata da Nailah. È fatta di\nun tessuto ricercato e conferisce a chi\nla indossa un'aria di mistero."
+  },
+  {
+    "key": "MDAID_狼女王の眼帯・極",
+    "value": "Benda del lupo+"
+  },
+  {
+    "key": "MDAID_H_狼女王の眼帯・極",
+    "value": "Una benda donata da Nailah. È fatta di\nun tessuto ricercato e conferisce a chi\nla indossa un carisma inconfutabile."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_TITLE",
+    "value": "Tre eroi"
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_A1",
+    "value": "Vinci"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_A1",
+    "value": "Sconfiggi un nemico."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_A2",
+    "value": "Vinci con Marth"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_A2",
+    "value": "Sconfiggi un nemico con Marth, il principe\nalteo."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_A3",
+    "value": "Vinci con Roy"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_A3",
+    "value": "Sconfiggi un nemico con Roy, il giovane leone."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_B1",
+    "value": "Batti nemici Liv 20+"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_B1",
+    "value": "Sconfiggi un nemico di livello 20 o superiore\ncon Marth, il principe alteo."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_B2",
+    "value": "Batti nemici Liv 20+"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_B2",
+    "value": "Sconfiggi un nemico di livello 20 o superiore\ncon Roy, il giovane leone."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_B3",
+    "value": "Batti nemici Liv 20+"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_B3",
+    "value": "Sconfiggi un nemico di livello 20 o superiore\ncon Chrom, il nuovo Eletto."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_C1",
+    "value": "Batti nemici Liv 35+"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_C1",
+    "value": "Sconfiggi un nemico di livello 35 o superiore\ncon Marth, il principe alteo."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_C2",
+    "value": "Batti nemici Liv 35+"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_C2",
+    "value": "Sconfiggi un nemico di livello 35 o superiore\ncon Roy, il giovane leone."
+  },
+  {
+    "key": "MID_MISSION_S201901CHARA01_C3",
+    "value": "Batti nemici Liv 35+"
+  },
+  {
+    "key": "MID_MISSION_H_S201901CHARA01_C3",
+    "value": "Sconfiggi un nemico di livello 35 o superiore\ncon Chrom, il nuovo Eletto."
+  },
+  {
+    "key": "MID_MISSION_S201901DAISEIATU01_TITLE",
+    "value": "Grandi conquiste"
+  },
+  {
+    "key": "MID_MISSION_S201901DAISEIATU01_A1",
+    "value": "GC: ottieni punti"
+  },
+  {
+    "key": "MID_MISSION_H_S201901DAISEIATU01_A1",
+    "value": "Ottieni punti in Grandi conquiste."
+  },
+  {
+    "key": "MID_MISSION_S201901DAISEIATU01_A2",
+    "value": "GC: ottieni punti"
+  },
+  {
+    "key": "MID_MISSION_H_S201901DAISEIATU01_A2",
+    "value": "Ottieni punti in Grandi conquiste."
+  },
+  {
+    "key": "MID_MISSION_S201901DAISEIATU01_A3",
+    "value": "GC: ottieni punti"
+  },
+  {
+    "key": "MID_MISSION_H_S201901DAISEIATU01_A3",
+    "value": "Ottieni punti in Grandi conquiste."
+  },
+  {
+    "key": "MID_MISSION_S201901DAISEIATU01_A4",
+    "value": "Torre: vinci al 2º piano"
+  },
+  {
+    "key": "MID_MISSION_H_S201901DAISEIATU01_A4",
+    "value": "Vinci al secondo piano della torre\ndi allenamento."
+  },
+  {
+    "key": "MID_MISSION_S201901DAISEIATU01_A5",
+    "value": "Torre: vinci all'8º piano"
+  },
+  {
+    "key": "MID_MISSION_H_S201901DAISEIATU01_A5",
+    "value": "Vinci all'ottavo piano della torre\ndi allenamento."
+  },
+  {
+    "key": "MID_MISSION_S201901DAISEIATU01_A6",
+    "value": "Arena: vinci duelli"
+  },
+  {
+    "key": "MID_MISSION_H_S201901DAISEIATU01_A6",
+    "value": "Vinci duelli nell'arena a qualsiasi livello\ndi difficoltà."
+  },
+  {
+    "key": "MID_MISSION_S201901KIZUNA01_TITLE",
+    "value": "Battaglia legame"
+  },
+  {
+    "key": "MID_MISSION_S201901KIZUNA01_A1",
+    "value": "Vinci Battaglia legame"
+  },
+  {
+    "key": "MID_MISSION_H_S201901KIZUNA01_A1",
+    "value": "Vinci la Battaglia legame contro Leo ed Elise\ncon Sharena, la principessa di Askr, in squadra."
+  },
+  {
+    "key": "MID_MISSION_S201901KIZUNA01_A2",
+    "value": "Vinci Battaglia legame"
+  },
+  {
+    "key": "MID_MISSION_H_S201901KIZUNA01_A2",
+    "value": "Vinci la Battaglia legame contro Leo ed Elise\nal livello di difficoltà folle o superiore con\nFjorm, la dama del gelo, in squadra."
+  },
+  {
+    "key": "MID_MISSION_S201901KIZUNA01_A3",
+    "value": "Batti Leo"
+  },
+  {
+    "key": "MID_MISSION_H_S201901KIZUNA01_A3",
+    "value": "Batti Leo, il principe stregone, di livello 40 o\nsuperiore con Sharena, la principessa di Askr."
+  },
+  {
+    "key": "MID_MISSION_S201901KIZUNA01_A4",
+    "value": "Batti Elise"
+  },
+  {
+    "key": "MID_MISSION_H_S201901KIZUNA01_A4",
+    "value": "Batti Elise, il bocciolo in fiore, di livello 40 o\nsuperiore con Fjorm, la dama del gelo."
+  },
+  {
+    "key": "MID_MISSION_S201901KIZUNA01_A5",
+    "value": "Vinci Battaglia legame"
+  },
+  {
+    "key": "MID_MISSION_H_S201901KIZUNA01_A5",
+    "value": "Vinci la Battaglia legame contro Leo ed Elise\nal livello di difficoltà folle o superiore con\nuna squadra di sole unità volanti."
+  },
+  {
+    "key": "MID_MISSION_S201901STORY02_TITLE",
+    "value": "Conto alla rovescia"
+  },
+  {
+    "key": "MID_MISSION_S201901STORY02_A1",
+    "value": "Completa 3-1 folle"
+  },
+  {
+    "key": "MID_MISSION_H_S201901STORY02_A1",
+    "value": "Completa il libro III, cap. 3-1 alla difficoltà\nfolle con un'unità armata di ascia in squadra.\nTutti e 4 gli alleati devono sopravvivere."
+  },
+  {
+    "key": "MID_MISSION_S201901STORY02_A2",
+    "value": "Completa 3-2 folle"
+  },
+  {
+    "key": "MID_MISSION_H_S201901STORY02_A2",
+    "value": "Completa il libro III, cap. 3-2 alla difficoltà\nfolle con un'unità armata di spada in squadra.\nTutti e 4 gli alleati devono sopravvivere."
+  },
+  {
+    "key": "MID_MISSION_S201901STORY02_A3",
+    "value": "Completa 3-3 folle"
+  },
+  {
+    "key": "MID_MISSION_H_S201901STORY02_A3",
+    "value": "Completa il libro III, cap. 3-3 alla difficoltà\nfolle con un'unità armata di lancia in squadra.\nTutti e 4 gli alleati devono sopravvivere."
+  },
+  {
+    "key": "MID_MISSION_S201901STORY02_A4",
+    "value": "Completa 3-4 folle"
+  },
+  {
+    "key": "MID_MISSION_H_S201901STORY02_A4",
+    "value": "Completa il libro III, cap. 3-4 alla difficoltà\nfolle con un'unità armata di ascia in squadra.\nTutti e 4 gli alleati devono sopravvivere."
+  },
+  {
+    "key": "MID_MISSION_S201901STORY02_A5",
+    "value": "Completa 3-5 folle"
+  },
+  {
+    "key": "MID_MISSION_H_S201901STORY02_A5",
+    "value": "Completa il libro III, cap. 3-5 alla difficoltà\nfolle con un'unità armata di spada in squadra.\nTutti e 4 gli alleati devono sopravvivere."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D01_TITLE",
+    "value": "B. tattile giornal."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D01_A1",
+    "value": "Batti Peri"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D01_A1",
+    "value": "Sconfiggi il boss Peri alla difficoltà normale\nin Battaglia tattile dal 16º al 20º livello."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D01_A2",
+    "value": "Supera 21º-25º"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D01_A2",
+    "value": "Supera dal 21º al 25º livello in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D01_A3",
+    "value": "Supera fasi"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D01_A3",
+    "value": "Completa una fase in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D02_TITLE",
+    "value": "B. tattile giornal."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D02_A1",
+    "value": "Batti Peri"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D02_A1",
+    "value": "Sconfiggi il boss Peri alla difficoltà difficile\nin Battaglia tattile dal 16º al 20º livello."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D02_A2",
+    "value": "Supera 41º-45º"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D02_A2",
+    "value": "Supera dal 41º al 45º livello in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D02_A3",
+    "value": "Supera fasi"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D02_A3",
+    "value": "Completa una fase in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D03_TITLE",
+    "value": "B. tattile giornal."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D03_A1",
+    "value": "Batti Elise"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D03_A1",
+    "value": "Sconfiggi il boss Elise alla difficoltà normale\nin Battaglia tattile dal 36º al 40º livello."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D03_A2",
+    "value": "Supera 61º-65º"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D03_A2",
+    "value": "Supera dal 61º al 65º livello in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D03_A3",
+    "value": "Supera fasi"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D03_A3",
+    "value": "Completa una fase in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D04_TITLE",
+    "value": "B. tattile giornal."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D04_A1",
+    "value": "Batti Elise"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D04_A1",
+    "value": "Sconfiggi il boss Elise alla difficoltà difficile\nin Battaglia tattile dal 36º al 40º livello."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D04_A2",
+    "value": "Supera 81º-85º"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D04_A2",
+    "value": "Supera dall'81º all'85º livello in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL01_D04_A3",
+    "value": "Supera fasi"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL01_D04_A3",
+    "value": "Completa una fase in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL02_TITLE",
+    "value": "Battaglia tattile"
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL02_A1",
+    "value": "Supera fasi boss"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL02_A1",
+    "value": "Completa una fase boss in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL02_A2",
+    "value": "Supera fasi boss"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL02_A2",
+    "value": "Completa una fase boss in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL02_A3",
+    "value": "Supera fasi"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL02_A3",
+    "value": "Completa una fase in Battaglia tattile."
+  },
+  {
+    "key": "MID_MISSION_S201901TAPBTL02_A4",
+    "value": "Supera fase extra 1"
+  },
+  {
+    "key": "MID_MISSION_H_S201901TAPBTL02_A4",
+    "value": "Completa la fase extra 1 in Battaglia tattile.\nPuoi giocare la fase extra 1 dopo lo sblocco\ndelle fasi extra."
+  },
+  {
+    "key": "MEID_ヘル",
+    "value": "Hel"
+  },
+  {
+    "key": "MPID_リアーネ",
+    "value": "Leanne"
+  },
+  {
+    "key": "MPID_ネサラ",
+    "value": "Naesala"
+  },
+  {
+    "key": "MPID_ニケ",
+    "value": "Nailah"
+  },
+  {
+    "key": "MPID_リュシオン",
+    "value": "Reyson"
+  },
+  {
+    "key": "MPID_ティバーン",
+    "value": "Tibarn"
+  },
+  {
+    "key": "MEID_HONOR_ヘル",
+    "value": "La fosca sovrana"
+  },
+  {
+    "key": "MPID_HONOR_リアーネ",
+    "value": "Incantatrice alata"
+  },
+  {
+    "key": "MPID_HONOR_ネサラ",
+    "value": "L'ombra dei cieli"
+  },
+  {
+    "key": "MPID_HONOR_ニケ",
+    "value": "Sguardo di lupa"
+  },
+  {
+    "key": "MPID_HONOR_リュシオン",
+    "value": "Il principe bianco"
+  },
+  {
+    "key": "MPID_HONOR_ティバーン",
+    "value": "Il signore dell'aria"
+  },
+  {
+    "key": "MEID_H_ヘル",
+    "value": "Sovrana di Hel, il regno dei morti. Il suo potere\ncresce di pari passo con l'aumentare dei suoi\nsudditi. Brama soggiogare tutti i vivi."
+  },
+  {
+    "key": "MPID_H_リアーネ",
+    "value": "Principessa di Serenes e sorella minore di\nReyson. Parla l'antica lingua ma stenta ancora\na dominare quella di Tellius. Compare in Fire\nEmblem: Radiant Dawn."
+  },
+  {
+    "key": "MPID_H_ネサラ",
+    "value": "Re di Kilvas e capo del clan dei corvi. Usa\nla sua astuzia come una lama letale e non\nha paura di sporcarsi le mani se serve. Compare\nin Fire Emblem: Radiant Dawn."
+  },
+  {
+    "key": "MPID_H_ニケ",
+    "value": "Regina di Athari, una nazione desertica narrata\nnelle leggende. Porta una benda per celare\nil suo occhio maligno. Compare in Fire\nEmblem: Radiant Dawn."
+  },
+  {
+    "key": "MPID_H_リュシオン",
+    "value": "Principe di Serenes, l'antico regno degli aironi,\ne fratello di Leanne. Esile ma dalla volontà\nferrea. Compare in Fire Emblem: Radiant Dawn."
+  },
+  {
+    "key": "MPID_H_ティバーン",
+    "value": "Re di Phoenicis, la nazione dei falchi. Guida\nla sua gente grazie al suo carisma e alle\nimpareggiabili abilità nel combattimento.\nCompare in Fire Emblem: Radiant Dawn."
+  },
+  {
+    "key": "MEID_VOICE_ヘル",
+    "value": "Barbara Goodson"
+  },
+  {
+    "key": "MPID_VOICE_リアーネ",
+    "value": "Rachelle Heger"
+  },
+  {
+    "key": "MPID_VOICE_ネサラ",
+    "value": "Lucien Dodge"
+  },
+  {
+    "key": "MPID_VOICE_ニケ",
+    "value": "Rachel Robinson"
+  },
+  {
+    "key": "MPID_VOICE_リュシオン",
+    "value": "Frank Todaro"
+  },
+  {
+    "key": "MPID_VOICE_ティバーン",
+    "value": "Joe J. Thomas"
+  },
+  {
+    "key": "MEID_ILLUST_ヘル",
+    "value": "Kozaki Yusuke (コザキユースケ)"
+  },
+  {
+    "key": "MPID_ILLUST_リアーネ",
+    "value": "Yura (由良)"
+  },
+  {
+    "key": "MPID_ILLUST_ネサラ",
+    "value": "Suda Ayaka (須田彩加)"
+  },
+  {
+    "key": "MPID_ILLUST_ニケ",
+    "value": "PenekoR (п猫Ｒ)"
+  },
+  {
+    "key": "MPID_ILLUST_リュシオン",
+    "value": "Yura (由良)"
+  },
+  {
+    "key": "MPID_ILLUST_ティバーン",
+    "value": "Suekane Kumiko (スエカネクミコ)"
+  },
+  {
+    "key": "MSID_トローン",
+    "value": "Tomo di Thoron"
+  },
+  {
+    "key": "MSID_第18迷宮の覇者1",
+    "value": "Asso squadra R1"
+  },
+  {
+    "key": "MSID_第18迷宮の覇者2",
+    "value": "Asso squadra R2"
+  },
+  {
+    "key": "MSID_第18迷宮の覇者3",
+    "value": "Asso squadra R3"
+  },
+  {
+    "key": "MSID_ヘル",
+    "value": "Falce di Hel"
+  },
+  {
+    "key": "MSID_幼獣の化身・歩行",
+    "value": "Cucciolo (fante)"
+  },
+  {
+    "key": "MSID_若獣の化身・歩行",
+    "value": "Giovane (fante)"
+  },
+  {
+    "key": "MSID_成獣の化身・歩行",
+    "value": "Adulto (fante)"
+  },
+  {
+    "key": "MSID_狼女王の牙",
+    "value": "Zanna regale"
+  },
+  {
+    "key": "MSID_幼獣の化身・飛行",
+    "value": "Pulcino (volante)"
+  },
+  {
+    "key": "MSID_若獣の化身・飛行",
+    "value": "Giovane (volante)"
+  },
+  {
+    "key": "MSID_成獣の化身・飛行",
+    "value": "Adulto (volante)"
+  },
+  {
+    "key": "MSID_鷹王の嘴爪",
+    "value": "Artiglio regale"
+  },
+  {
+    "key": "MSID_鴉王の嘴爪",
+    "value": "Becco regale"
+  },
+  {
+    "key": "MSID_白鷺の翼",
+    "value": "Ala dell'airone"
+  },
+  {
+    "key": "MSID_鬼神金剛の一撃3",
+    "value": "Impatto ferreo"
+  },
+  {
+    "key": "MSID_見切り・反撃不可1",
+    "value": "Nega disturbo 1"
+  },
+  {
+    "key": "MSID_見切り・反撃不可2",
+    "value": "Nega disturbo 2"
+  },
+  {
+    "key": "MSID_見切り・反撃不可3",
+    "value": "Nega disturbo 3"
+  },
+  {
+    "key": "MSID_獣刃の鼓舞",
+    "value": "Incita bestie"
+  },
+  {
+    "key": "MSID_獣盾の鼓舞",
+    "value": "Fortifica bestie"
+  },
+  {
+    "key": "MSID_邪眼",
+    "value": "Ipnosi"
+  },
+  {
+    "key": "MSID_H_トローン",
+    "value": "Se l'unità ha il 75% dei PS o meno all'inizio\ndel turno e l'attacco attiva l'abilità speciale,\ncontatore abilità speciale -1 e +10 danni\nall'attivazione."
+  },
+  {
+    "key": "MSID_H_特殊射程R竜",
+    "value": "Se il nemico è un drago, disattiva le abilità del\nnemico che calcolano il danno usando il valore\npiù basso tra Dif e Res e quelle che calcolano\ni danni da bastone come le altre armi, e l'unità\npuò contrattaccare da qualunque distanza."
+  },
+  {
+    "key": "MSID_H_戦闘強化R魔防勝利",
+    "value": "Se all'inizio della battaglia l'unità ha almeno\n3 Res in più del nemico, Att/Vel/Dif/Res +3\ndurante lo scontro."
+  },
+  {
+    "key": "MSID_H_第18迷宮の覇者1",
+    "value": "Conferisce Res +1."
+  },
+  {
+    "key": "MSID_H_第18迷宮の覇者2",
+    "value": "Conferisce Res +2."
+  },
+  {
+    "key": "MSID_H_第18迷宮の覇者3",
+    "value": "Conferisce Res +3."
+  },
+  {
+    "key": "MSID_H_ヘル",
+    "value": "Anticipa l'attivazione dell'abilità speciale\n(contatore -1). Se il nemico non usa magia o\nbastone, il danno è calcolato usando la Res\ndel nemico, e se l'unità ha più di 1 PS,\nsopravvive a un attacco letale e rimane con\n1 PS. (Una volta per scontro; non cumulabile.)"
+  },
+  {
+    "key": "MSID_H_幼獣の化身・歩行",
+    "value": "Se l'unità è adiacente soltanto ad alleati drago\no bestia o se non è adiacente ad alcun alleato\nall'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale).\nSe si trasforma, Att +2 e il danno inflitto\nall'attivazione dell'abilità speciale aumenta\ndi +10."
+  },
+  {
+    "key": "MSID_H_若獣の化身・歩行",
+    "value": "Se l'unità è adiacente soltanto ad alleati drago\no bestia o se non è adiacente ad alcun alleato\nall'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale).\nSe si trasforma, Att +2 e il danno inflitto\nall'attivazione dell'abilità speciale aumenta\ndi +10."
+  },
+  {
+    "key": "MSID_H_成獣の化身・歩行",
+    "value": "Se l'unità è adiacente soltanto ad alleati drago\no bestia o se non è adiacente ad alcun alleato\nall'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale).\nSe si trasforma, Att +2 e il danno inflitto\nall'attivazione dell'abilità speciale aumenta\ndi +10."
+  },
+  {
+    "key": "MSID_H_狼女王の牙",
+    "value": "Anticipa l'attivazione dell'abilità speciale\n(cont. -1). Att/Vel dell'unità aumentano di\nun valore pari al numero degli alleati entro 2\nspazi ×2 durante lo scontro (bonus massimo di\n+6 per ogni parametro). Se l'unità è adiacente\nsoltanto ad alleati drago o bestia o se non è\nadiacente ad alcun alleato all'inizio del turno, si\ntrasforma (se la condizione viene meno, torna\nnormale). Se si trasforma, Att +2 e il danno\ninflitto all'attivazione dell'abilità speciale\naumenta di +10."
+  },
+  {
+    "key": "MSID_H_幼獣の化身・飛行",
+    "value": "Se l'unità è adiacente soltanto ad alleati drago\no bestia o se non è adiacente ad alcun alleato\nall'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale). Se\nsi trasforma, ha 1 spazio di movimento extra\n(solo per 1 turno e non cumulabile) e Att +2."
+  },
+  {
+    "key": "MSID_H_若獣の化身・飛行",
+    "value": "Se l'unità è adiacente soltanto ad alleati drago\no bestia o se non è adiacente ad alcun alleato\nall'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale). Se\nsi trasforma, ha 1 spazio di movimento extra\n(solo per 1 turno e non cumulabile) e Att +2."
+  },
+  {
+    "key": "MSID_H_成獣の化身・飛行",
+    "value": "Se l'unità è adiacente soltanto ad alleati drago\no bestia o se non è adiacente ad alcun alleato\nall'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale). Se\nsi trasforma, ha 1 spazio di movimento extra\n(solo per 1 turno e non cumulabile) e Att +2."
+  },
+  {
+    "key": "MSID_H_鷹王の嘴爪",
+    "value": "Conferisce Att +3. Se l'unità attacca per prima\ne il nemico ha tutti i PS, esegue un attacco\ndoppio. Se l'unità è adiacente soltanto ad\nalleati drago o bestia o se non è adiacente ad\nalcun alleato all'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale). Se\nsi trasforma, ha 1 spazio di movimento extra\n(solo per 1 turno e non cumulabile) e Att +2."
+  },
+  {
+    "key": "MSID_H_鴉王の嘴爪",
+    "value": "Conferisce Vel +3. Se l'unità ha Vel superiore\nrispetto al nemico, infligge danni pari al 70%\ndella differenza tra i parametri. (Bonus\nmassimo di +7 al danno. Efficace con Vel\nfantasma.) Se l'unità è adiacente soltanto ad\nalleati drago o bestia o se non è adiacente ad\nalcun alleato all'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale). Se\nsi trasforma, ha 1 spazio di movimento extra\n(solo per 1 turno e non cumulabile) e Att +2."
+  },
+  {
+    "key": "MSID_H_白鷺の翼",
+    "value": "Conferisce Vel +3. Ripristina 7 PS agli alleati\nentro 2 spazi dall'unità all'inizio del turno. Se\nl'unità è adiacente soltanto ad alleati drago o\nbestia o se non è adiacente ad alcun alleato\nall'inizio del turno, si trasforma (se\nla condizione viene meno, torna normale). Se si\ntrasforma, ha 1 spazio di movimento extra\n(solo per 1 turno e non cumulabile) e Att +2."
+  },
+  {
+    "key": "MSID_H_鬼神金剛の一撃3",
+    "value": "Se l'unità attacca per prima, Att +6 e Dif +10\ndurante il combattimento e il nemico non può\neffettuare un attacco doppio."
+  },
+  {
+    "key": "MSID_H_見切り・反撃不可1",
+    "value": "Se l'unità ha tutti i PS all'inizio dello scontro,\nannulla le alterazioni di stato e disattiva\nle abilità che impediscono di contrattaccare\ndurante il combattimento."
+  },
+  {
+    "key": "MSID_H_見切り・反撃不可2",
+    "value": "Se l'unità ha il 50% o più dei PS all'inizio dello\nscontro, annulla le alterazioni di stato e\ndisattiva le abilità che impediscono di\ncontrattaccare durante il combattimento."
+  },
+  {
+    "key": "MSID_H_見切り・反撃不可3",
+    "value": "Annulla le alterazioni di stato e disattiva\nle abilità che impediscono di contrattaccare\ndurante il combattimento."
+  },
+  {
+    "key": "MSID_H_獣刃の鼓舞",
+    "value": "Att/Vel +6 agli alleati bestie adiacenti\nall'inizio del turno per 1 turno."
+  },
+  {
+    "key": "MSID_H_獣盾の鼓舞",
+    "value": "Dif/Res +6 agli alleati bestie adiacenti\nall'inizio del turno per 1 turno."
+  },
+  {
+    "key": "MSID_H_邪眼",
+    "value": "Se l'unità ha attaccato, il bersaglio e i nemici\nentro 1 spazio dal bersaglio possono muoversi\nmassimo di 1 spazio dopo lo scontro durante\nle loro prossime azioni."
+  },
+  {
+    "key": "MSID_H_ティルフィング改",
+    "value": "Se l'unità ha il 50% o più dei PS all'inizio dello\nscontro, riceve \"Se l'unità ha più di 1 PS,\nsopravvive a un attacco letale e rimane con\n1 PS. (Una volta per scontro; non cumulabile.)\""
+  },
+  {
+    "key": "MSID_H_ナーガ改",
+    "value": "Efficace contro i draghi. Se il nemico attacca per\nprimo, Dif/Res +4 durante lo scontro."
+  },
+  {
+    "key": "MSID_H_聖書ナーガ改",
+    "value": "Efficace contro i draghi. I bonus da abilità\ndel nemico come Fortifica o Sprone sono\nannullati e le abilità del nemico che calcolano\nil danno usando il valore più basso tra Dif e Res\nsono disattivate durante lo scontro."
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0303",
+    "value": "Libro III, cap. 3"
+  },
+  {
+    "key": "MID_CHAPTER_C0303",
+    "value": "Conto alla rovescia"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S3031",
+    "value": "Capitolo 3-1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S3032",
+    "value": "Capitolo 3-2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S3033",
+    "value": "Capitolo 3-3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S3034",
+    "value": "Capitolo 3-4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S3035",
+    "value": "Capitolo 3-5"
+  },
+  {
+    "key": "MID_STAGE_S3031",
+    "value": "Memorie di una cicatrice"
+  },
+  {
+    "key": "MID_STAGE_S3032",
+    "value": "Il corvo funesto"
+  },
+  {
+    "key": "MID_STAGE_S3033",
+    "value": "Zanne della regina dei lupi"
+  },
+  {
+    "key": "MID_STAGE_S3034",
+    "value": "Il falco e l'airone"
+  },
+  {
+    "key": "MID_STAGE_S3035",
+    "value": "A un passo dalla morte"
+  },
+  {
+    "key": "MID_STAGE_HONOR_T0047",
+    "value": "Ombra dei cieli"
+  },
+  {
+    "key": "MID_STAGE_T0047",
+    "value": "Naesala"
+  },
+  {
+    "key": "MID_STAGE_TITLE_SB_0018",
+    "value": "18º assalto"
+  },
+  {
+    "key": "MID_STAGE_TITLE_BG_WATER_0016",
+    "value": "Acqua 6"
+  },
+  {
+    "key": "MID_STAGE_TITLE_BG_WIND_0016",
+    "value": "Vento 6"
+  },
+  {
+    "key": "MID_STAGE_TITLE_PB041",
+    "value": "Le abilità: 41"
+  },
+  {
+    "key": "MID_STAGE_PB041",
+    "value": "La destrezza di Tibarn"
+  },
+  {
+    "key": "MID_STAGE_TITLE_PC022",
+    "value": "Per veterani: 22"
+  },
+  {
+    "key": "MID_STAGE_PC022",
+    "value": "Debole e pavido"
+  },
+  {
+    "key": "MID_TAP_BATTLE_DATA_TITLE_0012",
+    "value": "Regno di Nohr"
+  },
+  {
+    "key": "MID_MUSIC_NAME_BGM_MAP_FEM_01",
+    "value": "Preludio (Vampa ardente)"
+  },
+  {
+    "key": "MID_MUSIC_NAME_BGM_MAP_FEM_04",
+    "value": "Strada intrapresa (Ruggito)"
+  }
+]

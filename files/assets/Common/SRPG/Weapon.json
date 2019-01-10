@@ -129,7 +129,7 @@
     "color": 1,
     "range": 2,
     "_unknown1": 1,
-    "equip_group": 8,
+    "equip_group": 9,
     "res_damage": false,
     "is_staff": false,
     "is_dagger": true,
@@ -146,7 +146,7 @@
     "color": 2,
     "range": 2,
     "_unknown1": 1,
-    "equip_group": 8,
+    "equip_group": 9,
     "res_damage": false,
     "is_staff": false,
     "is_dagger": true,
@@ -163,7 +163,7 @@
     "color": 3,
     "range": 2,
     "_unknown1": 1,
-    "equip_group": 8,
+    "equip_group": 9,
     "res_damage": false,
     "is_staff": false,
     "is_dagger": true,
@@ -180,7 +180,7 @@
     "color": 0,
     "range": 2,
     "_unknown1": 1,
-    "equip_group": 8,
+    "equip_group": 9,
     "res_damage": false,
     "is_staff": false,
     "is_dagger": true,
@@ -248,7 +248,7 @@
     "color": 0,
     "range": 2,
     "_unknown1": 3,
-    "equip_group": 9,
+    "equip_group": 10,
     "res_damage": true,
     "is_staff": true,
     "is_dagger": false,
@@ -321,5 +321,73 @@
     "is_staff": false,
     "is_dagger": false,
     "is_breath": true
+  },
+  {
+    "id_tag": "WID_赤獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 19,
+    "color": 1,
+    "range": 1,
+    "_unknown1": 3,
+    "equip_group": 8,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false
+  },
+  {
+    "id_tag": "WID_青獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 20,
+    "color": 2,
+    "range": 1,
+    "_unknown1": 3,
+    "equip_group": 8,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false
+  },
+  {
+    "id_tag": "WID_緑獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 21,
+    "color": 3,
+    "range": 1,
+    "_unknown1": 3,
+    "equip_group": 8,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false
+  },
+  {
+    "id_tag": "WID_無獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 22,
+    "color": 0,
+    "range": 1,
+    "_unknown1": 3,
+    "equip_group": 8,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false
   }
 ]
