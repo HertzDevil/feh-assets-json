@@ -15,8 +15,8 @@ entail the extraction of data from / insertion of data to an FEH installation.
 
 The `extras/` directory contains other useful JSON files:
 
-* `Skill.json`: All skill definitions in one file, sorted by their in-game
-  order, and with the fields equal to the blank definition (`SID_無し`) removed.
+* `Skill.json`: All skill definitions in one file, sorted by their internal
+  IDs, and with the fields equal to the blank definition (`SID_無し`) removed.
 * `SRPGMap/*.json`: Special Map definition files.
 
 ## Availability
