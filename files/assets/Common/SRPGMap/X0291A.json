@@ -1,0 +1,260 @@
+{
+  "highest_score": 62,
+  "field": {
+    "id": "X0291",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        21,
+        1,
+        1,
+        21,
+        1,
+        21
+      ],
+      [
+        21,
+        1,
+        1,
+        1,
+        1,
+        21
+      ],
+      [
+        21,
+        1,
+        21,
+        1,
+        1,
+        21
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        5,
+        5,
+        5,
+        5,
+        1
+      ],
+      [
+        1,
+        5,
+        5,
+        5,
+        5,
+        1
+      ],
+      [
+        1,
+        21,
+        21,
+        21,
+        21,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_温泉リョウマ",
+      "skills": [
+        "SID_のれん",
+        null,
+        null,
+        "SID_攻撃守備の孤軍1",
+        null,
+        "SID_守備の波・奇数1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 5,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 19,
+        "atk": 8,
+        "spd": 11,
+        "def": 5,
+        "res": 4
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 5,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_アクスアーマー",
+      "skills": [
+        "SID_鉄の斧",
+        null,
+        null,
+        null,
+        "SID_守備隊形1",
+        null,
+        null
+      ],
+      "accessory": "DAID_温泉まんじゅう",
+      "pos": {
+        "x": 5,
+        "y": 3
+      },
+      "rarity": 3,
+      "lv": 5,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 26,
+        "atk": 11,
+        "spd": 3,
+        "def": 13,
+        "res": 4
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 5,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ボウファイター",
+      "skills": [
+        "SID_鉄の弓",
+        null,
+        null,
+        "SID_飛燕の一撃1",
+        null,
+        null,
+        null
+      ],
+      "accessory": "DAID_温泉の風呂桶",
+      "pos": {
+        "x": 0,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 5,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 20,
+        "atk": 9,
+        "spd": 8,
+        "def": 8,
+        "res": 3
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 5,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_レッドナイト",
+      "skills": [
+        "SID_ファイアー",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": "DAID_温泉手ぬぐい",
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 5,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 16,
+        "atk": 10,
+        "spd": 6,
+        "def": 4,
+        "res": 9
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 5,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
