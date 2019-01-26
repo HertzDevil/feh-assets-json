@@ -39,8 +39,8 @@ The `extras/` directory contains other useful JSON files:
     * [ ] `f3Kb9BEt.bin`
     * [x] `Season.bin`
     * [ ] `Stamina.bin`
-  * [ ] `DressAccessory/`
-    * [ ] `Data/*.bin`
+  * [x] `DressAccessory/`
+    * [x] `Data/*.bin`
     * [x] `PersonData/*.bin`
   * [ ] `Effect/`
     * [ ] `arc/*.bin`
