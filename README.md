@@ -28,7 +28,7 @@ The `extras/` directory contains other useful JSON files:
     * [ ] `Asset/*.bin`
   * [ ] `Delivery/`
     * [ ] `ArenaMap/*.bin`
-    * [ ] `ArenaPerson/*.bin`
+    * [x] `ArenaPerson/*.bin`
     * [ ] `EncountCrystal/*.bin`
     * [ ] `Flag/*.bin`
     * [ ] `GainBonus/*.bin`
