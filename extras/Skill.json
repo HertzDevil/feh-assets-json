@@ -24750,6 +24750,35 @@
     "id_tag2": "SID_ムニンの魔卵"
   },
   {
+    "id_tag": "SID_メガクェイク",
+    "name_id": "MSID_メガクェイク",
+    "desc_id": "MSID_H_メガクェイク",
+    "skill_params": {
+      "hp": -7,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1367,
+    "sort_id": 196,
+    "icon_id": 749,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 300,
+    "category": 5,
+    "exclusive": true,
+    "score": 8,
+    "timing_id": 8,
+    "ability_id": 132,
+    "limit1_id": 4,
+    "timestamp": "2019-03-01 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1,
+    "id_tag2": "SID_メガクェイク"
+  },
+  {
     "id_tag": "SID_ヤシの実の弓",
     "name_id": "MSID_ヤシの実の弓",
     "desc_id": "MSID_H_ヤシの実の弓",
@@ -36381,6 +36410,120 @@
     "min_lv": 31,
     "_unknown3": 1,
     "id_tag2": "SID_守備魔防の大覚醒3"
+  },
+  {
+    "id_tag": "SID_守備魔防の孤軍1",
+    "name_id": "MSID_守備魔防の孤軍1",
+    "desc_id": "MSID_H_守備魔防の孤軍1",
+    "next_skill": "SID_守備魔防の孤軍2",
+    "skill_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 2,
+      "res": 2
+    },
+    "num_id": 1364,
+    "sort_id": 13050,
+    "icon_id": 746,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 60,
+    "category": 3,
+    "score": 2,
+    "promotion_tier": 1,
+    "promotion_rarity": 4,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 19,
+    "limit1_params": [
+      1,
+      0
+    ],
+    "passive_next": "SID_守備魔防の孤軍2",
+    "timestamp": "2019-03-01 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 21,
+    "max_lv": 30,
+    "_unknown3": 1,
+    "id_tag2": "SID_守備魔防の孤軍1"
+  },
+  {
+    "id_tag": "SID_守備魔防の孤軍2",
+    "name_id": "MSID_守備魔防の孤軍2",
+    "desc_id": "MSID_H_守備魔防の孤軍2",
+    "prerequisites": [
+      "SID_守備魔防の孤軍1",
+      null
+    ],
+    "next_skill": "SID_守備魔防の孤軍3",
+    "skill_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 4,
+      "res": 4
+    },
+    "num_id": 1365,
+    "sort_id": 13051,
+    "icon_id": 747,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 120,
+    "category": 3,
+    "score": 4,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 19,
+    "limit1_params": [
+      1,
+      0
+    ],
+    "passive_next": "SID_守備魔防の孤軍3",
+    "timestamp": "2019-03-01 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 26,
+    "max_lv": 35,
+    "_unknown3": 1,
+    "id_tag2": "SID_守備魔防の孤軍2"
+  },
+  {
+    "id_tag": "SID_守備魔防の孤軍3",
+    "name_id": "MSID_守備魔防の孤軍3",
+    "desc_id": "MSID_H_守備魔防の孤軍3",
+    "prerequisites": [
+      "SID_守備魔防の孤軍2",
+      null
+    ],
+    "skill_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 6,
+      "res": 6
+    },
+    "num_id": 1366,
+    "sort_id": 13052,
+    "icon_id": 748,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 240,
+    "category": 3,
+    "score": 6,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 19,
+    "limit1_params": [
+      1,
+      0
+    ],
+    "timestamp": "2019-03-01 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1,
+    "id_tag2": "SID_守備魔防の孤軍3"
   },
   {
     "id_tag": "SID_守備魔防の応援",
@@ -70064,6 +70207,65 @@
     "min_lv": 31,
     "_unknown3": 1,
     "id_tag2": "SID_邪眼"
+  },
+  {
+    "id_tag": "SID_邪神のブレス",
+    "name_id": "MSID_邪神のブレス",
+    "desc_id": "MSID_H_邪神のブレス",
+    "prerequisites": [
+      "SID_灼熱のブレス",
+      null
+    ],
+    "sprites": [
+      null,
+      "wep_ac010",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 3,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 1,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 6,
+      "spd": 0,
+      "def": 0,
+      "res": 6
+    },
+    "num_id": 1363,
+    "sort_id": 195,
+    "icon_id": 1,
+    "wep_equip": 491520,
+    "mov_equip": 15,
+    "sp_cost": 400,
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "score": 20,
+    "wep_adaptive": 32760,
+    "timing_id": 1,
+    "ability_id": 127,
+    "limit1_id": 5,
+    "limit1_params": [
+      0,
+      99
+    ],
+    "timestamp": "2019-03-01 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1,
+    "id_tag2": "SID_邪神のブレス"
   },
   {
     "id_tag": "SID_邪竜のブレス",
