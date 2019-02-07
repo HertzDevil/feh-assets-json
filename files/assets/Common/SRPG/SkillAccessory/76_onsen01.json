@@ -1,29 +1,83 @@
 [
   {
-    "id_tag": "SID_生命の業火1"
+    "id_tag": "SID_生命の業火1",
+    "next_seal": "SID_生命の業火2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 0,
+    "ss_badge": 100,
+    "ss_great_badge": 20
   },
   {
-    "id_tag": "SID_生命の業火2"
+    "id_tag": "SID_生命の業火2",
+    "next_seal": "SID_生命の業火3",
+    "prev_seal": "SID_生命の業火1",
+    "ss_coin": 50,
+    "ss_badge_type": 0,
+    "ss_badge": 200,
+    "ss_great_badge": 60
   },
   {
-    "id_tag": "SID_生命の業火3"
+    "id_tag": "SID_生命の業火3",
+    "next_seal": null,
+    "prev_seal": "SID_生命の業火2",
+    "ss_coin": 100,
+    "ss_badge_type": 0,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
   },
   {
-    "id_tag": "SID_攻撃守備の大覚醒1"
+    "id_tag": "SID_攻撃守備の大覚醒1",
+    "next_seal": "SID_攻撃守備の大覚醒2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
   },
   {
-    "id_tag": "SID_攻撃守備の大覚醒2"
+    "id_tag": "SID_攻撃守備の大覚醒2",
+    "next_seal": "SID_攻撃守備の大覚醒3",
+    "prev_seal": "SID_攻撃守備の大覚醒1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
   },
   {
-    "id_tag": "SID_攻撃守備の大覚醒3"
+    "id_tag": "SID_攻撃守備の大覚醒3",
+    "next_seal": null,
+    "prev_seal": "SID_攻撃守備の大覚醒2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
   },
   {
-    "id_tag": "SID_守備の波・偶数1"
+    "id_tag": "SID_守備の波・偶数1",
+    "next_seal": "SID_守備の波・偶数2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
   },
   {
-    "id_tag": "SID_守備の波・偶数2"
+    "id_tag": "SID_守備の波・偶数2",
+    "next_seal": "SID_守備の波・偶数3",
+    "prev_seal": "SID_守備の波・偶数1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
   },
   {
-    "id_tag": "SID_守備の波・偶数3"
+    "id_tag": "SID_守備の波・偶数3",
+    "next_seal": null,
+    "prev_seal": "SID_守備の波・偶数2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
   }
 ]
