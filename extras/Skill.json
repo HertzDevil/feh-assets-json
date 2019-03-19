@@ -21850,6 +21850,52 @@
     "ability_id": 90
   },
   {
+    "id_tag": "SID_フェルニルの妖卵",
+    "name_id": "MSID_フェルニルの妖卵",
+    "desc_id": "MSID_H_フェルニルの妖卵",
+    "prerequisites": [
+      "SID_レクスカリバー",
+      null
+    ],
+    "sprites": [
+      null,
+      "wep_mg231",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 3,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 4,
+      "spd": 4,
+      "def": 4,
+      "res": 4
+    },
+    "num_id": 1445,
+    "sort_id": 215,
+    "icon_id": 1,
+    "wep_equip": 8192,
+    "mov_equip": 15,
+    "sp_cost": 400,
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "score": 20,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 3,
+    "limit1_params": [
+      75,
+      100
+    ]
+  },
+  {
     "id_tag": "SID_フェンサリル",
     "name_id": "MSID_フェンサリル",
     "desc_id": "MSID_H_フェンサリル",
@@ -33533,6 +33579,145 @@
     ]
   },
   {
+    "id_tag": "SID_卵の杖",
+    "name_id": "MSID_卵の杖",
+    "desc_id": "MSID_H_卵の杖",
+    "prerequisites": [
+      "SID_アサルト",
+      null
+    ],
+    "next_skill": "SID_卵の杖＋",
+    "sprites": [
+      null,
+      "wep_rd024",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1446,
+    "sort_id": 70000,
+    "icon_id": 1,
+    "wep_equip": 16384,
+    "mov_equip": 15,
+    "sp_cost": 200,
+    "range": 2,
+    "might": 8,
+    "skill_range": 1,
+    "score": 11,
+    "promotion_tier": 2,
+    "promotion_rarity": 5,
+    "timing_id": 8,
+    "ability_id": 22
+  },
+  {
+    "id_tag": "SID_卵の杖＋",
+    "name_id": "MSID_卵の杖＋",
+    "desc_id": "MSID_H_卵の杖＋",
+    "prerequisites": [
+      "SID_卵の杖",
+      null
+    ],
+    "sprites": [
+      null,
+      "wep_rd024",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 7,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1447,
+    "sort_id": 70001,
+    "icon_id": 1,
+    "wep_equip": 16384,
+    "mov_equip": 15,
+    "sp_cost": 300,
+    "range": 2,
+    "might": 12,
+    "skill_range": 1,
+    "score": 15,
+    "timing_id": 8,
+    "ability_id": 22
+  },
+  {
+    "id_tag": "SID_卵の杖＋_幻",
+    "refine_base": "SID_卵の杖＋",
+    "name_id": "MSID_卵の杖＋",
+    "desc_id": "MSID_H_卵の杖＋",
+    "refine_id": "SID_幻惑の杖3",
+    "sprites": [
+      null,
+      "wep_rd024",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 7,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436293,
+    "sort_id": 70001,
+    "icon_id": 418,
+    "wep_equip": 16384,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "skill_range": 1,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 2,
+    "timing_id": 8,
+    "ability_id": 22
+  },
+  {
+    "id_tag": "SID_卵の杖＋_神",
+    "refine_base": "SID_卵の杖＋",
+    "name_id": "MSID_卵の杖＋",
+    "desc_id": "MSID_H_卵の杖＋",
+    "refine_id": "SID_神罰の杖3",
+    "sprites": [
+      null,
+      "wep_rd024",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 7,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436292,
+    "sort_id": 70001,
+    "icon_id": 417,
+    "wep_equip": 16384,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "skill_range": 1,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 1,
+    "timing_id": 8,
+    "ability_id": 22
+  },
+  {
     "id_tag": "SID_反撃抑制R魔",
     "name_id": "MSID_反撃抑制R魔",
     "desc_id": "MSID_H_反撃抑制R魔",
@@ -34970,6 +35155,313 @@
     "_unknown1": 10,
     "min_lv": 31,
     "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_天馬のニンジン",
+    "name_id": "MSID_天馬のニンジン",
+    "desc_id": "MSID_H_天馬のニンジン",
+    "prerequisites": [
+      "SID_鋼の暗器",
+      null
+    ],
+    "next_skill": "SID_天馬のニンジン＋",
+    "sprites": [
+      null,
+      "wep_dg028",
+      null,
+      null
+    ],
+    "class_params": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": -5,
+      "res": -5
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1443,
+    "sort_id": 70000,
+    "icon_id": 1,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 200,
+    "range": 2,
+    "might": 8,
+    "score": 11,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "mov_effective": 2,
+    "timing_id": 1,
+    "ability_id": 113,
+    "limit1_id": 28
+  },
+  {
+    "id_tag": "SID_天馬のニンジン＋",
+    "name_id": "MSID_天馬のニンジン＋",
+    "desc_id": "MSID_H_天馬のニンジン＋",
+    "prerequisites": [
+      "SID_天馬のニンジン",
+      null
+    ],
+    "sprites": [
+      null,
+      "wep_dg028",
+      null,
+      null
+    ],
+    "class_params": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": -7,
+      "res": -7
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1444,
+    "sort_id": 70001,
+    "icon_id": 1,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 300,
+    "range": 2,
+    "might": 12,
+    "score": 15,
+    "mov_effective": 2,
+    "timing_id": 1,
+    "ability_id": 113,
+    "limit1_id": 28
+  },
+  {
+    "id_tag": "SID_天馬のニンジン＋_AGI",
+    "refine_base": "SID_天馬のニンジン＋",
+    "name_id": "MSID_天馬のニンジン＋",
+    "desc_id": "MSID_H_天馬のニンジン＋",
+    "sprites": [
+      null,
+      "wep_dg028",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 2,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": -7,
+      "res": -7
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 2,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436289,
+    "sort_id": 70001,
+    "icon_id": 413,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 102,
+    "mov_effective": 2,
+    "timing_id": 1,
+    "ability_id": 113,
+    "limit1_id": 28
+  },
+  {
+    "id_tag": "SID_天馬のニンジン＋_ATK",
+    "refine_base": "SID_天馬のニンジン＋",
+    "name_id": "MSID_天馬のニンジン＋",
+    "desc_id": "MSID_H_天馬のニンジン＋",
+    "sprites": [
+      null,
+      "wep_dg028",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": -7,
+      "res": -7
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436288,
+    "sort_id": 70001,
+    "icon_id": 412,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 13,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 101,
+    "mov_effective": 2,
+    "timing_id": 1,
+    "ability_id": 113,
+    "limit1_id": 28
+  },
+  {
+    "id_tag": "SID_天馬のニンジン＋_DEF",
+    "refine_base": "SID_天馬のニンジン＋",
+    "name_id": "MSID_天馬のニンジン＋",
+    "desc_id": "MSID_H_天馬のニンジン＋",
+    "sprites": [
+      null,
+      "wep_dg028",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 3,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": -7,
+      "res": -7
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 3,
+      "res": 0
+    },
+    "num_id": 268436290,
+    "sort_id": 70001,
+    "icon_id": 414,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 103,
+    "mov_effective": 2,
+    "timing_id": 1,
+    "ability_id": 113,
+    "limit1_id": 28
+  },
+  {
+    "id_tag": "SID_天馬のニンジン＋_RES",
+    "refine_base": "SID_天馬のニンジン＋",
+    "name_id": "MSID_天馬のニンジン＋",
+    "desc_id": "MSID_H_天馬のニンジン＋",
+    "sprites": [
+      null,
+      "wep_dg028",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 3
+    },
+    "class_params": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": -7,
+      "res": -7
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 3
+    },
+    "num_id": 268436291,
+    "sort_id": 70001,
+    "icon_id": 415,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 104,
+    "mov_effective": 2,
+    "timing_id": 1,
+    "ability_id": 113,
+    "limit1_id": 28
   },
   {
     "id_tag": "SID_太陽",
@@ -44116,6 +44608,117 @@
     "_unknown3": 2
   },
   {
+    "id_tag": "SID_攻撃守備の渾身1",
+    "name_id": "MSID_攻撃守備の渾身1",
+    "desc_id": "MSID_H_攻撃守備の渾身1",
+    "next_skill": "SID_攻撃守備の渾身2",
+    "skill_params": {
+      "hp": -1,
+      "atk": 3,
+      "spd": 0,
+      "def": 3,
+      "res": 0
+    },
+    "num_id": 1448,
+    "sort_id": 12010,
+    "icon_id": 781,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 60,
+    "category": 3,
+    "score": 2,
+    "promotion_tier": 1,
+    "promotion_rarity": 4,
+    "timing_id": 1,
+    "ability_id": 62,
+    "limit1_id": 3,
+    "limit1_params": [
+      100,
+      100
+    ],
+    "passive_next": "SID_攻撃守備の渾身2",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 21,
+    "max_lv": 30,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_攻撃守備の渾身2",
+    "name_id": "MSID_攻撃守備の渾身2",
+    "desc_id": "MSID_H_攻撃守備の渾身2",
+    "prerequisites": [
+      "SID_攻撃守備の渾身1",
+      null
+    ],
+    "next_skill": "SID_攻撃守備の渾身3",
+    "skill_params": {
+      "hp": -1,
+      "atk": 4,
+      "spd": 0,
+      "def": 4,
+      "res": 0
+    },
+    "num_id": 1449,
+    "sort_id": 12011,
+    "icon_id": 782,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 120,
+    "category": 3,
+    "score": 4,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "timing_id": 1,
+    "ability_id": 62,
+    "limit1_id": 3,
+    "limit1_params": [
+      100,
+      100
+    ],
+    "passive_next": "SID_攻撃守備の渾身3",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 26,
+    "max_lv": 35,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_攻撃守備の渾身3",
+    "name_id": "MSID_攻撃守備の渾身3",
+    "desc_id": "MSID_H_攻撃守備の渾身3",
+    "prerequisites": [
+      "SID_攻撃守備の渾身2",
+      null
+    ],
+    "skill_params": {
+      "hp": -1,
+      "atk": 5,
+      "spd": 0,
+      "def": 5,
+      "res": 0
+    },
+    "num_id": 1450,
+    "sort_id": 12012,
+    "icon_id": 783,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 240,
+    "category": 3,
+    "score": 6,
+    "timing_id": 1,
+    "ability_id": 62,
+    "limit1_id": 3,
+    "limit1_params": [
+      100,
+      100
+    ],
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1
+  },
+  {
     "id_tag": "SID_攻撃守備の紋章1",
     "name_id": "MSID_攻撃守備の紋章1",
     "desc_id": "MSID_H_攻撃守備の紋章1",
@@ -47116,6 +47719,295 @@
     "min_lv": 11,
     "max_lv": 30,
     "_unknown3": 2
+  },
+  {
+    "id_tag": "SID_春の妖弓",
+    "name_id": "MSID_春の妖弓",
+    "desc_id": "MSID_H_春の妖弓",
+    "prerequisites": [
+      "SID_鋼の弓",
+      null
+    ],
+    "next_skill": "SID_春の妖弓＋",
+    "sprites": [
+      "wep_bw031",
+      "wep_ar031",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "num_id": 1441,
+    "sort_id": 70000,
+    "icon_id": 1,
+    "wep_equip": 120,
+    "mov_equip": 15,
+    "sp_cost": 200,
+    "range": 2,
+    "might": 8,
+    "score": 11,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "mov_effective": 8,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_春の妖弓＋",
+    "name_id": "MSID_春の妖弓＋",
+    "desc_id": "MSID_H_春の妖弓＋",
+    "prerequisites": [
+      "SID_春の妖弓",
+      null
+    ],
+    "sprites": [
+      "wep_bw031",
+      "wep_ar031",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "num_id": 1442,
+    "sort_id": 70001,
+    "icon_id": 1,
+    "wep_equip": 120,
+    "mov_equip": 15,
+    "sp_cost": 300,
+    "range": 2,
+    "might": 12,
+    "score": 15,
+    "mov_effective": 8,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_春の妖弓＋_AGI",
+    "refine_base": "SID_春の妖弓＋",
+    "name_id": "MSID_春の妖弓＋",
+    "desc_id": "MSID_H_春の妖弓＋",
+    "sprites": [
+      "wep_bw031",
+      "wep_ar031",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 2,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 2,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436285,
+    "sort_id": 70001,
+    "icon_id": 413,
+    "wep_equip": 120,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 102,
+    "mov_effective": 8,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_春の妖弓＋_ATK",
+    "refine_base": "SID_春の妖弓＋",
+    "name_id": "MSID_春の妖弓＋",
+    "desc_id": "MSID_H_春の妖弓＋",
+    "sprites": [
+      "wep_bw031",
+      "wep_ar031",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 1,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436284,
+    "sort_id": 70001,
+    "icon_id": 412,
+    "wep_equip": 120,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 13,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 101,
+    "mov_effective": 8,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_春の妖弓＋_DEF",
+    "refine_base": "SID_春の妖弓＋",
+    "name_id": "MSID_春の妖弓＋",
+    "desc_id": "MSID_H_春の妖弓＋",
+    "sprites": [
+      "wep_bw031",
+      "wep_ar031",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 3,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 3,
+      "res": 0
+    },
+    "num_id": 268436286,
+    "sort_id": 70001,
+    "icon_id": 414,
+    "wep_equip": 120,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 103,
+    "mov_effective": 8,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_春の妖弓＋_RES",
+    "refine_base": "SID_春の妖弓＋",
+    "name_id": "MSID_春の妖弓＋",
+    "desc_id": "MSID_H_春の妖弓＋",
+    "sprites": [
+      "wep_bw031",
+      "wep_ar031",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 3
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 2,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 3
+    },
+    "num_id": 268436287,
+    "sort_id": 70001,
+    "icon_id": 415,
+    "wep_equip": 120,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 2,
+    "might": 12,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 104,
+    "mov_effective": 8,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
   },
   {
     "id_tag": "SID_暁天の神楽鈴",
@@ -62143,6 +63035,289 @@
     "_unknown3": 2
   },
   {
+    "id_tag": "SID_緋閃のニンジン槍",
+    "name_id": "MSID_緋閃のニンジン槍",
+    "desc_id": "MSID_H_緋閃のニンジン槍",
+    "prerequisites": [
+      "SID_鋼の槍",
+      null
+    ],
+    "next_skill": "SID_緋閃のニンジン槍＋",
+    "sprites": [
+      null,
+      "wep_lc043",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "num_id": 1439,
+    "sort_id": 70000,
+    "icon_id": 1,
+    "wep_equip": 2,
+    "mov_equip": 15,
+    "sp_cost": 200,
+    "range": 1,
+    "might": 10,
+    "score": 11,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_緋閃のニンジン槍＋",
+    "name_id": "MSID_緋閃のニンジン槍＋",
+    "desc_id": "MSID_H_緋閃のニンジン槍＋",
+    "prerequisites": [
+      "SID_緋閃のニンジン槍",
+      null
+    ],
+    "sprites": [
+      null,
+      "wep_lc043",
+      null,
+      null
+    ],
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "num_id": 1440,
+    "sort_id": 70001,
+    "icon_id": 1,
+    "wep_equip": 2,
+    "mov_equip": 15,
+    "sp_cost": 300,
+    "range": 1,
+    "might": 14,
+    "score": 15,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_緋閃のニンジン槍＋_AGI",
+    "refine_base": "SID_緋閃のニンジン槍＋",
+    "name_id": "MSID_緋閃のニンジン槍＋",
+    "desc_id": "MSID_H_緋閃のニンジン槍＋",
+    "sprites": [
+      null,
+      "wep_lc043",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 3,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 3,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436281,
+    "sort_id": 70001,
+    "icon_id": 413,
+    "wep_equip": 2,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 1,
+    "might": 14,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 102,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_緋閃のニンジン槍＋_ATK",
+    "refine_base": "SID_緋閃のニンジン槍＋",
+    "name_id": "MSID_緋閃のニンジン槍＋",
+    "desc_id": "MSID_H_緋閃のニンジン槍＋",
+    "sprites": [
+      null,
+      "wep_lc043",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 5,
+      "atk": 2,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 268436280,
+    "sort_id": 70001,
+    "icon_id": 412,
+    "wep_equip": 2,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 1,
+    "might": 16,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 101,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_緋閃のニンジン槍＋_DEF",
+    "refine_base": "SID_緋閃のニンジン槍＋",
+    "name_id": "MSID_緋閃のニンジン槍＋",
+    "desc_id": "MSID_H_緋閃のニンジン槍＋",
+    "sprites": [
+      null,
+      "wep_lc043",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 4,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 4,
+      "res": 0
+    },
+    "num_id": 268436282,
+    "sort_id": 70001,
+    "icon_id": 414,
+    "wep_equip": 2,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 1,
+    "might": 14,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 103,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
+    "id_tag": "SID_緋閃のニンジン槍＋_RES",
+    "refine_base": "SID_緋閃のニンジン槍＋",
+    "name_id": "MSID_緋閃のニンジン槍＋",
+    "desc_id": "MSID_H_緋閃のニンジン槍＋",
+    "sprites": [
+      null,
+      "wep_lc043",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 4
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 2,
+      "spd": 2,
+      "def": 2,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 4
+    },
+    "num_id": 268436283,
+    "sort_id": 70001,
+    "icon_id": 415,
+    "wep_equip": 2,
+    "mov_equip": 15,
+    "sp_cost": 350,
+    "range": 1,
+    "might": 14,
+    "score": 20,
+    "refined": true,
+    "refine_sort_id": 104,
+    "timing_id": 1,
+    "ability_id": 35,
+    "limit1_id": 5,
+    "limit1_params": [
+      100,
+      100
+    ]
+  },
+  {
     "id_tag": "SID_緑のプレゼント箱",
     "name_id": "MSID_緑のプレゼント箱",
     "desc_id": "MSID_H_緑のプレゼント箱",
@@ -62739,6 +63914,123 @@
     "timing_id": 18,
     "ability_id": 107,
     "timestamp": "2018-10-21 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_緑の死闘・飛行1",
+    "name_id": "MSID_緑の死闘・飛行1",
+    "desc_id": "MSID_H_緑の死闘・飛行1",
+    "next_skill": "SID_緑の死闘・飛行2",
+    "stats": {
+      "hp": 3,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 160,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1451,
+    "sort_id": 14230,
+    "icon_id": 784,
+    "wep_equip": 2236964,
+    "mov_equip": 8,
+    "sp_cost": 70,
+    "category": 3,
+    "score": 2,
+    "promotion_tier": 1,
+    "promotion_rarity": 4,
+    "timing_id": 18,
+    "ability_id": 107,
+    "passive_next": "SID_緑の死闘・飛行2",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 21,
+    "max_lv": 30,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_緑の死闘・飛行2",
+    "name_id": "MSID_緑の死闘・飛行2",
+    "desc_id": "MSID_H_緑の死闘・飛行2",
+    "prerequisites": [
+      "SID_緑の死闘・飛行1",
+      null
+    ],
+    "next_skill": "SID_緑の死闘・飛行3",
+    "stats": {
+      "hp": 4,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 165,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1452,
+    "sort_id": 14231,
+    "icon_id": 785,
+    "wep_equip": 2236964,
+    "mov_equip": 8,
+    "sp_cost": 150,
+    "category": 3,
+    "score": 4,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "timing_id": 18,
+    "ability_id": 107,
+    "passive_next": "SID_緑の死闘・飛行3",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 26,
+    "max_lv": 35,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_緑の死闘・飛行3",
+    "name_id": "MSID_緑の死闘・飛行3",
+    "desc_id": "MSID_H_緑の死闘・飛行3",
+    "prerequisites": [
+      "SID_緑の死闘・飛行2",
+      null
+    ],
+    "stats": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 170,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1453,
+    "sort_id": 14232,
+    "icon_id": 786,
+    "wep_equip": 2236964,
+    "mov_equip": 8,
+    "sp_cost": 300,
+    "category": 3,
+    "score": 6,
+    "timing_id": 18,
+    "ability_id": 107,
+    "timestamp": "2019-04-19 15:00:00 +0800",
     "_unknown1": 10,
     "min_lv": 31,
     "_unknown3": 1
@@ -63622,6 +64914,95 @@
     "_unknown1": 10,
     "min_lv": 31,
     "_unknown2": 1,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_罠解除1",
+    "name_id": "MSID_罠解除1",
+    "desc_id": "MSID_H_罠解除1",
+    "next_skill": "SID_罠解除2",
+    "skill_params": {
+      "hp": 1,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1457,
+    "sort_id": 31000,
+    "icon_id": 790,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 60,
+    "category": 4,
+    "score": 2,
+    "promotion_tier": 1,
+    "promotion_rarity": 4,
+    "timing_id": 19,
+    "ability_id": 139,
+    "passive_next": "SID_罠解除2",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 21,
+    "max_lv": 30,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_罠解除2",
+    "name_id": "MSID_罠解除2",
+    "desc_id": "MSID_H_罠解除2",
+    "prerequisites": [
+      "SID_罠解除1",
+      null
+    ],
+    "next_skill": "SID_罠解除3",
+    "skill_params": {
+      "hp": 3,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1458,
+    "sort_id": 31001,
+    "icon_id": 791,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 120,
+    "category": 4,
+    "score": 4,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "timing_id": 19,
+    "ability_id": 139,
+    "passive_next": "SID_罠解除3",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 26,
+    "max_lv": 35,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_罠解除3",
+    "name_id": "MSID_罠解除3",
+    "desc_id": "MSID_H_罠解除3",
+    "prerequisites": [
+      "SID_罠解除2",
+      null
+    ],
+    "num_id": 1459,
+    "sort_id": 31002,
+    "icon_id": 792,
+    "wep_equip": 1920,
+    "mov_equip": 15,
+    "sp_cost": 240,
+    "category": 4,
+    "score": 6,
+    "timing_id": 19,
+    "ability_id": 139,
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
     "_unknown3": 1
   },
   {
@@ -71439,6 +72820,105 @@
     "timestamp": "2018-01-28 15:00:00 +0800",
     "_unknown1": 10,
     "min_lv": 31,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_速さ守備の連携1",
+    "name_id": "MSID_速さ守備の連携1",
+    "desc_id": "MSID_H_速さ守備の連携1",
+    "next_skill": "SID_速さ守備の連携2",
+    "skill_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 2,
+      "def": 2,
+      "res": 0
+    },
+    "num_id": 1454,
+    "sort_id": 26030,
+    "icon_id": 787,
+    "wep_equip": 8372223,
+    "mov_equip": 15,
+    "sp_cost": 60,
+    "category": 4,
+    "score": 2,
+    "promotion_tier": 1,
+    "promotion_rarity": 4,
+    "timing_id": 17,
+    "ability_id": 99,
+    "passive_next": "SID_速さ守備の連携2",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 21,
+    "max_lv": 30,
+    "_unknown2": 1,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_速さ守備の連携2",
+    "name_id": "MSID_速さ守備の連携2",
+    "desc_id": "MSID_H_速さ守備の連携2",
+    "prerequisites": [
+      "SID_速さ守備の連携1",
+      null
+    ],
+    "next_skill": "SID_速さ守備の連携3",
+    "skill_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 4,
+      "def": 4,
+      "res": 0
+    },
+    "num_id": 1455,
+    "sort_id": 26031,
+    "icon_id": 788,
+    "wep_equip": 8372223,
+    "mov_equip": 15,
+    "sp_cost": 120,
+    "category": 4,
+    "score": 4,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "timing_id": 17,
+    "ability_id": 99,
+    "passive_next": "SID_速さ守備の連携3",
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 26,
+    "max_lv": 35,
+    "_unknown2": 1,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_速さ守備の連携3",
+    "name_id": "MSID_速さ守備の連携3",
+    "desc_id": "MSID_H_速さ守備の連携3",
+    "prerequisites": [
+      "SID_速さ守備の連携2",
+      null
+    ],
+    "skill_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 6,
+      "def": 6,
+      "res": 0
+    },
+    "num_id": 1456,
+    "sort_id": 26032,
+    "icon_id": 789,
+    "wep_equip": 8372223,
+    "mov_equip": 15,
+    "sp_cost": 240,
+    "category": 4,
+    "score": 6,
+    "timing_id": 17,
+    "ability_id": 99,
+    "timestamp": "2019-04-19 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown2": 1,
     "_unknown3": 1
   },
   {
