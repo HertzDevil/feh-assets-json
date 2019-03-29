@@ -42130,6 +42130,39 @@
     "_unknown3": 2
   },
   {
+    "id_tag": "SID_我が名は混沌",
+    "name_id": "MSID_我が名は混沌",
+    "desc_id": "MSID_H_我が名は混沌",
+    "skill_params": {
+      "hp": -5,
+      "atk": -15,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1464,
+    "sort_id": 217,
+    "icon_id": 796,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 300,
+    "category": 5,
+    "exclusive": true,
+    "skill_range": 1,
+    "score": 8,
+    "timing_id": 8,
+    "ability_id": 141,
+    "limit1_id": 7,
+    "limit1_params": [
+      4,
+      3
+    ],
+    "timestamp": "2019-04-29 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1
+  },
+  {
     "id_tag": "SID_戦姫の和弓",
     "name_id": "MSID_戦姫の和弓",
     "desc_id": "MSID_H_戦姫の和弓",
@@ -68685,6 +68718,52 @@
     ]
   },
   {
+    "id_tag": "SID_負の力",
+    "name_id": "MSID_負の力",
+    "desc_id": "MSID_H_負の力",
+    "prerequisites": [
+      "SID_レクスカリバー",
+      null
+    ],
+    "sprites": [
+      null,
+      "wep_mg232",
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 3
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 6,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "num_id": 1460,
+    "sort_id": 216,
+    "icon_id": 1,
+    "wep_equip": 8192,
+    "mov_equip": 15,
+    "sp_cost": 400,
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "score": 20,
+    "timing_id": 1,
+    "ability_id": 140,
+    "limit1_id": 25,
+    "timestamp": "2019-04-29 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1
+  },
+  {
     "id_tag": "SID_貫きの槍",
     "name_id": "MSID_貫きの槍",
     "desc_id": "MSID_H_貫きの槍",
@@ -84128,6 +84207,117 @@
     "min_lv": 31,
     "_unknown2": 1,
     "_unknown3": 2
+  },
+  {
+    "id_tag": "SID_魔防の混乱1",
+    "name_id": "MSID_魔防の混乱1",
+    "desc_id": "MSID_H_魔防の混乱1",
+    "next_skill": "SID_魔防の混乱2",
+    "skill_params": {
+      "hp": -1,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": -3
+    },
+    "num_id": 1461,
+    "sort_id": 14730,
+    "icon_id": 793,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 60,
+    "category": 4,
+    "score": 2,
+    "promotion_tier": 1,
+    "promotion_rarity": 4,
+    "timing_id": 8,
+    "ability_id": 111,
+    "limit1_id": 7,
+    "limit1_params": [
+      4,
+      3
+    ],
+    "passive_next": "SID_魔防の混乱2",
+    "timestamp": "2019-04-29 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 21,
+    "max_lv": 30,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_魔防の混乱2",
+    "name_id": "MSID_魔防の混乱2",
+    "desc_id": "MSID_H_魔防の混乱2",
+    "prerequisites": [
+      "SID_魔防の混乱1",
+      null
+    ],
+    "next_skill": "SID_魔防の混乱3",
+    "skill_params": {
+      "hp": -1,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": -5
+    },
+    "num_id": 1462,
+    "sort_id": 14731,
+    "icon_id": 794,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 120,
+    "category": 4,
+    "score": 4,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "timing_id": 8,
+    "ability_id": 111,
+    "limit1_id": 7,
+    "limit1_params": [
+      4,
+      3
+    ],
+    "passive_next": "SID_魔防の混乱3",
+    "timestamp": "2019-04-29 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 26,
+    "max_lv": 35,
+    "_unknown3": 1
+  },
+  {
+    "id_tag": "SID_魔防の混乱3",
+    "name_id": "MSID_魔防の混乱3",
+    "desc_id": "MSID_H_魔防の混乱3",
+    "prerequisites": [
+      "SID_魔防の混乱2",
+      null
+    ],
+    "skill_params": {
+      "hp": -1,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": -7
+    },
+    "num_id": 1463,
+    "sort_id": 14732,
+    "icon_id": 795,
+    "wep_equip": 8388607,
+    "mov_equip": 15,
+    "sp_cost": 240,
+    "category": 4,
+    "score": 6,
+    "timing_id": 8,
+    "ability_id": 111,
+    "limit1_id": 7,
+    "limit1_params": [
+      4,
+      3
+    ],
+    "timestamp": "2019-04-29 15:00:00 +0800",
+    "_unknown1": 10,
+    "min_lv": 31,
+    "_unknown3": 1
   },
   {
     "id_tag": "SID_魔防の紋章1",
