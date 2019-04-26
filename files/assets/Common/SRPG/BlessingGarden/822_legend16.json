@@ -1,0 +1,166 @@
+[
+  {
+    "id_tag": "BG_FIRE_0019",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2019-04-28T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 75,
+    "season": 1,
+    "scenario": {
+      "id_tag": "BG_FIRE_0019",
+      "maps": {
+        "group_id": "BG_FIRE_0019",
+        "map_ids": [
+          {
+            "map_id": "S1205C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          },
+          {
+            "map_id": "S1301C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          },
+          {
+            "map_id": "S1302C",
+            "rarity": 5,
+            "real_lv": 45,
+            "promotion_tier": 1,
+            "hp_factor": 110
+          }
+        ],
+        "map_count": 3,
+        "team_count": 3
+      },
+      "reward": [
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 2
+        },
+        {
+          "kind": 18,
+          "_type": "divine_dew",
+          "count": 20
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 3,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 45,
+      "enemy_weps": [
+        11,
+        12,
+        12,
+        13,
+        14,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  },
+  {
+    "id_tag": "BG_WATER_0020",
+    "prerequisites": [
+      "S2015A",
+      "S2015B",
+      "S2015C"
+    ],
+    "prereq_count": 3,
+    "start": "2019-05-05T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id": 76,
+    "season": 2,
+    "scenario": {
+      "id_tag": "BG_WATER_0020",
+      "maps": {
+        "group_id": "BG_WATER_0020",
+        "map_ids": [
+          {
+            "map_id": "S1303C",
+            "rarity": 5,
+            "real_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 150
+          },
+          {
+            "map_id": "S1304C",
+            "rarity": 5,
+            "real_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 150
+          },
+          {
+            "map_id": "S1305C",
+            "rarity": 5,
+            "real_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 150
+          }
+        ],
+        "map_count": 3,
+        "team_count": 3
+      },
+      "reward": [
+        {
+          "kind": 0,
+          "_type": "orb",
+          "count": 5
+        },
+        {
+          "kind": 20,
+          "_type": "blessing",
+          "count": 1,
+          "element": 3
+        }
+      ],
+      "payload_size": 72,
+      "_unknown1": 1,
+      "stamina": 5,
+      "difficulty": 3,
+      "_unknown2": [
+        14521,
+        35117,
+        32443,
+        34045
+      ],
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 50,
+      "enemy_weps": [
+        0,
+        0,
+        1,
+        1,
+        6,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  }
+]
