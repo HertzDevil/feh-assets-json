@@ -13,10 +13,11 @@ entail the extraction of data from / insertion of data to an FEH installation.
 
 ## Extras
 
-The `extras/` directory contains other useful JSON files:
+The `extras/` directory contains other useful files:
 
-* `Skill.json`: All skill definitions in one file, sorted by their internal
-  IDs, and with the fields equal to the blank definition (`SID_無し`) removed.
+* `diffed_skills.rb`: Ruby script which merges all skill definition files, sorts
+  them by their internal IDs, and removes fields that are equal to the blank
+  skill definition (`SID_無し`).
 * `SRPGMap/*.json`: Special Map definition files.
 
 ## Availability
