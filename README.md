@@ -47,7 +47,7 @@ The `extras/` directory contains other useful files:
     * [ ] `arc/*.bin`
   * [ ] `FriendDouble/*.bin`
   * [ ] `HeroTrial/*.bin`
-  * [ ] `HolyGrail/*.bin`
+  * [x] `HolyGrail/*.bin`
   * [ ] `Home/`
     * [ ] `3R_2ZUtKrm/*.bin`
     * [ ] `hQ2uT_yaiphg/*.bin`
