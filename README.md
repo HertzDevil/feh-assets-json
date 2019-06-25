@@ -45,6 +45,8 @@ The `extras/` directory contains other useful files:
     * [x] `PersonData/*.bin`
   * [ ] `Effect/`
     * [ ] `arc/*.bin`
+  * [ ] `FriendDouble/*.bin`
+  * [ ] `HeroTrial/*.bin`
   * [ ] `HolyGrail/*.bin`
   * [ ] `Home/`
     * [ ] `3R_2ZUtKrm/*.bin`
@@ -56,15 +58,25 @@ The `extras/` directory contains other useful files:
     * [ ] `vKw9mbW13/*.bin`
     * [ ] `LoginBonus.bin`
   * [x] `Mission/*.bin`
+  * [ ] `MusicShop/`
+    * [ ] `BgmConfig/*.bin`
+    * [ ] `ProductMusic/*.bin`
   * [ ] `Occupation/`
     * [ ] `Data/*.bin`
     * [x] `World/*.bin`
   * [ ] `Portrait/*.bin`
   * [ ] `SequentialArena/*.bin`
+  * [ ] `Shadow/*.bin`
   * [ ] `SkyCastle/`
     * [ ] `BattleData/*.bin`
     * [ ] `ConsumeItemData/*.bin`
     * [x] `FacilityData/*.bin`
+    * [ ] `HolidayDefsData/*.bin`
+    * [ ] `HolidayEventData/`
+      * [ ] `AccessoryList/*.bin`
+      * [ ] `SkillList/*.bin`
+    * [ ] `HolidayShopData/*.bin`
+    * [ ] `HolidayUnitCommandData/*.bin`
     * [ ] `MiscData/*.bin`
     * [ ] `TemplateData/*.bin`
   * [ ] `Sound/`
@@ -90,6 +102,7 @@ The `extras/` directory contains other useful files:
     * [x] `SkillLimit/*.bin`
     * [x] `SkillTiming/*.bin`
     * [ ] `StageBgm/`
+      * [ ] `HeroTrial/*.bin`
       * [ ] `Occupation/*.bin`
       * [ ] `Preset/*.bin`
       * [ ] `./*.bin`
@@ -98,6 +111,7 @@ The `extras/` directory contains other useful files:
     * [x] `StageScenario/*.bin`
     * [x] `WeaponRefine/*.bin`
     * [ ] `Attribute.bin`
+    * [ ] `Dragonflower.bin`
     * [ ] `Exp.bin`
     * [x] `Grow.bin`
     * [ ] `Individual.bin`
