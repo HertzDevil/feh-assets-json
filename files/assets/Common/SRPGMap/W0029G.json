@@ -1,0 +1,300 @@
+{
+  "highest_score": 255,
+  "field": {
+    "id": "W0029",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        1,
+        1,
+        1,
+        1,
+        21,
+        21
+      ],
+      [
+        1,
+        5,
+        5,
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        5,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        11,
+        5
+      ],
+      [
+        1,
+        21,
+        1,
+        5,
+        1,
+        5
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        21,
+        1,
+        1,
+        1,
+        1,
+        21
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 4,
+      "y": 2
+    },
+    {
+      "x": 5,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_水着ウルスラ",
+      "skills": [
+        "SID_貝殻のナイフ＋",
+        "SID_攻撃速さの応援＋",
+        "SID_爆雷",
+        "SID_鬼神の一撃3",
+        "SID_守備魔防の大共謀3",
+        "SID_魔防の波・偶数3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 58,
+        "atk": 42,
+        "spd": 41,
+        "def": 20,
+        "res": 34
+      },
+      "start_turn": 2,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ソードファイター",
+      "skills": [
+        "SID_銀の剣＋",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 61,
+        "atk": 34,
+        "spd": 34,
+        "def": 33,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ボウファイター",
+      "skills": [
+        "SID_銀の弓＋",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 59,
+        "atk": 35,
+        "spd": 32,
+        "def": 32,
+        "res": 17
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ブルーマージ",
+      "skills": [
+        "SID_トロン＋",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 52,
+        "atk": 34,
+        "spd": 35,
+        "def": 22,
+        "res": 31
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_アクスドラゴン",
+      "skills": [
+        "SID_銀の斧＋",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "_unknown1": 100,
+      "stats": {
+        "hp": 57,
+        "atk": 38,
+        "spd": 30,
+        "def": 39,
+        "res": 21
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 5,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
