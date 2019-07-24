@@ -38,6 +38,7 @@ The `extras/` directory contains other useful files:
     * [ ] `VoteMap/*.bin`
     * [ ] `Daily.bin`
     * [ ] `f3Kb9BEt.bin`
+    * [ ] `NBYxPBbL.bin`
     * [x] `Season.bin`
     * [ ] `Stamina.bin`
   * [x] `DressAccessory/`
@@ -60,7 +61,7 @@ The `extras/` directory contains other useful files:
   * [x] `Mission/*.bin`
   * [ ] `MusicShop/`
     * [ ] `BgmConfig/*.bin`
-    * [ ] `ProductMusic/*.bin`
+    * [x] `ProductMusic/*.bin`
   * [ ] `Occupation/`
     * [ ] `Data/*.bin`
     * [x] `World/*.bin`
