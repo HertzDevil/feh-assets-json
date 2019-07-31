@@ -1,0 +1,116 @@
+[
+  {
+    "id_tag": "PC036",
+    "start": "2019-08-01T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 0,
+    "sort_id2": 114,
+    "difficulty": 2,
+    "scenario": {
+      "id_tag": "PC036",
+      "prerequisites": [
+        "S1405A",
+        "S1405B",
+        "S1405C"
+      ],
+      "prereq_count": 3,
+      "a": null,
+      "b": null,
+      "c": null,
+      "reward": [
+        {
+          "kind": 0,
+          "_type": "orb",
+          "count": 1
+        }
+      ],
+      "payload_size": 72,
+      "stamina": 0,
+      "difficulty": 3,
+      "_unknown3": [
+        38732,
+        5197,
+        54138,
+        20892
+      ],
+      "survives": 4,
+      "no_lights_blessing": 1,
+      "turns_to_win": 4,
+      "turns_to_defend": 0,
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 40,
+      "reinforcements": 1,
+      "last_enemy_phase": 0,
+      "rd_level": -1,
+      "enemy_weps": [
+        1,
+        1,
+        2,
+        11,
+        11,
+        11,
+        15,
+        17
+      ]
+    }
+  },
+  {
+    "id_tag": "PB059",
+    "start": "2019-08-01T07:00:00Z",
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 0,
+    "sort_id2": 115,
+    "difficulty": 1,
+    "scenario": {
+      "id_tag": "PB059",
+      "prerequisites": [
+        "S0103A"
+      ],
+      "prereq_count": 1,
+      "a": null,
+      "b": null,
+      "c": null,
+      "reward": [
+        {
+          "kind": 2,
+          "_type": "hero_feather",
+          "count": 300
+        }
+      ],
+      "payload_size": 72,
+      "stamina": 0,
+      "difficulty": 1,
+      "_unknown3": [
+        38732,
+        5197,
+        54138,
+        20892
+      ],
+      "survives": 1,
+      "no_lights_blessing": 1,
+      "turns_to_win": 4,
+      "turns_to_defend": 0,
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 40,
+      "reinforcements": 0,
+      "last_enemy_phase": 0,
+      "rd_level": -1,
+      "enemy_weps": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        13,
+        13,
+        17
+      ]
+    }
+  }
+]
