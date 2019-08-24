@@ -28,14 +28,14 @@ The `extras/` directory contains other useful files:
     * [ ] `AnimSignals/*.bin`
     * [ ] `Asset/*.bin`
   * [ ] `Delivery/`
-    * [ ] `ArenaMap/*.bin`
+    * [x] `ArenaMap/*.bin`
     * [x] `ArenaPerson/*.bin`
     * [ ] `EncountCrystal/*.bin`
     * [ ] `Flag/*.bin`
     * [ ] `GainBonus/*.bin`
     * [ ] `PromotionMedal/*.bin`
-    * [ ] `SequentialArenaMap/*.bin`
-    * [ ] `VoteMap/*.bin`
+    * [x] `SequentialArenaMap/*.bin`
+    * [x] `VoteMap/*.bin`
     * [ ] `Daily.bin`
     * [ ] `f3Kb9BEt.bin`
     * [ ] `NBYxPBbL.bin`
