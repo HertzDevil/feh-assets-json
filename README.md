@@ -66,7 +66,7 @@ The `extras/` directory contains other useful files:
     * [ ] `Data/*.bin`
     * [x] `World/*.bin`
   * [ ] `Portrait/*.bin`
-  * [ ] `SequentialArena/*.bin`
+  * [x] `SequentialArena/*.bin`
   * [ ] `Shadow/*.bin`
   * [ ] `SkyCastle/`
     * [ ] `BattleData/*.bin`
