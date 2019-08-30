@@ -23,7 +23,7 @@ The `extras/` directory contains other useful files:
 ## Availability
 
 * [ ] `files/assets/Common/`
-  * [ ] `Arena/*.bin`
+  * [x] `Arena/*.bin`
   * [ ] `Battle/`
     * [ ] `AnimSignals/*.bin`
     * [ ] `Asset/*.bin`
