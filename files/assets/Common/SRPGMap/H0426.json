@@ -1,0 +1,248 @@
+{
+  "highest_score": 209,
+  "field": {
+    "id": "H0426",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 0,
+    "terrain": [
+      [
+        3,
+        5,
+        3,
+        0,
+        4,
+        4
+      ],
+      [
+        5,
+        8,
+        3,
+        0,
+        0,
+        8
+      ],
+      [
+        3,
+        0,
+        8,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        0,
+        8
+      ],
+      [
+        3,
+        5,
+        0,
+        0,
+        0,
+        3
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 3,
+      "y": 2
+    },
+    {
+      "x": 4,
+      "y": 2
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_バヌトゥ",
+      "skills": [
+        "SID_闇のブレス＋",
+        null,
+        "SID_竜穿",
+        "SID_鬼神の構え3",
+        null,
+        "SID_死の吐息3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 34,
+        "spd": 28,
+        "def": 35,
+        "res": 26
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ジャファル",
+      "skills": [
+        "SID_死神の暗器",
+        null,
+        "SID_凶星",
+        "SID_死線3",
+        null,
+        "SID_速さの威嚇3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 26,
+        "spd": 33,
+        "def": 25,
+        "res": 22
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ツバキ",
+      "skills": [
+        "SID_蒼海の槍＋",
+        "SID_入れ替え",
+        null,
+        "SID_魔防3",
+        "SID_切り返し3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 25,
+        "spd": 35,
+        "def": 35,
+        "res": 22
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ヘルビンディ味方",
+      "skills": [
+        "SID_ビューレイスト",
+        null,
+        "SID_復讐",
+        "SID_緑の死闘・歩行3",
+        "SID_キャンセル3",
+        "SID_歩行の鼓動3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_charge": -1,
+      "stats": {
+        "hp": 44,
+        "atk": 35,
+        "spd": 18,
+        "def": 35,
+        "res": 31
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 2,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
