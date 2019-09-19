@@ -122,7 +122,7 @@ The `extras/` directory contains other useful files:
     * [ ] `ReliancePerson.bin`
     * [ ] `ReliancePlayer.bin`
     * [ ] `StageArenaMedal.bin`
-    * [ ] `StageEncount.bin`
+    * [x] `StageEncount.bin`
     * [ ] `StageScenario.bin`
     * [ ] `StageTutorial.bin`
     * [x] `Terrain.bin`
