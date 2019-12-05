@@ -1,0 +1,295 @@
+{
+  "highest_score": 154,
+  "field": {
+    "id": "S1204",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        6,
+        1,
+        1,
+        1,
+        1,
+        8
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        8
+      ],
+      [
+        6,
+        1,
+        1,
+        1,
+        1,
+        8
+      ],
+      [
+        6,
+        15,
+        6,
+        6,
+        15,
+        6
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        6
+      ],
+      [
+        1,
+        8,
+        8,
+        8,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        6
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 0
+    },
+    {
+      "x": 3,
+      "y": 0
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_メイ",
+      "skills": [
+        "SID_ブラーアウル",
+        "SID_引き寄せ",
+        null,
+        "SID_飛燕の一撃1",
+        "SID_攻め立て2",
+        "SID_青魔の経験2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 33,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 30,
+        "atk": 30,
+        "spd": 25,
+        "def": 12,
+        "res": 25
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ボーイ",
+      "skills": [
+        "SID_グルンアウル",
+        null,
+        "SID_蛍火",
+        "SID_生命の大地2",
+        "SID_回復2",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 33,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 37,
+        "atk": 24,
+        "spd": 21,
+        "def": 27,
+        "res": 14
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ジェニー",
+      "skills": [
+        "SID_グラビティ",
+        "SID_リブロー",
+        "SID_天照",
+        null,
+        "SID_神罰の杖2",
+        "SID_攻撃の鼓舞2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 33,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 28,
+        "atk": 29,
+        "spd": 20,
+        "def": 16,
+        "res": 28
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ソードファイター",
+      "skills": [
+        "SID_勇者の剣",
+        null,
+        null,
+        null,
+        "SID_切り込み",
+        "SID_魔防の威嚇1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 5
+      },
+      "rarity": 4,
+      "lv": 33,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 38,
+        "atk": 26,
+        "spd": 25,
+        "def": 25,
+        "res": 17
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_カチュア",
+      "skills": [
+        "SID_キラーランス",
+        null,
+        "SID_影月",
+        "SID_金剛の一撃1",
+        "SID_引き込み",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 4
+      },
+      "rarity": 4,
+      "lv": 33,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 33,
+        "atk": 26,
+        "spd": 29,
+        "def": 23,
+        "res": 20
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 5,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

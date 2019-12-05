@@ -1,0 +1,4739 @@
+[
+  {
+    "id_tag": "ST_C0001",
+    "prerequisites": [
+      "S0305A",
+      "S0305B",
+      "S0305C"
+    ],
+    "prereq_count": 3,
+    "start": null,
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "is_paralogue": 0,
+    "sort_id": 0,
+    "book": 1,
+    "lists": [
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0002A",
+            "maps": {
+              "group_id": "ST_S0002A",
+              "map_ids": [
+                {
+                  "map_id": "S0201A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0202A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0203A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0204A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0205A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0003A",
+            "maps": {
+              "group_id": "ST_S0003A",
+              "map_ids": [
+                {
+                  "map_id": "S0301A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0302A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0303A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0304A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0305A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              2,
+              11,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1003A",
+            "maps": {
+              "group_id": "ST_S1003A",
+              "map_ids": [
+                {
+                  "map_id": "S0201A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0202A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0203A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0204A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0205A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0301A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0302A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0303A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0304A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0305A",
+                  "rarity": 4,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0002B",
+            "maps": {
+              "group_id": "ST_S0002B",
+              "map_ids": [
+                {
+                  "map_id": "S0201B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0202B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0203B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0204B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0205B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0003B",
+            "maps": {
+              "group_id": "ST_S0003B",
+              "map_ids": [
+                {
+                  "map_id": "S0301B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0302B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0303B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0304B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0305B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              2,
+              11,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1003B",
+            "maps": {
+              "group_id": "ST_S1003B",
+              "map_ids": [
+                {
+                  "map_id": "S0201B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0202B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0203B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0204B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0205B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0301B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0302B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0303B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0304B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0305B",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0002C",
+            "maps": {
+              "group_id": "ST_S0002C",
+              "map_ids": [
+                {
+                  "map_id": "S0201C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0202C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0203C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0204C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0205C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0003C",
+            "maps": {
+              "group_id": "ST_S0003C",
+              "map_ids": [
+                {
+                  "map_id": "S0301C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0302C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0303C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0304C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0305C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              2,
+              11,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1003C",
+            "maps": {
+              "group_id": "ST_S1003C",
+              "map_ids": [
+                {
+                  "map_id": "S0201C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0202C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0203C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0204C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0205C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0301C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0302C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0303C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0304C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0305C",
+                  "rarity": 5,
+                  "true_lv": 50,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 4
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 45,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id_tag": "ST_C0002",
+    "prerequisites": [
+      "S0505A",
+      "S0505B",
+      "S0505C"
+    ],
+    "prereq_count": 3,
+    "start": null,
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "is_paralogue": 0,
+    "sort_id": 1,
+    "book": 1,
+    "lists": [
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0004A",
+            "maps": {
+              "group_id": "ST_S0004A",
+              "map_ids": [
+                {
+                  "map_id": "S0401A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0402A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0403A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0404A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0405A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              6,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0005A",
+            "maps": {
+              "group_id": "ST_S0005A",
+              "map_ids": [
+                {
+                  "map_id": "S0501A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0502A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0503A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0504A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0505A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              2,
+              14,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1005A",
+            "maps": {
+              "group_id": "ST_S1005A",
+              "map_ids": [
+                {
+                  "map_id": "S0401A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0402A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0403A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0404A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0405A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0501A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0502A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0503A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0504A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0505A",
+                  "rarity": 4,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              6,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0004B",
+            "maps": {
+              "group_id": "ST_S0004B",
+              "map_ids": [
+                {
+                  "map_id": "S0401B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0402B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0403B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0404B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0405B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              6,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0005B",
+            "maps": {
+              "group_id": "ST_S0005B",
+              "map_ids": [
+                {
+                  "map_id": "S0501B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0502B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0503B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0504B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0505B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              2,
+              14,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1005B",
+            "maps": {
+              "group_id": "ST_S1005B",
+              "map_ids": [
+                {
+                  "map_id": "S0401B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0402B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0403B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0404B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0405B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0501B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0502B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0503B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0504B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0505B",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              6,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0004C",
+            "maps": {
+              "group_id": "ST_S0004C",
+              "map_ids": [
+                {
+                  "map_id": "S0401C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0402C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0403C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0404C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0405C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              6,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0005C",
+            "maps": {
+              "group_id": "ST_S0005C",
+              "map_ids": [
+                {
+                  "map_id": "S0501C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0502C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0503C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0504C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0505C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              2,
+              14,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1005C",
+            "maps": {
+              "group_id": "ST_S1005C",
+              "map_ids": [
+                {
+                  "map_id": "S0401C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0402C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0403C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0404C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0405C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0501C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0502C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0503C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0504C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0505C",
+                  "rarity": 5,
+                  "true_lv": 50,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 4
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 45,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              6,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id_tag": "ST_C0003",
+    "prerequisites": [
+      "S0705A",
+      "S0705B",
+      "S0705C"
+    ],
+    "prereq_count": 3,
+    "start": null,
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "is_paralogue": 0,
+    "sort_id": 2,
+    "book": 1,
+    "lists": [
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0006A",
+            "maps": {
+              "group_id": "ST_S0006A",
+              "map_ids": [
+                {
+                  "map_id": "S0601A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0602A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0603A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0604A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0605A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0007A",
+            "maps": {
+              "group_id": "ST_S0007A",
+              "map_ids": [
+                {
+                  "map_id": "S0701A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0702A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0703A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0704A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0705A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              1,
+              6,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1007A",
+            "maps": {
+              "group_id": "ST_S1007A",
+              "map_ids": [
+                {
+                  "map_id": "S0601A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0602A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0603A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0604A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0605A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0701A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0702A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0703A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0704A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0705A",
+                  "rarity": 4,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0006B",
+            "maps": {
+              "group_id": "ST_S0006B",
+              "map_ids": [
+                {
+                  "map_id": "S0601B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0602B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0603B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0604B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0605B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0007B",
+            "maps": {
+              "group_id": "ST_S0007B",
+              "map_ids": [
+                {
+                  "map_id": "S0701B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0702B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0703B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0704B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0705B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              1,
+              6,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1007B",
+            "maps": {
+              "group_id": "ST_S1007B",
+              "map_ids": [
+                {
+                  "map_id": "S0601B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0602B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0603B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0604B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0605B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0701B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0702B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0703B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0704B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0705B",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0006C",
+            "maps": {
+              "group_id": "ST_S0006C",
+              "map_ids": [
+                {
+                  "map_id": "S0601C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0602C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0603C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0604C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0605C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0007C",
+            "maps": {
+              "group_id": "ST_S0007C",
+              "map_ids": [
+                {
+                  "map_id": "S0701C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0702C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0703C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0704C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0705C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              1,
+              6,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1007C",
+            "maps": {
+              "group_id": "ST_S1007C",
+              "map_ids": [
+                {
+                  "map_id": "S0601C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0602C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0603C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0604C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0605C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0701C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0702C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0703C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0704C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0705C",
+                  "rarity": 5,
+                  "true_lv": 50,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 4
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 45,
+            "enemy_weps": [
+              0,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id_tag": "ST_C0004",
+    "prerequisites": [
+      "S0905A",
+      "S0905B",
+      "S0905C"
+    ],
+    "prereq_count": 3,
+    "start": null,
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "is_paralogue": 0,
+    "sort_id": 3,
+    "book": 1,
+    "lists": [
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0008A",
+            "maps": {
+              "group_id": "ST_S0008A",
+              "map_ids": [
+                {
+                  "map_id": "S0801A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0802A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0803A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0804A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0805A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              10,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0009A",
+            "maps": {
+              "group_id": "ST_S0009A",
+              "map_ids": [
+                {
+                  "map_id": "S0901A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0902A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0903A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0904A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0905A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              1,
+              2,
+              11,
+              12,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1009A",
+            "maps": {
+              "group_id": "ST_S1009A",
+              "map_ids": [
+                {
+                  "map_id": "S0801A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0802A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0803A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0804A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0805A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S0901A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0902A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0903A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0904A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0905A",
+                  "rarity": 4,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              10,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0008B",
+            "maps": {
+              "group_id": "ST_S0008B",
+              "map_ids": [
+                {
+                  "map_id": "S0801B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0802B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0803B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0804B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0805B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              10,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0009B",
+            "maps": {
+              "group_id": "ST_S0009B",
+              "map_ids": [
+                {
+                  "map_id": "S0901B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0902B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0903B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0904B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0905B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              1,
+              2,
+              11,
+              12,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1009B",
+            "maps": {
+              "group_id": "ST_S1009B",
+              "map_ids": [
+                {
+                  "map_id": "S0801B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0802B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0803B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0804B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0805B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S0901B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0902B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0903B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0904B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0905B",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              10,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0008C",
+            "maps": {
+              "group_id": "ST_S0008C",
+              "map_ids": [
+                {
+                  "map_id": "S0801C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0802C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0803C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0804C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0805C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              10,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0009C",
+            "maps": {
+              "group_id": "ST_S0009C",
+              "map_ids": [
+                {
+                  "map_id": "S0901C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0902C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0903C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0904C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0905C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              1,
+              2,
+              11,
+              12,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1009C",
+            "maps": {
+              "group_id": "ST_S1009C",
+              "map_ids": [
+                {
+                  "map_id": "S0801C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0802C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0803C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0804C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0805C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S0901C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0902C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0903C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0904C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S0905C",
+                  "rarity": 5,
+                  "true_lv": 50,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 4
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 45,
+            "enemy_weps": [
+              10,
+              10,
+              10,
+              14,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id_tag": "ST_C0005",
+    "prerequisites": [
+      "S1105A",
+      "S1105B",
+      "S1105C"
+    ],
+    "prereq_count": 3,
+    "start": null,
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "is_paralogue": 0,
+    "sort_id": 4,
+    "book": 1,
+    "lists": [
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0010A",
+            "maps": {
+              "group_id": "ST_S0010A",
+              "map_ids": [
+                {
+                  "map_id": "S1001A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1002A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1003A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1004A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1005A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              1,
+              1,
+              2,
+              11,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0011A",
+            "maps": {
+              "group_id": "ST_S0011A",
+              "map_ids": [
+                {
+                  "map_id": "S1101A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1102A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1103A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1104A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1105A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              1,
+              2,
+              6,
+              11,
+              13,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1011A",
+            "maps": {
+              "group_id": "ST_S1011A",
+              "map_ids": [
+                {
+                  "map_id": "S1001A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1002A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1003A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1004A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1005A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1101A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1102A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1103A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1104A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1105A",
+                  "rarity": 4,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              1,
+              1,
+              2,
+              11,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0010B",
+            "maps": {
+              "group_id": "ST_S0010B",
+              "map_ids": [
+                {
+                  "map_id": "S1001B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1002B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1003B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1004B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1005B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              1,
+              1,
+              2,
+              11,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0011B",
+            "maps": {
+              "group_id": "ST_S0011B",
+              "map_ids": [
+                {
+                  "map_id": "S1101B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1102B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1103B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1104B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1105B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              1,
+              2,
+              6,
+              11,
+              13,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1011B",
+            "maps": {
+              "group_id": "ST_S1011B",
+              "map_ids": [
+                {
+                  "map_id": "S1001B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1002B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1003B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1004B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1005B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1101B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1102B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1103B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1104B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1105B",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              1,
+              1,
+              2,
+              11,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0010C",
+            "maps": {
+              "group_id": "ST_S0010C",
+              "map_ids": [
+                {
+                  "map_id": "S1001C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1002C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1003C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1004C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1005C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 0,
+            "enemy_weps": [
+              1,
+              1,
+              2,
+              11,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0011C",
+            "maps": {
+              "group_id": "ST_S0011C",
+              "map_ids": [
+                {
+                  "map_id": "S1101C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1102C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1103C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1104C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1105C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 0,
+            "enemy_weps": [
+              0,
+              1,
+              2,
+              6,
+              11,
+              13,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1011C",
+            "maps": {
+              "group_id": "ST_S1011C",
+              "map_ids": [
+                {
+                  "map_id": "S1001C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1002C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1003C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1004C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1005C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1101C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1102C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1103C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1104C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1105C",
+                  "rarity": 5,
+                  "true_lv": 50,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 4
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 45,
+            "enemy_weps": [
+              1,
+              1,
+              2,
+              11,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id_tag": "ST_C0006",
+    "prerequisites": [
+      "S1305A",
+      "S1305B",
+      "S1305C"
+    ],
+    "prereq_count": 3,
+    "start": null,
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "is_paralogue": 0,
+    "sort_id": 5,
+    "book": 1,
+    "lists": [
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0012A",
+            "maps": {
+              "group_id": "ST_S0012A",
+              "map_ids": [
+                {
+                  "map_id": "S1201A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1202A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1203A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1204A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1205A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              1,
+              1,
+              11,
+              14,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0013A",
+            "maps": {
+              "group_id": "ST_S0013A",
+              "map_ids": [
+                {
+                  "map_id": "S1301A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1302A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1303A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1304A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1305A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              12,
+              13,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1013A",
+            "maps": {
+              "group_id": "ST_S1013A",
+              "map_ids": [
+                {
+                  "map_id": "S1201A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1202A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1203A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1204A",
+                  "rarity": 4,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1205A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1301A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1302A",
+                  "rarity": 4,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1303A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1304A",
+                  "rarity": 4,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1305A",
+                  "rarity": 4,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              1,
+              1,
+              11,
+              14,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0012B",
+            "maps": {
+              "group_id": "ST_S0012B",
+              "map_ids": [
+                {
+                  "map_id": "S1201B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1202B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1203B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1204B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1205B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              1,
+              1,
+              11,
+              14,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0013B",
+            "maps": {
+              "group_id": "ST_S0013B",
+              "map_ids": [
+                {
+                  "map_id": "S1301B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1302B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1303B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1304B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1305B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              12,
+              13,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1013B",
+            "maps": {
+              "group_id": "ST_S1013B",
+              "map_ids": [
+                {
+                  "map_id": "S1201B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1202B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1203B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1204B",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1205B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1301B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1302B",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1303B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1304B",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1305B",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 40,
+            "enemy_weps": [
+              0,
+              1,
+              1,
+              11,
+              14,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0012C",
+            "maps": {
+              "group_id": "ST_S0012C",
+              "map_ids": [
+                {
+                  "map_id": "S1201C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1202C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1203C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1204C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1205C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 0,
+            "enemy_weps": [
+              0,
+              1,
+              1,
+              11,
+              14,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S0013C",
+            "maps": {
+              "group_id": "ST_S0013C",
+              "map_ids": [
+                {
+                  "map_id": "S1301C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1302C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1303C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1304C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1305C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 0,
+            "enemy_weps": [
+              0,
+              0,
+              1,
+              12,
+              13,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "ST_S1013C",
+            "maps": {
+              "group_id": "ST_S1013C",
+              "map_ids": [
+                {
+                  "map_id": "S1201C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1202C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1203C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1204C",
+                  "rarity": 5,
+                  "true_lv": 46,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1205C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1301C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1302C",
+                  "rarity": 5,
+                  "true_lv": 47,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1303C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1304C",
+                  "rarity": 5,
+                  "true_lv": 48,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                },
+                {
+                  "map_id": "S1305C",
+                  "rarity": 5,
+                  "true_lv": 50,
+                  "promotion_tier": 1,
+                  "hp_factor": 140
+                }
+              ],
+              "map_count": 10,
+              "team_count": 3
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 4
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 30,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 45,
+            "enemy_weps": [
+              0,
+              1,
+              1,
+              11,
+              14,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id_tag": "ST_C0007",
+    "prerequisites": [
+      "S1405A",
+      "S1405B",
+      "S1405C"
+    ],
+    "prereq_count": 3,
+    "start": null,
+    "finish": null,
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "is_paralogue": 0,
+    "sort_id": 6,
+    "book": 1,
+    "lists": [
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0014A",
+            "maps": {
+              "group_id": "ST_S0014A",
+              "map_ids": [
+                {
+                  "map_id": "S1401A",
+                  "rarity": 4,
+                  "true_lv": 30,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1402A",
+                  "rarity": 4,
+                  "true_lv": 31,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1403A",
+                  "rarity": 4,
+                  "true_lv": 32,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1404A",
+                  "rarity": 4,
+                  "true_lv": 33,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                },
+                {
+                  "map_id": "S1405A",
+                  "rarity": 4,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 110
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 200
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 0,
+            "stars": 4,
+            "lv": 30,
+            "true_lv": 30,
+            "enemy_weps": [
+              0,
+              6,
+              11,
+              12,
+              13,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 1
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0014B",
+            "maps": {
+              "group_id": "ST_S0014B",
+              "map_ids": [
+                {
+                  "map_id": "S1401B",
+                  "rarity": 5,
+                  "true_lv": 35,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1402B",
+                  "rarity": 5,
+                  "true_lv": 36,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1403B",
+                  "rarity": 5,
+                  "true_lv": 37,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1404B",
+                  "rarity": 5,
+                  "true_lv": 38,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                },
+                {
+                  "map_id": "S1405B",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 120
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 1,
+            "stars": 5,
+            "lv": 35,
+            "true_lv": 35,
+            "enemy_weps": [
+              0,
+              6,
+              11,
+              12,
+              13,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 1
+      },
+      {
+        "list": [
+          {
+            "id_tag": "ST_S0014C",
+            "maps": {
+              "group_id": "ST_S0014C",
+              "map_ids": [
+                {
+                  "map_id": "S1401C",
+                  "rarity": 5,
+                  "true_lv": 40,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1402C",
+                  "rarity": 5,
+                  "true_lv": 41,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1403C",
+                  "rarity": 5,
+                  "true_lv": 42,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1404C",
+                  "rarity": 5,
+                  "true_lv": 43,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                },
+                {
+                  "map_id": "S1405C",
+                  "rarity": 5,
+                  "true_lv": 45,
+                  "promotion_tier": 1,
+                  "hp_factor": 130
+                }
+              ],
+              "map_count": 5,
+              "team_count": 2
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 2
+              }
+            ],
+            "payload_size": 72,
+            "stamina": 20,
+            "difficulty": 2,
+            "stars": 5,
+            "lv": 40,
+            "true_lv": 0,
+            "enemy_weps": [
+              0,
+              6,
+              11,
+              12,
+              13,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "count": 1
+      }
+    ]
+  }
+]

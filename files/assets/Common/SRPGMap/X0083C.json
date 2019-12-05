@@ -1,0 +1,256 @@
+{
+  "highest_score": 214,
+  "field": {
+    "id": "X0083",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        0,
+        0,
+        0,
+        9,
+        6,
+        6
+      ],
+      [
+        6,
+        0,
+        9,
+        16,
+        9,
+        6
+      ],
+      [
+        6,
+        16,
+        0,
+        9,
+        9,
+        0
+      ],
+      [
+        6,
+        6,
+        9,
+        9,
+        16,
+        9
+      ],
+      [
+        6,
+        6,
+        9,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        9,
+        9,
+        16
+      ],
+      [
+        0,
+        0,
+        0,
+        9,
+        16,
+        9
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        9,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 0,
+      "y": 7
+    },
+    {
+      "x": 1,
+      "y": 7
+    },
+    {
+      "x": 0,
+      "y": 6
+    },
+    {
+      "x": 1,
+      "y": 6
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_水着エリーゼ",
+      "skills": [
+        "SID_ハイビスカスの本＋",
+        "SID_攻撃の応援",
+        "SID_太陽",
+        "SID_速さ魔防2",
+        "SID_風薙ぎ3",
+        "SID_緑魔の技量3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 1
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 37,
+        "atk": 40,
+        "spd": 38,
+        "def": 20,
+        "res": 28
+      },
+      "start_turn": 2,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着レオン",
+      "skills": [
+        "SID_トマトの本＋",
+        null,
+        "SID_氷蒼",
+        "SID_鬼神の一撃3",
+        "SID_魔防封じ3",
+        "SID_攻撃の謀策3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 35,
+        "spd": 30,
+        "def": 18,
+        "res": 40
+      },
+      "start_turn": 2,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着マークス",
+      "skills": [
+        "SID_リリスの浮き輪＋",
+        null,
+        "SID_緋炎",
+        "SID_生命の業火3",
+        "SID_弓殺し3",
+        "SID_歩行の鼓動3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 1
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 46,
+        "atk": 35,
+        "spd": 33,
+        "def": 41,
+        "res": 18
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着カムイ女",
+      "skills": [
+        "SID_熱帯魚の本＋",
+        null,
+        "SID_竜穿",
+        "SID_飛燕明鏡の一撃2",
+        "SID_攻め立て3",
+        "SID_飛盾の鼓舞",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 37,
+        "atk": 34,
+        "spd": 38,
+        "def": 25,
+        "res": 29
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

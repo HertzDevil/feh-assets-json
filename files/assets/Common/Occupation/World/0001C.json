@@ -1,0 +1,610 @@
+{
+  "image": "Heros0001.png",
+  "area_count": 30,
+  "areas": [
+    {
+      "node_id": 1,
+      "x": 405,
+      "y": 382,
+      "is_base": false,
+      "army": 2,
+      "area_no": 2,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0001",
+      "neighbour_count": 2,
+      "neighbours": [
+        2,
+        30
+      ]
+    },
+    {
+      "node_id": 2,
+      "x": 565,
+      "y": 413,
+      "is_base": false,
+      "army": 2,
+      "area_no": 3,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0007",
+      "neighbour_count": 3,
+      "neighbours": [
+        1,
+        30,
+        13
+      ]
+    },
+    {
+      "node_id": 3,
+      "x": 409,
+      "y": 633,
+      "is_base": false,
+      "army": 0,
+      "area_no": 9,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0004",
+      "neighbour_count": 2,
+      "neighbours": [
+        30,
+        15
+      ]
+    },
+    {
+      "node_id": 4,
+      "x": 859,
+      "y": 351,
+      "is_base": false,
+      "army": 2,
+      "area_no": 1,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0011",
+      "neighbour_count": 3,
+      "neighbours": [
+        13,
+        5,
+        9
+      ]
+    },
+    {
+      "node_id": 5,
+      "x": 951,
+      "y": 558,
+      "is_base": false,
+      "army": 2,
+      "area_no": 7,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0012",
+      "neighbour_count": 3,
+      "neighbours": [
+        4,
+        28,
+        7
+      ]
+    },
+    {
+      "node_id": 7,
+      "x": 878,
+      "y": 712,
+      "is_base": false,
+      "army": 2,
+      "area_no": 12,
+      "area_bonuses": [
+        null,
+        "歩行奥義"
+      ],
+      "adjacent_area_bonus": "歩行奥義",
+      "map_id": "O0013",
+      "neighbour_count": 5,
+      "neighbours": [
+        12,
+        8,
+        5,
+        28,
+        13
+      ]
+    },
+    {
+      "node_id": 8,
+      "x": 754,
+      "y": 723,
+      "is_base": false,
+      "army": 0,
+      "area_no": 13,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0014",
+      "neighbour_count": 3,
+      "neighbours": [
+        7,
+        29,
+        31
+      ]
+    },
+    {
+      "node_id": 9,
+      "x": 1182,
+      "y": 494,
+      "is_base": true,
+      "army": 2,
+      "area_no": 5,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": "騎馬能力強化",
+      "map_id": "O0015",
+      "neighbour_count": 2,
+      "neighbours": [
+        10,
+        4
+      ]
+    },
+    {
+      "node_id": 10,
+      "x": 1179,
+      "y": 693,
+      "is_base": false,
+      "army": 2,
+      "area_no": 11,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0005",
+      "neighbour_count": 3,
+      "neighbours": [
+        28,
+        9,
+        11
+      ]
+    },
+    {
+      "node_id": 11,
+      "x": 1187,
+      "y": 840,
+      "is_base": false,
+      "army": 2,
+      "area_no": 17,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0002",
+      "neighbour_count": 3,
+      "neighbours": [
+        12,
+        26,
+        10
+      ]
+    },
+    {
+      "node_id": 12,
+      "x": 901,
+      "y": 810,
+      "is_base": false,
+      "army": 1,
+      "area_no": 16,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0008",
+      "neighbour_count": 4,
+      "neighbours": [
+        11,
+        7,
+        18,
+        31
+      ]
+    },
+    {
+      "node_id": 13,
+      "x": 745,
+      "y": 481,
+      "is_base": false,
+      "army": 2,
+      "area_no": 4,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0016",
+      "neighbour_count": 4,
+      "neighbours": [
+        4,
+        29,
+        7,
+        2
+      ]
+    },
+    {
+      "node_id": 14,
+      "x": 597,
+      "y": 726,
+      "is_base": false,
+      "army": 0,
+      "area_no": 14,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0017",
+      "neighbour_count": 3,
+      "neighbours": [
+        29,
+        15,
+        31
+      ]
+    },
+    {
+      "node_id": 15,
+      "x": 470,
+      "y": 754,
+      "is_base": true,
+      "army": 0,
+      "area_no": 15,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": "騎馬能力強化",
+      "map_id": "O0018",
+      "neighbour_count": 2,
+      "neighbours": [
+        3,
+        14
+      ]
+    },
+    {
+      "node_id": 16,
+      "x": 449,
+      "y": 880,
+      "is_base": false,
+      "army": 0,
+      "area_no": 19,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0019",
+      "neighbour_count": 2,
+      "neighbours": [
+        31,
+        19
+      ]
+    },
+    {
+      "node_id": 17,
+      "x": 610,
+      "y": 985,
+      "is_base": false,
+      "army": 0,
+      "area_no": 21,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0020",
+      "neighbour_count": 4,
+      "neighbours": [
+        31,
+        19,
+        22,
+        20
+      ]
+    },
+    {
+      "node_id": 18,
+      "x": 878,
+      "y": 908,
+      "is_base": false,
+      "army": 1,
+      "area_no": 20,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0021",
+      "neighbour_count": 3,
+      "neighbours": [
+        12,
+        26,
+        31
+      ]
+    },
+    {
+      "node_id": 19,
+      "x": 425,
+      "y": 1152,
+      "is_base": false,
+      "army": 0,
+      "area_no": 26,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0006",
+      "neighbour_count": 3,
+      "neighbours": [
+        20,
+        17,
+        16
+      ]
+    },
+    {
+      "node_id": 20,
+      "x": 585,
+      "y": 1175,
+      "is_base": false,
+      "army": 1,
+      "area_no": 28,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0003",
+      "neighbour_count": 3,
+      "neighbours": [
+        21,
+        19,
+        17
+      ]
+    },
+    {
+      "node_id": 21,
+      "x": 708,
+      "y": 1249,
+      "is_base": false,
+      "army": 1,
+      "area_no": 30,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0009",
+      "neighbour_count": 2,
+      "neighbours": [
+        20,
+        22
+      ]
+    },
+    {
+      "node_id": 22,
+      "x": 805,
+      "y": 1133,
+      "is_base": false,
+      "army": 1,
+      "area_no": 25,
+      "area_bonuses": [
+        null,
+        "騎馬追撃"
+      ],
+      "adjacent_area_bonus": "騎馬追撃",
+      "map_id": "O0022",
+      "neighbour_count": 4,
+      "neighbours": [
+        26,
+        23,
+        17,
+        21
+      ]
+    },
+    {
+      "node_id": 23,
+      "x": 974,
+      "y": 1204,
+      "is_base": false,
+      "army": 1,
+      "area_no": 29,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0023",
+      "neighbour_count": 3,
+      "neighbours": [
+        24,
+        22,
+        27
+      ]
+    },
+    {
+      "node_id": 24,
+      "x": 1201,
+      "y": 1163,
+      "is_base": true,
+      "army": 1,
+      "area_no": 27,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": "騎馬能力強化",
+      "map_id": "O0010",
+      "neighbour_count": 2,
+      "neighbours": [
+        25,
+        23
+      ]
+    },
+    {
+      "node_id": 25,
+      "x": 1175,
+      "y": 1030,
+      "is_base": false,
+      "army": 1,
+      "area_no": 23,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0024",
+      "neighbour_count": 2,
+      "neighbours": [
+        27,
+        24
+      ]
+    },
+    {
+      "node_id": 26,
+      "x": 937,
+      "y": 1006,
+      "is_base": false,
+      "army": 1,
+      "area_no": 22,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0025",
+      "neighbour_count": 4,
+      "neighbours": [
+        18,
+        27,
+        22,
+        11
+      ]
+    },
+    {
+      "node_id": 27,
+      "x": 1034,
+      "y": 1104,
+      "is_base": false,
+      "army": 1,
+      "area_no": 24,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0026",
+      "neighbour_count": 3,
+      "neighbours": [
+        26,
+        25,
+        23
+      ]
+    },
+    {
+      "node_id": 28,
+      "x": 1046,
+      "y": 672,
+      "is_base": false,
+      "army": 2,
+      "area_no": 10,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0027",
+      "neighbour_count": 3,
+      "neighbours": [
+        5,
+        10,
+        7
+      ]
+    },
+    {
+      "node_id": 29,
+      "x": 619,
+      "y": 618,
+      "is_base": false,
+      "army": 0,
+      "area_no": 8,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0028",
+      "neighbour_count": 4,
+      "neighbours": [
+        13,
+        14,
+        8,
+        30
+      ]
+    },
+    {
+      "node_id": 30,
+      "x": 518,
+      "y": 519,
+      "is_base": false,
+      "army": 0,
+      "area_no": 6,
+      "area_bonuses": [
+        null,
+        "飛行先導"
+      ],
+      "adjacent_area_bonus": "飛行先導",
+      "map_id": "O0029",
+      "neighbour_count": 4,
+      "neighbours": [
+        2,
+        3,
+        29,
+        1
+      ]
+    },
+    {
+      "node_id": 31,
+      "x": 664,
+      "y": 859,
+      "is_base": false,
+      "army": 0,
+      "area_no": 18,
+      "area_bonuses": [
+        null,
+        "重装移動強化"
+      ],
+      "adjacent_area_bonus": "重装移動強化",
+      "map_id": "O0030",
+      "neighbour_count": 6,
+      "neighbours": [
+        17,
+        16,
+        12,
+        14,
+        8,
+        18
+      ]
+    }
+  ]
+}

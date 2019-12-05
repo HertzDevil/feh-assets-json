@@ -1,0 +1,256 @@
+{
+  "highest_score": 88,
+  "field": {
+    "id": "X0113",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        15,
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        15,
+        6,
+        6,
+        15,
+        6,
+        6
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        6,
+        6
+      ],
+      [
+        6,
+        1,
+        1,
+        1,
+        1,
+        6
+      ],
+      [
+        6,
+        15,
+        6,
+        6,
+        15,
+        6
+      ],
+      [
+        6,
+        15,
+        6,
+        6,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        6,
+        6,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        6,
+        6,
+        6,
+        6
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_舞踏祭アズール",
+      "skills": [
+        "SID_舞踏の輪",
+        null,
+        null,
+        null,
+        "SID_疾風の舞い1",
+        "SID_攻撃の鼓舞1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 19,
+        "atk": 6,
+        "spd": 11,
+        "def": 8,
+        "res": 6
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_舞踏祭オリヴィエ",
+      "skills": [
+        "SID_扇子",
+        "SID_踊る",
+        null,
+        "SID_遠距離防御1",
+        "SID_業火の舞い1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 6,
+        "spd": 12,
+        "def": 5,
+        "res": 8
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_舞踏祭シグレ",
+      "skills": [
+        "SID_楽譜",
+        null,
+        null,
+        null,
+        "SID_静水の舞い1",
+        "SID_青魔の技量1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 7,
+        "spd": 9,
+        "def": 7,
+        "res": 8
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_舞踏祭黒アクア",
+      "skills": [
+        "SID_ウルズ",
+        "SID_歌う",
+        null,
+        "SID_相性激化1",
+        null,
+        "SID_魔防の大紋章1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 19,
+        "atk": 0,
+        "spd": 12,
+        "def": 6,
+        "res": 10
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

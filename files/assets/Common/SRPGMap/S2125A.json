@@ -1,0 +1,412 @@
+{
+  "highest_score": 159,
+  "field": {
+    "id": "S2125",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        7,
+        7,
+        7,
+        1,
+        1,
+        7
+      ],
+      [
+        7,
+        21,
+        7,
+        1,
+        1,
+        1
+      ],
+      [
+        7,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        21,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        7,
+        7,
+        7,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        21
+      ],
+      [
+        1,
+        21,
+        21,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 4,
+      "y": 2
+    },
+    {
+      "x": 5,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "EID_ロキ",
+      "skills": [
+        "SID_セック",
+        "SID_リカバー",
+        "SID_天照",
+        "SID_攻撃速さの大覚醒1",
+        "SID_幻惑の杖1",
+        "SID_死の吐息1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 34,
+        "atk": 25,
+        "spd": 26,
+        "def": 13,
+        "res": 22
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_シルヴィア",
+      "skills": [
+        "SID_バリアの剣",
+        "SID_踊る",
+        null,
+        "SID_鬼神明鏡の構え1",
+        "SID_疾風静水の舞い1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 32,
+        "atk": 19,
+        "spd": 27,
+        "def": 12,
+        "res": 22
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ランスドラゴン",
+      "skills": [
+        "SID_貫きの槍2",
+        null,
+        "SID_砕火",
+        "SID_獅子奮迅1",
+        "SID_切り返し1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 4
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 33,
+        "atk": 26,
+        "spd": 19,
+        "def": 27,
+        "res": 13
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_レヴィン",
+      "skills": [
+        "SID_レクスカリバー",
+        null,
+        "SID_星影",
+        "SID_鬼神飛燕の一撃1",
+        "SID_奥義の螺旋1",
+        "SID_攻撃の波・奇数1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 30,
+        "atk": 25,
+        "spd": 28,
+        "def": 12,
+        "res": 18
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ソードペガサス",
+      "skills": [
+        "SID_斬馬刀",
+        "SID_献身",
+        "SID_氷点",
+        "SID_獅子奮迅1",
+        "SID_攻め立て1",
+        "SID_攻撃速さの紋章1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 30,
+        "atk": 20,
+        "spd": 26,
+        "def": 15,
+        "res": 27
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_キュアン",
+      "skills": [
+        "SID_銀の槍",
+        "SID_守備の応援",
+        "SID_伏竜",
+        "SID_飛燕金剛の構え1",
+        null,
+        "SID_攻撃の大紋章1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 4
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 36,
+        "atk": 28,
+        "spd": 21,
+        "def": 23,
+        "res": 11
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": "EID_ランスドラゴン",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 1
+    },
+    {
+      "id_tag": "PID_エスリン",
+      "skills": [
+        "SID_フィアー",
+        "SID_リブロー",
+        "SID_治癒",
+        "SID_速さ守備の絆1",
+        "SID_ご奉仕の喜び1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 30,
+        "atk": 20,
+        "spd": 26,
+        "def": 18,
+        "res": 15
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": "EID_ランスドラゴン",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 1
+    },
+    {
+      "id_tag": "PID_ジャムカ",
+      "skills": [
+        "SID_キラーボウ2",
+        null,
+        "SID_星影",
+        "SID_剛剣1",
+        "SID_相性殺し1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 32,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 30,
+        "atk": 27,
+        "spd": 24,
+        "def": 21,
+        "res": 12
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": "EID_ソードペガサス",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 8,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

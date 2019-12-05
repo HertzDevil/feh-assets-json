@@ -1,0 +1,256 @@
+{
+  "highest_score": 80,
+  "field": {
+    "id": "X0293",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        1,
+        21,
+        1,
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        21,
+        1,
+        5,
+        5,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        5,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        21
+      ],
+      [
+        1,
+        21,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        5,
+        5,
+        5,
+        5,
+        1
+      ],
+      [
+        1,
+        5,
+        5,
+        5,
+        5,
+        1
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_温泉エリーゼ",
+      "skills": [
+        "SID_赤いアヒル",
+        "SID_攻撃の応援",
+        null,
+        "SID_鬼神飛燕の一撃1",
+        "SID_攻撃の共謀1",
+        "SID_暗器の技量1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 7,
+        "spd": 15,
+        "def": 5,
+        "res": 9
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_温泉サクラ",
+      "skills": [
+        "SID_孫の手",
+        "SID_ライブ",
+        null,
+        null,
+        null,
+        "SID_速さの開放1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 20,
+        "atk": 9,
+        "spd": 11,
+        "def": 7,
+        "res": 8
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_温泉ヒノカ",
+      "skills": [
+        "SID_神泉の風呂桶",
+        "SID_引き寄せ",
+        null,
+        "SID_攻撃速さの絆1",
+        "SID_攻撃速さの連携1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 19,
+        "atk": 9,
+        "spd": 13,
+        "def": 4,
+        "res": 10
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_温泉カミラ",
+      "skills": [
+        "SID_巾着袋",
+        null,
+        null,
+        "SID_攻撃速さ1",
+        null,
+        "SID_攻撃の鼓舞1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 19,
+        "atk": 8,
+        "spd": 13,
+        "def": 5,
+        "res": 9
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
