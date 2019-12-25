@@ -174,7 +174,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2434
+    "id_num": 2449
   },
   {
     "id_tag": "WEEK_ARENA02_023",
@@ -351,7 +351,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2435
+    "id_num": 2450
   },
   {
     "id_tag": "WEEK_ARENA02_024",
@@ -528,7 +528,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2436
+    "id_num": 2451
   },
   {
     "id_tag": "WEEK_ARENA02_025",
@@ -705,7 +705,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2437
+    "id_num": 2452
   },
   {
     "id_tag": "WEEK_ARENA02_026",
@@ -882,7 +882,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2438
+    "id_num": 2453
   },
   {
     "id_tag": "WEEK_ARENA02_027",
@@ -1059,7 +1059,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2439
+    "id_num": 2454
   },
   {
     "id_tag": "WEEK_ARENA02_028",
@@ -1236,7 +1236,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2440
+    "id_num": 2455
   },
   {
     "id_tag": "WEEK_ARENA02_029",
@@ -1413,7 +1413,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2441
+    "id_num": 2456
   },
   {
     "id_tag": "WEEK_ARENA02_030",
@@ -1590,7 +1590,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2442
+    "id_num": 2457
   },
   {
     "id_tag": "WEEK_ARENA02_031",
@@ -1767,7 +1767,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2443
+    "id_num": 2458
   },
   {
     "id_tag": "WEEK_ARENA02_032",
@@ -1944,7 +1944,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2444
+    "id_num": 2459
   },
   {
     "id_tag": "WEEK_ARENA02_033",
@@ -2121,7 +2121,7 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2445
+    "id_num": 2460
   },
   {
     "id_tag": "WEEK_ARENA02_034",
@@ -2298,6 +2298,360 @@
     "cycle_sec": -1,
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 2446
+    "id_num": 2461
+  },
+  {
+    "id_tag": "WEEK_ARENA02_035",
+    "title": "WEEK_ARENA02_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "WEEK_ARENA02_035_A1",
+            "common_id": "WEEK_ARENA02_A1",
+            "times": 1,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 19,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 19,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA02_035_A2",
+            "common_id": "WEEK_ARENA02_A2",
+            "times": 1,
+            "trigger": 3,
+            "map_group": null,
+            "game_mode": 11,
+            "difficulty": 1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 11,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 11000,
+                "great": true,
+                "shard_color": 0
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA02_035_A3",
+            "common_id": "WEEK_ARENA02_A3",
+            "times": 1,
+            "trigger": 3,
+            "map_group": null,
+            "game_mode": 11,
+            "difficulty": 2,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 11,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 4,
+                "_type": "dueling_crest",
+                "count": 7
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA02_035_A4",
+            "common_id": "WEEK_ARENA02_A4",
+            "times": 1,
+            "trigger": 3,
+            "map_group": null,
+            "game_mode": 11,
+            "difficulty": 3,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 11,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 4
+      }
+    ],
+    "start": "2019-12-31T07:00:00Z",
+    "finish": "2020-01-07T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "difficulties": 1,
+    "sort_id": 8,
+    "id_num": 2462
+  },
+  {
+    "id_tag": "WEEK_ARENA02_036",
+    "title": "WEEK_ARENA02_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "WEEK_ARENA02_036_A1",
+            "common_id": "WEEK_ARENA02_A1",
+            "times": 1,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 19,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 19,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA02_036_A2",
+            "common_id": "WEEK_ARENA02_A2",
+            "times": 1,
+            "trigger": 3,
+            "map_group": null,
+            "game_mode": 11,
+            "difficulty": 1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 11,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 11000,
+                "great": true,
+                "shard_color": 0
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA02_036_A3",
+            "common_id": "WEEK_ARENA02_A3",
+            "times": 1,
+            "trigger": 3,
+            "map_group": null,
+            "game_mode": 11,
+            "difficulty": 2,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 11,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 4,
+                "_type": "dueling_crest",
+                "count": 7
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA02_036_A4",
+            "common_id": "WEEK_ARENA02_A4",
+            "times": 1,
+            "trigger": 3,
+            "map_group": null,
+            "game_mode": 11,
+            "difficulty": 3,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 11,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 400
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 4
+      }
+    ],
+    "start": "2020-01-07T07:00:00Z",
+    "finish": "2020-01-14T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "difficulties": 1,
+    "sort_id": 8,
+    "id_num": 2463
   }
 ]
