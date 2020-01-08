@@ -71401,7 +71401,7 @@
   },
   {
     "key": "MSID_H_守護者の烈弓",
-    "value": "Accelerates Special trigger (cooldown count-1).\nEffective against flying foes. If unit's Spd > foe's\nSpd, inflicts Atk/Spd/Def-5 on foe during\ncombat."
+    "value": "Accelerates Special trigger (cooldown count-1).\nEffective against flying foes. If unit's Spd > foe's\nSpd at start of combat or during combat, inflicts\nAtk/Spd/Def-5 on foe during combat. (If unit\nand foe both have this weapon equipped, effect\nis calculated first for whoever initiates combat.)"
   },
   {
     "key": "MSID_H_竜殺の暗器",
