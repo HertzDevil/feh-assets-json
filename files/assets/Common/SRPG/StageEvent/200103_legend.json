@@ -1,0 +1,904 @@
+[
+  {
+    "id_tag": "L0023",
+    "banner_id": "L0023",
+    "rd_tag": null,
+    "rd_bonus": null,
+    "_unknown1": null,
+    "start": "2020-01-30T07:00:00Z",
+    "finish": "2020-02-06T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 10000,
+    "sort_id2": 394,
+    "scenarios": [
+      {
+        "id_tag": "L0023A",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 20,
+            "_type": "blessing",
+            "count": 1,
+            "element": 8
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 0,
+        "survives": 4,
+        "no_lights_blessing": 1,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 10,
+        "true_lv": 10,
+        "reinforcements": 1,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "L0023B",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 2
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 1,
+        "survives": 4,
+        "no_lights_blessing": 1,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 4,
+        "lv": 30,
+        "true_lv": 30,
+        "reinforcements": 1,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "L0023C",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 3
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 2,
+        "survives": 4,
+        "no_lights_blessing": 1,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 5,
+        "lv": 40,
+        "true_lv": 40,
+        "reinforcements": 1,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "L0023D",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 4
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 3,
+        "survives": 4,
+        "no_lights_blessing": 1,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 5,
+        "lv": 40,
+        "true_lv": 45,
+        "reinforcements": 1,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          14,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "L0023E",
+        "prerequisites": [
+          "L0023D"
+        ],
+        "prereq_count": 1,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 22,
+            "_type": "accessory",
+            "len": 20,
+            "id_tag": "DAID_探検帽・金"
+          }
+        ],
+        "payload_size": 88,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 4,
+        "survives": 4,
+        "no_lights_blessing": 1,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 5,
+        "lv": 40,
+        "true_lv": 50,
+        "reinforcements": 1,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          14,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "scenario_count": 5,
+    "rival_domains": false
+  },
+  {
+    "id_tag": "Q0096",
+    "banner_id": "Q0004",
+    "rd_tag": "V1",
+    "rd_bonus": "飛行",
+    "_unknown1": null,
+    "start": "2020-02-01T07:00:00Z",
+    "finish": "2020-02-08T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 7000,
+    "sort_id2": 398,
+    "scenarios": [
+      {
+        "id_tag": "Q0096A",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": "MID_STAGE_HONOR_OCCUPATION",
+        "b": "MID_STAGE_OCCUPATION",
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 0,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 1,
+        "lv": 1,
+        "true_lv": 1,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": 2,
+        "enemy_weps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "Q0096B",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": "MID_STAGE_HONOR_OCCUPATION",
+        "b": "MID_STAGE_OCCUPATION",
+        "c": null,
+        "reward": [
+          {
+            "kind": 12,
+            "_type": "badge",
+            "count": 50,
+            "great": true,
+            "badge_color": 3
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 1,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 1,
+        "lv": 1,
+        "true_lv": 1,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": 3,
+        "enemy_weps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "Q0096C",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": "MID_STAGE_HONOR_OCCUPATION",
+        "b": "MID_STAGE_OCCUPATION",
+        "c": null,
+        "reward": [
+          {
+            "kind": 2,
+            "_type": "hero_feather",
+            "count": 500
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 2,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 1,
+        "lv": 1,
+        "true_lv": 1,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": 4,
+        "enemy_weps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "Q0096D",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": "MID_STAGE_HONOR_OCCUPATION",
+        "b": "MID_STAGE_OCCUPATION",
+        "c": null,
+        "reward": [
+          {
+            "kind": 18,
+            "_type": "divine_dew",
+            "count": 10
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 0,
+        "_unknown2": 1,
+        "difficulty": 3,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 1,
+        "lv": 1,
+        "true_lv": 1,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": 5,
+        "enemy_weps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "scenario_count": 4,
+    "rival_domains": true
+  },
+  {
+    "id_tag": "V0331",
+    "banner_id": "V0001",
+    "rd_tag": null,
+    "rd_bonus": null,
+    "_unknown1": null,
+    "start": "2020-02-02T07:00:00Z",
+    "finish": "2020-02-06T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 11000,
+    "sort_id2": 399,
+    "scenarios": [
+      {
+        "id_tag": "V0331A",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 5,
+        "_unknown2": 1,
+        "difficulty": 0,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 5,
+        "true_lv": 5,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "V0331B",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 10,
+        "_unknown2": 1,
+        "difficulty": 1,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 15,
+        "true_lv": 15,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "scenario_count": 2,
+    "rival_domains": false
+  },
+  {
+    "id_tag": "V0332",
+    "banner_id": "V0001",
+    "rd_tag": null,
+    "rd_bonus": null,
+    "_unknown1": null,
+    "start": "2020-02-03T07:00:00Z",
+    "finish": "2020-02-07T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 11000,
+    "sort_id2": 400,
+    "scenarios": [
+      {
+        "id_tag": "V0332A",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 5,
+        "_unknown2": 1,
+        "difficulty": 0,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 5,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 5,
+        "true_lv": 5,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          0,
+          12,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "V0332B",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 10,
+        "_unknown2": 1,
+        "difficulty": 1,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 4,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 15,
+        "true_lv": 15,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          0,
+          12,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "scenario_count": 2,
+    "rival_domains": false
+  },
+  {
+    "id_tag": "V0333",
+    "banner_id": "V0001",
+    "rd_tag": null,
+    "rd_bonus": null,
+    "_unknown1": null,
+    "start": "2020-02-04T07:00:00Z",
+    "finish": "2020-02-08T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 11000,
+    "sort_id2": 401,
+    "scenarios": [
+      {
+        "id_tag": "V0333A",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 5,
+        "_unknown2": 1,
+        "difficulty": 0,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 5,
+        "true_lv": 5,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          0,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "V0333B",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 10,
+        "_unknown2": 1,
+        "difficulty": 1,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 15,
+        "true_lv": 15,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          0,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "scenario_count": 2,
+    "rival_domains": false
+  },
+  {
+    "id_tag": "V0334",
+    "banner_id": "V0001",
+    "rd_tag": null,
+    "rd_bonus": null,
+    "_unknown1": null,
+    "start": "2020-02-05T07:00:00Z",
+    "finish": "2020-02-09T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 11000,
+    "sort_id2": 402,
+    "scenarios": [
+      {
+        "id_tag": "V0334A",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 5,
+        "_unknown2": 1,
+        "difficulty": 0,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 5,
+        "true_lv": 5,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          12,
+          13,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "V0334B",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 10,
+        "_unknown2": 1,
+        "difficulty": 1,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 15,
+        "true_lv": 15,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          0,
+          12,
+          13,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "scenario_count": 2,
+    "rival_domains": false
+  },
+  {
+    "id_tag": "V0335",
+    "banner_id": "V0001",
+    "rd_tag": null,
+    "rd_bonus": null,
+    "_unknown1": null,
+    "start": "2020-02-06T07:00:00Z",
+    "finish": "2020-02-10T07:00:00Z",
+    "avail_sec": -1,
+    "cycle_sec": -1,
+    "sort_id1": 11000,
+    "sort_id2": 403,
+    "scenarios": [
+      {
+        "id_tag": "V0335A",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 5,
+        "_unknown2": 1,
+        "difficulty": 0,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 5,
+        "true_lv": 5,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          10,
+          11,
+          13,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id_tag": "V0335B",
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "a": null,
+        "b": null,
+        "c": null,
+        "reward": [
+          {
+            "kind": 0,
+            "_type": "orb",
+            "count": 1
+          }
+        ],
+        "payload_size": 72,
+        "stamina": 10,
+        "_unknown2": 1,
+        "difficulty": 1,
+        "survives": 0,
+        "no_lights_blessing": 0,
+        "turns_to_win": 0,
+        "turns_to_defend": 0,
+        "stars": 3,
+        "lv": 15,
+        "true_lv": 15,
+        "reinforcements": 0,
+        "last_enemy_phase": 0,
+        "rd_level": -1,
+        "enemy_weps": [
+          10,
+          11,
+          13,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "scenario_count": 2,
+    "rival_domains": false
+  }
+]
