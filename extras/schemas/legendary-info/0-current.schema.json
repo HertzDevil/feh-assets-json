@@ -1,0 +1,33 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/legendary-info/0-current#",
+	"type": "object",
+	"required": [
+		"duo_skill_id",
+		"bonus_effect",
+		"kind",
+		"element",
+		"bst",
+		"pair_up"
+	],
+	"properties": {
+		"duo_skill_id": {
+			"type": ["string", "null"]
+		},
+		"bonus_effect": {
+			"$ref": "../stats-tuple/0-current#"
+		},
+		"kind": {
+			"$ref": "../uint8/0-current#"
+		},
+		"element": {
+			"$ref": "../uint8/0-current#"
+		},
+		"bst": {
+			"$ref": "../uint8/0-current#"
+		},
+		"pair_up": {
+			"type": "boolean"
+		}
+	}
+}

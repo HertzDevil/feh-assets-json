@@ -1,0 +1,30 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/stats-tuple/0-current#",
+	"description": "5-element integer tuple, usually used to represent HP / Atk / Spd / Def / Res stats.",
+	"type": "object",
+	"required": [
+		"hp",
+		"atk",
+		"spd",
+		"def",
+		"res"
+	],
+	"properties": {
+		"hp": {
+			"$ref": "../int16/0-current#"
+		},
+		"atk": {
+			"$ref": "../int16/0-current#"
+		},
+		"spd": {
+			"$ref": "../int16/0-current#"
+		},
+		"def": {
+			"$ref": "../int16/0-current#"
+		},
+		"res": {
+			"$ref": "../int16/0-current#"
+		}
+	}
+}

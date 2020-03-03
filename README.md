@@ -3,9 +3,6 @@
 This repository hosts JSON dumps of `.bin` HSDArc asset files in Fire Emblem
 Heroes. The `master` branch tracks all app or data updates since Book IV.
 
-Dumps for Book III are on the `book3` branch. A diff between `962_legend23` and
-`???` will be separartely published later.
-
 Object formats are documented [here][re-notes], and they will eventually be
 moved into this repository. Not all formats are documented, and the purposes of
 some fields remain unknown or untested.
@@ -21,6 +18,8 @@ The `extras/` directory contains other useful files:
 * `diffed_skills.rb`: Ruby script which merges all skill definition files, sorts
   them by their internal IDs, and removes fields that are equal to the blank
   skill definition (`SID_無し`).
+* `schemas/`: Versioned JSON schemas that can be used to validate JSON dumps and
+  provide documentation.
 * `SRPGMap/*.json`: Special Map definition files.
 
 ## Availability
@@ -54,7 +53,9 @@ The `extras/` directory contains other useful files:
   * [x] `HolyGrail/*.bin`
   * [ ] `Home/`
     * [ ] `3R_2ZUtKrm/*.bin`
+    * [ ] `9h-bR4lQy/*.bin` (Heroes' Path)
     * [ ] `hQ2uT_yaiphg/*.bin`
+    * [ ] `u3t_bQ-0O/*.bin`
   * [ ] `Loading/`
     * [ ] `Data.bin`
   * [ ] `LoginBonus/`
@@ -62,7 +63,13 @@ The `extras/` directory contains other useful files:
     * [ ] `vKw9mbW13/*.bin`
     * [ ] `LoginBonus.bin`
   * [x] `Mission/*.bin`
+  * [ ] `Mjolnir/`
+    * [ ] `BattleData/*.bin`
+    * [ ] `FacilityData/*.bin`
+    * [ ] `MiscData/*.bin`
+    * [ ] `TemplateData/*.bin`
   * [ ] `MusicShop/`
+    * [ ] `Authority/*.bin`
     * [ ] `BgmConfig/*.bin`
     * [x] `ProductMusic/*.bin`
   * [ ] `Occupation/`
@@ -78,6 +85,10 @@ The `extras/` directory contains other useful files:
     * [ ] `HolidayDefsData/*.bin`
     * [ ] `HolidayEventData/`
       * [ ] `AccessoryList/*.bin`
+      * [ ] `CookAuthority/*.bin`
+      * [ ] `CookTerm/*.bin`
+      * [ ] `Crop/*.bin`
+      * [ ] `Dish/*.bin`
       * [ ] `SkillList/*.bin`
     * [ ] `HolidayShopData/*.bin`
     * [ ] `HolidayUnitCommandData/*.bin`
@@ -90,6 +101,7 @@ The `extras/` directory contains other useful files:
     * [x] `BlessingGarden/*.bin`
     * [x] `Enemy/*.bin`
     * [x] `Field/*.bin`
+    * [ ] `IdolTower/*.bin`
     * [ ] `Occupation/`
       * [ ] `Bonus/*.bin`
       * [ ] `Config/*.bin`
@@ -131,11 +143,15 @@ The `extras/` directory contains other useful files:
     * [x] `Terrain.bin`
     * [x] `Weapon.bin`
   * [x] `SRPGMap/*.bin`
+  * [ ] `SubscriptionCostume/*.bin`
   * [ ] `Summon/*.bin`
   * [ ] `TapAction/`
     * [ ] `TapBattleData/*.bin`
     * [ ] `TapBattleTestPlayData/*.bin`
   * [ ] `Tournament/*.bin`
+  * [ ] `Trip/`
+    * [ ] `AdditionalAuthorities/*.bin`
+    * [ ] `Terms/*.bin`
   * [ ] `Tutorial/*.bin`
   * [ ] `Wb-4glP03ab/*.bin`
 * [x] `files/assets/[LANG]`
