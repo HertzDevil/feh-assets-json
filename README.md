@@ -19,7 +19,7 @@ The `extras/` directory contains other useful files:
   them by their internal IDs, and removes fields that are equal to the blank
   skill definition (`SID_無し`).
 * `schemas/`: Versioned JSON schemas that can be used to validate JSON dumps and
-  provide documentation.
+  provide documentation for JSON fields.
 * `SRPGMap/*.json`: Special Map definition files.
 
 ## Availability
