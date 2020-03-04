@@ -79,7 +79,7 @@ The `extras/` directory contains other useful files:
   * [x] `SequentialArena/*.bin`
   * [ ] `Shadow/*.bin`
   * [ ] `SkyCastle/`
-    * [ ] `BattleData/*.bin`
+    * [x] `BattleData/*.bin`
     * [ ] `ConsumeItemData/*.bin`
     * [x] `FacilityData/*.bin`
     * [ ] `HolidayDefsData/*.bin`
