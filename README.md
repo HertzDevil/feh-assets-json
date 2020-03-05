@@ -143,6 +143,7 @@ The `extras/` directory contains other useful files:
     * [x] `Terrain.bin`
     * [x] `Weapon.bin`
   * [x] `SRPGMap/*.bin`
+  * [x] `StockShop/*.bin`
   * [ ] `SubscriptionCostume/*.bin`
   * [ ] `Summon/*.bin`
   * [ ] `TapAction/`
