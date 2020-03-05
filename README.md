@@ -88,7 +88,7 @@ The `extras/` directory contains other useful files:
       * [ ] `CookAuthority/*.bin`
       * [ ] `CookTerm/*.bin`
       * [ ] `Crop/*.bin`
-      * [ ] `Dish/*.bin`
+      * [x] `Dish/*.bin`
       * [ ] `SkillList/*.bin`
     * [ ] `HolidayShopData/*.bin`
     * [ ] `HolidayUnitCommandData/*.bin`
