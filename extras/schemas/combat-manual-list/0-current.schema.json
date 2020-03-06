@@ -1,0 +1,94 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/hero-combat-manual-list/0-current#",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"required": [
+			"currency",
+			"currency2",
+			"start",
+			"finish",
+			"avail_sec",
+			"cycle_sec",
+			"targets",
+			"target_count",
+			"is_permanent",
+			"part"
+		],
+		"properties": {
+			"currency": {
+				"description": "Internal string identifier of the Divine Code variant used for this group of Combat Manuals.",
+				"type": "string"
+			},
+			"currency2": {
+				"description": "Identical to currency. Purpose unknown.",
+				"type": "string"
+			},
+			"start": {
+				"description": "The date-time since which the listed Combat Manuals are available.",
+				"type": [
+					"string",
+					"null"
+				],
+				"format": "date-time"
+			},
+			"finish": {
+				"description": "Expiration date-time of the listed Combat Manuals.",
+				"type": [
+					"string",
+					"null"
+				],
+				"format": "date-time"
+			},
+			"avail_sec": {
+				"$ref": "../int64/0-current#"
+			},
+			"cycle_sec": {
+				"$ref": "../int64/0-current#"
+			},
+			"targets": {
+				"description": "List of compile targets.",
+				"type": "array",
+				"items": {
+					"description": "A single Combat Manual compile target.",
+					"type": "object",
+					"required": [
+						"reward",
+						"prerequisite",
+						"payload_size",
+						"cost"
+					],
+					"properties": {
+						"reward": {
+							"description": "The Combat Manual rewarded.",
+							"$ref": "../reward-definition/0-current#"
+						},
+						"prerequisite": {
+							"description": "JSON path representing the prerequisite Combat Manual that must be compiled to unlock the current Manual, or null if the current Manual can be compiled right away.",
+							"type": [
+								"string",
+								"null"
+							]
+						},
+						"payload_size": {
+							"$ref": "../uint32/0-current#"
+						},
+						"cost": {
+							"description": "Number of Divine Codes of the specified variant required to compile this Combat Manual.",
+							"$ref": "../uint32/0-current#"
+						}
+					}
+				}
+			},
+			"is_permanent": {
+				"description": "True for Normal Combat Manuals, false for Limited-Time.",
+				"type": "boolean"
+			},
+			"part": {
+				"description": "Part number for permanent Divine Codes or month number for limited-time Codes.",
+				"$ref": "../uint8/0-current#"
+			}
+		}
+	}
+}
