@@ -34,6 +34,7 @@ with same or lower version numbers.
 
 # Types for JSON files
 
+* `combat-manual-list`: Validates `files/assets/Common/StockShop/*.bin`.
 * `hero-definition`: Validates `files/assets/Common/SRPG/Person/*.bin`.
 
 # Types for auxiliary data
