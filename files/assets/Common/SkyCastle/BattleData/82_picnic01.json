@@ -1320,14 +1320,18 @@
         "fort_lv_bonus": 0
       }
     ],
-    "start": "2019-04-23T07:00:00Z",
-    "finish": "2019-04-29T23:00:00Z",
-    "avail_sec": -1,
-    "cycle_sec": -1,
-    "start_next": "2019-04-30T07:00:00Z",
-    "finish_next": "2019-05-06T23:00:00Z",
-    "avail_sec_next": -1,
-    "cycle_sec_next": -1,
+    "avail": {
+      "start": "2019-04-23T07:00:00Z",
+      "finish": "2019-04-29T23:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "avail_next": {
+      "start": "2019-04-30T07:00:00Z",
+      "finish": "2019-05-06T23:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "bonus_heroes_count": 10,
     "bonus_heroes_next_count": 10,
     "reward_count": 38,

@@ -1,10 +1,12 @@
 [
   {
     "id_tag": "PC043",
-    "start": "2019-11-07T07:00:00Z",
-    "finish": null,
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": "2019-11-07T07:00:00Z",
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "sort_id1": 0,
     "sort_id2": 131,
     "difficulty": 2,
@@ -57,10 +59,12 @@
   },
   {
     "id_tag": "PB069",
-    "start": "2019-11-14T07:00:00Z",
-    "finish": null,
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": "2019-11-14T07:00:00Z",
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "sort_id1": 0,
     "sort_id2": 132,
     "difficulty": 1,

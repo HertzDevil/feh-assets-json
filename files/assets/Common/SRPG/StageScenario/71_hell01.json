@@ -1,10 +1,12 @@
 [
   {
     "id_tag": "C0301",
-    "start": null,
-    "finish": null,
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": null,
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "sort_id": 61,
     "is_paralogue": 0,
     "book": 3,
@@ -687,10 +689,12 @@
   },
   {
     "id_tag": "C0302",
-    "start": null,
-    "finish": null,
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": null,
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "sort_id": 62,
     "is_paralogue": 0,
     "book": 3,
