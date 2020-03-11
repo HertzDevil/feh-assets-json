@@ -2,10 +2,12 @@
   {
     "currency": "2020",
     "currency2": "2020",
-    "start": null,
-    "finish": null,
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": null,
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "targets": [
       {
         "reward": [
@@ -435,10 +437,12 @@
   {
     "currency": "202003",
     "currency2": "202003",
-    "start": null,
-    "finish": "2020-04-28T07:00:00Z",
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": null,
+      "finish": "2020-04-28T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "targets": [
       {
         "reward": [

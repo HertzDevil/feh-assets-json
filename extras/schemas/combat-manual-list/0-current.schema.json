@@ -7,10 +7,7 @@
 		"required": [
 			"currency",
 			"currency2",
-			"start",
-			"finish",
-			"avail_sec",
-			"cycle_sec",
+			"avail",
 			"targets",
 			"target_count",
 			"is_permanent",
@@ -25,27 +22,9 @@
 				"description": "Identical to currency. Purpose unknown.",
 				"type": "string"
 			},
-			"start": {
-				"description": "The date-time since which the listed Combat Manuals are available.",
-				"type": [
-					"string",
-					"null"
-				],
-				"format": "date-time"
-			},
-			"finish": {
-				"description": "Expiration date-time of the listed Combat Manuals.",
-				"type": [
-					"string",
-					"null"
-				],
-				"format": "date-time"
-			},
-			"avail_sec": {
-				"$ref": "../int64/0-current#"
-			},
-			"cycle_sec": {
-				"$ref": "../int64/0-current#"
+			"avail": {
+				"description": "The time period during which the listed Combat Manuals are available.",
+				"$ref": "../datetime-range/0-current#"
 			},
 			"targets": {
 				"description": "List of compile targets.",

@@ -39,6 +39,8 @@ with same or lower version numbers.
 
 # Types for auxiliary data
 
+* `datetime-range`: Pair of UTC datetimes denoting a possibly unbounded time
+  range. May also represent recurring events.
 * `int8`, `int16`, `int32`, `int64`: Signed fixed-width integers.
 * `legendary-info`: Extra properties for Legendary / Mythic / Duo Heroes.
 * `reward-definition`: List of reward items. At the moment, this schema does not

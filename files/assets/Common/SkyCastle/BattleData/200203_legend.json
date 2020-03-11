@@ -1668,14 +1668,18 @@
       }
     ],
     "_unknown6": 3720,
-    "start": "2020-03-03T07:00:00Z",
-    "finish": "2020-03-09T23:00:00Z",
-    "avail_sec": -1,
-    "cycle_sec": -1,
-    "start_next": "2020-03-10T07:00:00Z",
-    "finish_next": "2020-03-16T23:00:00Z",
-    "avail_sec_next": -1,
-    "cycle_sec_next": -1,
+    "avail": {
+      "start": "2020-03-03T07:00:00Z",
+      "finish": "2020-03-09T23:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "avail_next": {
+      "start": "2020-03-10T07:00:00Z",
+      "finish": "2020-03-16T23:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "bonus_heroes_count": 10,
     "bonus_heroes_next_count": 10,
     "reward_count": 53,

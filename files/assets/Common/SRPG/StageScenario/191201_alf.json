@@ -1,10 +1,12 @@
 [
   {
     "id_tag": "C0401",
-    "start": "2019-12-06T07:00:00Z",
-    "finish": null,
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": "2019-12-06T07:00:00Z",
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "sort_id": 87,
     "is_paralogue": 0,
     "book": 4,
@@ -687,10 +689,12 @@
   },
   {
     "id_tag": "C0402",
-    "start": "2019-12-06T07:00:00Z",
-    "finish": null,
-    "avail_sec": -1,
-    "cycle_sec": -1,
+    "avail": {
+      "start": "2019-12-06T07:00:00Z",
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
     "sort_id": 88,
     "is_paralogue": 0,
     "book": 4,
