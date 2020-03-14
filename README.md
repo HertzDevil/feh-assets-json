@@ -101,7 +101,7 @@ The `extras/` directory contains other useful files:
     * [x] `BlessingGarden/*.bin`
     * [x] `Enemy/*.bin`
     * [x] `Field/*.bin`
-    * [ ] `IdolTower/*.bin`
+    * [x] `IdolTower/*.bin`
     * [ ] `Occupation/`
       * [ ] `Bonus/*.bin`
       * [ ] `Config/*.bin`
@@ -144,7 +144,7 @@ The `extras/` directory contains other useful files:
     * [x] `Weapon.bin`
   * [x] `SRPGMap/*.bin`
   * [x] `StockShop/*.bin`
-  * [ ] `SubscriptionCostume/*.bin`
+  * [x] `SubscriptionCostume/*.bin`
   * [ ] `Summon/*.bin`
   * [ ] `TapAction/`
     * [ ] `TapBattleData/*.bin`
