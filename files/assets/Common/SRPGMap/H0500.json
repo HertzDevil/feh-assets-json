@@ -1,0 +1,248 @@
+{
+  "highest_score": 218,
+  "field": {
+    "id": "H0500",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 0,
+    "terrain": [
+      [
+        8,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        5,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        4,
+        3
+      ],
+      [
+        0,
+        3,
+        8,
+        8,
+        3,
+        8
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 4,
+      "y": 4
+    },
+    {
+      "x": 5,
+      "y": 4
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_春祭フィル",
+      "skills": [
+        "SID_ウカノミタマ",
+        "SID_一喝＋",
+        null,
+        "SID_攻撃速さの孤軍3",
+        null,
+        "SID_先導の伝令・天3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 39,
+        "atk": 35,
+        "spd": 41,
+        "def": 28,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_マリア",
+      "skills": [
+        "SID_パニック＋",
+        "SID_リブロー＋",
+        "SID_祈り",
+        null,
+        null,
+        "SID_魔防の鼓舞3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 1
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 36,
+        "atk": 27,
+        "spd": 34,
+        "def": 19,
+        "res": 32
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_マリータ",
+      "skills": [
+        "SID_マリータの剣",
+        null,
+        "SID_月光",
+        "SID_攻撃速さの孤軍3",
+        "SID_回避・一撃離脱3",
+        "SID_攻撃守備の奮起3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 35,
+        "spd": 42,
+        "def": 31,
+        "res": 23
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ネフェニー",
+      "skills": [
+        "SID_義勇の槍",
+        null,
+        "SID_月虹",
+        "SID_攻撃速さ2",
+        "SID_怒り3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "stats": {
+        "hp": 37,
+        "atk": 31,
+        "spd": 35,
+        "def": 34,
+        "res": 20
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 2,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
