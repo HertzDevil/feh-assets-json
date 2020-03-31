@@ -621,15 +621,15 @@
   },
   {
     "key": "MSID_H_鼓動の封緘・偶数1",
-    "value": "At start of even-number turns, if foe with the\nlowest HP has its Special ready and unit's HP ≥\nthat foe's HP+5, inflicts Special cooldown\ncount+2 on that foe. (Cannot exceed the foe's\nmaximum Special cooldown.)"
+    "value": "At start of even-numbered turns, if any foe's\nHP+5 ≤ unit's HP and that foe's Special is\nready, inflicts Special cooldown count+2 on foe\nwith the lowest HP among those foes. (Cannot\nexceed the foe's maximum Special cooldown.)"
   },
   {
     "key": "MSID_H_鼓動の封緘・偶数2",
-    "value": "At start of even-number turns, if foe with the\nlowest HP has its Special ready and unit's HP ≥\nthat foe's HP+3, inflicts Special cooldown\ncount+2 on that foe. (Cannot exceed the foe's\nmaximum Special cooldown.)"
+    "value": "At start of even-numbered turns, if any foe's\nHP+3 ≤ unit's HP and that foe's Special is\nready, inflicts Special cooldown count+2 on foe\nwith the lowest HP among those foes. (Cannot\nexceed the foe's maximum Special cooldown.)"
   },
   {
     "key": "MSID_H_鼓動の封緘・偶数3",
-    "value": "At start of even-number turns, if foe with the\nlowest HP has its Special ready and unit's\nHP ≥ that foe's HP+1, inflicts Special cooldown\ncount+2 on that foe. (Cannot exceed the foe's\nmaximum Special cooldown.)"
+    "value": "At start of even-numbered turns, if any foe's\nHP+1 ≤ unit's HP and that foe's Special is\nready, inflicts Special cooldown count+2 on foe\nwith the lowest HP among those foes. (Cannot\nexceed the foe's maximum Special cooldown.)"
   },
   {
     "key": "MSID_H_天馬行空1",
