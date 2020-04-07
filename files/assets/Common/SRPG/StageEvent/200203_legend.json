@@ -16,13 +16,14 @@
     "scenarios": [
       {
         "id_tag": "L0024A",
+        "base_id": "L0024A",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": null,
-        "b": null,
-        "c": null,
+        "honor_id": null,
+        "name_id": null,
+        "_unknown1": null,
         "reward": [
           {
             "kind": 20,
@@ -32,6 +33,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 0,
@@ -44,6 +46,7 @@
         "true_lv": 10,
         "reinforcements": 1,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": -1,
         "enemy_weps": [
           0,
@@ -58,13 +61,14 @@
       },
       {
         "id_tag": "L0024B",
+        "base_id": "L0024B",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": null,
-        "b": null,
-        "c": null,
+        "honor_id": null,
+        "name_id": null,
+        "_unknown1": null,
         "reward": [
           {
             "kind": 0,
@@ -73,6 +77,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 1,
@@ -85,6 +90,7 @@
         "true_lv": 30,
         "reinforcements": 1,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": -1,
         "enemy_weps": [
           0,
@@ -99,13 +105,14 @@
       },
       {
         "id_tag": "L0024C",
+        "base_id": "L0024C",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": null,
-        "b": null,
-        "c": null,
+        "honor_id": null,
+        "name_id": null,
+        "_unknown1": null,
         "reward": [
           {
             "kind": 0,
@@ -114,6 +121,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 2,
@@ -126,6 +134,7 @@
         "true_lv": 40,
         "reinforcements": 1,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": -1,
         "enemy_weps": [
           0,
@@ -140,13 +149,14 @@
       },
       {
         "id_tag": "L0024D",
+        "base_id": "L0024D",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": null,
-        "b": null,
-        "c": null,
+        "honor_id": null,
+        "name_id": null,
+        "_unknown1": null,
         "reward": [
           {
             "kind": 0,
@@ -155,6 +165,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 3,
@@ -167,6 +178,7 @@
         "true_lv": 45,
         "reinforcements": 1,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": -1,
         "enemy_weps": [
           0,
@@ -181,13 +193,14 @@
       },
       {
         "id_tag": "L0024E",
+        "base_id": "L0024E",
         "prerequisites": [
           "L0024D"
         ],
         "prereq_count": 1,
-        "a": null,
-        "b": null,
-        "c": null,
+        "honor_id": null,
+        "name_id": null,
+        "_unknown1": null,
         "reward": [
           {
             "kind": 22,
@@ -197,6 +210,7 @@
           }
         ],
         "payload_size": 104,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 4,
@@ -209,6 +223,7 @@
         "true_lv": 50,
         "reinforcements": 1,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": -1,
         "enemy_weps": [
           0,
@@ -242,13 +257,14 @@
     "scenarios": [
       {
         "id_tag": "Q0100A",
+        "base_id": "Q0100A",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": "MID_STAGE_HONOR_OCCUPATION",
-        "b": "MID_STAGE_OCCUPATION",
-        "c": null,
+        "honor_id": "MID_STAGE_HONOR_OCCUPATION",
+        "name_id": "MID_STAGE_OCCUPATION",
+        "_unknown1": null,
         "reward": [
           {
             "kind": 0,
@@ -257,6 +273,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 0,
@@ -269,6 +286,7 @@
         "true_lv": 1,
         "reinforcements": 0,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": 2,
         "enemy_weps": [
           0,
@@ -283,13 +301,14 @@
       },
       {
         "id_tag": "Q0100B",
+        "base_id": "Q0100B",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": "MID_STAGE_HONOR_OCCUPATION",
-        "b": "MID_STAGE_OCCUPATION",
-        "c": null,
+        "honor_id": "MID_STAGE_HONOR_OCCUPATION",
+        "name_id": "MID_STAGE_OCCUPATION",
+        "_unknown1": null,
         "reward": [
           {
             "kind": 12,
@@ -300,6 +319,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 1,
@@ -312,6 +332,7 @@
         "true_lv": 1,
         "reinforcements": 0,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": 3,
         "enemy_weps": [
           0,
@@ -326,13 +347,14 @@
       },
       {
         "id_tag": "Q0100C",
+        "base_id": "Q0100C",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": "MID_STAGE_HONOR_OCCUPATION",
-        "b": "MID_STAGE_OCCUPATION",
-        "c": null,
+        "honor_id": "MID_STAGE_HONOR_OCCUPATION",
+        "name_id": "MID_STAGE_OCCUPATION",
+        "_unknown1": null,
         "reward": [
           {
             "kind": 2,
@@ -341,6 +363,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 2,
@@ -353,6 +376,7 @@
         "true_lv": 1,
         "reinforcements": 0,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": 4,
         "enemy_weps": [
           0,
@@ -367,13 +391,14 @@
       },
       {
         "id_tag": "Q0100D",
+        "base_id": "Q0100D",
         "prerequisites": [
 
         ],
         "prereq_count": 0,
-        "a": "MID_STAGE_HONOR_OCCUPATION",
-        "b": "MID_STAGE_OCCUPATION",
-        "c": null,
+        "honor_id": "MID_STAGE_HONOR_OCCUPATION",
+        "name_id": "MID_STAGE_OCCUPATION",
+        "_unknown1": null,
         "reward": [
           {
             "kind": 18,
@@ -382,6 +407,7 @@
           }
         ],
         "payload_size": 72,
+        "origins": 0,
         "stamina": 0,
         "_unknown2": 1,
         "difficulty": 3,
@@ -394,6 +420,7 @@
         "true_lv": 1,
         "reinforcements": 0,
         "last_enemy_phase": 0,
+        "max_refreshers": -1,
         "rd_level": 5,
         "enemy_weps": [
           0,
