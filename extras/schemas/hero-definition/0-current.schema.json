@@ -12,9 +12,11 @@
 			"face_name",
 			"face_name2",
 			"legendary",
+			"dragonflowers",
 			"timestamp",
 			"id_num",
 			"sort_value",
+			"origins",
 			"weapon_type",
 			"tome_class",
 			"move_type",
@@ -23,7 +25,6 @@
 			"permanent_hero",
 			"base_vector_id",
 			"refresher",
-			"dragonflowers",
 			"base_stats",
 			"growth_rates",
 			"skills"
@@ -61,6 +62,18 @@
 						"$ref": "../legendary-info/0-current#"
 					}
 				]
+			},
+			"dragonflowers": {
+				"type": "object",
+				"required": [
+					"max_count"
+				],
+				"properties": {
+					"max_count": {
+						"description": "The maximum number of Dragonflowers that can be used on this Hero.",
+						"$ref": "../uint32/1-0-0#"
+					}
+				}
 			},
 			"timestamp": {
 				"description": "The date-time since which the Hero is available for random unit generation (always available if this field is null).",
@@ -113,10 +126,6 @@
 			"refresher": {
 				"description": "Whether the Hero can learn a skill like Sing or Dance. At most one such Hero can be present in a brigade, even when a skill like Sing or Dance is not equipped.",
 				"type": "boolean"
-			},
-			"dragonflowers": {
-				"description": "The maximum number of Dragonflowers that can be used on this Hero.",
-				"$ref": "../uint8/0-current#"
 			},
 			"base_stats": {
 				"description": "Uncorrected base stats at 3* Lv. 1.",
