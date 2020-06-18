@@ -46,7 +46,7 @@ The `extras/` directory contains other useful files:
   * [x] `DressAccessory/`
     * [x] `Data/*.bin`
     * [x] `PersonData/*.bin`
-    * [ ] `ShopData/*.bin`
+    * [x] `ShopData/*.bin`
   * [ ] `Effect/`
     * [ ] `arc/*.bin`
   * [ ] `FriendDouble/*.bin`
