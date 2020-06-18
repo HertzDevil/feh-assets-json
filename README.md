@@ -46,6 +46,7 @@ The `extras/` directory contains other useful files:
   * [x] `DressAccessory/`
     * [x] `Data/*.bin`
     * [x] `PersonData/*.bin`
+    * [ ] `ShopData/*.bin`
   * [ ] `Effect/`
     * [ ] `arc/*.bin`
   * [ ] `FriendDouble/*.bin`
@@ -154,6 +155,7 @@ The `extras/` directory contains other useful files:
     * [ ] `AdditionalAuthorities/*.bin`
     * [ ] `Terms/*.bin`
   * [ ] `Tutorial/*.bin`
+  * [x] `TwinWorld/*.bin`
   * [ ] `Wb-4glP03ab/*.bin`
 * [x] `files/assets/[LANG]`
   * [x] `Message`
