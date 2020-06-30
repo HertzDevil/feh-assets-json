@@ -1,0 +1,133 @@
+[
+  {
+    "id_tag": "PID_伝承セリス",
+    "roman": "CELICE_LEGEND01",
+    "face_name": "ch06_00_Celice_M_Legend01",
+    "face_name2": "ch06_00_Celice_M_Legend01",
+    "legendary": {
+      "duo_skill_id": null,
+      "bonus_effect": {
+        "hp": 3,
+        "atk": 0,
+        "spd": 0,
+        "def": 0,
+        "res": 0
+      },
+      "kind": 1,
+      "element": 4,
+      "bst": 180,
+      "pair_up": true
+    },
+    "dragonflowers": {
+      "max_count": 5
+    },
+    "timestamp": null,
+    "id_num": 537,
+    "sort_value": 5100100,
+    "origins": 8,
+    "weapon_type": 0,
+    "tome_class": 0,
+    "move_type": 2,
+    "series": 3,
+    "regular_hero": false,
+    "permanent_hero": false,
+    "base_vector_id": 90,
+    "refresher": false,
+    "base_stats": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 3,
+      "def": 8,
+      "res": 3
+    },
+    "growth_rates": {
+      "hp": 50,
+      "atk": 70,
+      "spd": 30,
+      "def": 65,
+      "res": 50
+    },
+    "skills": [
+      [
+        "SID_鉄の剣",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_鋼の剣",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_守備の鼓舞1",
+        null,
+        null
+      ],
+      [
+        "SID_鋼の剣",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_銀の剣",
+        null,
+        "SID_蛍火",
+        null,
+        null,
+        "SID_守備の鼓舞2",
+        null,
+        null
+      ],
+      [
+        "SID_銀の剣",
+        null,
+        "SID_蛍火",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_華炎",
+        null,
+        null,
+        "SID_守備の鼓舞3",
+        null,
+        null
+      ],
+      [
+        "SID_至聖ティルフィング",
+        null,
+        "SID_蛍火",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_遠距離反撃",
+        "SID_最後の聖戦",
+        "SID_守備の相互鼓舞",
+        null,
+        null
+      ]
+    ]
+  }
+]
