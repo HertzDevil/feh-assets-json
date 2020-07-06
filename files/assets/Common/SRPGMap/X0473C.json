@@ -1,0 +1,300 @@
+{
+  "highest_score": 230,
+  "field": {
+    "id": "X0473",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        6,
+        6
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      [
+        6,
+        15,
+        0,
+        0,
+        15,
+        6
+      ],
+      [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        15,
+        8,
+        15,
+        15,
+        6,
+        15
+      ],
+      [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 0
+    },
+    {
+      "x": 3,
+      "y": 0
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_水着ローレンツ",
+      "skills": [
+        "SID_ほら貝のブーケ＋",
+        "SID_回り込み",
+        "SID_竜裂",
+        "SID_生命の業火3",
+        "SID_攻撃速さの連携3",
+        "SID_魔防の波・偶数3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 48,
+        "atk": 35,
+        "spd": 34,
+        "def": 28,
+        "res": 32
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着イングリット",
+      "skills": [
+        "SID_海角の星槍",
+        null,
+        "SID_月虹",
+        "SID_鬼神金剛の一撃3",
+        "SID_警戒姿勢3",
+        "SID_速さの波・奇数3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 42,
+        "atk": 38,
+        "spd": 46,
+        "def": 28,
+        "res": 28
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着シルヴァン",
+      "skills": [
+        "SID_メロンフロート＋",
+        "SID_引き寄せ",
+        "SID_緋炎",
+        null,
+        "SID_魔防の封印3",
+        "SID_攻撃守備の奮起3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 35,
+        "spd": 38,
+        "def": 30,
+        "res": 17
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_比翼ベレス",
+      "skills": [
+        "SID_盛夏の神宝",
+        null,
+        "SID_破天",
+        "SID_攻撃速さの渾身4",
+        "SID_速さ魔防の封印2",
+        "SID_先導の伝令・地3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 40,
+        "spd": 46,
+        "def": 17,
+        "res": 23
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着ドロテア",
+      "skills": [
+        "SID_花の髪飾り＋",
+        "SID_踊る",
+        "SID_氷華",
+        null,
+        "SID_攻撃の魅了3",
+        "SID_攻撃の鼓舞4",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 41,
+        "spd": 40,
+        "def": 17,
+        "res": 33
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 5,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
