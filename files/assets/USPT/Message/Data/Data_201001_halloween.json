@@ -453,7 +453,7 @@
   },
   {
     "key": "MSID_H_絶対追撃R攻守5",
-    "value": "No início do combate, se PV (unidade) ≥ 50%,\nconcede Atq./Def. +5 durante o combate e a\nunidade faz um ataque duplo garantido."
+    "value": "No início do combate, se PV (inimigo) ≥ 50%,\nconcede Atq./Def. +5 à unidade durante o\ncombate e a unidade faz um ataque duplo\ngarantido."
   },
   {
     "key": "MSID_H_吐息反撃不可R7",
@@ -513,15 +513,15 @@
   },
   {
     "key": "MSID_H_攻撃魔防の密集1",
-    "value": "Concede Atq./Res. +X à unidade durante o\ncombate. (X= número de aliados em um\nraio de 2 espaços; máximo: 3)."
+    "value": "Se a unidade está em um raio de 2 espaços\nde um aliado, concede Atq./Res. +X à unidade\ndurante o combate. (X= número de aliados em\num raio de 2 espaços; máximo: 3)."
   },
   {
     "key": "MSID_H_攻撃魔防の密集2",
-    "value": "Concede Atq./Res. +X à unidade durante o\ncombate. (X= número de aliados em um\nraio de 2 espaços +2; máximo: 5)."
+    "value": "Se a unidade está em um raio de 2 espaços\nde um aliado, concede Atq./Res. +X à unidade\ndurante o combate. (X= número de aliados em\num raio de 2 espaços +2; máximo: 5)."
   },
   {
     "key": "MSID_H_攻撃魔防の密集3",
-    "value": "Concede Atq./Res. +X à unidade durante o\ncombate. (X= 2 x número de aliados em um\nraio de 2 espaços +1; máximo: 7)."
+    "value": "Se a unidade está em um raio de 2 espaços\nde um aliado, concede Atq./Res. +X à unidade\ndurante o combate. (X= 2 x número de aliados\nem um raio de 2 espaços +1; máximo: 7)."
   },
   {
     "key": "MSID_H_竜の逆鱗1",
@@ -557,11 +557,11 @@
   },
   {
     "key": "MSID_H_ファラフレイム改",
-    "value": "No início da rodada, inflige Atq./Res. -5 em\ninimigos em um raio de 3 colunas e 3 linhas\ncentradas na unidade nas suas próximas ações."
+    "value": "No início da rodada, inflige Atq./Res. -5 em\ninimigos em um raio de 3 colunas ou 3 linhas\ncentradas na unidade nas suas próximas ações."
   },
   {
     "key": "MSID_H_軍神の書改",
-    "value": "No início da rodada, inflige Atq./Res. -5 em\ninimigos em um raio de 3 colunas e 3 linhas\ncentradas na unidade nas suas próximas ações."
+    "value": "No início da rodada, inflige Atq./Res. -5 em\ninimigos em um raio de 3 colunas ou 3 linhas\ncentradas na unidade nas suas próximas ações."
   },
   {
     "key": "MID_CHAPTER_TITLE_CX050",
@@ -569,7 +569,7 @@
   },
   {
     "key": "MID_CHAPTER_CX050",
-    "value": "Festival do dragão"
+    "value": "Festival de dragão"
   },
   {
     "key": "MID_STAGE_TITLE_X0501",

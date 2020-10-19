@@ -453,7 +453,7 @@
   },
   {
     "key": "MSID_H_絶対追撃R攻守5",
-    "value": "At start of combat, if unit's HP ≥ 50%, grants\nAtk/Def+5 during combat and unit makes a\nguaranteed follow-up attack."
+    "value": "At start of combat, if foe's HP ≥ 50%, grants\nAtk/Def+5 to unit during combat and unit\nmakes a guaranteed follow-up attack."
   },
   {
     "key": "MSID_H_吐息反撃不可R7",
@@ -513,15 +513,15 @@
   },
   {
     "key": "MSID_H_攻撃魔防の密集1",
-    "value": "Grants Atk/Res+X to unit during combat.\n(X = number of allies within 2 spaces; max 3.)"
+    "value": "If unit is within 2 spaces of an ally, grants\nAtk/Res+X to unit during combat (X = number\nof allies within 2 spaces; max 3)."
   },
   {
     "key": "MSID_H_攻撃魔防の密集2",
-    "value": "Grants Atk/Res+X to unit during combat.\n(X = number of allies within 2 spaces + 2;\nmax 5.)"
+    "value": "If unit is within 2 spaces of an ally, grants\nAtk/Res+X to unit during combat (X = number\nof allies within 2 spaces + 2; max 5)."
   },
   {
     "key": "MSID_H_攻撃魔防の密集3",
-    "value": "Grants Atk/Res+X to unit during combat.\n(X = 2 × number of allies within 2 spaces, + 1;\nmax 7.)"
+    "value": "If unit is within 2 spaces of an ally, grants\nAtk/Res+X to unit during combat (X = 2 ×\nnumber of allies within 2 spaces, + 1; max 7)."
   },
   {
     "key": "MSID_H_竜の逆鱗1",
@@ -557,11 +557,11 @@
   },
   {
     "key": "MSID_H_ファラフレイム改",
-    "value": "At start of turn, inflicts Atk/Res-5 on foes within\n3 columns and 3 rows centered on unit through\ntheir next actions."
+    "value": "At start of turn, inflicts Atk/Res-5 on foes within\n3 columns or 3 rows centered on unit through\ntheir next actions."
   },
   {
     "key": "MSID_H_軍神の書改",
-    "value": "At start of turn, inflicts Atk/Res-5 on foes within\n3 columns and 3 rows centered on unit through\ntheir next actions."
+    "value": "At start of turn, inflicts Atk/Res-5 on foes within\n3 columns or 3 rows centered on unit through\ntheir next actions."
   },
   {
     "key": "MID_CHAPTER_TITLE_CX050",
