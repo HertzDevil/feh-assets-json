@@ -1,0 +1,498 @@
+[
+  {
+    "key": "MID_BOARD_GAME",
+    "value": "洛基的棋盤遊戲"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_DAY",
+    "value": "$a距離第$a0戰結束還有$a1天"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_HOUR",
+    "value": "$a距離第$a0戰結束還有$a1小時"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_MINUTE",
+    "value": "$a距離第$a0戰結束還有$a1分鐘"
+  },
+  {
+    "key": "MID_BOARD_GAME_INTERVAL_LEFT_DAY",
+    "value": "$a距離第$a0戰開始還有$a1天"
+  },
+  {
+    "key": "MID_BOARD_GAME_INTERVAL_LEFT_HOUR",
+    "value": "$a距離第$a0戰開始還有$a1小時"
+  },
+  {
+    "key": "MID_BOARD_GAME_INTERVAL_LEFT_MINUTE",
+    "value": "$a距離第$a0戰開始還有$a1分鐘"
+  },
+  {
+    "key": "MID_BOARD_GAME_GRADE",
+    "value": "盤位"
+  },
+  {
+    "key": "MID_BOARD_GAME_HIGHSCORE",
+    "value": "最高得分"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANK",
+    "value": "排名"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND",
+    "value": "$a第$a0戰"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_DAY_NO_ROUND",
+    "value": "$a距離結束還有$a0天"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_HOUR_NO_ROUND",
+    "value": "$a距離結束還有$a0小時"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_MINUTE_NO_ROUND",
+    "value": "$a距離結束還有$a0分鐘"
+  },
+  {
+    "key": "MID_BOARD_GAME_BOOST",
+    "value": "$a今天 還剩$a0次 點數$a1倍！"
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_SELECT",
+    "value": "選擇難度"
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_0",
+    "value": "初級"
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_1",
+    "value": "中級"
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_2",
+    "value": "上級"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_RANGE_1",
+    "value": "獎勵武器類型：射程１"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_RANGE_2",
+    "value": "獎勵武器類型：射程２"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_UNLIMITED",
+    "value": "獎勵武器類型：無限制"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_ICON_ALL",
+    "value": "全部"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD",
+    "value": "檢視報酬"
+  },
+  {
+    "key": "MID_BOARD_GAME_CUMULATIVE_SCORE",
+    "value": "累計點數"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_CUMULATIVE_SCORE",
+    "value": "累計點數"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANK_IN_GRADE",
+    "value": "盤位內排名"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_SORT",
+    "value": "$a報酬種類：$a0"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_SORT_GRADE",
+    "value": "盤位"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_SORT_CUMULATIVE_SCORE",
+    "value": "累計點數"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING",
+    "value": "目前排名"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_AROUND_ME",
+    "value": "自己的排名"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_TOP",
+    "value": "前段"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_FRIEND",
+    "value": "好友"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_UNCALCULATED_TOP",
+    "value": "正在計算排名。"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_UNCALCULATED_AROUND_ME",
+    "value": "您的排名在計算範圍外。"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_UNCALCULATED_FRIEND",
+    "value": "沒有好友參加。"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_SORT_DIALOG",
+    "value": "顯示範圍"
+  },
+  {
+    "key": "MID_BOARD_GAME_TERM_EXPIRED",
+    "value": "目前未舉辦。"
+  },
+  {
+    "key": "MID_BOARD_GAME_DIALOG_END_OF_ROUND",
+    "value": "$a由於已超過第$a0戰結束時間，\n無法計入本次結果。"
+  },
+  {
+    "key": "MID_BOARD_GAME_CLOSED",
+    "value": "目前未舉辦。"
+  },
+  {
+    "key": "MID_BOARD_GAME_AGGREGATING",
+    "value": "現正統計中。"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BUY_FULL",
+    "value": "角色數量已達上限。\n販賣角色後即可再次進行購買。"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_BUY",
+    "value": "購買角色"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HAND_CHANGE_FIRST_FREE",
+    "value": "初次免費"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SELL_FIRST",
+    "value": "移至此處販賣（初次販賣全額退還）"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SELL",
+    "value": "移至此處販賣"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SELL_NONE",
+    "value": "角色數量將變為０時無法販賣。"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_RANK_UP",
+    "value": "三位一體！"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_PREPARE_ENEMY",
+    "value": "恩布拉兵"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_ENEMY_RANK",
+    "value": "強度階級"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TUTORIAL_BUY",
+    "value": "購買角色，並將其編入部隊吧。\n湊齊３名相同角色後即可升級！"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TUTORIAL_BATTLE_START",
+    "value": "變更配置，\n並點觸戰鬥開始按鈕開始戰鬥！"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_GUIDE_BUY",
+    "value": "購買角色，並將其編入部隊吧。\n湊齊３名相同角色後即可升級！\n（點觸完成購買按鈕以繼續進行遊戲）"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_GUIDE_BATTLE_START",
+    "value": "變更配置，\n並按下戰鬥開始鍵開始戰鬥！\n（點觸返回按鈕可返回購買畫面）"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN",
+    "value": "回合"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SCORE",
+    "value": "得分"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SCORE_TOTAL_HP",
+    "value": "合計HP"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SCORE_COMBO",
+    "value": "COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_TOTAL",
+    "value": "合計"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_WEAPON",
+    "value": "武器類型COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_MOVE",
+    "value": "移動方式COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_MOVE_PAIR",
+    "value": "移動方式PAIR COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HELP_COMBO_WEAPON",
+    "value": "武器類型COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HELP_COMBO_MOVE",
+    "value": "移動方式COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HELP_COMBO_MOVE_PAIR",
+    "value": "移動方式PAIR COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_GUIDE_OFF",
+    "value": "要將指南顯示設為Off嗎？\n之後可從選單進行變更。"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_GUIDE_OFF_DECIDE",
+    "value": "是"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_GUIDE_OFF_CANCEL",
+    "value": "否"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BATTLE_START",
+    "value": "要結束編組\n並開始戰鬥嗎？"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BATTLE_START_NO_UNIT",
+    "value": "需於綠色區域配置\n１名以上的角色。"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BATTLE_START_DECIDE",
+    "value": "開始戰鬥"
+  },
+  {
+    "key": "MID_STAGE_COMBINE_BOARD_GAME_DIFFICULTY",
+    "value": "$a$a0　$a1"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SYSTEM_MENU_GUIDE_ON",
+    "value": "指南顯示On"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SYSTEM_MENU_GUIDE_OFF",
+    "value": "指南顯示Off"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_BATTLE_START",
+    "value": "戰鬥開始"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_BUY_END",
+    "value": "完成購買"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_TOTAL_HP",
+    "value": "合計HP"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_BASE_SCORE",
+    "value": "基本"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_BONUS_WEAPON_SCORE",
+    "value": "獎勵武器類型"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_WIN_SCORE",
+    "value": "勝利"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_TOTAL_SCORE",
+    "value": "合計得分"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_CONSECTIVE_DEFEAT_TITLE",
+    "value": "連敗時的補救措施"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_CONSECTIVE_DEFEAT_TEXT0",
+    "value": "下回合收入"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_CONSECTIVE_DEFEAT_TEXT1",
+    "value": "$a$a0%上升"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT",
+    "value": "本次結果"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT_NEXT",
+    "value": "確認"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT_TOTAL_SCORE",
+    "value": "合計得分"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT__CUMULATIVE_POINT",
+    "value": "累計點數"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT__BOOST",
+    "value": "$a每日限定$a0次 點數$a1倍！"
+  },
+  {
+    "key": "MID_BOARD_GAME_GAINED_REWARDTYPE_POINT",
+    "value": "$a累計點數報酬　$a0"
+  },
+  {
+    "key": "MID_BOARD_GAME_GAINED_REWARDTYPE_GRADE",
+    "value": "$a第$a0戰　盤位$a1"
+  },
+  {
+    "key": "MID_BOARD_GAME_STAGE_SELECT_BASE_SCORE",
+    "value": "基本得分"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_TEXT",
+    "value": "關於全體強化COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_WEAPON_COMBO",
+    "value": "武器類型COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_WEAPON_COMBO_DESCRIPTION",
+    "value": "同武器類型的偶像湊齊３名以上時將會發生COMBO。\n劍槍斧皆視為相同武器類型。\n屬性相異時還會進一步提升強化值！"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_COMBO",
+    "value": "移動方式COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_COMBO_DESCRIPTION",
+    "value": "湊齊３種以上\n移動方式相異的偶像時將會發生COMBO。"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_PAIR_COMBO",
+    "value": "移動方式PAIR COMBO"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_PAIR_COMBO_DESCRIPTION",
+    "value": "湊齊２種以上\n移動方式相同的PAIR時將會發生COMBO。\n強化值於湊齊３種以上時為最大值。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_00",
+    "value": "您想編組哪種部隊？"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_01",
+    "value": "◆洛基的棋盤遊戲◆\n在洛基所支配的世界中進行的遊戲。\n從夥伴中挑選英雄創造偶像，\n並將其作為棋子戰鬥的棋盤遊戲。\n\n與以往不同，這將考驗玩家的獨創戰略。\n無須消費體力，可以無限次挑戰。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_02",
+    "value": "◆流程◆\n・購買階段（購買偶像）\n↓\n・戰鬥階段（與敵人戰鬥）\n\n執行此流程至既定回合後便會結束。\n以獲得高分為目標吧。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_03",
+    "value": "◆購買階段◆\n・每回合皆會獲得軍用資金，\n　可使用於商店購買偶像。\n・未使用的軍用資金\n　可於下個購買階段使用。\n\n・商店中的偶像將從編組於\n　大部隊內的英雄中隨機挑選。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_04",
+    "value": "◆購買階段　販賣◆\n・將偶像移至商店\n　即可販賣並獲得軍用資金。\n\n・僅於各回合初次販賣時，\n　可獲得與定價相同的軍用資金。\n\n・之後則獲得定價一半的軍用資金。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_05",
+    "value": "◆戰鬥階段◆\n・將會自動進行戰鬥。\n\n・依照棋盤上前鋒→後衛的順序行動，\n　並由等級較高的偶像開始行動。\n　（若等級相同，則速度較高者優先行動）\n・會攻擊離自己最近的敵人。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_06",
+    "value": "◆戰鬥階段　勝敗◆\n戰鬥後部隊全員的ＨＰ\n多於敵軍時即可獲勝。\n\n這時ＨＰ比敵軍多越多，\n得分就會越高。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_07",
+    "value": "◆以獎勵武器類型獲得更多得分◆\n・從第４回合開始，將擁有各戰\n　所指定的武器類型的偶像\n　編入部隊時，將會獲得獎勵得分。\n\n・若部隊内３０％以上的偶像\n　皆為指定武器類型，\n　將獲得最多的獎勵得分。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_08",
+    "value": "◆以三位一體提升偶像等級！◆\n・有３名相同的偶像時，\n　就會誕生出強大的三位一體偶像。\n\n・３名偶像會變為１名偶像，\n　等級＋１０。（此後價格＋２）\n　此外，商店與棋盤上我方的偶像全員\n　等級＋２。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_09",
+    "value": "◆以COMBO提升部隊的能力！◆\n部隊滿足特定條件時，\n將會發生COMBO。\nCOMBO的效果：每＋１時，\n戰鬥中全員的ＨＰ、所有能力皆會＋１。\n\nCOMBO的種類\n可在遊戲中的說明進行確認。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_10",
+    "value": "◆最高得分與盤位◆\n・各戰結束後，會依最高得分\n　來決定下一戰的盤位。\n\n・盤位提升後，除了報酬會提升，\n　還會增加每場遊戲的最大回合數。\n\n・盤位在活動結束後仍會維持原樣。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_11",
+    "value": "◆得分與累計點數報酬◆\n・每場遊戲的得分\n　將轉換為點數不斷累積。\n　可根據累計點數獲得報酬。\n\n◆初次點數３倍◆\n・每日首場遊戲的點數\n　將以３倍計算。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_12",
+    "value": "◆其他　連敗時的補救措施◆\n在戰鬥中２連敗以上時，\n於下次購買階段\n所能獲得的軍用資金\n將會變為１．５倍。"
+  },
+  {
+    "key": "MID_ENCOURAGE_ROUND_REMAINING_TIME",
+    "value": "$a第$a0天/$a1天 - 離第$a2局結束還有"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BUTTON_NORMAL",
+    "value": "變更為高品質版"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BUTTON_MEDIUM",
+    "value": "變更為推薦品質版"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BUTTON_LOW",
+    "value": "變更為輕量版"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BODY_2",
+    "value": "$a目前為「$a0」。\n要將遊戲資料品質\n變更為「$a1」\n或「$a2」嗎？\n若選擇變更，\n必須再次重新下載遊戲資料。"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_FOOTER_MEDIUM_LOW",
+    "value": "若選擇下載推薦品質版或輕量版，\n圖片、音樂語音的品質會降低。"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_FOOTER_LOW",
+    "value": "若選擇下載輕量版，\n圖片、音樂語音的品質會降低。"
+  },
+  {
+    "key": "MID_PORTRAIT_TITLE_202011R",
+    "value": "復刻・歡聚與混沌的學級"
+  },
+  {
+    "key": "MID_REWARD_NEEDED_SCORE_UNTIL_NEXT_FEATURE",
+    "value": "還需"
+  },
+  {
+    "key": "MID_SEQUENTIAL_MAP_TERM_202011",
+    "value": "菜鳥忍者的首次任務"
+  },
+  {
+    "key": "MID_UNIT_EDIT_LARGE_FORCE_HELP_DIALOG_01_201101",
+    "value": "◆編組大部隊◆\n為了遊玩「壓制戰」及\n「洛基的棋盤遊戲」等內容的部隊編組。\n\n最多可從我軍或是好友的部隊中\n挑選２０名英雄編組部隊。\n未編組的部分，英雄將隨機以援軍登場。"
+  }
+]

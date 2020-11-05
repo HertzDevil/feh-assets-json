@@ -1,0 +1,498 @@
+[
+  {
+    "key": "MID_BOARD_GAME",
+    "value": "Pions de Loki"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_DAY",
+    "value": "$aManche $a0 : fin dans $a1 j"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_HOUR",
+    "value": "$aManche $a0 : fin dans $a1 h"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_MINUTE",
+    "value": "$aManche $a0 : fin dans $a1 min"
+  },
+  {
+    "key": "MID_BOARD_GAME_INTERVAL_LEFT_DAY",
+    "value": "$aManche $a0 : début dans $a1 j"
+  },
+  {
+    "key": "MID_BOARD_GAME_INTERVAL_LEFT_HOUR",
+    "value": "$aManche $a0 : début dans $a1 h"
+  },
+  {
+    "key": "MID_BOARD_GAME_INTERVAL_LEFT_MINUTE",
+    "value": "$aManche $a0 : début dans $a1 min"
+  },
+  {
+    "key": "MID_BOARD_GAME_GRADE",
+    "value": "Échelon"
+  },
+  {
+    "key": "MID_BOARD_GAME_HIGHSCORE",
+    "value": "Record"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANK",
+    "value": "Rang"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND",
+    "value": "$aManche $a0"
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_DAY_NO_ROUND",
+    "value": "$aEncore $a0 j."
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_HOUR_NO_ROUND",
+    "value": "$aEncore $a0 h."
+  },
+  {
+    "key": "MID_BOARD_GAME_ROUND_LEFT_MINUTE_NO_ROUND",
+    "value": "$aEncore $a0 min."
+  },
+  {
+    "key": "MID_BOARD_GAME_BOOST",
+    "value": "$aBonus : score x$a1. Encore $a0 fois aujourd'hui."
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_SELECT",
+    "value": "Difficulté"
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_0",
+    "value": "Novice"
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_1",
+    "value": "Interm."
+  },
+  {
+    "key": "MID_BOARD_GAME_DIFFICULTY_2",
+    "value": "Vétéran"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_RANGE_1",
+    "value": "Bonus : portée de 1"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_RANGE_2",
+    "value": "Bonus : portée de 2"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_UNLIMITED",
+    "value": "Bonus : sans restriction"
+  },
+  {
+    "key": "MID_BOARD_GAME_BONUS_WEAPON_ICON_ALL",
+    "value": "Toutes"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD",
+    "value": "Récompenses"
+  },
+  {
+    "key": "MID_BOARD_GAME_CUMULATIVE_SCORE",
+    "value": "Points"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_CUMULATIVE_SCORE",
+    "value": "Points accumulés"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANK_IN_GRADE",
+    "value": "Rang (échelon)"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_SORT",
+    "value": "$aRécomp. : $a0"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_SORT_GRADE",
+    "value": "Échelon"
+  },
+  {
+    "key": "MID_BOARD_GAME_REWARD_SORT_CUMULATIVE_SCORE",
+    "value": "Points accumulés"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING",
+    "value": "Classement"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_AROUND_ME",
+    "value": "Votre rang"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_TOP",
+    "value": "Podium"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_FRIEND",
+    "value": "Amis"
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_UNCALCULATED_TOP",
+    "value": "Calcul du rang..."
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_UNCALCULATED_AROUND_ME",
+    "value": "Vous n'avez pas de rang."
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_UNCALCULATED_FRIEND",
+    "value": "Aucun de vos amis ne participe."
+  },
+  {
+    "key": "MID_BOARD_GAME_RANKING_SORT_DIALOG",
+    "value": "Choisir option"
+  },
+  {
+    "key": "MID_BOARD_GAME_TERM_EXPIRED",
+    "value": "Événement terminé."
+  },
+  {
+    "key": "MID_BOARD_GAME_DIALOG_END_OF_ROUND",
+    "value": "$aLes résultats n'ont pas été pris\nen compte car la manche $a0\nest déjà terminée."
+  },
+  {
+    "key": "MID_BOARD_GAME_CLOSED",
+    "value": "Événement terminé."
+  },
+  {
+    "key": "MID_BOARD_GAME_AGGREGATING",
+    "value": "Calcul du résultat."
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BUY_FULL",
+    "value": "Votre équipe d'éveillés est au complet.\nDémobilisez au moins un éveillé pour\npouvoir en enrôler d'autres."
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_BUY",
+    "value": "Enrôler"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HAND_CHANGE_FIRST_FREE",
+    "value": "2e chance"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SELL_FIRST",
+    "value": "Faire glisser ici pour démobiliser\n(la première fois de chaque manche\nest entièrement remboursée)"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SELL",
+    "value": "Faire glisser ici pour démobiliser"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SELL_NONE",
+    "value": "C'est votre dernier éveillé,\nimpossible de le démobiliser."
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_RANK_UP",
+    "value": "Trio !"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_PREPARE_ENEMY",
+    "value": "Soldat d'Embla"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_ENEMY_RANK",
+    "value": "Rang (ennemi)"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TUTORIAL_BUY",
+    "value": "Enrôlez des éveillés dans votre\néquipe. Trois unités identiques\nvous fait monter de niveau !"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TUTORIAL_BATTLE_START",
+    "value": "Organisez votre équipe et appuyez\nsur Commencer."
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_GUIDE_BUY",
+    "value": "Enrôlez des éveillés dans votre\néquipe. Trois unités identiques\nvous fait monter de niveau ! Pour\ncontinuer, appuyez sur Enrôler."
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_GUIDE_BATTLE_START",
+    "value": "Organisez votre équipe et appuyez\nsur Commencer. Pour retourner à\nl'enrôlement, appuyez sur Retour."
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN",
+    "value": "Tour"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SCORE",
+    "value": "Score"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SCORE_TOTAL_HP",
+    "value": "PV totaux"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SCORE_COMBO",
+    "value": "Combos"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_TOTAL",
+    "value": "Total"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_WEAPON",
+    "value": "Arme"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_MOVE",
+    "value": "Déplacement (mixte)"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_EFFECT_COMBO_MOVE_PAIR",
+    "value": "Déplacement (paire)"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HELP_COMBO_WEAPON",
+    "value": "Arme"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HELP_COMBO_MOVE",
+    "value": "Déplacement"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_HELP_COMBO_MOVE_PAIR",
+    "value": "Déplacement (paire)"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_GUIDE_OFF",
+    "value": "Désactiver l'affichage du guide ?\n(Vous pourrez le réactiver plus tard.)"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_GUIDE_OFF_DECIDE",
+    "value": "Oui"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_GUIDE_OFF_CANCEL",
+    "value": "Non"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BATTLE_START",
+    "value": "Souhaitez-vous commencer le combat\navec votre équipe d'éveillés ?"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BATTLE_START_NO_UNIT",
+    "value": "Vous devez placer au moins une unité\ndans la zone verte."
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_DIALOG_BATTLE_START_DECIDE",
+    "value": "Commencer"
+  },
+  {
+    "key": "MID_STAGE_COMBINE_BOARD_GAME_DIFFICULTY",
+    "value": "$a$a1 : $a0"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SYSTEM_MENU_GUIDE_ON",
+    "value": "Afficher le guide"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_SYSTEM_MENU_GUIDE_OFF",
+    "value": "Ne pas afficher le guide"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_BATTLE_START",
+    "value": "Combattre"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_BUY_END",
+    "value": "Enrôler"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_TOTAL_HP",
+    "value": "PV totaux"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_BASE_SCORE",
+    "value": "Score de base"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_BONUS_WEAPON_SCORE",
+    "value": "Armes"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_WIN_SCORE",
+    "value": "Victoire"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_TOTAL_SCORE",
+    "value": "Score final"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_CONSECTIVE_DEFEAT_TITLE",
+    "value": "Fonds de secours"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_CONSECTIVE_DEFEAT_TEXT0",
+    "value": "Prochain tour :"
+  },
+  {
+    "key": "MID_BOARD_GAME_MAP_TURN_RESULT_CONSECTIVE_DEFEAT_TEXT1",
+    "value": "$a+$a0 %"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT",
+    "value": "Résultats"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT_NEXT",
+    "value": "OK"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT_TOTAL_SCORE",
+    "value": "Score final"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT__CUMULATIVE_POINT",
+    "value": "Points accumulés"
+  },
+  {
+    "key": "MID_BOARD_GAME_RESULT__BOOST",
+    "value": "$aPoints x$a1 $a0 fois par jour !"
+  },
+  {
+    "key": "MID_BOARD_GAME_GAINED_REWARDTYPE_POINT",
+    "value": "$aRécompenses (points accumulés) : $a0"
+  },
+  {
+    "key": "MID_BOARD_GAME_GAINED_REWARDTYPE_GRADE",
+    "value": "$aManche $a0 - Échelon $a1"
+  },
+  {
+    "key": "MID_BOARD_GAME_STAGE_SELECT_BASE_SCORE",
+    "value": "Score de base"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_TEXT",
+    "value": "Gagner des points combos"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_WEAPON_COMBO",
+    "value": "Combo : arme"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_WEAPON_COMBO_DESCRIPTION",
+    "value": "Au moins 3 types d'armes identiques forment\nun combo. (Les épées, lances et haches sont\ndu même type.) Augmentez votre combo en\nvariant les couleurs !"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_COMBO",
+    "value": "Combo : déplacement (mixte)"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_COMBO_DESCRIPTION",
+    "value": "Au moins 3 types de déplacements différents\nforment un combo."
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_PAIR_COMBO",
+    "value": "Combo : déplacement (paire)"
+  },
+  {
+    "key": "MID_BOARD_GAME_RULEBOOK_DIALOG_MOVE_PAIR_COMBO_DESCRIPTION",
+    "value": "Au moins 2 paires de déplacements identiques\npeuvent former jusqu'à 3 combos. Chaque\ncombo correspond à une paire de déplacements\ndifférente."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_00",
+    "value": "Quel genre d'équipe allez-vous\nformer ?"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_01",
+    "value": "◆ Pions de Loki ◆\nJouez dans un monde créé par\nLoki. Utilisez des éveillés ayant\nl'apparence de vos héros en tant\nque pions sur un jeu de plateau !\nDécidez quelle stratégie adopter et\naffrontez votre ennemi sans limites\nd'énergie : vous pouvez jouer\nautant que vous le souhaitez."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_02",
+    "value": "◆ Phases du jeu ◆\n・ Préparation (enrôler des éveillés)\n   ↓\n・ Combat (combattre les ennemis)\n\nLa partie se termine après un\ncertain nombre de tours. L'équipe\navec le score le plus élevé gagne."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_03",
+    "value": "◆ Phase de préparation ◆\n・ À chaque tour, vous recevrez\ndes fonds de guerre. Utilisez-les\npour enrôler des éveillés.\n・ Les fonds inutilisés\ns'accumulent.\n・ Les éveillés à enrôler sont\nchoisis de manière aléatoire\nparmi les héros de votre brigade."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_04",
+    "value": "◆ Préparation - Démobilisation ◆\n・ Vous pouvez démobiliser les\néveillés devenus inutiles.\n・ À chaque tour, lorsque vous\ndémobilisez une unité pour la\npremière fois, vous récupérerez sa\nvaleur dans vos fonds de guerre.\nLes fois suivantes, vous\nrécupérerez la moitié de sa valeur."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_05",
+    "value": "◆ Combat ◆\n・ Les combats sont automatiques.\n・ Les éveillés en première ligne\nattaquent avant ceux placés\nderrière.\n・ L'éveillé avec le niveau le plus\nélevé attaque en premier. En cas\nd'égalité de niveau, l'ordre\nd'attaque est déterminé par la Vit.\n・ Les éveillés attaquent l'ennemi\nle plus proche."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_06",
+    "value": "◆ Combat - Résultats ◆\nLa comparaison entre les PV de\nvotre équipe et ceux de l'équipe\nennemie après avoir subi des\ndégâts détermine le vainqueur. Si\nvous avez plus de PV, c'est gagné !\nPlus la différence est significative,\nplus votre score est élevé."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_07",
+    "value": "◆ Armes bonus ◆\n・ À chaque tour, si un de vos\néveillés manie l'arme indiquée\n(attaques physiques, portée de 1,\netc.), un bonus vous sera conféré.\n・ Si au moins 30 % de vos éveillés\nmanient l'arme indiquée, vous\nobtiendrez le bonus maximal."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_08",
+    "value": "◆ Gain de niveau grâce au trio ◆\nSi vous enrôlez trois éveillés\nidentiques, ils fusionneront pour\nformer un puissant trio qui gagnera\n10 niveaux. (Le coût pour enrôler\ncette unité sera de +2.) Le reste\ndes éveillés pouvant être enrôlés\nou déjà dans l'équipe gagne\n2 niveaux."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_09",
+    "value": "◆ Obtenir des combos ◆\nSi votre équipe remplit certaines\nconditions, vous obtiendrez un\npoint de combo qui conférera +1\naux PV et caractéristiques de\nchaque éveillé de votre équipe\npendant le combat. (Voir les\nmessages d'aide pour plus\nd'informations.)"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_10",
+    "value": "◆ Record et échelon ◆\n・ Après chaque manche, votre\nrecord détermine votre échelon\nlors de la manche suivante.\n・ Plus votre échelon sera élevé,\nplus les récompenses seront\nintéressantes et plus la partie\ncomptera de tours.\n・ L'échelon reste le même entre\nles manches."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_11",
+    "value": "◆ Score et points accumulés ◆\n・ Les points de chaque partie\ns'ajoutent à vos points accumulés\nqui déterminent vos récompenses.\n\n1re partie quotidienne, points x3 :\n・ Chaque jour, les points obtenus\nlors de votre première partie sont\nmultipliés par 3."
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_12",
+    "value": "◆ Fonds de secours ◆\nSi vous perdez deux combats ou\nplus à la suite, vos fonds de guerre\nseront multipliés par 1,5 durant la\nphase de préparation suivante."
+  },
+  {
+    "key": "MID_ENCOURAGE_ROUND_REMAINING_TIME",
+    "value": "$aManche $a2 : jour $a0 sur $a1"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BUTTON_NORMAL",
+    "value": "Haute qualité"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BUTTON_MEDIUM",
+    "value": "Recommandée"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BUTTON_LOW",
+    "value": "Légère"
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_BODY_2",
+    "value": "$aQualité actuelle :\n$a0.\n\nVoulez-vous passer à la qualité\n$a1 ou\n$a2 ?\n\nSi vous modifiez la qualité, le jeu\ndevra être téléchargé à nouveau."
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_FOOTER_MEDIUM_LOW",
+    "value": "La qualité des images et des voix\nest inférieure dans la version\nrecommandée ou légère."
+  },
+  {
+    "key": "MID_EXTRA_CHANGE_ASSET_QUALITY_FOOTER_LOW",
+    "value": "La qualité des images et des voix\nest inférieure dans la version légère."
+  },
+  {
+    "key": "MID_PORTRAIT_TITLE_202011R",
+    "value": "Chaos harmonieux, le retour"
+  },
+  {
+    "key": "MID_REWARD_NEEDED_SCORE_UNTIL_NEXT_FEATURE",
+    "value": " dans"
+  },
+  {
+    "key": "MID_SEQUENTIAL_MAP_TERM_202011",
+    "value": "Ninjas novices"
+  },
+  {
+    "key": "MID_UNIT_EDIT_LARGE_FORCE_HELP_DIALOG_01_201101",
+    "value": "◆ Gérer brigades ◆\nLes brigades sont les équipes\nutilisées dans les grandes batailles\ncomme celles du mode Domaines\nrivaux ou Pions de Loki. Vous\npouvez choisir jusqu'à 20 alliés\nissus de votre caserne ou de celles\nde vos amis. Les emplacements\nvides seront automatiquement\nremplis."
+  }
+]
