@@ -1,0 +1,30 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/legendary-info/3-2-0#",
+	"description": "Extra properties for a Legendary / Mythic Hero.",
+	"type": "object",
+	"required": [
+		"bonus_effect",
+		"element",
+		"bst",
+		"pair_up"
+	],
+	"properties": {
+		"bonus_effect": {
+			"description": "Bonus stats granted to blessed allies when this Legendary / Mythic effect is active.",
+			"$ref": "../stats-tuple/1-0-0#"
+		},
+		"element": {
+			"description": "The active season of this Legendary / Mythic effect.",
+			"$ref": "../uint8/1-0-0#"
+		},
+		"bst": {
+			"description": "Stat total used by the Hero in modes like Arena.",
+			"$ref": "../uint8/1-0-0#"
+		},
+		"pair_up": {
+			"description": "Whether the Hero supports Pair Up outside Allegiance Battles.",
+			"type": "boolean"
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/reward-definition/4-3-0#",
+	"description": "A list of reward items.",
+	"type": "array",
+	"items": {
+		"description": "Definition for a single reward item.",
+		"type": "object",
+		"required": [
+			"kind"
+		],
+		"properties": {
+			"kind": {
+				"description": "Type index of the reward item.",
+				"$ref": "../uint8/1-0-0"
+			},
+			"_type": {
+				"type": "string"
+			},
+			"aa_kind": {
+				"$ref": "../uint8/1-0-0"
+			},
+			"badge_color": {
+				"$ref": "../uint8/1-0-0"
+			},
+			"count": {
+				"$ref": "../uint16/1-0-0"
+			},
+			"element": {
+				"$ref": "../uint8/1-0-0"
+			},
+			"great": {
+				"type": "boolean"
+			},
+			"id_tag": {
+				"type": "string"
+			},
+			"len": {
+				"$ref": "../uint8/1-0-0"
+			},
+			"move_type": {
+				"$ref": "../uint8/1-0-0"
+			},
+			"rarity": {
+				"type": "number"
+			},
+			"shard_color": {
+				"$ref": "../uint8/1-0-0"
+			},
+			"support_rank": {
+				"$ref": "../uint8/1-0-0"
+			},
+			"throne_type": {
+				"$ref": "../uint8/1-0-0"
+			}
+		}
+	}
+}

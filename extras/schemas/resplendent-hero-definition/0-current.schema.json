@@ -1,0 +1,32 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/resplendent-hero-definition/0-current#",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"required": [
+			"id_num",
+			"avail_start",
+			"avail_finish",
+			"hero_id"
+		],
+		"properties": {
+			"id_num": {
+				"description": "Internal numeric identifier of the Resplendent Hero.",
+				"$ref": "../uint32/0-current#"
+			},
+			"avail_start": {
+				"description": "The start date-time of the Resplendent Hero's original availability period, inclusive.",
+				"format": "date-time"
+			},
+			"avail_finish": {
+				"description": "The end date-time of the Resplendent Hero's original availability period, exclusive.",
+				"format": "date-time"
+			},
+			"hero_id": {
+				"description": "Internal string identifier of the Hero.",
+				"type": "string"
+			}
+		}
+	}
+}

@@ -1,0 +1,500 @@
+{
+  "highest_score": 211,
+  "field": {
+    "id": "T0026",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        5,
+        1,
+        1,
+        1,
+        1,
+        5
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        21,
+        1,
+        1,
+        1,
+        1,
+        21
+      ],
+      [
+        1,
+        1,
+        11,
+        11,
+        1,
+        1
+      ],
+      [
+        21,
+        1,
+        23,
+        23,
+        1,
+        21
+      ],
+      [
+        1,
+        1,
+        12,
+        12,
+        1,
+        1
+      ],
+      [
+        21,
+        1,
+        1,
+        1,
+        1,
+        21
+      ],
+      [
+        21,
+        5,
+        1,
+        1,
+        5,
+        21
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 2,
+      "y": 7
+    },
+    {
+      "x": 3,
+      "y": 7
+    },
+    {
+      "x": 2,
+      "y": 6
+    },
+    {
+      "x": 3,
+      "y": 6
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_眷属タクミ",
+      "skills": [
+        "SID_スカディ",
+        null,
+        "SID_復讐",
+        "SID_獅子奮迅3",
+        "SID_相性殺し3",
+        "SID_速さの紫煙3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 51,
+        "atk": 31,
+        "spd": 34,
+        "def": 25,
+        "res": 24
+      },
+      "start_turn": 3,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_眷属タクミ",
+      "skills": [
+        "SID_スカディ",
+        null,
+        "SID_復讐",
+        "SID_獅子奮迅3",
+        null,
+        "SID_速さの紫煙3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 51,
+        "atk": 31,
+        "spd": 34,
+        "def": 25,
+        "res": 24
+      },
+      "start_turn": 3,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ソードファイター",
+      "skills": [
+        "SID_アーマーキラー2＋",
+        null,
+        "SID_夕陽",
+        "SID_飛燕の一撃3",
+        "SID_剣殺し3",
+        "SID_攻撃の大紋章2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 52,
+        "atk": 31,
+        "spd": 31,
+        "def": 30,
+        "res": 22
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ブルーマージ",
+      "skills": [
+        "SID_ブラーウルフ2＋",
+        null,
+        "SID_氷蒼",
+        "SID_攻撃魔防2",
+        "SID_すり抜け3",
+        "SID_速さの威嚇3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 44,
+        "atk": 31,
+        "spd": 32,
+        "def": 20,
+        "res": 28
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ランスナイト",
+      "skills": [
+        "SID_銀の槍＋",
+        null,
+        "SID_聖盾",
+        "SID_金剛の構え3",
+        "SID_進軍阻止3",
+        "SID_攻撃の威嚇3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 1
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 49,
+        "atk": 34,
+        "spd": 24,
+        "def": 25,
+        "res": 30
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ボウナイト",
+      "skills": [
+        "SID_銀の弓＋",
+        null,
+        "SID_凶星",
+        "SID_鬼神の一撃3",
+        "SID_切り返し3",
+        "SID_死の吐息3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 1
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 48,
+        "atk": 35,
+        "spd": 22,
+        "def": 24,
+        "res": 23
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_シスター",
+      "skills": [
+        "SID_グラビティ＋",
+        "SID_リブロー＋",
+        null,
+        "SID_遠距離防御3",
+        "SID_幻惑の杖3",
+        "SID_死の吐息3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 28,
+        "spd": 28,
+        "def": 23,
+        "res": 35
+      },
+      "start_turn": 2,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_シーフ",
+      "skills": [
+        "SID_紫煙の暗器＋",
+        null,
+        "SID_祈り",
+        "SID_柔剣3",
+        "SID_風薙ぎ3",
+        "SID_死の吐息3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 28,
+        "spd": 38,
+        "def": 13,
+        "res": 32
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 2,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_グリーンマージ",
+      "skills": [
+        "SID_レクスカリバー＋",
+        null,
+        "SID_氷蒼",
+        "SID_獅子奮迅3",
+        "SID_待ち伏せ3",
+        "SID_魔防の謀策3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 44,
+        "atk": 31,
+        "spd": 32,
+        "def": 20,
+        "res": 28
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 2,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_レッドナイト",
+      "skills": [
+        "SID_ナートラウア＋",
+        null,
+        "SID_月虹",
+        "SID_明鏡の一撃3",
+        "SID_蛇毒3",
+        "SID_魔防の大紋章2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 39,
+        "atk": 35,
+        "spd": 25,
+        "def": 17,
+        "res": 34
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 3,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 10,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

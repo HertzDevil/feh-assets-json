@@ -1,0 +1,166 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/hero-definition/4-8-0#",
+	"description": "A list of Heroes under assets/Common/SRPG/Person.",
+	"type": "array",
+	"items": {
+		"description": "Definition for a single Hero.",
+		"type": "object",
+		"required": [
+			"id_tag",
+			"roman",
+			"face_name",
+			"face_name2",
+			"legendary",
+			"dragonflowers",
+			"timestamp",
+			"id_num",
+			"sort_value",
+			"origins",
+			"weapon_type",
+			"tome_class",
+			"move_type",
+			"series",
+			"regular_hero",
+			"permanent_hero",
+			"base_vector_id",
+			"refresher",
+			"base_stats",
+			"growth_rates",
+			"skills"
+		],
+		"properties": {
+			"id_tag": {
+				"description": "Internal string identifier of the Hero.",
+				"type": "string"
+			},
+			"roman": {
+				"description": "Identifier of the Hero used in certain file names (e.g. quote files).",
+				"type": "string"
+			},
+			"face_name": {
+				"description": "Directory name for the Hero's sprites under assets/Common/Face and assets/Common/Unit.",
+				"type": [
+					"string",
+					"null"
+				]
+			},
+			"face_name2": {
+				"description": "Identical to face_name. Purpose unknown.",
+				"type": [
+					"string",
+					"null"
+				]
+			},
+			"legendary": {
+				"description": "Extra properties for Legendary / Mythic / Duo Heroes.",
+				"anyOf": [
+					{
+						"type": "null"
+					},
+					{
+						"$ref": "../legendary-info/3-10-0#"
+					}
+				]
+			},
+			"dragonflowers": {
+				"type": "object",
+				"required": [
+					"max_count",
+					"costs"
+				],
+				"properties": {
+					"max_count": {
+						"description": "The maximum number of Dragonflowers that can be used on this Hero.",
+						"$ref": "../uint32/1-0-0#"
+					},
+					"costs": {
+						"description": "The Dragonflower costs for this Hero. Should have the same number of items as `max_count`.",
+						"type": "array",
+						"items": {
+							"$ref": "../uint32/1-0-0#"
+						}
+					}
+				}
+			},
+			"timestamp": {
+				"description": "The date-time since which the Hero is available for random unit generation (always available if this field is null).",
+				"type": [
+					"string",
+					"null"
+				],
+				"format": "date-time"
+			},
+			"id_num": {
+				"description": "Unique numeric index of the Hero. Third and last sort key when sorting Heroes by Origin.",
+				"$ref": "../uint32/1-0-0#"
+			},
+			"sort_value": {
+				"description": "Second sort key when sorting Heroes by Origin.",
+				"$ref": "../uint32/1-0-0#"
+			},
+			"origins": {
+				"description": "Bitvector representing all the series the Hero belongs to. Used by the filter tool and Limited Hero Battles.",
+				"$ref": "../uint32/1-0-0#"
+			},
+			"weapon_type": {
+				"description": "Weapon type index of the Hero. Indexes assets/Common/SRPG/Weapon.json",
+				"$ref": "../uint8/1-0-0#"
+			},
+			"tome_class": {
+				"description": "The tome element of the Hero. Only nonzero for units that belong to one of the magic weapon types. Purpose unknown.",
+				"$ref": "../uint8/1-0-0#"
+			},
+			"move_type": {
+				"description": "Move type index of the Hero. Indexes assets/Common/SRPG/Move.json.",
+				"$ref": "../uint8/1-0-0#"
+			},
+			"series": {
+				"description": "The game series from which the Hero originates. First sort key when sorting Heroes by Origin.",
+				"$ref": "../uint8/1-0-0#"
+			},
+			"regular_hero": {
+				"description": "Whether the Hero is available for random unit generation.",
+				"type": "boolean"
+			},
+			"permanent_hero": {
+				"description": "Whether the Hero cannot be sent home, used in Skill Inheritance, or converted into Combat Manuals.",
+				"type": "boolean"
+			},
+			"base_vector_id": {
+				"description": "Random number used to produce different growth patterns.",
+				"$ref": "../uint8/1-0-0#"
+			},
+			"refresher": {
+				"description": "Whether the Hero can learn a skill like Sing or Dance. At most one such Hero can be present in a brigade, even when a skill like Sing or Dance is not equipped.",
+				"type": "boolean"
+			},
+			"base_stats": {
+				"description": "Uncorrected base stats at 3* Lv. 1.",
+				"$ref": "../stats-tuple/1-0-0#"
+			},
+			"growth_rates": {
+				"description": "Uncorrected growth rates at 3* in percentages.",
+				"$ref": "../stats-tuple/1-0-0#"
+			},
+			"skills": {
+				"description": "Lists of default and unlockable skills for every rarity.",
+				"type": "array",
+				"minItems": 5,
+				"maxItems": 5,
+				"items": {
+					"description": "List of default and unlockable skills for a given rarity. First 6 skills are default, the remaining 8 are unlockable.",
+					"type": "array",
+					"minItems": 14,
+					"maxItems": 14,
+					"items": {
+						"type": [
+							"string",
+							"null"
+						]
+					}
+				}
+			}
+		}
+	}
+}
