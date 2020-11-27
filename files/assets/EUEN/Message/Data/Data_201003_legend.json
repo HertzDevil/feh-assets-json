@@ -821,7 +821,7 @@
   },
   {
     "key": "MSID_H_アラドヴァル",
-    "value": "Accelerates Special trigger (cooldown count-1).\nAt start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd/Def/Res+5 during combat, and also,\nif unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 4 (max 40%)."
+    "value": "Accelerates Special trigger (cooldown count-1).\nAt start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd/Def/Res+5 during combat, and also,\nif unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 4 (max 40%).\n\n(If area-of-effect Special triggers outside\nof combat, checks stats and conditions for\ndamage reduction at time of trigger and again\nat start of combat.)"
   },
   {
     "key": "MSID_H_無惨",
