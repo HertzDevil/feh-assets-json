@@ -1,0 +1,285 @@
+{
+  "highest_score": 187,
+  "field": {
+    "id": "PB007",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 0,
+    "terrain": [
+      [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        3
+      ],
+      [
+        5,
+        5,
+        5,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        4,
+        4,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+
+  ],
+  "units": [
+    {
+      "id_tag": "PID_伝承アイク",
+      "skills": [
+        "SID_ラグネル",
+        null,
+        "SID_蒼の天空",
+        "SID_明鏡の呼吸",
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 35,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 38,
+        "atk": 33,
+        "spd": 27,
+        "def": 32,
+        "res": 19
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 35,
+      "is_enemy": false,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_アクスファイター",
+      "skills": [
+        "SID_勇者の斧＋",
+        null,
+        null,
+        "SID_死線3",
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 35,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 28,
+        "spd": 28,
+        "def": 27,
+        "res": 20
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 35,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_グリーンマージ",
+      "skills": [
+        "SID_レクスカリバー＋",
+        null,
+        null,
+        "SID_死線1",
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 33,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 34,
+        "atk": 26,
+        "spd": 27,
+        "def": 17,
+        "res": 24
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_レッドマージ",
+      "skills": [
+        "SID_ボルガノン",
+        null,
+        null,
+        "SID_死線1",
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 33,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 34,
+        "atk": 26,
+        "spd": 27,
+        "def": 17,
+        "res": 24
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ボウナイト",
+      "skills": [
+        "SID_勇者の弓",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 33,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 36,
+        "atk": 30,
+        "spd": 19,
+        "def": 21,
+        "res": 20
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 33,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 0,
+  "unit_count": 5,
+  "turns_to_win": 1,
+  "last_enemy_phase": true,
+  "turns_to_defend": 0
+}

@@ -1,0 +1,260 @@
+{
+  "highest_score": 149,
+  "field": {
+    "id": "X0292",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        21,
+        1,
+        5,
+        5,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        21
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        5,
+        1,
+        1,
+        21,
+        1
+      ],
+      [
+        5,
+        5,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        5,
+        5,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        5,
+        5,
+        1,
+        1
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_温泉ヒノカ",
+      "skills": [
+        "SID_神泉の風呂桶",
+        "SID_引き寄せ",
+        null,
+        "SID_攻撃速さの絆2",
+        "SID_攻撃速さの連携2",
+        "SID_先導の伝令・天1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 7
+      },
+      "rarity": 4,
+      "lv": 32,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 31,
+        "atk": 28,
+        "spd": 28,
+        "def": 11,
+        "res": 20
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_温泉カミラ",
+      "skills": [
+        "SID_巾着袋",
+        null,
+        "SID_星影",
+        "SID_攻撃速さ1",
+        null,
+        "SID_攻撃の鼓舞2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 4,
+      "lv": 32,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 31,
+        "atk": 26,
+        "spd": 28,
+        "def": 12,
+        "res": 21
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ランスファイター",
+      "skills": [
+        "SID_蒼海の槍",
+        null,
+        "SID_砕光",
+        "SID_鬼神の一撃2",
+        "SID_怒り1",
+        null,
+        null
+      ],
+      "accessory": "DAID_温泉の風呂桶",
+      "pos": {
+        "x": 4,
+        "y": 5
+      },
+      "rarity": 4,
+      "lv": 32,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 36,
+        "atk": 24,
+        "spd": 23,
+        "def": 24,
+        "res": 17
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ラウアファヴニル",
+      "skills": [
+        "SID_水のブレス",
+        null,
+        "SID_小盾",
+        "SID_遠距離防御1",
+        null,
+        "SID_守備の波・奇数1",
+        null
+      ],
+      "accessory": "DAID_温泉まんじゅう",
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 32,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 32,
+        "atk": 22,
+        "spd": 29,
+        "def": 25,
+        "res": 20
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 32,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

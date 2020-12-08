@@ -1,0 +1,260 @@
+{
+  "highest_score": 71,
+  "field": {
+    "id": "S3125",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 2
+    },
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "EID_ロキ",
+      "skills": [
+        null,
+        "SID_ヒール",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 21,
+        "atk": 12,
+        "spd": 13,
+        "def": 6,
+        "res": 11
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_グリーンペガサス",
+      "skills": [
+        "SID_エルウインド",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 19,
+        "atk": 10,
+        "spd": 13,
+        "def": 4,
+        "res": 11
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ラウアファヴニル",
+      "skills": [
+        "SID_火炎のブレス",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 20,
+        "atk": 10,
+        "spd": 14,
+        "def": 11,
+        "res": 8
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ブルーボウ",
+      "skills": [
+        "SID_鋼の弓",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 22,
+        "atk": 11,
+        "spd": 10,
+        "def": 10,
+        "res": 4
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

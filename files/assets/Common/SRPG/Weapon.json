@@ -1,0 +1,458 @@
+[
+  {
+    "id_tag": "WID_剣",
+    "sprite_base": [
+      null,
+      "wep_sw"
+    ],
+    "base_weapon": "SID_鉄の剣",
+    "index": 0,
+    "color": 1,
+    "range": 1,
+    "_unknown1": 2,
+    "sort_id": 0,
+    "equip_group": 0,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_槍",
+    "sprite_base": [
+      null,
+      "wep_lc"
+    ],
+    "base_weapon": "SID_鉄の槍",
+    "index": 1,
+    "color": 2,
+    "range": 1,
+    "_unknown1": 1,
+    "sort_id": 1,
+    "equip_group": 2,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_斧",
+    "sprite_base": [
+      null,
+      "wep_ax"
+    ],
+    "base_weapon": "SID_鉄の斧",
+    "index": 2,
+    "color": 3,
+    "range": 1,
+    "_unknown1": 2,
+    "sort_id": 2,
+    "equip_group": 4,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_赤弓",
+    "sprite_base": [
+      "wep_bw",
+      "wep_ar"
+    ],
+    "base_weapon": "SID_鉄の弓",
+    "index": 3,
+    "color": 1,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 4,
+    "equip_group": 9,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_青弓",
+    "sprite_base": [
+      "wep_bw",
+      "wep_ar"
+    ],
+    "base_weapon": "SID_鉄の弓",
+    "index": 4,
+    "color": 2,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 5,
+    "equip_group": 9,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_緑弓",
+    "sprite_base": [
+      "wep_bw",
+      "wep_ar"
+    ],
+    "base_weapon": "SID_鉄の弓",
+    "index": 5,
+    "color": 3,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 6,
+    "equip_group": 9,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_弓",
+    "sprite_base": [
+      "wep_bw",
+      "wep_ar"
+    ],
+    "base_weapon": "SID_鉄の弓",
+    "index": 6,
+    "color": 0,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 7,
+    "equip_group": 9,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_赤暗",
+    "sprite_base": [
+      null,
+      "wep_dg"
+    ],
+    "base_weapon": "SID_鉄の暗器",
+    "index": 7,
+    "color": 1,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 8,
+    "equip_group": 11,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": true,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_青暗",
+    "sprite_base": [
+      null,
+      "wep_dg"
+    ],
+    "base_weapon": "SID_鉄の暗器",
+    "index": 8,
+    "color": 2,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 9,
+    "equip_group": 11,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": true,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_緑暗",
+    "sprite_base": [
+      null,
+      "wep_dg"
+    ],
+    "base_weapon": "SID_鉄の暗器",
+    "index": 9,
+    "color": 3,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 10,
+    "equip_group": 11,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": true,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_暗",
+    "sprite_base": [
+      null,
+      "wep_dg"
+    ],
+    "base_weapon": "SID_鉄の暗器",
+    "index": 10,
+    "color": 0,
+    "range": 2,
+    "_unknown1": 1,
+    "sort_id": 11,
+    "equip_group": 11,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": true,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_赤魔",
+    "sprite_base": [
+      null,
+      "wep_mg"
+    ],
+    "base_weapon": "SID_ファイアー",
+    "index": 11,
+    "color": 1,
+    "range": 2,
+    "_unknown1": 3,
+    "sort_id": 12,
+    "equip_group": 1,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_青魔",
+    "sprite_base": [
+      null,
+      "wep_mg"
+    ],
+    "base_weapon": "SID_サンダー",
+    "index": 12,
+    "color": 2,
+    "range": 2,
+    "_unknown1": 3,
+    "sort_id": 13,
+    "equip_group": 3,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_緑魔",
+    "sprite_base": [
+      null,
+      "wep_mg"
+    ],
+    "base_weapon": "SID_ウインド",
+    "index": 13,
+    "color": 3,
+    "range": 2,
+    "_unknown1": 3,
+    "sort_id": 14,
+    "equip_group": 5,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_無魔",
+    "sprite_base": [
+      null,
+      "wep_mg"
+    ],
+    "base_weapon": "SID_ロック",
+    "index": 14,
+    "color": 0,
+    "range": 2,
+    "_unknown1": 3,
+    "sort_id": 15,
+    "equip_group": 7,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_杖",
+    "sprite_base": [
+      null,
+      "wep_rd"
+    ],
+    "base_weapon": "SID_アサルト",
+    "index": 15,
+    "color": 0,
+    "range": 2,
+    "_unknown1": 3,
+    "sort_id": 3,
+    "equip_group": 6,
+    "res_damage": true,
+    "is_staff": true,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_赤竜",
+    "sprite_base": [
+      null,
+      "wep_ac"
+    ],
+    "base_weapon": "SID_火のブレス",
+    "index": 16,
+    "color": 1,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 16,
+    "equip_group": 8,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": true,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_青竜",
+    "sprite_base": [
+      null,
+      "wep_ac"
+    ],
+    "base_weapon": "SID_火のブレス",
+    "index": 17,
+    "color": 2,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 17,
+    "equip_group": 8,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": true,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_緑竜",
+    "sprite_base": [
+      null,
+      "wep_ac"
+    ],
+    "base_weapon": "SID_火のブレス",
+    "index": 18,
+    "color": 3,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 18,
+    "equip_group": 8,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": true,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_無竜",
+    "sprite_base": [
+      null,
+      "wep_ac"
+    ],
+    "base_weapon": "SID_火のブレス",
+    "index": 19,
+    "color": 0,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 19,
+    "equip_group": 8,
+    "res_damage": true,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": true,
+    "is_beast": false
+  },
+  {
+    "id_tag": "WID_赤獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 20,
+    "color": 1,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 20,
+    "equip_group": 10,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": true
+  },
+  {
+    "id_tag": "WID_青獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 21,
+    "color": 2,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 21,
+    "equip_group": 10,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": true
+  },
+  {
+    "id_tag": "WID_緑獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 22,
+    "color": 3,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 22,
+    "equip_group": 10,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": true
+  },
+  {
+    "id_tag": "WID_無獣",
+    "sprite_base": [
+      null,
+      null
+    ],
+    "base_weapon": null,
+    "index": 23,
+    "color": 0,
+    "range": 1,
+    "_unknown1": 3,
+    "sort_id": 23,
+    "equip_group": 10,
+    "res_damage": false,
+    "is_staff": false,
+    "is_dagger": false,
+    "is_breath": false,
+    "is_beast": true
+  }
+]

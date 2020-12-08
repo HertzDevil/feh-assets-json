@@ -1,0 +1,252 @@
+{
+  "highest_score": 210,
+  "field": {
+    "id": "H0440",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 0,
+    "terrain": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 4,
+      "y": 7
+    },
+    {
+      "x": 5,
+      "y": 7
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_伝承リーフ",
+      "skills": [
+        "SID_マスターボウ",
+        null,
+        "SID_ノヴァの聖戦士",
+        "SID_攻撃魔防の渾身4",
+        "SID_Ｓドリンク",
+        "SID_守備の紫煙3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 38,
+        "spd": 22,
+        "def": 29,
+        "res": 27
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_マリク",
+      "skills": [
+        "SID_エクスカリバー",
+        null,
+        "SID_爆風",
+        "SID_HP3",
+        null,
+        "SID_魔防の紋章3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 26,
+        "spd": 32,
+        "def": 28,
+        "res": 19
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_セーバー",
+      "skills": [
+        "SID_黄金の短剣",
+        null,
+        "SID_聖盾",
+        "SID_HP速さ2",
+        "SID_盾の鼓動3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 31,
+        "spd": 33,
+        "def": 32,
+        "res": 22
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_モゥディ",
+      "skills": [
+        "SID_虎戦士の爪牙",
+        "SID_ぶちかまし",
+        null,
+        null,
+        "SID_攻撃守備の連携3",
+        "SID_獣の経験3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 47,
+        "atk": 37,
+        "spd": 24,
+        "def": 39,
+        "res": 20
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 2,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

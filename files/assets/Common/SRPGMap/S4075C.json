@@ -1,0 +1,260 @@
+{
+  "highest_score": 243,
+  "field": {
+    "id": "S4075",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        4,
+        4,
+        4,
+        4,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "EID_スカビオサ",
+      "skills": [
+        "SID_不幸の花",
+        "SID_こわいゆめ",
+        "SID_祈り",
+        "SID_攻撃速さの渾身3",
+        "SID_曲技飛行3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 38,
+        "spd": 39,
+        "def": 17,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_暴走アイク",
+      "skills": [
+        "SID_混沌ラグネル",
+        null,
+        "SID_暴の天空",
+        "SID_飛燕の呼吸",
+        "SID_回避・叩き込み3",
+        "SID_攻撃速さの信義3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 38,
+        "spd": 46,
+        "def": 35,
+        "res": 25
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_暴走カムイ男",
+      "skills": [
+        "SID_獣乱のブレス",
+        null,
+        "SID_凶星",
+        "SID_攻撃速さの孤軍4",
+        "SID_見切り・追撃効果3",
+        "SID_速さ守備の奮起3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 42,
+        "spd": 42,
+        "def": 37,
+        "res": 29
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_催眠ユリア",
+      "skills": [
+        "SID_暗黒の聖書",
+        null,
+        "SID_氷蒼",
+        "SID_攻撃魔防の孤軍4",
+        "SID_光と闇と",
+        "SID_恐慌の幻煙3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 42,
+        "atk": 45,
+        "spd": 27,
+        "def": 18,
+        "res": 44
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

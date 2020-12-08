@@ -1,0 +1,300 @@
+{
+  "highest_score": 205,
+  "field": {
+    "id": "S1405",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        15,
+        15,
+        5,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        0,
+        15,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        0,
+        15,
+        0
+      ],
+      [
+        0,
+        5,
+        15,
+        15,
+        5,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 2,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "EID_ブルーノ",
+      "skills": [
+        "SID_ヴラスキャルヴ",
+        null,
+        "SID_爆雷",
+        "SID_獅子奮迅3",
+        "SID_青魔殺し3",
+        "SID_攻撃の謀策3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 37,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 38,
+        "atk": 31,
+        "spd": 36,
+        "def": 23,
+        "res": 27
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 37,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_エリンシア",
+      "skills": [
+        "SID_銀の剣",
+        "SID_献身",
+        null,
+        "SID_鬼神の一撃2",
+        null,
+        "SID_空からの先導2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 37,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 32,
+        "atk": 31,
+        "spd": 33,
+        "def": 21,
+        "res": 24
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 37,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_漆黒の騎士",
+      "skills": [
+        "SID_銀の剣",
+        null,
+        "SID_黒の月光",
+        "SID_金剛の構え2",
+        "SID_救援の行路2",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 37,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 44,
+        "atk": 31,
+        "spd": 30,
+        "def": 32,
+        "res": 16
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 37,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_総選挙アイク",
+      "skills": [
+        "SID_銀の斧",
+        null,
+        "SID_天空",
+        "SID_金剛の構え2",
+        "SID_ベオクの加護",
+        "SID_守備の威嚇2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 37,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 39,
+        "atk": 33,
+        "spd": 24,
+        "def": 32,
+        "res": 17
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 37,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_オスカー",
+      "skills": [
+        "SID_蒼海の槍",
+        "SID_速さ守備の応援",
+        null,
+        null,
+        "SID_槍殺し2",
+        "SID_速さ守備の紋章2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 4,
+      "lv": 37,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 36,
+        "atk": 30,
+        "spd": 31,
+        "def": 23,
+        "res": 18
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 37,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 5,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

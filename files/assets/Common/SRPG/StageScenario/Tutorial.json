@@ -1,0 +1,144 @@
+[
+  {
+    "id_tag": "C0000",
+    "_unknown5": null,
+    "after_url": null,
+    "avail": {
+      "start": null,
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "sort_id": 0,
+    "is_paralogue": 0,
+    "_unknown3": 1,
+    "_unknown4": 1,
+    "book": 1,
+    "maps": [
+      {
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "scenarios": [
+          {
+            "id_tag": "S0001A",
+            "base_id": "S0001A",
+            "prerequisites": [
+
+            ],
+            "prereq_count": 0,
+            "honor_id": null,
+            "name_id": null,
+            "_unknown1": null,
+            "reward": null,
+            "payload_size": 0,
+            "origins": 0,
+            "stamina": 0,
+            "_unknown2": 1,
+            "difficulty": 0,
+            "survives": 0,
+            "no_lights_blessing": 1,
+            "turns_to_win": 0,
+            "turns_to_defend": 0,
+            "stars": 1,
+            "lv": 1,
+            "true_lv": 1,
+            "reinforcements": 0,
+            "last_enemy_phase": 0,
+            "max_refreshers": -1,
+            "rd_level": -1,
+            "enemy_weps": [
+              2,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "id_tag": "S0002A",
+            "base_id": "S0002A",
+            "prerequisites": [
+
+            ],
+            "prereq_count": 0,
+            "honor_id": null,
+            "name_id": null,
+            "_unknown1": null,
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 15
+              }
+            ],
+            "payload_size": 72,
+            "origins": 0,
+            "stamina": 0,
+            "_unknown2": 1,
+            "difficulty": 0,
+            "survives": 0,
+            "no_lights_blessing": 1,
+            "turns_to_win": 0,
+            "turns_to_defend": 0,
+            "stars": 1,
+            "lv": 2,
+            "true_lv": 2,
+            "reinforcements": 0,
+            "last_enemy_phase": 0,
+            "max_refreshers": -1,
+            "rd_level": -1,
+            "enemy_weps": [
+              2,
+              6,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "flags": [
+          0,
+          0
+        ],
+        "scenario_count": 2,
+        "is_paralogue": false
+      },
+      {
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "scenarios": [
+
+        ],
+        "flags": [
+
+        ],
+        "scenario_count": 0,
+        "is_paralogue": false
+      },
+      {
+        "prerequisites": [
+
+        ],
+        "prereq_count": 0,
+        "scenarios": [
+
+        ],
+        "flags": [
+
+        ],
+        "scenario_count": 0,
+        "is_paralogue": false
+      }
+    ]
+  }
+]

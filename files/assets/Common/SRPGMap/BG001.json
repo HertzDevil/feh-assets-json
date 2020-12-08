@@ -1,0 +1,101 @@
+{
+  "highest_score": 45,
+  "field": {
+    "id": "BG001",
+    "width": 6,
+    "height": 5,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "player_pos": [
+
+  ],
+  "units": [
+    {
+      "id_tag": "EID_ソードファイター",
+      "skills": [
+        "SID_鋼の剣",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 4
+      },
+      "rarity": 1,
+      "lv": 1,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 5,
+        "spd": 5,
+        "def": 6,
+        "res": 3
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 1,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 0,
+  "unit_count": 1,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

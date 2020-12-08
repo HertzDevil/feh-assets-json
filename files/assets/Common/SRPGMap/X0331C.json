@@ -1,0 +1,260 @@
+{
+  "highest_score": 198,
+  "field": {
+    "id": "X0331",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        3,
+        0,
+        15,
+        0,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        15,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        5,
+        15,
+        5,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        5,
+        0,
+        0,
+        3,
+        0,
+        5
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        3,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 7
+    },
+    {
+      "x": 2,
+      "y": 7
+    },
+    {
+      "x": 1,
+      "y": 6
+    },
+    {
+      "x": 2,
+      "y": 6
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_花嫁フィヨルム",
+      "skills": [
+        "SID_ギャッラルブルー",
+        "SID_レスト＋",
+        null,
+        "SID_HP攻撃2",
+        "SID_幻惑の杖3",
+        "SID_先導の伝令・地3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 42,
+        "atk": 34,
+        "spd": 34,
+        "def": 17,
+        "res": 23
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_花婿パント",
+      "skills": [
+        "SID_祝杯のボトル＋",
+        "SID_攻撃の大応援＋",
+        null,
+        null,
+        "SID_強化無効・遠距離3",
+        "SID_鼓動の幻煙3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 37,
+        "atk": 33,
+        "spd": 34,
+        "def": 19,
+        "res": 21
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_花嫁シグルーン",
+      "skills": [
+        "SID_ケーキナイフ＋",
+        "SID_献身",
+        null,
+        "SID_速さ守備の防城戦3",
+        null,
+        "SID_先導の伝令・天3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 1
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 35,
+        "atk": 31,
+        "spd": 38,
+        "def": 27,
+        "res": 31
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_グリーンマージ",
+      "skills": [
+        "SID_レクスカリバー＋",
+        null,
+        "SID_氷蒼",
+        "SID_攻撃魔防2",
+        null,
+        "SID_魔防の謀策3",
+        null
+      ],
+      "accessory": "DAID_花の髪飾り",
+      "pos": {
+        "x": 4,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 37,
+        "atk": 31,
+        "spd": 32,
+        "def": 20,
+        "res": 28
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

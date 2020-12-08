@@ -1,0 +1,260 @@
+{
+  "highest_score": 154,
+  "field": {
+    "id": "X0321",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        0,
+        3,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        3,
+        3,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        3,
+        3,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_行楽ジェニー",
+      "skills": [
+        "SID_マシュマロの杖",
+        "SID_リブロー",
+        "SID_業火静水の祝福",
+        null,
+        "SID_神罰の杖2",
+        "SID_守備の開放2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 7
+      },
+      "rarity": 4,
+      "lv": 30,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 28,
+        "atk": 28,
+        "spd": 17,
+        "def": 10,
+        "res": 26
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 30,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_行楽フローラ",
+      "skills": [
+        "SID_セーフリムニル",
+        null,
+        "SID_氷点",
+        "SID_攻撃魔防の防城戦2",
+        "SID_攻撃隊形2",
+        "SID_重装の行軍2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 7
+      },
+      "rarity": 4,
+      "lv": 30,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 34,
+        "atk": 30,
+        "spd": 16,
+        "def": 21,
+        "res": 30
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 30,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ランスアーマー",
+      "skills": [
+        "SID_貫きの槍2",
+        null,
+        "SID_蛍火",
+        "SID_金剛明鏡の構え1",
+        null,
+        "SID_攻撃の紋章1",
+        null
+      ],
+      "accessory": "DAID_ピクニックランチ",
+      "pos": {
+        "x": 2,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 30,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 30,
+        "spd": 11,
+        "def": 32,
+        "res": 13
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 30,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_グリーンマージ",
+      "skills": [
+        "SID_レクスカリバー",
+        null,
+        "SID_砕風",
+        "SID_飛燕明鏡の構え1",
+        null,
+        "SID_魔防の指揮1",
+        null
+      ],
+      "accessory": "DAID_白い花の冠",
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 30,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 30,
+        "atk": 23,
+        "spd": 24,
+        "def": 14,
+        "res": 20
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 30,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

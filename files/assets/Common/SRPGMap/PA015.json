@@ -1,0 +1,285 @@
+{
+  "highest_score": 105,
+  "field": {
+    "id": "PA015",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 0,
+    "terrain": [
+      [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        4,
+        4,
+        4
+      ],
+      [
+        5,
+        5,
+        5,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    ]
+  },
+  "player_pos": [
+
+  ],
+  "units": [
+    {
+      "id_tag": "PID_フィル",
+      "skills": [
+        "SID_無銘の一門の剣_奥",
+        null,
+        "SID_氷華",
+        "SID_速さ3",
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 24,
+        "atk": 10,
+        "spd": 16,
+        "def": 9,
+        "res": 12
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": false,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_エルフィ",
+      "skills": [
+        "SID_銀の槍＋",
+        "SID_ぶちかまし",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 28,
+        "atk": 18,
+        "spd": 9,
+        "def": 16,
+        "res": 8
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": false,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_バアトル",
+      "skills": [
+        "SID_ハンマー＋",
+        "SID_ぶちかまし",
+        null,
+        "SID_獅子奮迅3",
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 27,
+        "atk": 16,
+        "spd": 10,
+        "def": 13,
+        "res": 5
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": false,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ソードファイター",
+      "skills": [
+        "SID_倭刀＋",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 25,
+        "atk": 12,
+        "spd": 12,
+        "def": 13,
+        "res": 9
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_アクスファイター",
+      "skills": [
+        "SID_ハンマー2＋",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 25,
+        "atk": 12,
+        "spd": 12,
+        "def": 13,
+        "res": 9
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 0,
+  "unit_count": 5,
+  "turns_to_win": 2,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
