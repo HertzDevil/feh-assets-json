@@ -1,0 +1,918 @@
+[
+  {
+    "id_tag": "202101",
+    "avail": {
+      "start": "2021-01-25T07:00:00Z",
+      "finish": "2021-02-08T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "forma_soul_avail": {
+      "start": "2021-02-08T07:00:00Z",
+      "finish": "2021-02-13T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "forma": {
+      "heroes": [
+        "PID_レーギャルン味方",
+        "PID_花嫁フィヨルム",
+        "PID_ユルグ",
+        "PID_春祭ヴェロニカ"
+      ],
+      "rarity": 5,
+      "lv": 10
+    },
+    "chambers": {
+      "list": [
+        {
+          "id_tag": "0",
+          "id_num": 0,
+          "difficulty": 0,
+          "rarity": 1,
+          "true_lv": 6,
+          "hp_factor": 100,
+          "generic_foes": true,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 3,
+              "len": 6,
+              "id_tag": "202101"
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 88,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "1",
+          "id_num": 1,
+          "difficulty": 0,
+          "rarity": 1,
+          "true_lv": 8,
+          "hp_factor": 100,
+          "generic_foes": true,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 2,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "2",
+          "id_num": 2,
+          "difficulty": 0,
+          "rarity": 2,
+          "true_lv": 10,
+          "hp_factor": 100,
+          "generic_foes": true,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 2,
+              "_type": "hero_feather",
+              "count": 300
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "3",
+          "id_num": 3,
+          "difficulty": 1,
+          "rarity": 3,
+          "true_lv": 12,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 4,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "4",
+          "id_num": 4,
+          "difficulty": 1,
+          "rarity": 3,
+          "true_lv": 14,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 2,
+              "_type": "hero_feather",
+              "count": 300
+            },
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "5",
+          "id_num": 5,
+          "difficulty": 1,
+          "rarity": 3,
+          "true_lv": 16,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 1
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_vc",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "6",
+          "id_num": 6,
+          "difficulty": 1,
+          "rarity": 3,
+          "true_lv": 18,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 6,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "7",
+          "id_num": 7,
+          "difficulty": 1,
+          "rarity": 4,
+          "true_lv": 20,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 2,
+              "_type": "hero_feather",
+              "count": 300
+            },
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "8",
+          "id_num": 8,
+          "difficulty": 1,
+          "rarity": 4,
+          "true_lv": 22,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 8,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "9",
+          "id_num": 9,
+          "difficulty": 1,
+          "rarity": 4,
+          "true_lv": 24,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": false,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 2,
+              "_type": "hero_feather",
+              "count": 300
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "10",
+          "id_num": 10,
+          "difficulty": 2,
+          "rarity": 5,
+          "true_lv": 26,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 1
+            },
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_vc",
+            "_item",
+            null
+          ]
+        },
+        {
+          "id_tag": "11",
+          "id_num": 11,
+          "difficulty": 2,
+          "rarity": 5,
+          "true_lv": 28,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 2,
+              "_type": "hero_feather",
+              "count": 300
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "12",
+          "id_num": 12,
+          "difficulty": 2,
+          "rarity": 5,
+          "true_lv": 30,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": false,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 10,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "13",
+          "id_num": 13,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 34,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 3,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "14",
+          "id_num": 14,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 36,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 1
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_vc",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "15",
+          "id_num": 15,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 38,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 3,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "16",
+          "id_num": 16,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 40,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 3,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "17",
+          "id_num": 17,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 42,
+          "hp_factor": 100,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 1
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_vc",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "18",
+          "id_num": 18,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 44,
+          "hp_factor": 105,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 3,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "19",
+          "id_num": 19,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 46,
+          "hp_factor": 110,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 3,
+              "move_type": 3
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 5,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "20",
+          "id_num": 20,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 50,
+          "hp_factor": 125,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 1
+            }
+          ],
+          "payload_size": 72,
+          "reward_id_suffix": [
+            "_vc",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "21",
+          "id_num": 21,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 51,
+          "hp_factor": 125,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 10,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 88,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "22",
+          "id_num": 22,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 52,
+          "hp_factor": 125,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 10,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 88,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "23",
+          "id_num": 23,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 53,
+          "hp_factor": 125,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 10,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 88,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "24",
+          "id_num": 24,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 54,
+          "hp_factor": 125,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 10,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 88,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        },
+        {
+          "id_tag": "25",
+          "id_num": 25,
+          "difficulty": 3,
+          "rarity": 5,
+          "true_lv": 55,
+          "hp_factor": 125,
+          "generic_foes": false,
+          "fixed_classes": true,
+          "allow_refines": true,
+          "reward": [
+            {
+              "kind": 36,
+              "_type": "forma_torch",
+              "count": 1,
+              "len": 6,
+              "id_tag": "202101"
+            },
+            {
+              "kind": 39,
+              "_type": "divine_code",
+              "count": 10,
+              "len": 6,
+              "id_tag": "202101"
+            }
+          ],
+          "payload_size": 88,
+          "reward_id_suffix": [
+            "_item",
+            null,
+            null
+          ]
+        }
+      ],
+      "count": 26
+    },
+    "daily_bonuses": {
+      "list": [
+        {
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 2
+            }
+          ],
+          "payload_size": 72,
+          "reward_id": "IDOL_TOWER_MISSION_202101_0_vc"
+        },
+        {
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 4,
+              "move_type": 3
+            }
+          ],
+          "payload_size": 72,
+          "reward_id": "IDOL_TOWER_MISSION_202101_1_item"
+        },
+        {
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 3
+            }
+          ],
+          "payload_size": 72,
+          "reward_id": "IDOL_TOWER_MISSION_202101_2_vc"
+        },
+        {
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 4,
+              "move_type": 3
+            }
+          ],
+          "payload_size": 72,
+          "reward_id": "IDOL_TOWER_MISSION_202101_3_item"
+        },
+        {
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 2
+            }
+          ],
+          "payload_size": 72,
+          "reward_id": "IDOL_TOWER_MISSION_202101_4_vc"
+        },
+        {
+          "reward": [
+            {
+              "kind": 30,
+              "_type": "dragonflower",
+              "count": 4,
+              "move_type": 3
+            }
+          ],
+          "payload_size": 72,
+          "reward_id": "IDOL_TOWER_MISSION_202101_5_item"
+        },
+        {
+          "reward": [
+            {
+              "kind": 0,
+              "_type": "orb",
+              "count": 3
+            }
+          ],
+          "payload_size": 72,
+          "reward_id": "IDOL_TOWER_MISSION_202101_6_vc"
+        }
+      ],
+      "count": 7
+    },
+    "unknown": 2355368904
+  }
+]
