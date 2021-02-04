@@ -1,0 +1,122 @@
+[
+  {
+    "id_tag": "PB109",
+    "avail": {
+      "start": "2021-02-05T07:00:00Z",
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "sort_id1": 0,
+    "sort_id2": 201,
+    "difficulty": 1,
+    "scenario": {
+      "id_tag": "PB109",
+      "base_id": "PB109",
+      "prerequisites": [
+        "S0103A"
+      ],
+      "prereq_count": 1,
+      "honor_id": null,
+      "name_id": null,
+      "_unknown1": null,
+      "reward": [
+        {
+          "kind": 2,
+          "_type": "hero_feather",
+          "count": 300
+        }
+      ],
+      "payload_size": 72,
+      "origins": 0,
+      "stamina": 0,
+      "difficulty": 1,
+      "_unknown3": 100,
+      "_unknown4": 100,
+      "_unknown5": 100,
+      "_unknown6": 100,
+      "survives": 2,
+      "no_lights_blessing": 1,
+      "turns_to_win": 3,
+      "turns_to_defend": 0,
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 40,
+      "reinforcements": 0,
+      "last_enemy_phase": 0,
+      "max_refreshers": -1,
+      "rd_level": -1,
+      "enemy_weps": [
+        1,
+        2,
+        2,
+        6,
+        13,
+        13,
+        13,
+        18
+      ]
+    }
+  },
+  {
+    "id_tag": "PC073",
+    "avail": {
+      "start": "2021-02-11T07:00:00Z",
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "sort_id1": 0,
+    "sort_id2": 202,
+    "difficulty": 2,
+    "scenario": {
+      "id_tag": "PC073",
+      "base_id": "PC073",
+      "prerequisites": [
+        "S1405A",
+        "S1405B",
+        "S1405C"
+      ],
+      "prereq_count": 3,
+      "honor_id": null,
+      "name_id": null,
+      "_unknown1": null,
+      "reward": [
+        {
+          "kind": 2,
+          "_type": "hero_feather",
+          "count": 300
+        }
+      ],
+      "payload_size": 72,
+      "origins": 0,
+      "stamina": 0,
+      "difficulty": 3,
+      "_unknown3": 100,
+      "_unknown4": 100,
+      "_unknown5": 100,
+      "_unknown6": 100,
+      "survives": 4,
+      "no_lights_blessing": 1,
+      "turns_to_win": 4,
+      "turns_to_defend": 0,
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 40,
+      "reinforcements": 1,
+      "last_enemy_phase": 0,
+      "max_refreshers": -1,
+      "rd_level": -1,
+      "enemy_weps": [
+        0,
+        1,
+        1,
+        2,
+        6,
+        11,
+        12,
+        18
+      ]
+    }
+  }
+]
