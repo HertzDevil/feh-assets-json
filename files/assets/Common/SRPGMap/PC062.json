@@ -27,8 +27,8 @@
         8,
         3,
         5,
-        2,
-        2
+        3,
+        3
       ],
       [
         3,
@@ -242,7 +242,7 @@
         "SID_闇のブレス＋",
         null,
         null,
-        "SID_攻撃速さ2",
+        "SID_攻撃速さの孤軍3",
         null,
         "SID_死の吐息3",
         null
@@ -258,9 +258,9 @@
       "max_cooldown_count": -1,
       "stats": {
         "hp": 44,
-        "atk": 32,
+        "atk": 29,
         "spd": 33,
-        "def": 26,
+        "def": 29,
         "res": 28
       },
       "start_turn": -1,
@@ -325,7 +325,7 @@
         null,
         "SID_キャンセル3",
         "SID_攻撃の鼓舞3",
-        null
+        "SID_攻撃の紋章3"
       ],
       "accessory": null,
       "pos": {
@@ -397,15 +397,15 @@
       "spawn_target_kills": -1
     },
     {
-      "id_tag": "EID_ランスペガサス",
+      "id_tag": "EID_ブルーペガサス",
       "skills": [
-        "SID_キラーランス2＋",
+        "SID_トロン＋",
         null,
-        "SID_氷蒼",
-        "SID_攻撃魔防の孤軍3",
-        "SID_一撃離脱",
+        "SID_月虹",
+        "SID_相性激化3",
         null,
-        null
+        null,
+        "SID_奥義の鼓動"
       ],
       "accessory": null,
       "pos": {
@@ -417,11 +417,11 @@
       "cooldown_count": -1,
       "max_cooldown_count": -1,
       "stats": {
-        "hp": 37,
-        "atk": 29,
-        "spd": 35,
-        "def": 18,
-        "res": 39
+        "hp": 34,
+        "atk": 32,
+        "spd": 37,
+        "def": 13,
+        "res": 32
       },
       "start_turn": -1,
       "movement_group": 1,
@@ -538,7 +538,7 @@
       "max_cooldown_count": -1,
       "stats": {
         "hp": 41,
-        "atk": 35,
+        "atk": 36,
         "spd": 27,
         "def": 36,
         "res": 19
