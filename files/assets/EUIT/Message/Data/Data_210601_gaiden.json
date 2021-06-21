@@ -769,7 +769,7 @@
   },
   {
     "key": "MSID_H_レディソード",
-    "value": "$aPermette l'uso di【Mobilità (２)】.\n\nInfligge Vel -5. L'unità esegue due attacchi,\nanche se il nemico attacca per primo. Il danno\nè calcolato usando Dif o Res del nemico\n(il valore più basso).\n\n【Mobilità (２)】\nDopo un attacco, un'abilità di aiuto o\nla distruzione di una struttura, l'unità\npuò spostarsi di ２ spazio/i.\n\nL'unità si sposta a seconda del tipo di\nmovimento. Una volta per turno. Non può\nattaccare né aiutare. Non cumulabile; si applica\nsolo il valore più alto. Dopo lo spostamento,\nse un'abilità che conferisce un'altra azione\nsi dovesse attivare (come Assalto impetuoso),\nMobilità si attiverà di nuovo. Il movimento\nbase dell'unità non ha effetto sul movimento\nconferito. Non può trasferirsi (usando abilità\ncome Ali di pietà) a più di ２ spazio/i\ndi distanza."
+    "value": "$aPermette l'uso di【Mobilità (２)】.\n\nInfligge Vel -5. L'unità esegue due attacchi,\nanche se il nemico attacca per primo. Il danno\nè calcolato usando Dif o Res del nemico\n(il valore più basso).\n\n【Mobilità (２)】\nDopo un attacco, un'abilità di aiuto o\nla distruzione di una struttura, l'unità\npuò spostarsi di ２ spazio/i.\n\nL'unità si sposta a seconda del tipo di\nmovimento. Una volta per turno. Non può\nattaccare né aiutare. Non cumulabile; si applica\nsolo il valore più alto. Dopo lo spostamento,\nse un'abilità che conferisce un'altra azione\nsi dovesse attivare (come Assalto impetuoso),\nMobilità si attiverà dopo l'azione conferita.\nIl movimento base dell'unità non ha effetto sul\nmovimento conferito. Non può trasferirsi\n(usando abilità come Ali di pietà) a più di\n２ spazio/i di distanza."
   },
   {
     "key": "MSID_H_聖槍グラディウス",
@@ -817,7 +817,7 @@
   },
   {
     "key": "MSID_H_グリンブルスティ",
-    "value": "$aPermette l'uso di【Mobilità (resto)】.\n\n【Mobilità (resto)】\nDopo un attacco, un'abilità di aiuto o\nla distruzione di una struttura, l'unità può\nspostarsi di un numero di spazi pari al\nmovimento non ancora usato in quel turno. (Se\nl'unità ha usato un'abilità di movimento che l'ha\nfatta trasferire, il movimento restante è pari a 0.)\nL'unità si sposta a seconda del tipo di movimento.\nUna volta per turno. Non può attaccare né\naiutare. Non cumulabile; si applica solo il valore\npiù alto. Dopo lo spostamento, se un'abilità che\nconferisce un'altra azione si dovesse attivare\n(come Assalto impetuoso), Mobilità si attiverà\ndi nuovo. Il movimento base dell'unità non ha\neffetto sul movimento conferito. Non può\ntrasferirsi (usando abilità come Ali di pietà)\na una distanza superiore al movimento restante."
+    "value": "$aPermette l'uso di【Mobilità (resto)】.\n\n【Mobilità (resto)】\nDopo un attacco, un'abilità di aiuto o\nla distruzione di una struttura, l'unità può\nspostarsi di un numero di spazi pari al\nmovimento non ancora usato in quel turno. (Se\nl'unità ha usato un'abilità di movimento che l'ha\nfatta trasferire, il movimento restante è pari a 0.)\nL'unità si sposta a seconda del tipo di movimento.\nUna volta per turno. Non può attaccare né\naiutare. Non cumulabile; si applica solo il valore\npiù alto. Dopo lo spostamento, se un'abilità che\nconferisce un'altra azione si dovesse attivare\n(come Assalto impetuoso), Mobilità si attiverà\ndopo l'azione conferita. Il movimento base\ndell'unità non ha effetto sul movimento conferito.\nNon può trasferirsi (usando abilità come Ali di\npietà) a una distanza superiore al movimento\nrestante."
   },
   {
     "key": "MSID_H_剣姫の刀改",

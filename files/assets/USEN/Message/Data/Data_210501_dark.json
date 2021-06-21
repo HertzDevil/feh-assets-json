@@ -601,7 +601,7 @@
   },
   {
     "key": "MSID_H_蒼き殺人鬼",
-    "value": "$aEnables【Canto (Rem. +1)】.\n\nIf unit is not adjacent to an ally, inflicts\nSpd/Def-3 on foe during combat and foe\ncannot counterattack.\n\n【Canto (Rem. +1)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move spaces = any\nmovement not already used that turn +1.\n(If unit used a movement skill that warped\nthem, its remaining movement is 0.)\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger again. Unit's base movement has no\neffect on movement granted. Cannot warp\n(using skills like Wings of Mercy) a distance\ngreater than unit's remaining movement +1.)"
+    "value": "$aEnables【Canto (Rem. +1)】.\n\nIf unit is not adjacent to an ally, inflicts\nSpd/Def-3 on foe during combat and foe\ncannot counterattack.\n\n【Canto (Rem. +1)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move spaces = any\nmovement not already used that turn +1.\n(If unit used a movement skill that warped\nthem, its remaining movement is 0.)\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger after the granted action. Unit's base\nmovement has no effect on movement granted.\nCannot warp (using skills like Wings of Mercy)\na distance greater than unit's remaining\nmovement +1.)"
   },
   {
     "key": "MSID_H_覇鎧障壁",
