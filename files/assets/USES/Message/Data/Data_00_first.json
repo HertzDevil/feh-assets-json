@@ -6065,15 +6065,15 @@
   },
   {
     "key": "MSID_H_魔防の謀策1",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales y con Res. inferior a la unidad en 1\no más sufren Res. -3 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad y con Res. inferior\na la unidad en 1 o más sufren Res. -3 en su\npróxima acción."
   },
   {
     "key": "MSID_H_魔防の謀策2",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales y con Res. inferior a la unidad en 1\no más sufren Res. -4 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad y con Res. inferior\na la unidad en 1 o más sufren Res. -4 en su\npróxima acción."
   },
   {
     "key": "MSID_H_魔防の謀策3",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales y con Res. inferior a la unidad en 1\no más sufren Res. -5 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad y con Res. inferior\na la unidad en 1 o más sufren Res. -5 en su\npróxima acción."
   },
   {
     "key": "MID_STAGE_HONOR_T0012",
@@ -10441,15 +10441,15 @@
   },
   {
     "key": "MSID_H_守備の謀策1",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales con Res. inferior a la unidad en 1\no más sufren Def. -3 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad con Res. inferior a\nla unidad en 1 o más sufren Def. -3 en su\npróxima acción."
   },
   {
     "key": "MSID_H_守備の謀策2",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales con Res. inferior a la unidad en 1\no más sufren Def. -4 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad con Res. inferior a\nla unidad en 1 o más sufren Def. -4 en su\npróxima acción."
   },
   {
     "key": "MSID_H_守備の謀策3",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales con Res. inferior a la unidad en 1\no más sufren Def. -5 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad con Res. inferior a\nla unidad en 1 o más sufren Def. -5 en su\npróxima acción."
   },
   {
     "key": "MSID_H_槍の技量1",
@@ -18345,7 +18345,7 @@
   },
   {
     "key": "MSID_H_死者の帳尻を",
-    "value": "$aAl inicio del ataque, si la unidad tiene PV ≥ 50 %\no tiene el efecto【Penalización】activo,\ninflige Atq. y Def. -5 al rival, así como +1 a la\ncuenta regresiva de este por cada ataque del\nrival durante el combate. (La unidad recibe la\nbonificación aunque el daño infligido sea 0.\nSolo se aplica el valor más alto. No acumulable).\n\n【Penalización】\nComprende todos los efectos que se infligen\n\"al rival en su próxima acción\". Incluye las\npenalizaciones de habilidades como Pánico\no Reducir y los efectos negativos, como\nlas restricciones de desplazamiento o de\ncontrataque y los efectos de habilidades\ncomo Triadepto o Cancelar."
+    "value": "$aAl inicio del ataque, si la unidad tiene\nPV ≥ 50 % o tiene el efecto【Penalización】activo,\ninflige Atq. y Def. -5 al rival y la unidad obtiene\n-1 a la cuenta regresiva por cada ataque del\nrival durante el combate. (La unidad recibe la\nbonificación aunque el daño infligido sea 0.\nSolo se aplica el valor más alto.\nNo acumulable).\n\n【Penalización】\nComprende todos los efectos que se infligen\n\"al rival en su próxima acción\". Incluye las\npenalizaciones de habilidades como Pánico\no Reducir y los efectos negativos, como\nlas restricciones de desplazamiento o de\ncontrataque y los efectos de habilidades\ncomo Triadepto o Cancelar."
   },
   {
     "key": "MID_STAGE_HONOR_L0023",
@@ -23617,7 +23617,7 @@
   },
   {
     "key": "MSID_H_砂糖菓子の暗器",
-    "value": "$aSi la unidad inicia el ataque, obtiene Vel. +4\ne inflige un 10 % de la Vel. de la unidad como\ndaño adicional durante el combate.\nEfecto:【Daga (７)】\n\n【Daga (７)】\nTras un ataque, si la unidad actúa, inflige\nDef. y Res. -７ al rival y a todos\nlos enemigos en un radio de dos casillas a\nsu alrededor en su próxima acción."
+    "value": "$aSi la unidad inicia el ataque, obtiene Vel. +4\ne inflige un 10 % de su Vel. como daño\nadicional durante el combate.\nEfecto:【Daga (７)】\n\n【Daga (７)】\nTras un ataque, si la unidad actúa, inflige\nDef. y Res. -７ al rival y a todos\nlos enemigos en un radio de dos casillas a\nsu alrededor en su próxima acción."
   },
   {
     "key": "MSID_H_蒼鴉の書",
@@ -34269,7 +34269,7 @@
   },
   {
     "key": "MSID_H_反竜穿",
-    "value": "Reduce el daño infligido por los enemigos\nen un 30 %. Tras activarse, se potencia\nel daño del siguiente ataque de la unidad\nen una cuantía equivalente al 30 % de su Atq.\n(El efecto se reinicia al final del ataque)."
+    "value": "Reduce el daño infligido por los enemigos\nen un 30 %. Tras activarse, el siguiente ataque\nde la unidad inflige un 30 % de su Atq. como\ndaño adicional. (El efecto se reinicia al final\ndel ataque)."
   },
   {
     "key": "MID_STAGE_HONOR_L0030",
@@ -38453,7 +38453,7 @@
   },
   {
     "key": "MSID_H_無惨",
-    "value": "Al inicio de un ataque, si el rival tiene\nPV ≥ 50 %, la unidad aumenta el daño en una\ncuantía equivalente al 25 % de su Atq. y, tras el\nenfrentamiento, inflige Atq., Vel., Def. y Res. -5\ny +1 a la cuenta regresiva del rival y a todos\nlos enemigos en un radio de dos casillas del\nobjetivo en su próxima acción. (No afecta a las\ncuentas regresivas que ya estén al máximo)."
+    "value": "Al inicio de un ataque, si el rival tiene\nPV ≥ 50 %, la unidad inflige un 25 % de su Atq.\ncomo daño adicional. Tras el combate, inflige\nAtq., Vel., Def. y Res. -5 y +1 a la cuenta\nregresiva del rival y a todos los enemigos en un\nradio de dos casillas del objetivo en su próxima\nacción. (No afecta a las cuentas regresivas que\nya estén al máximo)."
   },
   {
     "key": "MSID_H_迅雷風烈・奇数1",
@@ -44505,27 +44505,27 @@
   },
   {
     "key": "MSID_H_攻撃の謀策1",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales con Res. inferior a la unidad en 1\no más sufren Atq. -3 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad con Res. inferior a\nla unidad en 1 o más sufren Atq. -3 en su\npróxima acción."
   },
   {
     "key": "MSID_H_攻撃の謀策2",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales con Res. inferior a la unidad en 1\no más sufren Atq. -4 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad con Res. inferior a\nla unidad en 1 o más sufren Atq. -4 en su\npróxima acción."
   },
   {
     "key": "MSID_H_攻撃の謀策3",
-    "value": "Al inicio del turno, todos los enemigos en puntos\ncardinales con Res. inferior a la unidad en 1\no más sufren Atq. -5 hasta el fin de su turno."
+    "value": "Al inicio del turno, todos los enemigos situados\nen cruz respecto a la unidad con Res. inferior a\nla unidad en 1 o más sufren Atq. -5 en su\npróxima acción."
   },
   {
     "key": "MSID_H_恐慌の奇策1",
-    "value": "Al inicio del turno, las bonificaciones de todos\nlos enemigos en puntos cardinales con PV\ninferiores a la unidad en 5 o más se convierten\nen penalizaciones en su próxima acción."
+    "value": "Al inicio del turno, las bonificaciones de todos\nlos enemigos situados en cruz respecto a la\nunidad con PV inferiores a la unidad en 5 o\nmás se convierten en penalizaciones en su\npróxima acción."
   },
   {
     "key": "MSID_H_恐慌の奇策2",
-    "value": "Al inicio del turno, las bonificaciones de todos\nlos enemigos en puntos cardinales con PV\ninferiores a la unidad en 3 o más se convierten\nen penalizaciones en su próxima acción."
+    "value": "Al inicio del turno, las bonificaciones de todos\nlos enemigos situados en cruz respecto a la\nunidad con PV inferiores a la unidad en 3 o\nmás se convierten en penalizaciones en su\npróxima acción."
   },
   {
     "key": "MSID_H_恐慌の奇策3",
-    "value": "Al inicio del turno, las bonificaciones de todos\nlos enemigos en puntos cardinales con PV\ninferiores a la unidad en 1 o más se convierten\nen penalizaciones en su próxima acción."
+    "value": "Al inicio del turno, las bonificaciones de todos\nlos enemigos situados en cruz respecto a la\nunidad con PV inferiores a la unidad en 1 o\nmás se convierten en penalizaciones en su\npróxima acción."
   },
   {
     "key": "MSID_H_剣の経験1",
@@ -46509,7 +46509,7 @@
   },
   {
     "key": "MSID_H_奇異ルーテの書",
-    "value": "Otorga Vel. +3. Al inicio del turno, todos\nlos enemigos en puntos cardinales con\nRes. inferior a la unidad en 1 o más sufren\nVel. -5 hasta el fin de su turno."
+    "value": "Otorga Vel. +3. Al inicio del turno, todos\nlos enemigos situados en cruz respecto a la\nunidad con Res. inferior a la unidad en 1 o más\nsufren Vel. -5 hasta el fin de su turno."
   },
   {
     "key": "MSID_H_HP魔防1",
@@ -48137,7 +48137,7 @@
   },
   {
     "key": "MSID_H_グラビティ＋",
-    "value": "Tras un ataque, si la unidad ha acometido al\nrival, su movimiento y el de los enemigos en\nun radio de una casilla del rival queda\nrestringido a un radio máximo de una casilla\nen su próxima acción."
+    "value": "Tras un ataque, si la unidad actúa, restringe\nel movimiento del rival y de los enemigos\nadyacentes a él a un radio máximo\nde una casilla en su próxima acción."
   },
   {
     "key": "MSID_H_ペイン＋",
@@ -76993,7 +76993,7 @@
   },
   {
     "key": "MSID_H_邪眼",
-    "value": "Tras un ataque, si la unidad ha acometido al\nrival, su movimiento y el de los enemigos en\nun radio de una casilla del rival queda\nrestringido a un radio máximo de una casilla\nen su próxima acción."
+    "value": "Tras un ataque, si la unidad actúa, restringe\nel movimiento del rival y de los enemigos\nadyacentes a él a un radio máximo\nde una casilla en su próxima acción."
   },
   {
     "key": "MSID_H_ティルフィング改",
@@ -82345,15 +82345,15 @@
   },
   {
     "key": "MSID_H_魔防の混乱1",
-    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del ataque,\nle inflige Res. -3 en su próxima acción."
+    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del turno,\nle inflige Res. -3 en su próxima acción."
   },
   {
     "key": "MSID_H_魔防の混乱2",
-    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del ataque,\nle inflige Res. -5 en su próxima acción."
+    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del turno,\nle inflige Res. -5 en su próxima acción."
   },
   {
     "key": "MSID_H_魔防の混乱3",
-    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del ataque,\nle inflige Res. -7 en su próxima acción."
+    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del turno,\nle inflige Res. -7 en su próxima acción."
   },
   {
     "key": "MSID_H_我が名は混沌",
@@ -85721,7 +85721,7 @@
   },
   {
     "key": "MSID_H_暗黒の剣",
-    "value": "Facilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Si la unidad inicia el\nataque con PV ≥ 50%, podrá realizar un ataque\ndoble antes de que el rival pueda contratacar."
+    "value": "Facilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Si la unidad inicia el\nataque con PV ≥ 50 %, podrá realizar un ataque\ndoble antes de que el rival pueda contratacar."
   },
   {
     "key": "MSID_H_クリムヒルド",
@@ -93869,7 +93869,7 @@
   },
   {
     "key": "MSID_H_サングリズル",
-    "value": "$aEl enemigo no puede contratacar. Si la unidad\ninicia el ataque, obtiene Atq. y Vel. +3 durante\nel combate. Tras un ataque, si la unidad ha\nacometido al rival, inflige【Gravedad】al\nobjetivo y a los enemigos en un radio de una\ncasilla.\n\n【Gravedad】\nRestringe el movimiento del objetivo\na 1 casilla en su próxima acción."
+    "value": "$aEl enemigo no puede contratacar. Si la unidad\ninicia el ataque, obtiene Atq. y Vel. +3 durante\nel combate. Tras un ataque, si la unidad actúa,\ninflige【Gravedad】al rival y a los enemigos\nadyacentes a él.\n\n【Gravedad】\nRestringe el movimiento del objetivo\na 1 casilla en su próxima acción."
   },
   {
     "key": "MSID_H_覇神断竜剣",
@@ -99217,15 +99217,15 @@
   },
   {
     "key": "MSID_H_速さの混乱1",
-    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del ataque,\nle inflige Vel. -3 en su próxima acción."
+    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del turno,\nle inflige Vel. -3 en su próxima acción."
   },
   {
     "key": "MSID_H_速さの混乱2",
-    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del ataque,\nle inflige Vel. -5 en su próxima acción."
+    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del turno,\nle inflige Vel. -5 en su próxima acción."
   },
   {
     "key": "MSID_H_速さの混乱3",
-    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del ataque,\nle inflige Vel. -7 en su próxima acción."
+    "value": "Si supera la Res. de un enemigo adyacente a\notro en 3 puntos o más al inicio del turno,\nle inflige Vel. -7 en su próxima acción."
   },
   {
     "key": "MSID_H_暗器の経験1",
