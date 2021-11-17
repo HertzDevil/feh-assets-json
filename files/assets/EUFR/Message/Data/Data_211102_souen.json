@@ -1,0 +1,934 @@
+[
+  {
+    "key": "MDAID_旅先の忍祭りのお土産",
+    "value": "Souvenir de ninja"
+  },
+  {
+    "key": "MDAID_H_旅先の忍祭りのお土産",
+    "value": "Trophée pour la victoire de deux héros\ncontre un boss pendant leur périple.\nC'est un souvenir de leur voyage."
+  },
+  {
+    "key": "MDAID_アサシンのマスク",
+    "value": "Masque d'assassin"
+  },
+  {
+    "key": "MDAID_H_アサシンのマスク",
+    "value": "Un masque ayant appartenu à Volke.\nRésistant mais laissant respirer, son\nporteur n'aura pas de mal à mener à\nbien ses missions."
+  },
+  {
+    "key": "MDAID_アサシンのマスク・極",
+    "value": "Masque d'assassin EX"
+  },
+  {
+    "key": "MDAID_H_アサシンのマスク・極",
+    "value": "Un masque ayant appartenu à Volke.\nIl est parfait pour se tapir dans l'ombre\net prendre quelqu'un par surprise !"
+  },
+  {
+    "key": "MDAID_赤い天馬騎士の額あて",
+    "value": "Bandeau Garde Sacrée"
+  },
+  {
+    "key": "MDAID_H_赤い天馬騎士の額あて",
+    "value": "Un bandeau ayant appartenu à Marcia.\nElle l'a reçu lorsqu'elle a rejoint la\nGarde Sacrée de Begnion. Il se trouve\nen parfait état."
+  },
+  {
+    "key": "MDAID_赤い天馬騎士の額あて・極",
+    "value": "Bandeau G. Sacrée EX"
+  },
+  {
+    "key": "MDAID_H_赤い天馬騎士の額あて・極",
+    "value": "Un bandeau ayant appartenu à Marcia.\nLe pendentif scintille au moindre\nmouvement. C'est vraiment ravissant !"
+  },
+  {
+    "key": "MDAID_伯爵令嬢の髪飾り",
+    "value": "Serre-tête distingué"
+  },
+  {
+    "key": "MDAID_H_伯爵令嬢の髪飾り",
+    "value": "Un serre-tête ayant appartenu à Astrid.\nIl est simple, mais n'en reste pas moins\ntrès élégant, et son tissu est des plus\nsomptueux !"
+  },
+  {
+    "key": "MDAID_伯爵令嬢の髪飾り・極",
+    "value": "Serre-tête distingué EX"
+  },
+  {
+    "key": "MDAID_H_伯爵令嬢の髪飾り・極",
+    "value": "Un serre-tête ayant appartenu à Astrid.\nIl est orné de fleurs blanches qui lui ont\nété offertes par Makalov."
+  },
+  {
+    "key": "MDAID_生真面目な副長のメモ",
+    "value": "Notes de capitaine"
+  },
+  {
+    "key": "MDAID_H_生真面目な副長のメモ",
+    "value": "Un carnet ayant appartenu à Tanith. Il\nest rempli de stratégies, de formations\net de notes pour faire respecter la\ndiscipline. Bonne lecture !"
+  },
+  {
+    "key": "MDAID_生真面目な副長のメモ・極",
+    "value": "Notes de capitaine EX"
+  },
+  {
+    "key": "MDAID_H_生真面目な副長のメモ・極",
+    "value": "Un carnet ayant appartenu à Tanith.\nTrès lourd à porter, les informations\nqu'il contient en font également un\nobjet de poids."
+  },
+  {
+    "key": "MID_MISSION_S202111BOARDGAME01_TITLE",
+    "value": "Pions de Loki"
+  },
+  {
+    "key": "MID_MISSION_S202111BOARDGAME01_A1",
+    "value": "PdL : partie"
+  },
+  {
+    "key": "MID_MISSION_H_S202111BOARDGAME01_A1",
+    "value": "Finir tous les tours pour terminer une partie\ndans Pions de Loki."
+  },
+  {
+    "key": "MID_MISSION_S202111JOURNEY01_TITLE",
+    "value": "Voyage en duo"
+  },
+  {
+    "key": "MID_MISSION_S202111JOURNEY01_A1",
+    "value": "Voyage en duo"
+  },
+  {
+    "key": "MID_MISSION_H_S202111JOURNEY01_A1",
+    "value": "Terminer le voyage en duo."
+  },
+  {
+    "key": "MID_MISSION_S202111JOURNEY01_A2",
+    "value": "Voyage en duo"
+  },
+  {
+    "key": "MID_MISSION_H_S202111JOURNEY01_A2",
+    "value": "Terminer le voyage en duo."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_TITLE",
+    "value": "Vendrediscount"
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A1",
+    "value": "Cible : épée"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A1",
+    "value": "Vaincre des unités maniant l'épée."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A2",
+    "value": "Cible : épée"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A2",
+    "value": "Vaincre des unités maniant l'épée."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A3",
+    "value": "Cible : épée"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A3",
+    "value": "Vaincre des unités maniant l'épée."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A4",
+    "value": "Cible : lance"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A4",
+    "value": "Vaincre des unités maniant la lance."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A5",
+    "value": "Cible : lance"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A5",
+    "value": "Vaincre des unités maniant la lance."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A6",
+    "value": "Cible : lance"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A6",
+    "value": "Vaincre des unités maniant la lance."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A7",
+    "value": "Cible : hache"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A7",
+    "value": "Vaincre des unités maniant la hache."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A8",
+    "value": "Cible : hache"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A8",
+    "value": "Vaincre des unités maniant la hache."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A9",
+    "value": "Cible : hache"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A9",
+    "value": "Vaincre des unités maniant la hache."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A10",
+    "value": "Cible : arc gris"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A10",
+    "value": "Vaincre des unités grises maniant l'arc."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A11",
+    "value": "Cible : dague grise"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A11",
+    "value": "Vaincre des unités grises maniant la dague."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A12",
+    "value": "Cible : bâton"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A12",
+    "value": "Vaincre des unités maniant le bâton."
+  },
+  {
+    "key": "MID_MISSION_S202111KINEN01_A13",
+    "value": "Victoire"
+  },
+  {
+    "key": "MID_MISSION_H_S202111KINEN01_A13",
+    "value": "Vaincre des ennemis."
+  },
+  {
+    "key": "MID_MISSION_S202111MJOLNIR03_TITLE",
+    "value": "Assaut de Mjölnir"
+  },
+  {
+    "key": "MID_MISSION_S202111MJOLNIR03_A1",
+    "value": "Victoire : avatar"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MJOLNIR03_A1",
+    "value": "Vaincre des ennemis avec votre avatar dans\nl'Assaut de Mjölnir."
+  },
+  {
+    "key": "MID_MISSION_S202111MJOLNIR03_A2",
+    "value": "Victoire : avatar"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MJOLNIR03_A2",
+    "value": "Vaincre des ennemis avec votre avatar dans\nl'Assaut de Mjölnir."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_TITLE",
+    "value": "Assaut : cavalerie"
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A1",
+    "value": "Victoire : cavalerie"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A1",
+    "value": "Vaincre des cavaliers avec des cavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A2",
+    "value": "Victoire : cavalerie rouge"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A2",
+    "value": "Vaincre des cavaliers avec des cavaliers\nrouges."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A3",
+    "value": "Victoire : cavalerie rouge"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A3",
+    "value": "Vaincre des cavaliers avec des cavaliers\nrouges."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A4",
+    "value": "Victoire : cavalerie rouge"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A4",
+    "value": "Vaincre des cavaliers avec des cavaliers\nrouges."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A5",
+    "value": "Victoire : cavalerie bleue"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A5",
+    "value": "Vaincre des cavaliers avec des cavaliers\nbleus."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A6",
+    "value": "Victoire : cavalerie bleue"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A6",
+    "value": "Vaincre des cavaliers avec des cavaliers\nbleus."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A7",
+    "value": "Victoire : cavalerie bleue"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A7",
+    "value": "Vaincre des cavaliers avec des cavaliers\nbleus."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A8",
+    "value": "Victoire : cavalerie verte"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A8",
+    "value": "Vaincre des cavaliers avec des cavaliers\nverts."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A9",
+    "value": "Victoire : cavalerie verte"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A9",
+    "value": "Vaincre des cavaliers avec des cavaliers\nverts."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A10",
+    "value": "Victoire : cavalerie verte"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A10",
+    "value": "Vaincre des cavaliers avec des cavaliers\nverts."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A11",
+    "value": "Victoire : cavalerie grise"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A11",
+    "value": "Vaincre des cavaliers avec des cavaliers\ngris."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A12",
+    "value": "Victoire : cavalerie grise"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A12",
+    "value": "Vaincre des cavaliers avec des cavaliers\ngris."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A13",
+    "value": "Victoire : cavalerie grise"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A13",
+    "value": "Vaincre des cavaliers avec des cavaliers\ngris."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A14",
+    "value": "Cible : cavaliers rouges"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A14",
+    "value": "Vaincre des cavaliers rouges avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A15",
+    "value": "Cible : cavaliers rouges"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A15",
+    "value": "Vaincre des cavaliers rouges avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A16",
+    "value": "Cible : cavaliers rouges"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A16",
+    "value": "Vaincre des cavaliers rouges avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A17",
+    "value": "Cible : cavaliers bleus"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A17",
+    "value": "Vaincre des cavaliers bleus avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A18",
+    "value": "Cible : cavaliers bleus"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A18",
+    "value": "Vaincre des cavaliers bleus avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A19",
+    "value": "Cible : cavaliers bleus"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A19",
+    "value": "Vaincre des cavaliers bleus avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A20",
+    "value": "Cible : cavaliers verts"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A20",
+    "value": "Vaincre des cavaliers verts avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A21",
+    "value": "Cible : cavaliers verts"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A21",
+    "value": "Vaincre des cavaliers verts avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A22",
+    "value": "Cible : cavaliers verts"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A22",
+    "value": "Vaincre des cavaliers verts avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A23",
+    "value": "Cible : cavaliers gris"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A23",
+    "value": "Vaincre des cavaliers gris avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A24",
+    "value": "Cible : cavaliers gris"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A24",
+    "value": "Vaincre des cavaliers gris avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A25",
+    "value": "Cible : cavaliers gris"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A25",
+    "value": "Vaincre des cavaliers gris avec des\ncavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A26",
+    "value": "Victoire"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A26",
+    "value": "Vaincre des cavaliers de niveau 40 ou supérieur\navec des cavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A27",
+    "value": "Victoire"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A27",
+    "value": "Vaincre des cavaliers de niveau 40 ou supérieur\navec des cavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111MOVEVSMOVE01_A28",
+    "value": "Victoire"
+  },
+  {
+    "key": "MID_MISSION_H_S202111MOVEVSMOVE01_A28",
+    "value": "Vaincre des cavaliers de niveau 40 ou supérieur\navec des cavaliers."
+  },
+  {
+    "key": "MID_MISSION_S202111SUBSC02_TITLE",
+    "value": "Passe Feh"
+  },
+  {
+    "key": "MID_MISSION_S202111SUBSC02_A1",
+    "value": "Victoire"
+  },
+  {
+    "key": "MID_MISSION_H_S202111SUBSC02_A1",
+    "value": "Vaincre des ennemis."
+  },
+  {
+    "key": "MID_MISSION_S202111SUBSC02_A2",
+    "value": "Victoire"
+  },
+  {
+    "key": "MID_MISSION_H_S202111SUBSC02_A2",
+    "value": "Vaincre des ennemis."
+  },
+  {
+    "key": "MID_MISSION_S202111SUBSC02_A3",
+    "value": "Duelliste"
+  },
+  {
+    "key": "MID_MISSION_H_S202111SUBSC02_A3",
+    "value": "Remporter des duels en arène dans n'importe\nquelle catégorie."
+  },
+  {
+    "key": "MID_MISSION_S202111SUBSC02_A4",
+    "value": "Duelliste"
+  },
+  {
+    "key": "MID_MISSION_H_S202111SUBSC02_A4",
+    "value": "Remporter des duels en arène dans n'importe\nquelle catégorie."
+  },
+  {
+    "key": "MID_MISSION_S202111SUBSC02_A5",
+    "value": "Cible : unités en armure"
+  },
+  {
+    "key": "MID_MISSION_H_S202111SUBSC02_A5",
+    "value": "Vaincre des unités en armure."
+  },
+  {
+    "key": "MID_MISSION_S202111SUBSC02_A6",
+    "value": "Cible : unités volantes"
+  },
+  {
+    "key": "MID_MISSION_H_S202111SUBSC02_A6",
+    "value": "Vaincre des unités volantes."
+  },
+  {
+    "key": "MID_MISSION_W_S202111STORY_C01_TITLE",
+    "value": "Esprit de Niðavellir"
+  },
+  {
+    "key": "MID_MISSION_W_S202111STORY_C01_A1",
+    "value": "Chap. 13 - Acte 1 (Expert)"
+  },
+  {
+    "key": "MID_MISSION_H_W_S202111STORY_C01_A1",
+    "value": "Terminer Livre V, Chap. 13, Acte 1 (Expert) avec\nune unité dotée d'une lance dans une équipe de\nquatre héros et sans essuyer la moindre perte.\n(Les alliés déployés comme partenaires grâce à\nDuo ne comptent pas.)"
+  },
+  {
+    "key": "MID_MISSION_W_S202111STORY_C01_A2",
+    "value": "Chap. 13 - Acte 2 (Expert)"
+  },
+  {
+    "key": "MID_MISSION_H_W_S202111STORY_C01_A2",
+    "value": "Terminer Livre V, Chap. 13, Acte 2 (Expert) avec\nune unité dotée d'une hache dans une équipe de\nquatre héros et sans essuyer la moindre perte.\n(Les alliés déployés comme partenaires grâce à\nDuo ne comptent pas.)"
+  },
+  {
+    "key": "MID_MISSION_W_S202111STORY_C01_A3",
+    "value": "Chap. 13 - Acte 3 (Expert)"
+  },
+  {
+    "key": "MID_MISSION_H_W_S202111STORY_C01_A3",
+    "value": "Terminer Livre V, Chap. 13, Acte 3 (Expert) avec\nune unité dotée d'une épée dans une équipe de\nquatre héros et sans essuyer la moindre perte.\n(Les alliés déployés comme partenaires grâce à\nDuo ne comptent pas.)"
+  },
+  {
+    "key": "MID_MISSION_W_S202111STORY_C01_A4",
+    "value": "Chap. 13 - Acte 4 (Expert)"
+  },
+  {
+    "key": "MID_MISSION_H_W_S202111STORY_C01_A4",
+    "value": "Terminer Livre V, Chap. 13, Acte 4 (Expert) avec\nune unité dotée d'une lance dans une équipe de\nquatre héros et sans essuyer la moindre perte.\n(Les alliés déployés comme partenaires grâce à\nDuo ne comptent pas.)"
+  },
+  {
+    "key": "MID_MISSION_W_S202111STORY_C01_A5",
+    "value": "Chap. 13 - Acte 5 (Expert)"
+  },
+  {
+    "key": "MID_MISSION_H_W_S202111STORY_C01_A5",
+    "value": "Terminer Livre V, Chap. 13, Acte 5 (Expert) avec\nune unité dotée d'une hache dans une équipe de\nquatre héros et sans essuyer la moindre perte.\n(Les alliés déployés comme partenaires grâce à\nDuo ne comptent pas.)"
+  },
+  {
+    "key": "MPID_フォルカ",
+    "value": "Volke"
+  },
+  {
+    "key": "MPID_SEARCH_フォルカ",
+    "value": "Volke"
+  },
+  {
+    "key": "MPID_マーシャ",
+    "value": "Marcia"
+  },
+  {
+    "key": "MPID_SEARCH_マーシャ",
+    "value": "Marcia"
+  },
+  {
+    "key": "MPID_ステラ",
+    "value": "Astrid"
+  },
+  {
+    "key": "MPID_SEARCH_ステラ",
+    "value": "Astrid"
+  },
+  {
+    "key": "MPID_タニス",
+    "value": "Tanith"
+  },
+  {
+    "key": "MPID_SEARCH_タニス",
+    "value": "Tanith"
+  },
+  {
+    "key": "MPID_ベウフォレス",
+    "value": "Bertram"
+  },
+  {
+    "key": "MPID_SEARCH_ベウフォレス",
+    "value": "Bertram"
+  },
+  {
+    "key": "MPID_開花レーギャルン",
+    "value": "Laegjarn"
+  },
+  {
+    "key": "MPID_SEARCH_開花レーギャルン",
+    "value": "Laegjarn"
+  },
+  {
+    "key": "MPID_HONOR_フォルカ",
+    "value": "Être mystérieux"
+  },
+  {
+    "key": "MPID_HONOR_マーシャ",
+    "value": "Guerrière émérite"
+  },
+  {
+    "key": "MPID_HONOR_ステラ",
+    "value": "Noble résolue"
+  },
+  {
+    "key": "MPID_HONOR_タニス",
+    "value": "Lame sacrée"
+  },
+  {
+    "key": "MPID_HONOR_ベウフォレス",
+    "value": "Cavalier terrifiant"
+  },
+  {
+    "key": "MPID_HONOR_開花レーギャルン",
+    "value": "Éminence ardente"
+  },
+  {
+    "key": "MEID_HONOR_エイトリ",
+    "value": "Jeune sage"
+  },
+  {
+    "key": "MPID_H_フォルカ",
+    "value": "Un criminel qui gagne sa vie dans le monde\nsouterrain et ne répond aux ordres de personne.\nIl est aussi connu sous le nom de « Feu follet ».\nApparaît dans Fire Emblem: Path of Radiance."
+  },
+  {
+    "key": "MPID_H_マーシャ",
+    "value": "Elle a renoncé à son poste dans la Garde Sacrée\nde Begnion, et est partie à la recherche de\nMakalov, son frère disparu. Apparaît dans\nFire Emblem: Path of Radiance."
+  },
+  {
+    "key": "MPID_H_ステラ",
+    "value": "Noble de la maison Damiell de Begnion.\nRefusant de vivre comme une aristocrate, elle\ns'est enrôlée pour devenir chevalier. Apparaît\ndans Fire Emblem: Path of Radiance."
+  },
+  {
+    "key": "MPID_H_タニス",
+    "value": "Capitaine de la Garde Sacrée de Begnion.\nElle dirige avec force et discipline.\nApparaît dans Fire Emblem: Path of Radiance."
+  },
+  {
+    "key": "MPID_H_ベウフォレス",
+    "value": "L'un des Quatre Cavaliers et le plus fort des\ngénéraux de Daein. Personne ne sait qui se\ncache sous cette armure. Apparaît dans\nFire Emblem: Path of Radiance."
+  },
+  {
+    "key": "MPID_H_開花レーギャルン",
+    "value": "Princesse de Múspell, le monde des flammes, et\namie de Fjorm. Elle est devenue la championne\nde Múspell, le dieu des flammes, et est\nimprégnée de son pouvoir."
+  },
+  {
+    "key": "MEID_H_エイトリ",
+    "value": "Une érudite de Niðavellir. Malgré son apparence\njuvénile, elle a obtenu le titre de sage grâce à\nson intelligence exceptionnelle."
+  },
+  {
+    "key": "MPID_VOICE_フォルカ",
+    "value": "Kellen Goff"
+  },
+  {
+    "key": "MPID_VOICE_マーシャ",
+    "value": "Deneen Melody"
+  },
+  {
+    "key": "MPID_VOICE_ステラ",
+    "value": "Jenny Yokobori"
+  },
+  {
+    "key": "MPID_VOICE_タニス",
+    "value": "Katelyn Gault"
+  },
+  {
+    "key": "MPID_VOICE_ベウフォレス",
+    "value": "Luis Bermudez"
+  },
+  {
+    "key": "MPID_VOICE_開花レーギャルン",
+    "value": "Abby Trott"
+  },
+  {
+    "key": "MEID_VOICE_エイトリ",
+    "value": "Lisa Reimold"
+  },
+  {
+    "key": "MPID_VOICE_リョウマEX01",
+    "value": "Matt Mercer"
+  },
+  {
+    "key": "MPID_ILLUST_フォルカ",
+    "value": "Kita Senri (北千里)"
+  },
+  {
+    "key": "MPID_ILLUST_マーシャ",
+    "value": "Kippu (切符)"
+  },
+  {
+    "key": "MPID_ILLUST_ステラ",
+    "value": "Naruse Uroko (鳴瀬うろこ)"
+  },
+  {
+    "key": "MPID_ILLUST_タニス",
+    "value": "Ito Misei (伊藤未生)"
+  },
+  {
+    "key": "MPID_ILLUST_ベウフォレス",
+    "value": "Nishiki Areku (西木あれく)"
+  },
+  {
+    "key": "MPID_ILLUST_開花レーギャルン",
+    "value": "PenekoR (п猫Ｒ)"
+  },
+  {
+    "key": "MEID_ILLUST_エイトリ",
+    "value": "Kozaki Yusuke (コザキユースケ)"
+  },
+  {
+    "key": "MPID_ILLUST_リョウマEX01",
+    "value": "Clover.K (黒葉.K)"
+  },
+  {
+    "key": "MID_TIPS_Summon_211102_souen_01_開花レーギャルン",
+    "value": "Si les conditions sont remplies, obtient\nAtq +33, Vit +31 et neutralise les\neffets l'empêchant d'effectuer des\ndoubles frappes."
+  },
+  {
+    "key": "MID_TIPS_Summon_211102_souen_01_フォルカ",
+    "value": "Si les conditions sont remplies,\naméliore toutes les caractéristiques.\nSon aptitude d'arme aide à activer\nl'aptitude spéciale !"
+  },
+  {
+    "key": "MID_TIPS_Summon_211102_souen_01_ステラ",
+    "value": "Elle soutient ses alliés sur le champ de\nbataille. Son aptitude de soutien\nconfère un mouvement supplémentaire\net double les bonus !"
+  },
+  {
+    "key": "MID_TIPS_Summon_211102_souen_01_マーシャ",
+    "value": "Lorsqu'elle n'est pas à côté d'un allié,\nson aptitude d'arme inflige Atq/Déf -5\nà ses ennemis et neutralise les boosts\nsur ces caractéristiques !"
+  },
+  {
+    "key": "MSID_絶炎ムスペル",
+    "value": "Múspell enflammé"
+  },
+  {
+    "key": "MSID_瞬撃の剣",
+    "value": "Épée vive"
+  },
+  {
+    "key": "MSID_瞬撃の剣＋",
+    "value": "Épée vive +"
+  },
+  {
+    "key": "MSID_護衛の剣",
+    "value": "Fer loyal"
+  },
+  {
+    "key": "MSID_護衛の剣＋",
+    "value": "Fer loyal +"
+  },
+  {
+    "key": "MSID_孤絶の槍",
+    "value": "Lance libre"
+  },
+  {
+    "key": "MSID_孤絶の槍＋",
+    "value": "Lance libre +"
+  },
+  {
+    "key": "MSID_ディアメル家の宝弓",
+    "value": "Arc de Damiell"
+  },
+  {
+    "key": "MSID_火消しの暗刃",
+    "value": "Crochet Feu follet"
+  },
+  {
+    "key": "MSID_魔銃ブロック",
+    "value": "Brokkr sinistre"
+  },
+  {
+    "key": "MSID_滅殺",
+    "value": "Meurtrier"
+  },
+  {
+    "key": "MSID_速さ守備の絆4",
+    "value": "Lien Vit/Déf 4"
+  },
+  {
+    "key": "MSID_攻撃速さの奮起4",
+    "value": "Réveil Atq/Vit 4"
+  },
+  {
+    "key": "MSID_H_絶炎ムスペル",
+    "value": "$aAccélère l'activation des aptitudes spéciales\n(compteur -1). Efficace contre les unités\nvolantes. Si l'unité est affectée par\n【Bonus】, confère Atq/Vit +6 et un\nboost d'Atq/Vit/Déf/Rés pendant le combat\néquivalent à 50 % de la valeur totale des boosts\nde l'unité et de l'ennemi (boost +12 maximum)\net, si la valeur totale des boosts de l'unité et de\nl'ennemi ≥ 10, neutralise les effets empêchant\nl'unité d'effectuer des doubles frappes.\n\n【Bonus】\nInclut tous les effets conférés pendant un tour\nou valables pour ce tour uniquement\n(caractéristiques augmentées, effets des\naptitudes comme Ralliement ou Élan, bonus\nde déplacement, effets comme Suprématie)."
+  },
+  {
+    "key": "MSID_H_瞬撃の剣",
+    "value": "Si l'unité initie le combat, confère Atq/Déf +4\npendant le combat et empêche l'ennemi de\nréaliser une double frappe."
+  },
+  {
+    "key": "MSID_H_瞬撃の剣＋",
+    "value": "Si l'unité initie le combat, confère Atq/Déf +4\npendant le combat et empêche l'ennemi de\nréaliser une double frappe."
+  },
+  {
+    "key": "MSID_H_護衛の剣",
+    "value": "Si l'unité se trouve à 2 cases ou moins d'un allié,\nconfère Atq/Déf +5 à l'unité et neutralise les\nmalus affectant Atq/Déf de l'unité pendant le\ncombat."
+  },
+  {
+    "key": "MSID_H_護衛の剣＋",
+    "value": "Si l'unité se trouve à 2 cases ou moins d'un allié,\nconfère Atq/Déf +5 à l'unité et neutralise les\nmalus affectant Atq/Déf de l'unité pendant le\ncombat."
+  },
+  {
+    "key": "MSID_H_孤絶の槍",
+    "value": "S'il n'y a pas d'alliés sur les cases adjacentes à\nl'unité, inflige Atq/Déf -5 à l'ennemi pendant le\ncombat et les bonus d'Atq/Déf dont l'ennemi\nbénéficie grâce à des aptitudes comme\nPrudence ou Ralliement sont annulés pendant\nle combat."
+  },
+  {
+    "key": "MSID_H_孤絶の槍＋",
+    "value": "S'il n'y a pas d'alliés sur les cases adjacentes à\nl'unité, inflige Atq/Déf -5 à l'ennemi pendant le\ncombat et les bonus d'Atq/Déf dont l'ennemi\nbénéficie grâce à des aptitudes comme\nPrudence ou Ralliement sont annulés pendant\nle combat."
+  },
+  {
+    "key": "MSID_H_ディアメル家の宝弓",
+    "value": "$aEfficace contre les unités volantes. Confère\nVit +3. Si une aptitude Ralliement est utilisée\npar l'unité, confère【Amplification】à la cible et\npermet à la cible de se déplacer d'une case\nsupplémentaire. (Valable pour ce tour\nuniquement. Non cumulable. Aucun effet sur les\ncavaliers avec une portée de 2.) Si PV de l'unité\n≥ 25 % au début du combat, confère Atq/Vit +6\nà l'unité pendant le combat.\n\n【Amplification】\nPour chaque caractéristique (Atq/Vit/Déf/Rés),\nconfère un boost égal au boost actuel de l'unité\npendant le combat, pendant un tour."
+  },
+  {
+    "key": "MSID_H_火消しの暗刃",
+    "value": "$aAccélère l'activation des aptitudes spéciales\n(compteur -1). Si l'unité initie le combat ou s'il\nn'y a pas d'alliés sur les cases adjacentes à\nl'unité, confère Atq/Vit/Déf/Rés +5 à l'unité,\nneutralise les malus qui infligent « Compteur +X »\nà l'unité, et confère compteur -1 pour chaque\nattaque de l'unité pendant le combat. (S'il y a\nplusieurs effets similaires, seul le plus puissant\ns'applique.)\nEffet :【Dague ７】\n\n【Dague ７】\nAprès le combat, si l'unité a attaqué, inflige\nDéf/Rés -７ à la cible et aux ennemis à\n2 cases ou moins de la cible jusqu'à la fin de\nleur phase."
+  },
+  {
+    "key": "MSID_H_魔銃ブロック",
+    "value": "$aConfère Atq +3. Active【Mobilité (２)】des\ntours 1 à 4. Si l'unité initie le combat ou s'il n'y\na pas d'alliés sur les cases adjacentes à l'unité,\ninflige Atq/Rés -6 à l'ennemi pendant le combat\net l'unité effectue une double frappe.\n\n【Mobilité (２)】\nAprès une attaque, l'utilisation d'une aptitude\nde soutien ou la destruction d'une structure,\nl'unité peut se déplacer de ２ case(s).\nL'unité se déplace en fonction de son type de\nmouvement. Une fois par tour. Attaque ou\nsoutien impossible. S'il y a plusieurs effets\nsimilaires, seul le plus puissant s'applique.\nAprès le déplacement, si une aptitude\npermettant d'agir à nouveau (comme Élan\nvictorieux) devait se déclencher, Mobilité se\ndéclenchera après l'action conférée. Le\nmouvement de base de l'unité n'a pas d'effet\nsur le mouvement conféré. La téléportation (via\ndes aptitudes comme Sauvetage) ne peut pas\nexcéder une distance de ２ case(s)."
+  },
+  {
+    "key": "MSID_H_滅殺",
+    "value": "Lorsque l'aptitude spéciale se déclenche, ignore\n75 % de la Déf/Rés de la cible pendant le\ncombat. Désactive les aptitudes (sauf aptitudes\nspéciales) qui réduisent les dégâts à hauteur\nd'un certain pourcentage."
+  },
+  {
+    "key": "MSID_H_速さ守備の絆4",
+    "value": "Si l'unité se trouve à côté d'un allié, confère\nVit/Déf +7 à l'unité et neutralise les malus\naffectant Vit/Déf de l'unité pendant le combat."
+  },
+  {
+    "key": "MSID_H_攻撃速さの奮起4",
+    "value": "$aEn début de tour, s'il n'y a pas d'alliés sur les\ncases adjacentes à l'unité, confère Atq/Vit +6\net【Anti-panique】à l'unité pendant un\ntour.\n\n【Anti-panique】\nSi l'unité est affectée par Panique (bonus\nconvertis en malus), neutralise l'effet « les\nbonus de la cible se transforment en malus »\npendant un tour. (Même si l'effet est neutralisé,\nl'état infligé par Panique est conservé, et est\nconsidéré comme un état infligé par Malus)."
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0513",
+    "value": "Livre V, Chap. 13"
+  },
+  {
+    "key": "MID_CHAPTER_C0513",
+    "value": "Esprit de Niðavellir"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S5131",
+    "value": "Ch. 13 - Acte 1"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S5132",
+    "value": "Ch. 13 - Acte 2"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S5133",
+    "value": "Ch. 13 - Acte 3"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S5134",
+    "value": "Ch. 13 - Acte 4"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S5135",
+    "value": "Ch. 13 - Acte 5"
+  },
+  {
+    "key": "MID_STAGE_S5131",
+    "value": "Vieilles connaissances"
+  },
+  {
+    "key": "MID_STAGE_S5132",
+    "value": "L'épée Gramr"
+  },
+  {
+    "key": "MID_STAGE_S5133",
+    "value": "Noble résolue"
+  },
+  {
+    "key": "MID_STAGE_S5134",
+    "value": "La couronne des nains"
+  },
+  {
+    "key": "MID_STAGE_S5135",
+    "value": "Le départ"
+  },
+  {
+    "key": "MID_STAGE_HONOR_T0116",
+    "value": "Héros liés"
+  },
+  {
+    "key": "MID_STAGE_T0116",
+    "value": "P & C"
+  },
+  {
+    "key": "MID_STAGE_HONOR_T0115",
+    "value": "Cavalier terrifiant"
+  },
+  {
+    "key": "MID_STAGE_T0115",
+    "value": "Bertram"
+  },
+  {
+    "key": "MID_CHAPTER_ST_C0513",
+    "value": "Chapitre 13"
+  },
+  {
+    "key": "MID_STAGE_TITLE_ST_S0513",
+    "value": "Chapitre 13"
+  },
+  {
+    "key": "MID_STAGE_TITLE_PB135",
+    "value": "Aptitudes 135"
+  },
+  {
+    "key": "MID_STAGE_PB135",
+    "value": "Élue des flammes"
+  },
+  {
+    "key": "MID_STAGE_TITLE_PC090",
+    "value": "Expertise 90"
+  },
+  {
+    "key": "MID_STAGE_PC090",
+    "value": "Pour le marquis d'Ositia !"
+  }
+]
