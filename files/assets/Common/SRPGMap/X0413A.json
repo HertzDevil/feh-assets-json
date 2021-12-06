@@ -1,0 +1,300 @@
+{
+  "highest_score": 90,
+  "field": {
+    "id": "X0413",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        5,
+        8,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        15,
+        15,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        15,
+        15,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        5,
+        15,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        5,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        8,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 3,
+      "y": 2
+    },
+    {
+      "x": 4,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_樹",
+      "skills": [
+        "SID_鉄の剣",
+        "SID_入れ替え",
+        null,
+        null,
+        "SID_攻撃守備の連携1",
+        "SID_守備の大紋章1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 22,
+        "atk": 13,
+        "spd": 11,
+        "def": 11,
+        "res": 11
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_つばさ",
+      "skills": [
+        "SID_鉄の槍",
+        null,
+        null,
+        "SID_刃のセッション1",
+        "SID_速さの封印1",
+        "SID_速さの鼓舞1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 20,
+        "atk": 11,
+        "spd": 15,
+        "def": 10,
+        "res": 11
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_霧亜",
+      "skills": [
+        "SID_ミィル",
+        null,
+        null,
+        "SID_攻撃魔防の孤軍1",
+        "SID_攻撃魔防の凪1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 19,
+        "atk": 16,
+        "spd": 7,
+        "def": 10,
+        "res": 12
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_エレオノーラ",
+      "skills": [
+        "SID_鉄の弓",
+        "SID_速さの応援",
+        null,
+        "SID_攻撃速さの渾身1",
+        "SID_速さ守備の大共謀1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 21,
+        "atk": 12,
+        "spd": 13,
+        "def": 10,
+        "res": 9
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_まもり",
+      "skills": [
+        "SID_鉄の斧",
+        null,
+        null,
+        "SID_盾のセッション1",
+        "SID_迎撃隊形1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 4
+      },
+      "rarity": 3,
+      "lv": 10,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 22,
+        "atk": 15,
+        "spd": 8,
+        "def": 17,
+        "res": 12
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 10,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 5,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

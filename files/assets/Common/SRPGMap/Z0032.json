@@ -1,0 +1,260 @@
+{
+  "highest_score": 239,
+  "field": {
+    "id": "Z0032",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 2,
+    "terrain": [
+      [
+        4,
+        4,
+        24,
+        24,
+        4,
+        4
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        17,
+        16,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        8,
+        5,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        8,
+        5,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        5,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        5,
+        3,
+        2,
+        3,
+        3,
+        5
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 0,
+      "y": 5
+    },
+    {
+      "x": 1,
+      "y": 4
+    },
+    {
+      "x": 1,
+      "y": 3
+    },
+    {
+      "x": 0,
+      "y": 2
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_伝承エーデルガルト",
+      "skills": [
+        "SID_アイムール",
+        "SID_引き戻し",
+        "SID_緋炎",
+        "SID_攻撃魔防の孤軍3",
+        "SID_狂嵐",
+        "SID_重装の遊撃3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 5
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 42,
+        "spd": 17,
+        "def": 39,
+        "res": 36
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_幼少アクア",
+      "skills": [
+        "SID_泡影の書",
+        "SID_歌う",
+        "SID_月虹",
+        "SID_緑の死闘・歩行3",
+        "SID_救援の行路3",
+        "SID_攻撃の鼓舞4",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 36,
+        "atk": 33,
+        "spd": 29,
+        "def": 17,
+        "res": 25
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_比翼エフラム",
+      "skills": [
+        "SID_レギンレイヴ",
+        "SID_攻撃守備の応援＋",
+        "SID_疾風迅雷",
+        "SID_柔剣4",
+        "SID_攻撃守備の凪3",
+        "SID_攻撃の波・奇数3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 39,
+        "spd": 30,
+        "def": 37,
+        "res": 25
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承セリス",
+      "skills": [
+        "SID_至聖ティルフィング",
+        "SID_引き戻し",
+        "SID_華炎",
+        "SID_遠距離反撃",
+        "SID_最後の聖戦",
+        "SID_守備の鼓舞4",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 41,
+        "spd": 17,
+        "def": 37,
+        "res": 26
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

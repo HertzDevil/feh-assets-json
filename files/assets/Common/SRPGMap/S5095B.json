@@ -1,0 +1,420 @@
+{
+  "highest_score": 193,
+  "field": {
+    "id": "S5095",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        1,
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        4,
+        1,
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        4,
+        1,
+        1,
+        4,
+        4
+      ],
+      [
+        4,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 2,
+      "y": 6
+    },
+    {
+      "x": 3,
+      "y": 6
+    },
+    {
+      "x": 2,
+      "y": 5
+    },
+    {
+      "x": 3,
+      "y": 5
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_ブノワ",
+      "skills": [
+        "SID_護衛の槍",
+        null,
+        "SID_小盾",
+        "SID_金剛明鏡の構え2",
+        "SID_守備隊形2",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 1
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 33,
+        "spd": 20,
+        "def": 42,
+        "res": 31
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_オロチ",
+      "skills": [
+        "SID_レクスカリバー",
+        "SID_引き寄せ",
+        null,
+        "SID_鬼神明鏡の一撃2",
+        "SID_攻撃魔防の連携2",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 1
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 37,
+        "atk": 38,
+        "spd": 22,
+        "def": 21,
+        "res": 35
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_シェンメイ",
+      "skills": [
+        "SID_ラウアラビット",
+        null,
+        "SID_氷点",
+        "SID_攻撃魔防の渾身2",
+        null,
+        "SID_魔防の謀策2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 0
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 38,
+        "atk": 34,
+        "spd": 24,
+        "def": 18,
+        "res": 32
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_シャーロッテ",
+      "skills": [
+        "SID_銀の斧",
+        null,
+        "SID_星影",
+        "SID_鬼神飛燕の一撃2",
+        "SID_回避・攻め立て2",
+        "SID_始まりの鼓動2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 41,
+        "spd": 39,
+        "def": 22,
+        "res": 16
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 2,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ニュクス",
+      "skills": [
+        "SID_ノスフェラート",
+        null,
+        "SID_影月",
+        "SID_速さ魔防の孤軍3",
+        "SID_見切り・追撃効果2",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 5
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 34,
+        "atk": 40,
+        "spd": 38,
+        "def": 17,
+        "res": 25
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_アクスドラゴン",
+      "skills": [
+        "SID_銀の斧",
+        "SID_攻撃の大応援",
+        null,
+        "SID_鬼神金剛の一撃2",
+        null,
+        "SID_先導の伝令・地2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 0
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 38,
+        "atk": 33,
+        "spd": 24,
+        "def": 34,
+        "res": 17
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ブルーボウ",
+      "skills": [
+        "SID_勇者の弓",
+        null,
+        "SID_影月",
+        null,
+        "SID_奥義の螺旋2",
+        "SID_攻撃の波・奇数2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 0
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 30,
+        "spd": 27,
+        "def": 26,
+        "res": 14
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ランスファイター",
+      "skills": [
+        "SID_蒼海の槍",
+        null,
+        "SID_砕雷",
+        "SID_攻撃守備の孤軍2",
+        "SID_蛇毒2",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 7
+      },
+      "rarity": 4,
+      "lv": 39,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 29,
+        "spd": 28,
+        "def": 28,
+        "res": 19
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 39,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 8,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

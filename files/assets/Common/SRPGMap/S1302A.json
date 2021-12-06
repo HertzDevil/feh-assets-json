@@ -1,0 +1,300 @@
+{
+  "highest_score": 121,
+  "field": {
+    "id": "S1302",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        0,
+        0,
+        0,
+        6,
+        6,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        15,
+        18
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        6,
+        15
+      ],
+      [
+        5,
+        15,
+        5,
+        16,
+        6,
+        15
+      ],
+      [
+        3,
+        0,
+        15,
+        0,
+        5,
+        16
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        5,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        15,
+        5,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 0,
+      "y": 2
+    },
+    {
+      "x": 1,
+      "y": 2
+    },
+    {
+      "x": 0,
+      "y": 1
+    },
+    {
+      "x": 1,
+      "y": 1
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_セーバー",
+      "skills": [
+        "SID_鋼の剣",
+        null,
+        "SID_聖衣",
+        "SID_HP速さ1",
+        "SID_盾の鼓動1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 1
+      },
+      "rarity": 3,
+      "lv": 24,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 29,
+        "atk": 19,
+        "spd": 21,
+        "def": 20,
+        "res": 13
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 24,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ソニア",
+      "skills": [
+        "SID_エルウインド",
+        null,
+        "SID_影月",
+        "SID_鬼神明鏡の一撃1",
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 24,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 26,
+        "atk": 20,
+        "spd": 19,
+        "def": 10,
+        "res": 20
+      },
+      "start_turn": 3,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 24,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_レオ",
+      "skills": [
+        "SID_鋼の弓",
+        null,
+        "SID_蛍火",
+        "SID_速さ1",
+        "SID_キャンセル1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 24,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 28,
+        "atk": 21,
+        "spd": 18,
+        "def": 19,
+        "res": 10
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": 1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 24,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_アクスファイター",
+      "skills": [
+        "SID_鋼の斧",
+        null,
+        null,
+        null,
+        "SID_叩き込み",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 4
+      },
+      "rarity": 3,
+      "lv": 24,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 32,
+        "atk": 19,
+        "spd": 19,
+        "def": 19,
+        "res": 13
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 24,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ランスペガサス",
+      "skills": [
+        "SID_鋼の槍",
+        "SID_速さの応援",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 24,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 27,
+        "atk": 17,
+        "spd": 22,
+        "def": 12,
+        "res": 23
+      },
+      "start_turn": 2,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 24,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 5,
+  "turns_to_win": 5,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}

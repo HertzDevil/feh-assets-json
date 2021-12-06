@@ -1,0 +1,660 @@
+{
+  "highest_score": 237,
+  "field": {
+    "id": "S4095",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        0,
+        8,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 2,
+      "y": 4
+    },
+    {
+      "x": 3,
+      "y": 4
+    },
+    {
+      "x": 2,
+      "y": 3
+    },
+    {
+      "x": 3,
+      "y": 3
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_竜裂",
+        "SID_鬼神の構え3",
+        null,
+        "SID_遠距離警戒3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_月光",
+        "SID_鬼神飛燕の一撃2",
+        "SID_蛇毒3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_長盾",
+        null,
+        "SID_一撃離脱",
+        "SID_鼓動の幻煙3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_クリス男",
+      "skills": [
+        "SID_影の英雄の剣",
+        null,
+        "SID_夕陽",
+        "SID_HP速さ2",
+        "SID_回避・怒り3",
+        "SID_攻撃の相互大紋章",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 1
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 41,
+        "spd": 44,
+        "def": 33,
+        "res": 28
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_クリス女",
+      "skills": [
+        "SID_影の英雄の槍",
+        null,
+        "SID_月虹",
+        "SID_獅子奮迅4",
+        "SID_回避・怒り3",
+        "SID_速さ魔防の奮起3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 41,
+        "spd": 44,
+        "def": 33,
+        "res": 28
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_爆風",
+        null,
+        "SID_攻撃の封印3",
+        "SID_死の吐息3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": "EID_フレイヤ",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 1
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_聖兜",
+        "SID_遠距離防御3",
+        "SID_速さの封印3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": "EID_フレイヤ",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 2
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_月虹",
+        "SID_死線3",
+        null,
+        "SID_攻撃の開放3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": "EID_フレイヤ",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 3
+    },
+    {
+      "id_tag": "PID_エレミヤ",
+      "skills": [
+        "SID_パニック＋",
+        "SID_リブロー＋",
+        "SID_祈り",
+        "SID_攻撃魔防の渾身3",
+        null,
+        "SID_遠距離警戒3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 47,
+        "atk": 35,
+        "spd": 38,
+        "def": 25,
+        "res": 30
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_レナ",
+      "skills": [
+        "SID_グラビティ＋",
+        "SID_リカバー＋",
+        "SID_天照",
+        "SID_守備魔防2",
+        null,
+        "SID_攻撃の謀策3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 35,
+        "spd": 32,
+        "def": 27,
+        "res": 41
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 2,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ジュリアン",
+      "skills": [
+        "SID_騎殺の暗器＋",
+        null,
+        "SID_月虹",
+        "SID_金剛の反撃・近距離",
+        "SID_攻撃速さの凪3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 42,
+        "def": 36,
+        "res": 19
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": 1,
+      "spawn_turns": 3,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_竜裂",
+        "SID_鬼神の構え3",
+        null,
+        "SID_遠距離警戒3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": "EID_フレイヤ",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 4
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_月光",
+        "SID_鬼神飛燕の一撃2",
+        "SID_蛇毒3",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 0
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": "EID_フレイヤ",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 5
+    },
+    {
+      "id_tag": "EID_フレイヤ",
+      "skills": [
+        "SID_悪夢の女王の角",
+        null,
+        "SID_長盾",
+        null,
+        "SID_一撃離脱",
+        "SID_鼓動の幻煙3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 43,
+        "atk": 42,
+        "spd": 48,
+        "def": 27,
+        "res": 24
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 45,
+      "is_enemy": true,
+      "spawn_check": "EID_フレイヤ",
+      "spawn_count": 1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": 6
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 14,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 6
+}
