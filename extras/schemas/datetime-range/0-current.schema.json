@@ -1,0 +1,38 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/datetime-range/0-current#",
+	"description": "A date-time range representing a single or multiple reucrring time intervals.",
+	"type": "object",
+	"required": [
+		"start",
+		"finish",
+		"avail_sec",
+		"cycle_sec"
+	],
+	"properties": {
+		"start": {
+			"description": "The beginning date-time, inclusive. If null, all past date-times are included by the range.",
+			"type": [
+				"string",
+				"null"
+			],
+			"format": "date-time"
+		},
+		"finish": {
+			"description": "The ending date-time, exclusie. If null, all future date-times are included by the range.",
+			"type": [
+				"string",
+				"null"
+			],
+			"format": "date-time"
+		},
+		"avail_sec": {
+			"description": "For recurring time ranges, the duration in seconds of the active period, otherwise -1.",
+			"$ref": "../int64/0-current#"
+		},
+		"cycle_sec": {
+			"description": "For recurring time ranges, the duration in seconds of a full period (active followed by inactive), otherwise -1.",
+			"$ref": "../int64/0-current#"
+		}
+	}
+}
