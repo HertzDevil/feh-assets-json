@@ -2856,6 +2856,10 @@
     "value": "-"
   },
   {
+    "key": "MSID_SEARCH_NONE",
+    "value": "-"
+  },
+  {
     "key": "MSID_H_NONE",
     "value": "Vide"
   },
@@ -2864,35 +2868,71 @@
     "value": "Épée fer"
   },
   {
+    "key": "MSID_SEARCH_鉄の剣",
+    "value": "Epee fer"
+  },
+  {
     "key": "MSID_鋼の剣",
     "value": "Épée acier"
+  },
+  {
+    "key": "MSID_SEARCH_鋼の剣",
+    "value": "Epee acier"
   },
   {
     "key": "MSID_銀の剣",
     "value": "Épée argent"
   },
   {
+    "key": "MSID_SEARCH_銀の剣",
+    "value": "Epee argent"
+  },
+  {
     "key": "MSID_銀の剣＋",
     "value": "Épée argent +"
+  },
+  {
+    "key": "MSID_SEARCH_銀の剣＋",
+    "value": "Epee argent +"
   },
   {
     "key": "MSID_勇者の剣",
     "value": "Épée héros"
   },
   {
+    "key": "MSID_SEARCH_勇者の剣",
+    "value": "Epee heros"
+  },
+  {
     "key": "MSID_勇者の剣＋",
     "value": "Épée héros +"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の剣＋",
+    "value": "Epee heros +"
   },
   {
     "key": "MSID_キルソード",
     "value": "Fer létal"
   },
   {
+    "key": "MSID_SEARCH_キルソード",
+    "value": "Fer letal"
+  },
+  {
     "key": "MSID_キルソード＋",
     "value": "Fer létal +"
   },
   {
+    "key": "MSID_SEARCH_キルソード＋",
+    "value": "Fer letal +"
+  },
+  {
     "key": "MSID_アーマーキラー",
+    "value": "Cuiracide"
+  },
+  {
+    "key": "MSID_SEARCH_アーマーキラー",
     "value": "Cuiracide"
   },
   {
@@ -2900,15 +2940,31 @@
     "value": "Cuiracide +"
   },
   {
+    "key": "MSID_SEARCH_アーマーキラー＋",
+    "value": "Cuiracide +"
+  },
+  {
     "key": "MSID_旭日の剣",
     "value": "Épée rubis"
+  },
+  {
+    "key": "MSID_SEARCH_旭日の剣",
+    "value": "Epee rubis"
   },
   {
     "key": "MSID_旭日の剣＋",
     "value": "Épée rubis +"
   },
   {
+    "key": "MSID_SEARCH_旭日の剣＋",
+    "value": "Epee rubis +"
+  },
+  {
     "key": "MSID_ファルシオン",
+    "value": "Falchion"
+  },
+  {
+    "key": "MSID_SEARCH_ファルシオン",
     "value": "Falchion"
   },
   {
@@ -2916,7 +2972,15 @@
     "value": "Falchion"
   },
   {
+    "key": "MSID_SEARCH_ファルシオン覚醒",
+    "value": "Falchion"
+  },
+  {
     "key": "MSID_封印の剣",
+    "value": "Lame du Sceau"
+  },
+  {
+    "key": "MSID_SEARCH_封印の剣",
     "value": "Lame du Sceau"
   },
   {
@@ -2924,7 +2988,15 @@
     "value": "Eckesachs"
   },
   {
+    "key": "MSID_SEARCH_エッケザックス",
+    "value": "Eckesachs"
+  },
+  {
     "key": "MSID_デュランダル",
+    "value": "Durandal"
+  },
+  {
+    "key": "MSID_SEARCH_デュランダル",
     "value": "Durandal"
   },
   {
@@ -2932,7 +3004,15 @@
     "value": "Sol Katti"
   },
   {
+    "key": "MSID_SEARCH_ソールカティ",
+    "value": "Sol Katti"
+  },
+  {
     "key": "MSID_夜刀神",
+    "value": "Yato"
+  },
+  {
+    "key": "MSID_SEARCH_夜刀神",
     "value": "Yato"
   },
   {
@@ -2940,7 +3020,15 @@
     "value": "Raijinto"
   },
   {
+    "key": "MSID_SEARCH_雷神刀",
+    "value": "Raijinto"
+  },
+  {
     "key": "MSID_ジークフリート",
+    "value": "Siegfried"
+  },
+  {
+    "key": "MSID_SEARCH_ジークフリート",
     "value": "Siegfried"
   },
   {
@@ -2948,7 +3036,15 @@
     "value": "Fólkvangr"
   },
   {
+    "key": "MSID_SEARCH_フォルクヴァング",
+    "value": "Folkvangr"
+  },
+  {
     "key": "MSID_鉄の槍",
+    "value": "Lance fer"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の槍",
     "value": "Lance fer"
   },
   {
@@ -2956,7 +3052,15 @@
     "value": "Lance acier"
   },
   {
+    "key": "MSID_SEARCH_鋼の槍",
+    "value": "Lance acier"
+  },
+  {
     "key": "MSID_銀の槍",
+    "value": "Lance argent"
+  },
+  {
+    "key": "MSID_SEARCH_銀の槍",
     "value": "Lance argent"
   },
   {
@@ -2964,31 +3068,63 @@
     "value": "Lance argent +"
   },
   {
+    "key": "MSID_SEARCH_銀の槍＋",
+    "value": "Lance argent +"
+  },
+  {
     "key": "MSID_勇者の槍",
     "value": "Lance héros"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の槍",
+    "value": "Lance heros"
   },
   {
     "key": "MSID_勇者の槍＋",
     "value": "Lance héros +"
   },
   {
+    "key": "MSID_SEARCH_勇者の槍＋",
+    "value": "Lance heros +"
+  },
+  {
     "key": "MSID_キラーランス",
     "value": "Lance létale"
+  },
+  {
+    "key": "MSID_SEARCH_キラーランス",
+    "value": "Lance letale"
   },
   {
     "key": "MSID_キラーランス＋",
     "value": "Lance létale +"
   },
   {
+    "key": "MSID_SEARCH_キラーランス＋",
+    "value": "Lance letale +"
+  },
+  {
     "key": "MSID_貫きの槍",
     "value": "Épieu lourd"
+  },
+  {
+    "key": "MSID_SEARCH_貫きの槍",
+    "value": "Epieu lourd"
   },
   {
     "key": "MSID_貫きの槍＋",
     "value": "Épieu lourd +"
   },
   {
+    "key": "MSID_SEARCH_貫きの槍＋",
+    "value": "Epieu lourd +"
+  },
+  {
     "key": "MSID_蒼海の槍",
+    "value": "Lance saphir"
+  },
+  {
+    "key": "MSID_SEARCH_蒼海の槍",
     "value": "Lance saphir"
   },
   {
@@ -2996,7 +3132,15 @@
     "value": "Lance saphir +"
   },
   {
+    "key": "MSID_SEARCH_蒼海の槍＋",
+    "value": "Lance saphir +"
+  },
+  {
     "key": "MSID_グラディウス",
+    "value": "Gradivus"
+  },
+  {
+    "key": "MSID_SEARCH_グラディウス",
     "value": "Gradivus"
   },
   {
@@ -3004,7 +3148,15 @@
     "value": "Fensalir"
   },
   {
+    "key": "MSID_SEARCH_フェンサリル",
+    "value": "Fensalir"
+  },
+  {
     "key": "MSID_鉄の斧",
+    "value": "Hache fer"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の斧",
     "value": "Hache fer"
   },
   {
@@ -3012,7 +3164,15 @@
     "value": "Hache acier"
   },
   {
+    "key": "MSID_SEARCH_鋼の斧",
+    "value": "Hache acier"
+  },
+  {
     "key": "MSID_銀の斧",
+    "value": "Hache argent"
+  },
+  {
+    "key": "MSID_SEARCH_銀の斧",
     "value": "Hache argent"
   },
   {
@@ -3020,23 +3180,47 @@
     "value": "Hache argent +"
   },
   {
+    "key": "MSID_SEARCH_銀の斧＋",
+    "value": "Hache argent +"
+  },
+  {
     "key": "MSID_勇者の斧",
     "value": "Hache héros"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の斧",
+    "value": "Hache heros"
   },
   {
     "key": "MSID_勇者の斧＋",
     "value": "Hache héros +"
   },
   {
+    "key": "MSID_SEARCH_勇者の斧＋",
+    "value": "Hache heros +"
+  },
+  {
     "key": "MSID_キラーアクス",
     "value": "Hache létale"
+  },
+  {
+    "key": "MSID_SEARCH_キラーアクス",
+    "value": "Hache letale"
   },
   {
     "key": "MSID_キラーアクス＋",
     "value": "Hache létale +"
   },
   {
+    "key": "MSID_SEARCH_キラーアクス＋",
+    "value": "Hache letale +"
+  },
+  {
     "key": "MSID_ハンマー",
+    "value": "Marteau"
+  },
+  {
+    "key": "MSID_SEARCH_ハンマー",
     "value": "Marteau"
   },
   {
@@ -3044,15 +3228,31 @@
     "value": "Marteau +"
   },
   {
+    "key": "MSID_SEARCH_ハンマー＋",
+    "value": "Marteau +"
+  },
+  {
     "key": "MSID_深緑の斧",
     "value": "Hache émeraude"
+  },
+  {
+    "key": "MSID_SEARCH_深緑の斧",
+    "value": "Hache emeraude"
   },
   {
     "key": "MSID_深緑の斧＋",
     "value": "H. émeraude +"
   },
   {
+    "key": "MSID_SEARCH_深緑の斧＋",
+    "value": "H. emeraude +"
+  },
+  {
     "key": "MSID_オートクレール",
+    "value": "Hauteclaire"
+  },
+  {
+    "key": "MSID_SEARCH_オートクレール",
     "value": "Hauteclaire"
   },
   {
@@ -3060,11 +3260,23 @@
     "value": "Armadès"
   },
   {
+    "key": "MSID_SEARCH_アルマーズ",
+    "value": "Armades"
+  },
+  {
     "key": "MSID_ノーアトゥーン",
     "value": "Nóatún"
   },
   {
+    "key": "MSID_SEARCH_ノーアトゥーン",
+    "value": "Noatun"
+  },
+  {
     "key": "MSID_鉄の弓",
+    "value": "Arc fer"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の弓",
     "value": "Arc fer"
   },
   {
@@ -3072,7 +3284,15 @@
     "value": "Arc acier"
   },
   {
+    "key": "MSID_SEARCH_鋼の弓",
+    "value": "Arc acier"
+  },
+  {
     "key": "MSID_銀の弓",
+    "value": "Arc argent"
+  },
+  {
+    "key": "MSID_SEARCH_銀の弓",
     "value": "Arc argent"
   },
   {
@@ -3080,23 +3300,47 @@
     "value": "Arc argent +"
   },
   {
+    "key": "MSID_SEARCH_銀の弓＋",
+    "value": "Arc argent +"
+  },
+  {
     "key": "MSID_勇者の弓",
     "value": "Arc héros"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の弓",
+    "value": "Arc heros"
   },
   {
     "key": "MSID_勇者の弓＋",
     "value": "Arc héros +"
   },
   {
+    "key": "MSID_SEARCH_勇者の弓＋",
+    "value": "Arc heros +"
+  },
+  {
     "key": "MSID_キラーボウ",
     "value": "Arc létal"
+  },
+  {
+    "key": "MSID_SEARCH_キラーボウ",
+    "value": "Arc letal"
   },
   {
     "key": "MSID_キラーボウ＋",
     "value": "Arc létal +"
   },
   {
+    "key": "MSID_SEARCH_キラーボウ＋",
+    "value": "Arc letal +"
+  },
+  {
     "key": "MSID_暗器殺しの弓",
+    "value": "Arc d'assassin"
+  },
+  {
+    "key": "MSID_SEARCH_暗器殺しの弓",
     "value": "Arc d'assassin"
   },
   {
@@ -3104,7 +3348,15 @@
     "value": "Arc d'assassin +"
   },
   {
+    "key": "MSID_SEARCH_暗器殺しの弓＋",
+    "value": "Arc d'assassin +"
+  },
+  {
     "key": "MSID_パルティア",
+    "value": "Parthia"
+  },
+  {
+    "key": "MSID_SEARCH_パルティア",
     "value": "Parthia"
   },
   {
@@ -3112,7 +3364,15 @@
     "value": "Yumi Fujin"
   },
   {
+    "key": "MSID_SEARCH_風神弓",
+    "value": "Yumi Fujin"
+  },
+  {
     "key": "MSID_鉄の暗器",
+    "value": "Dague fer"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の暗器",
     "value": "Dague fer"
   },
   {
@@ -3120,7 +3380,15 @@
     "value": "Dague acier"
   },
   {
+    "key": "MSID_SEARCH_鋼の暗器",
+    "value": "Dague acier"
+  },
+  {
     "key": "MSID_銀の暗器",
+    "value": "Dague argent"
+  },
+  {
+    "key": "MSID_SEARCH_銀の暗器",
     "value": "Dague argent"
   },
   {
@@ -3128,15 +3396,31 @@
     "value": "Dague argent +"
   },
   {
+    "key": "MSID_SEARCH_銀の暗器＋",
+    "value": "Dague argent +"
+  },
+  {
     "key": "MSID_紫煙の暗器",
     "value": "Dague fumigène"
+  },
+  {
+    "key": "MSID_SEARCH_紫煙の暗器",
+    "value": "Dague fumigene"
   },
   {
     "key": "MSID_紫煙の暗器＋",
     "value": "D. fumigène +"
   },
   {
+    "key": "MSID_SEARCH_紫煙の暗器＋",
+    "value": "D. fumigene +"
+  },
+  {
     "key": "MSID_秘毒の暗器",
+    "value": "Dague poison"
+  },
+  {
+    "key": "MSID_SEARCH_秘毒の暗器",
     "value": "Dague poison"
   },
   {
@@ -3144,7 +3428,15 @@
     "value": "Dague poison +"
   },
   {
+    "key": "MSID_SEARCH_秘毒の暗器＋",
+    "value": "Dague poison +"
+  },
+  {
     "key": "MSID_盗賊の暗器",
+    "value": "Dague fourbe"
+  },
+  {
+    "key": "MSID_SEARCH_盗賊の暗器",
     "value": "Dague fourbe"
   },
   {
@@ -3152,7 +3444,15 @@
     "value": "Dague fourbe +"
   },
   {
+    "key": "MSID_SEARCH_盗賊の暗器＋",
+    "value": "Dague fourbe +"
+  },
+  {
     "key": "MSID_ファイアー",
+    "value": "Feu"
+  },
+  {
+    "key": "MSID_SEARCH_ファイアー",
     "value": "Feu"
   },
   {
@@ -3160,7 +3460,15 @@
     "value": "Inferno"
   },
   {
+    "key": "MSID_SEARCH_エルファイアー",
+    "value": "Inferno"
+  },
+  {
     "key": "MSID_ボルガノン",
+    "value": "Bolganone"
+  },
+  {
+    "key": "MSID_SEARCH_ボルガノン",
     "value": "Bolganone"
   },
   {
@@ -3168,7 +3476,15 @@
     "value": "Bolganone +"
   },
   {
+    "key": "MSID_SEARCH_ボルガノン＋",
+    "value": "Bolganone +"
+  },
+  {
     "key": "MSID_ミィル",
+    "value": "Flux"
+  },
+  {
+    "key": "MSID_SEARCH_ミィル",
     "value": "Flux"
   },
   {
@@ -3176,7 +3492,15 @@
     "value": "Ravage"
   },
   {
+    "key": "MSID_SEARCH_ルイン",
+    "value": "Ravage"
+  },
+  {
     "key": "MSID_ノスフェラート",
+    "value": "Fenrir"
+  },
+  {
+    "key": "MSID_SEARCH_ノスフェラート",
     "value": "Fenrir"
   },
   {
@@ -3184,7 +3508,15 @@
     "value": "Fenrir +"
   },
   {
+    "key": "MSID_SEARCH_ノスフェラート＋",
+    "value": "Fenrir +"
+  },
+  {
     "key": "MSID_スレッダラウア",
+    "value": "Lames rubis"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダラウア",
     "value": "Lames rubis"
   },
   {
@@ -3192,7 +3524,15 @@
     "value": "Lames rubis +"
   },
   {
+    "key": "MSID_SEARCH_スレッダラウア＋",
+    "value": "Lames rubis +"
+  },
+  {
     "key": "MSID_ウルファラウア",
+    "value": "Crocs rubis"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファラウア",
     "value": "Crocs rubis"
   },
   {
@@ -3200,7 +3540,15 @@
     "value": "Crocs rubis +"
   },
   {
+    "key": "MSID_SEARCH_ウルファラウア＋",
+    "value": "Crocs rubis +"
+  },
+  {
     "key": "MSID_ナートラウア",
+    "value": "Serres rubis"
+  },
+  {
+    "key": "MSID_SEARCH_ナートラウア",
     "value": "Serres rubis"
   },
   {
@@ -3208,7 +3556,15 @@
     "value": "Serres rubis +"
   },
   {
+    "key": "MSID_SEARCH_ナートラウア＋",
+    "value": "Serres rubis +"
+  },
+  {
     "key": "MSID_ブリュンヒルデ",
+    "value": "Brynhildr"
+  },
+  {
+    "key": "MSID_SEARCH_ブリュンヒルデ",
     "value": "Brynhildr"
   },
   {
@@ -3216,7 +3572,15 @@
     "value": "Élivágar"
   },
   {
+    "key": "MSID_SEARCH_エリヴァーガル",
+    "value": "Elivagar"
+  },
+  {
     "key": "MSID_サンダー",
+    "value": "Foudre"
+  },
+  {
+    "key": "MSID_SEARCH_サンダー",
     "value": "Foudre"
   },
   {
@@ -3224,7 +3588,15 @@
     "value": "Éclair"
   },
   {
+    "key": "MSID_SEARCH_エルサンダー",
+    "value": "Eclair"
+  },
+  {
     "key": "MSID_トロン",
+    "value": "Thoron"
+  },
+  {
+    "key": "MSID_SEARCH_トロン",
     "value": "Thoron"
   },
   {
@@ -3232,7 +3604,15 @@
     "value": "Thoron +"
   },
   {
+    "key": "MSID_SEARCH_トロン＋",
+    "value": "Thoron +"
+  },
+  {
     "key": "MSID_スレッダブラー",
+    "value": "Lames saphir"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダブラー",
     "value": "Lames saphir"
   },
   {
@@ -3240,7 +3620,15 @@
     "value": "Lames saphir +"
   },
   {
+    "key": "MSID_SEARCH_スレッダブラー＋",
+    "value": "Lames saphir +"
+  },
+  {
     "key": "MSID_ウルファブラー",
+    "value": "Crocs saphir"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファブラー",
     "value": "Crocs saphir"
   },
   {
@@ -3248,7 +3636,15 @@
     "value": "Crocs saphir +"
   },
   {
+    "key": "MSID_SEARCH_ウルファブラー＋",
+    "value": "Crocs saphir +"
+  },
+  {
     "key": "MSID_ナートブラー",
+    "value": "Serres saphir"
+  },
+  {
+    "key": "MSID_SEARCH_ナートブラー",
     "value": "Serres saphir"
   },
   {
@@ -3256,7 +3652,15 @@
     "value": "Serres saphir +"
   },
   {
+    "key": "MSID_SEARCH_ナートブラー＋",
+    "value": "Serres saphir +"
+  },
+  {
     "key": "MSID_オーラ",
+    "value": "Aura"
+  },
+  {
+    "key": "MSID_SEARCH_オーラ",
     "value": "Aura"
   },
   {
@@ -3264,7 +3668,15 @@
     "value": "Valaskjálf"
   },
   {
+    "key": "MSID_SEARCH_ヴラスキャルヴ",
+    "value": "Valaskjalf"
+  },
+  {
     "key": "MSID_ウインド",
+    "value": "Vent"
+  },
+  {
+    "key": "MSID_SEARCH_ウインド",
     "value": "Vent"
   },
   {
@@ -3272,7 +3684,15 @@
     "value": "Tempête"
   },
   {
+    "key": "MSID_SEARCH_エルウインド",
+    "value": "Tempete"
+  },
+  {
     "key": "MSID_レクスカリバー",
+    "value": "Fimbulvetr"
+  },
+  {
+    "key": "MSID_SEARCH_レクスカリバー",
     "value": "Fimbulvetr"
   },
   {
@@ -3280,31 +3700,63 @@
     "value": "Fimbulvetr +"
   },
   {
+    "key": "MSID_SEARCH_レクスカリバー＋",
+    "value": "Fimbulvetr +"
+  },
+  {
     "key": "MSID_スレッダグラン",
     "value": "Lames émeraude"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダグラン",
+    "value": "Lames emeraude"
   },
   {
     "key": "MSID_スレッダグラン＋",
     "value": "L. émeraude +"
   },
   {
+    "key": "MSID_SEARCH_スレッダグラン＋",
+    "value": "L. emeraude +"
+  },
+  {
     "key": "MSID_ウルファグラン",
     "value": "Crocs émeraude"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファグラン",
+    "value": "Crocs emeraude"
   },
   {
     "key": "MSID_ウルファグラン＋",
     "value": "C. émeraude +"
   },
   {
+    "key": "MSID_SEARCH_ウルファグラン＋",
+    "value": "C. emeraude +"
+  },
+  {
     "key": "MSID_ナートグラン",
     "value": "Serres émeraude"
+  },
+  {
+    "key": "MSID_SEARCH_ナートグラン",
+    "value": "Serres emeraude"
   },
   {
     "key": "MSID_ナートグラン＋",
     "value": "S. émeraude +"
   },
   {
+    "key": "MSID_SEARCH_ナートグラン＋",
+    "value": "S. emeraude +"
+  },
+  {
     "key": "MSID_エクスカリバー",
+    "value": "Excalibur"
+  },
+  {
+    "key": "MSID_SEARCH_エクスカリバー",
     "value": "Excalibur"
   },
   {
@@ -3312,7 +3764,15 @@
     "value": "Assaut"
   },
   {
+    "key": "MSID_SEARCH_アサルト",
+    "value": "Assaut"
+  },
+  {
     "key": "MSID_アブゾーブ",
+    "value": "Vampirisme"
+  },
+  {
+    "key": "MSID_SEARCH_アブゾーブ",
     "value": "Vampirisme"
   },
   {
@@ -3320,7 +3780,15 @@
     "value": "Terreur"
   },
   {
+    "key": "MSID_SEARCH_フィアー",
+    "value": "Terreur"
+  },
+  {
     "key": "MSID_スロウ",
+    "value": "Lenteur"
+  },
+  {
+    "key": "MSID_SEARCH_スロウ",
     "value": "Lenteur"
   },
   {
@@ -3328,11 +3796,23 @@
     "value": "Gravité"
   },
   {
+    "key": "MSID_SEARCH_グラビティ",
+    "value": "Gravite"
+  },
+  {
     "key": "MSID_ペイン",
     "value": "Hémorragie"
   },
   {
+    "key": "MSID_SEARCH_ペイン",
+    "value": "Hemorragie"
+  },
+  {
     "key": "MSID_パニック",
+    "value": "Panique"
+  },
+  {
+    "key": "MSID_SEARCH_パニック",
     "value": "Panique"
   },
   {
@@ -3340,11 +3820,23 @@
     "value": "Souffle brûlant"
   },
   {
+    "key": "MSID_SEARCH_火のブレス",
+    "value": "Souffle brulant"
+  },
+  {
     "key": "MSID_火炎のブレス",
     "value": "Souffle brûlant +"
   },
   {
+    "key": "MSID_SEARCH_火炎のブレス",
+    "value": "Souffle brulant +"
+  },
+  {
     "key": "MSID_灼熱のブレス",
+    "value": "Pyrosouffle"
+  },
+  {
+    "key": "MSID_SEARCH_灼熱のブレス",
     "value": "Pyrosouffle"
   },
   {
@@ -3352,7 +3844,15 @@
     "value": "Pyrosouffle +"
   },
   {
+    "key": "MSID_SEARCH_灼熱のブレス＋",
+    "value": "Pyrosouffle +"
+  },
+  {
     "key": "MSID_光のブレス",
+    "value": "Souffle lumineux"
+  },
+  {
+    "key": "MSID_SEARCH_光のブレス",
     "value": "Souffle lumineux"
   },
   {
@@ -3360,7 +3860,15 @@
     "value": "S. lumineux +"
   },
   {
+    "key": "MSID_SEARCH_光のブレス＋",
+    "value": "S. lumineux +"
+  },
+  {
     "key": "MSID_闇のブレス",
+    "value": "Souffle sombre"
+  },
+  {
+    "key": "MSID_SEARCH_闇のブレス",
     "value": "Souffle sombre"
   },
   {
@@ -3368,15 +3876,31 @@
     "value": "Souffle sombre +"
   },
   {
+    "key": "MSID_SEARCH_闇のブレス＋",
+    "value": "Souffle sombre +"
+  },
+  {
     "key": "MSID_雷のブレス",
     "value": "Souffle électrique"
+  },
+  {
+    "key": "MSID_SEARCH_雷のブレス",
+    "value": "Souffle electrique"
   },
   {
     "key": "MSID_雷のブレス＋",
     "value": "S. électrique +"
   },
   {
+    "key": "MSID_SEARCH_雷のブレス＋",
+    "value": "S. electrique +"
+  },
+  {
     "key": "MSID_ライブ",
+    "value": "Soin"
+  },
+  {
+    "key": "MSID_SEARCH_ライブ",
     "value": "Soin"
   },
   {
@@ -3384,11 +3908,23 @@
     "value": "Cure"
   },
   {
+    "key": "MSID_SEARCH_リライブ",
+    "value": "Cure"
+  },
+  {
     "key": "MSID_リブロー",
     "value": "Remède"
   },
   {
+    "key": "MSID_SEARCH_リブロー",
+    "value": "Remede"
+  },
+  {
     "key": "MSID_リカバー",
+    "value": "Restitution"
+  },
+  {
+    "key": "MSID_SEARCH_リカバー",
     "value": "Restitution"
   },
   {
@@ -3396,7 +3932,15 @@
     "value": "Cercle vertueux"
   },
   {
+    "key": "MSID_SEARCH_ヒール",
+    "value": "Cercle vertueux"
+  },
+  {
     "key": "MSID_セインツ",
+    "value": "Cicatrisation"
+  },
+  {
+    "key": "MSID_SEARCH_セインツ",
     "value": "Cicatrisation"
   },
   {
@@ -3404,7 +3948,15 @@
     "value": "Rétablissement"
   },
   {
+    "key": "MSID_SEARCH_リバース",
+    "value": "Retablissement"
+  },
+  {
     "key": "MSID_入れ替え",
+    "value": "Inversion"
+  },
+  {
+    "key": "MSID_SEARCH_入れ替え",
     "value": "Inversion"
   },
   {
@@ -3412,7 +3964,15 @@
     "value": "Bousculade"
   },
   {
+    "key": "MSID_SEARCH_体当たり",
+    "value": "Bousculade"
+  },
+  {
     "key": "MSID_ぶちかまし",
+    "value": "Charge"
+  },
+  {
+    "key": "MSID_SEARCH_ぶちかまし",
     "value": "Charge"
   },
   {
@@ -3420,7 +3980,15 @@
     "value": "Repli"
   },
   {
+    "key": "MSID_SEARCH_引き寄せ",
+    "value": "Repli"
+  },
+  {
     "key": "MSID_引き戻し",
+    "value": "Pivot"
+  },
+  {
+    "key": "MSID_SEARCH_引き戻し",
     "value": "Pivot"
   },
   {
@@ -3428,7 +3996,15 @@
     "value": "Traversée"
   },
   {
+    "key": "MSID_SEARCH_回り込み",
+    "value": "Traversee"
+  },
+  {
     "key": "MSID_攻撃の応援",
+    "value": "Ralliement : Atq"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の応援",
     "value": "Ralliement : Atq"
   },
   {
@@ -3436,23 +4012,47 @@
     "value": "Ralliement : Vit"
   },
   {
+    "key": "MSID_SEARCH_速さの応援",
+    "value": "Ralliement : Vit"
+  },
+  {
     "key": "MSID_守備の応援",
     "value": "Ralliement : Déf"
+  },
+  {
+    "key": "MSID_SEARCH_守備の応援",
+    "value": "Ralliement : Def"
   },
   {
     "key": "MSID_魔防の応援",
     "value": "Ralliement : Rés"
   },
   {
+    "key": "MSID_SEARCH_魔防の応援",
+    "value": "Ralliement : Res"
+  },
+  {
     "key": "MSID_献身",
     "value": "Abnégation"
+  },
+  {
+    "key": "MSID_SEARCH_献身",
+    "value": "Abnegation"
   },
   {
     "key": "MSID_一喝",
     "value": "Ordre impérieux"
   },
   {
+    "key": "MSID_SEARCH_一喝",
+    "value": "Ordre imperieux"
+  },
+  {
     "key": "MSID_相互援助",
+    "value": "Interversion"
+  },
+  {
+    "key": "MSID_SEARCH_相互援助",
     "value": "Interversion"
   },
   {
@@ -3460,7 +4060,15 @@
     "value": "Chant"
   },
   {
+    "key": "MSID_SEARCH_歌う",
+    "value": "Chant"
+  },
+  {
     "key": "MSID_踊る",
+    "value": "Danse"
+  },
+  {
+    "key": "MSID_SEARCH_踊る",
     "value": "Danse"
   },
   {
@@ -3468,7 +4076,15 @@
     "value": "Éther"
   },
   {
+    "key": "MSID_SEARCH_天空",
+    "value": "Ether"
+  },
+  {
     "key": "MSID_星影",
+    "value": "Nocturne"
+  },
+  {
+    "key": "MSID_SEARCH_星影",
     "value": "Nocturne"
   },
   {
@@ -3476,7 +4092,15 @@
     "value": "Lueur"
   },
   {
+    "key": "MSID_SEARCH_凶星",
+    "value": "Lueur"
+  },
+  {
     "key": "MSID_流星",
+    "value": "Stellaire"
+  },
+  {
+    "key": "MSID_SEARCH_流星",
     "value": "Stellaire"
   },
   {
@@ -3484,11 +4108,23 @@
     "value": "Diurne"
   },
   {
+    "key": "MSID_SEARCH_陽影",
+    "value": "Diurne"
+  },
+  {
     "key": "MSID_夕陽",
     "value": "Zénith"
   },
   {
+    "key": "MSID_SEARCH_夕陽",
+    "value": "Zenith"
+  },
+  {
     "key": "MSID_太陽",
+    "value": "Solaire"
+  },
+  {
+    "key": "MSID_SEARCH_太陽",
     "value": "Solaire"
   },
   {
@@ -3496,7 +4132,15 @@
     "value": "Nouvelle lune"
   },
   {
+    "key": "MSID_SEARCH_影月",
+    "value": "Nouvelle lune"
+  },
+  {
     "key": "MSID_月虹",
+    "value": "Arc lunaire"
+  },
+  {
+    "key": "MSID_SEARCH_月虹",
     "value": "Arc lunaire"
   },
   {
@@ -3504,11 +4148,23 @@
     "value": "Lunaire"
   },
   {
+    "key": "MSID_SEARCH_月光",
+    "value": "Lunaire"
+  },
+  {
     "key": "MSID_雪辱",
     "value": "Rétribution"
   },
   {
+    "key": "MSID_SEARCH_雪辱",
+    "value": "Retribution"
+  },
+  {
     "key": "MSID_血讐",
+    "value": "Rancune"
+  },
+  {
+    "key": "MSID_SEARCH_血讐",
     "value": "Rancune"
   },
   {
@@ -3516,7 +4172,15 @@
     "value": "Vengeance"
   },
   {
+    "key": "MSID_SEARCH_復讐",
+    "value": "Vengeance"
+  },
+  {
     "key": "MSID_伏竜",
+    "value": "Œil du dragon"
+  },
+  {
+    "key": "MSID_SEARCH_伏竜",
     "value": "Œil du dragon"
   },
   {
@@ -3524,7 +4188,15 @@
     "value": "Aura draconique"
   },
   {
+    "key": "MSID_SEARCH_竜裂",
+    "value": "Aura draconique"
+  },
+  {
     "key": "MSID_竜穿",
+    "value": "Crocs du dragon"
+  },
+  {
+    "key": "MSID_SEARCH_竜穿",
     "value": "Crocs du dragon"
   },
   {
@@ -3532,7 +4204,15 @@
     "value": "Braise"
   },
   {
+    "key": "MSID_SEARCH_蛍火",
+    "value": "Braise"
+  },
+  {
     "key": "MSID_緋炎",
+    "value": "Feu de joie"
+  },
+  {
+    "key": "MSID_SEARCH_緋炎",
     "value": "Feu de joie"
   },
   {
@@ -3540,7 +4220,15 @@
     "value": "Ignition"
   },
   {
+    "key": "MSID_SEARCH_華炎",
+    "value": "Ignition"
+  },
+  {
     "key": "MSID_氷点",
+    "value": "Blizzard"
+  },
+  {
+    "key": "MSID_SEARCH_氷点",
     "value": "Blizzard"
   },
   {
@@ -3548,7 +4236,15 @@
     "value": "Iceberg"
   },
   {
+    "key": "MSID_SEARCH_氷蒼",
+    "value": "Iceberg"
+  },
+  {
     "key": "MSID_氷華",
+    "value": "Glacier"
+  },
+  {
+    "key": "MSID_SEARCH_氷華",
     "value": "Glacier"
   },
   {
@@ -3556,7 +4252,15 @@
     "value": "Feu naissant"
   },
   {
+    "key": "MSID_SEARCH_砕火",
+    "value": "Feu naissant"
+  },
+  {
     "key": "MSID_爆火",
+    "value": "Feu croissant"
+  },
+  {
+    "key": "MSID_SEARCH_爆火",
     "value": "Feu croissant"
   },
   {
@@ -3564,7 +4268,15 @@
     "value": "Feu déferlant"
   },
   {
+    "key": "MSID_SEARCH_烈火",
+    "value": "Feu deferlant"
+  },
+  {
     "key": "MSID_砕風",
+    "value": "Vent naissant"
+  },
+  {
+    "key": "MSID_SEARCH_砕風",
     "value": "Vent naissant"
   },
   {
@@ -3572,23 +4284,47 @@
     "value": "Vent croissant"
   },
   {
+    "key": "MSID_SEARCH_爆風",
+    "value": "Vent croissant"
+  },
+  {
     "key": "MSID_烈風",
     "value": "Vent déferlant"
+  },
+  {
+    "key": "MSID_SEARCH_烈風",
+    "value": "Vent deferlant"
   },
   {
     "key": "MSID_砕雷",
     "value": "Éclair naissant"
   },
   {
+    "key": "MSID_SEARCH_砕雷",
+    "value": "Eclair naissant"
+  },
+  {
     "key": "MSID_爆雷",
     "value": "Éclair croissant"
+  },
+  {
+    "key": "MSID_SEARCH_爆雷",
+    "value": "Eclair croissant"
   },
   {
     "key": "MSID_烈雷",
     "value": "Éclair déferlant"
   },
   {
+    "key": "MSID_SEARCH_烈雷",
+    "value": "Eclair deferlant"
+  },
+  {
     "key": "MSID_砕光",
+    "value": "Lueur naissante"
+  },
+  {
+    "key": "MSID_SEARCH_砕光",
     "value": "Lueur naissante"
   },
   {
@@ -3596,11 +4332,23 @@
     "value": "Lueur croissante"
   },
   {
+    "key": "MSID_SEARCH_爆光",
+    "value": "Lueur croissante"
+  },
+  {
     "key": "MSID_烈光",
     "value": "Lueur déferlante"
   },
   {
+    "key": "MSID_SEARCH_烈光",
+    "value": "Lueur deferlante"
+  },
+  {
     "key": "MSID_小盾",
+    "value": "Bouclier"
+  },
+  {
+    "key": "MSID_SEARCH_小盾",
     "value": "Bouclier"
   },
   {
@@ -3608,7 +4356,15 @@
     "value": "Écusson"
   },
   {
+    "key": "MSID_SEARCH_長盾",
+    "value": "Ecusson"
+  },
+  {
     "key": "MSID_大盾",
+    "value": "Pavois"
+  },
+  {
+    "key": "MSID_SEARCH_大盾",
     "value": "Pavois"
   },
   {
@@ -3616,7 +4372,15 @@
     "value": "Ornement"
   },
   {
+    "key": "MSID_SEARCH_聖衣",
+    "value": "Ornement"
+  },
+  {
     "key": "MSID_聖兜",
+    "value": "Mitre"
+  },
+  {
+    "key": "MSID_SEARCH_聖兜",
     "value": "Mitre"
   },
   {
@@ -3624,7 +4388,15 @@
     "value": "Égide"
   },
   {
+    "key": "MSID_SEARCH_聖盾",
+    "value": "Egide"
+  },
+  {
     "key": "MSID_祈り",
+    "value": "Miracle"
+  },
+  {
+    "key": "MSID_SEARCH_祈り",
     "value": "Miracle"
   },
   {
@@ -3632,7 +4404,15 @@
     "value": "Grâce"
   },
   {
+    "key": "MSID_SEARCH_治癒",
+    "value": "Grace"
+  },
+  {
     "key": "MSID_天照",
+    "value": "Rayonnement"
+  },
+  {
+    "key": "MSID_SEARCH_天照",
     "value": "Rayonnement"
   },
   {
@@ -3640,7 +4420,15 @@
     "value": "Baume ardent"
   },
   {
+    "key": "MSID_SEARCH_業火の祝福",
+    "value": "Baume ardent"
+  },
+  {
     "key": "MSID_疾風の祝福",
+    "value": "Baume vivifiant"
+  },
+  {
+    "key": "MSID_SEARCH_疾風の祝福",
     "value": "Baume vivifiant"
   },
   {
@@ -3648,7 +4436,15 @@
     "value": "Baume fortifiant"
   },
   {
+    "key": "MSID_SEARCH_大地の祝福",
+    "value": "Baume fortifiant"
+  },
+  {
     "key": "MSID_静水の祝福",
+    "value": "Baume apaisant"
+  },
+  {
+    "key": "MSID_SEARCH_静水の祝福",
     "value": "Baume apaisant"
   },
   {
@@ -3656,19 +4452,39 @@
     "value": "Élan victorieux"
   },
   {
+    "key": "MSID_SEARCH_疾風迅雷",
+    "value": "Elan victorieux"
+  },
+  {
     "key": "MSID_HP1",
     "value": "Confère PV +3."
+  },
+  {
+    "key": "MSID_SEARCH_HP1",
+    "value": "Confere PV +3."
   },
   {
     "key": "MSID_HP2",
     "value": "Confère PV +4."
   },
   {
+    "key": "MSID_SEARCH_HP2",
+    "value": "Confere PV +4."
+  },
+  {
     "key": "MSID_HP3",
     "value": "Confère PV +5."
   },
   {
+    "key": "MSID_SEARCH_HP3",
+    "value": "Confere PV +5."
+  },
+  {
     "key": "MSID_攻撃1",
+    "value": "Attaque +1"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃1",
     "value": "Attaque +1"
   },
   {
@@ -3676,7 +4492,15 @@
     "value": "Attaque +2"
   },
   {
+    "key": "MSID_SEARCH_攻撃2",
+    "value": "Attaque +2"
+  },
+  {
     "key": "MSID_攻撃3",
+    "value": "Attaque +3"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃3",
     "value": "Attaque +3"
   },
   {
@@ -3684,7 +4508,15 @@
     "value": "Vitesse +1"
   },
   {
+    "key": "MSID_SEARCH_速さ1",
+    "value": "Vitesse +1"
+  },
+  {
     "key": "MSID_速さ2",
+    "value": "Vitesse +2"
+  },
+  {
+    "key": "MSID_SEARCH_速さ2",
     "value": "Vitesse +2"
   },
   {
@@ -3692,31 +4524,63 @@
     "value": "Vitesse +3"
   },
   {
+    "key": "MSID_SEARCH_速さ3",
+    "value": "Vitesse +3"
+  },
+  {
     "key": "MSID_守備1",
     "value": "Défense +1"
+  },
+  {
+    "key": "MSID_SEARCH_守備1",
+    "value": "Defense +1"
   },
   {
     "key": "MSID_守備2",
     "value": "Défense +2"
   },
   {
+    "key": "MSID_SEARCH_守備2",
+    "value": "Defense +2"
+  },
+  {
     "key": "MSID_守備3",
     "value": "Défense +3"
+  },
+  {
+    "key": "MSID_SEARCH_守備3",
+    "value": "Defense +3"
   },
   {
     "key": "MSID_魔防1",
     "value": "Résistance +1"
   },
   {
+    "key": "MSID_SEARCH_魔防1",
+    "value": "Resistance +1"
+  },
+  {
     "key": "MSID_魔防2",
     "value": "Résistance +2"
+  },
+  {
+    "key": "MSID_SEARCH_魔防2",
+    "value": "Resistance +2"
   },
   {
     "key": "MSID_魔防3",
     "value": "Résistance +3"
   },
   {
+    "key": "MSID_SEARCH_魔防3",
+    "value": "Resistance +3"
+  },
+  {
     "key": "MSID_獅子奮迅1",
+    "value": "Furie 1"
+  },
+  {
+    "key": "MSID_SEARCH_獅子奮迅1",
     "value": "Furie 1"
   },
   {
@@ -3724,7 +4588,15 @@
     "value": "Furie 2"
   },
   {
+    "key": "MSID_SEARCH_獅子奮迅2",
+    "value": "Furie 2"
+  },
+  {
     "key": "MSID_獅子奮迅3",
+    "value": "Furie 3"
+  },
+  {
+    "key": "MSID_SEARCH_獅子奮迅3",
     "value": "Furie 3"
   },
   {
@@ -3732,7 +4604,15 @@
     "value": "Vivre et mourir 1"
   },
   {
+    "key": "MSID_SEARCH_死線1",
+    "value": "Vivre et mourir 1"
+  },
+  {
     "key": "MSID_死線2",
+    "value": "Vivre et mourir 2"
+  },
+  {
+    "key": "MSID_SEARCH_死線2",
     "value": "Vivre et mourir 2"
   },
   {
@@ -3740,7 +4620,15 @@
     "value": "Vivre et mourir 3"
   },
   {
+    "key": "MSID_SEARCH_死線3",
+    "value": "Vivre et mourir 3"
+  },
+  {
     "key": "MSID_鬼神の一撃1",
+    "value": "Coup fatal 1"
+  },
+  {
+    "key": "MSID_SEARCH_鬼神の一撃1",
     "value": "Coup fatal 1"
   },
   {
@@ -3748,7 +4636,15 @@
     "value": "Coup fatal 2"
   },
   {
+    "key": "MSID_SEARCH_鬼神の一撃2",
+    "value": "Coup fatal 2"
+  },
+  {
     "key": "MSID_鬼神の一撃3",
+    "value": "Coup fatal 3"
+  },
+  {
+    "key": "MSID_SEARCH_鬼神の一撃3",
     "value": "Coup fatal 3"
   },
   {
@@ -3756,7 +4652,15 @@
     "value": "Cp foudroyant 1"
   },
   {
+    "key": "MSID_SEARCH_飛燕の一撃1",
+    "value": "Cp foudroyant 1"
+  },
+  {
     "key": "MSID_飛燕の一撃2",
+    "value": "Cp foudroyant 2"
+  },
+  {
+    "key": "MSID_SEARCH_飛燕の一撃2",
     "value": "Cp foudroyant 2"
   },
   {
@@ -3764,19 +4668,39 @@
     "value": "Cp foudroyant 3"
   },
   {
+    "key": "MSID_SEARCH_飛燕の一撃3",
+    "value": "Cp foudroyant 3"
+  },
+  {
     "key": "MSID_金剛の一撃1",
     "value": "Coup blindé 1"
+  },
+  {
+    "key": "MSID_SEARCH_金剛の一撃1",
+    "value": "Coup blinde 1"
   },
   {
     "key": "MSID_金剛の一撃2",
     "value": "Coup blindé 2"
   },
   {
+    "key": "MSID_SEARCH_金剛の一撃2",
+    "value": "Coup blinde 2"
+  },
+  {
     "key": "MSID_金剛の一撃3",
     "value": "Coup blindé 3"
   },
   {
+    "key": "MSID_SEARCH_金剛の一撃3",
+    "value": "Coup blinde 3"
+  },
+  {
     "key": "MSID_明鏡の一撃1",
+    "value": "Coup gardien 1"
+  },
+  {
+    "key": "MSID_SEARCH_明鏡の一撃1",
     "value": "Coup gardien 1"
   },
   {
@@ -3784,7 +4708,15 @@
     "value": "Coup gardien 2"
   },
   {
+    "key": "MSID_SEARCH_明鏡の一撃2",
+    "value": "Coup gardien 2"
+  },
+  {
     "key": "MSID_明鏡の一撃3",
+    "value": "Coup gardien 3"
+  },
+  {
+    "key": "MSID_SEARCH_明鏡の一撃3",
     "value": "Coup gardien 3"
   },
   {
@@ -3792,51 +4724,103 @@
     "value": "Éveil Atq 1"
   },
   {
+    "key": "MSID_SEARCH_攻撃の覚醒1",
+    "value": "Eveil Atq 1"
+  },
+  {
     "key": "MSID_攻撃の覚醒2",
     "value": "Éveil Atq 2"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の覚醒2",
+    "value": "Eveil Atq 2"
   },
   {
     "key": "MSID_攻撃の覚醒3",
     "value": "Éveil Atq 3"
   },
   {
+    "key": "MSID_SEARCH_攻撃の覚醒3",
+    "value": "Eveil Atq 3"
+  },
+  {
     "key": "MSID_速さの覚醒1",
     "value": "Éveil Vit 1"
+  },
+  {
+    "key": "MSID_SEARCH_速さの覚醒1",
+    "value": "Eveil Vit 1"
   },
   {
     "key": "MSID_速さの覚醒2",
     "value": "Éveil Vit 2"
   },
   {
+    "key": "MSID_SEARCH_速さの覚醒2",
+    "value": "Eveil Vit 2"
+  },
+  {
     "key": "MSID_速さの覚醒3",
     "value": "Éveil Vit 3"
+  },
+  {
+    "key": "MSID_SEARCH_速さの覚醒3",
+    "value": "Eveil Vit 3"
   },
   {
     "key": "MSID_守備の覚醒1",
     "value": "Éveil Déf 1"
   },
   {
+    "key": "MSID_SEARCH_守備の覚醒1",
+    "value": "Eveil Def 1"
+  },
+  {
     "key": "MSID_守備の覚醒2",
     "value": "Éveil Déf 2"
+  },
+  {
+    "key": "MSID_SEARCH_守備の覚醒2",
+    "value": "Eveil Def 2"
   },
   {
     "key": "MSID_守備の覚醒3",
     "value": "Éveil Déf 3"
   },
   {
+    "key": "MSID_SEARCH_守備の覚醒3",
+    "value": "Eveil Def 3"
+  },
+  {
     "key": "MSID_魔防の覚醒1",
     "value": "Éveil Rés 1"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の覚醒1",
+    "value": "Eveil Res 1"
   },
   {
     "key": "MSID_魔防の覚醒2",
     "value": "Éveil Rés 2"
   },
   {
+    "key": "MSID_SEARCH_魔防の覚醒2",
+    "value": "Eveil Res 2"
+  },
+  {
     "key": "MSID_魔防の覚醒3",
     "value": "Éveil Rés 3"
   },
   {
+    "key": "MSID_SEARCH_魔防の覚醒3",
+    "value": "Eveil Res 3"
+  },
+  {
     "key": "MSID_相性激化1",
+    "value": "Triadepte 1"
+  },
+  {
+    "key": "MSID_SEARCH_相性激化1",
     "value": "Triadepte 1"
   },
   {
@@ -3844,7 +4828,15 @@
     "value": "Triadepte 2"
   },
   {
+    "key": "MSID_SEARCH_相性激化2",
+    "value": "Triadepte 2"
+  },
+  {
     "key": "MSID_相性激化3",
+    "value": "Triadepte 3"
+  },
+  {
+    "key": "MSID_SEARCH_相性激化3",
     "value": "Triadepte 3"
   },
   {
@@ -3852,7 +4844,15 @@
     "value": "Contre rapproché"
   },
   {
+    "key": "MSID_SEARCH_近距離反撃",
+    "value": "Contre rapproche"
+  },
+  {
     "key": "MSID_遠距離反撃",
+    "value": "Contre distant"
+  },
+  {
+    "key": "MSID_SEARCH_遠距離反撃",
     "value": "Contre distant"
   },
   {
@@ -3860,15 +4860,31 @@
     "value": "Écu de Svalinn"
   },
   {
+    "key": "MSID_SEARCH_スヴェルの盾",
+    "value": "Ecu de Svalinn"
+  },
+  {
     "key": "MSID_グラニの盾",
     "value": "Écu de Grani"
+  },
+  {
+    "key": "MSID_SEARCH_グラニの盾",
+    "value": "Ecu de Grani"
   },
   {
     "key": "MSID_アイオテの盾",
     "value": "Écu d'Iote"
   },
   {
+    "key": "MSID_SEARCH_アイオテの盾",
+    "value": "Ecu d'Iote"
+  },
+  {
     "key": "MSID_叩き込み",
+    "value": "Projection"
+  },
+  {
+    "key": "MSID_SEARCH_叩き込み",
     "value": "Projection"
   },
   {
@@ -3876,7 +4892,15 @@
     "value": "Bascule"
   },
   {
+    "key": "MSID_SEARCH_切り込み",
+    "value": "Bascule"
+  },
+  {
     "key": "MSID_引き込み",
+    "value": "Attraction"
+  },
+  {
+    "key": "MSID_SEARCH_引き込み",
     "value": "Attraction"
   },
   {
@@ -3884,7 +4908,15 @@
     "value": "Passage 1"
   },
   {
+    "key": "MSID_SEARCH_すり抜け1",
+    "value": "Passage 1"
+  },
+  {
     "key": "MSID_すり抜け2",
+    "value": "Passage 2"
+  },
+  {
+    "key": "MSID_SEARCH_すり抜け2",
     "value": "Passage 2"
   },
   {
@@ -3892,7 +4924,15 @@
     "value": "Passage 3"
   },
   {
+    "key": "MSID_SEARCH_すり抜け3",
+    "value": "Passage 3"
+  },
+  {
     "key": "MSID_進軍阻止1",
+    "value": "Obstruction 1"
+  },
+  {
+    "key": "MSID_SEARCH_進軍阻止1",
     "value": "Obstruction 1"
   },
   {
@@ -3900,7 +4940,15 @@
     "value": "Obstruction 2"
   },
   {
+    "key": "MSID_SEARCH_進軍阻止2",
+    "value": "Obstruction 2"
+  },
+  {
     "key": "MSID_進軍阻止3",
+    "value": "Obstruction 3"
+  },
+  {
+    "key": "MSID_SEARCH_進軍阻止3",
     "value": "Obstruction 3"
   },
   {
@@ -3908,7 +4956,15 @@
     "value": "Sauvetage 1"
   },
   {
+    "key": "MSID_SEARCH_救援の行路1",
+    "value": "Sauvetage 1"
+  },
+  {
     "key": "MSID_救援の行路2",
+    "value": "Sauvetage 2"
+  },
+  {
+    "key": "MSID_SEARCH_救援の行路2",
     "value": "Sauvetage 2"
   },
   {
@@ -3916,7 +4972,15 @@
     "value": "Sauvetage 3"
   },
   {
+    "key": "MSID_SEARCH_救援の行路3",
+    "value": "Sauvetage 3"
+  },
+  {
     "key": "MSID_離脱の行路1",
+    "value": "Escapade 1"
+  },
+  {
+    "key": "MSID_SEARCH_離脱の行路1",
     "value": "Escapade 1"
   },
   {
@@ -3924,7 +4988,15 @@
     "value": "Escapade 2"
   },
   {
+    "key": "MSID_SEARCH_離脱の行路2",
+    "value": "Escapade 2"
+  },
+  {
     "key": "MSID_離脱の行路3",
+    "value": "Escapade 3"
+  },
+  {
+    "key": "MSID_SEARCH_離脱の行路3",
     "value": "Escapade 3"
   },
   {
@@ -3932,7 +5004,15 @@
     "value": "Initiative 1"
   },
   {
+    "key": "MSID_SEARCH_待ち伏せ1",
+    "value": "Initiative 1"
+  },
+  {
     "key": "MSID_待ち伏せ2",
+    "value": "Initiative 2"
+  },
+  {
+    "key": "MSID_SEARCH_待ち伏せ2",
     "value": "Initiative 2"
   },
   {
@@ -3940,19 +5020,39 @@
     "value": "Initiative 3"
   },
   {
+    "key": "MSID_SEARCH_待ち伏せ3",
+    "value": "Initiative 3"
+  },
+  {
     "key": "MSID_攻め立て1",
     "value": "Adrénaline 1"
+  },
+  {
+    "key": "MSID_SEARCH_攻め立て1",
+    "value": "Adrenaline 1"
   },
   {
     "key": "MSID_攻め立て2",
     "value": "Adrénaline 2"
   },
   {
+    "key": "MSID_SEARCH_攻め立て2",
+    "value": "Adrenaline 2"
+  },
+  {
     "key": "MSID_攻め立て3",
     "value": "Adrénaline 3"
   },
   {
+    "key": "MSID_SEARCH_攻め立て3",
+    "value": "Adrenaline 3"
+  },
+  {
     "key": "MSID_差し違え1",
+    "value": "Casse-cou 1"
+  },
+  {
+    "key": "MSID_SEARCH_差し違え1",
     "value": "Casse-cou 1"
   },
   {
@@ -3960,7 +5060,15 @@
     "value": "Casse-cou 2"
   },
   {
+    "key": "MSID_SEARCH_差し違え2",
+    "value": "Casse-cou 2"
+  },
+  {
     "key": "MSID_差し違え3",
+    "value": "Casse-cou 3"
+  },
+  {
+    "key": "MSID_SEARCH_差し違え3",
     "value": "Casse-cou 3"
   },
   {
@@ -3968,7 +5076,15 @@
     "value": "Double riposte 1"
   },
   {
+    "key": "MSID_SEARCH_切り返し1",
+    "value": "Double riposte 1"
+  },
+  {
     "key": "MSID_切り返し2",
+    "value": "Double riposte 2"
+  },
+  {
+    "key": "MSID_SEARCH_切り返し2",
     "value": "Double riposte 2"
   },
   {
@@ -3976,55 +5092,111 @@
     "value": "Double riposte 3"
   },
   {
+    "key": "MSID_SEARCH_切り返し3",
+    "value": "Double riposte 3"
+  },
+  {
     "key": "MSID_守備隊形1",
     "value": "Méfiance 1"
+  },
+  {
+    "key": "MSID_SEARCH_守備隊形1",
+    "value": "Mefiance 1"
   },
   {
     "key": "MSID_守備隊形2",
     "value": "Méfiance 2"
   },
   {
+    "key": "MSID_SEARCH_守備隊形2",
+    "value": "Mefiance 2"
+  },
+  {
     "key": "MSID_守備隊形3",
     "value": "Méfiance 3"
+  },
+  {
+    "key": "MSID_SEARCH_守備隊形3",
+    "value": "Mefiance 3"
   },
   {
     "key": "MSID_蛇毒1",
     "value": "Frappe ciguë 1"
   },
   {
+    "key": "MSID_SEARCH_蛇毒1",
+    "value": "Frappe cigue 1"
+  },
+  {
     "key": "MSID_蛇毒2",
     "value": "Frappe ciguë 2"
+  },
+  {
+    "key": "MSID_SEARCH_蛇毒2",
+    "value": "Frappe cigue 2"
   },
   {
     "key": "MSID_蛇毒3",
     "value": "Frappe ciguë 3"
   },
   {
+    "key": "MSID_SEARCH_蛇毒3",
+    "value": "Frappe cigue 3"
+  },
+  {
     "key": "MSID_回復1",
     "value": "Guérison 1"
+  },
+  {
+    "key": "MSID_SEARCH_回復1",
+    "value": "Guerison 1"
   },
   {
     "key": "MSID_回復2",
     "value": "Guérison 2"
   },
   {
+    "key": "MSID_SEARCH_回復2",
+    "value": "Guerison 2"
+  },
+  {
     "key": "MSID_回復3",
     "value": "Guérison 3"
+  },
+  {
+    "key": "MSID_SEARCH_回復3",
+    "value": "Guerison 3"
   },
   {
     "key": "MSID_ご奉仕の喜び1",
     "value": "Dévotion 1"
   },
   {
+    "key": "MSID_SEARCH_ご奉仕の喜び1",
+    "value": "Devotion 1"
+  },
+  {
     "key": "MSID_ご奉仕の喜び2",
     "value": "Dévotion 2"
+  },
+  {
+    "key": "MSID_SEARCH_ご奉仕の喜び2",
+    "value": "Devotion 2"
   },
   {
     "key": "MSID_ご奉仕の喜び3",
     "value": "Dévotion 3"
   },
   {
+    "key": "MSID_SEARCH_ご奉仕の喜び3",
+    "value": "Devotion 3"
+  },
+  {
     "key": "MSID_攻撃封じ1",
+    "value": "Sceau Atq 1"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃封じ1",
     "value": "Sceau Atq 1"
   },
   {
@@ -4032,7 +5204,15 @@
     "value": "Sceau Atq 2"
   },
   {
+    "key": "MSID_SEARCH_攻撃封じ2",
+    "value": "Sceau Atq 2"
+  },
+  {
     "key": "MSID_攻撃封じ3",
+    "value": "Sceau Atq 3"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃封じ3",
     "value": "Sceau Atq 3"
   },
   {
@@ -4040,7 +5220,15 @@
     "value": "Sceau Vit 1"
   },
   {
+    "key": "MSID_SEARCH_速さ封じ1",
+    "value": "Sceau Vit 1"
+  },
+  {
     "key": "MSID_速さ封じ2",
+    "value": "Sceau Vit 2"
+  },
+  {
+    "key": "MSID_SEARCH_速さ封じ2",
     "value": "Sceau Vit 2"
   },
   {
@@ -4048,43 +5236,87 @@
     "value": "Sceau Vit 3"
   },
   {
+    "key": "MSID_SEARCH_速さ封じ3",
+    "value": "Sceau Vit 3"
+  },
+  {
     "key": "MSID_守備封じ1",
     "value": "Sceau Déf 1"
+  },
+  {
+    "key": "MSID_SEARCH_守備封じ1",
+    "value": "Sceau Def 1"
   },
   {
     "key": "MSID_守備封じ2",
     "value": "Sceau Déf 2"
   },
   {
+    "key": "MSID_SEARCH_守備封じ2",
+    "value": "Sceau Def 2"
+  },
+  {
     "key": "MSID_守備封じ3",
     "value": "Sceau Déf 3"
+  },
+  {
+    "key": "MSID_SEARCH_守備封じ3",
+    "value": "Sceau Def 3"
   },
   {
     "key": "MSID_魔防封じ1",
     "value": "Sceau Rés 1"
   },
   {
+    "key": "MSID_SEARCH_魔防封じ1",
+    "value": "Sceau Res 1"
+  },
+  {
     "key": "MSID_魔防封じ2",
     "value": "Sceau Rés 2"
+  },
+  {
+    "key": "MSID_SEARCH_魔防封じ2",
+    "value": "Sceau Res 2"
   },
   {
     "key": "MSID_魔防封じ3",
     "value": "Sceau Rés 3"
   },
   {
+    "key": "MSID_SEARCH_魔防封じ3",
+    "value": "Sceau Res 3"
+  },
+  {
     "key": "MSID_剣殺し1",
     "value": "Anti-épée 1"
+  },
+  {
+    "key": "MSID_SEARCH_剣殺し1",
+    "value": "Anti-epee 1"
   },
   {
     "key": "MSID_剣殺し2",
     "value": "Anti-épée 2"
   },
   {
+    "key": "MSID_SEARCH_剣殺し2",
+    "value": "Anti-epee 2"
+  },
+  {
     "key": "MSID_剣殺し3",
     "value": "Anti-épée 3"
   },
   {
+    "key": "MSID_SEARCH_剣殺し3",
+    "value": "Anti-epee 3"
+  },
+  {
     "key": "MSID_槍殺し1",
+    "value": "Anti-lance 1"
+  },
+  {
+    "key": "MSID_SEARCH_槍殺し1",
     "value": "Anti-lance 1"
   },
   {
@@ -4092,7 +5324,15 @@
     "value": "Anti-lance 2"
   },
   {
+    "key": "MSID_SEARCH_槍殺し2",
+    "value": "Anti-lance 2"
+  },
+  {
     "key": "MSID_槍殺し3",
+    "value": "Anti-lance 3"
+  },
+  {
+    "key": "MSID_SEARCH_槍殺し3",
     "value": "Anti-lance 3"
   },
   {
@@ -4100,7 +5340,15 @@
     "value": "Anti-hache 1"
   },
   {
+    "key": "MSID_SEARCH_斧殺し1",
+    "value": "Anti-hache 1"
+  },
+  {
     "key": "MSID_斧殺し2",
+    "value": "Anti-hache 2"
+  },
+  {
+    "key": "MSID_SEARCH_斧殺し2",
     "value": "Anti-hache 2"
   },
   {
@@ -4108,7 +5356,15 @@
     "value": "Anti-hache 3"
   },
   {
+    "key": "MSID_SEARCH_斧殺し3",
+    "value": "Anti-hache 3"
+  },
+  {
     "key": "MSID_弓殺し1",
+    "value": "Anti-arc 1"
+  },
+  {
+    "key": "MSID_SEARCH_弓殺し1",
     "value": "Anti-arc 1"
   },
   {
@@ -4116,7 +5372,15 @@
     "value": "Anti-arc 2"
   },
   {
+    "key": "MSID_SEARCH_弓殺し2",
+    "value": "Anti-arc 2"
+  },
+  {
     "key": "MSID_弓殺し3",
+    "value": "Anti-arc 3"
+  },
+  {
+    "key": "MSID_SEARCH_弓殺し3",
     "value": "Anti-arc 3"
   },
   {
@@ -4124,7 +5388,15 @@
     "value": "Anti-dague 1"
   },
   {
+    "key": "MSID_SEARCH_暗器殺し1",
+    "value": "Anti-dague 1"
+  },
+  {
     "key": "MSID_暗器殺し2",
+    "value": "Anti-dague 2"
+  },
+  {
+    "key": "MSID_SEARCH_暗器殺し2",
     "value": "Anti-dague 2"
   },
   {
@@ -4132,7 +5404,15 @@
     "value": "Anti-dague 3"
   },
   {
+    "key": "MSID_SEARCH_暗器殺し3",
+    "value": "Anti-dague 3"
+  },
+  {
     "key": "MSID_赤魔殺し1",
+    "value": "Anti-tome (R) 1"
+  },
+  {
+    "key": "MSID_SEARCH_赤魔殺し1",
     "value": "Anti-tome (R) 1"
   },
   {
@@ -4140,7 +5420,15 @@
     "value": "Anti-tome (R) 2"
   },
   {
+    "key": "MSID_SEARCH_赤魔殺し2",
+    "value": "Anti-tome (R) 2"
+  },
+  {
     "key": "MSID_赤魔殺し3",
+    "value": "Anti-tome (R) 3"
+  },
+  {
+    "key": "MSID_SEARCH_赤魔殺し3",
     "value": "Anti-tome (R) 3"
   },
   {
@@ -4148,7 +5436,15 @@
     "value": "Anti-tome (B) 1"
   },
   {
+    "key": "MSID_SEARCH_青魔殺し1",
+    "value": "Anti-tome (B) 1"
+  },
+  {
     "key": "MSID_青魔殺し2",
+    "value": "Anti-tome (B) 2"
+  },
+  {
+    "key": "MSID_SEARCH_青魔殺し2",
     "value": "Anti-tome (B) 2"
   },
   {
@@ -4156,7 +5452,15 @@
     "value": "Anti-tome (B) 3"
   },
   {
+    "key": "MSID_SEARCH_青魔殺し3",
+    "value": "Anti-tome (B) 3"
+  },
+  {
     "key": "MSID_緑魔殺し1",
+    "value": "Anti-tome (V) 1"
+  },
+  {
+    "key": "MSID_SEARCH_緑魔殺し1",
     "value": "Anti-tome (V) 1"
   },
   {
@@ -4164,7 +5468,15 @@
     "value": "Anti-tome (V) 2"
   },
   {
+    "key": "MSID_SEARCH_緑魔殺し2",
+    "value": "Anti-tome (V) 2"
+  },
+  {
     "key": "MSID_緑魔殺し3",
+    "value": "Anti-tome (V) 3"
+  },
+  {
+    "key": "MSID_SEARCH_緑魔殺し3",
     "value": "Anti-tome (V) 3"
   },
   {
@@ -4172,7 +5484,15 @@
     "value": "Souffle vital 1"
   },
   {
+    "key": "MSID_SEARCH_生の息吹1",
+    "value": "Souffle vital 1"
+  },
+  {
     "key": "MSID_生の息吹2",
+    "value": "Souffle vital 2"
+  },
+  {
+    "key": "MSID_SEARCH_生の息吹2",
     "value": "Souffle vital 2"
   },
   {
@@ -4180,7 +5500,15 @@
     "value": "Souffle vital 3"
   },
   {
+    "key": "MSID_SEARCH_生の息吹3",
+    "value": "Souffle vital 3"
+  },
+  {
     "key": "MSID_死の吐息1",
+    "value": "Coup sauvage 1"
+  },
+  {
+    "key": "MSID_SEARCH_死の吐息1",
     "value": "Coup sauvage 1"
   },
   {
@@ -4188,7 +5516,15 @@
     "value": "Coup sauvage 2"
   },
   {
+    "key": "MSID_SEARCH_死の吐息2",
+    "value": "Coup sauvage 2"
+  },
+  {
     "key": "MSID_死の吐息3",
+    "value": "Coup sauvage 3"
+  },
+  {
+    "key": "MSID_SEARCH_死の吐息3",
     "value": "Coup sauvage 3"
   },
   {
@@ -4196,7 +5532,15 @@
     "value": "Encens Atq 1"
   },
   {
+    "key": "MSID_SEARCH_攻撃の紋章1",
+    "value": "Encens Atq 1"
+  },
+  {
     "key": "MSID_攻撃の紋章2",
+    "value": "Encens Atq 2"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の紋章2",
     "value": "Encens Atq 2"
   },
   {
@@ -4204,7 +5548,15 @@
     "value": "Encens Atq 3"
   },
   {
+    "key": "MSID_SEARCH_攻撃の紋章3",
+    "value": "Encens Atq 3"
+  },
+  {
     "key": "MSID_速さの紋章1",
+    "value": "Encens Vit 1"
+  },
+  {
+    "key": "MSID_SEARCH_速さの紋章1",
     "value": "Encens Vit 1"
   },
   {
@@ -4212,7 +5564,15 @@
     "value": "Encens Vit 2"
   },
   {
+    "key": "MSID_SEARCH_速さの紋章2",
+    "value": "Encens Vit 2"
+  },
+  {
     "key": "MSID_速さの紋章3",
+    "value": "Encens Vit 3"
+  },
+  {
+    "key": "MSID_SEARCH_速さの紋章3",
     "value": "Encens Vit 3"
   },
   {
@@ -4220,27 +5580,55 @@
     "value": "Encens Déf 1"
   },
   {
+    "key": "MSID_SEARCH_守備の紋章1",
+    "value": "Encens Def 1"
+  },
+  {
     "key": "MSID_守備の紋章2",
     "value": "Encens Déf 2"
+  },
+  {
+    "key": "MSID_SEARCH_守備の紋章2",
+    "value": "Encens Def 2"
   },
   {
     "key": "MSID_守備の紋章3",
     "value": "Encens Déf 3"
   },
   {
+    "key": "MSID_SEARCH_守備の紋章3",
+    "value": "Encens Def 3"
+  },
+  {
     "key": "MSID_魔防の紋章1",
     "value": "Encens Rés 1"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の紋章1",
+    "value": "Encens Res 1"
   },
   {
     "key": "MSID_魔防の紋章2",
     "value": "Encens Rés 2"
   },
   {
+    "key": "MSID_SEARCH_魔防の紋章2",
+    "value": "Encens Res 2"
+  },
+  {
     "key": "MSID_魔防の紋章3",
     "value": "Encens Rés 3"
   },
   {
+    "key": "MSID_SEARCH_魔防の紋章3",
+    "value": "Encens Res 3"
+  },
+  {
     "key": "MSID_重刃の紋章",
+    "value": "Sursaut (Cuira.)"
+  },
+  {
+    "key": "MSID_SEARCH_重刃の紋章",
     "value": "Sursaut (Cuira.)"
   },
   {
@@ -4248,7 +5636,15 @@
     "value": "Vigilance (Cuira.)"
   },
   {
+    "key": "MSID_SEARCH_重盾の紋章",
+    "value": "Vigilance (Cuira.)"
+  },
+  {
     "key": "MSID_騎刃の紋章",
+    "value": "Sursaut (Cav.)"
+  },
+  {
+    "key": "MSID_SEARCH_騎刃の紋章",
     "value": "Sursaut (Cav.)"
   },
   {
@@ -4256,7 +5652,15 @@
     "value": "Vigilance (Cav.)"
   },
   {
+    "key": "MSID_SEARCH_騎盾の紋章",
+    "value": "Vigilance (Cav.)"
+  },
+  {
     "key": "MSID_飛刃の紋章",
+    "value": "Sursaut (Vol)"
+  },
+  {
+    "key": "MSID_SEARCH_飛刃の紋章",
     "value": "Sursaut (Vol)"
   },
   {
@@ -4264,7 +5668,15 @@
     "value": "Vigilance (Vol)"
   },
   {
+    "key": "MSID_SEARCH_飛盾の紋章",
+    "value": "Vigilance (Vol)"
+  },
+  {
     "key": "MSID_攻撃の鼓舞1",
+    "value": "Impulsion Atq 1"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の鼓舞1",
     "value": "Impulsion Atq 1"
   },
   {
@@ -4272,7 +5684,15 @@
     "value": "Impulsion Atq 2"
   },
   {
+    "key": "MSID_SEARCH_攻撃の鼓舞2",
+    "value": "Impulsion Atq 2"
+  },
+  {
     "key": "MSID_攻撃の鼓舞3",
+    "value": "Impulsion Atq 3"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の鼓舞3",
     "value": "Impulsion Atq 3"
   },
   {
@@ -4280,7 +5700,15 @@
     "value": "Impulsion Vit 1"
   },
   {
+    "key": "MSID_SEARCH_速さの鼓舞1",
+    "value": "Impulsion Vit 1"
+  },
+  {
     "key": "MSID_速さの鼓舞2",
+    "value": "Impulsion Vit 2"
+  },
+  {
+    "key": "MSID_SEARCH_速さの鼓舞2",
     "value": "Impulsion Vit 2"
   },
   {
@@ -4288,35 +5716,71 @@
     "value": "Impulsion Vit 3"
   },
   {
+    "key": "MSID_SEARCH_速さの鼓舞3",
+    "value": "Impulsion Vit 3"
+  },
+  {
     "key": "MSID_守備の鼓舞1",
     "value": "Impulsion Déf 1"
+  },
+  {
+    "key": "MSID_SEARCH_守備の鼓舞1",
+    "value": "Impulsion Def 1"
   },
   {
     "key": "MSID_守備の鼓舞2",
     "value": "Impulsion Déf 2"
   },
   {
+    "key": "MSID_SEARCH_守備の鼓舞2",
+    "value": "Impulsion Def 2"
+  },
+  {
     "key": "MSID_守備の鼓舞3",
     "value": "Impulsion Déf 3"
+  },
+  {
+    "key": "MSID_SEARCH_守備の鼓舞3",
+    "value": "Impulsion Def 3"
   },
   {
     "key": "MSID_魔防の鼓舞1",
     "value": "Impulsion Rés 1"
   },
   {
+    "key": "MSID_SEARCH_魔防の鼓舞1",
+    "value": "Impulsion Res 1"
+  },
+  {
     "key": "MSID_魔防の鼓舞2",
     "value": "Impulsion Rés 2"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の鼓舞2",
+    "value": "Impulsion Res 2"
   },
   {
     "key": "MSID_魔防の鼓舞3",
     "value": "Impulsion Rés 3"
   },
   {
+    "key": "MSID_SEARCH_魔防の鼓舞3",
+    "value": "Impulsion Res 3"
+  },
+  {
     "key": "MSID_重刃の鼓舞",
     "value": "Élan (Cuirassés)"
   },
   {
+    "key": "MSID_SEARCH_重刃の鼓舞",
+    "value": "Elan (Cuirasses)"
+  },
+  {
     "key": "MSID_重盾の鼓舞",
+    "value": "Prudence (Cuira.)"
+  },
+  {
+    "key": "MSID_SEARCH_重盾の鼓舞",
     "value": "Prudence (Cuira.)"
   },
   {
@@ -4324,7 +5788,15 @@
     "value": "Élan (Cavalerie)"
   },
   {
+    "key": "MSID_SEARCH_騎刃の鼓舞",
+    "value": "Elan (Cavalerie)"
+  },
+  {
     "key": "MSID_騎盾の鼓舞",
+    "value": "Prudence (Cav.)"
+  },
+  {
+    "key": "MSID_SEARCH_騎盾の鼓舞",
     "value": "Prudence (Cav.)"
   },
   {
@@ -4332,7 +5804,15 @@
     "value": "Élan (Vol)"
   },
   {
+    "key": "MSID_SEARCH_飛刃の鼓舞",
+    "value": "Elan (Vol)"
+  },
+  {
     "key": "MSID_飛盾の鼓舞",
+    "value": "Prudence (Vol)"
+  },
+  {
+    "key": "MSID_SEARCH_飛盾の鼓舞",
     "value": "Prudence (Vol)"
   },
   {
@@ -4340,48 +5820,96 @@
     "value": "Atq réduite 1"
   },
   {
+    "key": "MSID_SEARCH_攻撃の威嚇1",
+    "value": "Atq reduite 1"
+  },
+  {
     "key": "MSID_攻撃の威嚇2",
     "value": "Atq réduite 2"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の威嚇2",
+    "value": "Atq reduite 2"
   },
   {
     "key": "MSID_攻撃の威嚇3",
     "value": "Atq réduite 3"
   },
   {
+    "key": "MSID_SEARCH_攻撃の威嚇3",
+    "value": "Atq reduite 3"
+  },
+  {
     "key": "MSID_速さの威嚇1",
     "value": "Vit réduite 1"
+  },
+  {
+    "key": "MSID_SEARCH_速さの威嚇1",
+    "value": "Vit reduite 1"
   },
   {
     "key": "MSID_速さの威嚇2",
     "value": "Vit réduite 2"
   },
   {
+    "key": "MSID_SEARCH_速さの威嚇2",
+    "value": "Vit reduite 2"
+  },
+  {
     "key": "MSID_速さの威嚇3",
     "value": "Vit réduite 3"
+  },
+  {
+    "key": "MSID_SEARCH_速さの威嚇3",
+    "value": "Vit reduite 3"
   },
   {
     "key": "MSID_守備の威嚇1",
     "value": "Déf réduite 1"
   },
   {
+    "key": "MSID_SEARCH_守備の威嚇1",
+    "value": "Def reduite 1"
+  },
+  {
     "key": "MSID_守備の威嚇2",
     "value": "Déf réduite 2"
+  },
+  {
+    "key": "MSID_SEARCH_守備の威嚇2",
+    "value": "Def reduite 2"
   },
   {
     "key": "MSID_守備の威嚇3",
     "value": "Déf réduite 3"
   },
   {
+    "key": "MSID_SEARCH_守備の威嚇3",
+    "value": "Def reduite 3"
+  },
+  {
     "key": "MSID_魔防の威嚇1",
     "value": "Rés réduite 1"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の威嚇1",
+    "value": "Res reduite 1"
   },
   {
     "key": "MSID_魔防の威嚇2",
     "value": "Rés réduite 2"
   },
   {
+    "key": "MSID_SEARCH_魔防の威嚇2",
+    "value": "Res reduite 2"
+  },
+  {
     "key": "MSID_魔防の威嚇3",
     "value": "Rés réduite 3"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の威嚇3",
+    "value": "Res reduite 3"
   },
   {
     "key": "MSID_H_鉄の剣",

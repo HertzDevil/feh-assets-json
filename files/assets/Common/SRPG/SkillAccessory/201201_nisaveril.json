@@ -1,5 +1,608 @@
 [
   {
+    "id_tag": "SID_死線1",
+    "next_seal": "SID_死線2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 1,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_死線2",
+    "next_seal": "SID_死線3",
+    "prev_seal": "SID_死線1",
+    "ss_coin": 50,
+    "ss_badge_type": 1,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_死線3",
+    "next_seal": null,
+    "prev_seal": "SID_死線2",
+    "ss_coin": 100,
+    "ss_badge_type": 1,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_金剛の呼吸",
+    "next_seal": null,
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_飛燕金剛の一撃1",
+    "next_seal": "SID_飛燕金剛の一撃2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_飛燕金剛の一撃2",
+    "next_seal": null,
+    "prev_seal": "SID_飛燕金剛の一撃1",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_金剛明鏡の一撃1",
+    "next_seal": "SID_金剛明鏡の一撃2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_金剛明鏡の一撃2",
+    "next_seal": null,
+    "prev_seal": "SID_金剛明鏡の一撃1",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_竜盾の紋章",
+    "next_seal": null,
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃守備の紋章1",
+    "next_seal": "SID_攻撃守備の紋章2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃守備の紋章2",
+    "next_seal": null,
+    "prev_seal": "SID_攻撃守備の紋章1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_歩行の剛撃1",
+    "next_seal": "SID_歩行の剛撃2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_歩行の剛撃2",
+    "next_seal": "SID_歩行の剛撃3",
+    "prev_seal": "SID_歩行の剛撃1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_歩行の剛撃3",
+    "next_seal": null,
+    "prev_seal": "SID_歩行の剛撃2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_金剛明鏡の構え1",
+    "next_seal": "SID_金剛明鏡の構え2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_金剛明鏡の構え2",
+    "next_seal": null,
+    "prev_seal": "SID_金剛明鏡の構え1",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_守備の波・奇数1",
+    "next_seal": "SID_守備の波・奇数2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_守備の波・奇数2",
+    "next_seal": "SID_守備の波・奇数3",
+    "prev_seal": "SID_守備の波・奇数1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_守備の波・奇数3",
+    "next_seal": null,
+    "prev_seal": "SID_守備の波・奇数2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_攻撃魔防の孤軍1",
+    "next_seal": "SID_攻撃魔防の孤軍2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃魔防の孤軍2",
+    "next_seal": "SID_攻撃魔防の孤軍3",
+    "prev_seal": "SID_攻撃魔防の孤軍1",
+    "ss_coin": 50,
+    "ss_badge_type": 3,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_攻撃魔防の孤軍3",
+    "next_seal": null,
+    "prev_seal": "SID_攻撃魔防の孤軍2",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_守備魔防の城塞1",
+    "next_seal": "SID_守備魔防の城塞2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_守備魔防の城塞2",
+    "next_seal": null,
+    "prev_seal": "SID_守備魔防の城塞1",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_攻撃速さの孤軍1",
+    "next_seal": "SID_攻撃速さの孤軍2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 1,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃速さの孤軍2",
+    "next_seal": "SID_攻撃速さの孤軍3",
+    "prev_seal": "SID_攻撃速さの孤軍1",
+    "ss_coin": 50,
+    "ss_badge_type": 1,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_攻撃速さの孤軍3",
+    "next_seal": null,
+    "prev_seal": "SID_攻撃速さの孤軍2",
+    "ss_coin": 100,
+    "ss_badge_type": 1,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_生命の護符1",
+    "next_seal": "SID_生命の護符2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_生命の護符2",
+    "next_seal": "SID_生命の護符3",
+    "prev_seal": "SID_生命の護符1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_生命の護符3",
+    "next_seal": null,
+    "prev_seal": "SID_生命の護符2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_速さの開放1",
+    "next_seal": "SID_速さの開放2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 1,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_速さの開放2",
+    "next_seal": "SID_速さの開放3",
+    "prev_seal": "SID_速さの開放1",
+    "ss_coin": 50,
+    "ss_badge_type": 1,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_速さの開放3",
+    "next_seal": null,
+    "prev_seal": "SID_速さの開放2",
+    "ss_coin": 100,
+    "ss_badge_type": 1,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_先導の伝令・天1",
+    "next_seal": "SID_先導の伝令・天2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 0,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_先導の伝令・天2",
+    "next_seal": "SID_先導の伝令・天3",
+    "prev_seal": "SID_先導の伝令・天1",
+    "ss_coin": 50,
+    "ss_badge_type": 0,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_先導の伝令・天3",
+    "next_seal": null,
+    "prev_seal": "SID_先導の伝令・天2",
+    "ss_coin": 100,
+    "ss_badge_type": 0,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_守備魔防の孤軍1",
+    "next_seal": "SID_守備魔防の孤軍2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_守備魔防の孤軍2",
+    "next_seal": "SID_守備魔防の孤軍3",
+    "prev_seal": "SID_守備魔防の孤軍1",
+    "ss_coin": 50,
+    "ss_badge_type": 3,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_守備魔防の孤軍3",
+    "next_seal": null,
+    "prev_seal": "SID_守備魔防の孤軍2",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_魔防の開放1",
+    "next_seal": "SID_魔防の開放2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_魔防の開放2",
+    "next_seal": "SID_魔防の開放3",
+    "prev_seal": "SID_魔防の開放1",
+    "ss_coin": 50,
+    "ss_badge_type": 3,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_魔防の開放3",
+    "next_seal": null,
+    "prev_seal": "SID_魔防の開放2",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_獣盾の紋章",
+    "next_seal": null,
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃守備の渾身1",
+    "next_seal": "SID_攻撃守備の渾身2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃守備の渾身2",
+    "next_seal": "SID_攻撃守備の渾身3",
+    "prev_seal": "SID_攻撃守備の渾身1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_攻撃守備の渾身3",
+    "next_seal": null,
+    "prev_seal": "SID_攻撃守備の渾身2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_速さ守備の孤軍1",
+    "next_seal": "SID_速さ守備の孤軍2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_速さ守備の孤軍2",
+    "next_seal": "SID_速さ守備の孤軍3",
+    "prev_seal": "SID_速さ守備の孤軍1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_速さ守備の孤軍3",
+    "next_seal": null,
+    "prev_seal": "SID_速さ守備の孤軍2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_速さ守備の大覚醒1",
+    "next_seal": "SID_速さ守備の大覚醒2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_速さ守備の大覚醒2",
+    "next_seal": "SID_速さ守備の大覚醒3",
+    "prev_seal": "SID_速さ守備の大覚醒1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_速さ守備の大覚醒3",
+    "next_seal": null,
+    "prev_seal": "SID_速さ守備の大覚醒2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_攻撃守備の密集1",
+    "next_seal": "SID_攻撃守備の密集2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 2,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃守備の密集2",
+    "next_seal": "SID_攻撃守備の密集3",
+    "prev_seal": "SID_攻撃守備の密集1",
+    "ss_coin": 50,
+    "ss_badge_type": 2,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_攻撃守備の密集3",
+    "next_seal": null,
+    "prev_seal": "SID_攻撃守備の密集2",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_刃のセッション1",
+    "next_seal": "SID_刃のセッション2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 0,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_刃のセッション2",
+    "next_seal": "SID_刃のセッション3",
+    "prev_seal": "SID_刃のセッション1",
+    "ss_coin": 50,
+    "ss_badge_type": 0,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_刃のセッション3",
+    "next_seal": null,
+    "prev_seal": "SID_刃のセッション2",
+    "ss_coin": 100,
+    "ss_badge_type": 0,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_盾のセッション1",
+    "next_seal": "SID_盾のセッション2",
+    "prev_seal": null,
+    "ss_coin": 40,
+    "ss_badge_type": 1,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_盾のセッション2",
+    "next_seal": "SID_盾のセッション3",
+    "prev_seal": "SID_盾のセッション1",
+    "ss_coin": 50,
+    "ss_badge_type": 1,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_盾のセッション3",
+    "next_seal": null,
+    "prev_seal": "SID_盾のセッション2",
+    "ss_coin": 100,
+    "ss_badge_type": 1,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_速さ魔防の密集1",
+    "next_seal": "SID_速さ魔防の密集2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_速さ魔防の密集2",
+    "next_seal": "SID_速さ魔防の密集3",
+    "prev_seal": "SID_速さ魔防の密集1",
+    "ss_coin": 50,
+    "ss_badge_type": 3,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_速さ魔防の密集3",
+    "next_seal": null,
+    "prev_seal": "SID_速さ魔防の密集2",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_攻撃魔防の密集1",
+    "next_seal": "SID_攻撃魔防の密集2",
+    "prev_seal": null,
+    "ss_coin": 20,
+    "ss_badge_type": 3,
+    "ss_badge": 100,
+    "ss_great_badge": 20
+  },
+  {
+    "id_tag": "SID_攻撃魔防の密集2",
+    "next_seal": "SID_攻撃魔防の密集3",
+    "prev_seal": "SID_攻撃魔防の密集1",
+    "ss_coin": 50,
+    "ss_badge_type": 3,
+    "ss_badge": 200,
+    "ss_great_badge": 60
+  },
+  {
+    "id_tag": "SID_攻撃魔防の密集3",
+    "next_seal": null,
+    "prev_seal": "SID_攻撃魔防の密集2",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
     "id_tag": "SID_第41迷宮の覇者1",
     "next_seal": "SID_第41迷宮の覇者2",
     "prev_seal": null,
@@ -14,6 +617,222 @@
     "prev_seal": "SID_第41迷宮の覇者1",
     "ss_coin": 100,
     "ss_badge_type": 0,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第42迷宮の覇者1",
+    "next_seal": "SID_第42迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第42迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第42迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 1,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_ニザヴェリルの理",
+    "next_seal": null,
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第43迷宮の覇者1",
+    "next_seal": "SID_第43迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第43迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第43迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第44迷宮の覇者1",
+    "next_seal": "SID_第44迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第44迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第44迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第45迷宮の覇者1",
+    "next_seal": "SID_第45迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第45迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第45迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 1,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第46迷宮の覇者1",
+    "next_seal": "SID_第46迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第46迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第46迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第47迷宮の覇者1",
+    "next_seal": "SID_第47迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第47迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第47迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_グリンブルスティ",
+    "next_seal": null,
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第48迷宮の覇者1",
+    "next_seal": "SID_第48迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第48迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第48迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 2,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第49迷宮の覇者1",
+    "next_seal": "SID_第49迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第49迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第49迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第50迷宮の覇者1",
+    "next_seal": "SID_第50迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第50迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第50迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 3,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第51迷宮の覇者1",
+    "next_seal": "SID_第51迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第51迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第51迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 0,
+    "ss_badge": 1000,
+    "ss_great_badge": 400
+  },
+  {
+    "id_tag": "SID_第52迷宮の覇者1",
+    "next_seal": "SID_第52迷宮の覇者2",
+    "prev_seal": null,
+    "ss_coin": 0,
+    "ss_badge_type": 0,
+    "ss_badge": 0,
+    "ss_great_badge": 0
+  },
+  {
+    "id_tag": "SID_第52迷宮の覇者2",
+    "next_seal": null,
+    "prev_seal": "SID_第52迷宮の覇者1",
+    "ss_coin": 100,
+    "ss_badge_type": 1,
     "ss_badge": 1000,
     "ss_great_badge": 400
   }
