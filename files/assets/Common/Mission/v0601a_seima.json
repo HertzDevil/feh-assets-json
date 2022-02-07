@@ -213,7 +213,7 @@
     },
     "difficulties": 1,
     "sort_id": 20,
-    "id_num": 4496,
+    "id_num": 4507,
     "feh_pass_only": false
   },
   {
@@ -317,7 +317,7 @@
     },
     "difficulties": 1,
     "sort_id": 3,
-    "id_num": 4497,
+    "id_num": 4508,
     "feh_pass_only": false
   },
   {
@@ -577,7 +577,7 @@
     },
     "difficulties": 1,
     "sort_id": 99,
-    "id_num": 4498,
+    "id_num": 4509,
     "feh_pass_only": true
   },
   {
@@ -835,7 +835,7 @@
     },
     "difficulties": 1,
     "sort_id": 3,
-    "id_num": 4499,
+    "id_num": 4510,
     "feh_pass_only": false
   },
   {
@@ -1093,7 +1093,7 @@
     },
     "difficulties": 1,
     "sort_id": 3,
-    "id_num": 4500,
+    "id_num": 4511,
     "feh_pass_only": false
   },
   {
@@ -1351,7 +1351,7 @@
     },
     "difficulties": 1,
     "sort_id": 3,
-    "id_num": 4501,
+    "id_num": 4512,
     "feh_pass_only": false
   },
   {
@@ -1939,7 +1939,7 @@
     },
     "difficulties": 1,
     "sort_id": 30,
-    "id_num": 4502,
+    "id_num": 4513,
     "feh_pass_only": false
   },
   {
@@ -2043,7 +2043,7 @@
     },
     "difficulties": 1,
     "sort_id": 3,
-    "id_num": 4503,
+    "id_num": 4514,
     "feh_pass_only": false
   },
   {
@@ -2143,7 +2143,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4504,
+    "id_num": 4515,
     "feh_pass_only": false
   },
   {
@@ -2243,7 +2243,107 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4505,
+    "id_num": 4516,
+    "feh_pass_only": false
+  },
+  {
+    "id_tag": "WEEK_ARENA04B_002",
+    "title": "WEEK_ARENA04B_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "WEEK_ARENA04B_002_A1",
+            "common_id": "WEEK_ARENA04B_A1",
+            "times": 1,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 23,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 23,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA04B_002_A2",
+            "common_id": "WEEK_ARENA04B_A2",
+            "times": 1,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 19,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 19,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 2
+      }
+    ],
+    "avail": {
+      "start": "2022-02-08T07:00:00Z",
+      "finish": "2022-02-15T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 8,
+    "id_num": 4517,
     "feh_pass_only": false
   }
 ]
