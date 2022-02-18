@@ -853,7 +853,7 @@
   },
   {
     "key": "MSID_H_疾風の暗器R",
-    "value": "Al inicio del ataque, si la unidad tiene PV ≥ 25 %,\nobtiene Ata y Vel + 5 durante el enfrentamiento\ny, si supera la velocidad del rival en un punto o\nmás, reduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar las\nefectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 3 (hasta un máximo\ndel 30 %), y la unidad inflige + 5 de daño.\n(Solo se aplica el valor más alto. No acumulable.)"
+    "value": "Al inicio del ataque, si la unidad tiene PV ≥ 25 %,\nobtiene Ata y Vel + 5 durante el enfrentamiento\ny, si supera la velocidad del rival en un punto o\nmás, reduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar las\nefectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 3 (hasta un máximo\ndel 30 %), y la unidad inflige + 5 de daño,\nincluso cuando se inflige daño al ejecutar\nuna habilidad especial activada antes del\nenfrentamiento."
   },
   {
     "key": "MSID_H_純理の書R",
@@ -873,7 +873,7 @@
   },
   {
     "key": "MSID_H_夢幻の書R",
-    "value": "Al inicio de un ataque, si la unidad tiene\nPV ≥ 25 %, obtiene Ata y Vel + 5 durante\nel enfrentamiento e inflige un 15 % del Ata\nde la unidad como daño adicional.\n(Solo se aplica el valor más alto. No acumulable.)"
+    "value": "Al inicio de un ataque, si la unidad tiene\nPV ≥ 25 %, obtiene Ata y Vel + 5 durante\nel enfrentamiento e inflige un 15 % del Ata\nde la unidad como daño adicional, incluso\ncuando se inflige daño al ejecutar una habilidad\nespecial activada antes del enfrentamiento."
   },
   {
     "key": "MSID_H_凍結の封印・承",
@@ -949,7 +949,7 @@
   },
   {
     "key": "MSID_H_比翼クロム",
-    "value": "$aInflige Ata, Vel, Def y Res - 5 a la unidad y a los\naliados en un radio de dos casillas de esta en\nsu próxima acción y otorga【Gran estrategia】a\nesas unidades.\n\nOtorga el siguiente efecto a la unidad durante\nel resto del turno: \"el rival no podrá ejecutar\nun ataque doble\".\n\n【Gran estrategia】\nAta, Vel, Def y Res de la unidad aumentan\nen combate tanto como la penalización actual\nde cada atributo x 2. (Por ejemplo, si la unidad\ntiene una penalización de Ata - 7, recibe\nAta + 14, por lo que la bonificación final\nes de Ata + 7.) Cada mejora se aplica\npor separado.\n\nLos efectos negativos de la unidad que duren\nhasta el final del próximo turno de la unidad\nseguirán activos hasta que este estado\n(Gran estrategia) se anule."
+    "value": "$aInflige Ata, Vel, Def y Res - 5 a la unidad y a los\naliados en un radio de dos casillas de esta en\nsu próxima acción y otorga【Gran estrategia】a\nesas unidades.\n\nOtorga el siguiente efecto a la unidad durante\nel resto del turno: \"el rival no podrá ejecutar\nun ataque doble\".\n\n【Gran estrategia】\nAta, Vel, Def y Res de la unidad aumentan\nen combate tanto como la penalización actual\nde cada atributo × 2 durante el resto del turno.\n(Por ejemplo, si la unidad tiene una\npenalización de Ata - 7, recibe Ata + 14,\npor lo que la bonificación final es de Ata + 7.)\nCada mejora se aplica por separado.\n\nLos efectos negativos de la unidad que duren\nhasta el final del próximo turno de la unidad\nseguirán activos hasta que este estado\n(Gran estrategia) se anule."
   },
   {
     "key": "MSID_H_ギョッル改",

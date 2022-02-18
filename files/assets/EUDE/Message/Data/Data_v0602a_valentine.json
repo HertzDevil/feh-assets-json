@@ -853,7 +853,7 @@
   },
   {
     "key": "MSID_H_疾風の暗器R",
-    "value": "Sind die KP der Einheit zu Beginn des Kampfes\n≥ 25 %, erhält sie im Kampf Angr./Ges. +5. Ist\naußerdem Ges. der Einheit > Ges. des Gegners,\nwird der erlittene Schaden durch Angriffe im\nKampf und durch Spezialangriffe mit\nFlächenwirkung (außer Spezialangriffe mit\nFlächenwirkung von Røkkr) um X % verringert\n(X = Wertunterschied x 3, maximal 30) und die\nEinheit verursacht +5 Schaden. (Bei mehreren\nähnlichen Effekten wird nur der höchste\nangewandt.)"
+    "value": "Sind die KP der Einheit zu Beginn des Kampfes\n≥ 25 %, erhält sie im Kampf Angr./Ges. +5. Ist\naußerdem Ges. der Einheit > Ges. des Gegners,\nwird der erlittene Schaden durch Angriffe im\nKampf und durch Spezialangriffe mit\nFlächenwirkung (außer Spezialangriffe mit\nFlächenwirkung von Røkkr) um X % verringert\n(X = Wertunterschied x 3, maximal 30) und die\nEinheit verursacht +5 Schaden (auch bei\nSpezialangriffen, die vor dem Kampf ausgelöst\nwerden)."
   },
   {
     "key": "MSID_H_純理の書R",
@@ -873,7 +873,7 @@
   },
   {
     "key": "MSID_H_夢幻の書R",
-    "value": "Sind die KP der Einheit zu Beginn des\nKampfes ≥ 25 %, erhält die Einheit im\nKampf Angr./Ges. +5 und fügt zusätzlichen\nSchaden in Höhe von 15 % des Angr.-Werts\nder Einheit zu. (Bei mehreren ähnlichen\nEffekten wird nur der höchste angewandt.)"
+    "value": "Sind die KP der Einheit zu Beginn des\nKampfes ≥ 25 %, erhält die Einheit im\nKampf Angr./Ges. +5 und fügt zusätzlichen\nSchaden in Höhe von 15 % des Angr.-Werts\nder Einheit zu (auch bei Spezialangriffen, die\nvor dem Kampf ausgelöst werden)."
   },
   {
     "key": "MSID_H_凍結の封印・承",
@@ -949,7 +949,7 @@
   },
   {
     "key": "MSID_H_比翼クロム",
-    "value": "$aFügt der Einheit und Verbündeten im Umkreis\nvon 2 Feldern der Einheit bis nach ihrer nächs-\nten Aktion Angr./Ges./Ver./Res. -5 zu und diese\nerhalten【Große Strategie】.\nVerleiht der Einheit für 1 Zug folgenden Effekt:\n\"Gegner kann keinen Folgeangriff ausführen.\"\n\n【Große Strategie】\nErhöht Angr./Ges./Ver./Res. im Kampf um die\naktuelle Verringerung der jeweiligen Werte der\nEinheit × 2. (Beispiel: Ist Angr. der Einheit um 7\nverringert, erhält sie Angr. +14, sodass sie\ninsgesamt Angr. +7 hat.)\nJeder Wertebonus wird einzeln berechnet.\n\nNegative Statuseffekte der Einheit, die \"bis\nnach der nächsten Aktion\" gelten, bleiben aktiv,\nbis dieser Status (Große Strategie) neutralisiert\nwird."
+    "value": "$aFügt der Einheit und Verbündeten im Umkreis\nvon 2 Feldern der Einheit bis nach ihrer nächs-\nten Aktion Angr./Ges./Ver./Res. -5 zu und diese\nerhalten【Große Strategie】.\nVerleiht der Einheit für 1 Zug folgenden Effekt:\n\"Gegner kann keinen Folgeangriff ausführen.\"\n\n【Große Strategie】\nErhöht Angr./Ges./Ver./Res. im Kampf für 1 Zug\num die aktuelle Verringerung der jeweiligen Werte\nder Einheit × 2. (Beispiel: Ist Angr. der Einheit um\n7 verringert, erhält sie Angr. +14, sodass sie\ninsgesamt Angr. +7 hat.)\nJeder Wertebonus wird einzeln berechnet.\n\nNegative Statuseffekte der Einheit, die \"bis\nnach der nächsten Aktion\" gelten, bleiben aktiv,\nbis dieser Status (Große Strategie) neutralisiert\nwird."
   },
   {
     "key": "MSID_H_ギョッル改",

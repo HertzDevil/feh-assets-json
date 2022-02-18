@@ -853,7 +853,7 @@
   },
   {
     "key": "MSID_H_疾風の暗器R",
-    "value": "No início do combate, se PV (uni.) ≥ 25%,\nconcede Atq./Vel +5 e, também, se\nVel. (uni.) > Vel. (ini.), reduz em X% o dano de\nhabilidades especiais com área de efeito (exceto\nas executadas por Røkkr) e de ataques durante\no combate. (X = diferença entre os atributos ×3;\nmáximo: 30%) e a unidade inflige +5 de dano.\n(Só o valor mais alto se aplica. Não cumulativo.)"
+    "value": "No início do combate, se PV (uni.) ≥ 25%,\nconcede Atq./Vel +5 e, também, se\nVel. (uni.) > Vel. (ini.), reduz em X% o dano de\nhabilidades especiais com área de efeito (exceto\nas executadas por Røkkr) e de ataques durante\no combate. (X = diferença entre os atributos ×3;\nmáximo: 30%) e a unidade inflige +5 de dano\ninclusive quando o dano for infligido por uma\nhabilidade especial ativada antes do combate."
   },
   {
     "key": "MSID_H_純理の書R",
@@ -873,7 +873,7 @@
   },
   {
     "key": "MSID_H_夢幻の書R",
-    "value": "No início do combate, se PV (uni.) ≥ 25%,\nconcede Atq./Vel. +5 à unidade durante o\ncombate e inflige dano de 15% do Atq. da\nunidade. (Só o valor mais alto se aplica. Não\ncumulativo.)"
+    "value": "No início do combate, se PV (uni.) ≥ 25%,\nconcede Atq./Vel. +5 à unidade durante o\ncombate e inflige dano de 15% do Atq. da\nunidade inclusive quando o dano for infligido\npor uma habilidade especial ativada antes do\ncombate."
   },
   {
     "key": "MSID_H_凍結の封印・承",
@@ -949,7 +949,7 @@
   },
   {
     "key": "MSID_H_比翼クロム",
-    "value": "$aInflige Atq./Vel./Def./Res. -5 na unidade e\naliados em um raio de 2 espaços da unidade\nnas suas próximas ações e concede\n【Grande estratégia】a essas unidades.\n\nConcede o seguinte efeito à unidade por uma\nrodada: \"O inimigo não pode fazer um ataque\nduplo\".\n\n【Grande estratégia】\nConcede bônus de Atq./Vel./Def./Res. durante\no combate igual à penalidade atual de cada\natributo da unidade × 2. (Por exemplo: se a\nunidade tem uma penalidade de -7 no Atq.\nconcede Atq. +14, resultando em um bônus\ntotal de Atq. +7.) Calcula cada bônus de\natributo de forma independente.\n\nEfeitos negativos da unidade que duram até\n\"suas próximas ações\" continuarão ativos\naté que este estado (Grande estratégia)\nseja neutralizado."
+    "value": "$aInflige Atq./Vel./Def./Res. -5 na unidade e\naliados em um raio de 2 espaços da unidade\nnas suas próximas ações e concede\n【Grande estratégia】a essas unidades.\n\nConcede o seguinte efeito à unidade por uma\nrodada: \"O inimigo não pode fazer um ataque\nduplo\".\n\n【Grande estratégia】\nConcede bônus de Atq./Vel./Def./Res. durante\no combate igual à penalidade atual de cada\natributo da unidade ×2 por uma rodada. (Por\nexemplo: se a unidade tem uma penalidade\nde -7 no Atq., concede Atq. +14, resultando\nem um bônus total de Atq. +7.) Calcula cada\nbônus de atributo separadamente.\n\nEfeitos negativos da unidade que duram até\n\"suas próximas ações\" continuarão ativos\naté que este estado (Grande estratégia)\nseja neutralizado."
   },
   {
     "key": "MSID_H_ギョッル改",

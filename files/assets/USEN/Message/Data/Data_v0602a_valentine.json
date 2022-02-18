@@ -853,7 +853,7 @@
   },
   {
     "key": "MSID_H_疾風の暗器R",
-    "value": "At start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd+5 to unit during combat, and also, if\nunit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 3 (max 30%), and unit deals +5 damage.\n(Only highest value applied. Does not stack.)"
+    "value": "At start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd+5 to unit during combat, and also, if\nunit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 3 (max 30%), and unit deals +5 damage\nincluding when dealing damage with a Special\ntriggered before combat."
   },
   {
     "key": "MSID_H_純理の書R",
@@ -873,7 +873,7 @@
   },
   {
     "key": "MSID_H_夢幻の書R",
-    "value": "At start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd+5 to unit during combat, and deals\ndamage = 15% of unit's Atk. (Only highest\nvalue applied. Does not stack.)"
+    "value": "At start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd+5 to unit during combat, and deals\ndamage = 15% of unit's Atk, including when\ndealing damage with a Special triggered\nbefore combat."
   },
   {
     "key": "MSID_H_凍結の封印・承",
@@ -949,7 +949,7 @@
   },
   {
     "key": "MSID_H_比翼クロム",
-    "value": "$aInflicts Atk/Spd/Def/Res-5 on unit and allies\nwithin 2 spaces of unit through their next\nactions and grants【Grand Strategy】to those\nunits.\n\nGrants the following effect to unit for 1 turn:\n\"Foe cannot make a follow-up attack.\"\n\n【Grand Strategy】\nGrants bonus to Atk/Spd/Def/Res during\ncombat = current penalty on each of unit's\nstats × 2. (Example: if unit has -7 penalty to\nAtk, grants Atk+14, for a net bonus of Atk+7.)\nCalculates each stat bonus independently.\n\nUnit's negative effects that last \"through\nunit's next action\" will remain in effect until\nthis status (Grand Strategy) is neutralized."
+    "value": "$aInflicts Atk/Spd/Def/Res-5 on unit and allies\nwithin 2 spaces of unit through their next\nactions and grants【Grand Strategy】to those\nunits.\n\nGrants the following effect to unit for 1 turn:\n\"Foe cannot make a follow-up attack.\"\n\n【Grand Strategy】\nGrants bonus to Atk/Spd/Def/Res during\ncombat = current penalty on each of unit's\nstats × 2 for 1 turn. (Example: if unit has -7\npenalty to Atk, grants Atk+14, for a net bonus\nof Atk+7.) Calculates each stat bonus\nindependently.\n\nUnit's negative effects that last \"through\nunit's next action\" will remain in effect until\nthis status (Grand Strategy) is neutralized."
   },
   {
     "key": "MSID_H_ギョッル改",

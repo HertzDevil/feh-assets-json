@@ -853,7 +853,7 @@
   },
   {
     "key": "MSID_H_疾風の暗器R",
-    "value": "Se l'unità ha almeno il 25% dei PS all'inizio\ndello scontro, conferisce Att/Vel +5 all'unità\ndurante il combattimento. Inoltre, se l'unità\nha Vel superiore rispetto al nemico, riduce\nil danno da attacchi durante lo scontro e da\nabilità speciali con area d'effetto (escluse\nquelle dei røkkr) di una percentuale pari alla\ndifferenza tra i parametri moltiplicata per 3\n(massimo 30%), e l'unità infligge 5 danni\naggiuntivi. (Non cumulabile; si applica solo\nil valore più alto.)"
+    "value": "Se l'unità ha almeno il 25% dei PS all'inizio\ndello scontro, conferisce Att/Vel +5 all'unità\ndurante il combattimento. Inoltre, se l'unità\nha Vel superiore rispetto al nemico, riduce\nil danno da attacchi durante lo scontro e da\nabilità speciali con area d'effetto (escluse\nquelle dei røkkr) di una percentuale pari alla\ndifferenza tra i parametri moltiplicata per 3\n(massimo 30%), e l'unità infligge +5 danni,\ncompreso quando si infliggono danni con\nun'abilità speciale attivata prima dello scontro."
   },
   {
     "key": "MSID_H_純理の書R",
@@ -873,7 +873,7 @@
   },
   {
     "key": "MSID_H_夢幻の書R",
-    "value": "Se l'unità ha almeno il 25% dei PS all'inizio del\ncombattimento, conferisce Att/Vel +5 all'unità\ndurante lo scontro e infligge danni aggiuntivi\npari al 15% dell'Att dell'unità. (Non cumulabile;\nsi applica solo il valore più alto.)"
+    "value": "Se l'unità ha almeno il 25% dei PS all'inizio del\ncombattimento, conferisce Att/Vel +5 all'unità\ndurante lo scontro e infligge danni aggiuntivi\npari al 15% dell'Att dell'unità, compreso quando\nsi infliggono danni con un'abilità speciale attivata\nprima dello scontro."
   },
   {
     "key": "MSID_H_凍結の封印・承",
@@ -949,7 +949,7 @@
   },
   {
     "key": "MSID_H_比翼クロム",
-    "value": "$aInfligge Att/Vel/Dif/Res -5 all'unità e agli alleati\nentro 2 spazi dall'unità durante le loro prossime\nazioni e conferisce【Grande strategia】a quelle\nunità.\n\nConferisce l'effetto \"il nemico non può effettuare\nun attacco doppio\" all'unità per 1 turno.\n\n【Grande strategia】\nConferisce un aumento ad Att/Vel/Dif/Res durante\nlo scontro pari al valore della penalità attiva su\nogni parametro dell'unità, moltiplicato per 2.\n(Esempio: se l'unità ha una penalità di -7 all'Att,\nconferisce Att +14, per un bonus netto di +7.)\nOgni parametro è calcolato singolarmente.\nGli effetti negativi dell'unità \"durante la sua\nprossima azione\" resteranno attivi fino a che\nlo stato Grande strategia non sarà annullato."
+    "value": "$aInfligge Att/Vel/Dif/Res -5 all'unità e agli alleati\nentro 2 spazi dall'unità durante le loro prossime\nazioni e conferisce【Grande strategia】a quelle\nunità.\n\nConferisce l'effetto \"il nemico non può effettuare\nun attacco doppio\" all'unità per 1 turno.\n\n【Grande strategia】\nConferisce un aumento ad Att/Vel/Dif/Res durante\nlo scontro pari al valore della penalità attiva su\nogni parametro dell'unità, moltiplicato per 2, per\n1 turno. (Esempio: se l'unità ha una penalità di -7\nall'Att, conferisce Att +14, per un bonus netto di\n+7.) Ogni parametro è calcolato singolarmente.\nGli effetti negativi dell'unità \"durante la sua\nprossima azione\" resteranno attivi fino a che\nlo stato Grande strategia non sarà annullato."
   },
   {
     "key": "MSID_H_ギョッル改",

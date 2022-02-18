@@ -853,7 +853,7 @@
   },
   {
     "key": "MSID_H_疾風の暗器R",
-    "value": "Al inicio del ataque, si la unidad tiene\nPV ≥ 25 %, obtiene Atq. y Vel. +5 durante el\ncombate y, si supera la Vel. del enemigo en 1\npunto o más, reduce en un X % el daño de las\nhabilidades especiales con área de efecto (sin\ncontar las efectuadas por Sombras) y los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 3 (hasta un máximo\ndel 30 %), y la unidad inflige +5 de daño. (Solo\nse aplica el valor más alto. No acumulable.)"
+    "value": "Al inicio del ataque, si la unidad tiene\nPV ≥ 25 %, obtiene Atq. y Vel. +5 durante el\ncombate y, si supera la Vel. del enemigo en 1\npunto o más, reduce en un X % el daño de las\nhabilidades especiales con área de efecto (sin\ncontar las efectuadas por Sombras) y el daño\nde los ataques en combate, donde X equivale a\nla diferencia de atributos × 3 (hasta un máximo\ndel 30 %), y la unidad inflige +5 de daño\nincluso cuando se inflige daño al ejecutar una\nhabilidad especial activada antes del combate."
   },
   {
     "key": "MSID_H_純理の書R",
@@ -873,7 +873,7 @@
   },
   {
     "key": "MSID_H_夢幻の書R",
-    "value": "Al inicio del ataque, si la unidad tiene\nPV ≥ 25 %, otorga Atq. y Vel. +5 a la unidad en\ncombate e inflige un 15 % de su Atq. como\ndaño adicional. (Solo se aplica el valor más\nalto. No acumulable)."
+    "value": "Al inicio del ataque, si la unidad tiene\nPV ≥ 25 %, otorga Atq. y Vel. +5 durante el\ncombate e inflige un 15 % del Atq. de la unidad\ncomo daño adicional, incluso cuando se inflige\ndaño al ejecutar una habilidad especial\nactivada antes del combate."
   },
   {
     "key": "MSID_H_凍結の封印・承",
@@ -949,7 +949,7 @@
   },
   {
     "key": "MSID_H_比翼クロム",
-    "value": "$aInflige Atq., Vel., Def. y Res. -5 a la unidad y a\nlos aliados en un radio de dos casillas en su\npróxima acción y otorga【Gran estrategia】a esas\nunidades.\n\nOtorga el siguiente efecto a la unidad durante\nel resto del turno:\n\"El rival no podrá ejecutar un ataque doble\".\n\n【Gran estrategia】\nLa unidad recibe una bonificación de Atq.,\nVel., Def. y Res. durante el combate igual\na la penalización actual de cada atributo\nde la unidad × 2. (Por ejemplo, si la unidad\ntiene una penalización de Atq. -7, recibe\nAtq. +14, por lo que la bonificación final\nresulta en Atq. +7). Cada mejora se\naplica por separado.\n\nLos efectos negativos de la unidad que duren\nhasta el final del próximo turno de la unidad\nseguirán activos hasta que este estado\n(Gran estrategia) se anule."
+    "value": "$aInflige Atq., Vel., Def. y Res. -5 a la unidad y a\nlos aliados en un radio de dos casillas en su\npróxima acción y otorga【Gran estrategia】a esas\nunidades.\n\nOtorga el siguiente efecto a la unidad durante\nel resto del turno:\n\"El rival no podrá ejecutar un ataque doble\".\n\n【Gran estrategia】\nLa unidad recibe una bonificación de Atq.,\nVel., Def. y Res. durante el combate igual\na la penalización actual de cada atributo\nde la unidad × 2 durante el resto del turno.\n(Por ejemplo, si la unidad tiene una\npenalización de Atq. -7, recibe Atq. +14,\npor lo que la bonificación final resulta\nen Atq. +7). Cada mejora se aplica\npor separado.\n\nLos efectos negativos de la unidad que duren\nhasta el final del próximo turno de la unidad\nseguirán activos hasta que este estado\n(Gran estrategia) se anule."
   },
   {
     "key": "MSID_H_ギョッル改",

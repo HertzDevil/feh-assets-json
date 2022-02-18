@@ -853,7 +853,7 @@
   },
   {
     "key": "MSID_H_疾風の暗器R",
-    "value": "Si PV de l'unité ≥ 25 % au début du combat,\nconfère Atq/Vit +5 à l'unité pendant le combat,\net si Vit de l'unité > Vit de l'ennemi, réduit les\ndégâts des attaques pendant le combat et des\naptitudes spéciales à effet de zone d'un\npourcentage égal à 3x la différence\n(30 % maximum, aptitudes spéciales des\nstriges exclues), et l'unité inflige 5 dégâts\nsupplémentaires. (S'il y a plusieurs effets\nsimilaires, seul le plus puissant s'applique.)"
+    "value": "Si PV de l'unité ≥ 25 % au début du combat,\nconfère Atq/Vit +5 à l'unité pendant le combat,\net si Vit de l'unité > Vit de l'ennemi, réduit les\ndégâts des attaques pendant le combat et des\naptitudes spéciales à effet de zone d'un\npourcentage égal à 3x la différence\n(30 % maximum, aptitudes spéciales des\nstriges exclues), et l'unité inflige 5 dégâts\nsupplémentaires. Cet effet s'applique également\npour les dégâts infligés par les aptitudes\nspéciales déclenchées avant le combat."
   },
   {
     "key": "MSID_H_純理の書R",
@@ -873,7 +873,7 @@
   },
   {
     "key": "MSID_H_夢幻の書R",
-    "value": "Si PV de l'unité ≥ 25 % au début du combat,\nconfère Atq/Vit +5 à l'unité pendant le combat\net inflige des dégâts supplémentaires à hauteur\nde 15 % de l'Atq de l'unité. (S'il y a plusieurs\neffets similaires, seul le plus puissant s'applique.)"
+    "value": "Si PV de l'unité ≥ 25 % au début du combat,\nconfère Atq/Vit +5 à l'unité pendant le combat\net inflige des dégâts supplémentaires à hauteur\nde 15 % de l'Atq de l'unité. Cet effet s'applique\négalement pour les dégâts infligés par les\naptitudes spéciales déclenchées avant le combat."
   },
   {
     "key": "MSID_H_凍結の封印・承",
@@ -949,7 +949,7 @@
   },
   {
     "key": "MSID_H_比翼クロム",
-    "value": "$aInflige Atq/Vit/Déf/Rés -5 à l'unité et aux alliés à\n2 cases ou moins de l'unité jusqu'à la fin de leur\nphase et confère【Grande stratégie】à ces unités.\nConfère l'effet suivant à l'unité pendant un\ntour : « empêche l'ennemi de réaliser une\ndouble frappe. »\n\n【Grande stratégie】\nPour chaque caractéristique (Atq/Vit/Déf/Rés),\nconfère un boost égal au double du malus\nactuel de l'unité pendant le combat. (Par\nexemple, si l'unité voit son Atq affectée par un\nmalus de -7, lui confère Atq +14, ce qui fait un\nboost net de +7.)\n\nLes effets négatifs de l'unité agissant jusqu'à\nla fin de la phase de l'unité resteront actifs\njusqu'à ce que ce statut (Grande stratégie)\nsoit neutralisé."
+    "value": "$aInflige Atq/Vit/Déf/Rés -5 à l'unité et aux alliés à\n2 cases ou moins de l'unité jusqu'à la fin de leur\nphase et confère【Grande stratégie】à ces unités.\nConfère l'effet suivant à l'unité pendant un\ntour : « empêche l'ennemi de réaliser une\ndouble frappe. »\n\n【Grande stratégie】\nPour chaque caractéristique (Atq/Vit/Déf/Rés),\nconfère un boost égal au double du malus\nactuel de l'unité pendant un tour en combat.\n(Par exemple, si l'unité voit son Atq affectée\npar un malus de -7, lui confère Atq +14, ce\nqui fait un boost net de +7.)\n\nLes effets négatifs de l'unité agissant jusqu'à\nla fin de la phase de l'unité resteront actifs\njusqu'à ce que ce statut (Grande stratégie)\nsoit neutralisé."
   },
   {
     "key": "MSID_H_ギョッル改",
