@@ -135,7 +135,7 @@
     },
     "difficulties": 1,
     "sort_id": 20,
-    "id_num": 4511,
+    "id_num": 4524,
     "feh_pass_only": false
   },
   {
@@ -1140,7 +1140,7 @@
     },
     "difficulties": 1,
     "sort_id": 10,
-    "id_num": 4512,
+    "id_num": 4525,
     "feh_pass_only": false
   },
   {
@@ -1708,7 +1708,7 @@
     },
     "difficulties": 1,
     "sort_id": 11,
-    "id_num": 4513,
+    "id_num": 4526,
     "feh_pass_only": false
   },
   {
@@ -1769,7 +1769,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4533,
+    "id_num": 4546,
     "feh_pass_only": false
   },
   {
@@ -1830,7 +1830,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4534,
+    "id_num": 4547,
     "feh_pass_only": false
   },
   {
@@ -1891,7 +1891,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4535,
+    "id_num": 4548,
     "feh_pass_only": false
   },
   {
@@ -1952,7 +1952,68 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4536,
+    "id_num": 4549,
+    "feh_pass_only": false
+  },
+  {
+    "id_tag": "WEEK_ARENA04A_006",
+    "title": "WEEK_ARENA04A_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "WEEK_ARENA04A_006_A1",
+            "common_id": "WEEK_ARENA04A_A1",
+            "times": 1,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 23,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 23,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 1
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 1
+      }
+    ],
+    "avail": {
+      "start": "2022-03-29T07:00:00Z",
+      "finish": "2022-04-05T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 8,
+    "id_num": 4550,
     "feh_pass_only": false
   }
 ]
