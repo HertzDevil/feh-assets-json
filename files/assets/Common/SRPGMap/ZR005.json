@@ -33,7 +33,7 @@
         0,
         0,
         0,
-        9,
+        0,
         9
       ],
       [
@@ -78,7 +78,7 @@
       ],
       [
         9,
-        9,
+        0,
         0,
         0,
         0,
@@ -110,16 +110,16 @@
   },
   "player_pos": [
     {
-      "x": 3,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "x": 6,
       "y": 2
     },
     {
-      "x": 5,
-      "y": 2
-    },
-    {
-      "x": 3,
-      "y": 1
+      "x": 7,
+      "y": 3
     },
     {
       "x": 5,
@@ -144,7 +144,47 @@
       ],
       "accessory": null,
       "pos": {
-        "x": 4,
+        "x": 1,
+        "y": 6
+      },
+      "rarity": 1,
+      "lv": 1,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 5,
+        "spd": 5,
+        "def": 6,
+        "res": 3
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 1,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ソードファイター",
+      "skills": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
         "y": 7
       },
       "rarity": 1,
@@ -184,48 +224,8 @@
       ],
       "accessory": null,
       "pos": {
-        "x": 2,
-        "y": 7
-      },
-      "rarity": 1,
-      "lv": 1,
-      "cooldown_count": -1,
-      "max_cooldown_count": -1,
-      "stats": {
-        "hp": 18,
-        "atk": 5,
-        "spd": 5,
-        "def": 6,
-        "res": 3
-      },
-      "start_turn": -1,
-      "movement_group": -1,
-      "movement_delay": -1,
-      "break_terrain": true,
-      "tether": false,
-      "true_lv": 1,
-      "is_enemy": true,
-      "spawn_check": null,
-      "spawn_count": -1,
-      "spawn_turns": -1,
-      "spawn_target_remain": -1,
-      "spawn_target_kills": -1
-    },
-    {
-      "id_tag": "EID_ソードファイター",
-      "skills": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "accessory": null,
-      "pos": {
-        "x": 4,
-        "y": 8
+        "x": 0,
+        "y": 6
       },
       "rarity": 1,
       "lv": 1,
