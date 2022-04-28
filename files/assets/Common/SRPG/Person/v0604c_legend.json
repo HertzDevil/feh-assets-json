@@ -1,0 +1,142 @@
+[
+  {
+    "id_tag": "PID_神階メディウス",
+    "roman": "MEDIUS_GOD01",
+    "face_name": "ch01_50_Medius_M_God01",
+    "face_name2": "ch01_50_Medius_M_God01",
+    "legendary": {
+      "duo_skill_id": null,
+      "bonus_effect": {
+        "hp": 5,
+        "atk": 3,
+        "spd": 0,
+        "def": 0,
+        "res": 0
+      },
+      "kind": 1,
+      "element": 6,
+      "bst": 0,
+      "pair_up": false,
+      "ae_extra": true
+    },
+    "dragonflowers": {
+      "max_count": 5,
+      "costs": [
+        40,
+        80,
+        120,
+        160,
+        200
+      ]
+    },
+    "timestamp": null,
+    "id_num": 798,
+    "version_num": 604,
+    "sort_value": 9900100,
+    "origins": 2,
+    "weapon_type": 19,
+    "tome_class": 0,
+    "move_type": 0,
+    "series": 1,
+    "regular_hero": false,
+    "permanent_hero": false,
+    "base_vector_id": 54,
+    "refresher": false,
+    "base_stats": {
+      "hp": 17,
+      "atk": 10,
+      "spd": 2,
+      "def": 11,
+      "res": 9
+    },
+    "growth_rates": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 35,
+      "def": 60,
+      "res": 75
+    },
+    "skills": [
+      [
+        "SID_火のブレス",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_再移動制限1",
+        null,
+        null
+      ],
+      [
+        "SID_火炎のブレス",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_守備魔防の万全1",
+        null,
+        "SID_再移動制限2",
+        null,
+        null
+      ],
+      [
+        "SID_火炎のブレス",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_灼熱のブレス",
+        null,
+        "SID_氷点",
+        "SID_守備魔防の万全2",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_灼熱のブレス",
+        null,
+        "SID_氷点",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_氷華",
+        "SID_守備魔防の万全3",
+        null,
+        "SID_再移動制限3",
+        null,
+        null
+      ],
+      [
+        "SID_暗黒地竜のブレス",
+        null,
+        "SID_氷点",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_守備魔防の万全4",
+        "SID_我が復活は成った",
+        null,
+        null,
+        null
+      ]
+    ]
+  }
+]
