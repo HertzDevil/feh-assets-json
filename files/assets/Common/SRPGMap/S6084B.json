@@ -1,0 +1,300 @@
+{
+  "highest_score": 183,
+  "field": {
+    "id": "S6084",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        3,
+        3,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        8,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 4,
+      "y": 1
+    },
+    {
+      "x": 5,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 0
+    },
+    {
+      "x": 4,
+      "y": 0
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_開花フロリーナ",
+      "skills": [
+        "SID_銀の弓",
+        null,
+        "SID_影月",
+        "SID_攻撃速さの渾身2",
+        "SID_速さ守備の遠影2",
+        "SID_速さの大紋章1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 36,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 34,
+        "atk": 33,
+        "spd": 38,
+        "def": 18,
+        "res": 26
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 36,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_ギィ",
+      "skills": [
+        "SID_禿鷹の剣",
+        null,
+        "SID_星影",
+        "SID_死線2",
+        null,
+        "SID_速さ守備の威嚇1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 4
+      },
+      "rarity": 4,
+      "lv": 36,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 39,
+        "atk": 33,
+        "spd": 38,
+        "def": 28,
+        "res": 21
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 36,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_グリーンマージ",
+      "skills": [
+        "SID_グルンアウル",
+        null,
+        "SID_氷点",
+        "SID_攻撃速さの絆2",
+        null,
+        "SID_生の息吹2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 4,
+      "lv": 36,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 33,
+        "atk": 27,
+        "spd": 28,
+        "def": 16,
+        "res": 23
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 36,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_ランスアーマー",
+      "skills": [
+        "SID_勇者の槍",
+        null,
+        "SID_蛍火",
+        "SID_金剛の一撃2",
+        "SID_攻撃隊形2",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 4
+      },
+      "rarity": 4,
+      "lv": 36,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 49,
+        "atk": 34,
+        "spd": 13,
+        "def": 36,
+        "res": 15
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 36,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_グルンバット",
+      "skills": [
+        "SID_成獣の化身・飛行",
+        null,
+        "SID_星影",
+        "SID_速さ守備の密集2",
+        null,
+        "SID_死の吐息2",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 0,
+        "y": 3
+      },
+      "rarity": 4,
+      "lv": 36,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 34,
+        "atk": 31,
+        "spd": 41,
+        "def": 30,
+        "res": 19
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 36,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 5,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
