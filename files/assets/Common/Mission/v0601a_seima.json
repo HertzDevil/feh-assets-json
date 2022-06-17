@@ -96,7 +96,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4649,
+    "id_num": 4663,
     "feh_pass_only": false
   },
   {
@@ -196,7 +196,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4650,
+    "id_num": 4664,
     "feh_pass_only": false
   },
   {
@@ -296,7 +296,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4651,
+    "id_num": 4665,
     "feh_pass_only": false
   },
   {
@@ -396,7 +396,7 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4652,
+    "id_num": 4666,
     "feh_pass_only": false
   },
   {
@@ -496,7 +496,107 @@
     },
     "difficulties": 1,
     "sort_id": 8,
-    "id_num": 4653,
+    "id_num": 4667,
+    "feh_pass_only": false
+  },
+  {
+    "id_tag": "WEEK_ARENA04B_012",
+    "title": "WEEK_ARENA04B_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "WEEK_ARENA04B_012_A1",
+            "common_id": "WEEK_ARENA04B_A1",
+            "times": 1,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 23,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 23,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "WEEK_ARENA04B_012_A2",
+            "common_id": "WEEK_ARENA04B_A2",
+            "times": 1,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 19,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 19,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 800
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 2
+      }
+    ],
+    "avail": {
+      "start": "2022-06-28T07:00:00Z",
+      "finish": "2022-07-05T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 8,
+    "id_num": 4668,
     "feh_pass_only": false
   }
 ]
