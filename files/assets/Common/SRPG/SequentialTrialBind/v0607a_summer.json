@@ -1,0 +1,93 @@
+[
+  {
+    "id_tag": "SB_0060",
+    "prerequisites": [
+      "S0205A",
+      "S0205B",
+      "S0205C"
+    ],
+    "prereq_count": 3,
+    "avail": {
+      "start": null,
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "sort_id": 59,
+    "scenario": {
+      "id_tag": "SB_0060",
+      "maps": {
+        "group_id": "SB_0060",
+        "map_ids": [
+          {
+            "map_id": "S3025C",
+            "rarity": 5,
+            "true_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 130
+          },
+          {
+            "map_id": "S3035C",
+            "rarity": 5,
+            "true_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 130
+          },
+          {
+            "map_id": "S3045C",
+            "rarity": 5,
+            "true_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 130
+          },
+          {
+            "map_id": "S3055C",
+            "rarity": 5,
+            "true_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 130
+          },
+          {
+            "map_id": "S3065C",
+            "rarity": 5,
+            "true_lv": 50,
+            "promotion_tier": 1,
+            "hp_factor": 130
+          }
+        ],
+        "map_count": 5,
+        "team_count": 5
+      },
+      "reward": [
+        {
+          "kind": 0,
+          "_type": "orb",
+          "count": 2
+        },
+        {
+          "kind": 14,
+          "_type": "sacred_seal",
+          "len": 25,
+          "id_tag": "SID_第60迷宮の覇者1"
+        }
+      ],
+      "payload_size": 88,
+      "_unknown1": 1,
+      "stamina": 20,
+      "difficulty": 2,
+      "stars": 5,
+      "lv": 40,
+      "true_lv": 50,
+      "enemy_weps": [
+        1,
+        1,
+        13,
+        16,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    }
+  }
+]
