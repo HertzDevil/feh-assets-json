@@ -1,0 +1,607 @@
+[
+  {
+    "id_tag": "SID_絶光の角",
+    "refine_base": null,
+    "name_id": "MSID_絶光の角",
+    "desc_id": "MSID_H_絶光の角",
+    "refine_id": null,
+    "beast_effect_id": "SID_化身効果・奥義2",
+    "prerequisites": [
+      "SID_成獣の化身・歩行",
+      null
+    ],
+    "next_skill": null,
+    "sprites": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 1,
+      "atk": 2,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "combat_buffs": {
+      "hp": 0,
+      "atk": 5,
+      "spd": 5,
+      "def": 5,
+      "res": 5
+    },
+    "skill_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 20,
+      "res": 0
+    },
+    "skill_params2": {
+      "hp": 7,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 2
+    },
+    "refine_stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "id_num": 3172,
+    "sort_id": 720,
+    "icon_id": 1,
+    "wep_equip": 15728640,
+    "mov_equip": 1,
+    "sp_cost": 400,
+    "category": 0,
+    "tome_class": 0,
+    "exclusive": true,
+    "enemy_only": false,
+    "range": 1,
+    "might": 14,
+    "cooldown_count": -1,
+    "assist_cd": false,
+    "healing": false,
+    "skill_range": 2,
+    "score": 20,
+    "promotion_tier": 0,
+    "promotion_rarity": 0,
+    "refined": false,
+    "refine_sort_id": 0,
+    "wep_effective": 0,
+    "mov_effective": 0,
+    "wep_shield": 0,
+    "mov_shield": 0,
+    "wep_weakness": 0,
+    "mov_weakness": 0,
+    "wep_adaptive": 0,
+    "mov_adaptive": 0,
+    "timing_id": 15,
+    "ability_id": 335,
+    "limit1_id": 58,
+    "limit1_params": [
+      2,
+      1
+    ],
+    "limit2_id": 0,
+    "limit2_params": [
+      0,
+      0
+    ],
+    "target_wep": 0,
+    "target_mov": 0,
+    "passive_next": null,
+    "timestamp": "2022-08-26T07:00:00Z",
+    "random_allowed": 10,
+    "min_lv": 31,
+    "max_lv": 0,
+    "tt_inherit_base": false,
+    "random_mode": 2,
+    "limit3_id": 0,
+    "limit3_params": [
+      0,
+      0
+    ],
+    "range_shape": 0,
+    "target_either": false,
+    "distant_counter": false,
+    "canto_range": 0,
+    "pathfinder_range": 0
+  },
+  {
+    "id_tag": "SID_攻撃守備の防壁1",
+    "refine_base": null,
+    "name_id": "MSID_攻撃守備の防壁1",
+    "desc_id": "MSID_H_攻撃守備の防壁1",
+    "refine_id": null,
+    "beast_effect_id": null,
+    "prerequisites": [
+      null,
+      null
+    ],
+    "next_skill": "SID_攻撃守備の防壁2",
+    "sprites": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "combat_buffs": {
+      "hp": 1,
+      "atk": -2,
+      "spd": 0,
+      "def": -2,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 3,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 2
+    },
+    "skill_params2": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "refine_stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "id_num": 3173,
+    "sort_id": 40010,
+    "icon_id": 1660,
+    "wep_equip": 16711687,
+    "mov_equip": 1,
+    "sp_cost": 60,
+    "category": 4,
+    "tome_class": 0,
+    "exclusive": false,
+    "enemy_only": false,
+    "range": 0,
+    "might": 0,
+    "cooldown_count": 0,
+    "assist_cd": false,
+    "healing": false,
+    "skill_range": 0,
+    "score": 2,
+    "promotion_tier": 1,
+    "promotion_rarity": 4,
+    "refined": false,
+    "refine_sort_id": 0,
+    "wep_effective": 0,
+    "mov_effective": 0,
+    "wep_shield": 0,
+    "mov_shield": 0,
+    "wep_weakness": 0,
+    "mov_weakness": 0,
+    "wep_adaptive": 0,
+    "mov_adaptive": 0,
+    "timing_id": 26,
+    "ability_id": 39,
+    "limit1_id": 0,
+    "limit1_params": [
+      0,
+      0
+    ],
+    "limit2_id": 0,
+    "limit2_params": [
+      0,
+      0
+    ],
+    "target_wep": 0,
+    "target_mov": 0,
+    "passive_next": "SID_攻撃守備の防壁2",
+    "timestamp": "2022-08-26T07:00:00Z",
+    "random_allowed": 10,
+    "min_lv": 21,
+    "max_lv": 30,
+    "tt_inherit_base": false,
+    "random_mode": 2,
+    "limit3_id": 0,
+    "limit3_params": [
+      0,
+      0
+    ],
+    "range_shape": 0,
+    "target_either": false,
+    "distant_counter": false,
+    "canto_range": 0,
+    "pathfinder_range": 0
+  },
+  {
+    "id_tag": "SID_攻撃守備の防壁2",
+    "refine_base": null,
+    "name_id": "MSID_攻撃守備の防壁2",
+    "desc_id": "MSID_H_攻撃守備の防壁2",
+    "refine_id": null,
+    "beast_effect_id": null,
+    "prerequisites": [
+      "SID_攻撃守備の防壁1",
+      null
+    ],
+    "next_skill": "SID_攻撃守備の防壁3",
+    "sprites": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "combat_buffs": {
+      "hp": 1,
+      "atk": -3,
+      "spd": 0,
+      "def": -3,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 5,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 2
+    },
+    "skill_params2": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "refine_stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "id_num": 3174,
+    "sort_id": 40011,
+    "icon_id": 1661,
+    "wep_equip": 16711687,
+    "mov_equip": 1,
+    "sp_cost": 120,
+    "category": 4,
+    "tome_class": 0,
+    "exclusive": false,
+    "enemy_only": false,
+    "range": 0,
+    "might": 0,
+    "cooldown_count": 0,
+    "assist_cd": false,
+    "healing": false,
+    "skill_range": 0,
+    "score": 4,
+    "promotion_tier": 1,
+    "promotion_rarity": 5,
+    "refined": false,
+    "refine_sort_id": 0,
+    "wep_effective": 0,
+    "mov_effective": 0,
+    "wep_shield": 0,
+    "mov_shield": 0,
+    "wep_weakness": 0,
+    "mov_weakness": 0,
+    "wep_adaptive": 0,
+    "mov_adaptive": 0,
+    "timing_id": 26,
+    "ability_id": 39,
+    "limit1_id": 0,
+    "limit1_params": [
+      0,
+      0
+    ],
+    "limit2_id": 0,
+    "limit2_params": [
+      0,
+      0
+    ],
+    "target_wep": 0,
+    "target_mov": 0,
+    "passive_next": "SID_攻撃守備の防壁3",
+    "timestamp": "2022-08-26T07:00:00Z",
+    "random_allowed": 10,
+    "min_lv": 26,
+    "max_lv": 35,
+    "tt_inherit_base": false,
+    "random_mode": 2,
+    "limit3_id": 0,
+    "limit3_params": [
+      0,
+      0
+    ],
+    "range_shape": 0,
+    "target_either": false,
+    "distant_counter": false,
+    "canto_range": 0,
+    "pathfinder_range": 0
+  },
+  {
+    "id_tag": "SID_攻撃守備の防壁3",
+    "refine_base": null,
+    "name_id": "MSID_攻撃守備の防壁3",
+    "desc_id": "MSID_H_攻撃守備の防壁3",
+    "refine_id": null,
+    "beast_effect_id": null,
+    "prerequisites": [
+      "SID_攻撃守備の防壁2",
+      null
+    ],
+    "next_skill": null,
+    "sprites": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "combat_buffs": {
+      "hp": 1,
+      "atk": -4,
+      "spd": 0,
+      "def": -4,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 7,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 2
+    },
+    "skill_params2": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "refine_stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "id_num": 3175,
+    "sort_id": 40012,
+    "icon_id": 1662,
+    "wep_equip": 16711687,
+    "mov_equip": 1,
+    "sp_cost": 240,
+    "category": 4,
+    "tome_class": 0,
+    "exclusive": false,
+    "enemy_only": false,
+    "range": 0,
+    "might": 0,
+    "cooldown_count": 0,
+    "assist_cd": false,
+    "healing": false,
+    "skill_range": 0,
+    "score": 6,
+    "promotion_tier": 0,
+    "promotion_rarity": 0,
+    "refined": false,
+    "refine_sort_id": 0,
+    "wep_effective": 0,
+    "mov_effective": 0,
+    "wep_shield": 0,
+    "mov_shield": 0,
+    "wep_weakness": 0,
+    "mov_weakness": 0,
+    "wep_adaptive": 0,
+    "mov_adaptive": 0,
+    "timing_id": 26,
+    "ability_id": 39,
+    "limit1_id": 0,
+    "limit1_params": [
+      0,
+      0
+    ],
+    "limit2_id": 0,
+    "limit2_params": [
+      0,
+      0
+    ],
+    "target_wep": 0,
+    "target_mov": 0,
+    "passive_next": null,
+    "timestamp": "2022-08-26T07:00:00Z",
+    "random_allowed": 10,
+    "min_lv": 31,
+    "max_lv": 0,
+    "tt_inherit_base": false,
+    "random_mode": 2,
+    "limit3_id": 0,
+    "limit3_params": [
+      0,
+      0
+    ],
+    "range_shape": 0,
+    "target_either": false,
+    "distant_counter": false,
+    "canto_range": 0,
+    "pathfinder_range": 0
+  },
+  {
+    "id_tag": "SID_みんなが繋がる世界",
+    "refine_base": null,
+    "name_id": "MSID_みんなが繋がる世界",
+    "desc_id": "MSID_H_みんなが繋がる世界",
+    "refine_id": null,
+    "beast_effect_id": null,
+    "prerequisites": [
+      null,
+      null
+    ],
+    "next_skill": null,
+    "sprites": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "class_params": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "combat_buffs": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params": {
+      "hp": 1,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "skill_params2": {
+      "hp": 13,
+      "atk": 15,
+      "spd": -1,
+      "def": -1,
+      "res": 1
+    },
+    "refine_stats": {
+      "hp": 0,
+      "atk": 0,
+      "spd": 0,
+      "def": 0,
+      "res": 0
+    },
+    "id_num": 3176,
+    "sort_id": 721,
+    "icon_id": 1663,
+    "wep_equip": 16777215,
+    "mov_equip": 15,
+    "sp_cost": 300,
+    "category": 5,
+    "tome_class": 0,
+    "exclusive": true,
+    "enemy_only": false,
+    "range": 0,
+    "might": 0,
+    "cooldown_count": 0,
+    "assist_cd": false,
+    "healing": false,
+    "skill_range": 2,
+    "score": 8,
+    "promotion_tier": 0,
+    "promotion_rarity": 0,
+    "refined": false,
+    "refine_sort_id": 0,
+    "wep_effective": 0,
+    "mov_effective": 0,
+    "wep_shield": 0,
+    "mov_shield": 0,
+    "wep_weakness": 0,
+    "mov_weakness": 0,
+    "wep_adaptive": 0,
+    "mov_adaptive": 0,
+    "timing_id": 8,
+    "ability_id": 347,
+    "limit1_id": 89,
+    "limit1_params": [
+      2,
+      1
+    ],
+    "limit2_id": 0,
+    "limit2_params": [
+      0,
+      0
+    ],
+    "target_wep": 0,
+    "target_mov": 0,
+    "passive_next": null,
+    "timestamp": "2022-08-26T07:00:00Z",
+    "random_allowed": 10,
+    "min_lv": 31,
+    "max_lv": 0,
+    "tt_inherit_base": false,
+    "random_mode": 2,
+    "limit3_id": 0,
+    "limit3_params": [
+      0,
+      0
+    ],
+    "range_shape": 0,
+    "target_either": false,
+    "distant_counter": false,
+    "canto_range": 0,
+    "pathfinder_range": 0
+  }
+]
