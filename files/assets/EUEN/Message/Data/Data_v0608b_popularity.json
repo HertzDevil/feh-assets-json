@@ -641,7 +641,7 @@
   },
   {
     "key": "MSID_H_聖日ティルフィング",
-    "value": "$aEnables【Canto (２)】.\n\nAccelerates Special trigger (cooldown count-1).\nIf unit or foe initiates combat after moving to\na different space, grants Atk/Spd/Def/Res+5\nto unit during combat and deals damage =\nnumber of spaces moved by whoever initiated\ncombat (max 4) × 10% of foe's Def (except\nwhen dealing damage with area-of-effect\nSpecials), and also, if unit's HP ≥ 25% at start\nof combat, unit's HP > 1, and foe would reduce\nunit’s HP to 0, unit survives with 1 HP. (Once\nper combat. Does not stack with non-Special\neffects that allow unit to survive with 1 HP if\nfoe's attack would reduce HP to 0.)\n\n【Canto (２)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move ２ space(s).\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger after the granted action. Unit's base\nmovement has no effect on movement granted.\nCannot warp (using skills like Wings of Mercy)\na distance greater than ２ space(s).)"
+    "value": "$aEnables【Canto (２)】.\n\nAccelerates Special trigger (cooldown count-1).\nIf unit or foe initiates combat after moving to a\ndifferent space, grants Atk/Spd/Def/Res+5 to\nunit during combat and deals damage = X × 10%\nof foe's Def (X = number of spaces from start\nposition to end position of whoever initiated\ncombat, max 4; excluding area-of-effect Specials),\nand also, if unit's HP ≥ 25% at start of combat,\nunit’s HP > 1, and foe would reduce unit’s HP\nto 0, unit survives with 1 HP. (Once per combat.\nDoes not stack with non-Special effects that\nallow unit to survive with 1 HP if foe's attack\nwould reduce HP to 0.)\n\n【Canto (２)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move ２ space(s).\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger after the granted action. Unit's base\nmovement has no effect on movement granted.\nCannot warp (using skills like Wings of Mercy)\na distance greater than ２ space(s).)"
   },
   {
     "key": "MSID_H_ゲイルドリヴル",
@@ -669,19 +669,19 @@
   },
   {
     "key": "MSID_H_攻撃速さの激突1",
-    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 1. (X = number of spaces\nmoved by whoever initiated combat; max 1.)"
+    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 1. (X = number of spaces\nfrom start position to end position of whoever\ninitiated combat; max 1.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突2",
-    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 3. (X = number of spaces\nmoved by whoever initiated combat; max 2.)"
+    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 3. (X = number of spaces\nfrom start position to end position of whoever\ninitiated combat; max 2.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突3",
-    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 5. (X = number of spaces\nmoved by whoever initiated combat; max 3.)"
+    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 5. (X = number of spaces\nfrom start position to end position of whoever\ninitiated combat; max 3.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突4",
-    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 6. (X = number of spaces\nmoved by whoever initiated combat; max 4.)\nIf X ≥ 2, neutralizes unit's penalties to Atk/Spd\nduring combat."
+    "value": "If unit or foe initiates combat after moving to\na different space, grants bonus to unit's Atk/Spd\nduring combat = X + 6. (X = number of spaces\nfrom start position to end position of whoever\ninitiated combat; max 4.) If X ≥ 2, neutralizes\nunit's penalties to Atk/Spd during combat."
   },
   {
     "key": "MSID_H_攻撃魔防の秘奥1",

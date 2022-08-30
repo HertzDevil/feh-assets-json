@@ -641,7 +641,7 @@
   },
   {
     "key": "MSID_H_聖日ティルフィング",
-    "value": "$aGewährt【2. Schritt (２)】.\n\nBeschleunigt Spezialangriffe (Erholungszeit -1).\nInitiiert die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf Angr./Ges./Ver./\nRes. +5 und fügt zusätzlichen Schaden in Höhe\nder zurückgelegten Felder des Kampfinitiators\n(max. 4) x 10 % der Ver. des Gegners (Schaden\ndurch Spezialangriffe mit Flächenwirkung\nausgenommen) zu. Sind die KP der Einheit\nzu Beginn des Kampfes zudem ≥ 25 % und\nsind die KP der Einheit im Kampf > 1, überlebt\nsie einen ansonsten tödlichen Angriff mit 1 KP.\n(Einmal pro Kampf. Nicht mit Effekten\nkombinierbar, die nicht als Effekte eines\nSpezialangriffs zählen und der Einheit\nermöglichen, einen ansonsten tödlichen Angriff\nmit 1 KP zu überleben.)\n\n【2. Schritt (２)】\nHat die Einheit angegriffen, eine Beistehfähig-\nkeit ausgeführt oder ein Objekt zerstört, kann\nsie sich ２ Feld(er) bewegen.\n(Einheit bewegt sich entsprechend ihres\nBewegungstyps und kann keine Angriffe oder\nBeistehfähigkeiten mehr ausführen. Einmal pro\nZug. Bei mehreren ähnlichen Effekten wird\nnur der höchste angewandt. Hat die Einheit\nsich bewegt und wird eine Fähigkeit ausgelöst,\ndie eine weitere Aktion gewährt, wird 2. Schritt\nnach der gewährten Aktion ausgelöst. Die\nBasisbewegung der Einheit hat keinen Einfluss\nauf die gewährte Bewegung. Kann sich mit\nFähigkeiten wie Gnadenflügel nicht weiter als\n２ Feld(er) teleportieren.)"
+    "value": "$aGewährt【2. Schritt (２)】.\n\nBeschleunigt Spezialangriffe (Erholungszeit -1).\nInitiiert die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf Angr./Ges./Ver./\nRes. +5 und fügt zusätzlichen Schaden in Höhe\nvon X x 10 % der Ver. des Gegners zu (X =\nAnzahl der Felder zwischen Anfangs- und\nEnposition des Kampfinitiators, max. 4;\nSchaden durch Spezialangriffe mit\nFlächenwirkung ausgenommen). Sind die KP\nder Einheit zu Beginn des Kampfes zudem\n≥ 25 % und sind die KP der Einheit im Kampf\n> 1, überlebt sie einen ansonsten tödlichen\nAngriff mit 1 KP. (Einmal pro Kampf. Nicht mit\nEffekten kombinierbar, die nicht als Effekte\neines Spezialangriffs zählen und der Einheit\nermöglichen, einen ansonsten tödlichen Angriff\nmit 1 KP zu überleben.)\n\n【2. Schritt (２)】\nHat die Einheit angegriffen, eine Beistehfähig-\nkeit ausgeführt oder ein Objekt zerstört, kann\nsie sich ２ Feld(er) bewegen.\n(Einheit bewegt sich entsprechend ihres\nBewegungstyps und kann keine Angriffe oder\nBeistehfähigkeiten mehr ausführen. Einmal pro\nZug. Bei mehreren ähnlichen Effekten wird\nnur der höchste angewandt. Hat die Einheit\nsich bewegt und wird eine Fähigkeit ausgelöst,\ndie eine weitere Aktion gewährt, wird 2. Schritt\nnach der gewährten Aktion ausgelöst. Die\nBasisbewegung der Einheit hat keinen Einfluss\nauf die gewährte Bewegung. Kann sich mit\nFähigkeiten wie Gnadenflügel nicht weiter als\n２ Feld(er) teleportieren.)"
   },
   {
     "key": "MSID_H_ゲイルドリヴル",
@@ -669,19 +669,19 @@
   },
   {
     "key": "MSID_H_攻撃速さの激突1",
-    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +1. (X = Anzahl zurückgelegter\nFelder des Kampfinitiators; max. 1.)"
+    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +1. (X = Anzahl der Felder\nzwischen Anfangs- und Endposition des\nKampfinitiators; max. 1.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突2",
-    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +3. (X = Anzahl zurückgelegter\nFelder des Kampfinitiators; max. 2.)"
+    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +3. (X = Anzahl der Felder\nzwischen Anfangs- und Endposition des\nKampfinitiators; max. 2.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突3",
-    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +5. (X = Anzahl zurückgelegter\nFelder des Kampfinitiators; max. 3.)"
+    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +5. (X = Anzahl der Felder\nzwischen Anfangs- und Endposition des\nKampfinitiators; max. 3.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突4",
-    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +6. (X = Anzahl zurückgelegter\nFelder des Kampfinitiators; max. 4.) Ist X ≥ 2,\nwerden Werteverringerungen auf Angr./Ges.\nder Einheit im Kampf aufgehoben."
+    "value": "Beginnt die Einheit oder der Gegner nach einer\nBewegung auf ein anderes Feld den Kampf,\nerhält die Einheit im Kampf einen Bonus auf\nAngr./Ges. = X +6. (X = Anzahl der Felder\nzwischen Anfangs- und Endposition des\nKampfinitiators; max. 4.) Ist X ≥ 2, werden\nWerteverringerungen auf Angr./Ges. der Einheit\nim Kampf aufgehoben."
   },
   {
     "key": "MSID_H_攻撃魔防の秘奥1",

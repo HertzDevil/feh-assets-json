@@ -641,7 +641,7 @@
   },
   {
     "key": "MSID_H_聖日ティルフィング",
-    "value": "$aPermite usar【Movilidad (２)】.\n\nFacilita la ejecución de habilidades especiales:\n- 1 a la cuenta atrás. Si la unidad o el rival inician\nel ataque tras moverse a otra casilla, la unidad\nobtiene Ata, Vel, Def y Res + 5 e inflige una\ncantidad de daño adicional equivalente\nal número de casillas que se haya desplazado\nquien haya iniciado el ataque (hasta un máximo\nde 4) × el 10 % de la Def del rival (excepto al\nocasionar daño con habilidades especiales\ncon área de efecto). Además, si la unidad tiene\nPV ≥ 25 % al inicio del ataque y, con al menos\n2 PV restantes durante el enfrentamiento, recibe\nun ataque mortal, sobrevive a este con 1 PV.\n(Solo una vez por enfrentamiento. No acumulable\ncon efectos de habilidades no especiales que\npermiten a la unidad sobrevivir con 1 PV\na un ataque mortal.)\n\n【Movilidad (２)】\nLa unidad puede desplazarse ２ casilla(s)\ndespués de atacar, usar una habilidad de apoyo\no destruir una estructura.\n(La unidad se desplaza según su tipo\nde movimiento y una vez por turno. No puede\natacar o usar habilidades de apoyo. Solo\nse aplica el valor más alto. No acumulable.\nTras moverse, si se activa una habilidad que\notorgue otra acción (como Impacto final),\nMovilidad se activará después de la acción\notorgada. El movimiento base de la unidad no\ntiene efecto en el movimiento otorgado. No\npuede desplazarse (usando habilidades como\nRescate) más de ２ casilla(s).)"
+    "value": "$aPermite usar【Movilidad (２)】.\n\nFacilita la ejecución de habilidades especiales:\n- 1 a la cuenta atrás. Si la unidad o el rival inician\nel ataque tras moverse a otra casilla, la unidad\nobtiene Ata, Vel, Def y Res + 5 e inflige X × 10 %\nde la Def del rival como daño adicional, donde\nX equivale al número de casillas entre la posición\ninicial y la final de quien haya iniciado el ataque\n(hasta un máximo de 4; sin contar las habilidades\nespeciales con área de efecto). Además, si la\nunidad tiene PV ≥ 25 % al inicio del ataque y,\ncon al menos 2 PV restantes durante\nel enfrentamiento, recibe un ataque mortal,\nsobrevive a este con 1 PV. (Solo una vez\npor enfrentamiento. No acumulable con efectos\nde habilidades no especiales que permiten a la\nunidad sobrevivir con 1 PV a un ataque mortal.)\n\n【Movilidad (２)】\nLa unidad puede desplazarse ２ casilla(s)\ndespués de atacar, usar una habilidad de apoyo\no destruir una estructura.\n(La unidad se desplaza según su tipo\nde movimiento y una vez por turno. No puede\natacar o usar habilidades de apoyo. Solo\nse aplica el valor más alto. No acumulable.\nTras moverse, si se activa una habilidad que\notorgue otra acción (como Impacto final),\nMovilidad se activará después de la acción\notorgada. El movimiento base de la unidad no\ntiene efecto en el movimiento otorgado. No\npuede desplazarse (usando habilidades como\nRescate) más de ２ casilla(s).)"
   },
   {
     "key": "MSID_H_ゲイルドリヴル",
@@ -661,7 +661,7 @@
   },
   {
     "key": "MSID_H_運命は変わった！",
-    "value": "$aDesplaza a un aliado desde una casilla\nadyacente a la unidad a su opuesta y otorga\nuna acción extra a la unidad. Otorga\ncualquier【Bonificación】activa en el rival\na la unidad y su pareja hasta el final del turno\ne inflige【Aislamiento】a la unidad\ny su pareja en su próxima acción. (Solo otorga\nuna acción extra e inflige Aislamiento una vez\npor turno. Las bonificaciones otorgadas\nno incluyen las bonificaciones invertidas\npor Pánico.)\n\n【Bonificación】\nComprende todos los efectos que se activan\n\"hasta el final del turno\" o \"solo ese turno\".\nIncluye las bonificaciones de habilidades\ncomo Potenciar o Impulso y los efectos\npositivos, como movimiento extra\no los efectos de habilidades como Predominio.\n\n【Aislamiento】\nEl objetivo no puede usar ni recibir\nhabilidades de apoyo en su próxima acción.\n(Estas engloban las habilidades como Bailar\no Cantar y las que anulan las penalizaciones\nde los aliados, como Restaurar u Orden\nImperiosa +.)"
+    "value": "$aDesplaza a un aliado desde una casilla\nadyacente a la unidad a su opuesta y otorga\nuna acción extra a la unidad. Otorga\ncualquier【Bonificación】activa en el objetivo\na la unidad y su pareja hasta el final del turno\ne inflige【Aislamiento】a la unidad\ny su pareja en su próxima acción. (Solo otorga\nuna acción extra e inflige Aislamiento una vez\npor turno. Las bonificaciones otorgadas\nno incluyen las bonificaciones invertidas\npor Pánico.)\n\n【Bonificación】\nComprende todos los efectos que se activan\n\"hasta el final del turno\" o \"solo ese turno\".\nIncluye las bonificaciones de habilidades\ncomo Potenciar o Impulso y los efectos\npositivos, como movimiento extra\no los efectos de habilidades como Predominio.\n\n【Aislamiento】\nEl objetivo no puede usar ni recibir\nhabilidades de apoyo en su próxima acción.\n(Estas engloban las habilidades como Bailar\no Cantar y las que anulan las penalizaciones\nde los aliados, como Restaurar u Orden\nImperiosa +.)"
   },
   {
     "key": "MSID_H_天刻の拍動",
@@ -669,19 +669,19 @@
   },
   {
     "key": "MSID_H_攻撃速さの激突1",
-    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en una cantidad\nequivalente al número de casillas que se haya\ndesplazado quien haya iniciado el ataque\n(hasta un máximo de 1) + 1."
+    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en X + 1, donde X\nequivale al número de casillas entre la posición\ninicial y la final de quien haya iniciado el ataque\n(hasta un máximo de 1)."
   },
   {
     "key": "MSID_H_攻撃速さの激突2",
-    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en una cantidad\nequivalente al número de casillas que se haya\ndesplazado quien haya iniciado el ataque\n(hasta un máximo de 2) + 3."
+    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en X + 3, donde X\nequivale al número de casillas entre la posición\ninicial y la final de quien haya iniciado el ataque\n(hasta un máximo de 2)."
   },
   {
     "key": "MSID_H_攻撃速さの激突3",
-    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en una cantidad\nequivalente al número de casillas que se haya\ndesplazado quien haya iniciado el ataque\n(hasta un máximo de 3) + 5."
+    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en X + 5, donde X\nequivale al número de casillas entre la posición\ninicial y la final de quien haya iniciado el ataque\n(hasta un máximo de 3)."
   },
   {
     "key": "MSID_H_攻撃速さの激突4",
-    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en una cantidad\nequivalente al número de casillas que se haya\ndesplazado quien haya iniciado el ataque\n(hasta un máximo de 4) + 6. Si se ha desplazado\ndos casillas o más, se anulan las penalizaciones\nde Ata y Vel de la unidad durante\nel enfrentamiento."
+    "value": "Si la unidad o el rival inician el ataque tras\nmoverse a una casilla diferente, el Ata y la Vel\nde la unidad aumentan en X + 6, donde X\nequivale al número de casillas entre la posición\ninicial y la final de quien haya iniciado el ataque\n(hasta un máximo de 4). Si X ≥ 2, se anulan\nlas penalizaciones de Ata y Vel de la unidad\ndurante el enfrentamiento."
   },
   {
     "key": "MSID_H_攻撃魔防の秘奥1",

@@ -641,7 +641,7 @@
   },
   {
     "key": "MSID_H_聖日ティルフィング",
-    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nAcelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade ou o\ninimigo inicia o combate após se mover para um\nespaço diferente, concede Atq./Vel./Def./Res. +5\nà unidade durante o combate e inflige dano igual\nao número de espaços que quem iniciou o\ncombate se moveu (máx.: 4) X 10% da Def. do\ninimigo (exceto quando o dano é infligido por\nhabilidades especiais com área de efeito)\ne também, se PV (uni.) ≥ 25% no início do\ncombate, ela sobrevive a um ataque mortal do\ninimigo com 1 PV. (Uma vez por combate. Não\ncumulativo com efeitos não especiais que\npermitem à unidade sobreviver com 1 PV a um\nataque mortal do inimigo.)\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
+    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nAcelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade ou o\ninimigo inicia o combate após se mover para um\nespaço diferente, concede Atq./Vel./Def./Res. +5\nà unidade durante o combate e inflige dano igual\nX × 10% da Def. do inimigo (X = número de\nespaços entre a posição inicial à posição final\nde quem iniciou o combate. Máx.: 4. Exceto\nhabilidades especiais com área de efeito.)\ne também, se PV (uni.) ≥ 25% no início do\ncombate, ela sobrevive a um ataque mortal do\ninimigo com 1 PV. (Uma vez por combate. Não\ncumulativo com efeitos não especiais que\npermitem à unidade sobreviver com 1 PV a um\nataque mortal do inimigo.)\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
   },
   {
     "key": "MSID_H_ゲイルドリヴル",
@@ -669,19 +669,19 @@
   },
   {
     "key": "MSID_H_攻撃速さの激突1",
-    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante o\ncombate = X + 1. (X = número de espaços que\nquem iniciou o combate se moveu. Máx.: 1.)"
+    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante\no combate = X + 1. (X = número de espaços\nentre a posição inicial e a final de quem iniciou\no combate. Máx.: 1.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突2",
-    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante\no combate = X + 3. (X = número de espaços\nque quem iniciou o combate se moveu. Máx.: 2.)"
+    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante\no combate = X + 3. (X = número de espaços\nentre a posição inicial e a final de quem iniciou\no combate. Máx.: 2.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突3",
-    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante\no combate = X + 5. (X = número de espaços\nque quem iniciou o combate se moveu. Máx.: 3.)"
+    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante\no combate = X + 5. (X = número de espaços\nentre a posição inicial e a final de quem iniciou\no combate. Máx.: 3.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突4",
-    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante\no combate = X + 6. (X = número de espaços\nque quem iniciou o combate se moveu. Máx.: 4.)\nSe X ≥ 2, neutraliza as penalidades de Atq./Vel.\nda unidade durante o combate."
+    "value": "Se a unidade ou o inimigo inicia o combate\napós se mover para um espaço diferente,\nconcede bônus de Atq./Vel. à unidade durante\no combate = X + 6. (X = número de espaços\nentre a posição inicial e a final de quem iniciou\no combate. Máx.: 4.) Se X ≥ 2, neutraliza as\npenalidades de Atq./Vel. da unidade\nduranteo combate."
   },
   {
     "key": "MSID_H_攻撃魔防の秘奥1",

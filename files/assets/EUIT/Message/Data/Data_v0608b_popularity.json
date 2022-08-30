@@ -641,7 +641,7 @@
   },
   {
     "key": "MSID_H_聖日ティルフィング",
-    "value": "$aPermette l'uso di【Mobilità (２)】.\n\nAnticipa l'attivazione dell'abilità speciale\n(contatore -1). Se l'unità o il nemico attaccano\nper primi dopo essersi spostati in uno spazio\ndifferente, conferisce Att/Vel/Dif/Res +5 all'unità\ndurante lo scontro e infligge danni aggiuntivi pari\nalla quantità di spazi percorsi da chi attacca per\nprimo (massimo 4) moltiplicata per il 10% della\nDif del nemico (tranne quando si infliggono danni\ncon abilità speciali con area d'effetto). Inoltre, se\nl'unità ha almeno il 25% dei PS all'inizio dello\nscontro e ha 2 PS o più durante lo scontro,\nsopravvive a un attacco letale e rimane con\n1 PS. (Una volta per scontro; non cumulabile\ncon effetti di abilità non speciali che permettono\nall'unità di sopravvivere a un attacco letale e\nrimanere con 1 PS.)\n\n【Mobilità (２)】\nDopo un attacco, un'abilità di aiuto o\nla distruzione di una struttura, l'unità\npuò spostarsi di ２ spazio/i.\n\nL'unità si sposta a seconda del tipo di\nmovimento. Una volta per turno. Non può\nattaccare né aiutare. Non cumulabile; si applica\nsolo il valore più alto. Dopo lo spostamento,\nse un'abilità che conferisce un'altra azione\nsi dovesse attivare (come Assalto impetuoso),\nMobilità si attiverà dopo l'azione conferita.\nIl movimento base dell'unità non ha effetto sul\nmovimento conferito. Non può trasferirsi\n(usando abilità come Ali di pietà) a più di\n２ spazio/i di distanza."
+    "value": "$aPermette l'uso di【Mobilità (２)】.\n\nAnticipa l'attivazione dell'abilità speciale\n(contatore -1). Se l'unità o il nemico attaccano\nper primi dopo essersi spostati in uno spazio\ndifferente, conferisce Att/Vel/Dif/Res +5 all'unità\ndurante lo scontro e infligge danni aggiuntivi pari\na X × 10% della Dif del nemico (il valore di X è\nuguale al numero di spazi tra la posizione di\npartenza e quella di arrivo di chi ha attaccato\nper primo, massimo 4; escluse le abilità speciali\ncon area d'effetto). Inoltre, se l'unità ha almeno\nil 25% dei PS all'inizio dello scontro e ha 2 PS o\npiù durante lo scontro, sopravvive a un attacco\nletale e rimane con 1 PS. (Una volta per scontro;\nnon cumulabile con effetti di abilità non speciali\nche permettono all'unità di sopravvivere a\nun attacco letale e rimanere con 1 PS.)\n\n【Mobilità (２)】\nDopo un attacco, un'abilità di aiuto o\nla distruzione di una struttura, l'unità\npuò spostarsi di ２ spazio/i.\n\nL'unità si sposta a seconda del tipo di\nmovimento. Una volta per turno. Non può\nattaccare né aiutare. Non cumulabile; si applica\nsolo il valore più alto. Dopo lo spostamento,\nse un'abilità che conferisce un'altra azione\nsi dovesse attivare (come Assalto impetuoso),\nMobilità si attiverà dopo l'azione conferita.\nIl movimento base dell'unità non ha effetto sul\nmovimento conferito. Non può trasferirsi\n(usando abilità come Ali di pietà) a più di\n２ spazio/i di distanza."
   },
   {
     "key": "MSID_H_ゲイルドリヴル",
@@ -669,19 +669,19 @@
   },
   {
     "key": "MSID_H_攻撃速さの激突1",
-    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 1. (Il valore di X è uguale\nalla quantità di spazi percorsi da chi ha attaccato\nper primo; massimo 1.)"
+    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 1. (Il valore di X è uguale\nal numero di spazi tra la posizione di partenza\ne quella di arrivo di chi ha attaccato per primo;\nmassimo 1.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突2",
-    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 3. (Il valore di X è uguale\nalla quantità di spazi percorsi da chi ha attaccato\nper primo; massimo 2.)"
+    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 3. (Il valore di X è uguale\nal numero di spazi tra la posizione di partenza\ne quella di arrivo di chi ha attaccato per primo;\nmassimo 2.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突3",
-    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 5. (Il valore di X è uguale\nalla quantità di spazi percorsi da chi ha attaccato\nper primo; massimo 3.)"
+    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 5. (Il valore di X è uguale\nal numero di spazi tra la posizione di partenza\ne quella di arrivo di chi ha attaccato per primo;\nmassimo 3.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突4",
-    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 6. (Il valore di X è uguale\nalla quantità di spazi percorsi da chi ha attaccato\nper primo; massimo 4.) Se il valore di X è uguale\nad almeno 2, le penalità ad Att/Vel dell'unità\nsono annullate durante lo scontro."
+    "value": "Se l'unità o il nemico attaccano per primi dopo\nessersi spostati in uno spazio differente, Att/Vel\ndell'unità aumentano durante lo scontro di\nun valore pari a X + 6. (Il valore di X è uguale\nal numero di spazi tra la posizione di partenza\ne quella di arrivo di chi ha attaccato per primo;\nmassimo 4.) Se il valore di X è uguale ad almeno\n2, le penalità ad Att/Vel dell'unità sono annullate\ndurante lo scontro."
   },
   {
     "key": "MSID_H_攻撃魔防の秘奥1",

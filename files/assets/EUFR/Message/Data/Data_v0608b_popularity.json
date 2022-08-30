@@ -641,7 +641,7 @@
   },
   {
     "key": "MSID_H_聖日ティルフィング",
-    "value": "$aActive【Mobilité (２)】.\n\nAccélère l'activation des aptitudes spéciales\n(compteur -1). Si l'unité ou l'ennemi initie le\ncombat après s'être déplacé sur une case\ndifférente, confère Atq/Vit/Déf/Rés +5 à l'unité\npendant le combat et inflige des dégâts\nsupplémentaires à hauteur du nombre de cases\nparcourues par celui qui a initié le combat\n(4 maximum) x 10 % de la Déf de l'ennemi\n(aptitudes spéciales à effet de zone exclues),\net si PV de l'unité ≥ 25 % au début du combat\net que PV de l'unité > 1 pendant le combat,\nl'unité survit à un coup mortel avec 1 PV restant\n(une fois par combat, non cumulable avec les\neffets d'aptitudes non spéciales qui permettent\nà l'unité de survivre à un coup mortel avec 1 PV\nrestant).\n\n【Mobilité (２)】\nAprès une attaque, l'utilisation d'une aptitude\nde soutien ou la destruction d'une structure,\nl'unité peut se déplacer de ２ case(s).\nL'unité se déplace en fonction de son type de\nmouvement. Une fois par tour. Attaque ou\nsoutien impossible. S'il y a plusieurs effets\nsimilaires, seul le plus puissant s'applique.\nAprès le déplacement, si une aptitude\npermettant d'agir à nouveau (comme Élan\nvictorieux) devait se déclencher, Mobilité se\ndéclenchera après l'action conférée. Le\nmouvement de base de l'unité n'a pas d'effet\nsur le mouvement conféré. La téléportation (via\ndes aptitudes comme Sauvetage) ne peut pas\nexcéder une distance de ２ case(s)."
+    "value": "$aActive【Mobilité (２)】.\n\nAccélère l'activation des aptitudes spéciales\n(compteur -1). Si l'unité ou l'ennemi initie le\ncombat après s'être déplacé sur une case\ndifférente, confère Atq/Vit/Déf/Rés +5 à l'unité\npendant le combat et inflige des dégâts\nsupplémentaires à hauteur de X × 10 % de la Déf\nde l'ennemi (X = nombre de cases parcourues\ndepuis le point de départ jusqu'au point d'arrivée\npar celui qui a initié le combat, 4 maximum ;\naptitudes spéciales à effet de zone exclues), et\nsi PV de l'unité ≥ 25 % au début du combat et\nque PV de l'unité > 1 pendant le combat, l'unité\nsurvit à un coup mortel avec 1 PV restant (une\nfois par combat, non cumulable avec les effets\nd'aptitudes non spéciales qui permettent à l'unité\nde survivre à un coup mortel avec 1 PV restant).\n\n【Mobilité (２)】\nAprès une attaque, l'utilisation d'une aptitude\nde soutien ou la destruction d'une structure,\nl'unité peut se déplacer de ２ case(s).\nL'unité se déplace en fonction de son type de\nmouvement. Une fois par tour. Attaque ou\nsoutien impossible. S'il y a plusieurs effets\nsimilaires, seul le plus puissant s'applique.\nAprès le déplacement, si une aptitude\npermettant d'agir à nouveau (comme Élan\nvictorieux) devait se déclencher, Mobilité se\ndéclenchera après l'action conférée. Le\nmouvement de base de l'unité n'a pas d'effet\nsur le mouvement conféré. La téléportation (via\ndes aptitudes comme Sauvetage) ne peut pas\nexcéder une distance de ２ case(s)."
   },
   {
     "key": "MSID_H_ゲイルドリヴル",
@@ -669,19 +669,19 @@
   },
   {
     "key": "MSID_H_攻撃速さの激突1",
-    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +1 (X = nombre de cases parcourues par\ncelui qui a initié le combat, 1 maximum)."
+    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +1. (X = nombre de cases parcourues depuis\nle point de départ jusqu'au point d'arrivée par\ncelui qui a initié le combat ; 1 maximum.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突2",
-    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +3 (X = nombre de cases parcourues par\ncelui qui a initié le combat, 2 maximum)."
+    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +3. (X = nombre de cases parcourues depuis\nle point de départ jusqu'au point d'arrivée par\ncelui qui a initié le combat ; 2 maximum.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突3",
-    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +5 (X = nombre de cases parcourues par\ncelui qui a initié le combat, 3 maximum)."
+    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +5. (X = nombre de cases parcourues depuis\nle point de départ jusqu'au point d'arrivée par\ncelui qui a initié le combat ; 3 maximum.)"
   },
   {
     "key": "MSID_H_攻撃速さの激突4",
-    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +6 (X = nombre de cases parcourues par\ncelui qui a initié le combat, 4 maximum). Si X ≥ 2,\nneutralise les malus affectant Atq/Vit de l'unité\npendant le combat."
+    "value": "Si l'unité ou l'ennemi initie le combat après\ns'être déplacé sur une case différente, confère\nun boost d'Atq/Vit pendant le combat équivalent\nà X +6. (X = nombre de cases parcourues depuis\nle point de départ jusqu'au point d'arrivée par\ncelui qui a initié le combat ; 4 maximum.) Si X ≥ 2,\nneutralise les malus affectant Atq/Vit de l'unité\npendant le combat."
   },
   {
     "key": "MSID_H_攻撃魔防の秘奥1",
