@@ -609,7 +609,7 @@
   },
   {
     "key": "MSID_H_紅花オートクレールR",
-    "value": "If unit is within 3 spaces of an ally, grants bonus\nto unit's Atk/Def/Res during combat = X × 2, + 3\n(X = number of spaces moved by whoever\ninitiated combat; max 3), inflicts Atk/Def-6 on\nfoe during combat, restores 7 HP to unit when\nunit deals damage to foe during combat\n(triggers even if 0 damage is dealt), and also, if\nX ≥ 1, inflicts Special cooldown charge -1 on\nfoe per attack. (Only highest value applied.\nDoes not stack.)"
+    "value": "If unit is within 3 spaces of an ally, grants bonus\nto unit's Atk/Def/Res during combat = X × 2, + 3\n(X = number of spaces from start position to\nend position of whoever initiated combat;\nmax 3), inflicts Atk/Def-6 on foe during combat,\nrestores 7 HP to unit when unit deals damage\nto foe during combat (triggers even if 0 damage\nis dealt), and also, if X ≥ 1, inflicts Special\ncooldown charge -1 on foe per attack. (Only\nhighest value applied. Does not stack.)"
   },
   {
     "key": "MSID_H_翠風パルティアR",

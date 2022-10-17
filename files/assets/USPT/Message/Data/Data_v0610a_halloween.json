@@ -689,7 +689,7 @@
   },
   {
     "key": "MSID_H_月夜の魔女の竜石",
-    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). No início da 1ª rodada,\nconcede contagem regressiva -2 da habilidade\nespecial se o ataque do inimigo pode ativá-la. Se\no inimigo inicia o combate ou se PV (ini.) ≥ 75%\nno início do combate, concede Atq./Vel./Def./Res.\n+5 à unidade durante o combate, concede -1 à\ncontagem regressiva da habilidade especial por\ncada ataque da unidade e inflige +1 à contagem\nregressiva da habilidade especial do inimigo por\ncada ataque durante o combate (só o valor mais\nalto se aplica, não cumulativo) e reduz o dano\ncausado à unidade em 8 quando o ataque do\ninimigo ativa habilidades especiais (exceto\nMilagre). Se o alcance do inimigo = 2, calcula o\ndano usando Def. ou Res. do inimigo (a que tiver\nvalor mais baixo)."
+    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). No início da 1ª rodada,\nse o ataque do inimigo pode ativar a habilidade\nespecial da unidade, concede a ela contagem\nregressiva -2. Se o inimigo inicia o combate ou\nse PV (ini.) ≥ 75% no início do combate, concede\nAtq./Vel./Def./Res. +5 à unidade durante o\ncombate, concede -1 à contagem regressiva da\nhabilidade especial por cada ataque da unidade\ne inflige +1 à contagem regressiva da habilidade\nespecial do inimigo por cada ataque durante o\ncombate (só o valor mais alto se aplica, não\ncumulativo) e reduz o dano causado à unidade\nem 8 quando o ataque do inimigo ativa a\nhabilidade especial da unidade (exceto Milagre).\nSe o alcance do inimigo = 2, calcula o dano\nusando Def. ou Res. do inimigo (a que tiver\nvalor mais baixo)."
   },
   {
     "key": "MSID_H_星夜の魔術師の竜石",

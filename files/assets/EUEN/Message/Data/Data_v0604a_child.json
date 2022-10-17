@@ -565,7 +565,7 @@
   },
   {
     "key": "MSID_H_戦神の剛なる鉄剣",
-    "value": "Grants Atk+3. At start of combat, if unit's\nHP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit\nduring combat, and if unit's attack triggers\nSpecial, the following effects will occur based\non the number of allies within 4 spaces of unit:\nIf ≥ 1, before unit's first attack, grants Special\ncooldown count-X (X = 50% of unit's max\nSpecial cooldown count value, rounded down)\nto unit. If ≥ 2, reduces damage from foe's\nfirst attack by X% (X = unit's max Special\ncooldown count value × 10). If ≥ 3,\nneutralizes effects that guarantee foe's\nfollow-up attacks and effects that prevent\nunit's follow-up attacks."
+    "value": "Grants Atk+3. At start of combat, if unit's\nHP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit\nduring combat, and if unit's attack can trigger\ntheir Special, the following effects will occur\nbased on the number of allies within 4 spaces\nof unit: If ≥ 1, before unit's first attack, grants\nSpecial cooldown count-X (X = 50% of unit's\nmax Special cooldown count value, rounded\ndown) to unit. If ≥ 2, reduces damage from\nfoe's first attack by X% (X = unit's max\nSpecial cooldown count value × 10). If ≥ 3,\nneutralizes effects that guarantee foe's\nfollow-up attacks and effects that prevent\nunit's follow-up attacks."
   },
   {
     "key": "MSID_H_戦神の鋭剣",

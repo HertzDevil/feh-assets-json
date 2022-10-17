@@ -6425,15 +6425,15 @@
   },
   {
     "key": "MSID_H_盾の鼓動1",
-    "value": "At the start of turn 1, if foe's attack triggers\nSpecial, grants Special cooldown count-1."
+    "value": "At the start of turn 1, if foe's attack can trigger\nunit's Special, grants Special cooldown count-1."
   },
   {
     "key": "MSID_H_盾の鼓動2",
-    "value": "At the start of turn 1, if foe's attack triggers\nSpecial, grants Special cooldown count-1.\nReduces damage dealt to unit by 5 when Special\ntriggers."
+    "value": "At the start of turn 1, if foe's attack can trigger\nunit's Special, grants Special cooldown count-1.\nReduces damage dealt to unit by 5 when Special\ntriggers."
   },
   {
     "key": "MSID_H_盾の鼓動3",
-    "value": "At the start of turn 1, if foe's attack triggers\nSpecial, grants Special cooldown count-2.\nReduces damage dealt to unit by 5 when Special\ntriggers."
+    "value": "At the start of turn 1, if foe's attack can trigger\nunit's Special, grants Special cooldown count-2.\nReduces damage dealt to unit by 5 when Special\ntriggers."
   },
   {
     "key": "MSID_H_魔防の謀策1",
@@ -11813,15 +11813,15 @@
   },
   {
     "key": "MSID_H_怒り1",
-    "value": "At start of turn, if unit's HP ≤ 25% and unit's\nattack triggers Special, grants Special cooldown\ncount-1, and deals +10 damage when Special\ntriggers."
+    "value": "At start of turn, if unit's HP ≤ 25% and unit's\nattack can trigger their Special, grants Special\ncooldown count-1, and deals +10 damage\nwhen Special triggers."
   },
   {
     "key": "MSID_H_怒り2",
-    "value": "At start of turn, if unit's HP ≤ 50% and unit's\nattack triggers Special, grants Special cooldown\ncount-1, and deals +10 damage when Special\ntriggers."
+    "value": "At start of turn, if unit's HP ≤ 50% and unit's\nattack can trigger their Special, grants Special\ncooldown count-1, and deals +10 damage\nwhen Special triggers."
   },
   {
     "key": "MSID_H_怒り3",
-    "value": "At start of turn, if unit's HP ≤ 75% and unit's\nattack triggers Special, grants Special cooldown\ncount-1, and deals +10 damage when Special\ntriggers."
+    "value": "At start of turn, if unit's HP ≤ 75% and unit's\nattack can trigger their Special, grants Special\ncooldown count-1, and deals +10 damage\nwhen Special triggers."
   },
   {
     "key": "MSID_H_速さ守備の紋章1",
@@ -33249,15 +33249,15 @@
   },
   {
     "key": "MSID_H_回避・怒り1",
-    "value": "If unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 2 (max 20%). If unit's HP ≤ 25% and\nunit's attack triggers Special, deals +5 damage\nwhen Special triggers."
+    "value": "If unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 2 (max 20%). If unit's HP ≤ 25% and\nunit's attack can trigger their Special, deals +5\ndamage when Special triggers."
   },
   {
     "key": "MSID_H_回避・怒り2",
-    "value": "If unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 3 (max 30%). If unit's HP ≤ 50% and\nunit's attack triggers Special, deals +5 damage\nwhen Special triggers."
+    "value": "If unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 3 (max 30%). If unit's HP ≤ 50% and\nunit's attack can trigger their Special, deals +5\ndamage when Special triggers."
   },
   {
     "key": "MSID_H_回避・怒り3",
-    "value": "If unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 4 (max 40%). If unit's HP ≤ 75% and\nunit's attack triggers Special, deals +5 damage\nwhen Special triggers."
+    "value": "If unit's Spd > foe's Spd, reduces damage from\nattacks during combat and from area-of-effect\nSpecials (excluding Røkkr area-of-effect\nSpecials) by percentage = difference between\nstats × 4 (max 40%). If unit's HP ≤ 75% and\nunit's attack can trigger their Special, deals +5\ndamage when Special triggers."
   },
   {
     "key": "MID_CHAPTER_TITLE_C0409",
@@ -42589,7 +42589,7 @@
   },
   {
     "key": "MPID_H_マリナス",
-    "value": "Tactician of Pherae for generations. Formally\na traveling merchant. Travels with Roy and\nserves as an advisor. Appears in Fire Emblem:\nThe Binding Blade."
+    "value": "Tactician of Pherae for generations. Formerly\na traveling merchant. Travels with Roy and\nserves as an advisor. Appears in Fire Emblem:\nThe Binding Blade."
   },
   {
     "key": "MPID_H_ゲイル",
@@ -65881,7 +65881,7 @@
   },
   {
     "key": "MSID_H_華月の腕輪",
-    "value": "$aEnables【Canto (２)】.\n\nNeutralizes unit's penalties that inflict \"Special\ncooldown charge -X\" on unit during combat.\nDeals damage = X% of foe's Def when Special\ntriggers (X = unit's max Special cooldown\ncount value × 10, + 20).\n\n【Canto (２)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move ２ space(s).\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger after the granted action. Unit's base\nmovement has no effect on movement granted.\nCannot warp (using skills like Wings of Mercy)\na distance greater than ２ space(s).)"
+    "value": "$aEnables【Canto (２)】.\n\nNeutralizes effects that inflict \"Special\ncooldown charge -X\" on unit during combat.\nDeals damage = X% of foe's Def when Special\ntriggers (X = unit's max Special cooldown\ncount value × 10, + 20).\n\n【Canto (２)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move ２ space(s).\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger after the granted action. Unit's base\nmovement has no effect on movement granted.\nCannot warp (using skills like Wings of Mercy)\na distance greater than ２ space(s).)"
   },
   {
     "key": "MSID_H_異常なしであります",
@@ -67381,7 +67381,7 @@
   },
   {
     "key": "MSID_H_太陽の腕輪・承",
-    "value": "$aEnables【Canto (２)】.\n\nNeutralizes unit's penalties that inflict \"Special\ncooldown charge -X\" on unit during combat.\nRestores 10 HP to unit after combat.\n\n【Canto (２)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move ２ space(s).\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger after the granted action. Unit's base\nmovement has no effect on movement granted.\nCannot warp (using skills like Wings of Mercy)\na distance greater than ２ space(s).)"
+    "value": "$aEnables【Canto (２)】.\n\nNeutralizes effects that inflict \"Special\ncooldown charge -X\" on unit during combat.\nRestores 10 HP to unit after combat.\n\n【Canto (２)】\nAfter an attack, Assist skill, or structure\ndestruction, unit can move ２ space(s).\n\n(Unit moves according to movement type. Once\nper turn. Cannot attack or assist. Only highest\nvalue applied. Does not stack. After moving,\nif a skill that grants another action would be\ntriggered (like with Galeforce), Canto will\ntrigger after the granted action. Unit's base\nmovement has no effect on movement granted.\nCannot warp (using skills like Wings of Mercy)\na distance greater than ２ space(s).)"
   },
   {
     "key": "MSID_H_盟主の鼓動・承",
@@ -67397,7 +67397,7 @@
   },
   {
     "key": "MSID_H_流麗なる戦舞の聖器",
-    "value": "Accelerates Special trigger (cooldown count-1).\nAt start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd/Def/Res+5 to unit and neutralizes\neffects that guarantee foe's follow-up attacks\nand effects that prevent unit's follow-up\nattacks during combat, and also, if unit's\nSpd > foe's Spd during combat, neutralizes\npenalties that inflict \"Special cooldown\ncharge -X\" on unit during combat."
+    "value": "Accelerates Special trigger (cooldown count-1).\nAt start of combat, if unit's HP ≥ 25%, grants\nAtk/Spd/Def/Res+5 to unit and neutralizes\neffects that guarantee foe's follow-up attacks\nand effects that prevent unit's follow-up\nattacks during combat, and also, if unit's\nSpd > foe's Spd during combat, neutralizes\neffects that inflict \"Special cooldown\ncharge -X\" on unit during combat."
   },
   {
     "key": "MSID_H_双聖戦士の聖弓",
@@ -70861,15 +70861,15 @@
   },
   {
     "key": "MSID_H_盾壁隊形1",
-    "value": "Neutralizes effects that guarantee foe's\nfollow-up attacks during combat. At the\nstart of turn 1, if foe's attack triggers\nSpecial, grants Special cooldown count-1.\nIf foe's attack triggers Special and Special\nhas the \"reduces damage by X%\" effect,\nSpecial triggers twice. (Example: if Special\nhas the \"reduces damage by 50%\" effect\nand no other damage reduction effects\ntrigger, reduces initial damage by 50%,\nthen reduces remaining damage by 50%\nfor a total damage reduction of 75%.)\nEach Special trigger is calculated as\na separate activation."
+    "value": "Neutralizes effects that guarantee foe's\nfollow-up attacks during combat. At the\nstart of turn 1, if foe's attack can trigger unit's\nSpecial, grants Special cooldown count-1.\nIf foe's attack triggers unit's Special and\nSpecial has the \"reduces damage by X%\"\neffect, Special triggers twice. (Example: if\nSpecial has the \"reduces damage by 50%\"\neffect and no other damage reduction effects\ntrigger, reduces initial damage by 50%,\nthen reduces remaining damage by 50%\nfor a total damage reduction of 75%.)\nEach Special trigger is calculated as\na separate activation."
   },
   {
     "key": "MSID_H_盾壁隊形2",
-    "value": "Neutralizes effects that guarantee foe's\nfollow-up attacks during combat. At the\nstart of turn 1, if foe's attack triggers\nSpecial, grants Special cooldown count-1.\nIf foe's attack triggers Special and Special\nhas the \"reduces damage by X%\" effect,\nSpecial triggers twice, then reduces damage\nby 5. (Example: if Special has the \"reduces\ndamage by 50%\" effect and no other damage\nreduction effects trigger, reduces initial\ndamage by 50%, then reduces remaining\ndamage by 50% for a total reduction\nof 75%. Remaining damage is then reduced\nfurther by 5.) Each Special trigger is calculated\nas a separate activation."
+    "value": "Neutralizes effects that guarantee foe's\nfollow-up attacks during combat. At the\nstart of turn 1, if foe's attack can trigger unit's\nSpecial, grants Special cooldown count-1.\nIf foe's attack triggers unit's Special and\nSpecial has the \"reduces damage by X%\"\neffect, Special triggers twice, then reduces\ndamage by 5. (Example: if Special has the\n\"reduces damage by 50%\" effect and no other\ndamage reduction effects trigger, reduces\ninitial damage by 50%, then reduces remaining\ndamage by 50% for a total damage reduction\nof 75%. Remaining damage is then reduced\nfurther by 5.) Each Special trigger is calculated\nas a separate activation."
   },
   {
     "key": "MSID_H_盾壁隊形3",
-    "value": "Neutralizes effects that guarantee foe's\nfollow-up attacks during combat. At the\nstart of turn 1, if foe's attack triggers\nSpecial, grants Special cooldown count-2.\nIf foe's attack triggers Special and Special\nhas the \"reduces damage by X%\" effect,\nSpecial triggers twice, then reduces damage\nby 5. (Example: if Special has the \"reduces\ndamage by 50%\" effect and no other damage\nreduction effects trigger, reduces initial\ndamage by 50%, then reduces remaining\ndamage by 50% for a total damage reduction\nof 75%. Remaining damage is then reduced\nfurther by 5.) Each Special trigger is calculated\nas a separate activation."
+    "value": "Neutralizes effects that guarantee foe's\nfollow-up attacks during combat. At the\nstart of turn 1, if foe's attack can trigger unit's\nSpecial, grants Special cooldown count-2.\nIf foe's attack triggers unit's Special and\nSpecial has the \"reduces damage by X%\"\neffect, Special triggers twice, then reduces\ndamage by 5. (Example: if Special has the\n\"reduces damage by 50%\" effect and no other\ndamage reduction effects trigger, reduces\ninitial damage by 50%, then reduces remaining\ndamage by 50% for a total damage reduction\nof 75%. Remaining damage is then reduced\nfurther by 5.) Each Special trigger is calculated\nas a separate activation."
   },
   {
     "key": "MSID_H_守備魔防の干渉1",
@@ -73529,7 +73529,7 @@
   },
   {
     "key": "MSID_H_火消しの暗刃",
-    "value": "$aAccelerates Special trigger (cooldown count-1).\nIf unit initiates combat or is not adjacent to\nan ally, grants Atk/Spd/Def/Res+5 to unit,\nneutralizes penalties that inflict \"Special\ncooldown charge -X\" on unit, and grants unit\nSpecial cooldown charge +1 per unit's attack\nduring combat. (Only highest value applied.\nDoes not stack.)\nEffect:【Dagger ７】\n\n【Dagger ７】\nAfter combat, if unit attacked, inflicts\nDef/Res-７ on target and foes within\n2 spaces of target through their next actions."
+    "value": "$aAccelerates Special trigger (cooldown count-1).\nIf unit initiates combat or is not adjacent to\nan ally, grants Atk/Spd/Def/Res+5 to unit,\nneutralizes effects that inflict \"Special\ncooldown charge -X\" on unit, and grants unit\nSpecial cooldown charge +1 per unit's attack\nduring combat. (Only highest value applied.\nDoes not stack.)\nEffect:【Dagger ７】\n\n【Dagger ７】\nAfter combat, if unit attacked, inflicts\nDef/Res-７ on target and foes within\n2 spaces of target through their next actions."
   },
   {
     "key": "MSID_H_魔銃ブロック",
@@ -83253,7 +83253,7 @@
   },
   {
     "key": "MPID_H_サザ",
-    "value": "A thief for the Dawn Brigade. He generally\nshows little interest in others but tends to be\noverprotective of his Micaiah, who's like a sister\nto him. Appears in Fire Emblem: Radiant Dawn."
+    "value": "A thief for the Dawn Brigade. He generally\nshows little interest in others but tends to be\noverprotective of Micaiah, who's like a sister\nto him. Appears in Fire Emblem: Radiant Dawn."
   },
   {
     "key": "MPID_H_ゼルギウス",
@@ -86277,7 +86277,7 @@
   },
   {
     "key": "MSID_H_狂斧アルマーズ",
-    "value": "Accelerates Special trigger (cooldown count-1).\nAt start of turn, if unit's HP ≤ 75% and unit's\nattack triggers Special, grants Special\ncooldown count-1, and deals +10 damage\nwhen Special triggers."
+    "value": "Accelerates Special trigger (cooldown count-1).\nAt start of turn, if unit's HP ≤ 75% and unit's\nattack can trigger their Special, grants Special\ncooldown count-1, and deals +10 damage\nwhen Special triggers."
   },
   {
     "key": "MSID_H_グラーティア",
@@ -113173,7 +113173,7 @@
   },
   {
     "key": "MSID_H_トローン",
-    "value": "At start of turn, if unit's HP ≤ 75% and unit's\nattack triggers Special, grants Special\ncooldown count-1, and deals +10 damage\nwhen Special triggers."
+    "value": "At start of turn, if unit's HP ≤ 75% and unit's\nattack can trigger their Special, grants Special\ncooldown count-1, and deals +10 damage\nwhen Special triggers."
   },
   {
     "key": "MSID_H_特殊射程R竜",
@@ -118209,7 +118209,7 @@
   },
   {
     "key": "MSID_H_魔竜のブレス",
-    "value": "Grants Def+3. Effective against armored\nfoes. At start of combat, if a negative status\neffect is active on unit, or if unit's HP < 100%,\nneutralizes penalties on unit and grants\nAtk/Spd/Def/Res+4 during combat. If foe's\nRange = 2, calculates damage using the\nlower of foe's Def and Res."
+    "value": "Grants Def+3. Effective against armored\nfoes. At start of combat, if a negative status\neffect is active on unit, or if unit's HP < 100%,\nneutralizes penalties on unit and grants\nAtk/Spd/Def/Res+4 during combat. If foe's\nRange = 2, calculates damage using the\nlower of foe's Def or Res."
   },
   {
     "key": "MSID_H_魔防の大応援",

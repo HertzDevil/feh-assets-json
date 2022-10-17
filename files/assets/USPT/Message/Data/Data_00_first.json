@@ -6425,15 +6425,15 @@
   },
   {
     "key": "MSID_H_盾の鼓動1",
-    "value": "No início da primeira rodada, concede\ncontagem regressiva -1 da habilidade\nespecial se o ataque do inimigo ativá-la."
+    "value": "No início da primeira rodada, se o ataque do\ninimigo pode ativar a habilidade especial da\nunidade, concede contagem regressiva -1."
   },
   {
     "key": "MSID_H_盾の鼓動2",
-    "value": "No início da primeira rodada, concede\ncontagem regressiva -1 da habilidade\nespecial se o ataque do inimigo ativá-la.\nReduz o dano causado à unidade em 5\nao executar habilidades especiais."
+    "value": "No início da primeira rodada, se o ataque do\ninimigo pode ativar a habilidade especial da\nunidade, concede contagem regressiva -1.\nReduz o dano causado à unidade em 5\nao executar habilidades especiais."
   },
   {
     "key": "MSID_H_盾の鼓動3",
-    "value": "No início da primeira rodada, concede\ncontagem regressiva -2 da habilidade\nespecial se o ataque do inimigo ativá-la.\nReduz o dano causado à unidade em 5\nao executar habilidades especiais."
+    "value": "No início da primeira rodada, se o ataque do\ninimigo pode ativar a habilidade especial da\nunidade, concede contagem regressiva -2.\nReduz o dano causado à unidade em 5\nao executar habilidades especiais."
   },
   {
     "key": "MSID_H_魔防の謀策1",
@@ -11813,15 +11813,15 @@
   },
   {
     "key": "MSID_H_怒り1",
-    "value": "No início da rodada, se PV (unidade) ≤ 25%\ne o ataque da unidade ativa uma habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
+    "value": "No início da rodada, se PV (uni.) ≤ 25% e o\nataque da unidade pode ativar sua habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
   },
   {
     "key": "MSID_H_怒り2",
-    "value": "No início da rodada, se PV (unidade) ≤ 50%\ne o ataque da unidade ativa uma habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
+    "value": "No início da rodada, se PV (uni.) ≤ 50% e o\nataque da unidade pode ativar sua habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
   },
   {
     "key": "MSID_H_怒り3",
-    "value": "No início da rodada, se PV (unidade) ≤ 75%\ne o ataque da unidade ativa uma habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
+    "value": "No início da rodada, se PV (uni.) ≤ 75% e o\nataque da unidade pode ativar sua habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
   },
   {
     "key": "MSID_H_速さ守備の紋章1",
@@ -33249,15 +33249,15 @@
   },
   {
     "key": "MSID_H_回避・怒り1",
-    "value": "Se Vel. (unidade) > Vel. (inimigo), reduz em\nX% o dano de habilidades especiais com área\nde efeito (exceto as executadas por Røkkr) e\nde ataques durante o combate. (X = diferença\nentre os atributos ×2; máximo: 20%). Se\nPV (unidade) ≤ 25% e o ataque da unidade\nativa uma habilidade especial, inflige 5 pontos\nde dano ao executar habilidades especiais."
+    "value": "Se Vel. (unidade) > Vel. (inimigo), reduz em\nX% o dano de habilidades especiais com área\nde efeito (exceto as executadas por Røkkr) e\nde ataques durante o combate. (X = diferença\nentre os atributos ×2; máximo: 20%). Se\nPV (unidade) ≤ 25% e o ataque da unidade pode\nativar sua habilidade especial, inflige 5 pontos\nde dano ao executar habilidades especiais."
   },
   {
     "key": "MSID_H_回避・怒り2",
-    "value": "Se Vel. (unidade) > Vel. (inimigo), reduz em\nX% o dano de habilidades especiais com área\nde efeito (exceto as executadas por Røkkr) e\nde ataques durante o combate. (X = diferença\nentre os atributos ×3; máximo: 30%). Se\nPV (unidade) ≤ 50% e o ataque da unidade\nativa uma habilidade especial, inflige 5 pontos\nde dano ao executar habilidades especiais."
+    "value": "Se Vel. (unidade) > Vel. (inimigo), reduz em\nX% o dano de habilidades especiais com área\nde efeito (exceto as executadas por Røkkr) e\nde ataques durante o combate. (X = diferença\nentre os atributos ×3; máximo: 30%). Se\nPV (unidade) ≤ 50% e o ataque da unidade pode\nativar sua habilidade especial, inflige 5 pontos\nde dano ao executar habilidades especiais."
   },
   {
     "key": "MSID_H_回避・怒り3",
-    "value": "Se Vel. (unidade) > Vel. (inimigo), reduz em\nX% o dano de habilidades especiais com área\nde efeito (exceto as executadas por Røkkr) e\nde ataques durante o combate. (X = diferença\nentre os atributos ×4; máximo: 40%). Se\nPV (unidade) ≤ 75% e o ataque da unidade\nativa uma habilidade especial, inflige 5 pontos\nde dano ao executar habilidades especiais."
+    "value": "Se Vel. (unidade) > Vel. (inimigo), reduz em\nX% o dano de habilidades especiais com área\nde efeito (exceto as executadas por Røkkr) e\nde ataques durante o combate. (X = diferença\nentre os atributos ×4; máximo: 40%). Se\nPV (unidade) ≤ 75% e o ataque da unidade pode\nativar sua habilidade especial, inflige 5 pontos\nde dano ao executar habilidades especiais."
   },
   {
     "key": "MID_CHAPTER_TITLE_C0409",
@@ -35137,7 +35137,7 @@
   },
   {
     "key": "MSID_H_双界・盾",
-    "value": "$aConcede【Ressonância: Escudos】à unidade e a\naliados que sejam dos mesmos títulos.\n\nUma vez que a habilidade harmonizada\ntiver sido usada, ela não poderá ser ativada\nde novo imediatamente. No início de cada\nterceira rodada, no entanto, se a habilidade\nharmonizada já tiver sido usada, a unidade\npoderá usá-la novamente.\n\n【Ressonância: Escudos】\nConcede Def./Res. +4 durante o combate e o\nseguinte efeito por uma rodada: \"Durante o\nprimeiro combate da unidade na fase do\njogador ou na fase do inimigo, o inimigo\nnão pode fazer um ataque duplo.\""
+    "value": "$aConcede【Ressonância: Escudos】à unidade e a\naliados dos mesmos títulos.\n\nUma vez que a habilidade harmonizada\ntiver sido usada, ela não poderá ser ativada\nde novo imediatamente. No início de cada\nterceira rodada, no entanto, se a habilidade\nharmonizada já tiver sido usada, a unidade\npoderá usá-la novamente.\n\n【Ressonância: Escudos】\nConcede Def./Res. +4 durante o combate e o\nseguinte efeito por uma rodada: \"Durante o\nprimeiro combate da unidade na fase do\njogador ou na fase do inimigo, o inimigo\nnão pode fazer um ataque duplo.\""
   },
   {
     "key": "MID_CHAPTER_TITLE_CX048",
@@ -39493,7 +39493,7 @@
   },
   {
     "key": "MSID_H_双界・刃再",
-    "value": "$aConcede【Ressonância: Espada】à unidade e\na aliados que sejam dos mesmos títulos.\n\nConcede mais uma ação ao aliado com o PV\nmais alto que esteja em um raio de 2 espaços,\nque já tenha executado uma ação e que seja\ndo mesmo mundo da unidade (com exceção\nda unidade). (Aliados de Canto e Dança\ntambém podem receber este efeito. Se\nmais de uma unidade cumprir as condições,\no efeito não será ativado.)\n\n【Ressonância: Espada】\nConcede Atq./Vel. +4 durante o combate\npor uma rodada."
+    "value": "$aConcede【Ressonância: Espada】à unidade e\na aliados dos mesmos títulos.\n\nConcede mais uma ação ao aliado com o PV\nmais alto que esteja em um raio de 2 espaços,\nque já tenha executado uma ação e que seja\ndo mesmo mundo da unidade (com exceção\nda unidade). (Aliados de Canto e Dança\ntambém podem receber este efeito. Se\nmais de uma unidade cumprir as condições,\no efeito não será ativado.)\n\n【Ressonância: Espada】\nConcede Atq./Vel. +4 durante o combate\npor uma rodada."
   },
   {
     "key": "MSID_H_聖剣ティルフィング改",
@@ -45169,7 +45169,7 @@
   },
   {
     "key": "MSID_H_双界・刃自待",
-    "value": "$aConcede【Ressonância: Espada】à unidade e\na aliados que sejam dos mesmos títulos.\n\nConcede【Emboscada】à unidade.\n\n【Ressonância: Espada】\nConcede Atq./Vel. +4 durante o combate\npor uma rodada.\n\n【Emboscada】\nSe o inimigo inicia o combate, a unidade pode\ncontra-atacar antes do primeiro ataque do\ninimigo por um turno."
+    "value": "$aConcede【Ressonância: Espada】à unidade e\na aliados dos mesmos títulos.\n\nConcede【Emboscada】à unidade.\n\n【Ressonância: Espada】\nConcede Atq./Vel. +4 durante o combate\npor uma rodada.\n\n【Emboscada】\nSe o inimigo inicia o combate, a unidade pode\ncontra-atacar antes do primeiro ataque do\ninimigo por um turno."
   },
   {
     "key": "MID_CHAPTER_TITLE_CX052",
@@ -48201,7 +48201,7 @@
   },
   {
     "key": "MSID_H_双界・盾再",
-    "value": "$aConcede【Ressonância: Escudos】à unidade e a\naliados que sejam dos mesmos títulos.\n\nConcede mais uma ação ao aliado com o PV\nmais alto que esteja em um raio de 2 espaços,\nque já tenha executado uma ação e que seja\ndo mesmo mundo da unidade (com exceção\nda unidade). (Aliados de Canto e Dança\ntambém podem receber este efeito. Se\nmais de uma unidade cumprir as condições,\no efeito não será ativado.)\n\n【Ressonância: Escudos】\nConcede Def./Res. +4 durante o combate e o\nseguinte efeito por uma rodada: \"Durante o\nprimeiro combate da unidade na fase do\njogador ou na fase do inimigo, o inimigo\nnão pode fazer um ataque duplo.\""
+    "value": "$aConcede【Ressonância: Escudos】à unidade e a\naliados dos mesmos títulos.\n\nConcede mais uma ação ao aliado com o PV\nmais alto que esteja em um raio de 2 espaços,\nque já tenha executado uma ação e que seja\ndo mesmo mundo da unidade (com exceção\nda unidade). (Aliados de Canto e Dança\ntambém podem receber este efeito. Se\nmais de uma unidade cumprir as condições,\no efeito não será ativado.)\n\n【Ressonância: Escudos】\nConcede Def./Res. +4 durante o combate e o\nseguinte efeito por uma rodada: \"Durante o\nprimeiro combate da unidade na fase do\njogador ou na fase do inimigo, o inimigo\nnão pode fazer um ataque duplo.\""
   },
   {
     "key": "MID_CHAPTER_TITLE_CX054",
@@ -50177,7 +50177,7 @@
   },
   {
     "key": "MPID_H_愛の祭ヴェロニカ",
-    "value": "Princesa imperial de Embla. Participa\ndas festividades do Dia da Devoção\npara tentar entender o que é o amor."
+    "value": "Princesa do império embliano. Participa\ndas festividades do Dia da Devoção\npara tentar entender o que é o amor."
   },
   {
     "key": "MPID_VOICE_比翼リーヴ",
@@ -59901,7 +59901,7 @@
   },
   {
     "key": "MSID_H_剣姫の刀改",
-    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade iniciar\no combate ou se a unidade estiver em um raio\nde 2 espaços de um aliado, aumenta o dano em\n15% da Vel. (unidade) e concede Vel. +5 à\nunidade durante o combate."
+    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade inicia\no combate ou está em um raio de 2 espaços\nde um aliado, aumenta o dano em 15% da Vel.\n(unidade) e concede Vel. +5 à unidade durante\no combate."
   },
   {
     "key": "MSID_H_スカディ改",
@@ -62461,7 +62461,7 @@
   },
   {
     "key": "MSID_H_強化無効R攻守5",
-    "value": "Se a unidade iniciar o combate ou se a unidade\nestiver em um raio de 2 espaços de um aliado,\ninflige Atq./Def. -5 no inimigo e neutraliza os\nbônus de habilidades de inimigos (como\nintensas, nímias etc.) durante o combate."
+    "value": "Se a unidade inicia o combate ou está em um\nraio de 2 espaços de um aliado, inflige\nAtq./Def. -5 no inimigo e neutraliza os bônus\nde habilidades de inimigos (como intensas,\nnímias etc.) durante o combate."
   },
   {
     "key": "MSID_H_弱化無効R全4_2",
@@ -62513,7 +62513,7 @@
   },
   {
     "key": "MSID_H_波舞うイルカの斧",
-    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nEficaz contra inimigos de espada, lança,\nmachado, arco cinza e de armadura. Concede\nAtq. +3. Se a unidade iniciar o combate ou se a\nunidade estiver em um raio de 2 espaços de\num aliado, concede Atq./Vel./Def./Res. +5\ndurante o combate.\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
+    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nEficaz contra inimigos de espada, lança,\nmachado, arco cinza e de armadura. Concede\nAtq. +3. Se a unidade inicia o combate ou está\nem um raio de 2 espaços de um aliado, concede\nAtq./Vel./Def./Res. +5 durante o combate.\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
   },
   {
     "key": "MSID_H_絶氷のブレス",
@@ -63169,7 +63169,7 @@
   },
   {
     "key": "MSID_H_荒ぶる女子力の斧",
-    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade iniciar\no combate ou se a unidade estiver em um raio\nde 2 espaços de um aliado, inflige dano de\n15% do Atq. (unidade) e concede Atq./Vel. +6\nà unidade durante o combate."
+    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade inicia\no combate ou está em um raio de 2 espaços de\num aliado, inflige dano de 15% do Atq. (unidade)\ne concede Atq./Vel. +6 à unidade durante o\ncombate."
   },
   {
     "key": "MSID_H_ギンヌンガガプ",
@@ -64217,7 +64217,7 @@
   },
   {
     "key": "MDAID_H_海を旅した帽子",
-    "value": "Prova de que dois heróis venceram um\nchefão nas suas jornadas juntos. Serve\ncomo lembrança das suas viagens."
+    "value": "Prova de que dois heróis derrotaram\num chefão em sua jornada juntos.\nÉ uma lembrança das suas viagens."
   },
   {
     "key": "MID_MISSION_S202108JOURNEY01_TITLE",
@@ -65881,7 +65881,7 @@
   },
   {
     "key": "MSID_H_華月の腕輪",
-    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nNeutraliza as penalidades que infligem +X\nà contagem regressiva da habilidade especial\nda unidade durante o combate. Inflige dano de\nX% da Def. do inimigo quando a habilidade\nespecial é ativada (X = máx. da contagem\nregressiva da habilidade especial da unidade\nx 10, +20).\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
+    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nNeutraliza efeitos que infligem +X à contagem\nregressiva da habilidade especial da unidade\ndurante o combate. Inflige dano de X% da Def.\ndo inimigo quando a habilidade especial é ativada\n(X = máx. da contagem regressiva da habilidade\nespecial da unidade x 10, +20).\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
   },
   {
     "key": "MSID_H_異常なしであります",
@@ -67381,7 +67381,7 @@
   },
   {
     "key": "MSID_H_太陽の腕輪・承",
-    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nNeutraliza as penalidades que infligem +X\nà contagem regressiva da habilidade especial\nda unidade durante o combate. Restaura\n10 PV à unidade após o combate.\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
+    "value": "$aPermite o uso de【Mobilidade (２)】.\n\nNeutraliza efeitos que infligem +X à contagem\nregressiva da habilidade especial da unidade\ndurante o combate. Restaura 10 PV à unidade\napós o combate.\n\n【Mobilidade (２)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ２ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ２ espaço(s).)"
   },
   {
     "key": "MSID_H_盟主の鼓動・承",
@@ -67397,7 +67397,7 @@
   },
   {
     "key": "MSID_H_流麗なる戦舞の聖器",
-    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). No início do\ncombate, se PV (unidade) ≥ 25%, concede\nAtq./Vel./Def./Res. +5 à unidade e neutraliza\nefeitos que garantem ataques duplos do\ninimigo e efeitos que impedem ataques\nduplos da unidade durante o combate e,\ntambém, se Vel. (unidade) > Vel. (inimigo)\ndurante o combate, neutraliza as penalidades\nque infligem +X à contagem regressiva da\nhabilidade especial da unidade durante o\ncombate."
+    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). No início do\ncombate, se PV (unidade) ≥ 25%, concede\nAtq./Vel./Def./Res. +5 à unidade e neutraliza\nefeitos que garantem ataques duplos do\ninimigo e efeitos que impedem ataques\nduplos da unidade durante o combate e,\ntambém, se Vel. (unidade) > Vel. (inimigo)\ndurante o combate, neutraliza efeitos que\ninfligem +X à contagem regressiva da habilidade\nespecial da unidade durante o combate."
   },
   {
     "key": "MSID_H_双聖戦士の聖弓",
@@ -68209,7 +68209,7 @@
   },
   {
     "key": "MSID_H_アグネアの矢",
-    "value": "Concede Vel. +3. Se a unidade inicia o combate\nou se a unidade está em um raio de 2 espaços\nde um aliado, concede Atq./Vel. +6 à unidade\ndurante o combate, neutraliza efeitos que\nimpedem ataques duplos da unidade, neutraliza\nbônus de habilidades de Vel./Res. do inimigo\n(de habilidades como intensas, nímias, etc.)\nem rodadas ímpares e neutraliza penalidades\nde Atq./Vel. da unidade em rodadas pares."
+    "value": "Concede Vel. +3. Se a unidade inicia o combate\nou está em um raio de 2 espaços de um aliado,\nconcede Atq./Vel. +6 à unidade durante o\ncombate, neutraliza efeitos que impedem\nataques duplos da unidade, neutraliza bônus\nde habilidades de Vel./Res. do inimigo\n(de habilidades como intensas, nímias, etc.)\nem rodadas ímpares e neutraliza penalidades\nde Atq./Vel. da unidade em rodadas pares."
   },
   {
     "key": "MSID_H_魔獣の書",
@@ -69049,7 +69049,7 @@
   },
   {
     "key": "MSID_H_機斧ロヴンヘイズ",
-    "value": "$aConcede Atq. +3. Permite o uso\nde【Mobilidade (３)】nas rodadas de 1 a 4.\nSe a unidade inicia o combate ou se a\nunidade está em um raio de 2 espaços\nde um aliado, concede Atq. +6 à unidade\ndurante o combate, inflige Atq. -6 no inimigo\ndurante o combate e a unidade faz um\nataque duplo garantido.\n\n【Mobilidade (３)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ３ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ３ espaço(s).)"
+    "value": "$aConcede Atq. +3. Permite o uso\nde【Mobilidade (３)】nas rodadas de 1 a 4.\nSe a unidade inicia o combate ou está em um\nraio de 2 espaços de um aliado, concede Atq. +6\nà unidade durante o combate, inflige Atq. -6 no\ninimigo durante o combate e a unidade faz um\nataque duplo garantido.\n\n【Mobilidade (３)】\nApós um ataque, uma habilidade de apoio ou\na destruição de uma estrutura, a unidade pode\nse deslocar ３ espaço(s).\n(Uma vez por rodada. Não pode atacar ou dar\napoio. Apenas o maior valor se aplica. Não\ncumulativo. Se, após se mover, uma habilidade\nque concede outra ação, como Intempérie, for\nativada, Mobilidade será ativada após a ação\nconcedida. O movimento base não afeta o\nmovimento concedido. Não pode se deslocar\nusando habilidades como Asas piedosas mais\ndo que ３ espaço(s).)"
   },
   {
     "key": "MSID_H_凶弾",
@@ -70861,15 +70861,15 @@
   },
   {
     "key": "MSID_H_盾壁隊形1",
-    "value": "Neutraliza efeitos que garantem ataques duplos\ndo inimigo durante combate. No início da\nprimeira rodada, concede contagem regressiva\n-1 da habilidade especial, se o ataque do\ninimigo ativá-la. Se o ataque do inimigo ativar\na habilidade especial e ela tiver efeitos que\nreduzem uma percentagem do dano, ela será\nativada duas vezes. (Ex.: se a habilidade\nespecial tiver efeitos que reduzem 50% do\ndano e nenhum outro efeito de redução de\ndano for ativado, reduz o dano inicial em 50%\ne o dano restante em 50%, para uma redução\ntotal de dano de 75%.) Cada ativação da\nhabilidade especial é calculada separadamente."
+    "value": "Neutraliza efeitos que garantem ataques duplos\ndo inimigo durante o combate. No início da\nprimeira rodada, se o ataque do inimigo pode\nativar a habilidade especial da unidade, concede\ncontagem regressiva -1. Se o ataque do inimigo\nativar a habilidade especial e ela tiver efeitos\nque reduzem uma percentagem do dano, ela\nserá ativada duas vezes. (Ex.: se a habilidade\nespecial tiver efeitos que reduzem 50% do\ndano e nenhum outro efeito de redução de\ndano for ativado, reduz o dano inicial em 50%\ne o dano restante em 50%, para uma redução\ntotal de dano de 75%.) Cada ativação da\nhabilidade especial é calculada separadamente."
   },
   {
     "key": "MSID_H_盾壁隊形2",
-    "value": "Neutraliza efeitos que garantem ataques duplos\ndo inimigo durante combate. No início da\nprimeira rodada, concede contagem regressiva\n-1 da habilidade especial, se o ataque do\ninimigo ativá-la. Se o ataque do inimigo ativar\na habilidade especial e ela tiver efeitos que\nreduzem uma percentagem do dano, ela será\nativada duas vezes e depois, reduzirá o dano\nem 5. (Ex.: se a habilidade especial tiver efeitos\nque reduzem 50% do dano e nenhum outro\nefeito de redução de dano for ativado, reduz o\ndano inicial em 50% e o dano restante em 50%,\npara uma redução total de dano de 75%. O\ndano restante ainda tem redução de 5.) Cada\nativação da habilidade especial é calculada\nseparadamente."
+    "value": "Neutraliza efeitos que garantem ataques duplos\ndo inimigo durante o combate. No início da\nprimeira rodada, se o ataque do inimigo pode\nativar a habilidade especial da unidade, concede\ncontagem regressiva -1. Se o ataque do inimigo\nativar a habilidade especial e ela tiver efeitos\nque reduzem uma percentagem do dano, ela\nserá ativada duas vezes e depois, reduzirá o\ndano em 5. (Ex.: se a habilidade especial tiver\nefeitos que reduzem 50% do dano e nenhum\noutro efeito de redução de dano for ativado,\nreduz o dano inicial em 50% e o dano restante\nem 50%, para uma redução total de dano de\n75%. O dano restante ainda tem redução de 5.)\nCada ativação da habilidade especial é\ncalculada separadamente."
   },
   {
     "key": "MSID_H_盾壁隊形3",
-    "value": "Neutraliza efeitos que garantem ataques duplos\ndo inimigo durante combate. No início da\nprimeira rodada, concede contagem regressiva\n-2 da habilidade especial, se o ataque do\ninimigo ativá-la. Se o ataque do inimigo ativar\na habilidade especial e ela tiver efeitos que\nreduzem uma percentagem do dano, ela será\nativada duas vezes e depois, reduzirá o dano\nem 5. (Ex.: se a habilidade especial tiver efeitos\nque reduzem 50% do dano e nenhum outro\nefeito de redução de dano for ativado, reduz o\ndano inicial em 50% e o dano restante em 50%,\npara uma redução total de dano de 75%. O\ndano restante ainda tem redução de 5.) Cada\nativação da habilidade especial é calculada\nseparadamente."
+    "value": "Neutraliza efeitos que garantem ataques duplos\ndo inimigo durante o combate. No início da\nprimeira rodada, se o ataque do inimigo pode\nativar a habilidade especial da unidade, concede\ncontagem regressiva -2. Se o ataque do inimigo\nativar a habilidade especial e ela tiver efeitos\nque reduzem uma percentagem do dano, ela\nserá ativada duas vezes e depois, reduzirá o\ndano em 5. (Ex.: se a habilidade especial tiver\nefeitos que reduzem 50% do dano e nenhum\noutro efeito de redução de dano for ativado,\nreduz o dano inicial em 50% e o dano restante\nem 50%, para uma redução total de dano de\n75%. O dano restante ainda tem redução de 5.)\nCada ativação da habilidade especial é\ncalculada separadamente."
   },
   {
     "key": "MSID_H_守備魔防の干渉1",
@@ -72657,7 +72657,7 @@
   },
   {
     "key": "MDAID_H_旅先の忍祭りのお土産",
-    "value": "Prova de que dois heróis venceram um\nchefão nas suas jornadas juntos. Serve\ncomo lembrança das suas viagens."
+    "value": "Prova de que dois heróis derrotaram\num chefão em sua jornada juntos.\nÉ uma lembrança das suas viagens."
   },
   {
     "key": "MDAID_アサシンのマスク",
@@ -73529,7 +73529,7 @@
   },
   {
     "key": "MSID_H_火消しの暗刃",
-    "value": "$aAcelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade inicia\no combate ou não está adjacente a um aliado,\nconcede Atq./Vel./Def./Res. +5 à unidade,\nneutraliza as penalidades que infligem +X à\ncontagem regressiva da habilidade especial\nda unidade e concede -1 à contagem regressiva\nda habilidade especial da unidade por ataque\nda unidade durante o combate. (Só o valor\nmais alto se aplica. Não cumulativo.)\nEfeito:【Adaga ７】\n\n【Adaga ７】\nApós o combate, se a unidade atacou, inflige\nDef./Res. -７ no alvo e em inimigos\nem um raio de 2 espaços do alvo nas suas\npróximas ações."
+    "value": "$aAcelera a execução de habilidades especiais\n(contagem regressiva -1). Se a unidade inicia\no combate ou não está adjacente a um aliado,\nconcede Atq./Vel./Def./Res. +5 à unidade,\nneutraliza efeitos que infligem +X à contagem\nregressiva da habilidade especial da unidade e\nconcede -1 à contagem regressiva da\nhabilidade especial da unidade por ataque da\nunidade durante o combate. (Só o valor mais\nalto se aplica. Não cumulativo.)\nEfeito:【Adaga ７】\n\n【Adaga ７】\nApós o combate, se a unidade atacou, inflige\nDef./Res. -７ no alvo e em inimigos\nem um raio de 2 espaços do alvo nas suas\npróximas ações."
   },
   {
     "key": "MSID_H_魔銃ブロック",
@@ -85945,7 +85945,7 @@
   },
   {
     "key": "MPID_H_愛の祭ヘクトル",
-    "value": "Amigo de Eliwood e irmão do Marquês\nde Ositia. Quer vencer o grande torneio.\nAparece em Fire Emblem: The Blazing Blade."
+    "value": "Amigo de Eliwood e irmão do marquês\nde Ositia. Quer vencer o grande torneio.\nAparece em Fire Emblem: The Blazing Blade."
   },
   {
     "key": "MPID_H_愛の祭リリーナ",
@@ -86277,7 +86277,7 @@
   },
   {
     "key": "MSID_H_狂斧アルマーズ",
-    "value": "Acelera a execução de habilidades\nespeciais (contagem regressiva -1).\nNo início da rodada, se PV (unidade) ≤ 75%\ne o ataque da unidade ativa uma habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
+    "value": "Acelera a execução de habilidades especiais\n(contagem regressiva -1). No início da rodada,\nse PV (unidade) ≤ 75% e o ataque da unidade\npode ativar sua habilidade especial, concede\ncontagem regressiva -1 da habilidade especial\ne inflige 10 pontos de dano ao executar\nhabilidades especiais."
   },
   {
     "key": "MSID_H_グラーティア",
@@ -95353,15 +95353,15 @@
   },
   {
     "key": "MSID_H_速さの共謀1",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Vel. -3 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Vel. -3 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_速さの共謀2",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Vel. -5 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Vel. -5 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_速さの共謀3",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Vel. -7 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Vel. -7 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MID_CHAPTER_TITLE_CX019",
@@ -95449,7 +95449,7 @@
   },
   {
     "key": "MDAID_H_フェーの人形",
-    "value": "Uma boneca idêntica a Feh, a coruja\nmensageira da Ordem dos Heróis.\nTão fofinha quanto a da vida real!"
+    "value": "Uma boneca idêntica à Feh, a coruja\nmensageira da Ordem dos Heróis.\nTão fofinha quanto a da vida real!"
   },
   {
     "key": "MDAID_春うさぎの帽子",
@@ -97077,7 +97077,7 @@
   },
   {
     "key": "MPID_H_伝承ヘクトル",
-    "value": "Hector ascendeu como o Marquês de Ositia.\nCom o ânimo renovado, ele empunha Armads\ne lidera o seu povo. Aparece em Fire Emblem:\nThe Blazing Blade."
+    "value": "Hector ascendeu como o marquês de Ositia.\nCom o ânimo renovado, ele empunha Armads\ne lidera o seu povo. Aparece em Fire Emblem:\nThe Blazing Blade."
   },
   {
     "key": "MPID_VOICE_伝承ヘクトル",
@@ -97549,15 +97549,15 @@
   },
   {
     "key": "MSID_H_守備の共謀1",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Def. -3 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Def. -3 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_守備の共謀2",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Def. -5 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Def. -5 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_守備の共謀3",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Def. -7 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Def. -7 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_歩行の剛撃1",
@@ -102293,7 +102293,7 @@
   },
   {
     "key": "MPID_H_総選挙ヴェロニカ",
-    "value": "Princesa imperial do império embliano.\nEla está buscando o paradeiro de seu\namado irmão, Bruno."
+    "value": "Princesa do império embliano. Ela está\nbuscando o paradeiro de seu amado irmão,\nBruno."
   },
   {
     "key": "MPID_H_総選挙ヘクトル",
@@ -113173,7 +113173,7 @@
   },
   {
     "key": "MSID_H_トローン",
-    "value": "No início da rodada, se PV (unidade) ≤ 75%\ne o ataque da unidade ativa uma habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
+    "value": "No início da rodada, se PV (uni.) ≤ 75% e o\nataque da unidade pode ativar sua habilidade\nespecial, concede contagem regressiva -1\nda habilidade especial e inflige 10 pontos\nde dano ao executar habilidades especiais."
   },
   {
     "key": "MSID_H_特殊射程R竜",
@@ -114985,15 +114985,15 @@
   },
   {
     "key": "MSID_H_攻撃の共謀1",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Atq. -3 em inimigos\nem direções cardinais da unidade nas suas\npróximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Atq. -3 em inimigos\nem direções cardeais da unidade nas suas\npróximas ações."
   },
   {
     "key": "MSID_H_攻撃の共謀2",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Atq. -5 em inimigos\nem direções cardinais da unidade nas suas\npróximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Atq. -5 em inimigos\nem direções cardeais da unidade nas suas\npróximas ações."
   },
   {
     "key": "MSID_H_攻撃の共謀3",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Atq. -7 em inimigos\nem direções cardinais da unidade nas suas\npróximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Atq. -7 em inimigos\nem direções cardeais da unidade nas suas\npróximas ações."
   },
   {
     "key": "MSID_H_速さの開放1",
@@ -115893,15 +115893,15 @@
   },
   {
     "key": "MSID_H_魔防の共謀1",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Res. -3 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Res. -3 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_魔防の共謀2",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Res. -5 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Res. -5 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_魔防の共謀3",
-    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Res. -7 aos inimigos\nsituados em direções cardinais da unidade\nnas suas próximas ações."
+    "value": "Se a unidade usa ou recebe uma habilidade\nnímia de apoio, inflige Res. -7 aos inimigos\nsituados em direções cardeais da unidade\nnas suas próximas ações."
   },
   {
     "key": "MSID_H_魔防の開放1",
@@ -119265,7 +119265,7 @@
   },
   {
     "key": "MPID_H_春祭ヴェロニカ",
-    "value": "Princesa imperial do império embliano.\nA pedido de seu irmão Bruno, vestiu-se\nde coelhinha para o festival de primavera."
+    "value": "Princesa do império embliano. A pedido de seu\nirmão Bruno, vestiu-se de coelhinha para o\nfestival de primavera."
   },
   {
     "key": "MPID_H_春祭ロキ",
@@ -130037,7 +130037,7 @@
   },
   {
     "key": "MID_TRIP_SAGA_201908_PROLOGUE",
-    "value": "O dragão Shadow Dragon, derrotado\nhá muito tempo pelo herói de Altea,\nfoi despertado. O rei de Altea, um\ndescendente do herói do passado,\ncavalgou com a espada de luz ao\nseu lado para enfrentar o dragão...\nMas ele foi traído por aqueles que\npensou serem seus aliados. O\npríncipe de Altea, Marth, conseguiu\nentão fugir e se exilar em segurança\nem uma ilha distante..."
+    "value": "O Dragão das sombras, derrotado\nhá muito tempo pelo herói de Altea,\nfoi despertado. O rei de Altea, um\ndescendente do herói do passado,\ncavalgou com a espada de luz ao\nseu lado para enfrentar o dragão...\nMas ele foi traído por aqueles que\npensou serem seus aliados. O\npríncipe de Altea, Marth, conseguiu\nentão fugir e se exilar em segurança\nem uma ilha distante..."
   },
   {
     "key": "MID_TRIP_HINT_201908A",

@@ -6425,15 +6425,15 @@
   },
   {
     "key": "MSID_H_盾の鼓動1",
-    "value": "Zu Beginn des 1. Zuges: Wird\nSpezialangriff durch gegnerischen\nAngriff ausgelöst, erhält die Einheit\nErholungszeit -1."
+    "value": "Kann der Spezialangriff der Einheit zu Beginn\ndes 1. Zuges durch gegnerischen Angriff\nausgelöst werden, wird die Erholungszeit der\nEinheit um 1 beschleunigt."
   },
   {
     "key": "MSID_H_盾の鼓動2",
-    "value": "Zu Beginn des 1. Zuges: Wird\nSpezialangriff durch gegnerischen\nAngriff ausgelöst, erhält die Einheit\nErholungszeit -1 und erleidet 5 weniger\nSchaden durch Spezialangriff."
+    "value": "Kann der Spezialangriff der Einheit zu Beginn\ndes 1. Zuges durch gegnerischen Angriff\nausgelöst werden, wird die Erholungszeit der\nEinheit um 1 beschleunigt. Bei Auslösung des\nSpezialangriffs wird der erlittene Schaden\nder Einheit zudem um 5 reduziert."
   },
   {
     "key": "MSID_H_盾の鼓動3",
-    "value": "Zu Beginn des 1. Zuges: Wird\nSpezialangriff durch gegnerischen\nAngriff ausgelöst, erhält die Einheit\nErholungszeit -2 und erleidet 5 weniger\nSchaden durch Spezialangriff."
+    "value": "Kann der Spezialangriff der Einheit zu Beginn\ndes 1. Zuges durch gegnerischen Angriff\nausgelöst werden, wird die Erholungszeit der\nEinheit um 2 beschleunigt. Bei Auslösung des\nSpezialangriffs wird der erlittene Schaden\nder Einheit zudem um 5 reduziert."
   },
   {
     "key": "MSID_H_魔防の謀策1",
@@ -11813,15 +11813,15 @@
   },
   {
     "key": "MSID_H_怒り1",
-    "value": "Sind KP der Einheit zu Beginn des Zuges\n≤ 25 % und löst ihr Angriff den Spezialangriff\naus, wird ihre Erholungszeit um 1 beschleunigt\nund der Spezialangriff verursacht +10 Schaden."
+    "value": "Sind KP der Einheit zu Beginn des Zuges\n≤ 25 % und kann ihr Angriff den Spezialangriff\nauslösen, wird ihre Erholungszeit um 1\nbeschleunigt. Wird der Spezialangriff ausgelöst,\nverursacht dieser +10 Schaden."
   },
   {
     "key": "MSID_H_怒り2",
-    "value": "Sind KP der Einheit zu Beginn des Zuges\n≤ 50 % und löst ihr Angriff den Spezialangriff\naus, wird ihre Erholungszeit um 1 beschleunigt\nund der Spezialangriff verursacht +10 Schaden."
+    "value": "Sind KP der Einheit zu Beginn des Zuges\n≤ 50 % und kann ihr Angriff den Spezialangriff\nauslösen, wird ihre Erholungszeit um 1\nbeschleunigt. Wird der Spezialangriff ausgelöst,\nverursacht dieser +10 Schaden."
   },
   {
     "key": "MSID_H_怒り3",
-    "value": "Sind KP der Einheit zu Beginn des Zuges\n≤ 75 % und löst ihr Angriff den Spezialangriff\naus, wird ihre Erholungszeit um 1 beschleunigt\nund der Spezialangriff verursacht +10 Schaden."
+    "value": "Sind KP der Einheit zu Beginn des Zuges\n≤ 75 % und kann ihr Angriff den Spezialangriff\nauslösen, wird ihre Erholungszeit um 1\nbeschleunigt. Wird der Spezialangriff ausgelöst,\nverursacht dieser +10 Schaden."
   },
   {
     "key": "MSID_H_速さ守備の紋章1",
@@ -33249,15 +33249,15 @@
   },
   {
     "key": "MSID_H_回避・怒り1",
-    "value": "Ist Ges. der Einheit > Ges. des Gegners, wird\nder erlittene Schaden durch Angriffe im Kampf\nund Spezialangriffe mit Flächenwirkung (außer\nSpezialangriffe mit Flächenwirkung von Røkkr)\num X % verringert (X = Wertunterschied x 2,\nmaximal 20). Sind die KP der Einheit ≤ 25 %\nund löst ihr Angriff den Spezialangriff aus,\nverursacht dieser +5 Schaden."
+    "value": "Ist Ges. der Einheit > Ges. des Gegners, wird\nder erlittene Schaden durch Angriffe im Kampf\nund Spezialangriffe mit Flächenwirkung (außer\nSpezialangriffe mit Flächenwirkung von Røkkr)\num X % verringert (X = Wertunterschied x 2,\nmaximal 20). Sind die KP der Einheit ≤ 25 %\nund kann ihr Angriff ihren Spezialangriff\nauslösen, verursacht dieser +5 Schaden."
   },
   {
     "key": "MSID_H_回避・怒り2",
-    "value": "Ist Ges. der Einheit > Ges. des Gegners, wird\nder erlittene Schaden durch Angriffe im Kampf\nund Spezialangriffe mit Flächenwirkung (außer\nSpezialangriffe mit Flächenwirkung von Røkkr)\num X % verringert (X = Wertunterschied x 3,\nmaximal 30). Sind die KP der Einheit ≤ 50 %\nund löst ihr Angriff den Spezialangriff aus,\nverursacht dieser +5 Schaden."
+    "value": "Ist Ges. der Einheit > Ges. des Gegners, wird\nder erlittene Schaden durch Angriffe im Kampf\nund Spezialangriffe mit Flächenwirkung (außer\nSpezialangriffe mit Flächenwirkung von Røkkr)\num X % verringert (X = Wertunterschied x 3,\nmaximal 30). Sind die KP der Einheit ≤ 50 %\nund kann ihr Angriff ihren Spezialangriff\nauslösen, verursacht dieser +5 Schaden."
   },
   {
     "key": "MSID_H_回避・怒り3",
-    "value": "Ist Ges. der Einheit > Ges. des Gegners, wird\nder erlittene Schaden durch Angriffe im Kampf\nund Spezialangriffe mit Flächenwirkung (außer\nSpezialangriffe mit Flächenwirkung von Røkkr)\num X % verringert (X = Wertunterschied x 4,\nmaximal 40). Sind die KP der Einheit ≤ 75 %\nund löst ihr Angriff den Spezialangriff aus,\nverursacht dieser +5 Schaden."
+    "value": "Ist Ges. der Einheit > Ges. des Gegners, wird\nder erlittene Schaden durch Angriffe im Kampf\nund Spezialangriffe mit Flächenwirkung (außer\nSpezialangriffe mit Flächenwirkung von Røkkr)\num X % verringert (X = Wertunterschied x 4,\nmaximal 40). Sind die KP der Einheit ≤ 75 %\nund kann ihr Angriff ihren Spezialangriff\nauslösen, verursacht dieser +5 Schaden."
   },
   {
     "key": "MID_CHAPTER_TITLE_C0409",
@@ -42589,7 +42589,7 @@
   },
   {
     "key": "MPID_H_マリナス",
-    "value": "Seit Generationen Pheraes Stratege.\nAllgemein bekannt als fahrender Händler.\nBegleitet und berät Roy auf seinen Reisen.\nErscheint in Fire Emblem: The Binding Blade."
+    "value": "Seit Generationen Pheraes Stratege.\nEinst war er als fahrender Händler tätig.\nBegleitet und berät Roy auf seinen Reisen.\nErscheint in Fire Emblem: The Binding Blade."
   },
   {
     "key": "MPID_H_ゲイル",
@@ -65881,7 +65881,7 @@
   },
   {
     "key": "MSID_H_華月の腕輪",
-    "value": "$aGewährt【2. Schritt (２)】.\n\nNeutralisiert bei der Einheit im Kampf den\nnegativen Effekt \"die Erholungszeit wird um\nX zurückgesetzt\". Verursacht zusätzlichen\nSchaden = X % der Ver. des Gegners, wenn\nSpezialangriff ausgelöst wird (X = maximale\nErholungszeit der Einheit x 10 + 20).\n\n【2. Schritt (２)】\nHat die Einheit angegriffen, eine Beistehfähig-\nkeit ausgeführt oder ein Objekt zerstört, kann\nsie sich ２ Feld(er) bewegen.\n(Einheit bewegt sich entsprechend ihres\nBewegungstyps und kann keine Angriffe oder\nBeistehfähigkeiten mehr ausführen. Einmal pro\nZug. Bei mehreren ähnlichen Effekten wird\nnur der höchste angewandt. Hat die Einheit\nsich bewegt und wird eine Fähigkeit ausgelöst,\ndie eine weitere Aktion gewährt, wird 2. Schritt\nnach der gewährten Aktion ausgelöst. Die\nBasisbewegung der Einheit hat keinen Einfluss\nauf die gewährte Bewegung. Kann sich mit\nFähigkeiten wie Gnadenflügel nicht weiter als\n２ Feld(er) teleportieren.)"
+    "value": "$aGewährt【2. Schritt (２)】.\n\nEffekte, die der Einheit \"die Erholungszeit wird\num X zurückgesetzt\" zufügen, werden im Kampf\naufgehoben. Verursacht zusätzlichen\nSchaden = X % der Ver. des Gegners, wenn\nSpezialangriff ausgelöst wird (X = maximale\nErholungszeit der Einheit x 10 + 20).\n\n【2. Schritt (２)】\nHat die Einheit angegriffen, eine Beistehfähig-\nkeit ausgeführt oder ein Objekt zerstört, kann\nsie sich ２ Feld(er) bewegen.\n(Einheit bewegt sich entsprechend ihres\nBewegungstyps und kann keine Angriffe oder\nBeistehfähigkeiten mehr ausführen. Einmal pro\nZug. Bei mehreren ähnlichen Effekten wird\nnur der höchste angewandt. Hat die Einheit\nsich bewegt und wird eine Fähigkeit ausgelöst,\ndie eine weitere Aktion gewährt, wird 2. Schritt\nnach der gewährten Aktion ausgelöst. Die\nBasisbewegung der Einheit hat keinen Einfluss\nauf die gewährte Bewegung. Kann sich mit\nFähigkeiten wie Gnadenflügel nicht weiter als\n２ Feld(er) teleportieren.)"
   },
   {
     "key": "MSID_H_異常なしであります",
@@ -67381,7 +67381,7 @@
   },
   {
     "key": "MSID_H_太陽の腕輪・承",
-    "value": "$aGewährt【2. Schritt (２)】.\n\nNeutralisiert im Kampf die negativen Effekte,\ndie der Einheit \"Erholungszeit wird um X\nzurückgesetzt\" zufügen. Nach dem Kampf\nwerden bei d. Einheit 10 KP wiederhergestellt.\n\n【2. Schritt (２)】\nHat die Einheit angegriffen, eine Beistehfähig-\nkeit ausgeführt oder ein Objekt zerstört, kann\nsie sich ２ Feld(er) bewegen.\n(Einheit bewegt sich entsprechend ihres\nBewegungstyps und kann keine Angriffe oder\nBeistehfähigkeiten mehr ausführen. Einmal pro\nZug. Bei mehreren ähnlichen Effekten wird\nnur der höchste angewandt. Hat die Einheit\nsich bewegt und wird eine Fähigkeit ausgelöst,\ndie eine weitere Aktion gewährt, wird 2. Schritt\nnach der gewährten Aktion ausgelöst. Die\nBasisbewegung der Einheit hat keinen Einfluss\nauf die gewährte Bewegung. Kann sich mit\nFähigkeiten wie Gnadenflügel nicht weiter als\n２ Feld(er) teleportieren.)"
+    "value": "$aGewährt【2. Schritt (２)】.\n\nEffekte, die der Einheit \"die Erholungszeit wird\num X zurückgesetzt\" zufügen, werden im Kampf\naufgehoben. Nach dem Kampf werden bei der\nEinheit 10 KP wiederhergestellt.\n\n【2. Schritt (２)】\nHat die Einheit angegriffen, eine Beistehfähig-\nkeit ausgeführt oder ein Objekt zerstört, kann\nsie sich ２ Feld(er) bewegen.\n(Einheit bewegt sich entsprechend ihres\nBewegungstyps und kann keine Angriffe oder\nBeistehfähigkeiten mehr ausführen. Einmal pro\nZug. Bei mehreren ähnlichen Effekten wird\nnur der höchste angewandt. Hat die Einheit\nsich bewegt und wird eine Fähigkeit ausgelöst,\ndie eine weitere Aktion gewährt, wird 2. Schritt\nnach der gewährten Aktion ausgelöst. Die\nBasisbewegung der Einheit hat keinen Einfluss\nauf die gewährte Bewegung. Kann sich mit\nFähigkeiten wie Gnadenflügel nicht weiter als\n２ Feld(er) teleportieren.)"
   },
   {
     "key": "MSID_H_盟主の鼓動・承",
@@ -67397,7 +67397,7 @@
   },
   {
     "key": "MSID_H_流麗なる戦舞の聖器",
-    "value": "Beschleunigt Spezialangriffe (Erholungszeit -1).\nSind die KP der Einheit zu Beginn des\nKampfes ≥ 25 %, erhält sie\nAngr./Ges./Ver./Res. +5 und Effekte, die\ndem Gegner Folgeangriffe garantieren oder\nFolgeangriffe der Einheit verhindern, werden\nim Kampf aufgehoben. Ist zudem im Kampf\nGes. der Einheit > Ges. des Gegners, werden\ndie negativen Effekte, die der Einheit\n\"Erholungszeit wird um X zurückgesetzt\"\nzufügen, im Kampf neutralisiert."
+    "value": "Beschleunigt Spezialangriffe (Erholungszeit -1).\nSind die KP der Einheit zu Beginn des\nKampfes ≥ 25 %, erhält sie\nAngr./Ges./Ver./Res. +5 und Effekte, die\ndem Gegner Folgeangriffe garantieren oder\nFolgeangriffe der Einheit verhindern, werden\nim Kampf aufgehoben. Ist zudem im Kampf\nGes. der Einheit > Ges. des Gegners, werden\nEffekte, die der Einheit \"die Erholungszeit wird\num X zurückgesetzt\" zufügen, im Kampf\naufgehoben."
   },
   {
     "key": "MSID_H_双聖戦士の聖弓",
@@ -70861,15 +70861,15 @@
   },
   {
     "key": "MSID_H_盾壁隊形1",
-    "value": "Effekte, die dem Gegner Folgeangriffe\ngarantieren, werden im Kampf aufgehoben.\nWird zu Beginn des 1. Zuges der Spezialangriff\ndurch den gegnerischen Angriff ausgelöst,\nerhält die Einheit Erholungszeit -1. Wird der\nSpezialangriff durch den gegnerischen Angriff\nausgelöst und hat der Spezialangriff den Effekt\n\"reduziert Schaden um X %\", wird der\nSpezialangriff 2-mal ausgelöst. (Beispiel:\nHat der Spezialangriff den Effekt \"reduziert\nSchaden um 50 %\" und keine weiteren Effekte,\ndie den erlittenen Schaden reduzieren, wird der\nanfängliche Schaden um 50 % reduziert, dann\nder restliche Schaden nochmals um 50 %,\nalso wird der Schaden um insgesamt 75 %\nreduziert.)\nJeder ausgelöste Spezialangriff wird separat\ngezählt."
+    "value": "Effekte, die dem Gegner Folgeangriffe\ngarantieren, werden im Kampf aufgehoben.\nKann zu Beginn des 1. Zuges der Spezialangriff\nder Einheit durch den gegnerischen Angriff\nausgelöst werden, wird die Erholungszeit der\nEinheit um 1 beschleunigt. Wird der\nSpezialangriff der Einheit durch den\ngegnerischen Angriff ausgelöst und hat der\nSpezialangriff den Effekt \"reduziert Schaden\num X %\", wird der Spezialangriff 2-mal\nausgelöst. (Beispiel: Hat der Spezialangriff\nden Effekt \"reduziert Schaden um 50 %\" und\nkeine weiteren Effekte, die den erlittenen\nSchaden reduzieren, wird der anfängliche\nSchaden um 50 % reduziert, dann der restliche\nSchaden nochmals um 50 %, also wird der\nSchaden um insgesamt 75 % reduziert.)\nJeder ausgelöste Spezialangriff wird separat\ngezählt."
   },
   {
     "key": "MSID_H_盾壁隊形2",
-    "value": "Effekte, die dem Gegner Folgeangriffe\ngarantieren, werden im Kampf aufgehoben.\nWird zu Beginn des 1. Zuges der Spezialangriff\ndurch den gegnerischen Angriff ausgelöst,\nerhält die Einheit Erholungszeit -1. Wird der\nSpezialangriff durch den gegnerischen Angriff\nausgelöst und hat der Spezialangriff den Effekt\n\"reduziert Schaden um X %\", wird der\nSpezialangriff 2-mal ausgelöst, dann wird der\nSchaden nochmals um 5 reduziert. (Beispiel:\nHat der Spezialangriff den Effekt \"reduziert\nSchaden um 50 %\" und keine weiteren Effekte,\ndie den erlittenen Schaden reduzieren, wird der\nanfängliche Schaden um 50 % reduziert, dann\nder restliche Schaden nochmals um 50 %,\nso dass der Schaden dann um 75 % reduziert\nist. Anschließend wird der verbleibende\nSchaden nochmals um 5 reduziert.)\nJeder ausgelöste Spezialangriff wird separat\ngezählt."
+    "value": "Effekte, die dem Gegner Folgeangriffe\ngarantieren, werden im Kampf aufgehoben.\nKann zu Beginn des 1. Zuges der Spezialangriff\nder Einheit durch den gegnerischen Angriff\nausgelöst werden, wird die Erholungszeit der\nEinheit um 1 beschleunigt. Wird der\nSpezialangriff der Einheit durch den\ngegnerischen Angriff ausgelöst und hat der\nSpezialangriff den Effekt \"reduziert Schaden\num X %\", wird der Spezialangriff 2-mal\nausgelöst, dann wird der Schaden nochmals um\n5 reduziert. (Beispiel: Hat der Spezialangriff\nden Effekt \"reduziert Schaden um 50 %\" und\nkeine weiteren Effekte, die den erlittenen\nSchaden reduzieren, wird der anfängliche\nSchaden um 50 % reduziert, dann der restliche\nSchaden nochmals um 50 %, so dass der\nSchaden dann um 75 % reduziert ist.\nAnschließend wird der verbleibende Schaden\nnochmals um 5 reduziert.) Jeder ausgelöste\nSpezialangriff wird separat gezählt."
   },
   {
     "key": "MSID_H_盾壁隊形3",
-    "value": "Effekte, die dem Gegner Folgeangriffe\ngarantieren, werden im Kampf aufgehoben.\nWird zu Beginn des 1. Zuges der Spezialangriff\ndurch den gegnerischen Angriff ausgelöst,\nerhält die Einheit Erholungszeit -2. Wird der\nSpezialangriff durch den gegnerischen Angriff\nausgelöst und hat der Spezialangriff den Effekt\n\"reduziert Schaden um X %\", wird der\nSpezialangriff 2-mal ausgelöst, dann wird der\nSchaden nochmals um 5 reduziert. (Beispiel:\nHat der Spezialangriff den Effekt \"reduziert\nSchaden um 50 %\" und keine weiteren Effekte,\ndie den erlittenen Schaden reduzieren, wird der\nanfängliche Schaden um 50 % reduziert, dann\nder restliche Schaden nochmals um 50 %,\nalso wird der Schaden um insgesamt 75 %\nreduziert. Anschließend wird der verbleibende\nSchaden nochmals um 5 reduziert.)\nJeder ausgelöste Spezialangriff wird separat\ngezählt."
+    "value": "Effekte, die dem Gegner Folgeangriffe\ngarantieren, werden im Kampf aufgehoben.\nKann zu Beginn des 1. Zuges der Spezialangriff\nder Einheit durch den gegnerischen Angriff\nausgelöst werden, wird die Erholungszeit der\nEinheit um 2 beschleunigt. Wird der\nSpezialangriff der Einheit durch den\ngegnerischen Angriff ausgelöst und hat der\nSpezialangriff den Effekt \"reduziert Schaden\num X %\", wird der Spezialangriff 2-mal\nausgelöst, dann wird der Schaden nochmals um\n5 reduziert. (Beispiel: Hat der Spezialangriff\nden Effekt \"reduziert Schaden um 50 %\" und\nkeine weiteren Effekte, die den erlittenen\nSchaden reduzieren, wird der anfängliche\nSchaden um 50 % reduziert, dann der restliche\nSchaden nochmals um 50 %, also wird der\nSchaden um insgesamt 75 % reduziert.\nAnschließend wird der verbleibende Schaden\nnochmals um 5 reduziert.) Jeder ausgelöste\nSpezialangriff wird separat gezählt."
   },
   {
     "key": "MSID_H_守備魔防の干渉1",
@@ -73529,7 +73529,7 @@
   },
   {
     "key": "MSID_H_火消しの暗刃",
-    "value": "$aBeschleunigt Spezialangriffe (Erholungszeit -1).\nInitiiert die Einheit den Kampf oder hat keine\nbenachbarten Verbündeten, erhält sie\nAngr./Ges./Ver./Res. +5. Negative Effekte, die\nder Einheit \"Erholungszeit wird um X\nzurückgesetzt\" zufügen, werden neutralisiert\nund ihre Erholungszeit wird im Kampf pro\nAngriff der Einheit um 1 beschleunigt. (Bei\nmehreren ähnlichen Effekten wird nur der\nhöchste angewandt.)\nEffekt:【Dolch ７】\n\n【Dolch ７】\nHat die Einheit angegriffen, erleiden Ziel\nund Gegner im Umkreis von 2 Feldern\ndes Ziels Ver./Res. -７ bis nach ihren\nnächsten Aktionen."
+    "value": "$aBeschleunigt Spezialangriffe (Erholungszeit -1).\nInitiiert die Einheit den Kampf oder hat keine\nbenachbarten Verbündeten, erhält sie\nAngr./Ges./Ver./Res. +5. Effekte, die der Einheit\n\"die Erholungszeit wird um X zurückgesetzt\"\nzufügen, werden im Kampf aufgehoben und\nihre Erholungszeit wird im Kampf pro Angriff\nder Einheit um 1 beschleunigt. (Bei mehreren\nähnlichen Effekten wird nur der höchste\nangewandt.)\nEffekt:【Dolch ７】\n\n【Dolch ７】\nHat die Einheit angegriffen, erleiden Ziel\nund Gegner im Umkreis von 2 Feldern\ndes Ziels Ver./Res. -７ bis nach ihren\nnächsten Aktionen."
   },
   {
     "key": "MSID_H_魔銃ブロック",
@@ -86277,7 +86277,7 @@
   },
   {
     "key": "MSID_H_狂斧アルマーズ",
-    "value": "Beschleunigt Spezialangriffe (Erholungszeit -1).\nSind die KP der Einheit zu Beginn des Zuges\n≤ 75 % und löst ihr Angriff den Spezialangriff\naus, wird ihre Erholungszeit um 1 beschleunigt\nund der Spezialangriff verursacht +10 Schaden."
+    "value": "Beschleunigt Spezialangriffe (Erholungszeit -1).\nSind die KP der Einheit zu Beginn des Zuges\n≤ 75 % und kann ihr Angriff den Spezialangriff\nauslösen, wird ihre Erholungszeit um 1\nbeschleunigt. Wird der Spezialangriff ausgelöst,\nverursacht dieser +10 Schaden."
   },
   {
     "key": "MSID_H_グラーティア",
@@ -113173,7 +113173,7 @@
   },
   {
     "key": "MSID_H_トローン",
-    "value": "Sind die KP der Einheit zu Beginn des Zuges\n≤ 75 % und löst ihr Angriff den Spezialangriff\naus, wird ihre Erholungszeit um 1 beschleunigt\nund der Spezialangriff verursacht +10 Schaden."
+    "value": "Sind die KP der Einheit zu Beginn des Zuges\n≤ 75 % und kann ihr Angriff den Spezialangriff\nauslösen, wird ihre Erholungszeit um 1\nbeschleunigt. Wird der Spezialangriff ausgelöst,\nverursacht dieser +10 Schaden."
   },
   {
     "key": "MSID_H_特殊射程R竜",

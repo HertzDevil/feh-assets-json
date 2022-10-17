@@ -4881,7 +4881,7 @@
   },
   {
     "key": "MSID_H_ファルシオン外伝",
-    "value": "Eficaz contra dragones. La unidad recupera\n10 PV al comienzo del turno cada tres turnos."
+    "value": "Eficaz contra dragones. La unidad recupera\n10 PV al inicio de cada tercer turno."
   },
   {
     "key": "MSID_H_火薙ぎの弓",
@@ -6425,15 +6425,15 @@
   },
   {
     "key": "MSID_H_盾の鼓動1",
-    "value": "-1 a la cuenta regresiva al inicio del primer\nturno si un ataque rival hace que se ejecute\nuna habilidad especial."
+    "value": "Al inicio del primer turno, si la habilidad especial\nde la unidad puede activarse al sufrir un ataque,\n-1 a la cuenta regresiva."
   },
   {
     "key": "MSID_H_盾の鼓動2",
-    "value": "-1 a la cuenta regresiva al inicio del primer\nturno si un ataque rival hace que se ejecute\nuna habilidad especial.\n-5 de daño al activar habilidades especiales."
+    "value": "Al inicio del primer turno, si la habilidad especial\nde la unidad puede activarse al sufrir un ataque,\n-1 a la cuenta regresiva. Reduce el daño que\nrecibe la unidad en 5 al activar habilidades\nespeciales."
   },
   {
     "key": "MSID_H_盾の鼓動3",
-    "value": "-2 a la cuenta regresiva al inicio del primer\nturno si un ataque rival hace que se ejecute\nuna habilidad especial.\n- 5 de daño al activar habilidades especiales."
+    "value": "Al inicio del primer turno, si la habilidad especial\nde la unidad puede activarse al sufrir un ataque,\n-2 a la cuenta regresiva. Reduce el daño que\nrecibe la unidad en 5 al activar habilidades\nespeciales."
   },
   {
     "key": "MSID_H_魔防の謀策1",
@@ -11813,15 +11813,15 @@
   },
   {
     "key": "MSID_H_怒り1",
-    "value": "Al inicio del turno, si la unidad tiene PV ≤ 25 %\ny la habilidad especial se activa al atacar, -1\na la cuenta regresiva e inflige +10 de daño\ncuando se ejecutan habilidades especiales."
+    "value": "Al inicio del turno, si la habilidad especial\npuede activarse al atacar y la unidad tiene\nPV ≤ 25 %, -1 a la cuenta regresiva y +10 de\ndaño cuando se ejecutan habilidades\nespeciales."
   },
   {
     "key": "MSID_H_怒り2",
-    "value": "Al inicio del turno, si la unidad tiene PV ≤ 50 %\ny la habilidad especial se activa al atacar, -1\na la cuenta regresiva e inflige +10 de daño\ncuando se ejecutan habilidades especiales."
+    "value": "Al inicio del turno, si la habilidad especial\npuede activarse al atacar y la unidad tiene\nPV ≤ 50 %, -1 a la cuenta regresiva y +10 de\ndaño cuando se ejecutan habilidades\nespeciales."
   },
   {
     "key": "MSID_H_怒り3",
-    "value": "Al inicio del turno, si la unidad tiene PV ≤ 75 %\ny la habilidad especial se activa al atacar, -1\na la cuenta regresiva e inflige +10 de daño\ncuando se ejecutan habilidades especiales."
+    "value": "Al inicio del turno, si la habilidad especial\npuede activarse al atacar y la unidad tiene\nPV ≤ 75 %, -1 a la cuenta regresiva y +10 de\ndaño cuando se ejecutan habilidades\nespeciales."
   },
   {
     "key": "MSID_H_速さ守備の紋章1",
@@ -17481,7 +17481,7 @@
   },
   {
     "key": "MPID_HONOR_シャナン",
-    "value": "Filo de Isaach"
+    "value": "Dueño de Astrea"
   },
   {
     "key": "MPID_HONOR_セティ",
@@ -21217,7 +21217,7 @@
   },
   {
     "key": "MID_TIPS_Summon_200202_rekka_01_レイラ",
-    "value": "Espía al servicio de la casa de Ositia.\nAl atacar cerca de un compañero,\nanula todo contrataque rival y cambia\nposiciones con su compañero."
+    "value": "Espía al servicio de la Casa de Ositia.\nAl atacar cerca de un compañero,\nanula todo contrataque rival y cambia\nposiciones con su compañero."
   },
   {
     "key": "MSID_キャンセルの槍",
@@ -32337,7 +32337,7 @@
   },
   {
     "key": "MPID_H_水着ドロテア",
-    "value": "La única integrante de humilde cuna de la casa\nde las Águilas Negras. Ha dominado el arte\ndel canto con el paso de los años y es capaz\nde armonizar incluso con el romper de las olas.\nAparece en Fire Emblem: Three Houses."
+    "value": "La única integrante de humilde cuna de la Casa\nde las Águilas Negras. Ha dominado el arte\ndel canto con el paso de los años y es capaz\nde armonizar incluso con el romper de las olas.\nAparece en Fire Emblem: Three Houses."
   },
   {
     "key": "MPID_H_水着イングリット",
@@ -33249,15 +33249,15 @@
   },
   {
     "key": "MSID_H_回避・怒り1",
-    "value": "Si supera la Vel. del enemigo en 1 punto o más,\nreduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar\nlas efectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 2 (hasta un máximo\ndel 20 %). Si la habilidad especial se activa al\natacar y la unidad tiene PV ≤ 25 %, +5 de daño\ncuando se ejecutan habilidades especiales."
+    "value": "Si supera la Vel. del enemigo en 1 punto o más,\nreduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar\nlas efectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 2 (hasta un máximo\ndel 20 %). Si la habilidad especial puede\nactivarse al atacar y la unidad tiene PV ≤ 25 %,\n+5 de daño cuando se ejecutan habilidades\nespeciales."
   },
   {
     "key": "MSID_H_回避・怒り2",
-    "value": "Si supera la Vel. del enemigo en 1 punto o más,\nreduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar\nlas efectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 3 (hasta un máximo\ndel 30 %). Si la habilidad especial se activa al\natacar y la unidad tiene PV ≤ 50 %, +5 de daño\ncuando se ejecutan habilidades especiales."
+    "value": "Si supera la Vel. del enemigo en 1 punto o más,\nreduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar\nlas efectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 3 (hasta un máximo\ndel 30 %). Si la habilidad especial puede\nactivarse al atacar y la unidad tiene PV ≤ 50 %,\n+5 de daño cuando se ejecutan habilidades\nespeciales."
   },
   {
     "key": "MSID_H_回避・怒り3",
-    "value": "Si supera la Vel. del enemigo en 1 punto o más,\nreduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar\nlas efectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 4 (hasta un máximo\ndel 40 %). Si la habilidad especial se activa al\natacar y la unidad tiene PV ≤ 75 %, +5 de daño\ncuando se ejecutan habilidades especiales."
+    "value": "Si supera la Vel. del enemigo en 1 punto o más,\nreduce en un X % el daño de las habilidades\nespeciales con área de efecto (sin contar\nlas efectuadas por Sombras) y el daño de los\nataques en combate, donde X equivale a la\ndiferencia de atributos × 4 (hasta un máximo\ndel 40 %). Si la habilidad especial puede\nactivarse al atacar y la unidad tiene PV ≤ 75 %,\n+5 de daño cuando se ejecutan habilidades\nespeciales."
   },
   {
     "key": "MID_CHAPTER_TITLE_C0409",
@@ -35725,7 +35725,7 @@
   },
   {
     "key": "MSID_H_黒鷲の覇王",
-    "value": "Si la unidad tiene PV ≥ 25 %, esta ejecuta\nun ataque doble garantizado, y si el rival\ninicia el ataque, el daño infligido por el ataque\ndoble de este se reduce en un 80 %.\n(Con armas normales, se considera \"ataque\ndoble\" la segunda acometida; en cambio,\ncon armas que otorgan el efecto \"la unidad\nataca dos veces\" se hace referencia a la\ntercera y la cuarta acometida)."
+    "value": "Si la unidad tiene PV ≥ 25 %, esta ejecuta\nun ataque doble garantizado, y si el rival inicia\nel ataque, reduce en un 80 % el daño que\nsufre la unidad del ataque doble del enemigo.\n(Con armas normales, se considera \"ataque\ndoble\" la segunda acometida; en cambio,\ncon armas que otorgan el efecto \"la unidad\nataca dos veces de manera consecutiva\"\nse hace referencia a la tercera y la cuarta\nacometida)."
   },
   {
     "key": "MSID_H_魔防の相互大紋章",
@@ -39129,7 +39129,7 @@
   },
   {
     "key": "MPID_H_ハロルフレ女",
-    "value": "Robin, poseída por el dragón caído Grima,\nllegó al festival de la cosecha. ¿Cuáles\nserán sus intenciones?... Aparece en\nFire Emblem Awakening."
+    "value": "Robin, poseída por Grima, el Dragón caído,\nllegó al festival de la cosecha. ¿Cuáles\nserán sus intenciones?... Aparece en\nFire Emblem Awakening."
   },
   {
     "key": "MPID_H_ハロデギンハンザー",
@@ -56913,7 +56913,7 @@
   },
   {
     "key": "MPID_H_闇マーク女",
-    "value": "Una misteriosa joven de un futuro que solo\nconoce la desesperación. Le juró lealtad\na Grima, el Dragón Caído. Aparece en Fire\nEmblem Awakening."
+    "value": "Una misteriosa joven de un futuro que solo\nconoce la desesperación. Le juró lealtad\na Grima, el Dragón caído. Aparece en Fire\nEmblem Awakening."
   },
   {
     "key": "MPID_H_闇オルソン",
@@ -65881,7 +65881,7 @@
   },
   {
     "key": "MSID_H_華月の腕輪",
-    "value": "$aPermite usar【Movilidad (２)】.\n\nAnula las penalizaciones que infligen +X a la\ncuenta regresiva de la unidad en combate.\nInflige un X % de la Def. del rival como daño\nadicional cuando se ejecutan habilidades\nespeciales (donde X equivale al valor máximo\nde la cuenta regresiva de la unidad\nmultiplicado por 10 más 20).\n\n【Movilidad (２)】\nLa unidad puede desplazarse ２ casilla(s)\ndespués de un ataque, usar una habilidad\nde apoyo o la destrucción de una estructura.\n\n(La unidad se desplaza según su tipo\nde movimiento. Una vez por turno. No puede\natacar o usar habilidades de apoyo. Solo\nse aplica el valor más alto. No acumulable.\nDespués de moverse, si se activa una habilidad\nque otorga otra acción (como Asalto\nimpetuoso), Movilidad se activará después de\nla acción otorgada. El movimiento base de la\nunidad no tiene efecto en el movimiento\notorgado. No puede desplazarse (usando\nhabilidades como Alas piadosas)\nmás de ２ casilla(s))."
+    "value": "$aPermite usar【Movilidad (２)】.\n\nAnula los efectos que infligen +X a la cuenta\nregresiva de la unidad en combate. Inflige\nun X % de la Def. del rival como daño\nadicional cuando se ejecutan habilidades\nespeciales (donde X equivale al valor máximo\nde la cuenta regresiva de la unidad\nmultiplicado por 10 más 20).\n\n【Movilidad (２)】\nLa unidad puede desplazarse ２ casilla(s)\ndespués de un ataque, usar una habilidad\nde apoyo o la destrucción de una estructura.\n\n(La unidad se desplaza según su tipo\nde movimiento. Una vez por turno. No puede\natacar o usar habilidades de apoyo. Solo\nse aplica el valor más alto. No acumulable.\nDespués de moverse, si se activa una habilidad\nque otorga otra acción (como Asalto\nimpetuoso), Movilidad se activará después de\nla acción otorgada. El movimiento base de la\nunidad no tiene efecto en el movimiento\notorgado. No puede desplazarse (usando\nhabilidades como Alas piadosas)\nmás de ２ casilla(s))."
   },
   {
     "key": "MSID_H_異常なしであります",
@@ -67381,7 +67381,7 @@
   },
   {
     "key": "MSID_H_太陽の腕輪・承",
-    "value": "$aPermite usar【Movilidad (２)】.\n\nAnula las penalizaciones que infligen +X a la\ncuenta regresiva de la unidad en combate.\nLa unidad recupera 10 PV tras el combate.\n\n【Movilidad (２)】\nLa unidad puede desplazarse ２ casilla(s)\ndespués de un ataque, usar una habilidad\nde apoyo o la destrucción de una estructura.\n\n(La unidad se desplaza según su tipo\nde movimiento. Una vez por turno. No puede\natacar o usar habilidades de apoyo. Solo\nse aplica el valor más alto. No acumulable.\nDespués de moverse, si se activa una habilidad\nque otorga otra acción (como Asalto\nimpetuoso), Movilidad se activará después de\nla acción otorgada. El movimiento base de la\nunidad no tiene efecto en el movimiento\notorgado. No puede desplazarse (usando\nhabilidades como Alas piadosas)\nmás de ２ casilla(s))."
+    "value": "$aPermite usar【Movilidad (２)】.\n\nAnula los efectos que infligen +X a la\ncuenta regresiva de la unidad en combate.\nLa unidad recupera 10 PV tras el combate.\n\n【Movilidad (２)】\nLa unidad puede desplazarse ２ casilla(s)\ndespués de un ataque, usar una habilidad\nde apoyo o la destrucción de una estructura.\n\n(La unidad se desplaza según su tipo\nde movimiento. Una vez por turno. No puede\natacar o usar habilidades de apoyo. Solo\nse aplica el valor más alto. No acumulable.\nDespués de moverse, si se activa una habilidad\nque otorga otra acción (como Asalto\nimpetuoso), Movilidad se activará después de\nla acción otorgada. El movimiento base de la\nunidad no tiene efecto en el movimiento\notorgado. No puede desplazarse (usando\nhabilidades como Alas piadosas)\nmás de ２ casilla(s))."
   },
   {
     "key": "MSID_H_盟主の鼓動・承",
@@ -67397,7 +67397,7 @@
   },
   {
     "key": "MSID_H_流麗なる戦舞の聖器",
-    "value": "Facilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Al inicio del ataque,\nsi la unidad tiene PV ≥ 25 %, obtiene Atq., Vel.,\nDef. y Res. +5 y anula los efectos que\ngarantizan un ataque doble del rival y los que\nimpiden un ataque doble de la unidad durante\nel combate. Además, si supera la Vel. del\nenemigo en un punto o más durante el\ncombate, anula las penalizaciones que\ninfligen +X a la cuenta regresiva de la unidad\nen combate."
+    "value": "Facilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Al inicio del ataque,\nsi la unidad tiene PV ≥ 25 %, obtiene Atq., Vel.,\nDef. y Res. +5 y anula los efectos que\ngarantizan un ataque doble del rival y los que\nimpiden un ataque doble de la unidad durante\nel combate. Además, si supera la Vel. del\nenemigo en un punto o más durante el\ncombate, anula los efectos que infligen +X a\nla cuenta regresiva de la unidad en combate."
   },
   {
     "key": "MSID_H_双聖戦士の聖弓",
@@ -69617,7 +69617,7 @@
   },
   {
     "key": "MPID_H_ハロルフレ男",
-    "value": "El cuerpo del valioso aliado de Chrom, poseído\npor el dragón caído Grima. ¿Estará condenado\nel festival de la cosecha de este año?\nAparece en Fire Emblem Awakening."
+    "value": "El cuerpo del valioso aliado de Chrom, poseído\npor Grima, el Dragón caído. ¿Estará condenado\nel festival de la cosecha de este año?\nAparece en Fire Emblem Awakening."
   },
   {
     "key": "MPID_H_ハロレア",
@@ -70861,15 +70861,15 @@
   },
   {
     "key": "MSID_H_盾壁隊形1",
-    "value": "Anula los efectos que garantizan un ataque\ndoble a los enemigos durante el combate. Al\ninicio del primer turno, si la habilidad especial\nde la unidad se activa al sufrir un ataque, -1\na la cuenta regresiva. Si esto sucede y la\nhabilidad especial tiene efectos de reducción\ndel porcentaje del daño infligido, activará dos\nveces la habilidad especial. (Por ejemplo, si la\nhabilidad especial tiene el efecto \"reduce el\ndaño un 50 %\" y no se activan otros efectos de\nreducción de daño, reduce el daño inicial un\n50 % y luego reduce el daño restante en un\n50 % para una reducción total del daño\ndel 75 %). Cada ejecución de habilidad especial\nse calcula de forma separada."
+    "value": "Anula los efectos que garantizan un ataque\ndoble a los enemigos durante el combate. Al\ninicio del primer turno, si la habilidad especial\nde la unidad puede activarse al sufrir un\nataque, -1 a la cuenta regresiva. Si esto sucede\ny la habilidad especial de la unidad tiene\nefectos de reducción del porcentaje del daño\ninfligido, activará dos veces la habilidad\nespecial. (Por ejemplo, si la habilidad especial\ntiene el efecto \"reduce el daño un 50 %\" y no se\nactivan otros efectos de reducción de daño,\nreduce el daño inicial un 50 % y luego reduce el\ndaño restante en un 50 % para una reducción\ntotal del daño del 75 %). Cada ejecución de\nhabilidad especial se calcula de forma\nseparada."
   },
   {
     "key": "MSID_H_盾壁隊形2",
-    "value": "Anula los efectos que garantizan un ataque\ndoble a los enemigos durante el combate. Al\ninicio del primer turno, si la habilidad especial\nde la unidad se activa al sufrir un ataque, -1\na la cuenta regresiva. Si esto sucede y la\nhabilidad especial tiene efectos de reducción\ndel porcentaje del daño infligido, activará dos\nveces la habilidad especial y luego reducirá el\ndaño en 5. (Por ejemplo, si la habilidad especial\ntiene el efecto \"reduce el daño un 50 %\" y no se\nactivan otros efectos de reducción de daño,\nreduce el daño inicial un 50 % y luego reduce el\ndaño restante en un 50 % para una reducción\ntotal del 75 %. Después, el daño restante\nse reduce en 5). Cada ejecución de habilidad\nespecial se calcula de forma separada."
+    "value": "Anula los efectos que garantizan un ataque\ndoble a los enemigos durante el combate. Al\ninicio del primer turno, si la habilidad especial\nde la unidad puede activarse al sufrir un ataque,\n-1 a la cuenta regresiva. Si esto sucede y la\nhabilidad especial de la unidad tiene efectos de\nreducción del porcentaje del daño infligido,\nactivará dos veces la habilidad especial y luego\nreducirá el daño en 5. (Por ejemplo, si la\nhabilidad especial tiene el efecto \"reduce el\ndaño un 50 %\" y no se activan otros efectos de\nreducción de daño, reduce el daño inicial un\n50 % y luego reduce el daño restante en un\n50 % para una reducción total del 75 %.\nDespués, el daño restante se reduce en 5).\nCada ejecución de habilidad especial se calcula\nde forma separada."
   },
   {
     "key": "MSID_H_盾壁隊形3",
-    "value": "Anula los efectos que garantizan un ataque\ndoble a los enemigos durante el combate. Al\ninicio del primer turno, si la habilidad especial\nde la unidad se activa al sufrir un ataque, -2\na la cuenta regresiva. Si esto sucede y la\nhabilidad especial tiene efectos de reducción\ndel porcentaje del daño infligido, activará dos\nveces la habilidad especial y luego reducirá el\ndaño en 5. (Por ejemplo, si la habilidad especial\ntiene el efecto \"reduce el daño un 50 %\" y no se\nactivan otros efectos de reducción de daño,\nreduce el daño inicial un 50 % y luego reduce\nel daño restante en un 50 % para una\nreducción total del 75 %. Después, el daño\nrestante se reduce en 5). Cada ejecución de\nhabilidad especial se calcula de forma\nseparada."
+    "value": "Anula los efectos que garantizan un ataque\ndoble a los enemigos durante el combate. Al\ninicio del primer turno, si la habilidad especial\nde la unidad puede activarse al sufrir un ataque,\n-2 a la cuenta regresiva. Si esto sucede y la\nhabilidad especial de la unidad tiene efectos de\nreducción del porcentaje del daño infligido,\nactivará dos veces la habilidad especial y luego\nreducirá el daño en 5. (Por ejemplo, si la\nhabilidad especial tiene el efecto \"reduce el\ndaño un 50 %\" y no se activan otros efectos de\nreducción de daño, reduce el daño inicial un\n50 % y luego reduce el daño restante en un\n50 % para una reducción total del 75 %.\nDespués, el daño restante se reduce en 5).\nCada ejecución de habilidad especial se calcula\nde forma separada."
   },
   {
     "key": "MSID_H_守備魔防の干渉1",
@@ -72497,7 +72497,7 @@
   },
   {
     "key": "MSID_H_柔剣R攻速魔4",
-    "value": "Al inicio de un ataque, si la unidad tiene\nPV ≥ 25 %, obtiene Atq., Vel. y Res. +4 durante\nel combate y, si supera la Vel. del enemigo\nen 1 punto o más, obtiene -1 a la cuenta\nregresiva y +5 de daño por cada ataque de\nla unidad, incluso cuando se inflige daño al\nactivar una habilidad especial antes del\ncombate. (Solo se aplica el valor más alto.\nNo acumulable)."
+    "value": "Al inicio de un ataque, si la unidad tiene\nPV ≥ 25 %, obtiene Atq., Vel. y Res. +4 durante\nel combate y, si supera la Vel. del enemigo\nen 1 punto o más, obtiene -1 a la cuenta\nregresiva y +5 de daño por cada ataque de\nla unidad, incluso cuando se inflige daño al\nactivar una habilidad especial activada antes\ndel combate. (Solo se aplica el valor más alto.\nNo acumulable)."
   },
   {
     "key": "MSID_H_敵強化反転R速守5",
@@ -72593,7 +72593,7 @@
   },
   {
     "key": "MSID_H_アロー改",
-    "value": "Otorga Def. +3. Al inicio de un ataque, si el Atq.\ndel enemigo supera en 1 punto o más el Atq.\nde la unidad, la unidad obtiene Atq., Vel., Def.\ny Res. +5 durante el combate e inflige un 15 %\ndel Atq. del rival como daño adicional, incluso\ncuando se inflige daño al activar una habilidad\nespecial antes del combate."
+    "value": "Otorga Def. +3. Al inicio de un ataque, si el Atq.\ndel enemigo supera en 1 punto o más el Atq.\nde la unidad, la unidad obtiene Atq., Vel., Def.\ny Res. +5 durante el combate e inflige un 15 %\ndel Atq. del rival como daño adicional, incluso\ncuando se inflige daño al ejecutar una habilidad\nespecial activada antes del combate."
   },
   {
     "key": "MSID_H_神槌ミョルニル",
@@ -73529,7 +73529,7 @@
   },
   {
     "key": "MSID_H_火消しの暗刃",
-    "value": "$aFacilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Si la unidad inicia el\nataque o si no hay aliados adyacentes, obtiene\nAtq., Vel., Def. y Res. +5, anula las\npenalizaciones que infligen +X a la cuenta\nregresiva de la unidad, y otorga -1 a la cuenta\nregresiva de la unidad por cada ataque suyo en\ncombate. (Solo se aplica el valor más alto.\nNo acumulable). Efecto:【Daga (７)】\n\n【Daga (７)】\nTras un ataque, si la unidad actúa, inflige\nDef. y Res. -７ al rival y a todos\nlos enemigos en un radio de dos casillas a\nsu alrededor en su próxima acción."
+    "value": "$aFacilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Si la unidad inicia el\nataque o si no hay aliados adyacentes, obtiene\nAtq., Vel., Def. y Res. +5, anula los efectos que\ninfligen +X a la cuenta regresiva de la unidad, y\notorga -1 a la cuenta regresiva de la unidad por\ncada ataque suyo en combate. (Solo se aplica\nel valor más alto. No acumulable).\nEfecto:【Daga (７)】\n\n【Daga (７)】\nTras un ataque, si la unidad actúa, inflige\nDef. y Res. -７ al rival y a todos\nlos enemigos en un radio de dos casillas a\nsu alrededor en su próxima acción."
   },
   {
     "key": "MSID_H_魔銃ブロック",
@@ -86277,7 +86277,7 @@
   },
   {
     "key": "MSID_H_狂斧アルマーズ",
-    "value": "Facilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Al inicio del turno,\nsi la unidad tiene PV ≤ 75 % y la habilidad\nespecial se activa al atacar, -1 a la cuenta\nregresiva e inflige +10 de daño cuando se\nejecutan habilidades especiales."
+    "value": "Facilita la ejecución de habilidades especiales\n(-1 a la cuenta regresiva). Al inicio del turno,\nsi la unidad tiene PV ≤ 75 % y la habilidad\nespecial puede activarse al atacar, -1 a la\ncuenta regresiva y +10 de daño al ejecutarla."
   },
   {
     "key": "MSID_H_グラーティア",
@@ -86573,19 +86573,19 @@
   },
   {
     "key": "MID_SPECIALMAP_TUTORIAL_DIALOG_00",
-    "value": "¡Gana aliados en batallas míticas!"
+    "value": "¡Gana aliados en Batallas míticas!"
   },
   {
     "key": "MID_SPECIALMAP_TUTORIAL_DIALOG_01",
-    "value": "-Rotación de grandes batallas-\nEstos héroes participan\nen la rotación diaria de\nlas grandes batallas:\n\nFelicia, Wrys, Olivia, Stahl,\nSophia, Virion, Hana, Subaki,\nDonnel, Lissa, Gunter, Cecilia."
+    "value": "-Rotación de héroes-\nEstos héroes participan\nen la rotación diaria de\nlos mapas especiales:\n\nFelicia, Wrys, Olivia, Stahl,\nSophia, Virion, Hana, Subaki,\nDonnel, Lissa, Gunter, Cecilia."
   },
   {
     "key": "MID_SPECIALMAP_TUTORIAL_DIALOG_02",
-    "value": "-Rotación de batallas míticas-\nEstos héroes rotan a diario:\n\nNarcian: General wyvern, Navarre:\nEspada Escarlata, Robin: Suma\nLibertadora, Ursula: El Cuervo Azul,\nLloyd: Lobo Blanco, Michalis: Rey\nambicioso, Xander: Caballero ideal."
+    "value": "-Rotación de las batallas míticas-\nEstos héroes rotan a diario:\n\nNarcian: General wyvern\nNavarre: Espada Escarlata\nRobin: Suma Libertadora\nUrsula: El Cuervo Azul\nLloyd: Lobo Blanco\nMichalis: Rey ambicioso\nXander: Caballero ideal"
   },
   {
     "key": "MID_SPECIALMAP_TUTORIAL_DIALOG_03",
-    "value": "-Más encuentros-\nAdemás de las grandes batallas\ny las batallas míticas, aparecerán\nmuchos otros mapas que estarán\ndisponibles por tiempo limitado\nen los mapas especiales."
+    "value": "-Más mapas especiales-\nAdemás de las batallas normales\ny las batallas míticas, aparecerán\nmuchos otros mapas que estarán\ndisponibles por tiempo limitado\nen los mapas especiales."
   },
   {
     "key": "MID_TAP_BATTLE_DATA_TITLE_0001",
@@ -91641,7 +91641,7 @@
   },
   {
     "key": "MID_SPECIALMAP_TUTORIAL_DIALOG_02_02",
-    "value": "-Rotación de batallas míticas-\nEstos héroes rotan a diario:\nZephiel: Rey liberador\nCamus: Caballero Ópalo\nLegion: Loco camuflado\nClarisse: Tiradora oscura\nBerkut: Príncipe orgulloso\nValter: Adularia oscura\nArvis: Señor del fuego"
+    "value": "-Rotación de batallas míticas (2)-\nEstos héroes rotan a diario:\n\nZephiel: Rey liberador\nCamus: Caballero Ópalo\nLegion: Loco camuflado\nClarisse: Tiradora oscura\nBerkut: Príncipe orgulloso\nValter: Adularia oscura\nArvis: Señor del fuego"
   },
   {
     "key": "MID_STAGE_TITLE_SB_0009",
@@ -113173,7 +113173,7 @@
   },
   {
     "key": "MSID_H_トローン",
-    "value": "Al inicio del turno, si la habilidad especial se\nactiva al atacar y la unidad tiene PV ≤ 75 %,\n-1 a la cuenta regresiva e inflige +10 de daño\ncuando se ejecutan habilidades especiales."
+    "value": "Al inicio del turno, si la habilidad especial\npuede activarse al atacar y la unidad tiene\nPV ≤ 75 %, -1 a la cuenta regresiva e inflige\n+10 de daño cuando se ejecutan habilidades\nespeciales."
   },
   {
     "key": "MSID_H_特殊射程R竜",
@@ -115825,7 +115825,7 @@
   },
   {
     "key": "MSID_H_戦闘強化R被強化",
-    "value": "Si la unidad tiene activa una bonificación\nde habilidades como Impulso o Potenciar,\no una casilla de movimiento extra de\nhabilidades como Marcha muralla o\nBotas acorazadas, Vel. y Def. +5 durante\nel combate."
+    "value": "Si la unidad tiene activa una bonificación\nde habilidades como Impulso o Potenciar,\no una casilla de movimiento extra de\nhabilidades como Marcha muralla o\nBotas acorazadas, obtiene Vel. y Def. +5\ndurante el combate."
   },
   {
     "key": "MSID_H_赤の呪いR4",
