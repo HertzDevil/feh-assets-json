@@ -1,0 +1,282 @@
+[
+  {
+    "id_tag": "PID_エンブラ味方",
+    "roman": "EMBLA_GOD01",
+    "face_name": "ch00_43_Embla_Normal",
+    "face_name2": "ch00_43_Embla_Normal",
+    "legendary": {
+      "duo_skill_id": null,
+      "bonus_effect": {
+        "hp": 5,
+        "atk": 0,
+        "spd": 0,
+        "def": 0,
+        "res": 5
+      },
+      "kind": 1,
+      "element": 6,
+      "bst": 0,
+      "pair_up": false,
+      "ae_extra": true
+    },
+    "dragonflowers": {
+      "max_count": 5,
+      "costs": [
+        40,
+        80,
+        120,
+        160,
+        200
+      ]
+    },
+    "timestamp": null,
+    "id_num": 880,
+    "version_num": 611,
+    "sort_value": 600300,
+    "origins": 1,
+    "weapon_type": 20,
+    "tome_class": 0,
+    "move_type": 3,
+    "series": 0,
+    "random_pool": 0,
+    "permanent_hero": false,
+    "base_vector_id": 38,
+    "refresher": false,
+    "base_stats": {
+      "hp": 18,
+      "atk": 12,
+      "spd": 10,
+      "def": 4,
+      "res": 4
+    },
+    "growth_rates": {
+      "hp": 50,
+      "atk": 70,
+      "spd": 75,
+      "def": 60,
+      "res": 45
+    },
+    "skills": [
+      [
+        "SID_幼獣の化身・飛行",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_絶対化身・敏捷1",
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_若獣の化身・飛行",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_攻撃速さの激突1",
+        "SID_絶対化身・敏捷2",
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_若獣の化身・飛行",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_成獣の化身・飛行",
+        null,
+        "SID_伏竜",
+        "SID_攻撃速さの激突2",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_成獣の化身・飛行",
+        null,
+        "SID_伏竜",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_竜裂",
+        "SID_攻撃速さの激突3",
+        "SID_絶対化身・敏捷3",
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_絶闇の翼爪",
+        null,
+        "SID_伏竜",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_攻撃速さの激突4",
+        null,
+        "SID_すべてが閉じた世界",
+        null,
+        null
+      ]
+    ]
+  },
+  {
+    "id_tag": "PID_ヴェロニカ2味方",
+    "roman": "VERONICA_LEGEND01",
+    "face_name": "ch00_04_Veronica2_F_Normal",
+    "face_name2": "ch00_04_Veronica2_F_Normal",
+    "legendary": {
+      "duo_skill_id": null,
+      "bonus_effect": {
+        "hp": 3,
+        "atk": 0,
+        "spd": 3,
+        "def": 0,
+        "res": 0
+      },
+      "kind": 1,
+      "element": 3,
+      "bst": 190,
+      "pair_up": true,
+      "ae_extra": false
+    },
+    "dragonflowers": {
+      "max_count": 5,
+      "costs": [
+        40,
+        80,
+        120,
+        160,
+        200
+      ]
+    },
+    "timestamp": null,
+    "id_num": 881,
+    "version_num": 611,
+    "sort_value": 100500,
+    "origins": 1,
+    "weapon_type": 11,
+    "tome_class": 5,
+    "move_type": 2,
+    "series": 0,
+    "random_pool": 0,
+    "permanent_hero": false,
+    "base_vector_id": 252,
+    "refresher": false,
+    "base_stats": {
+      "hp": 15,
+      "atk": 11,
+      "spd": 11,
+      "def": 3,
+      "res": 2
+    },
+    "growth_rates": {
+      "hp": 50,
+      "atk": 70,
+      "spd": 75,
+      "def": 35,
+      "res": 50
+    },
+    "skills": [
+      [
+        "SID_ミィル",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_速さ魔防の遠影1",
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_ルイン",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_攻撃速さの機先1",
+        "SID_速さ魔防の遠影2",
+        "SID_恐慌の幻煙1",
+        null,
+        null
+      ],
+      [
+        "SID_ルイン",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_ノスフェラート",
+        null,
+        "SID_雪辱",
+        "SID_攻撃速さの機先2",
+        null,
+        "SID_恐慌の幻煙2",
+        null,
+        null
+      ],
+      [
+        "SID_ノスフェラート",
+        null,
+        "SID_雪辱",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_血讐",
+        "SID_攻撃速さの機先3",
+        "SID_速さ魔防の遠影3",
+        "SID_恐慌の幻煙3",
+        null,
+        null
+      ],
+      [
+        "SID_絶闇エンブラ",
+        null,
+        "SID_雪辱",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_閉界",
+        "SID_攻撃速さの機先4",
+        null,
+        "SID_恐慌の幻煙4",
+        null,
+        null
+      ]
+    ]
+  }
+]
