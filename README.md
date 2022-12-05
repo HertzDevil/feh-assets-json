@@ -1,7 +1,7 @@
 # feh-assets-json
 
 This repository hosts JSON dumps of `.bin` HSDArc asset files in Fire Emblem
-Heroes. The `book6` branch tracks all app or data updates since Book VI.
+Heroes. The `book7` branch tracks all app or data updates since Book VII.
 
 Object formats are documented [here][re-notes], and they will eventually be
 moved into this repository. Not all formats are documented, and the purposes of
