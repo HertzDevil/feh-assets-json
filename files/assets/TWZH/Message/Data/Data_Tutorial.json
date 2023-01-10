@@ -1,0 +1,8206 @@
+[
+  {
+    "key": "MID_WEAPON",
+    "value": "武器類型"
+  },
+  {
+    "key": "MID_ATTRIBUTE",
+    "value": "屬性"
+  },
+  {
+    "key": "MID_MOVE",
+    "value": "移動方式"
+  },
+  {
+    "key": "MID_RARITY",
+    "value": "稀有度"
+  },
+  {
+    "key": "MID_RARITY2",
+    "value": "$a★$a0"
+  },
+  {
+    "key": "MID_LEVEL",
+    "value": "等級"
+  },
+  {
+    "key": "MID_LEVEL2",
+    "value": "LV."
+  },
+  {
+    "key": "MID_EXP",
+    "value": "EXP"
+  },
+  {
+    "key": "MID_CAPABILITY",
+    "value": "能力值合計"
+  },
+  {
+    "key": "MID_HP",
+    "value": "HP"
+  },
+  {
+    "key": "MID_ATTACK",
+    "value": "攻擊"
+  },
+  {
+    "key": "MID_AGILITY",
+    "value": "速度"
+  },
+  {
+    "key": "MID_DEFENSE",
+    "value": "防守"
+  },
+  {
+    "key": "MID_RESIST",
+    "value": "魔防"
+  },
+  {
+    "key": "MID_MIGHT",
+    "value": "威力"
+  },
+  {
+    "key": "MID_RANGE",
+    "value": "射程"
+  },
+  {
+    "key": "MID_EFFECTIVE",
+    "value": "克制"
+  },
+  {
+    "key": "MID_SKILL_POINT",
+    "value": "SP"
+  },
+  {
+    "key": "MID_CAPABILITY_BASE",
+    "value": "基本值"
+  },
+  {
+    "key": "MID_CAPABILITY_STRONG",
+    "value": "強化"
+  },
+  {
+    "key": "MID_CAPABILITY_WEAK",
+    "value": "弱化"
+  },
+  {
+    "key": "MID_SKILL_ALL",
+    "value": "全部"
+  },
+  {
+    "key": "MID_STAMINA",
+    "value": "體力"
+  },
+  {
+    "key": "MID_H_LEVEL",
+    "value": "強度基準\n升級後會提升１"
+  },
+  {
+    "key": "MID_H_EXP",
+    "value": "經驗值\n累積超過定額就會升級"
+  },
+  {
+    "key": "MID_H_HP",
+    "value": "一旦歸零就會脫離地圖"
+  },
+  {
+    "key": "MID_H_ATTACK",
+    "value": "數值越高，\n給予敵人的傷害越大"
+  },
+  {
+    "key": "MID_H_AGILITY",
+    "value": "高於敵人５以上\n即可追擊（攻擊２次）"
+  },
+  {
+    "key": "MID_H_DEFENSE",
+    "value": "防禦敵人的物理攻擊\n（劍、斧、槍、弓、暗器等）"
+  },
+  {
+    "key": "MID_H_RESIST",
+    "value": "防禦敵人的魔法攻擊\n（魔道、杖、吐息等）"
+  },
+  {
+    "key": "MID_H_SKILL_POINT",
+    "value": "技能點數\n用於學習技能"
+  },
+  {
+    "key": "MID_H_COMPATIBILITY",
+    "value": "三角互克佔優勢則攻擊＋２０％\n三角互克居劣勢則攻擊－２０％"
+  },
+  {
+    "key": "MWID_H_剣",
+    "value": "劍　射程１\n敵方防守越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_槍",
+    "value": "槍　射程１\n敵方防守越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_斧",
+    "value": "斧　射程１\n敵方防守越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_弓",
+    "value": "弓　射程２\n敵方防守越高，給予的傷害越少\n可給予飛行系敵人大量傷害"
+  },
+  {
+    "key": "MWID_H_暗",
+    "value": "暗器　射程２\n敵方防守越高，給予的傷害越少\n可暫時降低敵方能力"
+  },
+  {
+    "key": "MWID_H_赤魔",
+    "value": "赤之魔道　射程２\n敵方魔防越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_青魔",
+    "value": "青之魔道　射程２\n敵方魔防越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_緑魔",
+    "value": "綠之魔道　射程２\n敵方魔防越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_杖",
+    "value": "杖（攻擊時）　射程２\n敵方魔防越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_赤竜",
+    "value": "赤龍　射程１\n敵方魔防越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_青竜",
+    "value": "青龍　射程１\n敵方魔防越高，給予的傷害越少"
+  },
+  {
+    "key": "MWID_H_緑竜",
+    "value": "綠龍　射程１\n敵方魔防越高，給予的傷害越少"
+  },
+  {
+    "key": "MMVID_H_歩行",
+    "value": "步行系　可移動２格\n在林地難以移動"
+  },
+  {
+    "key": "MMVID_H_重装",
+    "value": "重裝系　可移動１格\n"
+  },
+  {
+    "key": "MMVID_H_騎馬",
+    "value": "騎馬系　可移動３格\n無法移動至林地"
+  },
+  {
+    "key": "MMVID_H_飛行",
+    "value": "飛行系　可移動２格\n可在林地、山、河川等地形任意移動"
+  },
+  {
+    "key": "MID_HEROISM_POINT",
+    "value": "英雄值"
+  },
+  {
+    "key": "MID_H_HEROISM_POINT",
+    "value": "英雄於戰鬥中獲勝存活時可獲得的名聲，\n只要累積到一定數值，\n即可在城堡獲得英雄之翼。"
+  },
+  {
+    "key": "MEID_ソードファイター",
+    "value": "劍戰士"
+  },
+  {
+    "key": "MEID_ソードアーマー",
+    "value": "劍重騎士"
+  },
+  {
+    "key": "MEID_ソードナイト",
+    "value": "劍騎士"
+  },
+  {
+    "key": "MEID_ソードペガサス",
+    "value": "劍飛馬騎士"
+  },
+  {
+    "key": "MEID_ランスファイター",
+    "value": "槍戰士"
+  },
+  {
+    "key": "MEID_ランスアーマー",
+    "value": "槍重騎士"
+  },
+  {
+    "key": "MEID_ランスナイト",
+    "value": "槍騎士"
+  },
+  {
+    "key": "MEID_ランスペガサス",
+    "value": "槍飛馬騎士"
+  },
+  {
+    "key": "MEID_アクスファイター",
+    "value": "斧戰士"
+  },
+  {
+    "key": "MEID_アクスアーマー",
+    "value": "斧重騎士"
+  },
+  {
+    "key": "MEID_アクスナイト",
+    "value": "斧騎士"
+  },
+  {
+    "key": "MEID_アクスペガサス",
+    "value": "斧飛馬騎士"
+  },
+  {
+    "key": "MEID_ボウファイター",
+    "value": "弓戰士"
+  },
+  {
+    "key": "MEID_ボウナイト",
+    "value": "弓騎士"
+  },
+  {
+    "key": "MEID_シーフ",
+    "value": "小偷"
+  },
+  {
+    "key": "MEID_レッドマージ",
+    "value": "紅魔法師"
+  },
+  {
+    "key": "MEID_レッドナイト",
+    "value": "紅騎士"
+  },
+  {
+    "key": "MEID_ブルーマージ",
+    "value": "藍魔法師"
+  },
+  {
+    "key": "MEID_ブルーナイト",
+    "value": "藍騎士"
+  },
+  {
+    "key": "MEID_グリーンマージ",
+    "value": "綠魔法師"
+  },
+  {
+    "key": "MEID_グリーンナイト",
+    "value": "綠騎士"
+  },
+  {
+    "key": "MEID_シスター",
+    "value": "修女"
+  },
+  {
+    "key": "MEID_ロッドナイト",
+    "value": "杖騎士"
+  },
+  {
+    "key": "MEID_ブルーノ",
+    "value": "？？？"
+  },
+  {
+    "key": "MEID_ヴェロニカ",
+    "value": "維洛妮卡"
+  },
+  {
+    "key": "MEID_H_ソードファイター",
+    "value": "用劍戰鬥的步兵。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_ソードアーマー",
+    "value": "用劍戰鬥的重裝兵。\n移動雖慢，但能力值高。"
+  },
+  {
+    "key": "MEID_H_ソードナイト",
+    "value": "用劍戰鬥的騎兵。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_ソードペガサス",
+    "value": "用劍戰鬥的飛行兵。\n雖然能在山岳及河川移動，但弱點是弓箭。"
+  },
+  {
+    "key": "MEID_H_ランスファイター",
+    "value": "用槍戰鬥的步兵。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_ランスアーマー",
+    "value": "用槍戰鬥的重裝兵。\n移動雖慢，但能力值高。"
+  },
+  {
+    "key": "MEID_H_ランスナイト",
+    "value": "用槍戰鬥的騎兵。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_ランスペガサス",
+    "value": "用槍戰鬥的飛行兵。\n雖然能在山岳及河川移動，但弱點是弓箭。"
+  },
+  {
+    "key": "MEID_H_アクスファイター",
+    "value": "用斧戰鬥的步兵。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_アクスアーマー",
+    "value": "用斧戰鬥的重裝兵。\n移動雖慢，但能力值高。"
+  },
+  {
+    "key": "MEID_H_アクスナイト",
+    "value": "用斧戰鬥的騎兵。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_アクスペガサス",
+    "value": "用斧戰鬥的飛行兵。\n雖然能在山岳及河川移動，但弱點是弓箭。"
+  },
+  {
+    "key": "MEID_H_ボウファイター",
+    "value": "用弓戰鬥的步兵。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_ボウナイト",
+    "value": "用弓戰鬥的騎兵。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_シーフ",
+    "value": "用暗器戰鬥的盜賊。\n能用暗器降低敵方能力。"
+  },
+  {
+    "key": "MEID_H_レッドマージ",
+    "value": "以赤屬性魔道戰鬥的魔道士。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_レッドナイト",
+    "value": "以赤屬性魔道戰鬥的魔道騎兵。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_ブルーマージ",
+    "value": "以青屬性魔道戰鬥的魔道士。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_ブルーナイト",
+    "value": "以青屬性魔道戰鬥的魔道騎兵。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_グリーンマージ",
+    "value": "以綠屬性魔道戰鬥的魔道士。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_グリーンナイト",
+    "value": "以綠屬性魔道戰鬥的魔道騎兵。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_シスター",
+    "value": "用魔杖治癒夥伴、妨礙敵人的聖職者。\n能力平均。"
+  },
+  {
+    "key": "MEID_H_ロッドナイト",
+    "value": "用魔杖治癒夥伴、妨礙敵人的聖職者。\n移動範圍雖廣，但無法移動到林地。"
+  },
+  {
+    "key": "MEID_H_ブルーノ",
+    "value": "蒙面騎士。\n真面目及目的不明。"
+  },
+  {
+    "key": "MEID_H_ヴェロニカ",
+    "value": "恩布拉帝國的皇女。\n操縱英雄、對亞斯克王國發動侵略。"
+  },
+  {
+    "key": "MEID_HONOR_ブルーノ",
+    "value": "神秘的蒙面騎士"
+  },
+  {
+    "key": "MEID_HONOR_ヴェロニカ",
+    "value": "恩布拉帝國皇女"
+  },
+  {
+    "key": "MEID_VOICE_ブルーノ",
+    "value": "三木眞一郎(Shin-ichiro Miki)"
+  },
+  {
+    "key": "MEID_VOICE_ヴェロニカ",
+    "value": "日高里菜(Rina Hidaka)"
+  },
+  {
+    "key": "MEID_ILLUST_ブルーノ",
+    "value": "コザキユースケ(Kozaki Yusuke)"
+  },
+  {
+    "key": "MEID_ILLUST_ヴェロニカ",
+    "value": "コザキユースケ(Kozaki Yusuke)"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_COMPENSATION",
+    "value": "致歉賠禮"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0001",
+    "value": "開放下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0002",
+    "value": "１００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0003",
+    "value": "２００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0004",
+    "value": "３００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0005",
+    "value": "４００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0007",
+    "value": "５００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0008",
+    "value": "６００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0009",
+    "value": "７００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0010",
+    "value": "８００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0011",
+    "value": "９００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0012",
+    "value": "１０００萬下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_0013",
+    "value": "下載紀念登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_WEEK",
+    "value": "週末登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_WAR",
+    "value": "投票大戰登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_SPECIAL",
+    "value": "特別登入獎勵"
+  },
+  {
+    "key": "MID_DAILY_LOGIN_BONUS_ANDROID",
+    "value": "Android限定登入獎勵"
+  },
+  {
+    "key": "MID_MYAVATAR_DEFAULT_NAME",
+    "value": "艾克拉"
+  },
+  {
+    "key": "MID_MYAVATAR_DEFAULT_GREETING",
+    "value": "請多多指教。"
+  },
+  {
+    "key": "MPID_マルス",
+    "value": "馬爾斯"
+  },
+  {
+    "key": "MPID_SEARCH_マルス",
+    "value": "馬爾斯"
+  },
+  {
+    "key": "MPID_オグマ",
+    "value": "奧古馬"
+  },
+  {
+    "key": "MPID_SEARCH_オグマ",
+    "value": "奧古馬"
+  },
+  {
+    "key": "MPID_ナバール",
+    "value": "拿巴爾"
+  },
+  {
+    "key": "MPID_SEARCH_ナバール",
+    "value": "拿巴爾"
+  },
+  {
+    "key": "MPID_ロイ",
+    "value": "羅伊"
+  },
+  {
+    "key": "MPID_SEARCH_ロイ",
+    "value": "羅伊"
+  },
+  {
+    "key": "MPID_フィル",
+    "value": "菲爾"
+  },
+  {
+    "key": "MPID_SEARCH_フィル",
+    "value": "菲爾"
+  },
+  {
+    "key": "MPID_リン",
+    "value": "琳"
+  },
+  {
+    "key": "MPID_SEARCH_リン",
+    "value": "琳"
+  },
+  {
+    "key": "MPID_クロム",
+    "value": "庫洛武"
+  },
+  {
+    "key": "MPID_SEARCH_クロム",
+    "value": "庫洛武"
+  },
+  {
+    "key": "MPID_ルキナ",
+    "value": "露琪娜"
+  },
+  {
+    "key": "MPID_SEARCH_ルキナ",
+    "value": "露琪娜"
+  },
+  {
+    "key": "MPID_ロンクー",
+    "value": "隆克"
+  },
+  {
+    "key": "MPID_SEARCH_ロンクー",
+    "value": "隆克"
+  },
+  {
+    "key": "MPID_オリヴィエ",
+    "value": "奧利薇"
+  },
+  {
+    "key": "MPID_SEARCH_オリヴィエ",
+    "value": "奧利薇"
+  },
+  {
+    "key": "MPID_カムイ男",
+    "value": "神威"
+  },
+  {
+    "key": "MPID_SEARCH_カムイ男",
+    "value": "神威"
+  },
+  {
+    "key": "MPID_リョウマ",
+    "value": "龍馬"
+  },
+  {
+    "key": "MPID_SEARCH_リョウマ",
+    "value": "龍馬"
+  },
+  {
+    "key": "MPID_カザハナ",
+    "value": "風花"
+  },
+  {
+    "key": "MPID_SEARCH_カザハナ",
+    "value": "風花"
+  },
+  {
+    "key": "MPID_ヒナタ",
+    "value": "日向"
+  },
+  {
+    "key": "MPID_SEARCH_ヒナタ",
+    "value": "日向"
+  },
+  {
+    "key": "MPID_ラズワルド",
+    "value": "拉茲沃德"
+  },
+  {
+    "key": "MPID_SEARCH_ラズワルド",
+    "value": "拉茲沃德"
+  },
+  {
+    "key": "MPID_ルーナ",
+    "value": "露娜"
+  },
+  {
+    "key": "MPID_SEARCH_ルーナ",
+    "value": "露娜"
+  },
+  {
+    "key": "MPID_アルフォンス",
+    "value": "阿爾馮斯"
+  },
+  {
+    "key": "MPID_SEARCH_アルフォンス",
+    "value": "阿爾馮斯"
+  },
+  {
+    "key": "MPID_ドーガ",
+    "value": "多加"
+  },
+  {
+    "key": "MPID_SEARCH_ドーガ",
+    "value": "多加"
+  },
+  {
+    "key": "MPID_ゼフィール",
+    "value": "賽菲爾"
+  },
+  {
+    "key": "MPID_SEARCH_ゼフィール",
+    "value": "賽菲爾"
+  },
+  {
+    "key": "MPID_カイン",
+    "value": "凱因"
+  },
+  {
+    "key": "MPID_SEARCH_カイン",
+    "value": "凱因"
+  },
+  {
+    "key": "MPID_エリウッド",
+    "value": "艾利烏德"
+  },
+  {
+    "key": "MPID_SEARCH_エリウッド",
+    "value": "艾利烏德"
+  },
+  {
+    "key": "MPID_ソール",
+    "value": "索爾"
+  },
+  {
+    "key": "MPID_SEARCH_ソール",
+    "value": "索爾"
+  },
+  {
+    "key": "MPID_マークス",
+    "value": "馬克斯"
+  },
+  {
+    "key": "MPID_SEARCH_マークス",
+    "value": "馬克斯"
+  },
+  {
+    "key": "MPID_シーダ",
+    "value": "希達"
+  },
+  {
+    "key": "MPID_SEARCH_シーダ",
+    "value": "希達"
+  },
+  {
+    "key": "MPID_パオラ",
+    "value": "帕奧拉"
+  },
+  {
+    "key": "MPID_SEARCH_パオラ",
+    "value": "帕奧拉"
+  },
+  {
+    "key": "MPID_ドニ",
+    "value": "多尼"
+  },
+  {
+    "key": "MPID_SEARCH_ドニ",
+    "value": "多尼"
+  },
+  {
+    "key": "MPID_オボロ",
+    "value": "朧"
+  },
+  {
+    "key": "MPID_SEARCH_オボロ",
+    "value": "朧"
+  },
+  {
+    "key": "MPID_アクア",
+    "value": "阿庫婭"
+  },
+  {
+    "key": "MPID_SEARCH_アクア",
+    "value": "阿庫婭"
+  },
+  {
+    "key": "MPID_シャロン",
+    "value": "夏蓉"
+  },
+  {
+    "key": "MPID_SEARCH_シャロン",
+    "value": "夏蓉"
+  },
+  {
+    "key": "MPID_ウェンディ",
+    "value": "溫蒂"
+  },
+  {
+    "key": "MPID_SEARCH_ウェンディ",
+    "value": "溫蒂"
+  },
+  {
+    "key": "MPID_エルフィ",
+    "value": "艾爾菲"
+  },
+  {
+    "key": "MPID_SEARCH_エルフィ",
+    "value": "艾爾菲"
+  },
+  {
+    "key": "MPID_ジェイガン",
+    "value": "傑剛"
+  },
+  {
+    "key": "MPID_SEARCH_ジェイガン",
+    "value": "傑剛"
+  },
+  {
+    "key": "MPID_アベル",
+    "value": "阿貝爾"
+  },
+  {
+    "key": "MPID_SEARCH_アベル",
+    "value": "阿貝爾"
+  },
+  {
+    "key": "MPID_カミュ",
+    "value": "卡謬"
+  },
+  {
+    "key": "MPID_SEARCH_カミュ",
+    "value": "卡謬"
+  },
+  {
+    "key": "MPID_ソワレ",
+    "value": "索瓦蕾"
+  },
+  {
+    "key": "MPID_SEARCH_ソワレ",
+    "value": "索瓦蕾"
+  },
+  {
+    "key": "MPID_ピエリ",
+    "value": "皮艾莉"
+  },
+  {
+    "key": "MPID_SEARCH_ピエリ",
+    "value": "皮艾莉"
+  },
+  {
+    "key": "MPID_カチュア",
+    "value": "卡秋雅"
+  },
+  {
+    "key": "MPID_SEARCH_カチュア",
+    "value": "卡秋雅"
+  },
+  {
+    "key": "MPID_エスト",
+    "value": "愛絲特"
+  },
+  {
+    "key": "MPID_SEARCH_エスト",
+    "value": "愛絲特"
+  },
+  {
+    "key": "MPID_シャニー",
+    "value": "夏妮"
+  },
+  {
+    "key": "MPID_SEARCH_シャニー",
+    "value": "夏妮"
+  },
+  {
+    "key": "MPID_フロリーナ",
+    "value": "芙羅利娜"
+  },
+  {
+    "key": "MPID_SEARCH_フロリーナ",
+    "value": "芙羅利娜"
+  },
+  {
+    "key": "MPID_ティアモ",
+    "value": "蒂亞莫"
+  },
+  {
+    "key": "MPID_SEARCH_ティアモ",
+    "value": "蒂亞莫"
+  },
+  {
+    "key": "MPID_ヒノカ",
+    "value": "火乃香"
+  },
+  {
+    "key": "MPID_SEARCH_ヒノカ",
+    "value": "火乃香"
+  },
+  {
+    "key": "MPID_ツバキ",
+    "value": "椿"
+  },
+  {
+    "key": "MPID_SEARCH_ツバキ",
+    "value": "椿"
+  },
+  {
+    "key": "MPID_バーツ",
+    "value": "巴茲"
+  },
+  {
+    "key": "MPID_SEARCH_バーツ",
+    "value": "巴茲"
+  },
+  {
+    "key": "MPID_バアトル",
+    "value": "巴多爾"
+  },
+  {
+    "key": "MPID_SEARCH_バアトル",
+    "value": "巴多爾"
+  },
+  {
+    "key": "MPID_レイヴァン",
+    "value": "瑞文"
+  },
+  {
+    "key": "MPID_SEARCH_レイヴァン",
+    "value": "瑞文"
+  },
+  {
+    "key": "MPID_ホークアイ",
+    "value": "霍克艾"
+  },
+  {
+    "key": "MPID_SEARCH_ホークアイ",
+    "value": "霍克艾"
+  },
+  {
+    "key": "MPID_ハロルド",
+    "value": "哈洛德"
+  },
+  {
+    "key": "MPID_SEARCH_ハロルド",
+    "value": "哈洛德"
+  },
+  {
+    "key": "MPID_アンナ",
+    "value": "安娜"
+  },
+  {
+    "key": "MPID_SEARCH_アンナ",
+    "value": "安娜"
+  },
+  {
+    "key": "MPID_シーマ",
+    "value": "希瑪"
+  },
+  {
+    "key": "MPID_SEARCH_シーマ",
+    "value": "希瑪"
+  },
+  {
+    "key": "MPID_ヘクトル",
+    "value": "海克托爾"
+  },
+  {
+    "key": "MPID_SEARCH_ヘクトル",
+    "value": "海克托爾"
+  },
+  {
+    "key": "MPID_フレデリク",
+    "value": "弗雷德里克"
+  },
+  {
+    "key": "MPID_SEARCH_フレデリク",
+    "value": "弗雷德里克"
+  },
+  {
+    "key": "MPID_ギュンター",
+    "value": "君特"
+  },
+  {
+    "key": "MPID_SEARCH_ギュンター",
+    "value": "君特"
+  },
+  {
+    "key": "MPID_ミネルバ",
+    "value": "米奈娃"
+  },
+  {
+    "key": "MPID_SEARCH_ミネルバ",
+    "value": "米奈娃"
+  },
+  {
+    "key": "MPID_ミシェイル",
+    "value": "米謝爾"
+  },
+  {
+    "key": "MPID_SEARCH_ミシェイル",
+    "value": "米謝爾"
+  },
+  {
+    "key": "MPID_ナーシェン",
+    "value": "拿榭恩"
+  },
+  {
+    "key": "MPID_SEARCH_ナーシェン",
+    "value": "拿榭恩"
+  },
+  {
+    "key": "MPID_セルジュ",
+    "value": "塞爾裘"
+  },
+  {
+    "key": "MPID_SEARCH_セルジュ",
+    "value": "塞爾裘"
+  },
+  {
+    "key": "MPID_カミラ",
+    "value": "卡美拉"
+  },
+  {
+    "key": "MPID_SEARCH_カミラ",
+    "value": "卡美拉"
+  },
+  {
+    "key": "MPID_ベルカ",
+    "value": "貝爾卡"
+  },
+  {
+    "key": "MPID_SEARCH_ベルカ",
+    "value": "貝爾卡"
+  },
+  {
+    "key": "MPID_ゴードン",
+    "value": "哥頓"
+  },
+  {
+    "key": "MPID_SEARCH_ゴードン",
+    "value": "哥頓"
+  },
+  {
+    "key": "MPID_ジョルジュ",
+    "value": "喬爾裘"
+  },
+  {
+    "key": "MPID_SEARCH_ジョルジュ",
+    "value": "喬爾裘"
+  },
+  {
+    "key": "MPID_ヴィオール",
+    "value": "維沃爾"
+  },
+  {
+    "key": "MPID_SEARCH_ヴィオール",
+    "value": "維沃爾"
+  },
+  {
+    "key": "MPID_タクミ",
+    "value": "拓海"
+  },
+  {
+    "key": "MPID_SEARCH_タクミ",
+    "value": "拓海"
+  },
+  {
+    "key": "MPID_セツナ",
+    "value": "剎那"
+  },
+  {
+    "key": "MPID_SEARCH_セツナ",
+    "value": "剎那"
+  },
+  {
+    "key": "MPID_ゼロ",
+    "value": "零"
+  },
+  {
+    "key": "MPID_SEARCH_ゼロ",
+    "value": "零"
+  },
+  {
+    "key": "MPID_マシュー",
+    "value": "馬修"
+  },
+  {
+    "key": "MPID_SEARCH_マシュー",
+    "value": "馬修"
+  },
+  {
+    "key": "MPID_ガイア",
+    "value": "蓋亞"
+  },
+  {
+    "key": "MPID_SEARCH_ガイア",
+    "value": "蓋亞"
+  },
+  {
+    "key": "MPID_フェリシア",
+    "value": "菲利西亞"
+  },
+  {
+    "key": "MPID_SEARCH_フェリシア",
+    "value": "菲利西亞"
+  },
+  {
+    "key": "MPID_ジョーカー",
+    "value": "喬克"
+  },
+  {
+    "key": "MPID_SEARCH_ジョーカー",
+    "value": "喬克"
+  },
+  {
+    "key": "MPID_サイゾウ",
+    "value": "彩造"
+  },
+  {
+    "key": "MPID_SEARCH_サイゾウ",
+    "value": "彩造"
+  },
+  {
+    "key": "MPID_カゲロウ",
+    "value": "陽炎"
+  },
+  {
+    "key": "MPID_SEARCH_カゲロウ",
+    "value": "陽炎"
+  },
+  {
+    "key": "MPID_リリーナ",
+    "value": "莉莉娜"
+  },
+  {
+    "key": "MPID_SEARCH_リリーナ",
+    "value": "莉莉娜"
+  },
+  {
+    "key": "MPID_レイ",
+    "value": "雷伊"
+  },
+  {
+    "key": "MPID_SEARCH_レイ",
+    "value": "雷伊"
+  },
+  {
+    "key": "MPID_ソフィーヤ",
+    "value": "蘇菲亞"
+  },
+  {
+    "key": "MPID_SEARCH_ソフィーヤ",
+    "value": "蘇菲亞"
+  },
+  {
+    "key": "MPID_サーリャ",
+    "value": "撒拉"
+  },
+  {
+    "key": "MPID_SEARCH_サーリャ",
+    "value": "撒拉"
+  },
+  {
+    "key": "MPID_ヘンリー",
+    "value": "亨利"
+  },
+  {
+    "key": "MPID_SEARCH_ヘンリー",
+    "value": "亨利"
+  },
+  {
+    "key": "MPID_レオン",
+    "value": "里昂"
+  },
+  {
+    "key": "MPID_SEARCH_レオン",
+    "value": "里昂"
+  },
+  {
+    "key": "MPID_リンダ",
+    "value": "琳達"
+  },
+  {
+    "key": "MPID_SEARCH_リンダ",
+    "value": "琳達"
+  },
+  {
+    "key": "MPID_ルフレ男",
+    "value": "魯弗萊"
+  },
+  {
+    "key": "MPID_SEARCH_ルフレ男",
+    "value": "魯弗萊"
+  },
+  {
+    "key": "MPID_オーディン",
+    "value": "奧丁"
+  },
+  {
+    "key": "MPID_SEARCH_オーディン",
+    "value": "奧丁"
+  },
+  {
+    "key": "MPID_ウルスラ",
+    "value": "烏爾斯拉"
+  },
+  {
+    "key": "MPID_SEARCH_ウルスラ",
+    "value": "烏爾斯拉"
+  },
+  {
+    "key": "MPID_マリク",
+    "value": "馬利克"
+  },
+  {
+    "key": "MPID_SEARCH_マリク",
+    "value": "馬利克"
+  },
+  {
+    "key": "MPID_ニノ",
+    "value": "妮諾"
+  },
+  {
+    "key": "MPID_SEARCH_ニノ",
+    "value": "妮諾"
+  },
+  {
+    "key": "MPID_ルフレ女",
+    "value": "魯弗萊"
+  },
+  {
+    "key": "MPID_SEARCH_ルフレ女",
+    "value": "魯弗萊"
+  },
+  {
+    "key": "MPID_セシリア",
+    "value": "瑟西莉亞"
+  },
+  {
+    "key": "MPID_SEARCH_セシリア",
+    "value": "瑟西莉亞"
+  },
+  {
+    "key": "MPID_リフ",
+    "value": "利夫"
+  },
+  {
+    "key": "MPID_SEARCH_リフ",
+    "value": "利夫"
+  },
+  {
+    "key": "MPID_マリア",
+    "value": "瑪莉亞"
+  },
+  {
+    "key": "MPID_SEARCH_マリア",
+    "value": "瑪莉亞"
+  },
+  {
+    "key": "MPID_セーラ",
+    "value": "賽拉"
+  },
+  {
+    "key": "MPID_SEARCH_セーラ",
+    "value": "賽拉"
+  },
+  {
+    "key": "MPID_リズ",
+    "value": "莉茲"
+  },
+  {
+    "key": "MPID_SEARCH_リズ",
+    "value": "莉茲"
+  },
+  {
+    "key": "MPID_サクラ",
+    "value": "櫻"
+  },
+  {
+    "key": "MPID_SEARCH_サクラ",
+    "value": "櫻"
+  },
+  {
+    "key": "MPID_アサマ",
+    "value": "淺間"
+  },
+  {
+    "key": "MPID_SEARCH_アサマ",
+    "value": "淺間"
+  },
+  {
+    "key": "MPID_クラリーネ",
+    "value": "克拉莉涅"
+  },
+  {
+    "key": "MPID_SEARCH_クラリーネ",
+    "value": "克拉莉涅"
+  },
+  {
+    "key": "MPID_エリーゼ",
+    "value": "艾麗澤"
+  },
+  {
+    "key": "MPID_SEARCH_エリーゼ",
+    "value": "艾麗澤"
+  },
+  {
+    "key": "MPID_チキ",
+    "value": "琪姬"
+  },
+  {
+    "key": "MPID_SEARCH_チキ",
+    "value": "琪姬"
+  },
+  {
+    "key": "MPID_チキ覚醒",
+    "value": "琪姬"
+  },
+  {
+    "key": "MPID_SEARCH_チキ覚醒",
+    "value": "琪姬"
+  },
+  {
+    "key": "MPID_ノノ",
+    "value": "儂儂"
+  },
+  {
+    "key": "MPID_SEARCH_ノノ",
+    "value": "儂儂"
+  },
+  {
+    "key": "MPID_カムイ女",
+    "value": "神威"
+  },
+  {
+    "key": "MPID_SEARCH_カムイ女",
+    "value": "神威"
+  },
+  {
+    "key": "MPID_ファ",
+    "value": "法"
+  },
+  {
+    "key": "MPID_SEARCH_ファ",
+    "value": "法"
+  },
+  {
+    "key": "MPID_HONOR_マルス",
+    "value": "阿利提亞的王子"
+  },
+  {
+    "key": "MPID_HONOR_オグマ",
+    "value": "塔利斯的傭兵"
+  },
+  {
+    "key": "MPID_HONOR_ナバール",
+    "value": "赤色劍士"
+  },
+  {
+    "key": "MPID_HONOR_ロイ",
+    "value": "幼獅"
+  },
+  {
+    "key": "MPID_HONOR_フィル",
+    "value": "劍聖的繼承者"
+  },
+  {
+    "key": "MPID_HONOR_リン",
+    "value": "草原的女爵"
+  },
+  {
+    "key": "MPID_HONOR_クロム",
+    "value": "新的聖王"
+  },
+  {
+    "key": "MPID_HONOR_ルキナ",
+    "value": "知曉未來者"
+  },
+  {
+    "key": "MPID_HONOR_ロンクー",
+    "value": "討厭女人的劍客"
+  },
+  {
+    "key": "MPID_HONOR_オリヴィエ",
+    "value": "害羞的"
+  },
+  {
+    "key": "MPID_HONOR_カムイ男",
+    "value": "選擇未來的王子"
+  },
+  {
+    "key": "MPID_HONOR_リョウマ",
+    "value": "白夜武士"
+  },
+  {
+    "key": "MPID_HONOR_カザハナ",
+    "value": "野丫頭武士"
+  },
+  {
+    "key": "MPID_HONOR_ヒナタ",
+    "value": "豪邁武士"
+  },
+  {
+    "key": "MPID_HONOR_ラズワルド",
+    "value": "綻開的笑容"
+  },
+  {
+    "key": "MPID_HONOR_ルーナ",
+    "value": "深藏的憧憬"
+  },
+  {
+    "key": "MPID_HONOR_アルフォンス",
+    "value": "亞斯克王國的王子"
+  },
+  {
+    "key": "MPID_HONOR_ドーガ",
+    "value": "阿利提亞重騎士"
+  },
+  {
+    "key": "MPID_HONOR_ゼフィール",
+    "value": "解放之王"
+  },
+  {
+    "key": "MPID_HONOR_カイン",
+    "value": "猛牛"
+  },
+  {
+    "key": "MPID_HONOR_エリウッド",
+    "value": "呂基亞第一的騎士"
+  },
+  {
+    "key": "MPID_HONOR_ソール",
+    "value": "碧綠騎士"
+  },
+  {
+    "key": "MPID_HONOR_マークス",
+    "value": "暗夜騎士"
+  },
+  {
+    "key": "MPID_HONOR_シーダ",
+    "value": "塔利斯的公主"
+  },
+  {
+    "key": "MPID_HONOR_パオラ",
+    "value": "白騎的長女"
+  },
+  {
+    "key": "MPID_HONOR_ドニ",
+    "value": "村民"
+  },
+  {
+    "key": "MPID_HONOR_オボロ",
+    "value": "神情狂暴的"
+  },
+  {
+    "key": "MPID_HONOR_アクア",
+    "value": "泉之歌姬"
+  },
+  {
+    "key": "MPID_HONOR_シャロン",
+    "value": "亞斯克王國的公主"
+  },
+  {
+    "key": "MPID_HONOR_ウェンディ",
+    "value": "可愛的重騎士"
+  },
+  {
+    "key": "MPID_HONOR_エルフィ",
+    "value": "怪力的重騎士"
+  },
+  {
+    "key": "MPID_HONOR_ジェイガン",
+    "value": "馬爾斯的軍師"
+  },
+  {
+    "key": "MPID_HONOR_アベル",
+    "value": "黑豹"
+  },
+  {
+    "key": "MPID_HONOR_カミュ",
+    "value": "黑騎士"
+  },
+  {
+    "key": "MPID_HONOR_ソワレ",
+    "value": "赤紅騎士"
+  },
+  {
+    "key": "MPID_HONOR_ピエリ",
+    "value": "殺戮本能"
+  },
+  {
+    "key": "MPID_HONOR_カチュア",
+    "value": "白騎的次女"
+  },
+  {
+    "key": "MPID_HONOR_エスト",
+    "value": "白騎的么女"
+  },
+  {
+    "key": "MPID_HONOR_シャニー",
+    "value": "爽朗的天馬騎士"
+  },
+  {
+    "key": "MPID_HONOR_フロリーナ",
+    "value": "可愛的天馬騎士"
+  },
+  {
+    "key": "MPID_HONOR_ティアモ",
+    "value": "年輕的天才騎士"
+  },
+  {
+    "key": "MPID_HONOR_ヒノカ",
+    "value": "赤色戰姬"
+  },
+  {
+    "key": "MPID_HONOR_ツバキ",
+    "value": "完美主義"
+  },
+  {
+    "key": "MPID_HONOR_バーツ",
+    "value": "塔利斯的義勇兵"
+  },
+  {
+    "key": "MPID_HONOR_バアトル",
+    "value": "憤怒的鬥士"
+  },
+  {
+    "key": "MPID_HONOR_レイヴァン",
+    "value": "高傲的傭兵"
+  },
+  {
+    "key": "MPID_HONOR_ホークアイ",
+    "value": "沙漠的守護者"
+  },
+  {
+    "key": "MPID_HONOR_ハロルド",
+    "value": "倒楣的英雄"
+  },
+  {
+    "key": "MPID_HONOR_アンナ",
+    "value": "特務機關的隊長"
+  },
+  {
+    "key": "MPID_HONOR_シーマ",
+    "value": "格拉的公主"
+  },
+  {
+    "key": "MPID_HONOR_ヘクトル",
+    "value": "奧斯提亞的勇將"
+  },
+  {
+    "key": "MPID_HONOR_フレデリク",
+    "value": "穩重的騎士團長"
+  },
+  {
+    "key": "MPID_HONOR_ギュンター",
+    "value": "老邁騎士"
+  },
+  {
+    "key": "MPID_HONOR_ミネルバ",
+    "value": "赤色龍騎士"
+  },
+  {
+    "key": "MPID_HONOR_ミシェイル",
+    "value": "野心之王"
+  },
+  {
+    "key": "MPID_HONOR_ナーシェン",
+    "value": "三龍將"
+  },
+  {
+    "key": "MPID_HONOR_セルジュ",
+    "value": "喜歡龍的龍騎士"
+  },
+  {
+    "key": "MPID_HONOR_カミラ",
+    "value": "妖豔之花"
+  },
+  {
+    "key": "MPID_HONOR_ベルカ",
+    "value": "殺手"
+  },
+  {
+    "key": "MPID_HONOR_ゴードン",
+    "value": "阿利提亞的弓兵"
+  },
+  {
+    "key": "MPID_HONOR_ジョルジュ",
+    "value": "陸地第一的弓騎士"
+  },
+  {
+    "key": "MPID_HONOR_ヴィオール",
+    "value": "貴族弓箭手"
+  },
+  {
+    "key": "MPID_HONOR_タクミ",
+    "value": "神弓射手"
+  },
+  {
+    "key": "MPID_HONOR_セツナ",
+    "value": "迷糊蛋"
+  },
+  {
+    "key": "MPID_HONOR_ゼロ",
+    "value": "虐待狂"
+  },
+  {
+    "key": "MPID_HONOR_マシュー",
+    "value": "義賊"
+  },
+  {
+    "key": "MPID_HONOR_ガイア",
+    "value": "喜愛甜點的盜賊"
+  },
+  {
+    "key": "MPID_HONOR_フェリシア",
+    "value": "迷糊女僕"
+  },
+  {
+    "key": "MPID_HONOR_ジョーカー",
+    "value": "忠誠的管家"
+  },
+  {
+    "key": "MPID_HONOR_サイゾウ",
+    "value": "爆炎之忍"
+  },
+  {
+    "key": "MPID_HONOR_カゲロウ",
+    "value": "古風之忍"
+  },
+  {
+    "key": "MPID_HONOR_リリーナ",
+    "value": "美麗的盟主"
+  },
+  {
+    "key": "MPID_HONOR_レイ",
+    "value": "暗之驕子"
+  },
+  {
+    "key": "MPID_HONOR_ソフィーヤ",
+    "value": "納巴塔的預言家"
+  },
+  {
+    "key": "MPID_HONOR_サーリャ",
+    "value": "陰沉的暗影法師"
+  },
+  {
+    "key": "MPID_HONOR_ヘンリー",
+    "value": "心靈崩壞的"
+  },
+  {
+    "key": "MPID_HONOR_レオン",
+    "value": "暗之王子"
+  },
+  {
+    "key": "MPID_HONOR_リンダ",
+    "value": "光之魔道士"
+  },
+  {
+    "key": "MPID_HONOR_ルフレ男",
+    "value": "聖王的軍師"
+  },
+  {
+    "key": "MPID_HONOR_オーディン",
+    "value": "封印著力量之人"
+  },
+  {
+    "key": "MPID_HONOR_ウルスラ",
+    "value": "蒼鴉"
+  },
+  {
+    "key": "MPID_HONOR_マリク",
+    "value": "風之魔道士"
+  },
+  {
+    "key": "MPID_HONOR_ニノ",
+    "value": "魔道驕子"
+  },
+  {
+    "key": "MPID_HONOR_ルフレ女",
+    "value": "充滿謎團的軍師"
+  },
+  {
+    "key": "MPID_HONOR_セシリア",
+    "value": "王國之女"
+  },
+  {
+    "key": "MPID_HONOR_リフ",
+    "value": "僧侶"
+  },
+  {
+    "key": "MPID_HONOR_マリア",
+    "value": "米奈娃之妹"
+  },
+  {
+    "key": "MPID_HONOR_セーラ",
+    "value": "吵鬧的修女"
+  },
+  {
+    "key": "MPID_HONOR_リズ",
+    "value": "活蹦亂跳的修女"
+  },
+  {
+    "key": "MPID_HONOR_サクラ",
+    "value": "慈悲的巫女"
+  },
+  {
+    "key": "MPID_HONOR_アサマ",
+    "value": "飄逸的僧侶"
+  },
+  {
+    "key": "MPID_HONOR_クラリーネ",
+    "value": "任性的公主將軍"
+  },
+  {
+    "key": "MPID_HONOR_エリーゼ",
+    "value": "可愛之花"
+  },
+  {
+    "key": "MPID_HONOR_チキ",
+    "value": "神龍族的公主"
+  },
+  {
+    "key": "MPID_HONOR_チキ覚醒",
+    "value": "神龍的巫女"
+  },
+  {
+    "key": "MPID_HONOR_ノノ",
+    "value": "永遠的幼子"
+  },
+  {
+    "key": "MPID_HONOR_カムイ女",
+    "value": "選擇未來的公主"
+  },
+  {
+    "key": "MPID_HONOR_ファ",
+    "value": "被稱為神的龍"
+  },
+  {
+    "key": "MPID_H_マルス",
+    "value": "阿利提亞王國的王子，為了復興祖國而戰。\n個性善良，看重夥伴甚於任何事物。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_オグマ",
+    "value": "侍奉塔利斯公主希達的傭兵隊隊長。\n過去曾是奴隸劍鬥士。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ナバール",
+    "value": "別名為【赤色劍士】的高強劍客。\n沉默寡言，另有冷酷的一面。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ロイ",
+    "value": "費雷侯爵艾利烏德的嫡子。年紀輕輕，卻擁有\n優異的指揮能力，擔任費雷軍的指揮官。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_フィル",
+    "value": "為了磨練劍術而雲遊世界各地的少女。\n個性單純而嚴肅，但也有著不懂人情世故的一面。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_リン",
+    "value": "基亞蘭女爵，本名是琳迪絲。過去曾經在\n草原上獨自一人生活。個性剛毅而爽朗。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_クロム",
+    "value": "伊里斯聖王國的王子，【英雄王】的後裔。\n擔任自衛團的團長，守護著國家和平。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_ルキナ",
+    "value": "來自未來的庫洛武之女，是位充滿正義感的公主。\n以拯救世界為使命。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_ロンクー",
+    "value": "菲利亞國的劍客，不擅長面對女性。\n沉默寡言、態度冷漠，但劍術造詣極高。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_オリヴィエ",
+    "value": "周遊各國的舞孃。雖然容易害羞，\n但卻是很有才華的舞蹈天才。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_カムイ男",
+    "value": "生於白夜王國，長於暗夜王國的王子，\n神器【夜刀神】的主人。為了自己選擇的道路而戰。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_リョウマ",
+    "value": "白夜王國的王子，神器【雷神刀】的主人。\n個性剛直，宛如武士道精神的化身。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_カザハナ",
+    "value": "白夜王國的武士，是櫻的部下兼好友。\n為全國首屈一指的使刀高手，個性開朗而活潑。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ヒナタ",
+    "value": "白夜王國的武士，拓海的部下。\n雖然粗魯又莽撞，但也有重視夥伴的一面。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ラズワルド",
+    "value": "馬克斯的部下，出身與經歷均無人知曉。\n喜歡和女性搭訕。舞技高超，但個性其實相當靦腆。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ルーナ",
+    "value": "卡美拉的部下，出身與經歷均無人知曉。\n雖然很任性又不服輸，卻是個努力型的天才。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_アルフォンス",
+    "value": "亞斯克王國的王子，處事嚴謹且待人溫和。\n現為特務機關的一員，守護著國家的和平。"
+  },
+  {
+    "key": "MPID_H_ドーガ",
+    "value": "阿利提亞王國的重騎士，個性耿直。\n曾在戰場上以自己為盾牌守護馬爾斯王子。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ゼフィール",
+    "value": "伯爾尼國王，年幼時個性很善良，後來卻\n對人類感到絕望，企盼由龍來支配世界。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_カイン",
+    "value": "阿利提亞的騎士，與阿貝爾一起侍奉馬爾斯王子。\n由於個性莽撞，因此別名為【猛牛】。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_エリウッド",
+    "value": "費雷勳爵，與海克托爾和琳之間是盟友關係。\n個性非常真摯，備受部下信賴。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_ソール",
+    "value": "庫洛武自衛團的一員，立志成為騎士。\n雖然個性有點冒失，但為人相當和善。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_マークス",
+    "value": "暗夜王國的王子，神器【西格弗里德】的主人。\n重視騎士精神，在軍中極富聲望。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_シーダ",
+    "value": "塔利斯的公主，馬爾斯王子的未婚妻。\n不論敵我，都會被她的魅力所吸引。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_パオラ",
+    "value": "馬其頓王國飛馬三姊妹中的長女。\n喜歡照顧他人，充滿了母性的包容力。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ドニ",
+    "value": "伊里斯聖王國的村民，擅長耕作。\n說話帶有獨特的方言口音。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_オボロ",
+    "value": "白夜王國的槍術士，拓海的部下。\n喜歡時髦的打扮，極度討厭暗夜王國。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_アクア",
+    "value": "在白夜王國長大的公主，既冷靜又聰慧。\n在戰場上則以歌姬的身分，用歌聲幫助夥伴。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_シャロン",
+    "value": "亞斯克王國的公主，阿爾馮斯的妹妹。\n個性開朗又平易近人，和英雄相處得相當融洽。"
+  },
+  {
+    "key": "MPID_H_ウェンディ",
+    "value": "奧斯提亞的重騎士，個性真摯而堅強。\n很在意因為身上的盔甲而被誤以為虎背熊腰。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_エルフィ",
+    "value": "暗夜王國的重騎士，是艾麗澤的部下兼好友。\n個性和善，很替夥伴著想，還擁有一身怪力。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ジェイガン",
+    "value": "阿利提亞的騎士，身負守護馬爾斯的重責大任。\n自馬爾斯年幼起，就一直陪伴在身邊支持他。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_アベル",
+    "value": "阿利提亞的騎士，與凱因一起侍奉馬爾斯王子。\n由於個性沉著冷靜，因此別名為【黑豹】。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_カミュ",
+    "value": "被稱為【黑騎士】的哥爾尼亞王國騎士。\n手握神槍【古拉迪烏斯】，為了祖國而犧牲。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ソワレ",
+    "value": "庫洛武自衛團的一員，個性直爽的巾幗英雄。\n立志成為騎士，隨時不忘訓練。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_ピエリ",
+    "value": "暗夜王國的騎士，馬克斯的部下，\n愛哭又孩子氣，卻能輕易動手殺人。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_カチュア",
+    "value": "馬其頓王國飛馬三姊妹中的次女。\n個性嚴謹而專一。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_エスト",
+    "value": "馬其頓王國飛馬三姊妹中的么女。\n個性開朗而孩子氣，和阿貝爾是情侶。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_シャニー",
+    "value": "伊利亞天馬騎士團的見習騎士。\n個性樂觀積極，總是能讓周遭的人充滿活力。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_フロリーナ",
+    "value": "伊利亞天馬騎士團三姊妹中的么女，也是琳的摯友。\n愛好動物、心地善良，個性相當靦腆。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_ティアモ",
+    "value": "伊里斯聖王國天馬騎士團唯一的倖存者，\n不管做什麼都得心應手的天才。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_ヒノカ",
+    "value": "白夜王國的公主，很會照顧他人。\n個性耿直而木訥，與其說是公主，更像是一位武者。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ツバキ",
+    "value": "白夜王國的天馬武士，櫻的部下。\n是位眉清目秀、頭腦清晰的完美主義者。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_バーツ",
+    "value": "塔利斯王國的戰士，奧古馬的部下。\n人生經歷豐富，曾當過樵夫及海盜等等。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_バアトル",
+    "value": "邊境的戰士，個性豪邁，常把周圍的人耍得團團轉。\n溺愛女兒菲爾，為了尋找她而踏上旅程。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_レイヴァン",
+    "value": "康沃爾侯爵家的嫡子，本名為瑞蒙。\n為了復仇而喬裝為傭兵。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_ホークアイ",
+    "value": "人類與龍共存的納巴塔沙漠的守護者，沉默寡言、\n盡忠職守。為了守護理想鄉的和平而戰。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_ハロルド",
+    "value": "暗夜王國的戰士，艾麗澤的部下。\n時時刻刻都在追尋正道，但是非常倒楣。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_アンナ",
+    "value": "隸屬於特務機關的戰士，阿爾馮斯等人的上司。\n經驗豐富，相當可靠。"
+  },
+  {
+    "key": "MPID_H_シーマ",
+    "value": "格拉王國的公主，在人民的企盼下即位為王，\n因為愛民如子，所以對國家日漸衰敗的情況感到苦惱。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ヘクトル",
+    "value": "奧斯提亞侯爵之弟，艾利烏德的兒時玩伴。\n個性不拘小節，很重情義。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_フレデリク",
+    "value": "侍奉伊里斯聖王國王族的騎士，\n現為庫洛武自衛團的副團長，個性很嚴肅。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_ギュンター",
+    "value": "長年侍奉暗夜王國的騎士，神威的部下。\n總是保持冷靜，待人律己都一樣嚴格。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ミネルバ",
+    "value": "被稱為【赤色龍騎士】的馬其頓公主。\n和原本敬愛的兄長米謝爾斷絕關係、彼此爭戰。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ミシェイル",
+    "value": "馬其頓之王，米奈娃及瑪莉亞的兄長。\n殺害了自己的父王，並為了統治全陸地而掀起戰亂。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ナーシェン",
+    "value": "伯爾尼的【三龍將】之一。自尊心極強，\n為了自己的榮譽，甚至不惜使用卑鄙的手段。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_セルジュ",
+    "value": "侍奉維沃爾公爵家的龍騎士，愛龍為米奈瓦。\n性情敦厚、宜室宜家，但審美觀相當特殊。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_カミラ",
+    "value": "暗夜王國的公主，相當溺愛神威。\n性情敦厚、待人和善，但對敵人卻毫不留情。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ベルカ",
+    "value": "暗夜王國的龍騎士，卡美拉的部下，\n本領高強的殺手，散發著令人不敢靠近的氛圍。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ゴードン",
+    "value": "阿利提亞王國的弓兵，雖然常被誤以為是小朋友，\n但是很努力，射箭的實力在阿利提亞首屈一指。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ジョルジュ",
+    "value": "阿卡奈亞聖王國的弓騎士，擅長謀略，\n被譽為陸地第一的弓箭手。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ヴィオール",
+    "value": "治理瓦雷姆陸地羅杉奴地區的貴族。\n態度飄忽不定，是個城府很深的幹練好手。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_タクミ",
+    "value": "白夜王國的王子，神器【風神弓】的主人。\n個性彆扭，亟欲表現自我。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_セツナ",
+    "value": "白夜王國的弓箭手，也是火乃香的部下。\n個性相當糊塗且神經大條。\n（登場：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ゼロ",
+    "value": "暗夜王國的小偷，里昂的部下。\n無論對方是男是女，都會說出一些曖昧的言語。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_マシュー",
+    "value": "侍奉奧斯提亞侯爵之弟海克托爾的密探，\n個性很自在隨意，但也有精明的一面。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_ガイア",
+    "value": "伊里斯聖王國的盜賊，個性冷靜，手藝相當靈巧。\n對甜食毫無抵抗力，全身上下藏滿了甜點。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_フェリシア",
+    "value": "暗夜王國的女僕，神威的部下。\n雖然很勤奮努力，但卻經常搞砸。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ジョーカー",
+    "value": "暗夜王國的管家，神威的部下。\n精明幹練，只效忠神威一人。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_サイゾウ",
+    "value": "白夜王國的忍者，龍馬的部下。\n涼風的雙胞胎哥哥，個性冷淡。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_カゲロウ",
+    "value": "白夜王國的忍者，龍馬的部下。\n為人忠心赤膽，為了主君可以不惜一死。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_リリーナ",
+    "value": "奧斯提亞的女爵，跟羅伊是幼時玩伴。\n是很有才華的魔道天才。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_レイ",
+    "value": "立志學習闇魔道的少年。父母雙亡，從小生長在孤兒院。\n個性反骨、愛唱反調，不會輕易對他人敞開心扉。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_ソフィーヤ",
+    "value": "居住在納巴塔村落的巫師，能夠預測未來。\n由於長年居住在村裡，所以還不習慣和他人相處。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_サーリャ",
+    "value": "佩萊吉亞國的咒術師，個性陰沉而善妒。\n將魯弗萊稱為命中注定的對象，日夜糾纏不休。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_ヘンリー",
+    "value": "佩萊吉亞國的咒術師，總是面帶微笑，\n但非常殘忍，殺人不眨眼。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_レオン",
+    "value": "暗夜王國的王子，神器【布倫希爾德】的主人。\n資質優異、做任何事都能得心應手，擅長魔道。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_リンダ",
+    "value": "阿卡奈亞聖王國大祭司米羅亞的女兒，\n光之書【輝光】的繼承者。期待著有一天能為父報仇。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ルフレ男",
+    "value": "伊里斯聖王國的軍師，庫洛武的摯友。\n失去了遇見庫洛武之前的記憶。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_オーディン",
+    "value": "里昂的部下。出身與經歷均無人知曉。\n喜歡引人注目，總是以戲劇般的誇張口吻說話。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ウルスラ",
+    "value": "暗殺集團【黑牙】的一員，人稱【蒼鴉】。\n個性冷酷無情，以侍奉完美的主人為樂。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_マリク",
+    "value": "人稱【風之魔道士】的風魔道士，\n是馬爾斯的幼年玩伴，曾於魔道之地卡達因修習魔法。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_ニノ",
+    "value": "隸屬於暗殺集團【黑牙】的善良少女。\n一心想幫助母親而堅強地犧牲奉獻。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_ルフレ女",
+    "value": "伊里斯聖王國的軍師，庫洛武的摯友。\n失去了遇見庫洛武之前的記憶。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_セシリア",
+    "value": "伊特魯里亞王國的【魔道軍將】。\n曾任羅伊及莉莉娜幼時的教師。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_リフ",
+    "value": "隱居於塔利斯島的僧侶。\n雖不擅長戰鬥，但會以治療之杖治癒夥伴。\n（登場作品：『ファイアーエムブレム　暗黒竜と光の剣』）"
+  },
+  {
+    "key": "MPID_H_マリア",
+    "value": "馬其頓的公主，米謝爾及米奈娃的妹妹。\n心地善良，相當重視家人。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_セーラ",
+    "value": "侍奉奧斯提亞侯爵之弟海克托爾的修女。\n言行舉止自由奔放，時常會驚擾到周遭的人。\n（登場作品：『ファイアーエムブレム　烈火の剣』）"
+  },
+  {
+    "key": "MPID_H_リズ",
+    "value": "伊里斯聖王國的二公主，庫洛武的妹妹。\n雖然稚氣未脫、喜歡撒嬌，但卻有著十分堅強的意志。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_サクラ",
+    "value": "白夜王國的公主，具有治癒他人的力量。\n個性文靜害羞，心地善良。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_アサマ",
+    "value": "白夜王國的修道者，火乃香的部下。\n雖然個性敦厚、待人隨和，但嘴巴相當毒辣。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_クラリーネ",
+    "value": "伊特魯里亞王國名門利格雷家的千金小姐。\n雖然姿態高傲又不懂世故，但相當敬愛兄長克萊因。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_H_エリーゼ",
+    "value": "暗夜王國的公主，最喜歡哥哥和姊姊。\n雖然稚氣未脫，但她的純真總能看透真相。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_チキ",
+    "value": "神龍族的公主。身為龍，為了不讓自己失控，\n曾進入漫長的沉眠。渴望與人類之間的交流。\n（登場作品：『ファイアーエムブレム　紋章の謎』）"
+  },
+  {
+    "key": "MPID_H_チキ覚醒",
+    "value": "神龍族的巫女，從神話時代一直活到現在，\n曾與【英雄王】馬爾斯並肩奮戰。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_ノノ",
+    "value": "與庫洛武一行人共同行動的龍族。\n雖然個性幼稚而貪玩，但已活了超過千年。\n（登場作品：『ファイアーエムブレム　覚醒』）"
+  },
+  {
+    "key": "MPID_H_カムイ女",
+    "value": "生於白夜王國，長於暗夜王國的公主，\n神器【夜刀神】的主人。為了自己選擇的道路而戰。\n（登場作品：『ファイアーエムブレム　ｉｆ』）"
+  },
+  {
+    "key": "MPID_H_ファ",
+    "value": "倖存的神龍少女，能夠化身為龍。\n人生經歷尚淺，心靈稚氣未脫。\n（登場作品：『ファイアーエムブレム　封印の剣』）"
+  },
+  {
+    "key": "MPID_VOICE_マルス",
+    "value": "緑川光(Hikaru Midorikawa)"
+  },
+  {
+    "key": "MPID_VOICE_オグマ",
+    "value": "小杉十郎太(Jurota Kosugi)"
+  },
+  {
+    "key": "MPID_VOICE_ナバール",
+    "value": "子安武人(Takehito Koyasu)"
+  },
+  {
+    "key": "MPID_VOICE_ロイ",
+    "value": "福山潤(Jun Fukuyama)"
+  },
+  {
+    "key": "MPID_VOICE_フィル",
+    "value": "日笠陽子(Yoko Hikasa)"
+  },
+  {
+    "key": "MPID_VOICE_リン",
+    "value": "大本眞基子(Makiko Ohmoto)"
+  },
+  {
+    "key": "MPID_VOICE_クロム",
+    "value": "杉田智和(Tomokazu Sugita)"
+  },
+  {
+    "key": "MPID_VOICE_ルキナ",
+    "value": "小林ゆう(Yu Kobayashi)"
+  },
+  {
+    "key": "MPID_VOICE_ロンクー",
+    "value": "子安武人(Takehito Koyasu)"
+  },
+  {
+    "key": "MPID_VOICE_オリヴィエ",
+    "value": "松嵜麗(Rei Matsuzaki)"
+  },
+  {
+    "key": "MPID_VOICE_カムイ男",
+    "value": "島﨑信長(Nobunaga Shimazaki)"
+  },
+  {
+    "key": "MPID_VOICE_リョウマ",
+    "value": "中村悠一(Yuichi Nakamura)"
+  },
+  {
+    "key": "MPID_VOICE_カザハナ",
+    "value": "菅谷弥生(Yayoi Sugaya)"
+  },
+  {
+    "key": "MPID_VOICE_ヒナタ",
+    "value": "市来光弘(Mitsuhiro Ichiki)"
+  },
+  {
+    "key": "MPID_VOICE_ラズワルド",
+    "value": "木島隆一(Ryuichi Kijima)"
+  },
+  {
+    "key": "MPID_VOICE_ルーナ",
+    "value": "世戸さおり(Saori Seto)"
+  },
+  {
+    "key": "MPID_VOICE_アルフォンス",
+    "value": "鈴木達央(Tatsuhisa Suzuki)"
+  },
+  {
+    "key": "MPID_VOICE_ドーガ",
+    "value": "竹内良太(Ryouta Takeuchi)"
+  },
+  {
+    "key": "MPID_VOICE_ゼフィール",
+    "value": "松田健一郎(Kenichirou Matsuda)"
+  },
+  {
+    "key": "MPID_VOICE_カイン",
+    "value": "増田俊樹(Toshiki Masuda)"
+  },
+  {
+    "key": "MPID_VOICE_エリウッド",
+    "value": "櫻井孝宏(Takahiro Sakurai)"
+  },
+  {
+    "key": "MPID_VOICE_ソール",
+    "value": "新垣樽助(Tarusuke Shingaki)"
+  },
+  {
+    "key": "MPID_VOICE_マークス",
+    "value": "小西克幸(Katsuyuki Konishi)"
+  },
+  {
+    "key": "MPID_VOICE_シーダ",
+    "value": "早見沙織(Saori Hayami)"
+  },
+  {
+    "key": "MPID_VOICE_パオラ",
+    "value": "種田梨沙(Risa Taneda)"
+  },
+  {
+    "key": "MPID_VOICE_ドニ",
+    "value": "市来光弘(Mitsuhiro Ichiki)"
+  },
+  {
+    "key": "MPID_VOICE_オボロ",
+    "value": "ささきのぞみ(Nozomi Sasaki)"
+  },
+  {
+    "key": "MPID_VOICE_アクア",
+    "value": "Lynn"
+  },
+  {
+    "key": "MPID_VOICE_シャロン",
+    "value": "内田真礼(Maaya Uchida)"
+  },
+  {
+    "key": "MPID_VOICE_ウェンディ",
+    "value": "行成とあ(Toa Yukinari)"
+  },
+  {
+    "key": "MPID_VOICE_エルフィ",
+    "value": "桑原由気(Yuuki Kuwahara)"
+  },
+  {
+    "key": "MPID_VOICE_ジェイガン",
+    "value": "五王四郎(Shirou Gou)"
+  },
+  {
+    "key": "MPID_VOICE_アベル",
+    "value": "佐藤拓也(Takuya Sato)"
+  },
+  {
+    "key": "MPID_VOICE_カミュ",
+    "value": "井上和彦(Kazuhiko Inoue)"
+  },
+  {
+    "key": "MPID_VOICE_ソワレ",
+    "value": "大原桃子(Momoko Ohara)"
+  },
+  {
+    "key": "MPID_VOICE_ピエリ",
+    "value": "髙橋ミナミ(Minami Takahashi)"
+  },
+  {
+    "key": "MPID_VOICE_カチュア",
+    "value": "生天目仁美(Hitomi Nabatame)"
+  },
+  {
+    "key": "MPID_VOICE_エスト",
+    "value": "村川梨衣(Rie Murakawa)"
+  },
+  {
+    "key": "MPID_VOICE_シャニー",
+    "value": "白城なお(Nao Shiraki)"
+  },
+  {
+    "key": "MPID_VOICE_フロリーナ",
+    "value": "白城なお(Nao Shiraki)"
+  },
+  {
+    "key": "MPID_VOICE_ティアモ",
+    "value": "岡田栄美(Eimi Okada)"
+  },
+  {
+    "key": "MPID_VOICE_ヒノカ",
+    "value": "名塚佳織(Kaori Nazuka)"
+  },
+  {
+    "key": "MPID_VOICE_ツバキ",
+    "value": "茂木たかまさ(Takamasa Mogi)"
+  },
+  {
+    "key": "MPID_VOICE_バーツ",
+    "value": "濱野大輝(Daiki Hamano)"
+  },
+  {
+    "key": "MPID_VOICE_バアトル",
+    "value": "利根健太朗(Kentaro Tone)"
+  },
+  {
+    "key": "MPID_VOICE_レイヴァン",
+    "value": "梅原裕一郎(Yuuichirou Umehara)"
+  },
+  {
+    "key": "MPID_VOICE_ホークアイ",
+    "value": "丹沢晃之(Teruyuki Tanzawa)"
+  },
+  {
+    "key": "MPID_VOICE_ハロルド",
+    "value": "北沢力(Riki Kitazawa)"
+  },
+  {
+    "key": "MPID_VOICE_アンナ",
+    "value": "世戸さおり(Saori Seto)"
+  },
+  {
+    "key": "MPID_VOICE_シーマ",
+    "value": "小林ゆう(Yu Kobayashi)"
+  },
+  {
+    "key": "MPID_VOICE_ヘクトル",
+    "value": "鳥海浩輔(Kohsuke Toriumi)"
+  },
+  {
+    "key": "MPID_VOICE_フレデリク",
+    "value": "小野大輔(Daisuke Ono)"
+  },
+  {
+    "key": "MPID_VOICE_ギュンター",
+    "value": "納谷六朗(Rokuro Naya)"
+  },
+  {
+    "key": "MPID_VOICE_ミネルバ",
+    "value": "佐倉綾音(Ayane Sakura)"
+  },
+  {
+    "key": "MPID_VOICE_ミシェイル",
+    "value": "福島潤(Jun Fukushima)"
+  },
+  {
+    "key": "MPID_VOICE_ナーシェン",
+    "value": "鳥海浩輔(Kohsuke Toriumi)"
+  },
+  {
+    "key": "MPID_VOICE_セルジュ",
+    "value": "高田憂希(Yuuki Takada)"
+  },
+  {
+    "key": "MPID_VOICE_カミラ",
+    "value": "沢城みゆき(Miyuki Sawashiro)"
+  },
+  {
+    "key": "MPID_VOICE_ベルカ",
+    "value": "田澤茉純(Masumi Tazawa)"
+  },
+  {
+    "key": "MPID_VOICE_ゴードン",
+    "value": "村瀬歩(Ayumu Murase)"
+  },
+  {
+    "key": "MPID_VOICE_ジョルジュ",
+    "value": "間島淳司(Junji Majima)"
+  },
+  {
+    "key": "MPID_VOICE_ヴィオール",
+    "value": "小上裕通(Hiromichi Kogami)"
+  },
+  {
+    "key": "MPID_VOICE_タクミ",
+    "value": "梶裕貴(Yuki Kaji)"
+  },
+  {
+    "key": "MPID_VOICE_セツナ",
+    "value": "石川綾乃(Ayano Ishikawa)"
+  },
+  {
+    "key": "MPID_VOICE_ゼロ",
+    "value": "子安武人(Takehito Koyasu)"
+  },
+  {
+    "key": "MPID_VOICE_マシュー",
+    "value": "保志総一朗(Soichiro Hoshi)"
+  },
+  {
+    "key": "MPID_VOICE_ガイア",
+    "value": "松本忍(Shinobu Matsumoto)"
+  },
+  {
+    "key": "MPID_VOICE_フェリシア",
+    "value": "ささきのぞみ(Nozomi Sasaki)"
+  },
+  {
+    "key": "MPID_VOICE_ジョーカー",
+    "value": "諏訪部順一(Junichi Suwabe)"
+  },
+  {
+    "key": "MPID_VOICE_サイゾウ",
+    "value": "新垣樽助(Tarusuke Shingaki)"
+  },
+  {
+    "key": "MPID_VOICE_カゲロウ",
+    "value": "村川梨衣(Rie Murakawa)"
+  },
+  {
+    "key": "MPID_VOICE_リリーナ",
+    "value": "小澤亜李(Ari Ozawa)"
+  },
+  {
+    "key": "MPID_VOICE_レイ",
+    "value": "藤原夏海(Natsumi Fujiwara)"
+  },
+  {
+    "key": "MPID_VOICE_ソフィーヤ",
+    "value": "大西沙織(Saori Onishi)"
+  },
+  {
+    "key": "MPID_VOICE_サーリャ",
+    "value": "高田憂希(Yuuki Takada)"
+  },
+  {
+    "key": "MPID_VOICE_ヘンリー",
+    "value": "岡村明美(Akemi Okamura)"
+  },
+  {
+    "key": "MPID_VOICE_レオン",
+    "value": "宮野真守(Mamoru Miyano)"
+  },
+  {
+    "key": "MPID_VOICE_リンダ",
+    "value": "瀬戸麻沙美(Asami Seto)"
+  },
+  {
+    "key": "MPID_VOICE_ルフレ男",
+    "value": "細谷佳正(Yoshimasa Hosoya)"
+  },
+  {
+    "key": "MPID_VOICE_オーディン",
+    "value": "高橋英則(Hidenori Takahashi)"
+  },
+  {
+    "key": "MPID_VOICE_ウルスラ",
+    "value": "水橋かおり(Kaori Mizuhashi)"
+  },
+  {
+    "key": "MPID_VOICE_マリク",
+    "value": "保志総一朗(Soichiro Hoshi)"
+  },
+  {
+    "key": "MPID_VOICE_ニノ",
+    "value": "優木かな(Kana Yuuki)"
+  },
+  {
+    "key": "MPID_VOICE_ルフレ女",
+    "value": "沢城みゆき(Miyuki Sawashiro)"
+  },
+  {
+    "key": "MPID_VOICE_セシリア",
+    "value": "行成とあ(Toa Yukinari)"
+  },
+  {
+    "key": "MPID_VOICE_リフ",
+    "value": "利根健太朗(Kentaro Tone)"
+  },
+  {
+    "key": "MPID_VOICE_マリア",
+    "value": "洲崎綾(Aya Suzaki)"
+  },
+  {
+    "key": "MPID_VOICE_セーラ",
+    "value": "小澤亜李(Ari Ozawa)"
+  },
+  {
+    "key": "MPID_VOICE_リズ",
+    "value": "阿澄佳奈(Kana Asumi)"
+  },
+  {
+    "key": "MPID_VOICE_サクラ",
+    "value": "金元寿子(Hisako Kanemoto)"
+  },
+  {
+    "key": "MPID_VOICE_アサマ",
+    "value": "浜田賢二(Kenji Hamada)"
+  },
+  {
+    "key": "MPID_VOICE_クラリーネ",
+    "value": "小野寺瑠奈(Runa Onodera)"
+  },
+  {
+    "key": "MPID_VOICE_エリーゼ",
+    "value": "諏訪彩花(Ayaka Suwa)"
+  },
+  {
+    "key": "MPID_VOICE_チキ",
+    "value": "諸星すみれ(Sumire Morohoshi)"
+  },
+  {
+    "key": "MPID_VOICE_チキ覚醒",
+    "value": "大谷育江(Ikue Otani)"
+  },
+  {
+    "key": "MPID_VOICE_ノノ",
+    "value": "たなか久美(Kumi Tanaka)"
+  },
+  {
+    "key": "MPID_VOICE_カムイ女",
+    "value": "佐藤聡美(Satomi Sato)"
+  },
+  {
+    "key": "MPID_VOICE_ファ",
+    "value": "小澤亜李(Ari Ozawa)"
+  },
+  {
+    "key": "MPID_ILLUST_マルス",
+    "value": "ワダサチコ(Sachiko Wada)"
+  },
+  {
+    "key": "MPID_ILLUST_オグマ",
+    "value": "山田章博(Akihiro Yamada)"
+  },
+  {
+    "key": "MPID_ILLUST_ナバール",
+    "value": "由良(Yura)"
+  },
+  {
+    "key": "MPID_ILLUST_ロイ",
+    "value": "BUNBUN"
+  },
+  {
+    "key": "MPID_ILLUST_フィル",
+    "value": "kaya8"
+  },
+  {
+    "key": "MPID_ILLUST_リン",
+    "value": "山田孝太郎(Kotaro Yamada)"
+  },
+  {
+    "key": "MPID_ILLUST_クロム",
+    "value": "えびら(Ebila)"
+  },
+  {
+    "key": "MPID_ILLUST_ルキナ",
+    "value": "まいぽんぽん(Maiponpon) / INTELLIGENT SYSTEMS"
+  },
+  {
+    "key": "MPID_ILLUST_ロンクー",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_オリヴィエ",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_カムイ男",
+    "value": "まいぽんぽん(Maiponpon) / INTELLIGENT SYSTEMS"
+  },
+  {
+    "key": "MPID_ILLUST_リョウマ",
+    "value": "北千里(Senri Kita)"
+  },
+  {
+    "key": "MPID_ILLUST_カザハナ",
+    "value": "藤ちょこ(Fuzichoco)"
+  },
+  {
+    "key": "MPID_ILLUST_ヒナタ",
+    "value": "上田夢人(Yumehito Ueda)"
+  },
+  {
+    "key": "MPID_ILLUST_ラズワルド",
+    "value": "スエカネクミコ(Kumiko Suekane)"
+  },
+  {
+    "key": "MPID_ILLUST_ルーナ",
+    "value": "ザザ(Zaza)"
+  },
+  {
+    "key": "MPID_ILLUST_アルフォンス",
+    "value": "コザキユースケ(Yusuke Kozaki)"
+  },
+  {
+    "key": "MPID_ILLUST_ドーガ",
+    "value": "板垣ハコ(Hako Itagaki)"
+  },
+  {
+    "key": "MPID_ILLUST_ゼフィール",
+    "value": "山田章博(Akihiro Yamada)"
+  },
+  {
+    "key": "MPID_ILLUST_カイン",
+    "value": "めか(Meka)"
+  },
+  {
+    "key": "MPID_ILLUST_エリウッド",
+    "value": "深遊(Miyuu)"
+  },
+  {
+    "key": "MPID_ILLUST_ソール",
+    "value": "まよ(Mayo)"
+  },
+  {
+    "key": "MPID_ILLUST_マークス",
+    "value": "前嶋重機(Shigeki Maeshima)"
+  },
+  {
+    "key": "MPID_ILLUST_シーダ",
+    "value": "羽公(HAKO)"
+  },
+  {
+    "key": "MPID_ILLUST_パオラ",
+    "value": "cuboon"
+  },
+  {
+    "key": "MPID_ILLUST_ドニ",
+    "value": "岡谷(Okaya)"
+  },
+  {
+    "key": "MPID_ILLUST_オボロ",
+    "value": "上田夢人(Yumehito Ueda)"
+  },
+  {
+    "key": "MPID_ILLUST_アクア",
+    "value": "kaya8"
+  },
+  {
+    "key": "MPID_ILLUST_シャロン",
+    "value": "コザキユースケ(Yusuke Kozaki)"
+  },
+  {
+    "key": "MPID_ILLUST_ウェンディ",
+    "value": "政尾翼(Tsubasa Masao)"
+  },
+  {
+    "key": "MPID_ILLUST_エルフィ",
+    "value": "HACCAN"
+  },
+  {
+    "key": "MPID_ILLUST_ジェイガン",
+    "value": "山田章博(Akihiro Yamada)"
+  },
+  {
+    "key": "MPID_ILLUST_アベル",
+    "value": "笹島彗星(Suisei Sasashima)"
+  },
+  {
+    "key": "MPID_ILLUST_カミュ",
+    "value": "スエカネクミコ(Kumiko Suekane)"
+  },
+  {
+    "key": "MPID_ILLUST_ソワレ",
+    "value": "まよ(Mayo)"
+  },
+  {
+    "key": "MPID_ILLUST_ピエリ",
+    "value": "高木正文(Masafumi Takagi)"
+  },
+  {
+    "key": "MPID_ILLUST_カチュア",
+    "value": "アマガイタロー(Amagaitaro)"
+  },
+  {
+    "key": "MPID_ILLUST_エスト",
+    "value": "みわべさくら(Sakura Miwabe)"
+  },
+  {
+    "key": "MPID_ILLUST_シャニー",
+    "value": "羽公(HAKO)"
+  },
+  {
+    "key": "MPID_ILLUST_フロリーナ",
+    "value": "ザザ(Zaza)"
+  },
+  {
+    "key": "MPID_ILLUST_ティアモ",
+    "value": "上田夢人(Yumehito Ueda)"
+  },
+  {
+    "key": "MPID_ILLUST_ヒノカ",
+    "value": "HACCAN"
+  },
+  {
+    "key": "MPID_ILLUST_ツバキ",
+    "value": "由良(Yura)"
+  },
+  {
+    "key": "MPID_ILLUST_バーツ",
+    "value": "ワダサチコ(Sachiko Wada)"
+  },
+  {
+    "key": "MPID_ILLUST_バアトル",
+    "value": "岡谷(Okaya)"
+  },
+  {
+    "key": "MPID_ILLUST_レイヴァン",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_ホークアイ",
+    "value": "HACCAN"
+  },
+  {
+    "key": "MPID_ILLUST_ハロルド",
+    "value": "メンダコ(Mendako) / INTELLIGENT SYSTEMS"
+  },
+  {
+    "key": "MPID_ILLUST_アンナ",
+    "value": "コザキユースケ(Yusuke Kozaki)"
+  },
+  {
+    "key": "MPID_ILLUST_シーマ",
+    "value": "まよ(Mayo)"
+  },
+  {
+    "key": "MPID_ILLUST_ヘクトル",
+    "value": "AKIRA"
+  },
+  {
+    "key": "MPID_ILLUST_フレデリク",
+    "value": "スエカネクミコ(Kumiko Suekane)"
+  },
+  {
+    "key": "MPID_ILLUST_ギュンター",
+    "value": "山田章博(Akihiro Yamada)"
+  },
+  {
+    "key": "MPID_ILLUST_ミネルバ",
+    "value": "Daisuke Izuka"
+  },
+  {
+    "key": "MPID_ILLUST_ミシェイル",
+    "value": "Daisuke Izuka"
+  },
+  {
+    "key": "MPID_ILLUST_ナーシェン",
+    "value": "山田孝太郎(Kotaro Yamada)"
+  },
+  {
+    "key": "MPID_ILLUST_セルジュ",
+    "value": "ワダサチコ(Sachiko Wada)"
+  },
+  {
+    "key": "MPID_ILLUST_カミラ",
+    "value": "前嶋重機(Shigeki Maeshima)"
+  },
+  {
+    "key": "MPID_ILLUST_ベルカ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_ゴードン",
+    "value": "板垣ハコ(Hako Itagaki)"
+  },
+  {
+    "key": "MPID_ILLUST_ジョルジュ",
+    "value": "まよ(Mayo)"
+  },
+  {
+    "key": "MPID_ILLUST_ヴィオール",
+    "value": "ワダサチコ(Sachiko Wada)"
+  },
+  {
+    "key": "MPID_ILLUST_タクミ",
+    "value": "日野慎之助(Shinnosuke Hino)"
+  },
+  {
+    "key": "MPID_ILLUST_セツナ",
+    "value": "久杉トク(Toku Kusugi)"
+  },
+  {
+    "key": "MPID_ILLUST_ゼロ",
+    "value": "由良(Yura)"
+  },
+  {
+    "key": "MPID_ILLUST_マシュー",
+    "value": "岡谷(Okaya)"
+  },
+  {
+    "key": "MPID_ILLUST_ガイア",
+    "value": "一色箱(Hako Ichiiro)"
+  },
+  {
+    "key": "MPID_ILLUST_フェリシア",
+    "value": "羽公(HAKO)"
+  },
+  {
+    "key": "MPID_ILLUST_ジョーカー",
+    "value": "藤坂公彦(Kimihiko Fujisaka)"
+  },
+  {
+    "key": "MPID_ILLUST_サイゾウ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_カゲロウ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_リリーナ",
+    "value": "BUNBUN"
+  },
+  {
+    "key": "MPID_ILLUST_レイ",
+    "value": "日向悠二(Yuji Himukai)"
+  },
+  {
+    "key": "MPID_ILLUST_ソフィーヤ",
+    "value": "ザザ(Zaza)"
+  },
+  {
+    "key": "MPID_ILLUST_サーリャ",
+    "value": "ZIS"
+  },
+  {
+    "key": "MPID_ILLUST_ヘンリー",
+    "value": "久杉トク(Toku Kusugi)"
+  },
+  {
+    "key": "MPID_ILLUST_レオン",
+    "value": "日野慎之助(Shinnosuke Hino)"
+  },
+  {
+    "key": "MPID_ILLUST_リンダ",
+    "value": "切符(Kippu)"
+  },
+  {
+    "key": "MPID_ILLUST_ルフレ男",
+    "value": "冨士原良(Ryo Fujiwara)"
+  },
+  {
+    "key": "MPID_ILLUST_オーディン",
+    "value": "スエカネクミコ(Kumiko Suekane)"
+  },
+  {
+    "key": "MPID_ILLUST_ウルスラ",
+    "value": "ことぶきつかさ(Tsukasa Kotobuki)"
+  },
+  {
+    "key": "MPID_ILLUST_マリク",
+    "value": "水野加奈(Kana Mizuno)"
+  },
+  {
+    "key": "MPID_ILLUST_ニノ",
+    "value": "アマガイタロー(Amagaitaro)"
+  },
+  {
+    "key": "MPID_ILLUST_ルフレ女",
+    "value": "上田夢人(Yumehito Ueda)"
+  },
+  {
+    "key": "MPID_ILLUST_セシリア",
+    "value": "北千里(Senri Kita)"
+  },
+  {
+    "key": "MPID_ILLUST_リフ",
+    "value": "pikomaro"
+  },
+  {
+    "key": "MPID_ILLUST_マリア",
+    "value": "kaya8"
+  },
+  {
+    "key": "MPID_ILLUST_セーラ",
+    "value": "久杉トク(Toku Kusugi)"
+  },
+  {
+    "key": "MPID_ILLUST_リズ",
+    "value": "ザザ(Zaza)"
+  },
+  {
+    "key": "MPID_ILLUST_サクラ",
+    "value": "藤ちょこ(Fuzichoco)"
+  },
+  {
+    "key": "MPID_ILLUST_アサマ",
+    "value": "岡谷(Okaya)"
+  },
+  {
+    "key": "MPID_ILLUST_クラリーネ",
+    "value": "アマガイタロー(Amagaitaro)"
+  },
+  {
+    "key": "MPID_ILLUST_エリーゼ",
+    "value": "羽公(HAKO)"
+  },
+  {
+    "key": "MPID_ILLUST_チキ",
+    "value": "いとうのいぢ(Noizi Ito)"
+  },
+  {
+    "key": "MPID_ILLUST_チキ覚醒",
+    "value": "いとうのいぢ(Noizi Ito)"
+  },
+  {
+    "key": "MPID_ILLUST_ノノ",
+    "value": "lack"
+  },
+  {
+    "key": "MPID_ILLUST_カムイ女",
+    "value": "bthx"
+  },
+  {
+    "key": "MPID_ILLUST_ファ",
+    "value": "日向悠二(Yuji Himukai)"
+  },
+  {
+    "key": "MSID_NONE",
+    "value": "－"
+  },
+  {
+    "key": "MSID_SEARCH_NONE",
+    "value": "－"
+  },
+  {
+    "key": "MSID_H_NONE",
+    "value": "無"
+  },
+  {
+    "key": "MSID_鉄の剣",
+    "value": "鐵劍"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の剣",
+    "value": "鐵劍"
+  },
+  {
+    "key": "MSID_鋼の剣",
+    "value": "鋼劍"
+  },
+  {
+    "key": "MSID_SEARCH_鋼の剣",
+    "value": "鋼劍"
+  },
+  {
+    "key": "MSID_銀の剣",
+    "value": "銀劍"
+  },
+  {
+    "key": "MSID_SEARCH_銀の剣",
+    "value": "銀劍"
+  },
+  {
+    "key": "MSID_銀の剣＋",
+    "value": "銀劍＋"
+  },
+  {
+    "key": "MSID_SEARCH_銀の剣＋",
+    "value": "銀劍+"
+  },
+  {
+    "key": "MSID_勇者の剣",
+    "value": "勇者之劍"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の剣",
+    "value": "勇者之劍"
+  },
+  {
+    "key": "MSID_勇者の剣＋",
+    "value": "勇者之劍＋"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の剣＋",
+    "value": "勇者之劍+"
+  },
+  {
+    "key": "MSID_キルソード",
+    "value": "必殺劍"
+  },
+  {
+    "key": "MSID_SEARCH_キルソード",
+    "value": "必殺劍"
+  },
+  {
+    "key": "MSID_キルソード＋",
+    "value": "必殺劍＋"
+  },
+  {
+    "key": "MSID_SEARCH_キルソード＋",
+    "value": "必殺劍+"
+  },
+  {
+    "key": "MSID_アーマーキラー",
+    "value": "破甲劍"
+  },
+  {
+    "key": "MSID_SEARCH_アーマーキラー",
+    "value": "破甲劍"
+  },
+  {
+    "key": "MSID_アーマーキラー＋",
+    "value": "破甲劍＋"
+  },
+  {
+    "key": "MSID_SEARCH_アーマーキラー＋",
+    "value": "破甲劍+"
+  },
+  {
+    "key": "MSID_旭日の剣",
+    "value": "旭日之劍"
+  },
+  {
+    "key": "MSID_SEARCH_旭日の剣",
+    "value": "旭日之劍"
+  },
+  {
+    "key": "MSID_旭日の剣＋",
+    "value": "旭日之劍＋"
+  },
+  {
+    "key": "MSID_SEARCH_旭日の剣＋",
+    "value": "旭日之劍+"
+  },
+  {
+    "key": "MSID_ファルシオン",
+    "value": "法爾西昂"
+  },
+  {
+    "key": "MSID_SEARCH_ファルシオン",
+    "value": "法爾西昂"
+  },
+  {
+    "key": "MSID_ファルシオン覚醒",
+    "value": "法爾西昂"
+  },
+  {
+    "key": "MSID_SEARCH_ファルシオン覚醒",
+    "value": "法爾西昂"
+  },
+  {
+    "key": "MSID_封印の剣",
+    "value": "封印之劍"
+  },
+  {
+    "key": "MSID_SEARCH_封印の剣",
+    "value": "封印之劍"
+  },
+  {
+    "key": "MSID_エッケザックス",
+    "value": "艾坎札克斯"
+  },
+  {
+    "key": "MSID_SEARCH_エッケザックス",
+    "value": "艾坎札克斯"
+  },
+  {
+    "key": "MSID_デュランダル",
+    "value": "迪朗達爾"
+  },
+  {
+    "key": "MSID_SEARCH_デュランダル",
+    "value": "迪朗達爾"
+  },
+  {
+    "key": "MSID_ソールカティ",
+    "value": "索爾・卡提"
+  },
+  {
+    "key": "MSID_SEARCH_ソールカティ",
+    "value": "索爾･卡提"
+  },
+  {
+    "key": "MSID_夜刀神",
+    "value": "夜刀神"
+  },
+  {
+    "key": "MSID_SEARCH_夜刀神",
+    "value": "夜刀神"
+  },
+  {
+    "key": "MSID_雷神刀",
+    "value": "雷神刀"
+  },
+  {
+    "key": "MSID_SEARCH_雷神刀",
+    "value": "雷神刀"
+  },
+  {
+    "key": "MSID_ジークフリート",
+    "value": "西格弗里德"
+  },
+  {
+    "key": "MSID_SEARCH_ジークフリート",
+    "value": "西格弗里德"
+  },
+  {
+    "key": "MSID_フォルクヴァング",
+    "value": "弗爾克范格"
+  },
+  {
+    "key": "MSID_SEARCH_フォルクヴァング",
+    "value": "弗爾克范格"
+  },
+  {
+    "key": "MSID_鉄の槍",
+    "value": "鐵槍"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の槍",
+    "value": "鐵槍"
+  },
+  {
+    "key": "MSID_鋼の槍",
+    "value": "鋼槍"
+  },
+  {
+    "key": "MSID_SEARCH_鋼の槍",
+    "value": "鋼槍"
+  },
+  {
+    "key": "MSID_銀の槍",
+    "value": "銀槍"
+  },
+  {
+    "key": "MSID_SEARCH_銀の槍",
+    "value": "銀槍"
+  },
+  {
+    "key": "MSID_銀の槍＋",
+    "value": "銀槍＋"
+  },
+  {
+    "key": "MSID_SEARCH_銀の槍＋",
+    "value": "銀槍+"
+  },
+  {
+    "key": "MSID_勇者の槍",
+    "value": "勇者之槍"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の槍",
+    "value": "勇者之槍"
+  },
+  {
+    "key": "MSID_勇者の槍＋",
+    "value": "勇者之槍＋"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の槍＋",
+    "value": "勇者之槍+"
+  },
+  {
+    "key": "MSID_キラーランス",
+    "value": "必殺槍"
+  },
+  {
+    "key": "MSID_SEARCH_キラーランス",
+    "value": "必殺槍"
+  },
+  {
+    "key": "MSID_キラーランス＋",
+    "value": "必殺槍＋"
+  },
+  {
+    "key": "MSID_SEARCH_キラーランス＋",
+    "value": "必殺槍+"
+  },
+  {
+    "key": "MSID_貫きの槍",
+    "value": "貫穿之槍"
+  },
+  {
+    "key": "MSID_SEARCH_貫きの槍",
+    "value": "貫穿之槍"
+  },
+  {
+    "key": "MSID_貫きの槍＋",
+    "value": "貫穿之槍＋"
+  },
+  {
+    "key": "MSID_SEARCH_貫きの槍＋",
+    "value": "貫穿之槍+"
+  },
+  {
+    "key": "MSID_蒼海の槍",
+    "value": "蒼海之槍"
+  },
+  {
+    "key": "MSID_SEARCH_蒼海の槍",
+    "value": "蒼海之槍"
+  },
+  {
+    "key": "MSID_蒼海の槍＋",
+    "value": "蒼海之槍＋"
+  },
+  {
+    "key": "MSID_SEARCH_蒼海の槍＋",
+    "value": "蒼海之槍+"
+  },
+  {
+    "key": "MSID_グラディウス",
+    "value": "古拉迪烏斯"
+  },
+  {
+    "key": "MSID_SEARCH_グラディウス",
+    "value": "古拉迪烏斯"
+  },
+  {
+    "key": "MSID_フェンサリル",
+    "value": "芬薩里爾"
+  },
+  {
+    "key": "MSID_SEARCH_フェンサリル",
+    "value": "芬薩里爾"
+  },
+  {
+    "key": "MSID_鉄の斧",
+    "value": "鐵斧"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の斧",
+    "value": "鐵斧"
+  },
+  {
+    "key": "MSID_鋼の斧",
+    "value": "鋼斧"
+  },
+  {
+    "key": "MSID_SEARCH_鋼の斧",
+    "value": "鋼斧"
+  },
+  {
+    "key": "MSID_銀の斧",
+    "value": "銀斧"
+  },
+  {
+    "key": "MSID_SEARCH_銀の斧",
+    "value": "銀斧"
+  },
+  {
+    "key": "MSID_銀の斧＋",
+    "value": "銀斧＋"
+  },
+  {
+    "key": "MSID_SEARCH_銀の斧＋",
+    "value": "銀斧+"
+  },
+  {
+    "key": "MSID_勇者の斧",
+    "value": "勇者之斧"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の斧",
+    "value": "勇者之斧"
+  },
+  {
+    "key": "MSID_勇者の斧＋",
+    "value": "勇者之斧＋"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の斧＋",
+    "value": "勇者之斧+"
+  },
+  {
+    "key": "MSID_キラーアクス",
+    "value": "必殺斧"
+  },
+  {
+    "key": "MSID_SEARCH_キラーアクス",
+    "value": "必殺斧"
+  },
+  {
+    "key": "MSID_キラーアクス＋",
+    "value": "必殺斧＋"
+  },
+  {
+    "key": "MSID_SEARCH_キラーアクス＋",
+    "value": "必殺斧+"
+  },
+  {
+    "key": "MSID_ハンマー",
+    "value": "戰錘"
+  },
+  {
+    "key": "MSID_SEARCH_ハンマー",
+    "value": "戰錘"
+  },
+  {
+    "key": "MSID_ハンマー＋",
+    "value": "戰錘＋"
+  },
+  {
+    "key": "MSID_SEARCH_ハンマー＋",
+    "value": "戰錘+"
+  },
+  {
+    "key": "MSID_深緑の斧",
+    "value": "深綠之斧"
+  },
+  {
+    "key": "MSID_SEARCH_深緑の斧",
+    "value": "深綠之斧"
+  },
+  {
+    "key": "MSID_深緑の斧＋",
+    "value": "深綠之斧＋"
+  },
+  {
+    "key": "MSID_SEARCH_深緑の斧＋",
+    "value": "深綠之斧+"
+  },
+  {
+    "key": "MSID_オートクレール",
+    "value": "奧特克雷勒"
+  },
+  {
+    "key": "MSID_SEARCH_オートクレール",
+    "value": "奧特克雷勒"
+  },
+  {
+    "key": "MSID_アルマーズ",
+    "value": "阿爾瑪茲"
+  },
+  {
+    "key": "MSID_SEARCH_アルマーズ",
+    "value": "阿爾瑪茲"
+  },
+  {
+    "key": "MSID_ノーアトゥーン",
+    "value": "諾歐通"
+  },
+  {
+    "key": "MSID_SEARCH_ノーアトゥーン",
+    "value": "諾歐通"
+  },
+  {
+    "key": "MSID_鉄の弓",
+    "value": "鐵弓"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の弓",
+    "value": "鐵弓"
+  },
+  {
+    "key": "MSID_鋼の弓",
+    "value": "鋼弓"
+  },
+  {
+    "key": "MSID_SEARCH_鋼の弓",
+    "value": "鋼弓"
+  },
+  {
+    "key": "MSID_銀の弓",
+    "value": "銀弓"
+  },
+  {
+    "key": "MSID_SEARCH_銀の弓",
+    "value": "銀弓"
+  },
+  {
+    "key": "MSID_銀の弓＋",
+    "value": "銀弓＋"
+  },
+  {
+    "key": "MSID_SEARCH_銀の弓＋",
+    "value": "銀弓+"
+  },
+  {
+    "key": "MSID_勇者の弓",
+    "value": "勇者之弓"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の弓",
+    "value": "勇者之弓"
+  },
+  {
+    "key": "MSID_勇者の弓＋",
+    "value": "勇者之弓＋"
+  },
+  {
+    "key": "MSID_SEARCH_勇者の弓＋",
+    "value": "勇者之弓+"
+  },
+  {
+    "key": "MSID_キラーボウ",
+    "value": "必殺弓"
+  },
+  {
+    "key": "MSID_SEARCH_キラーボウ",
+    "value": "必殺弓"
+  },
+  {
+    "key": "MSID_キラーボウ＋",
+    "value": "必殺弓＋"
+  },
+  {
+    "key": "MSID_SEARCH_キラーボウ＋",
+    "value": "必殺弓+"
+  },
+  {
+    "key": "MSID_暗器殺しの弓",
+    "value": "破暗器之弓"
+  },
+  {
+    "key": "MSID_SEARCH_暗器殺しの弓",
+    "value": "破暗器之弓"
+  },
+  {
+    "key": "MSID_暗器殺しの弓＋",
+    "value": "破暗器之弓＋"
+  },
+  {
+    "key": "MSID_SEARCH_暗器殺しの弓＋",
+    "value": "破暗器之弓+"
+  },
+  {
+    "key": "MSID_パルティア",
+    "value": "帕提亞"
+  },
+  {
+    "key": "MSID_SEARCH_パルティア",
+    "value": "帕提亞"
+  },
+  {
+    "key": "MSID_風神弓",
+    "value": "風神弓"
+  },
+  {
+    "key": "MSID_SEARCH_風神弓",
+    "value": "風神弓"
+  },
+  {
+    "key": "MSID_鉄の暗器",
+    "value": "鐵暗器"
+  },
+  {
+    "key": "MSID_SEARCH_鉄の暗器",
+    "value": "鐵暗器"
+  },
+  {
+    "key": "MSID_鋼の暗器",
+    "value": "鋼暗器"
+  },
+  {
+    "key": "MSID_SEARCH_鋼の暗器",
+    "value": "鋼暗器"
+  },
+  {
+    "key": "MSID_銀の暗器",
+    "value": "銀暗器"
+  },
+  {
+    "key": "MSID_SEARCH_銀の暗器",
+    "value": "銀暗器"
+  },
+  {
+    "key": "MSID_銀の暗器＋",
+    "value": "銀暗器＋"
+  },
+  {
+    "key": "MSID_SEARCH_銀の暗器＋",
+    "value": "銀暗器+"
+  },
+  {
+    "key": "MSID_紫煙の暗器",
+    "value": "紫煙暗器"
+  },
+  {
+    "key": "MSID_SEARCH_紫煙の暗器",
+    "value": "紫煙暗器"
+  },
+  {
+    "key": "MSID_紫煙の暗器＋",
+    "value": "紫煙暗器＋"
+  },
+  {
+    "key": "MSID_SEARCH_紫煙の暗器＋",
+    "value": "紫煙暗器+"
+  },
+  {
+    "key": "MSID_秘毒の暗器",
+    "value": "秘毒暗器"
+  },
+  {
+    "key": "MSID_SEARCH_秘毒の暗器",
+    "value": "秘毒暗器"
+  },
+  {
+    "key": "MSID_秘毒の暗器＋",
+    "value": "秘毒暗器＋"
+  },
+  {
+    "key": "MSID_SEARCH_秘毒の暗器＋",
+    "value": "秘毒暗器+"
+  },
+  {
+    "key": "MSID_盗賊の暗器",
+    "value": "盜賊暗器"
+  },
+  {
+    "key": "MSID_SEARCH_盗賊の暗器",
+    "value": "盜賊暗器"
+  },
+  {
+    "key": "MSID_盗賊の暗器＋",
+    "value": "盜賊暗器＋"
+  },
+  {
+    "key": "MSID_SEARCH_盗賊の暗器＋",
+    "value": "盜賊暗器+"
+  },
+  {
+    "key": "MSID_ファイアー",
+    "value": "火焰"
+  },
+  {
+    "key": "MSID_SEARCH_ファイアー",
+    "value": "火焰"
+  },
+  {
+    "key": "MSID_エルファイアー",
+    "value": "狂焰"
+  },
+  {
+    "key": "MSID_SEARCH_エルファイアー",
+    "value": "狂焰"
+  },
+  {
+    "key": "MSID_ボルガノン",
+    "value": "火山爆焰"
+  },
+  {
+    "key": "MSID_SEARCH_ボルガノン",
+    "value": "火山爆焰"
+  },
+  {
+    "key": "MSID_ボルガノン＋",
+    "value": "火山爆焰＋"
+  },
+  {
+    "key": "MSID_SEARCH_ボルガノン＋",
+    "value": "火山爆焰+"
+  },
+  {
+    "key": "MSID_ミィル",
+    "value": "流動"
+  },
+  {
+    "key": "MSID_SEARCH_ミィル",
+    "value": "流動"
+  },
+  {
+    "key": "MSID_ルイン",
+    "value": "破滅"
+  },
+  {
+    "key": "MSID_SEARCH_ルイン",
+    "value": "破滅"
+  },
+  {
+    "key": "MSID_ノスフェラート",
+    "value": "地獄之炎"
+  },
+  {
+    "key": "MSID_SEARCH_ノスフェラート",
+    "value": "地獄之炎"
+  },
+  {
+    "key": "MSID_ノスフェラート＋",
+    "value": "地獄之炎＋"
+  },
+  {
+    "key": "MSID_SEARCH_ノスフェラート＋",
+    "value": "地獄之炎+"
+  },
+  {
+    "key": "MSID_スレッダラウア",
+    "value": "赤紅之刃"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダラウア",
+    "value": "赤紅之刃"
+  },
+  {
+    "key": "MSID_スレッダラウア＋",
+    "value": "赤紅之刃＋"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダラウア＋",
+    "value": "赤紅之刃+"
+  },
+  {
+    "key": "MSID_ウルファラウア",
+    "value": "赤紅餓狼"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファラウア",
+    "value": "赤紅餓狼"
+  },
+  {
+    "key": "MSID_ウルファラウア＋",
+    "value": "赤紅餓狼＋"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファラウア＋",
+    "value": "赤紅餓狼+"
+  },
+  {
+    "key": "MSID_ナートラウア",
+    "value": "赤紅渡鴉"
+  },
+  {
+    "key": "MSID_SEARCH_ナートラウア",
+    "value": "赤紅渡鴉"
+  },
+  {
+    "key": "MSID_ナートラウア＋",
+    "value": "赤紅渡鴉＋"
+  },
+  {
+    "key": "MSID_SEARCH_ナートラウア＋",
+    "value": "赤紅渡鴉+"
+  },
+  {
+    "key": "MSID_ブリュンヒルデ",
+    "value": "布倫希爾德"
+  },
+  {
+    "key": "MSID_SEARCH_ブリュンヒルデ",
+    "value": "布倫希爾德"
+  },
+  {
+    "key": "MSID_エリヴァーガル",
+    "value": "冰之波"
+  },
+  {
+    "key": "MSID_SEARCH_エリヴァーガル",
+    "value": "冰之波"
+  },
+  {
+    "key": "MSID_サンダー",
+    "value": "雷電"
+  },
+  {
+    "key": "MSID_SEARCH_サンダー",
+    "value": "雷電"
+  },
+  {
+    "key": "MSID_エルサンダー",
+    "value": "狂雷"
+  },
+  {
+    "key": "MSID_SEARCH_エルサンダー",
+    "value": "狂雷"
+  },
+  {
+    "key": "MSID_トロン",
+    "value": "托隆"
+  },
+  {
+    "key": "MSID_SEARCH_トロン",
+    "value": "托隆"
+  },
+  {
+    "key": "MSID_トロン＋",
+    "value": "托隆＋"
+  },
+  {
+    "key": "MSID_SEARCH_トロン＋",
+    "value": "托隆+"
+  },
+  {
+    "key": "MSID_スレッダブラー",
+    "value": "蒼藍之刃"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダブラー",
+    "value": "蒼藍之刃"
+  },
+  {
+    "key": "MSID_スレッダブラー＋",
+    "value": "蒼藍之刃＋"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダブラー＋",
+    "value": "蒼藍之刃+"
+  },
+  {
+    "key": "MSID_ウルファブラー",
+    "value": "蒼藍餓狼"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファブラー",
+    "value": "蒼藍餓狼"
+  },
+  {
+    "key": "MSID_ウルファブラー＋",
+    "value": "蒼藍餓狼＋"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファブラー＋",
+    "value": "蒼藍餓狼+"
+  },
+  {
+    "key": "MSID_ナートブラー",
+    "value": "蒼藍渡鴉"
+  },
+  {
+    "key": "MSID_SEARCH_ナートブラー",
+    "value": "蒼藍渡鴉"
+  },
+  {
+    "key": "MSID_ナートブラー＋",
+    "value": "蒼藍渡鴉＋"
+  },
+  {
+    "key": "MSID_SEARCH_ナートブラー＋",
+    "value": "蒼藍渡鴉+"
+  },
+  {
+    "key": "MSID_オーラ",
+    "value": "輝光"
+  },
+  {
+    "key": "MSID_SEARCH_オーラ",
+    "value": "輝光"
+  },
+  {
+    "key": "MSID_ヴラスキャルヴ",
+    "value": "瓦拉斯卡夫"
+  },
+  {
+    "key": "MSID_SEARCH_ヴラスキャルヴ",
+    "value": "瓦拉斯卡夫"
+  },
+  {
+    "key": "MSID_ウインド",
+    "value": "烈風"
+  },
+  {
+    "key": "MSID_SEARCH_ウインド",
+    "value": "烈風"
+  },
+  {
+    "key": "MSID_エルウインド",
+    "value": "狂風"
+  },
+  {
+    "key": "MSID_SEARCH_エルウインド",
+    "value": "狂風"
+  },
+  {
+    "key": "MSID_レクスカリバー",
+    "value": "列克斯卡利伯"
+  },
+  {
+    "key": "MSID_SEARCH_レクスカリバー",
+    "value": "列克斯卡利伯"
+  },
+  {
+    "key": "MSID_レクスカリバー＋",
+    "value": "列克斯卡利伯＋"
+  },
+  {
+    "key": "MSID_SEARCH_レクスカリバー＋",
+    "value": "列克斯卡利伯+"
+  },
+  {
+    "key": "MSID_スレッダグラン",
+    "value": "翠綠之刃"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダグラン",
+    "value": "翠綠之刃"
+  },
+  {
+    "key": "MSID_スレッダグラン＋",
+    "value": "翠綠之刃＋"
+  },
+  {
+    "key": "MSID_SEARCH_スレッダグラン＋",
+    "value": "翠綠之刃+"
+  },
+  {
+    "key": "MSID_ウルファグラン",
+    "value": "翠綠餓狼"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファグラン",
+    "value": "翠綠餓狼"
+  },
+  {
+    "key": "MSID_ウルファグラン＋",
+    "value": "翠綠餓狼＋"
+  },
+  {
+    "key": "MSID_SEARCH_ウルファグラン＋",
+    "value": "翠綠餓狼+"
+  },
+  {
+    "key": "MSID_ナートグラン",
+    "value": "翠綠渡鴉"
+  },
+  {
+    "key": "MSID_SEARCH_ナートグラン",
+    "value": "翠綠渡鴉"
+  },
+  {
+    "key": "MSID_ナートグラン＋",
+    "value": "翠綠渡鴉＋"
+  },
+  {
+    "key": "MSID_SEARCH_ナートグラン＋",
+    "value": "翠綠渡鴉+"
+  },
+  {
+    "key": "MSID_エクスカリバー",
+    "value": "埃克斯卡利伯"
+  },
+  {
+    "key": "MSID_SEARCH_エクスカリバー",
+    "value": "埃克斯卡利伯"
+  },
+  {
+    "key": "MSID_アサルト",
+    "value": "襲擊"
+  },
+  {
+    "key": "MSID_SEARCH_アサルト",
+    "value": "襲擊"
+  },
+  {
+    "key": "MSID_アブゾーブ",
+    "value": "吸收"
+  },
+  {
+    "key": "MSID_SEARCH_アブゾーブ",
+    "value": "吸收"
+  },
+  {
+    "key": "MSID_フィアー",
+    "value": "恐懼"
+  },
+  {
+    "key": "MSID_SEARCH_フィアー",
+    "value": "恐懼"
+  },
+  {
+    "key": "MSID_スロウ",
+    "value": "緩速"
+  },
+  {
+    "key": "MSID_SEARCH_スロウ",
+    "value": "緩速"
+  },
+  {
+    "key": "MSID_グラビティ",
+    "value": "重壓"
+  },
+  {
+    "key": "MSID_SEARCH_グラビティ",
+    "value": "重壓"
+  },
+  {
+    "key": "MSID_ペイン",
+    "value": "疼痛"
+  },
+  {
+    "key": "MSID_SEARCH_ペイン",
+    "value": "疼痛"
+  },
+  {
+    "key": "MSID_パニック",
+    "value": "慌亂"
+  },
+  {
+    "key": "MSID_SEARCH_パニック",
+    "value": "慌亂"
+  },
+  {
+    "key": "MSID_火のブレス",
+    "value": "火之吐息"
+  },
+  {
+    "key": "MSID_SEARCH_火のブレス",
+    "value": "火之吐息"
+  },
+  {
+    "key": "MSID_火炎のブレス",
+    "value": "火焰吐息"
+  },
+  {
+    "key": "MSID_SEARCH_火炎のブレス",
+    "value": "火焰吐息"
+  },
+  {
+    "key": "MSID_灼熱のブレス",
+    "value": "灼熱吐息"
+  },
+  {
+    "key": "MSID_SEARCH_灼熱のブレス",
+    "value": "灼熱吐息"
+  },
+  {
+    "key": "MSID_灼熱のブレス＋",
+    "value": "灼熱吐息＋"
+  },
+  {
+    "key": "MSID_SEARCH_灼熱のブレス＋",
+    "value": "灼熱吐息+"
+  },
+  {
+    "key": "MSID_光のブレス",
+    "value": "光之吐息"
+  },
+  {
+    "key": "MSID_SEARCH_光のブレス",
+    "value": "光之吐息"
+  },
+  {
+    "key": "MSID_光のブレス＋",
+    "value": "光之吐息＋"
+  },
+  {
+    "key": "MSID_SEARCH_光のブレス＋",
+    "value": "光之吐息+"
+  },
+  {
+    "key": "MSID_闇のブレス",
+    "value": "暗之吐息"
+  },
+  {
+    "key": "MSID_SEARCH_闇のブレス",
+    "value": "暗之吐息"
+  },
+  {
+    "key": "MSID_闇のブレス＋",
+    "value": "暗之吐息＋"
+  },
+  {
+    "key": "MSID_SEARCH_闇のブレス＋",
+    "value": "暗之吐息+"
+  },
+  {
+    "key": "MSID_雷のブレス",
+    "value": "雷之吐息"
+  },
+  {
+    "key": "MSID_SEARCH_雷のブレス",
+    "value": "雷之吐息"
+  },
+  {
+    "key": "MSID_雷のブレス＋",
+    "value": "雷之吐息＋"
+  },
+  {
+    "key": "MSID_SEARCH_雷のブレス＋",
+    "value": "雷之吐息+"
+  },
+  {
+    "key": "MSID_ライブ",
+    "value": "聖療"
+  },
+  {
+    "key": "MSID_SEARCH_ライブ",
+    "value": "聖療"
+  },
+  {
+    "key": "MSID_リライブ",
+    "value": "大聖療"
+  },
+  {
+    "key": "MSID_SEARCH_リライブ",
+    "value": "大聖療"
+  },
+  {
+    "key": "MSID_リブロー",
+    "value": "遠程聖療"
+  },
+  {
+    "key": "MSID_SEARCH_リブロー",
+    "value": "遠程聖療"
+  },
+  {
+    "key": "MSID_リカバー",
+    "value": "聖癒"
+  },
+  {
+    "key": "MSID_SEARCH_リカバー",
+    "value": "聖癒"
+  },
+  {
+    "key": "MSID_ヒール",
+    "value": "治療"
+  },
+  {
+    "key": "MSID_SEARCH_ヒール",
+    "value": "治療"
+  },
+  {
+    "key": "MSID_セインツ",
+    "value": "殉教"
+  },
+  {
+    "key": "MSID_SEARCH_セインツ",
+    "value": "殉教"
+  },
+  {
+    "key": "MSID_リバース",
+    "value": "重生"
+  },
+  {
+    "key": "MSID_SEARCH_リバース",
+    "value": "重生"
+  },
+  {
+    "key": "MSID_入れ替え",
+    "value": "替換"
+  },
+  {
+    "key": "MSID_SEARCH_入れ替え",
+    "value": "替換"
+  },
+  {
+    "key": "MSID_体当たり",
+    "value": "衝撞"
+  },
+  {
+    "key": "MSID_SEARCH_体当たり",
+    "value": "衝撞"
+  },
+  {
+    "key": "MSID_ぶちかまし",
+    "value": "重擊"
+  },
+  {
+    "key": "MSID_SEARCH_ぶちかまし",
+    "value": "重擊"
+  },
+  {
+    "key": "MSID_引き寄せ",
+    "value": "拉近"
+  },
+  {
+    "key": "MSID_SEARCH_引き寄せ",
+    "value": "拉近"
+  },
+  {
+    "key": "MSID_引き戻し",
+    "value": "帶回"
+  },
+  {
+    "key": "MSID_SEARCH_引き戻し",
+    "value": "帶回"
+  },
+  {
+    "key": "MSID_回り込み",
+    "value": "迂迴"
+  },
+  {
+    "key": "MSID_SEARCH_回り込み",
+    "value": "迂迴"
+  },
+  {
+    "key": "MSID_攻撃の応援",
+    "value": "攻擊支援"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の応援",
+    "value": "攻擊支援"
+  },
+  {
+    "key": "MSID_速さの応援",
+    "value": "速度支援"
+  },
+  {
+    "key": "MSID_SEARCH_速さの応援",
+    "value": "速度支援"
+  },
+  {
+    "key": "MSID_守備の応援",
+    "value": "防守支援"
+  },
+  {
+    "key": "MSID_SEARCH_守備の応援",
+    "value": "防守支援"
+  },
+  {
+    "key": "MSID_魔防の応援",
+    "value": "魔防支援"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の応援",
+    "value": "魔防支援"
+  },
+  {
+    "key": "MSID_献身",
+    "value": "獻身"
+  },
+  {
+    "key": "MSID_SEARCH_献身",
+    "value": "獻身"
+  },
+  {
+    "key": "MSID_一喝",
+    "value": "大喝"
+  },
+  {
+    "key": "MSID_SEARCH_一喝",
+    "value": "大喝"
+  },
+  {
+    "key": "MSID_相互援助",
+    "value": "相互援助"
+  },
+  {
+    "key": "MSID_SEARCH_相互援助",
+    "value": "相互援助"
+  },
+  {
+    "key": "MSID_歌う",
+    "value": "歌唱"
+  },
+  {
+    "key": "MSID_SEARCH_歌う",
+    "value": "歌唱"
+  },
+  {
+    "key": "MSID_踊る",
+    "value": "起舞"
+  },
+  {
+    "key": "MSID_SEARCH_踊る",
+    "value": "起舞"
+  },
+  {
+    "key": "MSID_天空",
+    "value": "天空"
+  },
+  {
+    "key": "MSID_SEARCH_天空",
+    "value": "天空"
+  },
+  {
+    "key": "MSID_星影",
+    "value": "星影"
+  },
+  {
+    "key": "MSID_SEARCH_星影",
+    "value": "星影"
+  },
+  {
+    "key": "MSID_凶星",
+    "value": "凶星"
+  },
+  {
+    "key": "MSID_SEARCH_凶星",
+    "value": "凶星"
+  },
+  {
+    "key": "MSID_流星",
+    "value": "流星"
+  },
+  {
+    "key": "MSID_SEARCH_流星",
+    "value": "流星"
+  },
+  {
+    "key": "MSID_陽影",
+    "value": "黎明"
+  },
+  {
+    "key": "MSID_SEARCH_陽影",
+    "value": "黎明"
+  },
+  {
+    "key": "MSID_夕陽",
+    "value": "夕陽"
+  },
+  {
+    "key": "MSID_SEARCH_夕陽",
+    "value": "夕陽"
+  },
+  {
+    "key": "MSID_太陽",
+    "value": "太陽"
+  },
+  {
+    "key": "MSID_SEARCH_太陽",
+    "value": "太陽"
+  },
+  {
+    "key": "MSID_影月",
+    "value": "新月"
+  },
+  {
+    "key": "MSID_SEARCH_影月",
+    "value": "新月"
+  },
+  {
+    "key": "MSID_月虹",
+    "value": "月虹"
+  },
+  {
+    "key": "MSID_SEARCH_月虹",
+    "value": "月虹"
+  },
+  {
+    "key": "MSID_月光",
+    "value": "月光"
+  },
+  {
+    "key": "MSID_SEARCH_月光",
+    "value": "月光"
+  },
+  {
+    "key": "MSID_雪辱",
+    "value": "雪辱"
+  },
+  {
+    "key": "MSID_SEARCH_雪辱",
+    "value": "雪辱"
+  },
+  {
+    "key": "MSID_血讐",
+    "value": "血仇"
+  },
+  {
+    "key": "MSID_SEARCH_血讐",
+    "value": "血仇"
+  },
+  {
+    "key": "MSID_復讐",
+    "value": "復仇"
+  },
+  {
+    "key": "MSID_SEARCH_復讐",
+    "value": "復仇"
+  },
+  {
+    "key": "MSID_伏竜",
+    "value": "臥龍"
+  },
+  {
+    "key": "MSID_SEARCH_伏竜",
+    "value": "臥龍"
+  },
+  {
+    "key": "MSID_竜裂",
+    "value": "龍裂"
+  },
+  {
+    "key": "MSID_SEARCH_竜裂",
+    "value": "龍裂"
+  },
+  {
+    "key": "MSID_竜穿",
+    "value": "龍穿"
+  },
+  {
+    "key": "MSID_SEARCH_竜穿",
+    "value": "龍穿"
+  },
+  {
+    "key": "MSID_蛍火",
+    "value": "螢火"
+  },
+  {
+    "key": "MSID_SEARCH_蛍火",
+    "value": "螢火"
+  },
+  {
+    "key": "MSID_緋炎",
+    "value": "緋炎"
+  },
+  {
+    "key": "MSID_SEARCH_緋炎",
+    "value": "緋炎"
+  },
+  {
+    "key": "MSID_華炎",
+    "value": "華炎"
+  },
+  {
+    "key": "MSID_SEARCH_華炎",
+    "value": "華炎"
+  },
+  {
+    "key": "MSID_氷点",
+    "value": "冰點"
+  },
+  {
+    "key": "MSID_SEARCH_氷点",
+    "value": "冰點"
+  },
+  {
+    "key": "MSID_氷蒼",
+    "value": "冰蒼"
+  },
+  {
+    "key": "MSID_SEARCH_氷蒼",
+    "value": "冰蒼"
+  },
+  {
+    "key": "MSID_氷華",
+    "value": "冰華"
+  },
+  {
+    "key": "MSID_SEARCH_氷華",
+    "value": "冰華"
+  },
+  {
+    "key": "MSID_砕火",
+    "value": "碎火"
+  },
+  {
+    "key": "MSID_SEARCH_砕火",
+    "value": "碎火"
+  },
+  {
+    "key": "MSID_爆火",
+    "value": "爆火"
+  },
+  {
+    "key": "MSID_SEARCH_爆火",
+    "value": "爆火"
+  },
+  {
+    "key": "MSID_烈火",
+    "value": "烈火"
+  },
+  {
+    "key": "MSID_SEARCH_烈火",
+    "value": "烈火"
+  },
+  {
+    "key": "MSID_砕風",
+    "value": "碎風"
+  },
+  {
+    "key": "MSID_SEARCH_砕風",
+    "value": "碎風"
+  },
+  {
+    "key": "MSID_爆風",
+    "value": "爆風"
+  },
+  {
+    "key": "MSID_SEARCH_爆風",
+    "value": "爆風"
+  },
+  {
+    "key": "MSID_烈風",
+    "value": "強風"
+  },
+  {
+    "key": "MSID_SEARCH_烈風",
+    "value": "強風"
+  },
+  {
+    "key": "MSID_砕雷",
+    "value": "碎雷"
+  },
+  {
+    "key": "MSID_SEARCH_砕雷",
+    "value": "碎雷"
+  },
+  {
+    "key": "MSID_爆雷",
+    "value": "爆雷"
+  },
+  {
+    "key": "MSID_SEARCH_爆雷",
+    "value": "爆雷"
+  },
+  {
+    "key": "MSID_烈雷",
+    "value": "烈雷"
+  },
+  {
+    "key": "MSID_SEARCH_烈雷",
+    "value": "烈雷"
+  },
+  {
+    "key": "MSID_砕光",
+    "value": "碎光"
+  },
+  {
+    "key": "MSID_SEARCH_砕光",
+    "value": "碎光"
+  },
+  {
+    "key": "MSID_爆光",
+    "value": "爆光"
+  },
+  {
+    "key": "MSID_SEARCH_爆光",
+    "value": "爆光"
+  },
+  {
+    "key": "MSID_烈光",
+    "value": "烈光"
+  },
+  {
+    "key": "MSID_SEARCH_烈光",
+    "value": "烈光"
+  },
+  {
+    "key": "MSID_小盾",
+    "value": "小盾"
+  },
+  {
+    "key": "MSID_SEARCH_小盾",
+    "value": "小盾"
+  },
+  {
+    "key": "MSID_長盾",
+    "value": "長盾"
+  },
+  {
+    "key": "MSID_SEARCH_長盾",
+    "value": "長盾"
+  },
+  {
+    "key": "MSID_大盾",
+    "value": "大盾"
+  },
+  {
+    "key": "MSID_SEARCH_大盾",
+    "value": "大盾"
+  },
+  {
+    "key": "MSID_聖衣",
+    "value": "聖衣"
+  },
+  {
+    "key": "MSID_SEARCH_聖衣",
+    "value": "聖衣"
+  },
+  {
+    "key": "MSID_聖兜",
+    "value": "聖甲"
+  },
+  {
+    "key": "MSID_SEARCH_聖兜",
+    "value": "聖甲"
+  },
+  {
+    "key": "MSID_聖盾",
+    "value": "聖盾"
+  },
+  {
+    "key": "MSID_SEARCH_聖盾",
+    "value": "聖盾"
+  },
+  {
+    "key": "MSID_祈り",
+    "value": "祈禱"
+  },
+  {
+    "key": "MSID_SEARCH_祈り",
+    "value": "祈禱"
+  },
+  {
+    "key": "MSID_治癒",
+    "value": "治癒"
+  },
+  {
+    "key": "MSID_SEARCH_治癒",
+    "value": "治癒"
+  },
+  {
+    "key": "MSID_天照",
+    "value": "天照"
+  },
+  {
+    "key": "MSID_SEARCH_天照",
+    "value": "天照"
+  },
+  {
+    "key": "MSID_業火の祝福",
+    "value": "業火的祝福"
+  },
+  {
+    "key": "MSID_SEARCH_業火の祝福",
+    "value": "業火的祝福"
+  },
+  {
+    "key": "MSID_疾風の祝福",
+    "value": "疾風的祝福"
+  },
+  {
+    "key": "MSID_SEARCH_疾風の祝福",
+    "value": "疾風的祝福"
+  },
+  {
+    "key": "MSID_大地の祝福",
+    "value": "大地的祝福"
+  },
+  {
+    "key": "MSID_SEARCH_大地の祝福",
+    "value": "大地的祝福"
+  },
+  {
+    "key": "MSID_静水の祝福",
+    "value": "靜水的祝福"
+  },
+  {
+    "key": "MSID_SEARCH_静水の祝福",
+    "value": "靜水的祝福"
+  },
+  {
+    "key": "MSID_疾風迅雷",
+    "value": "疾風迅雷"
+  },
+  {
+    "key": "MSID_SEARCH_疾風迅雷",
+    "value": "疾風迅雷"
+  },
+  {
+    "key": "MSID_HP1",
+    "value": "ＨＰ１"
+  },
+  {
+    "key": "MSID_SEARCH_HP1",
+    "value": "HP1"
+  },
+  {
+    "key": "MSID_HP2",
+    "value": "ＨＰ２"
+  },
+  {
+    "key": "MSID_SEARCH_HP2",
+    "value": "HP2"
+  },
+  {
+    "key": "MSID_HP3",
+    "value": "ＨＰ３"
+  },
+  {
+    "key": "MSID_SEARCH_HP3",
+    "value": "HP3"
+  },
+  {
+    "key": "MSID_攻撃1",
+    "value": "攻擊１"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃1",
+    "value": "攻擊1"
+  },
+  {
+    "key": "MSID_攻撃2",
+    "value": "攻擊２"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃2",
+    "value": "攻擊2"
+  },
+  {
+    "key": "MSID_攻撃3",
+    "value": "攻擊３"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃3",
+    "value": "攻擊3"
+  },
+  {
+    "key": "MSID_速さ1",
+    "value": "速度１"
+  },
+  {
+    "key": "MSID_SEARCH_速さ1",
+    "value": "速度1"
+  },
+  {
+    "key": "MSID_速さ2",
+    "value": "速度２"
+  },
+  {
+    "key": "MSID_SEARCH_速さ2",
+    "value": "速度2"
+  },
+  {
+    "key": "MSID_速さ3",
+    "value": "速度３"
+  },
+  {
+    "key": "MSID_SEARCH_速さ3",
+    "value": "速度3"
+  },
+  {
+    "key": "MSID_守備1",
+    "value": "防守１"
+  },
+  {
+    "key": "MSID_SEARCH_守備1",
+    "value": "防守1"
+  },
+  {
+    "key": "MSID_守備2",
+    "value": "防守２"
+  },
+  {
+    "key": "MSID_SEARCH_守備2",
+    "value": "防守2"
+  },
+  {
+    "key": "MSID_守備3",
+    "value": "防守３"
+  },
+  {
+    "key": "MSID_SEARCH_守備3",
+    "value": "防守3"
+  },
+  {
+    "key": "MSID_魔防1",
+    "value": "魔防１"
+  },
+  {
+    "key": "MSID_SEARCH_魔防1",
+    "value": "魔防1"
+  },
+  {
+    "key": "MSID_魔防2",
+    "value": "魔防２"
+  },
+  {
+    "key": "MSID_SEARCH_魔防2",
+    "value": "魔防2"
+  },
+  {
+    "key": "MSID_魔防3",
+    "value": "魔防３"
+  },
+  {
+    "key": "MSID_SEARCH_魔防3",
+    "value": "魔防3"
+  },
+  {
+    "key": "MSID_獅子奮迅1",
+    "value": "獅子奮迅１"
+  },
+  {
+    "key": "MSID_SEARCH_獅子奮迅1",
+    "value": "獅子奮迅1"
+  },
+  {
+    "key": "MSID_獅子奮迅2",
+    "value": "獅子奮迅２"
+  },
+  {
+    "key": "MSID_SEARCH_獅子奮迅2",
+    "value": "獅子奮迅2"
+  },
+  {
+    "key": "MSID_獅子奮迅3",
+    "value": "獅子奮迅３"
+  },
+  {
+    "key": "MSID_SEARCH_獅子奮迅3",
+    "value": "獅子奮迅3"
+  },
+  {
+    "key": "MSID_死線1",
+    "value": "死線１"
+  },
+  {
+    "key": "MSID_SEARCH_死線1",
+    "value": "死線1"
+  },
+  {
+    "key": "MSID_死線2",
+    "value": "死線２"
+  },
+  {
+    "key": "MSID_SEARCH_死線2",
+    "value": "死線2"
+  },
+  {
+    "key": "MSID_死線3",
+    "value": "死線３"
+  },
+  {
+    "key": "MSID_SEARCH_死線3",
+    "value": "死線3"
+  },
+  {
+    "key": "MSID_鬼神の一撃1",
+    "value": "鬼神一擊１"
+  },
+  {
+    "key": "MSID_SEARCH_鬼神の一撃1",
+    "value": "鬼神一擊1"
+  },
+  {
+    "key": "MSID_鬼神の一撃2",
+    "value": "鬼神一擊２"
+  },
+  {
+    "key": "MSID_SEARCH_鬼神の一撃2",
+    "value": "鬼神一擊2"
+  },
+  {
+    "key": "MSID_鬼神の一撃3",
+    "value": "鬼神一擊３"
+  },
+  {
+    "key": "MSID_SEARCH_鬼神の一撃3",
+    "value": "鬼神一擊3"
+  },
+  {
+    "key": "MSID_飛燕の一撃1",
+    "value": "飛燕一擊１"
+  },
+  {
+    "key": "MSID_SEARCH_飛燕の一撃1",
+    "value": "飛燕一擊1"
+  },
+  {
+    "key": "MSID_飛燕の一撃2",
+    "value": "飛燕一擊２"
+  },
+  {
+    "key": "MSID_SEARCH_飛燕の一撃2",
+    "value": "飛燕一擊2"
+  },
+  {
+    "key": "MSID_飛燕の一撃3",
+    "value": "飛燕一擊３"
+  },
+  {
+    "key": "MSID_SEARCH_飛燕の一撃3",
+    "value": "飛燕一擊3"
+  },
+  {
+    "key": "MSID_金剛の一撃1",
+    "value": "金剛一擊１"
+  },
+  {
+    "key": "MSID_SEARCH_金剛の一撃1",
+    "value": "金剛一擊1"
+  },
+  {
+    "key": "MSID_金剛の一撃2",
+    "value": "金剛一擊２"
+  },
+  {
+    "key": "MSID_SEARCH_金剛の一撃2",
+    "value": "金剛一擊2"
+  },
+  {
+    "key": "MSID_金剛の一撃3",
+    "value": "金剛一擊３"
+  },
+  {
+    "key": "MSID_SEARCH_金剛の一撃3",
+    "value": "金剛一擊3"
+  },
+  {
+    "key": "MSID_明鏡の一撃1",
+    "value": "明鏡一擊１"
+  },
+  {
+    "key": "MSID_SEARCH_明鏡の一撃1",
+    "value": "明鏡一擊1"
+  },
+  {
+    "key": "MSID_明鏡の一撃2",
+    "value": "明鏡一擊２"
+  },
+  {
+    "key": "MSID_SEARCH_明鏡の一撃2",
+    "value": "明鏡一擊2"
+  },
+  {
+    "key": "MSID_明鏡の一撃3",
+    "value": "明鏡一擊３"
+  },
+  {
+    "key": "MSID_SEARCH_明鏡の一撃3",
+    "value": "明鏡一擊3"
+  },
+  {
+    "key": "MSID_攻撃の覚醒1",
+    "value": "攻擊覺醒１"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の覚醒1",
+    "value": "攻擊覺醒1"
+  },
+  {
+    "key": "MSID_攻撃の覚醒2",
+    "value": "攻擊覺醒２"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の覚醒2",
+    "value": "攻擊覺醒2"
+  },
+  {
+    "key": "MSID_攻撃の覚醒3",
+    "value": "攻擊覺醒３"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の覚醒3",
+    "value": "攻擊覺醒3"
+  },
+  {
+    "key": "MSID_速さの覚醒1",
+    "value": "速度覺醒１"
+  },
+  {
+    "key": "MSID_SEARCH_速さの覚醒1",
+    "value": "速度覺醒1"
+  },
+  {
+    "key": "MSID_速さの覚醒2",
+    "value": "速度覺醒２"
+  },
+  {
+    "key": "MSID_SEARCH_速さの覚醒2",
+    "value": "速度覺醒2"
+  },
+  {
+    "key": "MSID_速さの覚醒3",
+    "value": "速度覺醒３"
+  },
+  {
+    "key": "MSID_SEARCH_速さの覚醒3",
+    "value": "速度覺醒3"
+  },
+  {
+    "key": "MSID_守備の覚醒1",
+    "value": "防守覺醒１"
+  },
+  {
+    "key": "MSID_SEARCH_守備の覚醒1",
+    "value": "防守覺醒1"
+  },
+  {
+    "key": "MSID_守備の覚醒2",
+    "value": "防守覺醒２"
+  },
+  {
+    "key": "MSID_SEARCH_守備の覚醒2",
+    "value": "防守覺醒2"
+  },
+  {
+    "key": "MSID_守備の覚醒3",
+    "value": "防守覺醒３"
+  },
+  {
+    "key": "MSID_SEARCH_守備の覚醒3",
+    "value": "防守覺醒3"
+  },
+  {
+    "key": "MSID_魔防の覚醒1",
+    "value": "魔防覺醒１"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の覚醒1",
+    "value": "魔防覺醒1"
+  },
+  {
+    "key": "MSID_魔防の覚醒2",
+    "value": "魔防覺醒２"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の覚醒2",
+    "value": "魔防覺醒2"
+  },
+  {
+    "key": "MSID_魔防の覚醒3",
+    "value": "魔防覺醒３"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の覚醒3",
+    "value": "魔防覺醒3"
+  },
+  {
+    "key": "MSID_相性激化1",
+    "value": "強化互克１"
+  },
+  {
+    "key": "MSID_SEARCH_相性激化1",
+    "value": "強化互克1"
+  },
+  {
+    "key": "MSID_相性激化2",
+    "value": "強化互克２"
+  },
+  {
+    "key": "MSID_SEARCH_相性激化2",
+    "value": "強化互克2"
+  },
+  {
+    "key": "MSID_相性激化3",
+    "value": "強化互克３"
+  },
+  {
+    "key": "MSID_SEARCH_相性激化3",
+    "value": "強化互克3"
+  },
+  {
+    "key": "MSID_近距離反撃",
+    "value": "近距離反擊"
+  },
+  {
+    "key": "MSID_SEARCH_近距離反撃",
+    "value": "近距離反擊"
+  },
+  {
+    "key": "MSID_遠距離反撃",
+    "value": "遠距離反擊"
+  },
+  {
+    "key": "MSID_SEARCH_遠距離反撃",
+    "value": "遠距離反擊"
+  },
+  {
+    "key": "MSID_スヴェルの盾",
+    "value": "斯瓦爾之盾"
+  },
+  {
+    "key": "MSID_SEARCH_スヴェルの盾",
+    "value": "斯瓦爾之盾"
+  },
+  {
+    "key": "MSID_グラニの盾",
+    "value": "格拉尼之盾"
+  },
+  {
+    "key": "MSID_SEARCH_グラニの盾",
+    "value": "格拉尼之盾"
+  },
+  {
+    "key": "MSID_アイオテの盾",
+    "value": "艾奧特之盾"
+  },
+  {
+    "key": "MSID_SEARCH_アイオテの盾",
+    "value": "艾奧特之盾"
+  },
+  {
+    "key": "MSID_叩き込み",
+    "value": "擊退"
+  },
+  {
+    "key": "MSID_SEARCH_叩き込み",
+    "value": "擊退"
+  },
+  {
+    "key": "MSID_切り込み",
+    "value": "衝敵斬"
+  },
+  {
+    "key": "MSID_SEARCH_切り込み",
+    "value": "衝敵斬"
+  },
+  {
+    "key": "MSID_引き込み",
+    "value": "引誘"
+  },
+  {
+    "key": "MSID_SEARCH_引き込み",
+    "value": "引誘"
+  },
+  {
+    "key": "MSID_すり抜け1",
+    "value": "穿越１"
+  },
+  {
+    "key": "MSID_SEARCH_すり抜け1",
+    "value": "穿越1"
+  },
+  {
+    "key": "MSID_すり抜け2",
+    "value": "穿越２"
+  },
+  {
+    "key": "MSID_SEARCH_すり抜け2",
+    "value": "穿越2"
+  },
+  {
+    "key": "MSID_すり抜け3",
+    "value": "穿越３"
+  },
+  {
+    "key": "MSID_SEARCH_すり抜け3",
+    "value": "穿越3"
+  },
+  {
+    "key": "MSID_進軍阻止1",
+    "value": "阻止進軍１"
+  },
+  {
+    "key": "MSID_SEARCH_進軍阻止1",
+    "value": "阻止進軍1"
+  },
+  {
+    "key": "MSID_進軍阻止2",
+    "value": "阻止進軍２"
+  },
+  {
+    "key": "MSID_SEARCH_進軍阻止2",
+    "value": "阻止進軍2"
+  },
+  {
+    "key": "MSID_進軍阻止3",
+    "value": "阻止進軍３"
+  },
+  {
+    "key": "MSID_SEARCH_進軍阻止3",
+    "value": "阻止進軍3"
+  },
+  {
+    "key": "MSID_救援の行路1",
+    "value": "救援路線１"
+  },
+  {
+    "key": "MSID_SEARCH_救援の行路1",
+    "value": "救援路線1"
+  },
+  {
+    "key": "MSID_救援の行路2",
+    "value": "救援路線２"
+  },
+  {
+    "key": "MSID_SEARCH_救援の行路2",
+    "value": "救援路線2"
+  },
+  {
+    "key": "MSID_救援の行路3",
+    "value": "救援路線３"
+  },
+  {
+    "key": "MSID_SEARCH_救援の行路3",
+    "value": "救援路線3"
+  },
+  {
+    "key": "MSID_離脱の行路1",
+    "value": "脫離路線１"
+  },
+  {
+    "key": "MSID_SEARCH_離脱の行路1",
+    "value": "脫離路線1"
+  },
+  {
+    "key": "MSID_離脱の行路2",
+    "value": "脫離路線２"
+  },
+  {
+    "key": "MSID_SEARCH_離脱の行路2",
+    "value": "脫離路線2"
+  },
+  {
+    "key": "MSID_離脱の行路3",
+    "value": "脫離路線３"
+  },
+  {
+    "key": "MSID_SEARCH_離脱の行路3",
+    "value": "脫離路線3"
+  },
+  {
+    "key": "MSID_待ち伏せ1",
+    "value": "埋伏１"
+  },
+  {
+    "key": "MSID_SEARCH_待ち伏せ1",
+    "value": "埋伏1"
+  },
+  {
+    "key": "MSID_待ち伏せ2",
+    "value": "埋伏２"
+  },
+  {
+    "key": "MSID_SEARCH_待ち伏せ2",
+    "value": "埋伏2"
+  },
+  {
+    "key": "MSID_待ち伏せ3",
+    "value": "埋伏３"
+  },
+  {
+    "key": "MSID_SEARCH_待ち伏せ3",
+    "value": "埋伏3"
+  },
+  {
+    "key": "MSID_攻め立て1",
+    "value": "猛攻１"
+  },
+  {
+    "key": "MSID_SEARCH_攻め立て1",
+    "value": "猛攻1"
+  },
+  {
+    "key": "MSID_攻め立て2",
+    "value": "猛攻２"
+  },
+  {
+    "key": "MSID_SEARCH_攻め立て2",
+    "value": "猛攻2"
+  },
+  {
+    "key": "MSID_攻め立て3",
+    "value": "猛攻３"
+  },
+  {
+    "key": "MSID_SEARCH_攻め立て3",
+    "value": "猛攻3"
+  },
+  {
+    "key": "MSID_差し違え1",
+    "value": "同歸於盡１"
+  },
+  {
+    "key": "MSID_SEARCH_差し違え1",
+    "value": "同歸於盡1"
+  },
+  {
+    "key": "MSID_差し違え2",
+    "value": "同歸於盡２"
+  },
+  {
+    "key": "MSID_SEARCH_差し違え2",
+    "value": "同歸於盡2"
+  },
+  {
+    "key": "MSID_差し違え3",
+    "value": "同歸於盡３"
+  },
+  {
+    "key": "MSID_SEARCH_差し違え3",
+    "value": "同歸於盡3"
+  },
+  {
+    "key": "MSID_切り返し1",
+    "value": "回擊１"
+  },
+  {
+    "key": "MSID_SEARCH_切り返し1",
+    "value": "回擊1"
+  },
+  {
+    "key": "MSID_切り返し2",
+    "value": "回擊２"
+  },
+  {
+    "key": "MSID_SEARCH_切り返し2",
+    "value": "回擊2"
+  },
+  {
+    "key": "MSID_切り返し3",
+    "value": "回擊３"
+  },
+  {
+    "key": "MSID_SEARCH_切り返し3",
+    "value": "回擊3"
+  },
+  {
+    "key": "MSID_守備隊形1",
+    "value": "防守隊形１"
+  },
+  {
+    "key": "MSID_SEARCH_守備隊形1",
+    "value": "防守隊形1"
+  },
+  {
+    "key": "MSID_守備隊形2",
+    "value": "防守隊形２"
+  },
+  {
+    "key": "MSID_SEARCH_守備隊形2",
+    "value": "防守隊形2"
+  },
+  {
+    "key": "MSID_守備隊形3",
+    "value": "防守隊形３"
+  },
+  {
+    "key": "MSID_SEARCH_守備隊形3",
+    "value": "防守隊形3"
+  },
+  {
+    "key": "MSID_蛇毒1",
+    "value": "蛇毒１"
+  },
+  {
+    "key": "MSID_SEARCH_蛇毒1",
+    "value": "蛇毒1"
+  },
+  {
+    "key": "MSID_蛇毒2",
+    "value": "蛇毒２"
+  },
+  {
+    "key": "MSID_SEARCH_蛇毒2",
+    "value": "蛇毒2"
+  },
+  {
+    "key": "MSID_蛇毒3",
+    "value": "蛇毒３"
+  },
+  {
+    "key": "MSID_SEARCH_蛇毒3",
+    "value": "蛇毒3"
+  },
+  {
+    "key": "MSID_回復1",
+    "value": "回復１"
+  },
+  {
+    "key": "MSID_SEARCH_回復1",
+    "value": "回復1"
+  },
+  {
+    "key": "MSID_回復2",
+    "value": "回復２"
+  },
+  {
+    "key": "MSID_SEARCH_回復2",
+    "value": "回復2"
+  },
+  {
+    "key": "MSID_回復3",
+    "value": "回復３"
+  },
+  {
+    "key": "MSID_SEARCH_回復3",
+    "value": "回復3"
+  },
+  {
+    "key": "MSID_ご奉仕の喜び1",
+    "value": "奉獻之喜悅１"
+  },
+  {
+    "key": "MSID_SEARCH_ご奉仕の喜び1",
+    "value": "奉獻之喜悅1"
+  },
+  {
+    "key": "MSID_ご奉仕の喜び2",
+    "value": "奉獻之喜悅２"
+  },
+  {
+    "key": "MSID_SEARCH_ご奉仕の喜び2",
+    "value": "奉獻之喜悅2"
+  },
+  {
+    "key": "MSID_ご奉仕の喜び3",
+    "value": "奉獻之喜悅３"
+  },
+  {
+    "key": "MSID_SEARCH_ご奉仕の喜び3",
+    "value": "奉獻之喜悅3"
+  },
+  {
+    "key": "MSID_攻撃封じ1",
+    "value": "攻擊封印１"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃封じ1",
+    "value": "攻擊封印1"
+  },
+  {
+    "key": "MSID_攻撃封じ2",
+    "value": "攻擊封印２"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃封じ2",
+    "value": "攻擊封印2"
+  },
+  {
+    "key": "MSID_攻撃封じ3",
+    "value": "攻擊封印３"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃封じ3",
+    "value": "攻擊封印3"
+  },
+  {
+    "key": "MSID_速さ封じ1",
+    "value": "速度封印１"
+  },
+  {
+    "key": "MSID_SEARCH_速さ封じ1",
+    "value": "速度封印1"
+  },
+  {
+    "key": "MSID_速さ封じ2",
+    "value": "速度封印２"
+  },
+  {
+    "key": "MSID_SEARCH_速さ封じ2",
+    "value": "速度封印2"
+  },
+  {
+    "key": "MSID_速さ封じ3",
+    "value": "速度封印３"
+  },
+  {
+    "key": "MSID_SEARCH_速さ封じ3",
+    "value": "速度封印3"
+  },
+  {
+    "key": "MSID_守備封じ1",
+    "value": "防守封印１"
+  },
+  {
+    "key": "MSID_SEARCH_守備封じ1",
+    "value": "防守封印1"
+  },
+  {
+    "key": "MSID_守備封じ2",
+    "value": "防守封印２"
+  },
+  {
+    "key": "MSID_SEARCH_守備封じ2",
+    "value": "防守封印2"
+  },
+  {
+    "key": "MSID_守備封じ3",
+    "value": "防守封印３"
+  },
+  {
+    "key": "MSID_SEARCH_守備封じ3",
+    "value": "防守封印3"
+  },
+  {
+    "key": "MSID_魔防封じ1",
+    "value": "魔防封印１"
+  },
+  {
+    "key": "MSID_SEARCH_魔防封じ1",
+    "value": "魔防封印1"
+  },
+  {
+    "key": "MSID_魔防封じ2",
+    "value": "魔防封印２"
+  },
+  {
+    "key": "MSID_SEARCH_魔防封じ2",
+    "value": "魔防封印2"
+  },
+  {
+    "key": "MSID_魔防封じ3",
+    "value": "魔防封印３"
+  },
+  {
+    "key": "MSID_SEARCH_魔防封じ3",
+    "value": "魔防封印3"
+  },
+  {
+    "key": "MSID_剣殺し1",
+    "value": "破劍者１"
+  },
+  {
+    "key": "MSID_SEARCH_剣殺し1",
+    "value": "破劍者1"
+  },
+  {
+    "key": "MSID_剣殺し2",
+    "value": "破劍者２"
+  },
+  {
+    "key": "MSID_SEARCH_剣殺し2",
+    "value": "破劍者2"
+  },
+  {
+    "key": "MSID_剣殺し3",
+    "value": "破劍者３"
+  },
+  {
+    "key": "MSID_SEARCH_剣殺し3",
+    "value": "破劍者3"
+  },
+  {
+    "key": "MSID_槍殺し1",
+    "value": "破槍者１"
+  },
+  {
+    "key": "MSID_SEARCH_槍殺し1",
+    "value": "破槍者1"
+  },
+  {
+    "key": "MSID_槍殺し2",
+    "value": "破槍者２"
+  },
+  {
+    "key": "MSID_SEARCH_槍殺し2",
+    "value": "破槍者2"
+  },
+  {
+    "key": "MSID_槍殺し3",
+    "value": "破槍者３"
+  },
+  {
+    "key": "MSID_SEARCH_槍殺し3",
+    "value": "破槍者3"
+  },
+  {
+    "key": "MSID_斧殺し1",
+    "value": "破斧者１"
+  },
+  {
+    "key": "MSID_SEARCH_斧殺し1",
+    "value": "破斧者1"
+  },
+  {
+    "key": "MSID_斧殺し2",
+    "value": "破斧者２"
+  },
+  {
+    "key": "MSID_SEARCH_斧殺し2",
+    "value": "破斧者2"
+  },
+  {
+    "key": "MSID_斧殺し3",
+    "value": "破斧者３"
+  },
+  {
+    "key": "MSID_SEARCH_斧殺し3",
+    "value": "破斧者3"
+  },
+  {
+    "key": "MSID_弓殺し1",
+    "value": "破弓者１"
+  },
+  {
+    "key": "MSID_SEARCH_弓殺し1",
+    "value": "破弓者1"
+  },
+  {
+    "key": "MSID_弓殺し2",
+    "value": "破弓者２"
+  },
+  {
+    "key": "MSID_SEARCH_弓殺し2",
+    "value": "破弓者2"
+  },
+  {
+    "key": "MSID_弓殺し3",
+    "value": "破弓者３"
+  },
+  {
+    "key": "MSID_SEARCH_弓殺し3",
+    "value": "破弓者3"
+  },
+  {
+    "key": "MSID_暗器殺し1",
+    "value": "破暗器者１"
+  },
+  {
+    "key": "MSID_SEARCH_暗器殺し1",
+    "value": "破暗器者1"
+  },
+  {
+    "key": "MSID_暗器殺し2",
+    "value": "破暗器者２"
+  },
+  {
+    "key": "MSID_SEARCH_暗器殺し2",
+    "value": "破暗器者2"
+  },
+  {
+    "key": "MSID_暗器殺し3",
+    "value": "破暗器者３"
+  },
+  {
+    "key": "MSID_SEARCH_暗器殺し3",
+    "value": "破暗器者3"
+  },
+  {
+    "key": "MSID_赤魔殺し1",
+    "value": "破赤魔者１"
+  },
+  {
+    "key": "MSID_SEARCH_赤魔殺し1",
+    "value": "破赤魔者1"
+  },
+  {
+    "key": "MSID_赤魔殺し2",
+    "value": "破赤魔者２"
+  },
+  {
+    "key": "MSID_SEARCH_赤魔殺し2",
+    "value": "破赤魔者2"
+  },
+  {
+    "key": "MSID_赤魔殺し3",
+    "value": "破赤魔者３"
+  },
+  {
+    "key": "MSID_SEARCH_赤魔殺し3",
+    "value": "破赤魔者3"
+  },
+  {
+    "key": "MSID_青魔殺し1",
+    "value": "破青魔者１"
+  },
+  {
+    "key": "MSID_SEARCH_青魔殺し1",
+    "value": "破青魔者1"
+  },
+  {
+    "key": "MSID_青魔殺し2",
+    "value": "破青魔者２"
+  },
+  {
+    "key": "MSID_SEARCH_青魔殺し2",
+    "value": "破青魔者2"
+  },
+  {
+    "key": "MSID_青魔殺し3",
+    "value": "破青魔者３"
+  },
+  {
+    "key": "MSID_SEARCH_青魔殺し3",
+    "value": "破青魔者3"
+  },
+  {
+    "key": "MSID_緑魔殺し1",
+    "value": "破綠魔者１"
+  },
+  {
+    "key": "MSID_SEARCH_緑魔殺し1",
+    "value": "破綠魔者1"
+  },
+  {
+    "key": "MSID_緑魔殺し2",
+    "value": "破綠魔者２"
+  },
+  {
+    "key": "MSID_SEARCH_緑魔殺し2",
+    "value": "破綠魔者2"
+  },
+  {
+    "key": "MSID_緑魔殺し3",
+    "value": "破綠魔者３"
+  },
+  {
+    "key": "MSID_SEARCH_緑魔殺し3",
+    "value": "破綠魔者3"
+  },
+  {
+    "key": "MSID_生の息吹1",
+    "value": "生命氣息１"
+  },
+  {
+    "key": "MSID_SEARCH_生の息吹1",
+    "value": "生命氣息1"
+  },
+  {
+    "key": "MSID_生の息吹2",
+    "value": "生命氣息２"
+  },
+  {
+    "key": "MSID_SEARCH_生の息吹2",
+    "value": "生命氣息2"
+  },
+  {
+    "key": "MSID_生の息吹3",
+    "value": "生命氣息３"
+  },
+  {
+    "key": "MSID_SEARCH_生の息吹3",
+    "value": "生命氣息3"
+  },
+  {
+    "key": "MSID_死の吐息1",
+    "value": "死亡氣息１"
+  },
+  {
+    "key": "MSID_SEARCH_死の吐息1",
+    "value": "死亡氣息1"
+  },
+  {
+    "key": "MSID_死の吐息2",
+    "value": "死亡氣息２"
+  },
+  {
+    "key": "MSID_SEARCH_死の吐息2",
+    "value": "死亡氣息2"
+  },
+  {
+    "key": "MSID_死の吐息3",
+    "value": "死亡氣息３"
+  },
+  {
+    "key": "MSID_SEARCH_死の吐息3",
+    "value": "死亡氣息3"
+  },
+  {
+    "key": "MSID_攻撃の紋章1",
+    "value": "攻擊紋章１"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の紋章1",
+    "value": "攻擊紋章1"
+  },
+  {
+    "key": "MSID_攻撃の紋章2",
+    "value": "攻擊紋章２"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の紋章2",
+    "value": "攻擊紋章2"
+  },
+  {
+    "key": "MSID_攻撃の紋章3",
+    "value": "攻擊紋章３"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の紋章3",
+    "value": "攻擊紋章3"
+  },
+  {
+    "key": "MSID_速さの紋章1",
+    "value": "速度紋章１"
+  },
+  {
+    "key": "MSID_SEARCH_速さの紋章1",
+    "value": "速度紋章1"
+  },
+  {
+    "key": "MSID_速さの紋章2",
+    "value": "速度紋章２"
+  },
+  {
+    "key": "MSID_SEARCH_速さの紋章2",
+    "value": "速度紋章2"
+  },
+  {
+    "key": "MSID_速さの紋章3",
+    "value": "速度紋章３"
+  },
+  {
+    "key": "MSID_SEARCH_速さの紋章3",
+    "value": "速度紋章3"
+  },
+  {
+    "key": "MSID_守備の紋章1",
+    "value": "防守紋章１"
+  },
+  {
+    "key": "MSID_SEARCH_守備の紋章1",
+    "value": "防守紋章1"
+  },
+  {
+    "key": "MSID_守備の紋章2",
+    "value": "防守紋章２"
+  },
+  {
+    "key": "MSID_SEARCH_守備の紋章2",
+    "value": "防守紋章2"
+  },
+  {
+    "key": "MSID_守備の紋章3",
+    "value": "防守紋章３"
+  },
+  {
+    "key": "MSID_SEARCH_守備の紋章3",
+    "value": "防守紋章3"
+  },
+  {
+    "key": "MSID_魔防の紋章1",
+    "value": "魔防紋章１"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の紋章1",
+    "value": "魔防紋章1"
+  },
+  {
+    "key": "MSID_魔防の紋章2",
+    "value": "魔防紋章２"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の紋章2",
+    "value": "魔防紋章2"
+  },
+  {
+    "key": "MSID_魔防の紋章3",
+    "value": "魔防紋章３"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の紋章3",
+    "value": "魔防紋章3"
+  },
+  {
+    "key": "MSID_重刃の紋章",
+    "value": "重刃紋章"
+  },
+  {
+    "key": "MSID_SEARCH_重刃の紋章",
+    "value": "重刃紋章"
+  },
+  {
+    "key": "MSID_重盾の紋章",
+    "value": "重盾紋章"
+  },
+  {
+    "key": "MSID_SEARCH_重盾の紋章",
+    "value": "重盾紋章"
+  },
+  {
+    "key": "MSID_騎刃の紋章",
+    "value": "騎刃紋章"
+  },
+  {
+    "key": "MSID_SEARCH_騎刃の紋章",
+    "value": "騎刃紋章"
+  },
+  {
+    "key": "MSID_騎盾の紋章",
+    "value": "騎盾紋章"
+  },
+  {
+    "key": "MSID_SEARCH_騎盾の紋章",
+    "value": "騎盾紋章"
+  },
+  {
+    "key": "MSID_飛刃の紋章",
+    "value": "飛刃紋章"
+  },
+  {
+    "key": "MSID_SEARCH_飛刃の紋章",
+    "value": "飛刃紋章"
+  },
+  {
+    "key": "MSID_飛盾の紋章",
+    "value": "飛盾紋章"
+  },
+  {
+    "key": "MSID_SEARCH_飛盾の紋章",
+    "value": "飛盾紋章"
+  },
+  {
+    "key": "MSID_攻撃の鼓舞1",
+    "value": "攻擊鼓舞１"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の鼓舞1",
+    "value": "攻擊鼓舞1"
+  },
+  {
+    "key": "MSID_攻撃の鼓舞2",
+    "value": "攻擊鼓舞２"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の鼓舞2",
+    "value": "攻擊鼓舞2"
+  },
+  {
+    "key": "MSID_攻撃の鼓舞3",
+    "value": "攻擊鼓舞３"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の鼓舞3",
+    "value": "攻擊鼓舞3"
+  },
+  {
+    "key": "MSID_速さの鼓舞1",
+    "value": "速度鼓舞１"
+  },
+  {
+    "key": "MSID_SEARCH_速さの鼓舞1",
+    "value": "速度鼓舞1"
+  },
+  {
+    "key": "MSID_速さの鼓舞2",
+    "value": "速度鼓舞２"
+  },
+  {
+    "key": "MSID_SEARCH_速さの鼓舞2",
+    "value": "速度鼓舞2"
+  },
+  {
+    "key": "MSID_速さの鼓舞3",
+    "value": "速度鼓舞３"
+  },
+  {
+    "key": "MSID_SEARCH_速さの鼓舞3",
+    "value": "速度鼓舞3"
+  },
+  {
+    "key": "MSID_守備の鼓舞1",
+    "value": "防守鼓舞１"
+  },
+  {
+    "key": "MSID_SEARCH_守備の鼓舞1",
+    "value": "防守鼓舞1"
+  },
+  {
+    "key": "MSID_守備の鼓舞2",
+    "value": "防守鼓舞２"
+  },
+  {
+    "key": "MSID_SEARCH_守備の鼓舞2",
+    "value": "防守鼓舞2"
+  },
+  {
+    "key": "MSID_守備の鼓舞3",
+    "value": "防守鼓舞３"
+  },
+  {
+    "key": "MSID_SEARCH_守備の鼓舞3",
+    "value": "防守鼓舞3"
+  },
+  {
+    "key": "MSID_魔防の鼓舞1",
+    "value": "魔防鼓舞１"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の鼓舞1",
+    "value": "魔防鼓舞1"
+  },
+  {
+    "key": "MSID_魔防の鼓舞2",
+    "value": "魔防鼓舞２"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の鼓舞2",
+    "value": "魔防鼓舞2"
+  },
+  {
+    "key": "MSID_魔防の鼓舞3",
+    "value": "魔防鼓舞３"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の鼓舞3",
+    "value": "魔防鼓舞3"
+  },
+  {
+    "key": "MSID_重刃の鼓舞",
+    "value": "重刃鼓舞"
+  },
+  {
+    "key": "MSID_SEARCH_重刃の鼓舞",
+    "value": "重刃鼓舞"
+  },
+  {
+    "key": "MSID_重盾の鼓舞",
+    "value": "重盾鼓舞"
+  },
+  {
+    "key": "MSID_SEARCH_重盾の鼓舞",
+    "value": "重盾鼓舞"
+  },
+  {
+    "key": "MSID_騎刃の鼓舞",
+    "value": "騎刃鼓舞"
+  },
+  {
+    "key": "MSID_SEARCH_騎刃の鼓舞",
+    "value": "騎刃鼓舞"
+  },
+  {
+    "key": "MSID_騎盾の鼓舞",
+    "value": "騎盾鼓舞"
+  },
+  {
+    "key": "MSID_SEARCH_騎盾の鼓舞",
+    "value": "騎盾鼓舞"
+  },
+  {
+    "key": "MSID_飛刃の鼓舞",
+    "value": "飛刃鼓舞"
+  },
+  {
+    "key": "MSID_SEARCH_飛刃の鼓舞",
+    "value": "飛刃鼓舞"
+  },
+  {
+    "key": "MSID_飛盾の鼓舞",
+    "value": "飛盾鼓舞"
+  },
+  {
+    "key": "MSID_SEARCH_飛盾の鼓舞",
+    "value": "飛盾鼓舞"
+  },
+  {
+    "key": "MSID_攻撃の威嚇1",
+    "value": "攻擊威嚇１"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の威嚇1",
+    "value": "攻擊威嚇1"
+  },
+  {
+    "key": "MSID_攻撃の威嚇2",
+    "value": "攻擊威嚇２"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の威嚇2",
+    "value": "攻擊威嚇2"
+  },
+  {
+    "key": "MSID_攻撃の威嚇3",
+    "value": "攻擊威嚇３"
+  },
+  {
+    "key": "MSID_SEARCH_攻撃の威嚇3",
+    "value": "攻擊威嚇3"
+  },
+  {
+    "key": "MSID_速さの威嚇1",
+    "value": "速度威嚇１"
+  },
+  {
+    "key": "MSID_SEARCH_速さの威嚇1",
+    "value": "速度威嚇1"
+  },
+  {
+    "key": "MSID_速さの威嚇2",
+    "value": "速度威嚇２"
+  },
+  {
+    "key": "MSID_SEARCH_速さの威嚇2",
+    "value": "速度威嚇2"
+  },
+  {
+    "key": "MSID_速さの威嚇3",
+    "value": "速度威嚇３"
+  },
+  {
+    "key": "MSID_SEARCH_速さの威嚇3",
+    "value": "速度威嚇3"
+  },
+  {
+    "key": "MSID_守備の威嚇1",
+    "value": "防守威嚇１"
+  },
+  {
+    "key": "MSID_SEARCH_守備の威嚇1",
+    "value": "防守威嚇1"
+  },
+  {
+    "key": "MSID_守備の威嚇2",
+    "value": "防守威嚇２"
+  },
+  {
+    "key": "MSID_SEARCH_守備の威嚇2",
+    "value": "防守威嚇2"
+  },
+  {
+    "key": "MSID_守備の威嚇3",
+    "value": "防守威嚇３"
+  },
+  {
+    "key": "MSID_SEARCH_守備の威嚇3",
+    "value": "防守威嚇3"
+  },
+  {
+    "key": "MSID_魔防の威嚇1",
+    "value": "魔防威嚇１"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の威嚇1",
+    "value": "魔防威嚇1"
+  },
+  {
+    "key": "MSID_魔防の威嚇2",
+    "value": "魔防威嚇２"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の威嚇2",
+    "value": "魔防威嚇2"
+  },
+  {
+    "key": "MSID_魔防の威嚇3",
+    "value": "魔防威嚇３"
+  },
+  {
+    "key": "MSID_SEARCH_魔防の威嚇3",
+    "value": "魔防威嚇3"
+  },
+  {
+    "key": "MSID_H_鉄の剣",
+    "value": null
+  },
+  {
+    "key": "MSID_H_鋼の剣",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の剣",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の剣＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_勇者の剣",
+    "value": "由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_勇者の剣＋",
+    "value": "由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_キルソード",
+    "value": "容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_キルソード＋",
+    "value": "容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_アーマーキラー",
+    "value": "克制重裝"
+  },
+  {
+    "key": "MSID_H_アーマーキラー＋",
+    "value": "克制重裝"
+  },
+  {
+    "key": "MSID_H_旭日の剣",
+    "value": "三角互克有利時，攻擊再＋２０％\n三角互克不利時，攻擊再－２０％"
+  },
+  {
+    "key": "MSID_H_旭日の剣＋",
+    "value": "三角互克有利時，攻擊再＋２０％\n三角互克不利時，攻擊再－２０％"
+  },
+  {
+    "key": "MSID_H_ファルシオン",
+    "value": "克制龍\n每３回合１次，回合開始時回復ＨＰ１０"
+  },
+  {
+    "key": "MSID_H_ファルシオン覚醒",
+    "value": "克制龍\n每３回合１次，回合開始時回復ＨＰ１０"
+  },
+  {
+    "key": "MSID_H_封印の剣",
+    "value": "受到敵人攻擊時，防守及魔防＋２"
+  },
+  {
+    "key": "MSID_H_エッケザックス",
+    "value": "回合開始時，周圍２格內敵人的防守－４\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_デュランダル",
+    "value": "由自己發動攻擊時，戰鬥中的攻擊＋４"
+  },
+  {
+    "key": "MSID_H_ソールカティ",
+    "value": "若自身ＨＰ低於５０％，且由自己發動攻擊時，\n如可進行追擊，則會在自己攻擊後立刻追擊"
+  },
+  {
+    "key": "MSID_H_夜刀神",
+    "value": "由自己發動攻擊時，戰鬥中的速度＋４"
+  },
+  {
+    "key": "MSID_H_雷神刀",
+    "value": "受到敵人攻擊時，可無視距離進行反擊"
+  },
+  {
+    "key": "MSID_H_ジークフリート",
+    "value": "受到敵人攻擊時，可無視距離進行反擊"
+  },
+  {
+    "key": "MSID_H_フォルクヴァング",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則攻擊＋５"
+  },
+  {
+    "key": "MSID_H_鉄の槍",
+    "value": null
+  },
+  {
+    "key": "MSID_H_鋼の槍",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の槍",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の槍＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_勇者の槍",
+    "value": "由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_勇者の槍＋",
+    "value": "由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_キラーランス",
+    "value": "容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_キラーランス＋",
+    "value": "容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_貫きの槍",
+    "value": "克制重裝"
+  },
+  {
+    "key": "MSID_H_貫きの槍＋",
+    "value": "克制重裝"
+  },
+  {
+    "key": "MSID_H_蒼海の槍",
+    "value": "三角互克有利時，攻擊再＋２０％\n三角互克不利時，攻擊再－２０％"
+  },
+  {
+    "key": "MSID_H_蒼海の槍＋",
+    "value": "三角互克有利時，攻擊再＋２０％\n三角互克不利時，攻擊再－２０％"
+  },
+  {
+    "key": "MSID_H_グラディウス",
+    "value": "受到敵人攻擊時，可無視距離進行反擊"
+  },
+  {
+    "key": "MSID_H_フェンサリル",
+    "value": "回合開始時，周圍２格內敵人的\n攻擊－４（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_鉄の斧",
+    "value": null
+  },
+  {
+    "key": "MSID_H_鋼の斧",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の斧",
+    "value": null
+  },
+  {
+    "key": "MSID_H_銀の斧＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_勇者の斧",
+    "value": "由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_勇者の斧＋",
+    "value": "由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_キラーアクス",
+    "value": "容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_キラーアクス＋",
+    "value": "容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_ハンマー",
+    "value": "克制重裝"
+  },
+  {
+    "key": "MSID_H_ハンマー＋",
+    "value": "克制重裝"
+  },
+  {
+    "key": "MSID_H_深緑の斧",
+    "value": "三角互克有利時，攻擊再＋２０％\n三角互克不利時，攻擊再－２０％"
+  },
+  {
+    "key": "MSID_H_深緑の斧＋",
+    "value": "三角互克有利時，攻擊再＋２０％\n三角互克不利時，攻擊再－２０％"
+  },
+  {
+    "key": "MSID_H_オートクレール",
+    "value": "容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_アルマーズ",
+    "value": "若自身ＨＰ高於８０％，受到敵人攻擊時，\n必定可進行追擊"
+  },
+  {
+    "key": "MSID_H_ノーアトゥーン",
+    "value": "若自身ＨＰ低於４０％，\n可移動至我方的相鄰格子"
+  },
+  {
+    "key": "MSID_H_鉄の弓",
+    "value": "克制飛行"
+  },
+  {
+    "key": "MSID_H_鋼の弓",
+    "value": "克制飛行"
+  },
+  {
+    "key": "MSID_H_銀の弓",
+    "value": "克制飛行"
+  },
+  {
+    "key": "MSID_H_銀の弓＋",
+    "value": "克制飛行"
+  },
+  {
+    "key": "MSID_H_勇者の弓",
+    "value": "克制飛行　由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_勇者の弓＋",
+    "value": "克制飛行　由自己發動攻擊時，攻擊２次\n速度－５"
+  },
+  {
+    "key": "MSID_H_キラーボウ",
+    "value": "克制飛行　容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_キラーボウ＋",
+    "value": "克制飛行　容易發動奧義（發動計量－１）"
+  },
+  {
+    "key": "MSID_H_暗器殺しの弓",
+    "value": "克制飛行\n敵人的武器類型為無屬性暗器時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_暗器殺しの弓＋",
+    "value": "克制飛行\n敵人的武器類型為無屬性暗器時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_パルティア",
+    "value": "克制飛行　由自己發動攻擊時，戰鬥中的魔防＋４"
+  },
+  {
+    "key": "MSID_H_風神弓",
+    "value": "克制飛行　若自身ＨＰ高於５０％，\n可穿過敵方所在的格子"
+  },
+  {
+    "key": "MSID_H_鉄の暗器",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人防守及魔防－３（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_鋼の暗器",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人防守及魔防－３（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_銀の暗器",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人防守及魔防－５（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_銀の暗器＋",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人防守及魔防－７（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_紫煙の暗器",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n對方周圍２格內的敵人防守及魔防－４\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_紫煙の暗器＋",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n對方周圍２格內的敵人防守及魔防－６\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_秘毒の暗器",
+    "value": "克制步行\n若在戰鬥時進行攻擊，且敵人為步行，\n戰鬥後對方防守及魔防－４\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_秘毒の暗器＋",
+    "value": "克制步行\n若在戰鬥時進行攻擊，且敵人為步行，\n戰鬥後對方防守及魔防－６\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_盗賊の暗器",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人防守及魔防－３（直到敵人下次行動結束）\n自己防守及魔防＋３（１回合）"
+  },
+  {
+    "key": "MSID_H_盗賊の暗器＋",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人防守及魔防－５（直到敵人下次行動結束）\n自己防守及魔防＋５（１回合）"
+  },
+  {
+    "key": "MSID_H_ファイアー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_エルファイアー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ボルガノン",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ボルガノン＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ミィル",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ルイン",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ノスフェラート",
+    "value": null
+  },
+  {
+    "key": "MSID_H_ノスフェラート＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_スレッダラウア",
+    "value": "不容易發動奧義（發動計量＋１）\n將自己身上的強化狀態合計值計入攻擊"
+  },
+  {
+    "key": "MSID_H_スレッダラウア＋",
+    "value": "不容易發動奧義（發動計量＋１）\n將自己身上的強化狀態合計值計入攻擊"
+  },
+  {
+    "key": "MSID_H_ウルファラウア",
+    "value": "克制騎馬"
+  },
+  {
+    "key": "MSID_H_ウルファラウア＋",
+    "value": "克制騎馬"
+  },
+  {
+    "key": "MSID_H_ナートラウア",
+    "value": "和無屬性的敵人戰鬥時，\n自己在三角互克中佔優勢，敵人居劣勢"
+  },
+  {
+    "key": "MSID_H_ナートラウア＋",
+    "value": "和無屬性的敵人戰鬥時，\n自己在三角互克中佔優勢，敵人居劣勢"
+  },
+  {
+    "key": "MSID_H_ブリュンヒルデ",
+    "value": "由自己發動攻擊時，戰鬥後將敵人移動範圍\n限為最大１格（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_サンダー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_エルサンダー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_トロン",
+    "value": null
+  },
+  {
+    "key": "MSID_H_トロン＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_スレッダブラー",
+    "value": "不容易發動奧義（發動計量＋１）\n將自己身上的強化狀態合計值計入攻擊"
+  },
+  {
+    "key": "MSID_H_スレッダブラー＋",
+    "value": "不容易發動奧義（發動計量＋１）\n將自己身上的強化狀態合計值計入攻擊"
+  },
+  {
+    "key": "MSID_H_ウルファブラー",
+    "value": "克制騎馬"
+  },
+  {
+    "key": "MSID_H_ウルファブラー＋",
+    "value": "克制騎馬"
+  },
+  {
+    "key": "MSID_H_ナートブラー",
+    "value": "和無屬性的敵人戰鬥時，\n自己在三角互克中佔優勢，敵人居劣勢"
+  },
+  {
+    "key": "MSID_H_ナートブラー＋",
+    "value": "和無屬性的敵人戰鬥時，\n自己在三角互克中佔優勢，敵人居劣勢"
+  },
+  {
+    "key": "MSID_H_オーラ",
+    "value": "由自己發動攻擊時，戰鬥後\n回復自己周圍１格的我方５ＨＰ"
+  },
+  {
+    "key": "MSID_H_ヴラスキャルヴ",
+    "value": "若自身ＨＰ低於５０％，受到敵人攻擊時，\n可搶先攻擊"
+  },
+  {
+    "key": "MSID_H_ウインド",
+    "value": null
+  },
+  {
+    "key": "MSID_H_エルウインド",
+    "value": null
+  },
+  {
+    "key": "MSID_H_レクスカリバー",
+    "value": null
+  },
+  {
+    "key": "MSID_H_レクスカリバー＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_スレッダグラン",
+    "value": "不容易發動奧義（發動計量＋１）\n將自己身上的強化狀態合計值計入攻擊"
+  },
+  {
+    "key": "MSID_H_スレッダグラン＋",
+    "value": "不容易發動奧義（發動計量＋１）\n將自己身上的強化狀態合計值計入攻擊"
+  },
+  {
+    "key": "MSID_H_ウルファグラン",
+    "value": "克制騎馬"
+  },
+  {
+    "key": "MSID_H_ウルファグラン＋",
+    "value": "克制騎馬"
+  },
+  {
+    "key": "MSID_H_ナートグラン",
+    "value": "和無屬性的敵人戰鬥時，\n自己在三角互克中佔優勢，敵人居劣勢"
+  },
+  {
+    "key": "MSID_H_ナートグラン＋",
+    "value": "和無屬性的敵人戰鬥時，\n自己在三角互克中佔優勢，敵人居劣勢"
+  },
+  {
+    "key": "MSID_H_エクスカリバー",
+    "value": "克制飛行"
+  },
+  {
+    "key": "MSID_H_エリヴァーガル",
+    "value": "由自己發動攻擊時，戰鬥後，對方周圍２格內的\n敵人強化狀態由＋轉－（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_アサルト",
+    "value": null
+  },
+  {
+    "key": "MSID_H_アブゾーブ",
+    "value": "回復給予敵人傷害的５０％"
+  },
+  {
+    "key": "MSID_H_フィアー",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人攻擊－６\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_スロウ",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人速度－６\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_グラビティ",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n將敵人的最大移動範圍限制為１格\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_ペイン",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n給予敵人１０傷害"
+  },
+  {
+    "key": "MSID_H_パニック",
+    "value": "若在戰鬥時進行攻擊，戰鬥後\n敵人的強化狀態由＋轉－\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_火のブレス",
+    "value": null
+  },
+  {
+    "key": "MSID_H_火炎のブレス",
+    "value": null
+  },
+  {
+    "key": "MSID_H_灼熱のブレス",
+    "value": null
+  },
+  {
+    "key": "MSID_H_灼熱のブレス＋",
+    "value": null
+  },
+  {
+    "key": "MSID_H_光のブレス",
+    "value": "由自己發動攻擊時，戰鬥後，自己周圍１格內我方的\n防守及魔防＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_光のブレス＋",
+    "value": "由自己發動攻擊時，戰鬥後，自己周圍１格內我方的\n防守及魔防＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_闇のブレス",
+    "value": "由自己發動攻擊時，戰鬥後，對方周圍２格內的敵人\n攻擊、速度－５（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_闇のブレス＋",
+    "value": "由自己發動攻擊時，戰鬥後，對方周圍２格內的敵人\n攻擊、速度－５（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_雷のブレス",
+    "value": "不容易發動奧義（發動計量＋１）\n受到敵人攻擊時，可無視距離進行反擊"
+  },
+  {
+    "key": "MSID_H_雷のブレス＋",
+    "value": "不容易發動奧義（發動計量＋１）\n受到敵人攻擊時，可無視距離進行反擊"
+  },
+  {
+    "key": "MSID_H_ライブ",
+    "value": "回復５ＨＰ"
+  },
+  {
+    "key": "MSID_H_リライブ",
+    "value": "回復１０ＨＰ"
+  },
+  {
+    "key": "MSID_H_リブロー",
+    "value": "回復８ＨＰ　射程２"
+  },
+  {
+    "key": "MSID_H_リカバー",
+    "value": "回復１５ＨＰ　不容易發動奧義（發動計量＋１）"
+  },
+  {
+    "key": "MSID_H_ヒール",
+    "value": "自己和指定目標都回復７ＨＰ"
+  },
+  {
+    "key": "MSID_H_セインツ",
+    "value": "回復指定目標（自己所受傷害＋７）ＨＰ\n自己也回復所受傷害的一半ＨＰ　不容易發動奧義"
+  },
+  {
+    "key": "MSID_H_リバース",
+    "value": "回復指定目標至少７ＨＰ　若目標的ＨＰ低於一半，\n其ＨＰ越低，回復量就越多　不容易發動奧義"
+  },
+  {
+    "key": "MSID_H_入れ替え",
+    "value": "替換自己和指定目標的位置"
+  },
+  {
+    "key": "MSID_H_体当たり",
+    "value": "讓指定目標朝自己的反方向移動１格"
+  },
+  {
+    "key": "MSID_H_ぶちかまし",
+    "value": "讓指定目標朝自己的反方向移動２格"
+  },
+  {
+    "key": "MSID_H_引き寄せ",
+    "value": "讓指定目標移動至自己的所在位置，\n自己後退１格"
+  },
+  {
+    "key": "MSID_H_引き戻し",
+    "value": "讓指定目標移動至自己的另一側"
+  },
+  {
+    "key": "MSID_H_回り込み",
+    "value": "自己移動至指定目標的另一側"
+  },
+  {
+    "key": "MSID_H_攻撃の応援",
+    "value": "指定目標的攻擊＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_速さの応援",
+    "value": "指定目標的速度＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_守備の応援",
+    "value": "指定目標的防守＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_魔防の応援",
+    "value": "指定目標的魔防＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_献身",
+    "value": "回復指定目標１０ＨＰ，減少自己１０ＨＰ"
+  },
+  {
+    "key": "MSID_H_一喝",
+    "value": "抵銷指定目標的弱化狀態，\n並轉為強化"
+  },
+  {
+    "key": "MSID_H_相互援助",
+    "value": "替換自己和指定目標的ＨＰ"
+  },
+  {
+    "key": "MSID_H_歌う",
+    "value": "讓指定目標進入可行動的狀態\n無法使用在擁有「歌唱」、「起舞」的目標上"
+  },
+  {
+    "key": "MSID_H_踊る",
+    "value": "讓指定目標進入可行動的狀態\n無法使用在擁有「歌唱」、「起舞」的目標上"
+  },
+  {
+    "key": "MSID_H_天空",
+    "value": "攻擊時，在敵人防守及魔防－５０％的狀況下給予傷害\n讓自己回復給予敵人傷害的５０％"
+  },
+  {
+    "key": "MSID_H_星影",
+    "value": "給予１．５倍的傷害"
+  },
+  {
+    "key": "MSID_H_凶星",
+    "value": "給予１．５倍的傷害"
+  },
+  {
+    "key": "MSID_H_流星",
+    "value": "給予２．５倍的傷害"
+  },
+  {
+    "key": "MSID_H_陽影",
+    "value": "讓自己回復給予敵人傷害的３０％"
+  },
+  {
+    "key": "MSID_H_夕陽",
+    "value": "讓自己回復給予敵人傷害的３０％"
+  },
+  {
+    "key": "MSID_H_太陽",
+    "value": "讓自己回復給予敵人傷害的５０％"
+  },
+  {
+    "key": "MSID_H_影月",
+    "value": "攻擊時，在敵人防守及魔防－３０％的狀況下給予傷害"
+  },
+  {
+    "key": "MSID_H_月虹",
+    "value": "攻擊時，在敵人防守及魔防－３０％的狀況下給予傷害"
+  },
+  {
+    "key": "MSID_H_月光",
+    "value": "攻擊時，在敵人防守及魔防－５０％的狀況下給予傷害"
+  },
+  {
+    "key": "MSID_H_雪辱",
+    "value": "奧義傷害增加\n自己的（最高ＨＰ－現在ＨＰ）×３０％"
+  },
+  {
+    "key": "MSID_H_血讐",
+    "value": "奧義傷害增加\n自己的（最高ＨＰ－現在ＨＰ）×３０％"
+  },
+  {
+    "key": "MSID_H_復讐",
+    "value": "奧義傷害增加\n自己的（最高ＨＰ－現在ＨＰ）×５０％"
+  },
+  {
+    "key": "MSID_H_伏竜",
+    "value": "增加攻擊×３０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_竜裂",
+    "value": "增加攻擊×３０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_竜穿",
+    "value": "增加攻擊×５０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_蛍火",
+    "value": "增加防守×５０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_緋炎",
+    "value": "增加防守×５０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_華炎",
+    "value": "增加防守×８０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_氷点",
+    "value": "增加魔防×５０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_氷蒼",
+    "value": "增加魔防×５０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_氷華",
+    "value": "增加魔防×８０％的奧義傷害"
+  },
+  {
+    "key": "MSID_H_砕火",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_爆火",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定大範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_烈火",
+    "value": "由自己發動攻擊時，戰鬥前對特定範圍內的敵人\n（自己的攻擊－敵人的防守ｏｒ魔防）×１．５倍的傷害"
+  },
+  {
+    "key": "MSID_H_砕風",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_爆風",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定大範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_烈風",
+    "value": "由自己發動攻擊時，戰鬥前對特定範圍內的敵人\n（自己的攻擊－敵人的防守ｏｒ魔防）×１．５倍的傷害"
+  },
+  {
+    "key": "MSID_H_砕雷",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_爆雷",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定大範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_烈雷",
+    "value": "由自己發動攻擊時，戰鬥前對特定範圍內的敵人\n（自己的攻擊－敵人的防守ｏｒ魔防）×１．５倍的傷害"
+  },
+  {
+    "key": "MSID_H_砕光",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_爆光",
+    "value": "由自己發動攻擊時，於戰鬥前，對特定大範圍內的敵人\n給予（自己的攻擊－敵人的防守ｏｒ魔防）的傷害"
+  },
+  {
+    "key": "MSID_H_烈光",
+    "value": "由自己發動攻擊時，戰鬥前對特定範圍內的敵人\n（自己的攻擊－敵人的防守ｏｒ魔防）×１．５倍的傷害"
+  },
+  {
+    "key": "MSID_H_小盾",
+    "value": "受到敵人的１格距離攻擊時，降低傷害３０％"
+  },
+  {
+    "key": "MSID_H_長盾",
+    "value": "受到敵人的１格距離攻擊時，降低傷害３０％"
+  },
+  {
+    "key": "MSID_H_大盾",
+    "value": "受到敵人的１格距離攻擊時，降低傷害５０％"
+  },
+  {
+    "key": "MSID_H_聖衣",
+    "value": "受到敵人的２格距離攻擊時，降低傷害３０％"
+  },
+  {
+    "key": "MSID_H_聖兜",
+    "value": "受到敵人的２格距離攻擊時，降低傷害３０％"
+  },
+  {
+    "key": "MSID_H_聖盾",
+    "value": "受到敵人的２格距離攻擊時，降低傷害５０％"
+  },
+  {
+    "key": "MSID_H_祈り",
+    "value": "當自己的ＨＰ高於２，且遭受敵人致命攻擊時，\n將傷害降低至自身ＨＰ會剩下１"
+  },
+  {
+    "key": "MSID_H_治癒",
+    "value": "使用回復之杖時，回復效果＋１０"
+  },
+  {
+    "key": "MSID_H_天照",
+    "value": "使用回復之杖時，讓自己和指定目標以外的\n所有我方回復１０ＨＰ"
+  },
+  {
+    "key": "MSID_H_業火の祝福",
+    "value": "使用回復之杖時，讓自己以外的\n所有我方的攻擊＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_疾風の祝福",
+    "value": "使用回復之杖時，讓自己以外的\n所有我方的速度＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_大地の祝福",
+    "value": "使用回復之杖時，讓自己以外的\n所有我方的防守＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_静水の祝福",
+    "value": "使用回復之杖時，讓自己以外的\n所有我方的魔防＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_疾風迅雷",
+    "value": "由自己發動攻擊時，戰鬥後讓自己可再次行動\n（１回合僅能發動１次）"
+  },
+  {
+    "key": "MSID_H_HP1",
+    "value": "ＨＰ＋３"
+  },
+  {
+    "key": "MSID_H_HP2",
+    "value": "ＨＰ＋４"
+  },
+  {
+    "key": "MSID_H_HP3",
+    "value": "ＨＰ＋５"
+  },
+  {
+    "key": "MSID_H_攻撃1",
+    "value": "攻擊＋１"
+  },
+  {
+    "key": "MSID_H_攻撃2",
+    "value": "攻擊＋２"
+  },
+  {
+    "key": "MSID_H_攻撃3",
+    "value": "攻擊＋３"
+  },
+  {
+    "key": "MSID_H_速さ1",
+    "value": "速度＋１"
+  },
+  {
+    "key": "MSID_H_速さ2",
+    "value": "速度＋２"
+  },
+  {
+    "key": "MSID_H_速さ3",
+    "value": "速度＋３"
+  },
+  {
+    "key": "MSID_H_守備1",
+    "value": "防守＋１"
+  },
+  {
+    "key": "MSID_H_守備2",
+    "value": "防守＋２"
+  },
+  {
+    "key": "MSID_H_守備3",
+    "value": "防守＋３"
+  },
+  {
+    "key": "MSID_H_魔防1",
+    "value": "魔防＋１"
+  },
+  {
+    "key": "MSID_H_魔防2",
+    "value": "魔防＋２"
+  },
+  {
+    "key": "MSID_H_魔防3",
+    "value": "魔防＋３"
+  },
+  {
+    "key": "MSID_H_獅子奮迅1",
+    "value": "攻擊、速度、防守、魔防＋１\n戰鬥後給予自己２傷害"
+  },
+  {
+    "key": "MSID_H_獅子奮迅2",
+    "value": "攻擊、速度、防守、魔防＋２\n戰鬥後給予自己４傷害"
+  },
+  {
+    "key": "MSID_H_獅子奮迅3",
+    "value": "攻擊、速度、防守、魔防＋３\n戰鬥後給予自己６傷害"
+  },
+  {
+    "key": "MSID_H_死線1",
+    "value": "攻擊及速度＋３　防守及魔防－３"
+  },
+  {
+    "key": "MSID_H_死線2",
+    "value": "攻擊及速度＋４　防守及魔防－４"
+  },
+  {
+    "key": "MSID_H_死線3",
+    "value": "攻擊及速度＋５　防守及魔防－５"
+  },
+  {
+    "key": "MSID_H_鬼神の一撃1",
+    "value": "由自己發動攻擊時，戰鬥中的攻擊＋２"
+  },
+  {
+    "key": "MSID_H_鬼神の一撃2",
+    "value": "由自己發動攻擊時，戰鬥中的攻擊＋４"
+  },
+  {
+    "key": "MSID_H_鬼神の一撃3",
+    "value": "由自己發動攻擊時，戰鬥中的攻擊＋６"
+  },
+  {
+    "key": "MSID_H_飛燕の一撃1",
+    "value": "由自己發動攻擊時，戰鬥中的速度＋２"
+  },
+  {
+    "key": "MSID_H_飛燕の一撃2",
+    "value": "由自己發動攻擊時，戰鬥中的速度＋４"
+  },
+  {
+    "key": "MSID_H_飛燕の一撃3",
+    "value": "由自己發動攻擊時，戰鬥中的速度＋６"
+  },
+  {
+    "key": "MSID_H_金剛の一撃1",
+    "value": "由自己發動攻擊時，戰鬥中的防守＋２"
+  },
+  {
+    "key": "MSID_H_金剛の一撃2",
+    "value": "由自己發動攻擊時，戰鬥中的防守＋４"
+  },
+  {
+    "key": "MSID_H_金剛の一撃3",
+    "value": "由自己發動攻擊時，戰鬥中的防守＋６"
+  },
+  {
+    "key": "MSID_H_明鏡の一撃1",
+    "value": "由自己發動攻擊時，戰鬥中的魔防＋２"
+  },
+  {
+    "key": "MSID_H_明鏡の一撃2",
+    "value": "由自己發動攻擊時，戰鬥中的魔防＋４"
+  },
+  {
+    "key": "MSID_H_明鏡の一撃3",
+    "value": "由自己發動攻擊時，戰鬥中的魔防＋６"
+  },
+  {
+    "key": "MSID_H_攻撃の覚醒1",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則攻擊＋３"
+  },
+  {
+    "key": "MSID_H_攻撃の覚醒2",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則攻擊＋５"
+  },
+  {
+    "key": "MSID_H_攻撃の覚醒3",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則攻擊＋７"
+  },
+  {
+    "key": "MSID_H_速さの覚醒1",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則速度＋３"
+  },
+  {
+    "key": "MSID_H_速さの覚醒2",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則速度＋５"
+  },
+  {
+    "key": "MSID_H_速さの覚醒3",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則速度＋７"
+  },
+  {
+    "key": "MSID_H_守備の覚醒1",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則防守＋３"
+  },
+  {
+    "key": "MSID_H_守備の覚醒2",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則防守＋５"
+  },
+  {
+    "key": "MSID_H_守備の覚醒3",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則防守＋７"
+  },
+  {
+    "key": "MSID_H_魔防の覚醒1",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則魔防＋３"
+  },
+  {
+    "key": "MSID_H_魔防の覚醒2",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則魔防＋５"
+  },
+  {
+    "key": "MSID_H_魔防の覚醒3",
+    "value": "回合開始時，若自身ＨＰ低於５０％，則魔防＋７"
+  },
+  {
+    "key": "MSID_H_相性激化1",
+    "value": "三角互克有利時，攻擊再＋１０％\n三角互克不利時，攻擊再－１０％"
+  },
+  {
+    "key": "MSID_H_相性激化2",
+    "value": "三角互克有利時，攻擊再＋１５％\n三角互克不利時，攻擊再－１５％"
+  },
+  {
+    "key": "MSID_H_相性激化3",
+    "value": "三角互克有利時，攻擊再＋２０％\n三角互克不利時，攻擊再－２０％"
+  },
+  {
+    "key": "MSID_H_近距離反撃",
+    "value": "受到敵人攻擊時，可無視距離進行反擊"
+  },
+  {
+    "key": "MSID_H_遠距離反撃",
+    "value": "受到敵人攻擊時，可無視距離進行反擊"
+  },
+  {
+    "key": "MSID_H_スヴェルの盾",
+    "value": "克制重裝無效"
+  },
+  {
+    "key": "MSID_H_グラニの盾",
+    "value": "克制騎馬無效"
+  },
+  {
+    "key": "MSID_H_アイオテの盾",
+    "value": "克制飛行無效"
+  },
+  {
+    "key": "MSID_H_叩き込み",
+    "value": "由自己發動攻擊時，戰鬥後，\n讓敵人朝自己的反方向移動１格"
+  },
+  {
+    "key": "MSID_H_切り込み",
+    "value": "由自己發動攻擊時，戰鬥後，\n替換自己和敵人的位置"
+  },
+  {
+    "key": "MSID_H_引き込み",
+    "value": "由自己發動攻擊時，戰鬥後，\n讓敵人移動到自己的所在位置，自己則後退１格"
+  },
+  {
+    "key": "MSID_H_すり抜け1",
+    "value": "若自身ＨＰ高於７５％，\n可穿過敵方所在的格子"
+  },
+  {
+    "key": "MSID_H_すり抜け2",
+    "value": "若自身ＨＰ高於５０％，\n可穿過敵方所在的格子"
+  },
+  {
+    "key": "MSID_H_すり抜け3",
+    "value": "若自身ＨＰ高於２５％，\n可穿過敵方所在的格子"
+  },
+  {
+    "key": "MSID_H_進軍阻止1",
+    "value": "若自身ＨＰ高於９０％，讓敵人無法穿越\n與自己相鄰的格子（對持有穿越的敵人無效）"
+  },
+  {
+    "key": "MSID_H_進軍阻止2",
+    "value": "若自身ＨＰ高於７０％，讓敵人無法穿越\n與自己相鄰的格子（對持有穿越的敵人無效）"
+  },
+  {
+    "key": "MSID_H_進軍阻止3",
+    "value": "若自身ＨＰ高於５０％，讓敵人無法穿越\n與自己相鄰的格子（對持有穿越的敵人無效）"
+  },
+  {
+    "key": "MSID_H_救援の行路1",
+    "value": "可移動至ＨＰ低於３０％之我方的相鄰格子"
+  },
+  {
+    "key": "MSID_H_救援の行路2",
+    "value": "可移動至ＨＰ低於４０％之我方的相鄰格子"
+  },
+  {
+    "key": "MSID_H_救援の行路3",
+    "value": "可移動至ＨＰ低於５０％之我方的相鄰格子"
+  },
+  {
+    "key": "MSID_H_離脱の行路1",
+    "value": "若自身ＨＰ低於３０％，\n可移動至我方的相鄰格子"
+  },
+  {
+    "key": "MSID_H_離脱の行路2",
+    "value": "若自身ＨＰ低於４０％，\n可移動至我方的相鄰格子"
+  },
+  {
+    "key": "MSID_H_離脱の行路3",
+    "value": "若自身ＨＰ低於５０％，\n可移動至我方的相鄰格子"
+  },
+  {
+    "key": "MSID_H_待ち伏せ1",
+    "value": "若自身ＨＰ低於２５％，\n受到敵人攻擊時，可搶先攻擊"
+  },
+  {
+    "key": "MSID_H_待ち伏せ2",
+    "value": "若自身ＨＰ低於５０％，\n受到敵人攻擊時，可搶先攻擊"
+  },
+  {
+    "key": "MSID_H_待ち伏せ3",
+    "value": "若自身ＨＰ低於７５％，\n受到敵人攻擊時，可搶先攻擊"
+  },
+  {
+    "key": "MSID_H_攻め立て1",
+    "value": "若自身ＨＰ低於２５％，且由自己發動攻擊時，\n若可進行追擊，則會在自己攻擊後立刻進行追擊"
+  },
+  {
+    "key": "MSID_H_攻め立て2",
+    "value": "若自身ＨＰ低於５０％，且由自己發動攻擊時，\n若可進行追擊，則會在自己攻擊後立刻進行追擊"
+  },
+  {
+    "key": "MSID_H_攻め立て3",
+    "value": "若自身ＨＰ低於７５％，且由自己發動攻擊時，\n若可進行追擊，則會在自己攻擊後立刻進行追擊"
+  },
+  {
+    "key": "MSID_H_差し違え1",
+    "value": "若自身ＨＰ低於３０％，且由自己發動攻擊時，\n若敵人可反擊，則必定可進行追擊"
+  },
+  {
+    "key": "MSID_H_差し違え2",
+    "value": "若自身ＨＰ低於４０％，且由自己發動攻擊時，\n若敵人可反擊，則必定可進行追擊"
+  },
+  {
+    "key": "MSID_H_差し違え3",
+    "value": "若自身ＨＰ低於５０％，且由自己發動攻擊時，\n若敵人可反擊，則必定可進行追擊"
+  },
+  {
+    "key": "MSID_H_切り返し1",
+    "value": "若自身ＨＰ高於９０％，\n受到敵人攻擊時，則必定可進行追擊"
+  },
+  {
+    "key": "MSID_H_切り返し2",
+    "value": "若自身ＨＰ高於８０％，\n受到敵人攻擊時，則必定可進行追擊"
+  },
+  {
+    "key": "MSID_H_切り返し3",
+    "value": "若自身ＨＰ高於７０％，\n受到敵人攻擊時，則必定可進行追擊"
+  },
+  {
+    "key": "MSID_H_守備隊形1",
+    "value": "若自身ＨＰ高於９０％，\n自己及敵人皆無法進行追擊"
+  },
+  {
+    "key": "MSID_H_守備隊形2",
+    "value": "若自身ＨＰ高於７０％，\n自己及敵人皆無法進行追擊"
+  },
+  {
+    "key": "MSID_H_守備隊形3",
+    "value": "若自身ＨＰ高於５０％，\n自己及敵人皆無法進行追擊"
+  },
+  {
+    "key": "MSID_H_蛇毒1",
+    "value": "由自己發動攻擊時，\n戰鬥後給予敵人４傷害"
+  },
+  {
+    "key": "MSID_H_蛇毒2",
+    "value": "由自己發動攻擊時，\n戰鬥後給予敵人７傷害"
+  },
+  {
+    "key": "MSID_H_蛇毒3",
+    "value": "由自己發動攻擊時，\n戰鬥後給予敵人１０傷害"
+  },
+  {
+    "key": "MSID_H_回復1",
+    "value": "每４回合１次，回合開始時回復１０ＨＰ"
+  },
+  {
+    "key": "MSID_H_回復2",
+    "value": "每３回合１次，回合開始時回復１０ＨＰ"
+  },
+  {
+    "key": "MSID_H_回復3",
+    "value": "奇數回合開始時，回復１０ＨＰ"
+  },
+  {
+    "key": "MSID_H_ご奉仕の喜び1",
+    "value": "使用杖回復我方時，\n自己也會回復其回復量的５０％"
+  },
+  {
+    "key": "MSID_H_ご奉仕の喜び2",
+    "value": "使用杖回復我方時，\n自己也會回復其回復量的７５％"
+  },
+  {
+    "key": "MSID_H_ご奉仕の喜び3",
+    "value": "使用杖回復我方時，\n自己也會回復其回復量的１００％"
+  },
+  {
+    "key": "MSID_H_攻撃封じ1",
+    "value": "戰鬥後，敵人的攻擊－３\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_攻撃封じ2",
+    "value": "戰鬥後，敵人的攻擊－５\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_攻撃封じ3",
+    "value": "戰鬥後，敵人的攻擊－７\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_速さ封じ1",
+    "value": "戰鬥後，敵人的速度－３\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_速さ封じ2",
+    "value": "戰鬥後，敵人的速度－５\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_速さ封じ3",
+    "value": "戰鬥後，敵人的速度－７\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_守備封じ1",
+    "value": "戰鬥後，敵人的防守－３\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_守備封じ2",
+    "value": "戰鬥後，敵人的防守－５\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_守備封じ3",
+    "value": "戰鬥後，敵人的防守－７\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_魔防封じ1",
+    "value": "戰鬥後，敵人的魔防－３\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_魔防封じ2",
+    "value": "戰鬥後，敵人的魔防－５\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_魔防封じ3",
+    "value": "戰鬥後，敵人的魔防－７\n（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_剣殺し1",
+    "value": "若敵人的武器類型為劍，且自身ＨＰ高於９０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_剣殺し2",
+    "value": "若敵人的武器類型為劍，且自身ＨＰ高於７０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_剣殺し3",
+    "value": "若敵人的武器類型為劍，且自身ＨＰ高於５０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_槍殺し1",
+    "value": "若敵人的武器類型為槍，且自身ＨＰ高於９０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_槍殺し2",
+    "value": "若敵人的武器類型為槍，且自身ＨＰ高於７０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_槍殺し3",
+    "value": "若敵人的武器類型為槍，且自身ＨＰ高於５０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_斧殺し1",
+    "value": "若敵人的武器類型為斧，且自身ＨＰ高於９０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_斧殺し2",
+    "value": "若敵人的武器類型為斧，且自身ＨＰ高於７０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_斧殺し3",
+    "value": "若敵人的武器類型為斧，且自身ＨＰ高於５０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_弓殺し1",
+    "value": "敵人的武器類型為無屬性弓，\n且自身ＨＰ高於９０％時，\n自己必定可進行追擊，敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_弓殺し2",
+    "value": "敵人的武器類型為無屬性弓，\n且自身ＨＰ高於７０％時，\n自己必定可進行追擊，敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_弓殺し3",
+    "value": "敵人的武器類型為無屬性弓，\n且自身ＨＰ高於５０％時，\n自己必定可進行追擊，敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_暗器殺し1",
+    "value": "若敵人的武器類型為無屬性暗器，\n且自身ＨＰ高於９０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_暗器殺し2",
+    "value": "若敵人的武器類型為無屬性暗器，\n且自身ＨＰ高於７０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_暗器殺し3",
+    "value": "若敵人的武器類型為無屬性暗器，\n且自身ＨＰ高於５０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_赤魔殺し1",
+    "value": "若敵人的武器類型為赤魔，且自身ＨＰ高於９０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_赤魔殺し2",
+    "value": "若敵人的武器類型為赤魔，且自身ＨＰ高於７０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_赤魔殺し3",
+    "value": "若敵人的武器類型為赤魔，且自身ＨＰ高於５０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_青魔殺し1",
+    "value": "若敵人的武器類型為青魔，且自身ＨＰ高於９０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_青魔殺し2",
+    "value": "若敵人的武器類型為青魔，且自身ＨＰ高於７０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_青魔殺し3",
+    "value": "若敵人的武器類型為青魔，且自身ＨＰ高於５０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_緑魔殺し1",
+    "value": "若敵人的武器類型為綠魔，且自身ＨＰ高於９０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_緑魔殺し2",
+    "value": "若敵人的武器類型為綠魔，且自身ＨＰ高於７０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_緑魔殺し3",
+    "value": "若敵人的武器類型為綠魔，且自身ＨＰ高於５０％時，\n自己必定可進行追擊，但敵方無法追擊"
+  },
+  {
+    "key": "MSID_H_生の息吹1",
+    "value": "由自己發動攻擊時，戰鬥後，\n恢復自己周圍１格的我方３ＨＰ"
+  },
+  {
+    "key": "MSID_H_生の息吹2",
+    "value": "由自己發動攻擊時，戰鬥後，\n恢復自己周圍１格的我方５ＨＰ"
+  },
+  {
+    "key": "MSID_H_生の息吹3",
+    "value": "由自己發動攻擊時，戰鬥後，\n恢復自己周圍１格的我方７ＨＰ"
+  },
+  {
+    "key": "MSID_H_死の吐息1",
+    "value": "由自己發動攻擊時，戰鬥後，\n給予對方周圍２格內的敵人３傷害"
+  },
+  {
+    "key": "MSID_H_死の吐息2",
+    "value": "由自己發動攻擊時，戰鬥後，\n給予對方周圍２格內的敵人５傷害"
+  },
+  {
+    "key": "MSID_H_死の吐息3",
+    "value": "由自己發動攻擊時，戰鬥後，\n給予對方周圍２格內的敵人７傷害"
+  },
+  {
+    "key": "MSID_H_攻撃の紋章1",
+    "value": "周圍１格內的我方，\n戰鬥中的攻擊＋２"
+  },
+  {
+    "key": "MSID_H_攻撃の紋章2",
+    "value": "周圍１格內的我方，\n戰鬥中的攻擊＋３"
+  },
+  {
+    "key": "MSID_H_攻撃の紋章3",
+    "value": "周圍１格內的我方，\n戰鬥中的攻擊＋４"
+  },
+  {
+    "key": "MSID_H_速さの紋章1",
+    "value": "周圍１格內的我方，\n戰鬥中的速度＋２"
+  },
+  {
+    "key": "MSID_H_速さの紋章2",
+    "value": "周圍１格內的我方，\n戰鬥中的速度＋３"
+  },
+  {
+    "key": "MSID_H_速さの紋章3",
+    "value": "周圍１格內的我方，\n戰鬥中的速度＋４"
+  },
+  {
+    "key": "MSID_H_守備の紋章1",
+    "value": "周圍１格內的我方，\n戰鬥中的防守＋２"
+  },
+  {
+    "key": "MSID_H_守備の紋章2",
+    "value": "周圍１格內的我方，\n戰鬥中的防守＋３"
+  },
+  {
+    "key": "MSID_H_守備の紋章3",
+    "value": "周圍１格內的我方，\n戰鬥中的防守＋４"
+  },
+  {
+    "key": "MSID_H_魔防の紋章1",
+    "value": "周圍１格內的我方，\n戰鬥中的魔防＋２"
+  },
+  {
+    "key": "MSID_H_魔防の紋章2",
+    "value": "周圍１格內的我方，\n戰鬥中的魔防＋３"
+  },
+  {
+    "key": "MSID_H_魔防の紋章3",
+    "value": "周圍１格內的我方，\n戰鬥中的魔防＋４"
+  },
+  {
+    "key": "MSID_H_重刃の紋章",
+    "value": "周圍２格內的我方重裝單位，\n戰鬥中的攻擊及速度＋４"
+  },
+  {
+    "key": "MSID_H_重盾の紋章",
+    "value": "周圍２格內的我方重裝單位，\n戰鬥中的防守及魔防＋４"
+  },
+  {
+    "key": "MSID_H_騎刃の紋章",
+    "value": "周圍２格內的我方騎馬單位，\n戰鬥中的攻擊及速度＋４"
+  },
+  {
+    "key": "MSID_H_騎盾の紋章",
+    "value": "周圍２格內的我方騎馬單位，\n戰鬥中的防守及魔防＋４"
+  },
+  {
+    "key": "MSID_H_飛刃の紋章",
+    "value": "周圍２格內的我方飛行單位，\n戰鬥中的攻擊及速度＋４"
+  },
+  {
+    "key": "MSID_H_飛盾の紋章",
+    "value": "周圍２格內的我方飛行單位，\n戰鬥中的防守及魔防＋４"
+  },
+  {
+    "key": "MSID_H_攻撃の鼓舞1",
+    "value": "回合開始時，周圍１格內我方的\n攻擊＋２（１回合）"
+  },
+  {
+    "key": "MSID_H_攻撃の鼓舞2",
+    "value": "回合開始時，周圍１格內我方的\n攻擊＋３（１回合）"
+  },
+  {
+    "key": "MSID_H_攻撃の鼓舞3",
+    "value": "回合開始時，周圍１格內我方的\n攻擊＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_速さの鼓舞1",
+    "value": "回合開始時，周圍１格內我方的\n速度＋２（１回合）"
+  },
+  {
+    "key": "MSID_H_速さの鼓舞2",
+    "value": "回合開始時，周圍１格內我方的\n速度＋３（１回合）"
+  },
+  {
+    "key": "MSID_H_速さの鼓舞3",
+    "value": "回合開始時，周圍１格內我方的\n速度＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_守備の鼓舞1",
+    "value": "回合開始時，周圍１格內我方的\n防守＋２（１回合）"
+  },
+  {
+    "key": "MSID_H_守備の鼓舞2",
+    "value": "回合開始時，周圍１格內我方的\n防守＋３（１回合）"
+  },
+  {
+    "key": "MSID_H_守備の鼓舞3",
+    "value": "回合開始時，周圍１格內我方的\n防守＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_魔防の鼓舞1",
+    "value": "回合開始時，周圍１格內我方的\n魔防＋２（１回合）"
+  },
+  {
+    "key": "MSID_H_魔防の鼓舞2",
+    "value": "回合開始時，周圍１格內我方的\n魔防＋３（１回合）"
+  },
+  {
+    "key": "MSID_H_魔防の鼓舞3",
+    "value": "回合開始時，周圍１格內我方的\n魔防＋４（１回合）"
+  },
+  {
+    "key": "MSID_H_重刃の鼓舞",
+    "value": "回合開始時，周圍１格內的我方重裝單位\n攻擊及速度＋６（１回合）"
+  },
+  {
+    "key": "MSID_H_重盾の鼓舞",
+    "value": "回合開始時，周圍１格內的我方重裝單位\n防守及魔防＋６（１回合）"
+  },
+  {
+    "key": "MSID_H_騎刃の鼓舞",
+    "value": "回合開始時，周圍１格內的我方騎馬單位\n攻擊及速度＋６（１回合）"
+  },
+  {
+    "key": "MSID_H_騎盾の鼓舞",
+    "value": "回合開始時，周圍１格內的我方騎馬單位\n防守及魔防＋６（１回合）"
+  },
+  {
+    "key": "MSID_H_飛刃の鼓舞",
+    "value": "回合開始時，周圍１格內的我方飛行單位\n攻擊及速度＋６（１回合）"
+  },
+  {
+    "key": "MSID_H_飛盾の鼓舞",
+    "value": "回合開始時，周圍１格內的我方飛行單位\n防守及魔防＋６（１回合）"
+  },
+  {
+    "key": "MSID_H_攻撃の威嚇1",
+    "value": "回合開始時，周圍２格內敵人的\n攻擊－３（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_攻撃の威嚇2",
+    "value": "回合開始時，周圍２格內敵人的\n攻擊－４（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_攻撃の威嚇3",
+    "value": "回合開始時，周圍２格內敵人的\n攻擊－５（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_速さの威嚇1",
+    "value": "回合開始時，周圍２格內敵人的\n速度－３（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_速さの威嚇2",
+    "value": "回合開始時，周圍２格內敵人的\n速度－４（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_速さの威嚇3",
+    "value": "回合開始時，周圍２格內敵人的\n速度－５（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_守備の威嚇1",
+    "value": "回合開始時，周圍２格內敵人的\n防守－３（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_守備の威嚇2",
+    "value": "回合開始時，周圍２格內敵人的\n防守－４（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_守備の威嚇3",
+    "value": "回合開始時，周圍２格內敵人的\n防守－５（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_魔防の威嚇1",
+    "value": "回合開始時，周圍２格內敵人的\n魔防－３（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_魔防の威嚇2",
+    "value": "回合開始時，周圍２格內敵人的\n魔防－４（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MSID_H_魔防の威嚇3",
+    "value": "回合開始時，周圍２格內敵人的\n魔防－５（直到敵人下次行動結束）"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0001",
+    "value": "序章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0002",
+    "value": "第１章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0003",
+    "value": "第２章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0004",
+    "value": "第３章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0005",
+    "value": "第４章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0006",
+    "value": "第５章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0007",
+    "value": "第６章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0008",
+    "value": "第７章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0009",
+    "value": "第８章"
+  },
+  {
+    "key": "MID_CHAPTER_TITLE_C0010",
+    "value": "第９章"
+  },
+  {
+    "key": "MID_CHAPTER_C0001",
+    "value": "至天世界"
+  },
+  {
+    "key": "MID_CHAPTER_C0002",
+    "value": "紋章世界"
+  },
+  {
+    "key": "MID_CHAPTER_C0003",
+    "value": "暗夜世界"
+  },
+  {
+    "key": "MID_CHAPTER_C0004",
+    "value": "封印世界"
+  },
+  {
+    "key": "MID_CHAPTER_C0005",
+    "value": "覺醒世界"
+  },
+  {
+    "key": "MID_CHAPTER_C0006",
+    "value": "紋章重現"
+  },
+  {
+    "key": "MID_CHAPTER_C0007",
+    "value": "白夜世界"
+  },
+  {
+    "key": "MID_CHAPTER_C0008",
+    "value": "烈火世界"
+  },
+  {
+    "key": "MID_CHAPTER_C0009",
+    "value": "覺醒重現"
+  },
+  {
+    "key": "MID_CHAPTER_C0010",
+    "value": "英雄侵攻"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0001",
+    "value": "破章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0002",
+    "value": "破章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0101",
+    "value": "序章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0102",
+    "value": "序章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0103",
+    "value": "序章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0201",
+    "value": "第１章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0202",
+    "value": "第１章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0203",
+    "value": "第１章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0204",
+    "value": "第１章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0205",
+    "value": "第１章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0301",
+    "value": "第２章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0302",
+    "value": "第２章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0303",
+    "value": "第２章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0304",
+    "value": "第２章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0305",
+    "value": "第２章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0401",
+    "value": "第３章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0402",
+    "value": "第３章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0403",
+    "value": "第３章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0404",
+    "value": "第３章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0405",
+    "value": "第３章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0501",
+    "value": "第４章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0502",
+    "value": "第４章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0503",
+    "value": "第４章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0504",
+    "value": "第４章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0505",
+    "value": "第４章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0601",
+    "value": "第５章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0602",
+    "value": "第５章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0603",
+    "value": "第５章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0604",
+    "value": "第５章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0605",
+    "value": "第５章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0701",
+    "value": "第６章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0702",
+    "value": "第６章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0703",
+    "value": "第６章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0704",
+    "value": "第６章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0705",
+    "value": "第６章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0801",
+    "value": "第７章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0802",
+    "value": "第７章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0803",
+    "value": "第７章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0804",
+    "value": "第７章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0805",
+    "value": "第７章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0901",
+    "value": "第８章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0902",
+    "value": "第８章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0903",
+    "value": "第８章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0904",
+    "value": "第８章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S0905",
+    "value": "第８章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1001",
+    "value": "第９章—第１節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1002",
+    "value": "第９章—第２節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1003",
+    "value": "第９章—第３節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1004",
+    "value": "第９章—第４節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_S1005",
+    "value": "第９章—第５節"
+  },
+  {
+    "key": "MID_STAGE_TITLE_DIFFICULTY0",
+    "value": "普通"
+  },
+  {
+    "key": "MID_STAGE_TITLE_DIFFICULTY1",
+    "value": "困難"
+  },
+  {
+    "key": "MID_STAGE_TITLE_DIFFICULTY2",
+    "value": "超難"
+  },
+  {
+    "key": "MID_STAGE_COMBINE",
+    "value": "$a$a0　$a1"
+  },
+  {
+    "key": "MID_STAGE_COMBINE_ARENA_DIFFICULTY",
+    "value": "$a$a0　$a1"
+  },
+  {
+    "key": "MID_STAGE_S0001",
+    "value": "吾將召喚汝前來"
+  },
+  {
+    "key": "MID_STAGE_S0002",
+    "value": "傳說有云"
+  },
+  {
+    "key": "MID_STAGE_S0101",
+    "value": "金翼王子"
+  },
+  {
+    "key": "MID_STAGE_S0102",
+    "value": "示汝之力"
+  },
+  {
+    "key": "MID_STAGE_S0103",
+    "value": "英雄相爭"
+  },
+  {
+    "key": "MID_STAGE_S0201",
+    "value": "紋章考驗"
+  },
+  {
+    "key": "MID_STAGE_S0202",
+    "value": "不屈猛者"
+  },
+  {
+    "key": "MID_STAGE_S0203",
+    "value": "光與風"
+  },
+  {
+    "key": "MID_STAGE_S0204",
+    "value": "赤綠雙騎"
+  },
+  {
+    "key": "MID_STAGE_S0205",
+    "value": "紋章王子"
+  },
+  {
+    "key": "MID_STAGE_S0301",
+    "value": "暗夜考驗"
+  },
+  {
+    "key": "MID_STAGE_S0302",
+    "value": "可愛的王妹"
+  },
+  {
+    "key": "MID_STAGE_S0303",
+    "value": "冷酷的王弟"
+  },
+  {
+    "key": "MID_STAGE_S0304",
+    "value": "妖豔的王姐"
+  },
+  {
+    "key": "MID_STAGE_S0305",
+    "value": "暗夜王子"
+  },
+  {
+    "key": "MID_STAGE_S0401",
+    "value": "封印考驗"
+  },
+  {
+    "key": "MID_STAGE_S0402",
+    "value": "高貴之人"
+  },
+  {
+    "key": "MID_STAGE_S0403",
+    "value": "盤踞沙漠之龍"
+  },
+  {
+    "key": "MID_STAGE_S0404",
+    "value": "古怪親子"
+  },
+  {
+    "key": "MID_STAGE_S0405",
+    "value": "封印勳爵"
+  },
+  {
+    "key": "MID_STAGE_S0501",
+    "value": "覺醒考驗"
+  },
+  {
+    "key": "MID_STAGE_S0502",
+    "value": "舞孃與劍客"
+  },
+  {
+    "key": "MID_STAGE_S0503",
+    "value": "包圍戰"
+  },
+  {
+    "key": "MID_STAGE_S0504",
+    "value": "堅強的村民"
+  },
+  {
+    "key": "MID_STAGE_S0505",
+    "value": "覺醒王子"
+  },
+  {
+    "key": "MID_STAGE_S0601",
+    "value": "紋章重現"
+  },
+  {
+    "key": "MID_STAGE_S0602",
+    "value": "要塞的公主"
+  },
+  {
+    "key": "MID_STAGE_S0603",
+    "value": "夾擊"
+  },
+  {
+    "key": "MID_STAGE_S0604",
+    "value": "三姊妹，飛舞空中"
+  },
+  {
+    "key": "MID_STAGE_S0605",
+    "value": "神龍公主"
+  },
+  {
+    "key": "MID_STAGE_S0701",
+    "value": "白夜考驗"
+  },
+  {
+    "key": "MID_STAGE_S0702",
+    "value": "彆扭的王弟"
+  },
+  {
+    "key": "MID_STAGE_S0703",
+    "value": "耿直的王姐"
+  },
+  {
+    "key": "MID_STAGE_S0704",
+    "value": "內向的王妹"
+  },
+  {
+    "key": "MID_STAGE_S0705",
+    "value": "白夜王子"
+  },
+  {
+    "key": "MID_STAGE_S0801",
+    "value": "烈火考驗"
+  },
+  {
+    "key": "MID_STAGE_S0802",
+    "value": "兩位勳爵"
+  },
+  {
+    "key": "MID_STAGE_S0803",
+    "value": "迷宮眩惑"
+  },
+  {
+    "key": "MID_STAGE_S0804",
+    "value": "守護者不動如山"
+  },
+  {
+    "key": "MID_STAGE_S0805",
+    "value": "烈火勳爵"
+  },
+  {
+    "key": "MID_STAGE_S0901",
+    "value": "潛伏暗處"
+  },
+  {
+    "key": "MID_STAGE_S0902",
+    "value": "溪谷臥龍"
+  },
+  {
+    "key": "MID_STAGE_S0903",
+    "value": "貴族式的迎擊"
+  },
+  {
+    "key": "MID_STAGE_S0904",
+    "value": "神龍歸來"
+  },
+  {
+    "key": "MID_STAGE_S0905",
+    "value": "知曉未來的公主"
+  },
+  {
+    "key": "MID_STAGE_S1001",
+    "value": "野心與忠義"
+  },
+  {
+    "key": "MID_STAGE_S1002",
+    "value": "王道與邪道"
+  },
+  {
+    "key": "MID_STAGE_S1003",
+    "value": "蒼鴉凝視"
+  },
+  {
+    "key": "MID_STAGE_S1004",
+    "value": "難攻不下"
+  },
+  {
+    "key": "MID_STAGE_S1005",
+    "value": "死之公主"
+  },
+  {
+    "key": "MID_STAGE_HONOR_T0003",
+    "value": "三龍將"
+  },
+  {
+    "key": "MID_STAGE_T0003",
+    "value": "拿榭恩"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0001",
+    "value": "迷糊女僕"
+  },
+  {
+    "key": "MID_STAGE_U0001",
+    "value": "菲利西亞"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0002",
+    "value": "僧侶"
+  },
+  {
+    "key": "MID_STAGE_U0002",
+    "value": "利夫"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0003",
+    "value": "害羞的"
+  },
+  {
+    "key": "MID_STAGE_U0003",
+    "value": "奧利薇"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0004",
+    "value": "碧綠騎士"
+  },
+  {
+    "key": "MID_STAGE_U0004",
+    "value": "索爾"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0005",
+    "value": "納巴塔的預言家"
+  },
+  {
+    "key": "MID_STAGE_U0005",
+    "value": "蘇菲亞"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0006",
+    "value": "貴族弓箭手"
+  },
+  {
+    "key": "MID_STAGE_U0006",
+    "value": "維沃爾"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0007",
+    "value": "野丫頭武士"
+  },
+  {
+    "key": "MID_STAGE_U0007",
+    "value": "風花"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0008",
+    "value": "完美主義"
+  },
+  {
+    "key": "MID_STAGE_U0008",
+    "value": "椿"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0009",
+    "value": "村民"
+  },
+  {
+    "key": "MID_STAGE_U0009",
+    "value": "多尼"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0010",
+    "value": "活蹦亂跳的修女"
+  },
+  {
+    "key": "MID_STAGE_U0010",
+    "value": "莉茲"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0011",
+    "value": "老邁騎士"
+  },
+  {
+    "key": "MID_STAGE_U0011",
+    "value": "君特"
+  },
+  {
+    "key": "MID_STAGE_HONOR_U0012",
+    "value": "王國之女"
+  },
+  {
+    "key": "MID_STAGE_U0012",
+    "value": "瑟西莉亞"
+  },
+  {
+    "key": "MID_STAGE_HONOR_V0001",
+    "value": "リリース記念"
+  },
+  {
+    "key": "MID_STAGE_V0001",
+    "value": "その１"
+  },
+  {
+    "key": "MID_STAGE_HONOR_V0002",
+    "value": "リリース記念"
+  },
+  {
+    "key": "MID_STAGE_V0002",
+    "value": "その２"
+  },
+  {
+    "key": "MID_STAGE_E0000",
+    "value": "起始層"
+  },
+  {
+    "key": "MID_STAGE_E0001",
+    "value": "第１層"
+  },
+  {
+    "key": "MID_STAGE_E0002",
+    "value": "第２層"
+  },
+  {
+    "key": "MID_STAGE_E0003",
+    "value": "第３層"
+  },
+  {
+    "key": "MID_STAGE_E0004",
+    "value": "第４層"
+  },
+  {
+    "key": "MID_STAGE_E0005",
+    "value": "第５層"
+  },
+  {
+    "key": "MID_STAGE_E0006",
+    "value": "第６層"
+  },
+  {
+    "key": "MID_STAGE_E0007",
+    "value": "第７層"
+  },
+  {
+    "key": "MID_STAGE_E0008",
+    "value": "第８層"
+  },
+  {
+    "key": "MID_STAGE_E0009",
+    "value": "第９層"
+  },
+  {
+    "key": "MID_STAGE_E0010",
+    "value": "第１０層"
+  },
+  {
+    "key": "MID_Summon_00_first_A",
+    "value": "ピックアップ　伝説の英雄編"
+  },
+  {
+    "key": "MID_Summon_00_first_B",
+    "value": "ピックアップ　秘めた想い編"
+  },
+  {
+    "key": "MID_TIPS_0001",
+    "value": "移動方式有４種：\n步行　重裝　飛行　騎馬。\n\n步行與重裝類似，\n但可移動的距離不同。"
+  },
+  {
+    "key": "MID_TIPS_0002",
+    "value": "移動方式「重裝」\n具有優異的防禦力。\n\n但只能移動１格。"
+  },
+  {
+    "key": "MID_TIPS_0003",
+    "value": "移動方式「飛行」\n可移動２格並飛越海洋或山岳。\n\n但弱點是弓。"
+  },
+  {
+    "key": "MID_TIPS_0004",
+    "value": "移動方式「騎馬」\n可移動３格。\n\n但不能穿過林地。"
+  },
+  {
+    "key": "MID_TIPS_0005",
+    "value": "使用「自動戰鬥」\n即可自動進行戰鬥。\n\n在會戰中打開左下角的選單，\n選擇「自動戰鬥」。"
+  },
+  {
+    "key": "MID_TIPS_0005_02",
+    "value": "使用「自動戰鬥」\n即可自動進行戰鬥。\n\n在會戰中按下\n「自動戰鬥」按鈕吧。"
+  },
+  {
+    "key": "MID_TIPS_0006",
+    "value": "戰鬥開始後，點選\n畫面下方的「變更配置」，\n即可更換夥伴的位置。\n\n在任一角色的行動結束前，\n均可重新替換、次數無限。"
+  },
+  {
+    "key": "MID_TIPS_0007",
+    "value": "達成任務後，\n可以獲得寶珠之類的道具。\n\n點選城堡右下方的噴水池，\n確認最新的任務吧。"
+  },
+  {
+    "key": "MID_TIPS_0008",
+    "value": "只要累積了ＳＰ，\n就學習技能、變得更強吧。\n\n「學習技能」在\n「夥伴」選單裡。"
+  },
+  {
+    "key": "MID_TIPS_0008_02",
+    "value": "只要累積了ＳＰ，\n就學習技能、變得更強吧。\n\n「學習技能」在「夥伴」選單的\n「強化夥伴」裡。"
+  },
+  {
+    "key": "MID_TIPS_0009",
+    "value": "可透過「繼承技能」\n來學會更多的技能。\n\n「繼承技能」在「夥伴」選單的\n「特別強化」裡。"
+  },
+  {
+    "key": "MID_TIPS_0009_02",
+    "value": "可透過「繼承技能」\n來學會更多的技能。\n\n「繼承技能」在「夥伴」選單的\n「強化夥伴」裡。"
+  },
+  {
+    "key": "MID_TIPS_0010",
+    "value": "透過「覺醒」讓夥伴變成★５吧。\n\n「覺醒」在「夥伴」選單的\n「特別強化」裡。"
+  },
+  {
+    "key": "MID_TIPS_0010_02",
+    "value": "透過「覺醒」讓夥伴變成★５吧。\n\n「覺醒」在「夥伴」選單的\n「強化夥伴」裡。"
+  },
+  {
+    "key": "MID_TIPS_0011",
+    "value": "「戰鬥動畫」\n是可以關閉的。\n\n在會戰中打開左下角的選單，\n並檢視「環境設定」吧。"
+  },
+  {
+    "key": "MID_TIPS_0012",
+    "value": "獲得菁英之城以後，\n會戰中可以獲得的經驗值會增加，\n城堡的裝潢也會變得更華麗。\n\n檢視「商店」選單吧。"
+  },
+  {
+    "key": "MID_TIPS_0013",
+    "value": "「編組」最左邊的部隊是代表部隊。\n也會在鬥技場中登場。\n\n代表部隊的最左邊是隊長。"
+  },
+  {
+    "key": "MID_TIPS_0014",
+    "value": "如果屬性相克佔優勢，傷害就會上升。\n傷害數字的字體也會變大。\n\n檢視會戰畫面右下角\n３個屬性的相克效果吧。"
+  },
+  {
+    "key": "MID_TIPS_0015",
+    "value": "點選夥伴後若敵人出現標記，要特別留意。\n檢視「克制」的效果吧。\n\n弓可「克制」飛行，效果卓越。\n還有一些武器具有特殊的「克制」效果，\n例如法爾西昂等等。"
+  },
+  {
+    "key": "MID_TIPS_0016",
+    "value": "若要轉移資料，\n必須與Nintendo Account連動。\n若在未連動的情況下刪除應用程式，\n儲存資料將無法恢復。\n請由「其他」＞「帳號管理」設定連動。"
+  },
+  {
+    "key": "MID_TIPS_0013_02",
+    "value": "修練の塔はレベルアップに最適だ。\n\nクリア済みのマップや闘技場より\n多くの経験値とSPが手に入る。"
+  },
+  {
+    "key": "MID_TIPS_0017",
+    "value": "「修練之塔」適合用來升級。\n按下？左方的更新鍵後，\n即可切換出現的敵人。\n先選擇對自己有利的屬性，\n再進行戰鬥吧。"
+  },
+  {
+    "key": "MID_TIPS_0018",
+    "value": "締結「支援」變得更強吧。\n\n只要擁有「支援」關係的夥伴在附近，\n單位的能力值會上升變得更強。\n\n「支援」在「夥伴」選單中的\n「特別強化」裡。"
+  },
+  {
+    "key": "MID_TIPS_0018_02",
+    "value": "締結「支援」變得更強吧。\n\n只要擁有「支援」關係的夥伴在附近，\n單位的能力值會上升變得更強。\n\n「支援」在「夥伴」選單中的\n「與夥伴的交流」裡。"
+  }
+]

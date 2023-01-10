@@ -1,0 +1,594 @@
+[
+  {
+    "key": "MID_ARENA_BONUS_VERSION",
+    "value": "版本\n(登場時期)"
+  },
+  {
+    "key": "MID_ARENA_BONUS_VERSION_HELP",
+    "value": "$a版本（登場時期）為$a0的所有角色\n為追加獎勵角色。"
+  },
+  {
+    "key": "MID_BOARD_GAME_HELP_DIALOG_14",
+    "value": "◆其他　「無法反擊」「已行動」◆\n在洛基的棋盤遊戲中，\n因我軍所受到之狀態而造成的\n「無法反擊」效果不會發動。\n\n此外，使我軍被視為已行動狀態的\n敵軍技能效果不會發動。"
+  },
+  {
+    "key": "MID_CONFIG_ANIME_AUTO",
+    "value": "自動戰鬥時的動畫"
+  },
+  {
+    "key": "MID_CONFIG_IDOL_SOURCE_USER_NAME",
+    "value": "顯示自己擁有之偶像的\n使用者名稱"
+  },
+  {
+    "key": "MID_CONFIG_KEEP",
+    "value": "維持原狀"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_TITLE",
+    "value": "以和異界的羈絆成為夥伴"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_WARNING",
+    "value": "突破極限、開花擅長、神裝、\n祝福、聖印、飾品都會消失。\n神龍之花會變為使之成為夥伴時的最大值。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_DIALOG_CONFIRM_TEXT",
+    "value": "$a是否要消費$a0\n使偶像成為夥伴？"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_DIALOG_CONFIRM_WARNING",
+    "value": "・突破極限、開花擅長、神裝、\n　祝福、聖印、飾品都會消失。\n・神龍之花會變為\n　使之成為夥伴時的最大值。\n・偶像無法設定為\n　繼承技能、突破極限時的消滅方。\n・偶像無法轉換為秘傳書。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_DIALOG_CONFIRM_DECIDE",
+    "value": "使之成為夥伴"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_DIALOG_SHORTAGE_WARNING",
+    "value": "$a$a0不足，\n無法使之成為夥伴。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_DIALOG_EXPIRED",
+    "value": "以和異界的羈絆成為夥伴的期間已結束。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_INFO_REMAINING_DAYS",
+    "value": "$a可使之成為夥伴的次數還剩$a1次　距離結束還有$a0天"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_INFO_REMAINING_HOURS",
+    "value": "$a可使之成為夥伴的次數還剩$a1次　距離結束還有$a0小時"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_INFO_REMAINING_MINUTES",
+    "value": "$a可使之成為夥伴的次數還剩$a1次　距離結束還有$a0分鐘"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_INFO_REACHED_LIMIT",
+    "value": "使之成為夥伴的次數已達上限"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_INFO_EXPIRED",
+    "value": "可使之成為夥伴的期間已結束"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_BUTTON_ENABLE",
+    "value": "使之成為夥伴"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_BUTTON_DISABLE",
+    "value": "此英雄無法成為夥伴"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_BUTTON_OUT_OF_VERSION_RANGE",
+    "value": "$a此為版本1～$a0以外的英雄"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_00",
+    "value": "◆在相連的羈絆使偶像成為夥伴◆\n在相連的羈絆舉辦期間或結束後，\n可以消費「和異界的羈絆」，\n使好友或其他玩家的英雄\n以偶像身分成為夥伴。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_01",
+    "value": "◆和異界的羈絆◆\n和異界的羈絆會在商店中販售。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_02",
+    "value": "◆可成為夥伴的英雄◆\n僅可讓版本「１」～「４」的英雄\n成為夥伴。\n\n自己派遣的英雄、\n阿爾馮斯、夏蓉、安娜\n無法成為夥伴。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_03",
+    "value": "◆偶像會獲得的事物◆\n偶像會以神龍之花的提升能力值次數\n達到當時極限的狀態下成為夥伴。\n（若極限為＋１５，則會達到＋１５）\n\n（與其他玩家原先\n　使用了幾次神龍之花無關）"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_04",
+    "value": "◆偶像會繼承的事物◆\n會繼承下列事物。\n\n・現在裝備中的技能\n・個性"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_05",
+    "value": "◆偶像不會繼承的事物◆\n下列的事物會消失。\n\n・突破極限\n・開花擅長、神裝\n・祝福、聖印、飾品"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_06",
+    "value": "◆偶像的限制◆\n・偶像無法設定為\n　繼承技能、突破極限時的消滅方。\n・偶像無法轉換為秘傳書。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_07",
+    "value": "◆偶像間的突破極限◆\n・突破極限時，\n　若消滅方及培育方皆為偶像，\n　可破例進行突破極限。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_HELP_DIALOG_08",
+    "value": "◆其他◆\n・★１～４的英雄會變成★５。\n・會以最高等級４０成為夥伴。\n\n・無法獲得祝福等，\n　與特定英雄有關聯的道具。"
+  },
+  {
+    "key": "MID_ITEM_BOND_TICKET",
+    "value": "和異界的羈絆"
+  },
+  {
+    "key": "MID_ITEM_HELP_BOND_TICKET",
+    "value": "在「以和異界的羈絆成為夥伴」中使用，\n能讓異界英雄以偶像身分成為夥伴的祕寶"
+  },
+  {
+    "key": "MID_SHOP_ORB_CAUTION2_WITH_BOND_TICKET",
+    "value": "$a・請注意，購買的寶珠及附贈的和異界的羈絆\n　無法用於$a0以外的作業系統。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_SCOUT_IDOLIZE_ICON_HELP",
+    "value": "於「讓英雄成為夥伴」中，\n能永遠成為夥伴的英雄"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_SCOUT_LOG_IDOLIZE",
+    "value": "讓英雄成為夥伴"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_REMAINING_DAYS",
+    "value": "$a讓英雄成為夥伴　距離結束還有$a0天"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_REMAINING_HOURS",
+    "value": "$a讓英雄成為夥伴　距離結束還有$a0小時"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_REMAINING_MINUTES",
+    "value": "$a讓英雄成為夥伴　距離結束還有$a0分鐘"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_BUY_BOND_TICKET",
+    "value": "購買和異界的羈絆禮包"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_PURCHASED_BOND_TICKET",
+    "value": "已購買"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_PURCHASE_NOTICE",
+    "value": "購買後，和異界的羈絆可於禮物盒中取得。"
+  },
+  {
+    "key": "MID_CONNECT_BONDS_IDOLIZE_REWARD",
+    "value": "讓英雄成為夥伴　開跑報酬"
+  },
+  {
+    "key": "MID_EXTRA_MOVIELIST_OPENING6_3",
+    "value": "第６部結束劇情"
+  },
+  {
+    "key": "MID_EXTRA_MOVIELIST_OPENING7",
+    "value": "第７部開頭影片"
+  },
+  {
+    "key": "MID_HOME_PRESENT_ELITE_CASTLE_V0700A",
+    "value": "為紀念第７部開始，\n已贈送城堡畫面特殊主題\n「光之王國之城」\n給各位玩家作為紀念！\n\n請確認本次贈送的新主題外觀。"
+  },
+  {
+    "key": "MID_HOME_PRESENT_ELITE_CASTLE_V0700A_DIALOG",
+    "value": "要將城堡畫面變更為確認中的主題\n「光之王國之城」嗎？"
+  },
+  {
+    "key": "MID_HOME_PRESENT_ELITE_CASTLE_V0700A_REVERT_AFTER",
+    "value": "於之後想變更時，\n請從「菁英之城」＞「變更主題」中，\n選擇「光之王國之城」進行變更。"
+  },
+  {
+    "key": "MID_HOME_PERSONAL_ANALYTICS_OPTIN_NOTIFICATION_MESSAGE_ANDROID",
+    "value": "基於為客戶提供個人化服務、\n發送廣告及分析當機資料等目的，\n「Fire Emblem Heroes」\n將蒐集客戶使用本應用程式時\n所使用之資料。\n\n要開始傳送使用資料嗎？\n\n※您必須重新啟動本應用程式，\n才能夠套用變更後的設定。\n\n※您可以隨時停止傳送使用資料。\n於「其他」的「客戶支援服務等」\n選擇「關於資料的使用」，\n便能以「停止傳送使用資料」來停止傳送。\n\n※如欲終止本應用程式以外的廣告發送服務，\n請變更您使用的裝置的設定。"
+  },
+  {
+    "key": "MID_HOME_PERSONAL_ANALYTICS_OPTIN_NOTIFICATION_MESSAGE_IOS",
+    "value": "基於為客戶提供個人化服務\n及分析當機資料等目的，\n「Fire Emblem Heroes」\n將蒐集客戶使用本應用程式時\n所使用之資料。\n\n要開始傳送使用資料嗎？\n\n※您必須重新啟動本應用程式，\n才能夠套用變更後的設定。\n\n※您可以隨時停止傳送使用資料。\n於「其他」的「客戶支援服務等」\n選擇「關於資料的使用」，\n便能以「停止傳送使用資料」來停止傳送。\n\n※如欲終止本應用程式以外的廣告發送服務，\n請變更您使用的裝置的設定。"
+  },
+  {
+    "key": "MID_HOME_PERSONAL_ANALYTICS_OPTIN_NOTIFICATION_DECIDE",
+    "value": "開始傳送使用資料"
+  },
+  {
+    "key": "MID_HOME_PERSONAL_ANALYTICS_OPTIN_NOTIFICATION_CANCEL",
+    "value": "關閉"
+  },
+  {
+    "key": "MID_HOME_SUMMON_TICKET_NAVIGATION_JUMP",
+    "value": "前往召喚"
+  },
+  {
+    "key": "MID_HOME_SUMMON_TICKET_NAVIGATION_MESSAGE",
+    "value": "有可召喚\n★４特別機會的英雄的召喚券。\n要移動至召喚嗎？"
+  },
+  {
+    "key": "MID_PORTRAIT_TITLE_202212",
+    "value": "甦醒的新星們"
+  },
+  {
+    "key": "MID_SHOP_ELITE_CASTLE_LV65542",
+    "value": "光之王國之城"
+  },
+  {
+    "key": "MID_SCF_光の女神の像",
+    "value": "光之女神像"
+  },
+  {
+    "key": "MID_SCF_光の女神の像_HELP",
+    "value": "飛空城特別活動的物品\n光之王國華納的光之女神像\n給人一種充滿希望的感覺"
+  },
+  {
+    "key": "MID_SCF_光の国の植物",
+    "value": "光之王國的植物"
+  },
+  {
+    "key": "MID_SCF_光の国の植物_HELP",
+    "value": "飛空城特別活動的物品\n生長在光之王國華納的植物\n外觀閃爍著獨特的光芒，能夠療癒人心"
+  },
+  {
+    "key": "MID_SCF_黄金の蛇の呪い",
+    "value": "黃金蛇的詛咒"
+  },
+  {
+    "key": "MID_SCF_黄金の蛇の呪い_HELP",
+    "value": "飛空城特別活動的物品\n蛇纏繞著金色結晶的雕像\n散發著神聖感，卻也能感受到詭異的氛圍"
+  },
+  {
+    "key": "MID_DISHES_ARRANGE_きのこ_1",
+    "value": "菇味濃郁的"
+  },
+  {
+    "key": "MID_DISHES_ARRANGE_きのこ_2",
+    "value": "低卡路里的"
+  },
+  {
+    "key": "MID_DISHES_ARRANGE_きのこ_3",
+    "value": "維他命滿滿的"
+  },
+  {
+    "key": "MID_DISHES_ARRANGE_いも_1",
+    "value": "讓人感受到大地的"
+  },
+  {
+    "key": "MID_DISHES_ARRANGE_いも_2",
+    "value": "能感受到甘藷甜味的"
+  },
+  {
+    "key": "MID_DISHES_ARRANGE_いも_3",
+    "value": "熱騰騰的"
+  },
+  {
+    "key": "MID_DISHES_フライドポテト",
+    "value": "薯條"
+  },
+  {
+    "key": "MID_DISHES_焼きキノコ",
+    "value": "烤香菇"
+  },
+  {
+    "key": "MID_DISHES_ポテトチップス",
+    "value": "薯片"
+  },
+  {
+    "key": "MID_DISHES_ポテトとキノコ炒め",
+    "value": "馬鈴薯炒鮮菇"
+  },
+  {
+    "key": "MID_DISHES_ポテトパン",
+    "value": "馬鈴薯麵包"
+  },
+  {
+    "key": "MID_DISHES_かぼちゃポテトサラダ",
+    "value": "南瓜馬鈴薯沙拉"
+  },
+  {
+    "key": "MID_DISHES_ポテトサラダ",
+    "value": "馬鈴薯沙拉"
+  },
+  {
+    "key": "MID_DISHES_フルーツポテトサラダ",
+    "value": "水果馬鈴薯沙拉"
+  },
+  {
+    "key": "MID_DISHES_ベーコンポテト",
+    "value": "培根馬鈴薯"
+  },
+  {
+    "key": "MID_DISHES_卵ポテトサラダ",
+    "value": "馬鈴薯蛋沙拉"
+  },
+  {
+    "key": "MID_DISHES_芋のトマト煮込み",
+    "value": "番茄燉馬鈴薯"
+  },
+  {
+    "key": "MID_DISHES_スパイシーポテト",
+    "value": "香辣馬鈴薯"
+  },
+  {
+    "key": "MID_DISHES_大盛りキノコ",
+    "value": "菇菇拼盤"
+  },
+  {
+    "key": "MID_DISHES_キノコパスタ",
+    "value": "鮮菇義大利麵"
+  },
+  {
+    "key": "MID_DISHES_秋の香りスープ",
+    "value": "秋季珍味湯品"
+  },
+  {
+    "key": "MID_DISHES_キノコの包み焼き",
+    "value": "紙包菇"
+  },
+  {
+    "key": "MID_DISHES_ベリーのキノコあえ",
+    "value": "莓果拌鮮菇"
+  },
+  {
+    "key": "MID_DISHES_キノコソースのステーキ",
+    "value": "牛排佐蘑菇醬"
+  },
+  {
+    "key": "MID_DISHES_キノコのオムレツ",
+    "value": "菇菇蛋包飯"
+  },
+  {
+    "key": "MID_DISHES_キノコとトマトのスープ",
+    "value": "鮮菇番茄湯"
+  },
+  {
+    "key": "MID_DISHES_キノコの香り焼き",
+    "value": "香烤鮮菇"
+  },
+  {
+    "key": "MID_DISHES_マッシュポテト",
+    "value": "馬鈴薯泥"
+  },
+  {
+    "key": "MID_DISHES_ポテトチップスキノコ味",
+    "value": "蕈菇風味薯片"
+  },
+  {
+    "key": "MID_DISHES_もちもちパン",
+    "value": "嚼勁十足的麵包"
+  },
+  {
+    "key": "MID_DISHES_ズッパ・グジボヴァ",
+    "value": "蘑菇濃湯"
+  },
+  {
+    "key": "MID_DISHES_きのこといもの肉巻",
+    "value": "鮮菇馬鈴薯肉捲"
+  },
+  {
+    "key": "MID_DISHES_ポテトパイ",
+    "value": "馬鈴薯派"
+  },
+  {
+    "key": "MID_DISHES_ピーテパルト",
+    "value": "馬鈴薯球"
+  },
+  {
+    "key": "MID_DISHES_ポテトパンケーキ",
+    "value": "馬鈴薯鬆餅"
+  },
+  {
+    "key": "MID_DISHES_トマトソースのニョッキ",
+    "value": "馬鈴薯餃佐番茄醬汁"
+  },
+  {
+    "key": "MID_DISHES_サモサ",
+    "value": "咖哩餃"
+  },
+  {
+    "key": "MID_DISHES_肉じゃが",
+    "value": "馬鈴薯燉肉"
+  },
+  {
+    "key": "MID_DISHES_野菜スープ",
+    "value": "蔬菜湯"
+  },
+  {
+    "key": "MID_DISHES_農夫の朝食",
+    "value": "農夫早餐"
+  },
+  {
+    "key": "MID_DISHES_アルーゴーシュト",
+    "value": "馬鈴薯燉羊肉"
+  },
+  {
+    "key": "MID_DISHES_山盛りキノコ",
+    "value": "大份量菇菇拼盤"
+  },
+  {
+    "key": "MID_DISHES_キノコたっぷりサラダ",
+    "value": "蕈菇滿載沙拉"
+  },
+  {
+    "key": "MID_DISHES_キノコのてんぷら",
+    "value": "蕈菇天婦羅"
+  },
+  {
+    "key": "MID_DISHES_収穫祭のスープ",
+    "value": "收穫祭湯品"
+  },
+  {
+    "key": "MID_DISHES_水炊き",
+    "value": "水炊鍋"
+  },
+  {
+    "key": "MID_DISHES_キノコ野菜炒め",
+    "value": "鮮菇炒蔬菜"
+  },
+  {
+    "key": "MID_DISHES_きのことトマトの卵炒め",
+    "value": "鮮菇番茄炒蛋"
+  },
+  {
+    "key": "MID_DISHES_キノコと卵の鉄板焼き",
+    "value": "鮮菇煎蛋鐵板燒"
+  },
+  {
+    "key": "MID_DISHES_きのこカレー",
+    "value": "菇菇咖哩"
+  },
+  {
+    "key": "MID_DISHES_ポテトのフルコース",
+    "value": "馬鈴薯全餐"
+  },
+  {
+    "key": "MID_DISHES_収穫祭のプレート",
+    "value": "收穫祭盤餐"
+  },
+  {
+    "key": "MID_DISHES_ミネストローネ",
+    "value": "雜菜湯"
+  },
+  {
+    "key": "MID_DISHES_ポテトコロッケ",
+    "value": "馬鈴薯可樂餅"
+  },
+  {
+    "key": "MID_DISHES_ポトフ",
+    "value": "燉菜鍋"
+  },
+  {
+    "key": "MID_DISHES_野菜カレー",
+    "value": "蔬菜咖哩"
+  },
+  {
+    "key": "MID_DISHES_田舎のカレー",
+    "value": "鄉村風咖哩"
+  },
+  {
+    "key": "MID_DISHES_クロップカーカ",
+    "value": "馬鈴薯餃"
+  },
+  {
+    "key": "MID_DISHES_夢盛りキノコ",
+    "value": "巨無霸菇菇拼盤"
+  },
+  {
+    "key": "MID_DISHES_ステーキの希少キノコ乗せ",
+    "value": "牛排佐稀有蕈菇"
+  },
+  {
+    "key": "MID_DISHES_きのこのフリカッセ",
+    "value": "白酒蘑菇燉雞"
+  },
+  {
+    "key": "MID_DISHES_きのこバーガー",
+    "value": "鮮菇漢堡"
+  },
+  {
+    "key": "MID_DISHES_キノコのピザ",
+    "value": "蕈菇披薩"
+  },
+  {
+    "key": "MID_DISHES_ハンバーグのキノコ乗せ",
+    "value": "漢堡排佐蕈菇"
+  },
+  {
+    "key": "MID_DISHES_きのこジャルフレージー",
+    "value": "辣炒鮮菇咖哩"
+  },
+  {
+    "key": "MID_DISHES_滋養強壮ドリンク＋",
+    "value": "能量飲料＋"
+  },
+  {
+    "key": "MID_DISHES_きのこのボルガノン焼き",
+    "value": "火山爆焰烤鮮菇"
+  },
+  {
+    "key": "MID_FOODS_きのこ",
+    "value": "蕈菇"
+  },
+  {
+    "key": "MID_FOODS_いも",
+    "value": "馬鈴薯"
+  },
+  {
+    "key": "MID_FOODS_きのこ_HELP",
+    "value": "低卡路里卻營養滿分！\n口感獨特，超級美味的食材"
+  },
+  {
+    "key": "MID_FOODS_いも_HELP",
+    "value": "可以燉煮、搗碎等，料理方式多變！\n和肉還有蔬菜也能完美搭配的食材"
+  },
+  {
+    "key": "MID_SCH_水浴びユンヌ",
+    "value": "戲水芸娜"
+  },
+  {
+    "key": "MID_SCH_水浴びユンヌ_HOLIDAYHELP",
+    "value": "可以浮在熱水上玩的泡澡小物"
+  },
+  {
+    "key": "MID_SCH_じんわり回復薬",
+    "value": "舒緩回復藥"
+  },
+  {
+    "key": "MID_SCH_じんわり回復薬_HOLIDAYHELP",
+    "value": "可以浮在熱水上玩的泡澡小物"
+  },
+  {
+    "key": "MID_SCH_入浴中の局長",
+    "value": "泡澡中的局長"
+  },
+  {
+    "key": "MID_SCH_入浴中の局長_HOLIDAYHELP",
+    "value": "可以浮在熱水上玩的泡澡小物"
+  },
+  {
+    "key": "MID_SCH_おやすみフェー",
+    "value": "晚安菲"
+  },
+  {
+    "key": "MID_SCH_おやすみフェー_HOLIDAYHELP",
+    "value": "於枕邊追加的布偶"
+  },
+  {
+    "key": "MID_SCH_すやすやベレト",
+    "value": "熟睡的貝雷特"
+  },
+  {
+    "key": "MID_SCH_すやすやベレト_HOLIDAYHELP",
+    "value": "於枕邊追加的布偶"
+  },
+  {
+    "key": "MID_SCH_ふわふわ神竜ファ",
+    "value": "軟綿綿的神龍法"
+  },
+  {
+    "key": "MID_SCH_ふわふわ神竜ファ_HOLIDAYHELP",
+    "value": "於枕邊追加的布偶"
+  },
+  {
+    "key": "MID_ITEM_SKYCASTLE_202212",
+    "value": "冬之飛空石"
+  },
+  {
+    "key": "MID_ITEM_HELP_SKYCASTLE_202212",
+    "value": "用於「飛空城」\n可以製造期間限定的設備\n期間一過，將會全數消失。"
+  },
+  {
+    "key": "MID_UNIT_EDIT_GENERAL_FILTER_HERO_KIND_4",
+    "value": "開花"
+  },
+  {
+    "key": "MID_UNIT_EDIT_GENERAL_FILTER_HERO_KIND_5",
+    "value": "魔器"
+  }
+]

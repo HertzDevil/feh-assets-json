@@ -1,0 +1,122 @@
+[
+  {
+    "key": "MID_ERROR_ERROR_CODE",
+    "value": "$a$a0-$a1"
+  },
+  {
+    "key": "MID_ERROR_SUPPORT_CODE",
+    "value": "$aサポートコード：$a0"
+  },
+  {
+    "key": "MID_ERROR_TRACE_CODE",
+    "value": "$a($a0)"
+  },
+  {
+    "key": "MID_ERROR_COMMON",
+    "value": "通信エラーが発生しました。"
+  },
+  {
+    "key": "MID_ERROR_SKS_ACCESS_DENIED",
+    "value": "$a現在メンテナンス中です。\n終了は下記の日時を予定しています。\n$a0"
+  },
+  {
+    "key": "MID_ERROR_SKS_SESSION_OVERWRITTEN",
+    "value": "他の端末によるプレイを検知しました。\nアプリを起動しなおしてください。"
+  },
+  {
+    "key": "MID_ERROR_SKS_WRONG_CLIENT_TIME",
+    "value": "端末の時刻が異常です。\n端末の時刻を修正後、\nアプリを起動しなおしてください。"
+  },
+  {
+    "key": "MID_ERROR_SKS_INSUFFICIENT_VIRTUAL_CURRENCY",
+    "value": "オーブが不足しています。"
+  },
+  {
+    "key": "MID_ERROR_SKS_PURCHASE_DEFERRED",
+    "value": "購入手続きは\n保護者の承認が必要です。"
+  },
+  {
+    "key": "MID_ERROR_SKS_PLAYER_DEACTIVATED",
+    "value": "「データ全削除」済みです。\nアプリを再インストールすることで\n最初から始めることができます。"
+  },
+  {
+    "key": "MID_ERROR_SKS_NETWORK_ERROR",
+    "value": "通信エラーが発生しました。\n通信環境をご確認ください。"
+  },
+  {
+    "key": "MID_ERROR_SKS_MEMORY_SHORTAGE",
+    "value": "メモリが不足しているため\nプレイを続行することができません。\nアプリを起動しなおしてください。"
+  },
+  {
+    "key": "MID_ERROR_SKS_CANCELLED",
+    "value": "キャンセルされました。"
+  },
+  {
+    "key": "MID_ERROR_SKS_INVALID_NA_TOKEN",
+    "value": "ニンテンドーアカウントの\nセッションの有効期限が切れました。\n認可手続きが必要です。"
+  },
+  {
+    "key": "MID_ERROR_SKS_NA_EULA_UPDATED",
+    "value": "ニンテンドーアカウントの\n利用規約が更新されました。\n同意手続きが必要です。"
+  },
+  {
+    "key": "MID_ERROR_SKS_INVALID_NA_USER",
+    "value": "本アプリと連携している\nニンテンドーアカウントが\n確認できないため、セーブデータを\nご利用いただくことができません。\nニンテンドーアカウントを\nご自身で削除された場合は、\nFAQをご覧ください。"
+  },
+  {
+    "key": "MID_ERROR_SKS_PLAYER_BANNED",
+    "value": "利用規約上の禁止行為に該当したため\nこのアカウントでは\nファイアーエムブレム ヒーローズを\nご利用いただけません。"
+  },
+  {
+    "key": "MID_ERROR_SKS_PLAYER_COMMUNITY_BANNED",
+    "value": "利用規約上の禁止行為に該当したため\nこのアカウントではコミュニティ機能を\nご利用いただけません。"
+  },
+  {
+    "key": "MID_ERROR_SKS_TARGET_PLAYER_COMMUNITY_BANNED",
+    "value": "このユーザーとはフレンドになれません。"
+  },
+  {
+    "key": "MID_ERROR_SKS_PURCHASE_PROHIBITED",
+    "value": "利用規約上の禁止行為に該当したため\nこのアカウントでは\nオーブ、神装英雄や偶像の\n購入ができません。"
+  },
+  {
+    "key": "MID_ERROR_SKS_UNKNOWN_PURCHASE_ERROR",
+    "value": "エラーが発生しました。\nエラーが解消しない場合は、\nストアアカウントの設定を\nご確認ください。"
+  },
+  {
+    "key": "MID_ERROR_SKS_GVG_INSUFFICIENT_VOTING_TICKET",
+    "value": "大戦の旗が不足しています。"
+  },
+  {
+    "key": "MID_ERROR_APP_MASTER_DATA_ERROR",
+    "value": "サーバーから\nデータを取得できませんでした。"
+  },
+  {
+    "key": "MID_ERROR_APP_INVENTORY_DATA_EXPIRATION",
+    "value": "既に受け取り済みか、受け取り期間外の\nアイテムが含まれているため\n受け取りに失敗しました。\nタイトルに戻って、やり直してください。"
+  },
+  {
+    "key": "MID_ERROR_WEBVIEW_OFFLINE",
+    "value": "オフラインでは利用することができません。"
+  },
+  {
+    "key": "MID_ERROR_NPF_MISMATCHED_NA_USER_MINUS_1",
+    "value": "入力されたニンテンドーアカウントでは\n認証できませんでした。\n\nこのアプリと連携している\nニンテンドーアカウントを\n入力してください。"
+  },
+  {
+    "key": "MID_ERROR_WEBVIEW_ERROR_MESSAGE",
+    "value": "$a$a0: $a1"
+  },
+  {
+    "key": "MID_ERROR_NPF_409_ALREADY_PURCHASED",
+    "value": "エラーが発生しました。\n商品を既に購入済みか、\n商品の購入処理が中断されている\n可能性があります。\n\n中断された購入処理は、\n購入処理の完了を実行することで\n解消されます。"
+  },
+  {
+    "key": "MID_ERROR_NPF_2000_IN_APP_PURCHASES_DISABLED",
+    "value": "アプリ内課金が無効な設定に\nなっています。\niOSの「設定」の「スクリーンタイム」の\n設定を確認してください。"
+  },
+  {
+    "key": "MID_ERROR_NPF_2400_UNPROCESSED_PURCHASES_EXIST",
+    "value": "エラーが発生しました。\n商品の購入処理が中断されている\n可能性があります。\n\n中断された購入処理は、\n購入処理の完了を実行することで\n解消されます。"
+  }
+]

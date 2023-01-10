@@ -1,0 +1,602 @@
+{
+  "image": "201912.png",
+  "area_count": 30,
+  "areas": [
+    {
+      "node_id": 1,
+      "x": 802,
+      "y": 327,
+      "is_base": true,
+      "army": 0,
+      "area_no": 2,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0551",
+      "neighbour_count": 2,
+      "neighbours": [
+        4,
+        7
+      ]
+    },
+    {
+      "node_id": 2,
+      "x": 837,
+      "y": 454,
+      "is_base": false,
+      "army": 0,
+      "area_no": 5,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0541",
+      "neighbour_count": 3,
+      "neighbours": [
+        4,
+        7,
+        26
+      ]
+    },
+    {
+      "node_id": 3,
+      "x": 695,
+      "y": 465,
+      "is_base": false,
+      "army": 0,
+      "area_no": 6,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0555",
+      "neighbour_count": 3,
+      "neighbours": [
+        30,
+        5,
+        23
+      ]
+    },
+    {
+      "node_id": 4,
+      "x": 584,
+      "y": 321,
+      "is_base": false,
+      "army": 0,
+      "area_no": 1,
+      "area_bonuses": [
+        "飛行能力強化",
+        "飛行先導"
+      ],
+      "adjacent_area_bonus": "飛行先導",
+      "map_id": "O0569",
+      "neighbour_count": 3,
+      "neighbours": [
+        1,
+        6,
+        2
+      ]
+    },
+    {
+      "node_id": 5,
+      "x": 551,
+      "y": 435,
+      "is_base": false,
+      "army": 0,
+      "area_no": 4,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0558",
+      "neighbour_count": 2,
+      "neighbours": [
+        6,
+        3
+      ]
+    },
+    {
+      "node_id": 6,
+      "x": 421,
+      "y": 474,
+      "is_base": false,
+      "army": 0,
+      "area_no": 8,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0549",
+      "neighbour_count": 3,
+      "neighbours": [
+        4,
+        22,
+        5
+      ]
+    },
+    {
+      "node_id": 7,
+      "x": 1172,
+      "y": 352,
+      "is_base": false,
+      "army": 0,
+      "area_no": 3,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0542",
+      "neighbour_count": 3,
+      "neighbours": [
+        1,
+        8,
+        2
+      ]
+    },
+    {
+      "node_id": 8,
+      "x": 1224,
+      "y": 467,
+      "is_base": false,
+      "army": 0,
+      "area_no": 7,
+      "area_bonuses": [
+        "飛行能力強化",
+        "飛行先導"
+      ],
+      "adjacent_area_bonus": "飛行先導",
+      "map_id": "O0561",
+      "neighbour_count": 3,
+      "neighbours": [
+        7,
+        14,
+        26
+      ]
+    },
+    {
+      "node_id": 9,
+      "x": 655,
+      "y": 1132,
+      "is_base": true,
+      "army": 1,
+      "area_no": 27,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0560",
+      "neighbour_count": 2,
+      "neighbours": [
+        10,
+        25
+      ]
+    },
+    {
+      "node_id": 10,
+      "x": 877,
+      "y": 1170,
+      "is_base": false,
+      "army": 1,
+      "area_no": 28,
+      "area_bonuses": [
+        "飛行能力強化",
+        "飛行先導"
+      ],
+      "adjacent_area_bonus": "飛行先導",
+      "map_id": "O0545",
+      "neighbour_count": 3,
+      "neighbours": [
+        9,
+        11,
+        25
+      ]
+    },
+    {
+      "node_id": 11,
+      "x": 851,
+      "y": 1048,
+      "is_base": false,
+      "army": 1,
+      "area_no": 26,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0553",
+      "neighbour_count": 3,
+      "neighbours": [
+        10,
+        16,
+        20
+      ]
+    },
+    {
+      "node_id": 12,
+      "x": 1187,
+      "y": 978,
+      "is_base": false,
+      "army": 2,
+      "area_no": 24,
+      "area_bonuses": [
+        "飛行能力強化",
+        "飛行先導"
+      ],
+      "adjacent_area_bonus": "飛行先導",
+      "map_id": "O0570",
+      "neighbour_count": 3,
+      "neighbours": [
+        13,
+        14,
+        28
+      ]
+    },
+    {
+      "node_id": 13,
+      "x": 1112,
+      "y": 877,
+      "is_base": true,
+      "army": 2,
+      "area_no": 20,
+      "area_bonuses": [
+        null,
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0554",
+      "neighbour_count": 2,
+      "neighbours": [
+        12,
+        27
+      ]
+    },
+    {
+      "node_id": 14,
+      "x": 1185,
+      "y": 747,
+      "is_base": false,
+      "army": 2,
+      "area_no": 15,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0559",
+      "neighbour_count": 3,
+      "neighbours": [
+        8,
+        12,
+        15
+      ]
+    },
+    {
+      "node_id": 15,
+      "x": 1040,
+      "y": 658,
+      "is_base": false,
+      "army": 2,
+      "area_no": 12,
+      "area_bonuses": [
+        "飛行能力強化",
+        "飛行先導"
+      ],
+      "adjacent_area_bonus": "飛行先導",
+      "map_id": "O0557",
+      "neighbour_count": 3,
+      "neighbours": [
+        14,
+        19,
+        26
+      ]
+    },
+    {
+      "node_id": 16,
+      "x": 854,
+      "y": 904,
+      "is_base": false,
+      "army": 2,
+      "area_no": 21,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0544",
+      "neighbour_count": 4,
+      "neighbours": [
+        11,
+        17,
+        28,
+        27
+      ]
+    },
+    {
+      "node_id": 17,
+      "x": 710,
+      "y": 865,
+      "is_base": false,
+      "army": 2,
+      "area_no": 18,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0567",
+      "neighbour_count": 3,
+      "neighbours": [
+        18,
+        20,
+        16
+      ]
+    },
+    {
+      "node_id": 18,
+      "x": 657,
+      "y": 728,
+      "is_base": false,
+      "army": 2,
+      "area_no": 14,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0562",
+      "neighbour_count": 2,
+      "neighbours": [
+        17,
+        19
+      ]
+    },
+    {
+      "node_id": 19,
+      "x": 805,
+      "y": 755,
+      "is_base": false,
+      "army": 2,
+      "area_no": 16,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0546",
+      "neighbour_count": 3,
+      "neighbours": [
+        15,
+        18,
+        27
+      ]
+    },
+    {
+      "node_id": 20,
+      "x": 614,
+      "y": 978,
+      "is_base": false,
+      "army": 1,
+      "area_no": 23,
+      "area_bonuses": [
+        "飛行能力強化",
+        "飛行先導"
+      ],
+      "adjacent_area_bonus": "飛行先導",
+      "map_id": "O0552",
+      "neighbour_count": 3,
+      "neighbours": [
+        11,
+        17,
+        29
+      ]
+    },
+    {
+      "node_id": 21,
+      "x": 460,
+      "y": 921,
+      "is_base": false,
+      "army": 1,
+      "area_no": 22,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0565",
+      "neighbour_count": 4,
+      "neighbours": [
+        22,
+        24,
+        29,
+        25
+      ]
+    },
+    {
+      "node_id": 22,
+      "x": 392,
+      "y": 715,
+      "is_base": false,
+      "army": 1,
+      "area_no": 13,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0547",
+      "neighbour_count": 3,
+      "neighbours": [
+        6,
+        21,
+        23
+      ]
+    },
+    {
+      "node_id": 23,
+      "x": 494,
+      "y": 595,
+      "is_base": false,
+      "army": 1,
+      "area_no": 11,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0566",
+      "neighbour_count": 3,
+      "neighbours": [
+        29,
+        22,
+        3
+      ]
+    },
+    {
+      "node_id": 24,
+      "x": 414,
+      "y": 1214,
+      "is_base": false,
+      "army": 1,
+      "area_no": 29,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0564",
+      "neighbour_count": 2,
+      "neighbours": [
+        25,
+        21
+      ]
+    },
+    {
+      "node_id": 25,
+      "x": 540,
+      "y": 1241,
+      "is_base": false,
+      "army": 1,
+      "area_no": 30,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0548",
+      "neighbour_count": 4,
+      "neighbours": [
+        10,
+        24,
+        9,
+        21
+      ]
+    },
+    {
+      "node_id": 26,
+      "x": 1060,
+      "y": 511,
+      "is_base": false,
+      "army": 0,
+      "area_no": 9,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0568",
+      "neighbour_count": 4,
+      "neighbours": [
+        8,
+        15,
+        30,
+        2
+      ]
+    },
+    {
+      "node_id": 27,
+      "x": 982,
+      "y": 870,
+      "is_base": false,
+      "army": 2,
+      "area_no": 19,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0550",
+      "neighbour_count": 3,
+      "neighbours": [
+        13,
+        16,
+        19
+      ]
+    },
+    {
+      "node_id": 28,
+      "x": 1024,
+      "y": 1008,
+      "is_base": false,
+      "army": 2,
+      "area_no": 25,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0563",
+      "neighbour_count": 2,
+      "neighbours": [
+        12,
+        16
+      ]
+    },
+    {
+      "node_id": 29,
+      "x": 528,
+      "y": 798,
+      "is_base": false,
+      "army": 1,
+      "area_no": 17,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0543",
+      "neighbour_count": 3,
+      "neighbours": [
+        20,
+        23,
+        21
+      ]
+    },
+    {
+      "node_id": 30,
+      "x": 822,
+      "y": 564,
+      "is_base": false,
+      "army": 0,
+      "area_no": 10,
+      "area_bonuses": [
+        "飛行能力強化",
+        null
+      ],
+      "adjacent_area_bonus": null,
+      "map_id": "O0556",
+      "neighbour_count": 2,
+      "neighbours": [
+        3,
+        26
+      ]
+    }
+  ]
+}

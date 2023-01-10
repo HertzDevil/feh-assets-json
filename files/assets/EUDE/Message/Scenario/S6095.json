@@ -1,0 +1,34 @@
+[
+  {
+    "key": "MID_SCENARIO_OPENING_BGM",
+    "value": "BGM_MNS_FE10_05"
+  },
+  {
+    "key": "MID_SCENARIO_OPENING_IMAGE",
+    "value": "EvBg_Chapter8_EmbraDark"
+  },
+  {
+    "key": "MID_SCENARIO_OPENING",
+    "value": "$WmMPID_アスク,ch00_42_Ask_M_Normal,Face|Folgt mir und ich öffne euch das Tor\nzu meinem Reich.$k$p$WmMPID_シャロン,ch00_02_Sharon_F_Normal,Face|Das Reich des heiligen Lord Askr...\nWas erwartet uns hier wohl?$k$p$WmMPID_アスク,ch00_42_Ask_M_Normal,Face_Smile|Seht es auch am besten einfach an.\nIch möchte euch die Überraschung\nnicht verderben.$k$pEs ist immerhin eine große Freude,\nein neues Reich zu betreten und es\nauf eigene Faust zu erkunden!$k$p$WmMPID_アルフォンス,ch00_01_Alfons_M_Normal,Face|Lord Askr... Ich muss Euch eine Frage\nstellen, die von immenser Wichtigkeit\nist.$k$pWie können wir Embla aufhalten?\nWas benötigen wir dafür?$k$p$WmMPID_アスク,ch00_42_Ask_M_Normal,Face|Ich habe natürlich Verständnis dafür,\ndass ihr schnellstmöglich Antworten\nauf diese Fragen finden möchtet.$k$pDoch bevor ihr mein Reich betreten\nhabt, werdet ihr sie nur schwer\nverstehen...$k$pIch werde euch jedoch erzählen,\nsoviel ich kann. Die Macht, nach der\nihr sucht, ist--$k$p...$k$p$WmMEID_ヴェロニカ,ch00_04_Veronica_F_Normal,Face|...Ist was? Die Zeit drängt.$k$pDie Macht, um Embla zu besiegen?\nSprecht weiter.$k$p$WmMPID_アスク,ch00_42_Ask_M_Normal,Face|...Richtig. Ihr müsst diese Macht\nfür euch gewinnen.$k$p$WmMEID_ヴェロニカ,ch00_04_Veronica_F_Normal,Face|Und wie? Erzählt es uns! Alfonse\nsagte, er möchte es wissen, also raus\nmit der Sprache!$k$p$WmMPID_アルフォンス,ch00_01_Alfons_M_Normal,Face|...Prinzessin Veronica?$k$p$Sbs3000|$EFace_Anger|Moment-- Ihr... Veronica ist nicht--\nWer genau seid Ihr?!$k$p$WmMEID_ヴェロニカ,ch00_04_Veronica_F_Normal,Face|...$k$p$WmMPID_アスク,ch00_42_Ask_M_Normal,Face_Normal2|Embla mag vielleicht Sterbliche als\nihre Marionetten benutzen, doch sie\nzu imitieren ist nicht ihre Stärke.$k$p$Sbs150|$EFace|Es ist immerhin auch nicht so einfach,\nnicht wahr, Embla?$k$p$SbpBGM_MNS_FE13_10,0|$WmMEID_ヴェロニカ洗脳,ch00_04_Veronica_F_Enemy2,Face_Smile|$c255,0,0,255|Hm-hm-hmh... Wenn du unbedingt\nwillst, dann mach es eben schwierig...$c255,255,255,255|$k$p"
+  },
+  {
+    "key": "MID_SCENARIO_MAP_BEGIN",
+    "value": "$WmMEID_ヴェロニカ洗脳,ch00_04_Veronica_F_Enemy2,Face|$c255,0,0,255|Was hast du vor, Askr?\nWas denkst du, kannst du tun?$c255,255,255,255|$k$p$WmMPID_アスク,ch00_42_Ask_M_Normal,Face|Ich sage es dir... wenn du schwörst,\ndiese Sterblichen in Frieden zu lassen\nund dich nicht mehr einzumischen.$k$p$WmMEID_ヴェロニカ洗脳,ch00_04_Veronica_F_Enemy2,Face_Anger|$c255,0,0,255|Du... Heuchler! Du bist so\nscheinheilig! Dein einziger Ausweg ist\nder Tod!$c255,255,255,255|$k$p$Sbs1000|"
+  },
+  {
+    "key": "MID_SCENARIO_MAP_END",
+    "value": "$SbpBGM_MNS_FE16_13,0|$WmMEID_ヴェロニカ洗脳,ch00_04_Veronica_F_Enemy2,Face_Pain|Argh...$k$p$c255,0,0,255|$EFace|In diesem Körper... steckt noch immer\netwas Kraft.$k$p$c255,0,0,255|Askr... Ich kann es spüren... Die Dun-\nkelheit ist in dein Wesen gesickert.\nDu wirst allmählich schwächer.$c255,255,255,255|$k$p$WmMPID_アスク,ch00_42_Ask_M_Normal,Face|...$k$p$WmMEID_ヴェロニカ洗脳,ch00_04_Veronica_F_Enemy2,Face|$c255,0,0,255|Du besitzt nicht einmal die nötige\nKraft, um mich aus dem Körper\ndieses Kindes herauszuholen.$k$p$c255,0,0,255|$EFace_Smile|Dir läuft die Zeit davon.$c255,255,255,255|$k$p$SspSE_SUMMON_STONE_FLASH|$Fo3000,255,255,255,255|$WmMPID_アスク,ch00_42_Ask_M_Normal,Face|$Fi3000|Das Tor ist offen.$k$p$WmMEID_ヴェロニカ洗脳,ch00_04_Veronica_F_Enemy2,Face|$c255,0,0,255|Hngh...$c255,255,255,255|$k$p$WmMPID_アスク,ch00_42_Ask_M_Normal,Face_Cool2|Los, hier entlang. Bevor uns Embla\ndurch das Tor folgen kann!$k$p$WmMPID_シャロン,ch00_02_Sharon_F_Normal,Face_Pain|A-aber was ist mit Prinzessin\nVeronica?$k$p$WmMPID_アシュ,ch00_39_Ash_F_Normal,Face_Pain|Ich würde es bevorzugen, mich\nin diesem Fall sensibel und\nrücksichtsvoll zu verhalten...$k$pUnd ich bereue es zutiefst, dies sagen\nzu müssen, doch Veronica ist nicht\nunsere Priorität, Prinzessin Sharena!$k$pDie Tatsache, d-- Wir müssen uns\nbeeilen!$k$p$WmMPID_ブルーノ皇子,ch00_05_Bruno_M_Plain,Face_Cool|Verzeih mir, Veronica... Ich werde\nzurückkommen. Ich verspreche es.$k$p$WmMPID_アルフォンス,ch00_01_Alfons_M_Normal,Face_Anger|Das werden wir alle, und zwar mit\nder heiligen Macht Askrs im Rücken!$k$p$Sbs150|"
+  },
+  {
+    "key": "MID_SCENARIO_ENDING_BGM",
+    "value": "BGM_EVENT_SERIOUS_10"
+  },
+  {
+    "key": "MID_SCENARIO_ENDING_IMAGE",
+    "value": "EvBg_Chapter8_EmbraDark"
+  },
+  {
+    "key": "MID_SCENARIO_ENDING",
+    "value": "$WmMEID_ヴェロニカ,ch00_04_Veronica_F_Normal,Face_Pain|Argh...$k$p$WmMPID_エンブラ,ch00_43_Embla_Normal,Face_Normal2|Hmpf... Diese Gebrechlichkeit.$k$pSo klein, so schwach... Ich kann Askr\nmit diesem Körper nicht töten...$k$p$EFace_Smile|Ich erwecke in dir die Macht meines\nBlutes, Kind...$k$pDas Blut in diesem Gefäß... erwache.$k$p$EFace_Cool|Und nun erhalte meine Macht!$k$p$SspSE_SUMMON_STONE_FLASH|$Fo2000,255,0,0,255|$WmMEID_ヴェロニカ,ch00_04_Veronica_F_Normal,Face_Pain|$Fi2000|Argh...$k$pAaaah...$k$pAAAARGH!$k$p$SspSE_SUMMON_STONE_FLASH|$Fo2000,255,0,0,255|$WmMEID_ヴェロニカ,ch00_04_Veronica2_F_Normal,Face_Pain2|$Fi2000|...$k$p$WmMPID_エンブラ,ch00_43_Embla_Normal,Face_Smile|Hm-hm-hmh... Es ist vollbracht.\nNun werde ich die Kontrolle über\ndeinen Körper übernehmen.$k$pAskr und die anderen werden durch\ndeine Hand sterben.$k$pOder ich könnte deine Freunde\nzwingen, dich zu töten... Das wäre\nein echtes Vergnügen...$k$p$EFace_Cool|Hm-hm-hmh... Hm-hm-hmh-ha-hah!$c255,255,255,255|$k$p$WmMEID_ヴェロニカ,ch00_04_Veronica2_F_Normal,Face_Cry|B-Bruder...$k$p$Sbs150|"
+  }
+]
