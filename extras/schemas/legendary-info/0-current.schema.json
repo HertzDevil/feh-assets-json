@@ -1,0 +1,40 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://hertzdevil.github.io/feh-assets-json/schemas/legendary-info/0-current#",
+	"description": "Extra properties for a Legendary / Mythic / Duo Hero.",
+	"type": "object",
+	"required": [
+		"duo_skill_id",
+		"bonus_effect",
+		"kind",
+		"element",
+		"bst",
+		"pair_up"
+	],
+	"properties": {
+		"duo_skill_id": {
+			"description": "Internal string identifier of the Hero's Duo skill.",
+			"type": ["string", "null"]
+		},
+		"bonus_effect": {
+			"description": "Bonus stats granted to blessed allies when this Legendary / Mythic effect is active.",
+			"$ref": "../stats-tuple/0-current#"
+		},
+		"kind": {
+			"description": "1 for Legendary / Mythic Heroes, 2 for Duo Heroes.",
+			"enum": [0, 1, 2]
+		},
+		"element": {
+			"description": "The active season of this Legendary / Mythic effect.",
+			"$ref": "../uint8/0-current#"
+		},
+		"bst": {
+			"description": "Stat total used by the Hero in modes like Arena.",
+			"$ref": "../uint8/0-current#"
+		},
+		"pair_up": {
+			"description": "Whether the Hero supports Pair Up outside Allegiance Battles.",
+			"type": "boolean"
+		}
+	}
+}
