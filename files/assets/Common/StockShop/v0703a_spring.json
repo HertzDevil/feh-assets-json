@@ -1,0 +1,550 @@
+[
+  {
+    "currency": "2023",
+    "currency2": "2023",
+    "avail": {
+      "start": null,
+      "finish": null,
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "targets": [
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 28,
+            "id_tag": "PID_ハタリチェイニー",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 104,
+        "cost": 400
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_開花セリカ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[0]",
+        "payload_size": 88,
+        "cost": 800
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_春祭マリア",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[1]",
+        "payload_size": 88,
+        "cost": 1200
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_春祭デューテ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[2]",
+        "payload_size": 88,
+        "cost": 1600
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 31,
+            "id_tag": "PID_開花フィヨルム味方",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[3]",
+        "payload_size": 104,
+        "cost": 2000
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_聖祭ユリア",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 400
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_アウグスト",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[5]",
+        "payload_size": 88,
+        "cost": 800
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 16,
+            "id_tag": "PID_ティニー",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[6]",
+        "payload_size": 88,
+        "cost": 1200
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 25,
+            "id_tag": "PID_開花イシュタル",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[7]",
+        "payload_size": 88,
+        "cost": 1600
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_開花マリータ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[8]",
+        "payload_size": 88,
+        "cost": 2000
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_花嫁セシリア",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 400
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_開花ヨシュア",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[10]",
+        "payload_size": 88,
+        "cost": 800
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_催眠ニニアン",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[11]",
+        "payload_size": 88,
+        "cost": 1200
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_開花イドゥン",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[12]",
+        "payload_size": 88,
+        "cost": 1600
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_炎部族リン",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[13]",
+        "payload_size": 88,
+        "cost": 2000
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_幼少イレース",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 400
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_ハタリニケ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[15]",
+        "payload_size": 88,
+        "cost": 800
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 16,
+            "id_tag": "PID_幼少ワユ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[16]",
+        "payload_size": 88,
+        "cost": 1200
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_忍者シノン",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[17]",
+        "payload_size": 88,
+        "cost": 1600
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 25,
+            "id_tag": "PID_炎部族ムスペル",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[18]",
+        "payload_size": 88,
+        "cost": 2000
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_忍者カムイ男",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 400
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_フラヴィア",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[20]",
+        "payload_size": 88,
+        "cost": 800
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 16,
+            "id_tag": "PID_闇リリス",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[21]",
+        "payload_size": 88,
+        "cost": 1200
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_愛の祭ルキナ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[22]",
+        "payload_size": 88,
+        "cost": 1600
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_総選挙クロム",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[23]",
+        "payload_size": 88,
+        "cost": 2000
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_冬祭マヌエラ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 400
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 25,
+            "id_tag": "PID_水着ディミトリ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[25]",
+        "payload_size": 88,
+        "cost": 800
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 13,
+            "id_tag": "PID_モニカ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[26]",
+        "payload_size": 88,
+        "cost": 1200
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 16,
+            "id_tag": "PID_シェズ男",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[27]",
+        "payload_size": 88,
+        "cost": 1600
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_総選挙ベレス",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": "$[0].targets[28]",
+        "payload_size": 88,
+        "cost": 2000
+      }
+    ],
+    "target_count": 30,
+    "is_permanent": true,
+    "part": 4
+  },
+  {
+    "currency": "202303",
+    "currency2": "202303",
+    "avail": {
+      "start": null,
+      "finish": "2023-04-28T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "targets": [
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 22,
+            "id_tag": "PID_春祭アズール",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 300
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 19,
+            "id_tag": "PID_フィオーラ",
+            "rarity": 5
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 300
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 25,
+            "id_tag": "PID_炎部族モゥディ",
+            "rarity": 4
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 100
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 10,
+            "id_tag": "PID_ギィ",
+            "rarity": 4
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 72,
+        "cost": 100
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 16,
+            "id_tag": "PID_レックス",
+            "rarity": 4
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 100
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 16,
+            "id_tag": "PID_エキドナ",
+            "rarity": 4
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 100
+      },
+      {
+        "reward": [
+          {
+            "kind": 32,
+            "_type": "combat_manual",
+            "len": 13,
+            "id_tag": "PID_エルク",
+            "rarity": 4
+          }
+        ],
+        "prerequisite": null,
+        "payload_size": 88,
+        "cost": 100
+      }
+    ],
+    "target_count": 7,
+    "is_permanent": false,
+    "part": 3
+  }
+]
