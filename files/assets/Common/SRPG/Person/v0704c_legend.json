@@ -1,0 +1,142 @@
+[
+  {
+    "id_tag": "PID_ネルトゥス味方",
+    "roman": "NERTHUS_GOD01",
+    "face_name": "ch00_50_Nerthus_Normal",
+    "face_name2": "ch00_50_Nerthus_Normal",
+    "legendary": {
+      "duo_skill_id": null,
+      "bonus_effect": {
+        "hp": 5,
+        "atk": 0,
+        "spd": 4,
+        "def": 0,
+        "res": 0
+      },
+      "kind": 1,
+      "element": 5,
+      "bst": 0,
+      "pair_up": false,
+      "ae_extra": true
+    },
+    "dragonflowers": {
+      "max_count": 5,
+      "costs": [
+        40,
+        80,
+        120,
+        160,
+        200
+      ]
+    },
+    "timestamp": null,
+    "id_num": 944,
+    "version_num": 704,
+    "sort_value": 701100,
+    "origins": 1,
+    "weapon_type": 21,
+    "tome_class": 0,
+    "move_type": 2,
+    "series": 0,
+    "random_pool": 0,
+    "permanent_hero": false,
+    "base_vector_id": 170,
+    "refresher": false,
+    "base_stats": {
+      "hp": 17,
+      "atk": 11,
+      "spd": 13,
+      "def": 3,
+      "res": 2
+    },
+    "growth_rates": {
+      "hp": 50,
+      "atk": 70,
+      "spd": 75,
+      "def": 60,
+      "res": 40
+    },
+    "skills": [
+      [
+        "SID_幼獣の化身・騎馬",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_若獣の化身・騎馬",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_攻撃速さの激突1",
+        null,
+        "SID_攻撃速さの奮起1",
+        null,
+        null
+      ],
+      [
+        "SID_若獣の化身・騎馬",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_成獣の化身・騎馬",
+        null,
+        "SID_星影",
+        "SID_攻撃速さの激突2",
+        null,
+        "SID_攻撃速さの奮起2",
+        null,
+        null
+      ],
+      [
+        "SID_成獣の化身・騎馬",
+        null,
+        "SID_星影",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_流星",
+        "SID_攻撃速さの激突3",
+        null,
+        "SID_攻撃速さの奮起3",
+        null,
+        null
+      ],
+      [
+        "SID_地の女神の角",
+        null,
+        "SID_星影",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_疾風迅雷",
+        "SID_攻撃速さの激突4",
+        "SID_地に生まれ地に還る",
+        "SID_攻撃速さの奮進4",
+        null,
+        null
+      ]
+    ]
+  }
+]
