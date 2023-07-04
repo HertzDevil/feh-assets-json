@@ -1287,6 +1287,149 @@
     "feh_pass_only": false
   },
   {
+    "id_tag": "DAILY_TUE_312",
+    "title": "DAILY_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "DAILY_TUE_312_A1",
+            "common_id": "DAILY_A1",
+            "times": 10,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 1000,
+                "great": false,
+                "shard_color": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_TUE_312_A2",
+            "common_id": "DAILY_A2",
+            "times": 20,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 1000,
+                "great": true,
+                "shard_color": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_TUE_312_A3",
+            "common_id": "DAILY_A3",
+            "times": 2,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 6,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 6,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 100
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 3
+      }
+    ],
+    "avail": {
+      "start": "2023-07-04T07:00:00Z",
+      "finish": "2023-07-05T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 5,
+    "id_num": 410,
+    "feh_pass_only": false
+  },
+  {
     "id_tag": "DAILY_FRI_302",
     "title": "DAILY_TITLE",
     "lists": [
@@ -1426,7 +1569,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 980,
+    "id_num": 981,
     "feh_pass_only": false
   },
   {
@@ -1569,7 +1712,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 981,
+    "id_num": 982,
     "feh_pass_only": false
   },
   {
@@ -1712,7 +1855,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 982,
+    "id_num": 983,
     "feh_pass_only": false
   },
   {
@@ -1855,7 +1998,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 983,
+    "id_num": 984,
     "feh_pass_only": false
   },
   {
@@ -1998,7 +2141,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 984,
+    "id_num": 985,
     "feh_pass_only": false
   },
   {
@@ -2141,7 +2284,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 985,
+    "id_num": 986,
     "feh_pass_only": false
   },
   {
@@ -2284,7 +2427,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 986,
+    "id_num": 987,
     "feh_pass_only": false
   },
   {
@@ -2427,7 +2570,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 987,
+    "id_num": 988,
     "feh_pass_only": false
   },
   {
@@ -2570,7 +2713,150 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 988,
+    "id_num": 989,
+    "feh_pass_only": false
+  },
+  {
+    "id_tag": "DAILY_FRI_311",
+    "title": "DAILY_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "DAILY_FRI_311_A1",
+            "common_id": "DAILY_A1",
+            "times": 10,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 1000,
+                "great": false,
+                "shard_color": 4
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_FRI_311_A2",
+            "common_id": "DAILY_A2",
+            "times": 20,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 1000,
+                "great": true,
+                "shard_color": 4
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_FRI_311_A3",
+            "common_id": "DAILY_A3",
+            "times": 2,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 6,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 6,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 100
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 3
+      }
+    ],
+    "avail": {
+      "start": "2023-06-30T07:00:00Z",
+      "finish": "2023-07-01T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 5,
+    "id_num": 990,
     "feh_pass_only": false
   },
   {
@@ -2709,7 +2995,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1291,
+    "id_num": 1293,
     "feh_pass_only": false
   },
   {
@@ -2848,7 +3134,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1292,
+    "id_num": 1294,
     "feh_pass_only": false
   },
   {
@@ -2987,7 +3273,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1293,
+    "id_num": 1295,
     "feh_pass_only": false
   },
   {
@@ -3126,7 +3412,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1294,
+    "id_num": 1296,
     "feh_pass_only": false
   },
   {
@@ -3265,7 +3551,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1295,
+    "id_num": 1297,
     "feh_pass_only": false
   },
   {
@@ -3404,7 +3690,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1296,
+    "id_num": 1298,
     "feh_pass_only": false
   },
   {
@@ -3543,7 +3829,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1297,
+    "id_num": 1299,
     "feh_pass_only": false
   },
   {
@@ -3682,7 +3968,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1298,
+    "id_num": 1300,
     "feh_pass_only": false
   },
   {
@@ -3821,7 +4107,146 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1299,
+    "id_num": 1301,
+    "feh_pass_only": false
+  },
+  {
+    "id_tag": "DAILY_SAT_311",
+    "title": "DAILY_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "DAILY_SAT_311_A1",
+            "common_id": "DAILY_A1",
+            "times": 10,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 4,
+                "_type": "dueling_crest",
+                "count": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_SAT_311_A2",
+            "common_id": "DAILY_A2",
+            "times": 20,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_SAT_311_A3",
+            "common_id": "DAILY_A3",
+            "times": 2,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 6,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 6,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 100
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 3
+      }
+    ],
+    "avail": {
+      "start": "2023-07-01T07:00:00Z",
+      "finish": "2023-07-02T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 5,
+    "id_num": 1302,
     "feh_pass_only": false
   },
   {
@@ -3960,7 +4385,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1602,
+    "id_num": 1605,
     "feh_pass_only": false
   },
   {
@@ -4099,7 +4524,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1603,
+    "id_num": 1606,
     "feh_pass_only": false
   },
   {
@@ -4238,7 +4663,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1604,
+    "id_num": 1607,
     "feh_pass_only": false
   },
   {
@@ -4377,7 +4802,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1605,
+    "id_num": 1608,
     "feh_pass_only": false
   },
   {
@@ -4516,7 +4941,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1606,
+    "id_num": 1609,
     "feh_pass_only": false
   },
   {
@@ -4655,7 +5080,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1607,
+    "id_num": 1610,
     "feh_pass_only": false
   },
   {
@@ -4794,7 +5219,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1608,
+    "id_num": 1611,
     "feh_pass_only": false
   },
   {
@@ -4933,7 +5358,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1609,
+    "id_num": 1612,
     "feh_pass_only": false
   },
   {
@@ -5072,7 +5497,146 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1610,
+    "id_num": 1613,
+    "feh_pass_only": false
+  },
+  {
+    "id_tag": "DAILY_SUN_311",
+    "title": "DAILY_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "DAILY_SUN_311_A1",
+            "common_id": "DAILY_A1",
+            "times": 10,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 3,
+                "_type": "stamina_potion",
+                "count": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_SUN_311_A2",
+            "common_id": "DAILY_A2",
+            "times": 20,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 0,
+                "_type": "orb",
+                "count": 1
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_SUN_311_A3",
+            "common_id": "DAILY_A3",
+            "times": 2,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 6,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 6,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 100
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 3
+      }
+    ],
+    "avail": {
+      "start": "2023-07-02T07:00:00Z",
+      "finish": "2023-07-03T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 5,
+    "id_num": 1614,
     "feh_pass_only": false
   },
   {
@@ -5215,7 +5779,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1913,
+    "id_num": 1917,
     "feh_pass_only": false
   },
   {
@@ -5358,7 +5922,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1914,
+    "id_num": 1918,
     "feh_pass_only": false
   },
   {
@@ -5501,7 +6065,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1915,
+    "id_num": 1919,
     "feh_pass_only": false
   },
   {
@@ -5644,7 +6208,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1916,
+    "id_num": 1920,
     "feh_pass_only": false
   },
   {
@@ -5787,7 +6351,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1917,
+    "id_num": 1921,
     "feh_pass_only": false
   },
   {
@@ -5930,7 +6494,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1918,
+    "id_num": 1922,
     "feh_pass_only": false
   },
   {
@@ -6073,7 +6637,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1919,
+    "id_num": 1923,
     "feh_pass_only": false
   },
   {
@@ -6216,7 +6780,7 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1920,
+    "id_num": 1924,
     "feh_pass_only": false
   },
   {
@@ -6359,7 +6923,150 @@
     },
     "difficulties": 1,
     "sort_id": 5,
-    "id_num": 1921,
+    "id_num": 1925,
+    "feh_pass_only": false
+  },
+  {
+    "id_tag": "DAILY_MON_311",
+    "title": "DAILY_TITLE",
+    "lists": [
+      {
+        "difficulty": null,
+        "quests": [
+          {
+            "quest_id": "DAILY_MON_311_A1",
+            "common_id": "DAILY_A1",
+            "times": 10,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 1000,
+                "great": false,
+                "shard_color": 0
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_MON_311_A2",
+            "common_id": "DAILY_A2",
+            "times": 20,
+            "trigger": 1,
+            "map_group": null,
+            "game_mode": 0,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 0,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 6,
+                "_type": "exp_resource",
+                "count": 1000,
+                "great": true,
+                "shard_color": 0
+              }
+            ],
+            "payload_size": 72
+          },
+          {
+            "quest_id": "DAILY_MON_311_A3",
+            "common_id": "DAILY_A3",
+            "times": 2,
+            "trigger": 2,
+            "map_group": null,
+            "game_mode": 6,
+            "difficulty": -1,
+            "max_allies": -1,
+            "survive": -1,
+            "game_mode2": 6,
+            "map_id": null,
+            "unit_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "foe_reqs": {
+              "hero_id": null,
+              "color": -1,
+              "wep_type": -1,
+              "mov_type": -1,
+              "lv": -1,
+              "blessing": 0,
+              "blessed": 0
+            },
+            "reward": [
+              {
+                "kind": 2,
+                "_type": "hero_feather",
+                "count": 100
+              }
+            ],
+            "payload_size": 72
+          }
+        ],
+        "quest_count": 3
+      }
+    ],
+    "avail": {
+      "start": "2023-07-03T07:00:00Z",
+      "finish": "2023-07-04T07:00:00Z",
+      "avail_sec": -1,
+      "cycle_sec": -1
+    },
+    "difficulties": 1,
+    "sort_id": 5,
+    "id_num": 1926,
     "feh_pass_only": false
   }
 ]
