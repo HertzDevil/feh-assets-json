@@ -1,0 +1,260 @@
+{
+  "highest_score": 81,
+  "field": {
+    "id": "X0862",
+    "width": 6,
+    "height": 8,
+    "base_terrain": -1,
+    "terrain": [
+      [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        6
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        6,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        6,
+        3,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 1,
+      "y": 0
+    },
+    {
+      "x": 2,
+      "y": 0
+    },
+    {
+      "x": 3,
+      "y": 0
+    },
+    {
+      "x": 4,
+      "y": 0
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_水着ドニ",
+      "skills": [
+        "SID_木の漁具",
+        "SID_相互援助",
+        null,
+        "SID_攻撃守備の密集1",
+        "SID_守備魔防の封印1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 5
+      },
+      "rarity": 3,
+      "lv": 7,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 19,
+        "atk": 9,
+        "spd": 7,
+        "def": 13,
+        "res": 8
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 7,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着サーリャ",
+      "skills": [
+        "SID_硝子の小鉢",
+        "SID_引き寄せ",
+        null,
+        null,
+        "SID_速さ魔防の遠影1",
+        "SID_攻撃速さの大開放1",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 7
+      },
+      "rarity": 3,
+      "lv": 7,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 9,
+        "spd": 17,
+        "def": 5,
+        "res": 4
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 7,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_水着アイビー",
+      "skills": [
+        "SID_喉潤す神竜の杯",
+        null,
+        null,
+        "SID_止水1",
+        "SID_魔防の混乱1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 7,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 9,
+        "spd": 5,
+        "def": 4,
+        "res": 14
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 7,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "EID_シスター",
+      "skills": [
+        "SID_ヤシの木の杖",
+        "SID_ライブ",
+        null,
+        "SID_止水1",
+        "SID_神罰の杖1",
+        null,
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 6
+      },
+      "rarity": 3,
+      "lv": 7,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 18,
+        "atk": 4,
+        "spd": 8,
+        "def": 7,
+        "res": 11
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 7,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
