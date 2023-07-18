@@ -1,0 +1,405 @@
+{
+  "highest_score": 239,
+  "field": {
+    "id": "PB200",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 3,
+    "terrain": [
+      [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      [
+        8,
+        0,
+        22,
+        0,
+        4,
+        3
+      ],
+      [
+        4,
+        22,
+        3,
+        0,
+        22,
+        3
+      ],
+      [
+        4,
+        0,
+        3,
+        3,
+        22,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        4,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        3,
+        0,
+        4,
+        4
+      ]
+    ]
+  },
+  "player_pos": [
+
+  ],
+  "units": [
+    {
+      "id_tag": "PID_リュール女",
+      "skills": [
+        "SID_リベラシオン",
+        null,
+        "SID_月光",
+        "SID_攻撃速さの万全4",
+        "SID_回避・一撃離脱4",
+        "SID_速さの紫煙4",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 43,
+        "spd": 46,
+        "def": 32,
+        "res": 26
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": false,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_リュール男",
+      "skills": [
+        "SID_リベラシオン",
+        null,
+        "SID_竜裂",
+        "SID_攻撃速さの万全4",
+        "SID_回避・叩き込み4",
+        "SID_緑への暗闘3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 44,
+        "spd": 45,
+        "def": 33,
+        "res": 25
+      },
+      "start_turn": -1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": false,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承マルス",
+      "skills": [
+        "SID_神剣ファルシオン_一",
+        null,
+        "SID_光炎の紋章",
+        "SID_攻撃速さの絆3",
+        "SID_封印の盾・承",
+        "SID_歩行の柔撃3",
+        "SID_強化増幅3"
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 34,
+        "spd": 36,
+        "def": 32,
+        "res": 21
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承シグルド",
+      "skills": [
+        "SID_神璽ティルフィング",
+        null,
+        "SID_グランベルの聖騎士",
+        "SID_攻撃守備の機先4",
+        "SID_聖騎士の加護",
+        "SID_不治の幻煙3",
+        "SID_守備魔防の封印2"
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 3,
+        "y": 3
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 41,
+        "atk": 41,
+        "spd": 23,
+        "def": 37,
+        "res": 26
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承ロイ",
+      "skills": [
+        "SID_魔竜封印の剣_一",
+        null,
+        "SID_竜穿",
+        "SID_強化増幅3",
+        "SID_回避・怒り3",
+        "SID_人の可能性を！・承",
+        "SID_鬼神の構え3"
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 39,
+        "atk": 34,
+        "spd": 38,
+        "def": 32,
+        "res": 26
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承セリカ",
+      "skills": [
+        "SID_天聖エンジェル_一",
+        null,
+        "SID_祈り",
+        "SID_鬼神飛燕の一撃3",
+        "SID_ソフィアの魂・承",
+        "SID_攻撃速さの脅嚇3",
+        "SID_蛇毒3"
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 2,
+        "y": 2
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 38,
+        "spd": 38,
+        "def": 18,
+        "res": 28
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承ミカヤ",
+      "skills": [
+        "SID_明日の光",
+        "SID_癒しの乙女",
+        null,
+        "SID_獅子奮迅4",
+        "SID_未来を知る力",
+        "SID_遠距離相互警戒",
+        "SID_キャンセル3"
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 1,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 38,
+        "atk": 42,
+        "spd": 31,
+        "def": 19,
+        "res": 41
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承リーフ",
+      "skills": [
+        "SID_マスターボウ_一",
+        null,
+        "SID_ノヴァの聖戦士・承",
+        "SID_攻撃魔防の渾身4",
+        "SID_Ｓドリンク",
+        "SID_攻撃の相互大紋章",
+        "SID_攻撃の開放3"
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 4
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 38,
+        "spd": 22,
+        "def": 29,
+        "res": 27
+      },
+      "start_turn": -1,
+      "movement_group": 1,
+      "movement_delay": -1,
+      "break_terrain": false,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 0,
+  "unit_count": 8,
+  "turns_to_win": 3,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
