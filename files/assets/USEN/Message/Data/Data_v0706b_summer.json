@@ -625,7 +625,7 @@
   },
   {
     "key": "MSID_H_差し違え4",
-    "value": "At start of combat, if unit's HP ≤ 99% and unit\ninitiates combat or if foe's HP = 100% and unit\ninitiates combat, inflicts Def/Res-4 on foe,\nreduces damage from foe's first attack by 30%,\nunit makes a guaranteed follow-up attack, and\nunit's next attack deals damage equal to total\ndamage reduced (resets at end of combat;\nonly highest value applied; does not stack)."
+    "value": "At start of combat, if unit's HP ≤ 99% and unit\ninitiates combat or if foe's HP = 100% and unit\ninitiates combat, inflicts Def/Res-4 on foe,\nreduces damage from foe's first attack by 30%,\nunit makes a guaranteed follow-up attack, and\nunit's next attack deals damage = 30% of foe's\nattack damage prior to reductions (resets at\nend of combat; only highest value applied;\ndoes not stack)."
   },
   {
     "key": "MSID_H_速さ守備の凪4",

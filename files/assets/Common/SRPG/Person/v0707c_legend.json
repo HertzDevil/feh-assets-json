@@ -1,0 +1,142 @@
+[
+  {
+    "id_tag": "PID_フロージ味方",
+    "roman": "FRODA_GOD01",
+    "face_name": "ch00_26_Froda_M_Normal",
+    "face_name2": "ch00_26_Froda_M_Normal",
+    "legendary": {
+      "duo_skill_id": null,
+      "bonus_effect": {
+        "hp": 5,
+        "atk": 3,
+        "spd": 0,
+        "def": 0,
+        "res": 0
+      },
+      "kind": 1,
+      "element": 8,
+      "bst": 0,
+      "pair_up": false,
+      "ae_extra": true
+    },
+    "dragonflowers": {
+      "max_count": 5,
+      "costs": [
+        40,
+        80,
+        120,
+        160,
+        200
+      ]
+    },
+    "timestamp": null,
+    "id_num": 980,
+    "version_num": 707,
+    "sort_value": 400600,
+    "origins": 1,
+    "weapon_type": 21,
+    "tome_class": 0,
+    "move_type": 2,
+    "series": 0,
+    "random_pool": 0,
+    "permanent_hero": false,
+    "base_vector_id": 2,
+    "refresher": false,
+    "base_stats": {
+      "hp": 16,
+      "atk": 15,
+      "spd": 2,
+      "def": 7,
+      "res": 6
+    },
+    "growth_rates": {
+      "hp": 55,
+      "atk": 70,
+      "spd": 30,
+      "def": 75,
+      "res": 65
+    },
+    "skills": [
+      [
+        "SID_幼獣の化身・騎馬",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_若獣の化身・騎馬",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_攻撃守備の激突1",
+        "SID_攻撃守備の凪1",
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_若獣の化身・騎馬",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_成獣の化身・騎馬",
+        null,
+        "SID_蛍火",
+        "SID_攻撃守備の激突2",
+        "SID_攻撃守備の凪2",
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_成獣の化身・騎馬",
+        null,
+        "SID_蛍火",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_華炎",
+        "SID_攻撃守備の激突3",
+        "SID_攻撃守備の凪3",
+        null,
+        null,
+        null
+      ],
+      [
+        "SID_夢の王の角",
+        null,
+        "SID_蛍火",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "SID_攻撃守備の激突4",
+        "SID_攻撃守備の凪4",
+        "SID_人に安らかな夢を",
+        null,
+        null
+      ]
+    ]
+  }
+]

@@ -625,7 +625,7 @@
   },
   {
     "key": "MSID_H_差し違え4",
-    "value": "No início do combate, se PV (uni.) ≤ 99% e a\nunidade inicia o combate ou PV (ini.) = 100% e\na unidade inicia o combate, inflige Def./Res. -4\nao inimigo, reduz dano do primeiro ataque do\ninimigo em 30%, a unidade faz um ataque duplo\ngarantido e o dano infligido pelo próximo ataque\nda unidade é igual ao dano total reduzido (o\nefeito é reiniciado ao final do combate; só o\nvalor mais alto se aplica; não cumulativo)."
+    "value": "No início do combate, se PV (uni.) ≤ 99% e a\nunidade inicia o combate ou PV (ini.) = 100% e\na unidade inicia o combate, inflige Def./Res. -4\nao inimigo, reduz dano do primeiro ataque do\ninimigo em 30%, a unidade faz um ataque duplo\ngarantido e o dano infligido pelo próximo ataque\nda unidade = 30% do dano de ataque do inimigo\nantes de ser reduzido (o efeito é reiniciado ao\nfinal do combate; só o valor mais alto se aplica;\nnão cumulativo)."
   },
   {
     "key": "MSID_H_速さ守備の凪4",
