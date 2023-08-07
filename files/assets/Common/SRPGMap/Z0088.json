@@ -1,0 +1,260 @@
+{
+  "highest_score": 236,
+  "field": {
+    "id": "Z0088",
+    "width": 6,
+    "height": 8,
+    "base_terrain": 4,
+    "terrain": [
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        16
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        15,
+        15
+      ],
+      [
+        15,
+        5,
+        19,
+        5,
+        22,
+        16
+      ],
+      [
+        22,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        15,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        15,
+        22,
+        15,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "player_pos": [
+    {
+      "x": 0,
+      "y": 1
+    },
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 1,
+      "y": 0
+    },
+    {
+      "x": 2,
+      "y": 0
+    }
+  ],
+  "units": [
+    {
+      "id_tag": "PID_比翼ダグ",
+      "skills": [
+        "SID_巨人姉妹の弓",
+        "SID_引き戻し",
+        "SID_月光",
+        "SID_攻撃速さの渾身4",
+        "SID_双姫の陽翼",
+        "SID_攻撃守備の牽制3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 41,
+        "spd": 42,
+        "def": 27,
+        "res": 22
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_開花イドゥン",
+      "skills": [
+        "SID_芽生えし心の竜石",
+        "SID_引き戻し",
+        "SID_緋炎",
+        "SID_鬼神金剛の構え3",
+        "SID_正面隊形・敵方3",
+        "SID_盾の護り手・近間3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 45,
+        "atk": 43,
+        "spd": 26,
+        "def": 43,
+        "res": 38
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_比翼クロム",
+      "skills": [
+        "SID_運命変える絆弓",
+        "SID_運命を変える！",
+        "SID_狙撃",
+        "SID_近反・攻撃の渾身",
+        null,
+        "SID_始まりの鼓動3",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 5,
+        "y": 7
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 44,
+        "spd": 27,
+        "def": 40,
+        "res": 26
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    },
+    {
+      "id_tag": "PID_伝承ベレス",
+      "skills": [
+        "SID_師の授けの書",
+        "SID_引き戻し",
+        "SID_破天",
+        "SID_攻撃速さの万全4",
+        "SID_速さ魔防の凪3",
+        "SID_女神を宿せし者",
+        null
+      ],
+      "accessory": null,
+      "pos": {
+        "x": 4,
+        "y": 6
+      },
+      "rarity": 5,
+      "lv": 40,
+      "cooldown_count": -1,
+      "max_cooldown_count": -1,
+      "stats": {
+        "hp": 40,
+        "atk": 39,
+        "spd": 43,
+        "def": 23,
+        "res": 26
+      },
+      "start_turn": 1,
+      "movement_group": -1,
+      "movement_delay": -1,
+      "break_terrain": true,
+      "tether": false,
+      "true_lv": 40,
+      "is_enemy": true,
+      "spawn_check": null,
+      "spawn_count": -1,
+      "spawn_turns": -1,
+      "spawn_target_remain": -1,
+      "spawn_target_kills": -1
+    }
+  ],
+  "player_count": 4,
+  "unit_count": 4,
+  "turns_to_win": 0,
+  "last_enemy_phase": false,
+  "turns_to_defend": 0
+}
