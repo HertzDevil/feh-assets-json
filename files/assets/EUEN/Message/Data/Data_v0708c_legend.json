@@ -593,7 +593,7 @@
   },
   {
     "key": "MSID_H_神竜の体術",
-    "value": "Accelerates Special trigger (cooldown count-1).\nUnit attacks twice (even if foe initiates combat,\nunit attacks twice). At start of combat, if unit's\nHP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit\nduring combat, inflicts Atk/Spd/Def/Res-X on\nfoe during combat (X = number of allies from\ndistinct titles within 3 spaces of unit × 3, + 4;\nmax 10), and reduces damage from\narea-of-effect Specials (excluding Røkkr\narea-of-effect Specials) and from foe's first\nattack during combat by 40% (\"first attack\"\nnormally means only the first strike; for\neffects that grant \"unit attacks twice,\" it means\nthe first and second strikes). If foe's Range = 2,\ncalculates damage using the lower of foe's Def\nor Res."
+    "value": "Accelerates Special trigger (cooldown count-1).\nUnit attacks twice (even if foe initiates combat,\nunit attacks twice). At start of combat, if unit's\nHP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit\nduring combat, inflicts Atk/Spd/Def/Res-X on\nfoe during combat (X = number of distinct\ngame titles among allies within 3 spaces of\nunit × 3, + 4; max 10), and reduces damage\nfrom area-of-effect Specials (excluding Røkkr\narea-of-effect Specials) and from foe's first\nattack during combat by 40% (\"first attack\"\nnormally means only the first strike; for\neffects that grant \"unit attacks twice,\" it means\nthe first and second strikes). If foe's Range = 2,\ncalculates damage using the lower of foe's Def\nor Res."
   },
   {
     "key": "MSID_H_絆・神竜破",
